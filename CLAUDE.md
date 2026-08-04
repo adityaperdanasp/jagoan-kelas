@@ -31,7 +31,7 @@ Sumber: `~/Documents/jagoan-kelas/design_handoff_kids_game_wireframe/` (`README.
 
 ### Beda sengaja dari BrainBox (dicatat biar transparan, bukan silent divergence)
 - **Firestore, bukan Realtime Database.** BrainBox pakai RTDB (`al-idrisi-games` project) terutama karena butuh sinkronisasi real-time buat multiplayer (Math Race, DinoRace race state). Jagoan Kelas belum ada kebutuhan multiplayer real-time — Firestore lebih pas buat model data per-dokumen (progress per pelajaran) dan udah kepasang duluan pas setup awal. **DinoRace beneran (2-player) belum di-porting justru karena butuh RTDB** buat live pairing (lihat bagian Games di bawah) — kalau itu dikerjain, project Firebase yang sama bisa ditambahin RTDB juga (satu project bisa punya keduanya).
-- Belum ada skema `badges`/`topicStats` kayak BrainBox (`players/{id}/badges/{gameId}/...`, `players/{id}/topicStats/{gameId}/{topicKey}/{correct,wrong,streak}`) — progress tracking (XP naik, topik jadi "selesai") **belum dibangun sama sekali**, `xp` di dokumen player masih statis 0 dari sign-up. Kalau mau ngerjain ini, ikutin bentuk BrainBox: `players/{id}/progress/{subjectId}/{grade}/{babKey}/{status, xp, stars}` (bukan flat kayak sekarang) biar konsisten sama pola nested-by-game(subject) BrainBox.
+- Skema progress (`players/{id}.progress.{subject}.{grade}.{babKey}`) **flat nested-map di 1 dokumen**, BUKAN subcollection kayak BrainBox punya `players/{id}/badges/{gameId}/...`/`topicStats/{gameId}/{topicKey}/...` (2 path terpisah). Digabung jadi satu struktur di sini karena scope-nya lebih kecil per topik (status+stars+xp+correct+wrong sekaligus, bukan 2 concern terpisah) — lihat bagian "Progress Tracking + Focus Round" di bawah buat detail lengkap.
 
 ## Konten soal (content-pipeline)
 
@@ -71,18 +71,32 @@ Pola disamain **persis** sama BrainBox `parents/index.html`/`script.js` (baca du
 
 - **Auth pakai PIN ANAK**, bukan PIN guru/dashboard terpisah — `signInAsChild()` di `authService.js` cuma alias ke `signIn()` yang sama dipakai anak login sendiri. Ini keputusan privacy yang sengaja: orang tua cuma bisa lihat data anaknya sendiri (butuh tau PIN anaknya), bukan semua murid. **Jangan pernah bikin 1 PIN admin buat semua data** — itu privacy bug persis yang dihindarin BrainBox.
 - **Route `/parents` TIDAK di-wrap `RequireAuth`** — beda sesi dari login player utama, biar orang tua gak harus login sebagai anak dulu di app utama.
-- **Yang jalan (real data)**: kirim pesan 1-arah (`players/{id}.parentMessage: {text, sentAt, read}`, nimpa pesan lama, bukan thread — sama kayak BrainBox), muncul sebagai popup `OverlayCard` di Landing anak pas dibuka lagi, ditandain `read:true` begitu di-dismiss.
-- **Yang BELUM jalan** (placeholder "🚧 Segera hadir" di `ParentPortal.jsx`, BUKAN data palsu):
-  - **"Fokus Minggu Ini"** (Assign) — BrainBox nya nyimpen ke `assignedTopics`, dibaca sama Focus Round MathVille (mode latihan campur-topik lintas subject). Jagoan Kelas gak punya mode Focus Round — kalau mau ngerjain ini, itu prasyaratnya.
-  - **"Perlu Latihan Lagi"** (Needs Practice / weak topics) — BrainBox ngitung dari `topicStats/{topic}/{correct,wrong}` (formula: `≥3 percobaan && akurasi<70%`, constants `MIN_ATTEMPTS`/`WEAK_ACCURACY` di `parents/script.js`). Progress tracking (lihat TODO #1) harus dibangun dulu sebelum ini bisa jalan beneran.
-  - **"Progress by Game/Subject"** — BrainBox breakdown XP per game. Kita cuma punya `player.xp` flat (bukan per-subject) — ditampilin apa adanya (total doang), breakdown per-subject nunggu progress tracking juga.
+- **Semua 3 section udah jalan pakai data asli** (per 2026-08-04, lihat bagian "Progress Tracking + Focus Round"):
+  - **"Kirim Pesan"** — 1-arah (`players/{id}.parentMessage: {text, sentAt, read}`, nimpa pesan lama, bukan thread), muncul sebagai popup `OverlayCard` di Landing anak pas dibuka lagi, ditandain `read:true` begitu di-dismiss.
+  - **"Fokus Minggu Ini"** (Assign) — `TopicPicker` (shared component, sama yang dipake `FocusRoundPicker`) nulis ke `players/{id}.assignedTopics` (array topicId `subject:grade:babKey`, max 8). Anak liat ini pre-checked pas buka `/fokus` sendiri.
+  - **"Perlu Latihan Lagi"** (Needs Practice) — `computeWeakTopics()` di `progressService.js`, formula SAMA PERSIS BrainBox (`≥3 percobaan && akurasi<70%`, constants `MIN_ATTEMPTS`/`WEAK_ACCURACY`), baca dari `progress` map yang sama dipake locked/current/done. Title di-resolve dari `loadAllFocusTopics()` (gak didenormalisasi ke Firestore).
+  - **Belum ada** (minor, bukan blocker): breakdown XP per subject di header portal — masih total doang (`player.xp` flat), sama kayak yang dicatat di TODO.
 - Entry point: link kecil "Untuk orang tua →" di footer Landing (`Landing.jsx`), sengaja gak menonjol — sama alasan BrainBox: biar anak gak notice/ke-klik gak sengaja.
 
-## Data loading di app
+## Progress Tracking + Quiz Engine + Focus Round (selesai 2026-08-04)
 
-`src/data/contentLoader.js` — lazy-load per kelas pakai `import.meta.glob` (Vite code-split otomatis, gak bundle 42 kombinasi sekaligus). `hasContent(subjectId)` cuma `true` buat `matematika`/`ipas`/`ppkn` — subjek lain nampilin fallback "Materi lagi disiapin" di `SubjectDetail.jsx`, bukan error/crash.
+Fondasi ini bikin app-nya "berfungsi" beneran (gak cuma nampilin daftar topik doang) — anak beneran ngerjain soal, progress kesimpen, XP naik, bab kebuka satu-satu.
 
-Status topik (locked/current/done) masih **hardcoded default** (bab pertama = current, sisanya locked, gak ada yang done) — belum nyambung ke progress asli per player, karena skema progress belum dibangun (lihat bagian Auth di atas).
+**Schema** — `players/{id}.progress.{subject}.{grade}.{babKey} = {status, stars, xp, correct, wrong, lastAt}` (`progressService.js`). `status` CUMA pernah ditulis `"done"` — locked/current dihitung ULANG tiap baca (`computeStatuses()`: bab pertama yang belum `done` = `"current"`, sisanya `"locked"`), jadi gak ada 2 sumber kebenaran yang bisa out-of-sync kayak kalau "unlock next" ditulis eksplisit pas save.
+
+- **`games/quiz/QuizRunner.jsx`** — komponen quiz reusable, dipake DUA jalur (practice per-topik normal DAN Focus Round). 1 soal/layar, handle `multiple_choice` (tombol) & `short_answer` (input teks, `normalizeAnswer.js` buat trim+lowercase compare). `onFinish({correct,wrong,total,results})` — `results` = `[{id,correct}]` per soal (pake `useRef`, bukan state, biar gak kena race batching pas dibaca tepat di titik finish), dipake FocusRoundQuiz buat atribusi correct/wrong balik ke topik asal soal.
+- **`screens/TopicQuiz.jsx`** (`/kelas/:grade/:subject/topik/:babKey`) — practice normal, sample 8 soal acak dari `bab.soal`, `+10 XP`/jawaban benar, `recordTopicResult()` nulis `status:"done"` (INI yang bikin bab berikutnya kebuka).
+- **`screens/FocusRoundPicker.jsx`** (`/fokus`) + **`FocusRoundQuiz.jsx`** (`/fokus/main`) — anak pilih max 8 topik lintas SEMUA subject+kelas (`loadAllFocusTopics()` di `focusTopics.js`, load semua 18 kombinasi subject×grade yang ada konten), pre-checked dari `assignedTopics` (yang di-set orang tua). Quiz-nya campur 3 soal/topik terpilih, `recordFocusRoundAttempt()` nulis correct/wrong+xp per topik TAPI **sengaja gak nyentuh `status`** (Focus Round nyumbang ke akurasi/weak-topic-calc doang, gak ganggu urutan locked/unlocked linear SubjectDetail) — sama filosofi kayak BrainBox misahin chapter-progress dari topicStats.
+- **`components/TopicPicker.jsx`** — checklist topik shared, dipake `FocusRoundPicker` DAN `ParentPortal` (Assign section) biar UI-nya konsisten.
+- Entry point Focus Round: tombol "🎯 Fokus Latihan" di Landing, di bawah "Ayo Main!".
+
+`SubjectDetail.jsx` sekarang baca progress ASLI (`getSubjectProgress` + `computeStatuses`), bukan hardcoded lagi — topik current/done bisa diklik → `TopicQuiz`, "Lanjut Belajar" langsung lompat ke topik current.
+
+`contentLoader.js` — `loadRawTopics()` (ganti nama dari `loadTopics` lama) sekarang include SOAL PENUH per bab (dibutuhin quiz), bukan cuma metadata. Masih lazy-load per kelas pakai `import.meta.glob`. `hasContent(subjectId)` cuma `true` buat `matematika`/`ipas`/`ppkn`.
+
+**Verified end-to-end** (browser, bukan cuma baca kode): selesain quiz bab-1 Matematika kelas 4 → bab-1 jadi "Selesai", bab-2 kebuka, XP naik — dicek ulang abis reload (baca Firestore fresh, bukan state lokal doang). Focus Round 3-topik → round 9 soal campur → tulis ke 3 topik terpisah → muncul bener di "Perlu Latihan Lagi" Parent Portal. Assign topik dari Parent Portal → muncul pre-checked di picker anak.
+
+**Minor gap yang tersisa** (bukan blocker, tapi nyatet aja): `stars` dihitung dari akurasi single-round doang (≥90%→3, ≥70%→2, ≥40%→1), gak ada logic "coba lagi buat naikin bintang" di UI; XP breakdown per-subject belum ada (masih `player.xp` flat total).
 
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
@@ -91,26 +105,13 @@ Status topik (locked/current/done) masih **hardcoded default** (bab pertama = cu
 - Testing di real device krusial buat bug yang gak muncul di desktop — belum pernah dites di device asli sama sekali buat project ini (masih full browser-pane testing).
 - **Aksi yang butuh login interaktif (GitHub OAuth, Firebase Console) gak bisa diwakilin** — kasih instruksi jelas step-by-step, user yang jalanin sendiri, baru lanjut.
 
-## Sedang dikerjain sekarang: Progress Tracking + Focus Round
-
-Fokus kerjaan berikutnya (per keputusan 2026-08-04) — bangun fondasi progress tracking (TODO #1) buat ngidupin 2 section Parent Portal yang masih placeholder:
-- **"Perlu Latihan Lagi"** butuh `topicStats` (correct/wrong per topik) beneran dicatat dari quiz yang dijawab anak.
-- **"Fokus Minggu Ini"** butuh mode latihan campur-topik (equivalent Focus Round BrainBox) + Assign picker di Parent Portal yang nulis ke `assignedTopics`.
-
-Rencana implementasi:
-1. Quiz engine reusable (`src/games/quiz/`) yang bisa jalanin soal dari `bab.soal` (matematika/ipas/ppkn) — baik buat practice per-topik normal maupun Focus Round.
-2. Schema `players/{id}.progress.{subject}.{grade}.{babKey} = {status, stars, xp, correct, wrong, lastAt}` — satu sumber data buat locked/current/done DAN buat weak-topic calc, ngikutin pola BrainBox (chapter progress + topicStats reuse jalur yang sama).
-3. `SubjectDetail.jsx` disambungin ke progress asli (bukan hardcoded lagi), topik current/done bisa diklik → quiz beneran.
-4. Focus Round: picker topik (max 8, lintas subject+kelas) + entry point + quiz gabungan, tulis ke `progress` yang sama tapi gak ngubah status locked/unlocked (sama kayak BrainBox: Focus Round nyumbang ke topicStats, gak nyentuh chapter-progress linear).
-5. Parent Portal "Fokus Minggu Ini" & "Perlu Latihan Lagi" disambungin ke data asli.
-
 ## Yang masih perlu ditindaklanjuti
-1. **Progress tracking belum ada** — XP statis 0, status topik hardcoded, gak ada tulis-balik ke Firestore pas anak nyelesein topik. Ini gap paling besar buat bikin app-nya "berfungsi" beneran.
-2. **Konten IPS/PAI/B.Indo/B.Inggris belum ada sama sekali** — 4 dari 6 mata pelajaran masih fallback "coming soon". PAI butuh review ustadz sebelum ada apapun yang di-generate.
-3. **80 soal IPAS (`belum_terpetakan`) + 341 soal Matematika (`belum_terpetakan`)** nunggu review manual user, termasuk keputusan soal kelas 6 Matematika yang cuma 4 bab resmi (perlu dikonfirmasi apa itu bener struktur buku yang dipakai).
-4. **1 akun test nyangkut di Firestore production** (`players/azka-test`, PIN 1234, dari sesi testing auth) — aman dihapus manual kapan aja.
-5. **Hero illustration di Landing masih placeholder emoji** (🎒✨) — README wireframe nyebut ini "open image slot", butuh aset ilustrasi asli anak-anak belajar.
-6. **Drive Mode & Plane Mode masih v1/core-engine** — lihat daftar "BELUM ada" di bagian Games di atas (nitro, water gun, power-up, boss, dst). **DinoRace beneran (2-player racing) belum di-porting** — cuma unlock mechanism-nya yang jadi; butuh Firebase RTDB + race track UI, scope besar terpisah.
-7. **Firebase Authentication belum diaktifin di console** (cuma Firestore) — belum masalah karena auth sistem sendiri (name+PIN) gak pakai Firebase Auth SDK, tapi kalau nanti butuh Google Sign-In/dst buat orang tua, perlu diaktifin.
-8. **Belum ada dual-deploy pattern** kayak BrainBox (standalone domain per produk) — wajar karena masih 1 domain (`jagoan-kelas.vercel.app`), belum relevan sampai ada kebutuhan domain kustom.
-9. **Parent Portal (`/parents`) baru "Kirim Pesan" doang yang jalan** — "Fokus Minggu Ini" & "Perlu Latihan Lagi" masih placeholder, nunggu progress tracking (poin 1) dan/atau fitur Focus Round-equivalent dibangun dulu (lihat bagian Parent Portal buat detail).
+1. **Konten IPS/PAI/B.Indo/B.Inggris belum ada sama sekali** — 4 dari 6 mata pelajaran masih fallback "coming soon". PAI butuh review ustadz sebelum ada apapun yang di-generate.
+2. **80 soal IPAS (`belum_terpetakan`) + 341 soal Matematika (`belum_terpetakan`)** nunggu review manual user, termasuk keputusan soal kelas 6 Matematika yang cuma 4 bab resmi (perlu dikonfirmasi apa itu bener struktur buku yang dipakai).
+3. **1 akun test nyangkut di Firestore production** (`players/azka-test`, PIN 1234, dari sesi testing auth) — aman dihapus manual kapan aja.
+4. **Hero illustration di Landing masih placeholder emoji** (🎒✨) — README wireframe nyebut ini "open image slot", butuh aset ilustrasi asli anak-anak belajar.
+5. **Drive Mode & Plane Mode masih v1/core-engine** — lihat daftar "BELUM ada" di bagian Games di atas (nitro, water gun, power-up, boss, dst). **DinoRace beneran (2-player racing) belum di-porting** — cuma unlock mechanism-nya yang jadi; butuh Firebase RTDB + race track UI, scope besar terpisah.
+6. **Parent Portal XP breakdown masih total doang** (bukan per-subject) — lihat bagian Parent Portal.
+7. **Stars/XP di TopicQuiz cuma dihitung dari 1 round** — gak ada mekanisme "ulang buat naikin bintang" di UI (progressService-nya udah `Math.max(stars, prev.stars)` jadi data-nya aman, cuma UI-nya belum kasih tombol "ulangi" yang jelas).
+8. **Firebase Authentication belum diaktifin di console** (cuma Firestore) — belum masalah karena auth sistem sendiri (name+PIN) gak pakai Firebase Auth SDK, tapi kalau nanti butuh Google Sign-In/dst buat orang tua, perlu diaktifin.
+9. **Belum ada dual-deploy pattern** kayak BrainBox (standalone domain per produk) — wajar karena masih 1 domain (`jagoan-kelas.vercel.app`), belum relevan sampai ada kebutuhan domain kustom.
