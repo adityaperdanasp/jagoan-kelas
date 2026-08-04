@@ -5,11 +5,14 @@ import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
 import { Chip } from "../components/ds/Badge";
 import { SUBJECTS } from "../data/content";
-import { hasContent, loadTopics, statusDisplay } from "../data/contentLoader";
+import { hasContent, loadRawTopics, statusDisplay } from "../data/contentLoader";
+import { getSubjectProgress, computeStatuses } from "../data/progressService";
+import { usePlayer } from "../data/PlayerContext";
 
 export default function SubjectDetail() {
   const navigate = useNavigate();
   const { grade, subject } = useParams();
+  const { player } = usePlayer();
   const subj = SUBJECTS.find((s) => s.id === subject) || SUBJECTS[0];
   const [topics, setTopics] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -17,19 +20,22 @@ export default function SubjectDetail() {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    loadTopics(subject, grade).then((t) => {
-      if (!cancelled) {
-        setTopics(t);
+    Promise.all([loadRawTopics(subject, grade), getSubjectProgress(player.id, subject, grade)]).then(
+      ([raw, progressMap]) => {
+        if (cancelled) return;
+        setTopics(raw ? computeStatuses(raw, progressMap) : null);
         setLoading(false);
       }
-    });
+    );
     return () => {
       cancelled = true;
     };
-  }, [subject, grade]);
+  }, [subject, grade, player.id]);
 
   const doneCount = topics ? topics.filter((t) => t.status === "done").length : 0;
-  const stars = Math.min(3, doneCount);
+  const stars = topics && topics.length ? Math.round((doneCount / topics.length) * 3) : 0;
+  const topicXp = topics ? topics.reduce((sum, t) => sum + (t.xp || 0), 0) : 0;
+  const currentTopic = topics?.find((t) => t.status === "current");
 
   return (
     <Shell>
@@ -57,7 +63,7 @@ export default function SubjectDetail() {
       />
 
       <div style={{ display: "flex", justifyContent: "center", padding: "16px 18px 0" }}>
-        <ProgressXP xp={0} stars={stars} maxStars={3} />
+        <ProgressXP xp={topicXp} stars={stars} maxStars={3} />
       </div>
 
       <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.85rem", color: "var(--ink-700)", padding: "16px 18px 0" }}>
@@ -74,9 +80,11 @@ export default function SubjectDetail() {
         ) : (
           topics.map((t) => {
             const d = statusDisplay(t.status);
+            const clickable = t.status !== "locked";
             return (
               <div
                 key={t.key}
+                onClick={clickable ? () => navigate(`/kelas/${grade}/${subject}/topik/${t.key}`) : undefined}
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -86,6 +94,7 @@ export default function SubjectDetail() {
                   borderRadius: 16,
                   background: d.bg,
                   opacity: d.opacity,
+                  cursor: clickable ? "pointer" : "default",
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -112,7 +121,13 @@ export default function SubjectDetail() {
             </Button>
           </div>
         )}
-        <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} disabled={!topics || topics.length === 0}>
+        <Button
+          variant="primary"
+          size="lg"
+          style={{ width: "100%", justifyContent: "center" }}
+          disabled={!currentTopic}
+          onClick={() => currentTopic && navigate(`/kelas/${grade}/${subject}/topik/${currentTopic.key}`)}
+        >
           Lanjut Belajar
         </Button>
       </div>

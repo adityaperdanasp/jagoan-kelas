@@ -7,13 +7,10 @@ export function hasContent(subjectId) {
   return SUBJECTS_WITH_CONTENT.includes(subjectId);
 }
 
-/**
- * Return normalized list of "topik" (satu bab/topik = satu baris di layar Detail
- * Pelajaran) buat subjectId+grade tertentu. null kalau belum ada datanya.
- * Status (locked/current/done) dihitung default: bab pertama = current, sisanya locked
- * -- belum ada progress tracking asli, itu nanti nyambung ke backend/Firebase.
- */
-export async function loadTopics(subjectId, grade) {
+/** Daftar topik MENTAH (tanpa status locked/current/done -- itu dihitung
+ * terpisah di progressService dari data progress asli), termasuk soal-nya
+ * penuh (dipakai TopicQuiz/FocusRound). null kalau belum ada datanya. */
+export async function loadRawTopics(subjectId, grade) {
   if (!hasContent(subjectId)) return null;
   const path = `./content/${subjectId}/kelas_${grade}.json`;
   const importer = modules[path];
@@ -21,21 +18,20 @@ export async function loadTopics(subjectId, grade) {
   const mod = await importer();
   const data = mod.default;
 
-  let raw;
   if (data.semester) {
-    raw = data.semester.flatMap((s) =>
-      s.bab.map((b) => ({ key: `bab-${b.nomor_bab}`, title: b.judul_bab, soalCount: b.soal.length }))
+    return data.semester.flatMap((s) =>
+      s.bab.map((b) => ({ key: `bab-${b.nomor_bab}`, title: b.judul_bab, soal: b.soal }))
     );
-  } else if (data.topik) {
-    raw = data.topik.map((t, i) => ({ key: `topik-${i}`, title: t.nama_topik, soalCount: t.soal.length }));
-  } else {
-    return null;
   }
+  if (data.topik) {
+    return data.topik.map((t, i) => ({ key: `topik-${i}`, title: t.nama_topik, soal: t.soal }));
+  }
+  return null;
+}
 
-  return raw.map((t, i) => {
-    if (i === 0) return { ...t, status: "current" };
-    return { ...t, status: "locked" };
-  });
+export async function loadTopicByKey(subjectId, grade, babKey) {
+  const topics = await loadRawTopics(subjectId, grade);
+  return topics?.find((t) => t.key === babKey) || null;
 }
 
 export function statusDisplay(status) {
