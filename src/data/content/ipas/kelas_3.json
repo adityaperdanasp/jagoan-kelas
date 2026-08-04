@@ -1,0 +1,1060 @@
+{
+  "kelas": 3,
+  "mapel": "IPAS",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Mari Kenali Hewan di Sekitar Kita",
+          "soal": [
+            {
+              "id": "ipas3-d001",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hewan yang hanya memakan tumbuhan disebut ...",
+              "answer": "Herbivora",
+              "explanation": "Herbivora",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d002",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hewan yang hanya memakan daging/hewan lain disebut ...",
+              "answer": "Karnivora",
+              "explanation": "Karnivora",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d003",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hewan yang memakan tumbuhan dan daging disebut ...",
+              "answer": "Omnivora",
+              "explanation": "Omnivora",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d004",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ayam termasuk hewan yang berkembang biak dengan cara ...",
+              "answer": "Bertelur",
+              "explanation": "Bertelur",
+              "options": [
+                "Melahirkan",
+                "Membelah diri",
+                "Bertelur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d005",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ikan bernapas menggunakan ...",
+              "answer": "Insang",
+              "explanation": "Insang",
+              "options": [
+                "Paru-paru",
+                "Kulit",
+                "Insang"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d006",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hewan yang hidup di dua alam (air dan darat), seperti katak, disebut hewan ...",
+              "answer": "Amfibi",
+              "explanation": "Amfibi",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d007",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kambing termasuk hewan yang berkembang biak dengan cara ...",
+              "answer": "Melahirkan",
+              "explanation": "Melahirkan",
+              "options": [
+                "Bertelur",
+                "Bertunas",
+                "Melahirkan"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d008",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tubuh yang digunakan burung untuk terbang adalah ...",
+              "answer": "Sayap",
+              "explanation": "Sayap",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d009",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hewan yang tubuhnya ditutupi sisik dan bergerak dengan perut adalah kelompok ...",
+              "answer": "Reptil (mis. ular)",
+              "explanation": "Reptil (mis. ular)",
+              "options": [
+                "Mamalia",
+                "Burung",
+                "Reptil (mis. ular)"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d010",
+              "topic": "Mari Kenali Hewan di Sekitar Kita",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hewan yang tubuhnya berubah bentuk secara sempurna semasa hidupnya, seperti kupu-kupu, mengalami ...",
+              "answer": "Metamorfosis sempurna",
+              "explanation": "Metamorfosis sempurna",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Ayo Mengenal Siklus pada Makhluk Hidup",
+          "soal": [
+            {
+              "id": "ipas3-001",
+              "topic": "Daur Hidup Hewan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan daur hidup kupu-kupu yang benar adalah ...",
+              "answer": "Telur - ulat - kepompong - kupu-kupu",
+              "explanation": "Daur hidup adalah tahapan perubahan bentuk hewan dari lahir hingga dewasa",
+              "options": [
+                "Telur - kepompong - ulat - kupu-kupu",
+                "Telur - ulat - kepompong - kupu-kupu",
+                "Ulat - telur - kepompong - kupu-kupu",
+                "Kepompong - telur - ulat - kupu-kupu"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-002",
+              "topic": "Daur Hidup Hewan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan daur hidup katak yang benar adalah ...",
+              "answer": "Telur - berudu - katak muda - katak dewasa",
+              "explanation": "Daur hidup adalah tahapan perubahan bentuk hewan dari lahir hingga dewasa",
+              "options": [
+                "Katak dewasa - berudu - telur - katak muda",
+                "Berudu - telur - katak muda - katak dewasa",
+                "Telur - katak muda - berudu - katak dewasa",
+                "Telur - berudu - katak muda - katak dewasa"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-003",
+              "topic": "Daur Hidup Hewan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hewan yang mengalami daur hidup tanpa metamorfosis (bentuknya mirip induknya sejak lahir) adalah ...",
+              "answer": "Ayam",
+              "explanation": "Daur hidup adalah tahapan perubahan bentuk hewan dari lahir hingga dewasa",
+              "options": [
+                "Ayam",
+                "Katak",
+                "Kupu-kupu",
+                "Nyamuk"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-004",
+              "topic": "Daur Hidup Hewan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tahap dalam daur hidup kupu-kupu ketika hewan tidak bergerak dan berada dalam pelindung disebut ...",
+              "answer": "Kepompong",
+              "explanation": "Daur hidup adalah tahapan perubahan bentuk hewan dari lahir hingga dewasa",
+              "options": [
+                "Larva",
+                "Ulat",
+                "Kepompong",
+                "Telur"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Hidup Bersama Alam",
+          "soal": [
+            {
+              "id": "ipas3-d011",
+              "topic": "Hidup Bersama Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hubungan saling membutuhkan antara makhluk hidup dengan lingkungannya disebut ...",
+              "answer": "Ekosistem",
+              "explanation": "Ekosistem",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d012",
+              "topic": "Hidup Bersama Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Urutan makan dan dimakan antar makhluk hidup disebut ...",
+              "answer": "Rantai makanan",
+              "explanation": "Rantai makanan",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d013",
+              "topic": "Hidup Bersama Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tumbuhan hijau dalam rantai makanan berperan sebagai ...",
+              "answer": "Produsen",
+              "explanation": "Produsen",
+              "options": [
+                "Konsumen",
+                "Pengurai",
+                "Produsen"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d014",
+              "topic": "Hidup Bersama Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hewan yang memakan tumbuhan dalam rantai makanan disebut ...",
+              "answer": "Konsumen tingkat 1",
+              "explanation": "Konsumen tingkat 1",
+              "options": [
+                "Produsen",
+                "Pengurai",
+                "Konsumen tingkat 1"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d015",
+              "topic": "Hidup Bersama Alam",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Makhluk hidup yang menguraikan sisa makhluk hidup yang telah mati disebut ...",
+              "answer": "Pengurai",
+              "explanation": "Pengurai",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d016",
+              "topic": "Hidup Bersama Alam",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ekosistem sawah termasuk contoh ekosistem ...",
+              "answer": "Buatan",
+              "explanation": "Buatan",
+              "options": [
+                "Alami",
+                "Buatan"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d017",
+              "topic": "Hidup Bersama Alam",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hubungan yang saling menguntungkan antara dua makhluk hidup disebut simbiosis ...",
+              "answer": "Mutualisme",
+              "explanation": "Mutualisme",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d018",
+              "topic": "Hidup Bersama Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh simbiosis mutualisme adalah hubungan antara ...",
+              "answer": "Lebah dan bunga",
+              "explanation": "Lebah dan bunga",
+              "options": [
+                "Kutu dan anjing",
+                "Benalu dan pohon inangnya",
+                "Lebah dan bunga"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d019",
+              "topic": "Hidup Bersama Alam",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Ekosistem yang terbentuk secara alami tanpa campur tangan manusia disebut ekosistem ...",
+              "answer": "Alami",
+              "explanation": "Alami",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d020",
+              "topic": "Hidup Bersama Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika salah satu makhluk hidup dalam ekosistem punah, keseimbangan ekosistem akan ...",
+              "answer": "Terganggu",
+              "explanation": "Terganggu",
+              "options": [
+                "Tetap seimbang",
+                "Semakin kuat",
+                "Terganggu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Berkenalan dengan Energi",
+          "soal": [
+            {
+              "id": "ipas3-005",
+              "topic": "Sumber Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sumber energi utama bagi kehidupan di bumi adalah ...",
+              "answer": "Matahari",
+              "explanation": "Pengenalan sumber dan bentuk energi",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-006",
+              "topic": "Sumber Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Energi yang dihasilkan dari aliran listrik disebut energi ...",
+              "answer": "Listrik",
+              "explanation": "Pengenalan sumber dan bentuk energi",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-007",
+              "topic": "Sumber Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bahan bakar yang berasal dari fosil, contohnya adalah ...",
+              "answer": "Minyak bumi/bensin",
+              "explanation": "Pengenalan sumber dan bentuk energi",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-008",
+              "topic": "Sumber Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sumber energi yang dapat diperbarui, contohnya adalah ...",
+              "answer": "Matahari/angin/air",
+              "explanation": "Pengenalan sumber dan bentuk energi",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-009",
+              "topic": "Sumber Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Alat yang mengubah energi listrik menjadi cahaya adalah ...",
+              "answer": "Lampu",
+              "explanation": "Pengenalan sumber dan bentuk energi",
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Aku dan Lingkungan Sekitarku",
+          "soal": [
+            {
+              "id": "ipas3-024",
+              "topic": "Peta & Arah Mata Angin",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Gambar yang menunjukkan letak suatu tempat dari atas disebut ...",
+              "answer": "Denah/peta",
+              "explanation": "Pengenalan denah dan arah mata angin",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-025",
+              "topic": "Peta & Arah Mata Angin",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Alat yang digunakan untuk menunjukkan arah mata angin disebut ...",
+              "answer": "Kompas",
+              "explanation": "Pengenalan denah dan arah mata angin",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-026",
+              "topic": "Peta & Arah Mata Angin",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Arah tempat matahari terbit adalah ...",
+              "answer": "Timur",
+              "explanation": "Pengenalan denah dan arah mata angin",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-027",
+              "topic": "Peta & Arah Mata Angin",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Arah tempat matahari terbenam adalah ...",
+              "answer": "Barat",
+              "explanation": "Pengenalan denah dan arah mata angin",
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Aku Bagian dari Masyarakat",
+          "soal": [
+            {
+              "id": "ipas3-d021",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kepala pemerintahan di tingkat kabupaten disebut ...",
+              "answer": "Bupati",
+              "explanation": "Bupati",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d022",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kepala pemerintahan di tingkat kota disebut ...",
+              "answer": "Wali kota",
+              "explanation": "Wali kota",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d023",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kepala pemerintahan paling kecil di lingkungan tempat tinggal disebut ...",
+              "answer": "Ketua RT",
+              "explanation": "Ketua RT",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d024",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kegiatan kerja bakti membersihkan lingkungan bersama-sama disebut ...",
+              "answer": "Gotong royong",
+              "explanation": "Gotong royong",
+              "options": [
+                "Piknik",
+                "Lomba",
+                "Gotong royong"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d025",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kumpulan beberapa RT dipimpin oleh seorang ...",
+              "answer": "Ketua RW",
+              "explanation": "Ketua RW",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d026",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap yang baik terhadap tetangga adalah ...",
+              "answer": "Saling membantu",
+              "explanation": "Saling membantu",
+              "options": [
+                "Bertengkar",
+                "Mengabaikan",
+                "Saling membantu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d027",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kantor tempat warga mengurus surat-surat di tingkat desa/kelurahan disebut kantor ...",
+              "answer": "Desa/Kelurahan",
+              "explanation": "Desa/Kelurahan",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d028",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Musyawarah untuk mengambil keputusan bersama sebaiknya dilakukan dengan cara ...",
+              "answer": "Mufakat/diskusi bersama",
+              "explanation": "Mufakat/diskusi bersama",
+              "options": [
+                "Memaksakan kehendak",
+                "Voting tanpa diskusi",
+                "Mufakat/diskusi bersama"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d029",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Wilayah yang lebih besar dari kabupaten dan dipimpin oleh gubernur disebut ...",
+              "answer": "Provinsi",
+              "explanation": "Provinsi",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-d030",
+              "topic": "Aku Bagian dari Masyarakat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kepala pemerintahan tingkat provinsi disebut ...",
+              "answer": "Gubernur",
+              "explanation": "Gubernur",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 7,
+          "judul_bab": "Cerita dari Kampung Halaman",
+          "soal": [
+            {
+              "id": "ipas3-014",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Rumah adat Gadang berasal dari daerah ...",
+              "answer": "Sumatera Barat",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-015",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Rumah adat Joglo berasal dari daerah ...",
+              "answer": "Jawa Tengah/Yogyakarta",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-016",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tari Kecak berasal dari daerah ...",
+              "answer": "Bali",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-017",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tari Saman berasal dari daerah ...",
+              "answer": "Aceh",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-018",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Angklung adalah alat musik tradisional yang berasal dari ...",
+              "answer": "Jawa Barat",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-019",
+              "topic": "Keragaman Budaya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Alat musik tradisional Gamelan banyak digunakan di daerah ...",
+              "answer": "Jawa",
+              "explanation": "Pengenalan budaya daerah di Indonesia",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-033",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pakaian adat Kebaya banyak dikenakan di pulau ...",
+              "answer": "Jawa/Bali",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-034",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Upacara adat Ngaben berasal dari daerah ...",
+              "answer": "Bali",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-035",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Batik merupakan salah satu warisan budaya asli dari ...",
+              "answer": "Indonesia",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-036",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Alat musik Sasando berasal dari daerah ...",
+              "answer": "Nusa Tenggara Timur",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-039",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Senjata tradisional Keris banyak digunakan oleh suku ...",
+              "answer": "Jawa",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-040",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Senjata tradisional Rencong berasal dari daerah ...",
+              "answer": "Aceh",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-047",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bunyi dapat merambat melalui benda padat, cair, dan ...",
+              "answer": "Gas/udara",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 8,
+          "judul_bab": "Bentang Alam Indonesia",
+          "soal": [
+            {
+              "id": "ipas3-020",
+              "topic": "Kenampakan Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Dataran tinggi yang dikelilingi pegunungan disebut ...",
+              "answer": "Plateau/dataran tinggi",
+              "explanation": "Kenampakan alam adalah bentuk permukaan bumi yang terbentuk secara alami",
+              "options": [
+                "Pantai",
+                "Lembah",
+                "Delta",
+                "Plateau/dataran tinggi"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-021",
+              "topic": "Kenampakan Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kenampakan alam berupa daratan yang menjorok ke laut disebut ...",
+              "answer": "Semenanjung",
+              "explanation": "Kenampakan alam adalah bentuk permukaan bumi yang terbentuk secara alami",
+              "options": [
+                "Semenanjung",
+                "Teluk",
+                "Selat",
+                "Tanjung"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-022",
+              "topic": "Kenampakan Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Aliran air tawar yang mengalir dari hulu ke hilir disebut ...",
+              "answer": "Sungai",
+              "explanation": "Kenampakan alam adalah bentuk permukaan bumi yang terbentuk secara alami",
+              "options": [
+                "Sungai",
+                "Laut",
+                "Waduk",
+                "Danau"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-023",
+              "topic": "Kenampakan Alam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Genangan air tawar yang luas dan dikelilingi daratan disebut ...",
+              "answer": "Danau",
+              "explanation": "Kenampakan alam adalah bentuk permukaan bumi yang terbentuk secara alami",
+              "options": [
+                "Sungai",
+                "Laut",
+                "Danau",
+                "Waduk"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-043",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Danau terbesar di Indonesia adalah ...",
+              "answer": "Danau Toba",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-044",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Gunung tertinggi di pulau Jawa adalah ...",
+              "answer": "Gunung Semeru",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas3-045",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Bagian bumi yang berisi air seperti laut, sungai, dan danau disebut ...",
+              "answer": "Hidrosfer",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "ipas3-010",
+      "topic": "Perubahan Wujud Benda",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Perubahan air menjadi es disebut ...",
+      "answer": "Membeku",
+      "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+      "options": [
+        "Mencair",
+        "Mengembun",
+        "Membeku",
+        "Menguap"
+      ],
+      "grade": 3
+    },
+    {
+      "id": "ipas3-011",
+      "topic": "Perubahan Wujud Benda",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Perubahan es menjadi air disebut ...",
+      "answer": "Mencair",
+      "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+      "options": [
+        "Mencair",
+        "Menguap",
+        "Membeku",
+        "Mengembun"
+      ],
+      "grade": 3
+    },
+    {
+      "id": "ipas3-012",
+      "topic": "Perubahan Wujud Benda",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Perubahan air menjadi uap disebut ...",
+      "answer": "Menguap",
+      "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+      "options": [
+        "Mencair",
+        "Mengembun",
+        "Membeku",
+        "Menguap"
+      ],
+      "grade": 3
+    },
+    {
+      "id": "ipas3-013",
+      "topic": "Perubahan Wujud Benda",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Perubahan uap air menjadi titik-titik air disebut ...",
+      "answer": "Mengembun",
+      "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+      "options": [
+        "Membeku",
+        "Menguap",
+        "Mencair",
+        "Mengembun"
+      ],
+      "grade": 3
+    },
+    {
+      "id": "ipas3-028",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Benda yang dapat ditembus cahaya disebut benda ...",
+      "answer": "Bening/transparan",
+      "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-029",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Benda yang tidak dapat ditembus cahaya sama sekali disebut benda ...",
+      "answer": "Gelap/opak",
+      "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-030",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Proses berpindahnya panas tanpa melalui zat perantara disebut ...",
+      "answer": "Radiasi",
+      "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-031",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Gaya yang menyebabkan benda jatuh ke bawah disebut gaya ...",
+      "answer": "Gravitasi",
+      "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-032",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Alat yang digunakan untuk mengukur suhu tubuh disebut ...",
+      "answer": "Termometer",
+      "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-037",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Tari Pendet berasal dari daerah ...",
+      "answer": "Bali",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-038",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Tari Piring berasal dari daerah ...",
+      "answer": "Sumatera Barat",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-041",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Makanan khas Rendang berasal dari daerah ...",
+      "answer": "Sumatera Barat",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-042",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Makanan khas Gudeg berasal dari daerah ...",
+      "answer": "Yogyakarta",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-046",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Lapisan udara yang menyelimuti bumi disebut ...",
+      "answer": "Atmosfer",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-048",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Alat yang digunakan untuk melihat benda kecil agar tampak besar adalah ...",
+      "answer": "Kaca pembesar/lup",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-049",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Cermin yang permukaannya datar disebut cermin ...",
+      "answer": "Datar",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    },
+    {
+      "id": "ipas3-050",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Peristiwa pembiasan cahaya membuat pensil dalam gelas berisi air terlihat ...",
+      "answer": "Patah/bengkok",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 3
+    }
+  ]
+}

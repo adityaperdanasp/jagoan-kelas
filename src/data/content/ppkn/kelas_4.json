@@ -1,0 +1,448 @@
+{
+  "kelas": 4,
+  "mapel": "Pendidikan Pancasila",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Mengenal Lingkungan Sekitar",
+          "soal": [
+            {
+              "id": "pp4-001",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kumpulan orang yang tinggal di suatu wilayah dan memiliki identitas bersama disebut ...",
+              "answer": "Masyarakat",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-002",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Setiap daerah memiliki identitas masyarakat yang berbeda, contohnya ditunjukkan melalui ...",
+              "answer": "Bahasa, adat, dan budaya daerah",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-003",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap yang tepat terhadap perbedaan identitas antarwilayah adalah ...",
+              "answer": "Menghargai dan menghormati",
+              "explanation": "Menghargai perbedaan penting untuk persatuan",
+              "options": [
+                "Menghargai dan menghormati",
+                "Merendahkan",
+                "Mengabaikan",
+                "Menganggap daerah sendiri paling baik"
+              ]
+            },
+            {
+              "id": "pp4-004",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pemimpin di tingkat desa disebut ...",
+              "answer": "Kepala desa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-005",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pemimpin di tingkat kelurahan disebut ...",
+              "answer": "Lurah",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-006",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perangkat desa bertugas untuk ...",
+              "answer": "Mengatur dan melayani masyarakat desa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-007",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Menjelajahi lingkungan sekitar dapat menambah pengetahuan tentang ...",
+              "answer": "Kondisi dan kekayaan daerah tempat tinggal",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-008",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kegiatan bermusyawarah di tingkat desa biasanya disebut ...",
+              "answer": "Musyawarah desa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-009",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Identitas masyarakat suatu daerah dapat dikenali dari ...",
+              "answer": "Pakaian adat, bahasa, dan kebiasaan",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-010",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menghargai perbedaan antarwarga masyarakat mencerminkan sikap ...",
+              "answer": "Toleransi",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-011",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Struktur pemerintahan desa dipimpin oleh ...",
+              "answer": "Kepala desa dan perangkatnya",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-012",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Mengenal lingkungan sekitar membantu kita untuk lebih ...",
+              "answer": "Peduli terhadap daerah tempat tinggal",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Aku Anak yang Disiplin",
+          "soal": [
+            {
+              "id": "pp4-013",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Aturan yang berlaku di lingkungan masyarakat disebut ...",
+              "answer": "Norma/aturan masyarakat",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-014",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Contoh aturan di lingkungan masyarakat adalah ...",
+              "answer": "Menjaga ketenangan dan kebersihan lingkungan",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-015",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Siapa yang berhak membuat kesepakatan aturan di kelas?",
+              "answer": "Guru dan siswa bersama-sama",
+              "explanation": "Aturan kelas idealnya disepakati bersama",
+              "options": [
+                "Guru dan siswa bersama-sama",
+                "Hanya guru",
+                "Hanya siswa",
+                "Kepala sekolah sendiri"
+              ]
+            },
+            {
+              "id": "pp4-016",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hak untuk mendapatkan pendidikan dimiliki oleh setiap ...",
+              "answer": "Anak",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-017",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kewajiban siswa terhadap sekolah, contohnya adalah ...",
+              "answer": "Menaati tata tertib sekolah",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-018",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika kita melaksanakan kewajiban dengan baik, kita akan mendapatkan ...",
+              "answer": "Hak yang sesuai",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-019",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Contoh melaksanakan aturan di lingkungan masyarakat adalah ...",
+              "answer": "Ikut kerja bakti/menjaga ketertiban",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-020",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Anak yang disiplin selalu berusaha untuk ...",
+              "answer": "Menaati aturan yang berlaku",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-021",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Aturan dibuat dengan tujuan agar kehidupan bersama menjadi ...",
+              "answer": "Tertib dan nyaman",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-022",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hak untuk hidup aman dan nyaman dimiliki oleh setiap ...",
+              "answer": "Warga masyarakat",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-023",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Melanggar aturan di lingkungan masyarakat dapat menyebabkan ...",
+              "answer": "Ketidaktertiban/kerugian bersama",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-024",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Contoh kewajiban warga masyarakat adalah ...",
+              "answer": "Menjaga kebersihan dan ketertiban lingkungan",
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kerja Sama di Lingkunganku",
+          "soal": [
+            {
+              "id": "pp4-025",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Indonesia terdiri dari berbagai suku, agama, dan budaya yang disebut ...",
+              "answer": "Keberagaman sosial-budaya",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-026",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kegiatan bekerja bersama untuk kepentingan bersama disebut ...",
+              "answer": "Gotong royong",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-027",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Manfaat gotong royong dalam masyarakat adalah ...",
+              "answer": "Pekerjaan menjadi lebih ringan dan cepat selesai",
+              "explanation": "Gotong royong meringankan beban bersama",
+              "options": [
+                "Pekerjaan menjadi lebih ringan dan cepat selesai",
+                "Menambah pekerjaan",
+                "Menimbulkan perselisihan",
+                "Memperlambat pekerjaan"
+              ]
+            },
+            {
+              "id": "pp4-028",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bahasa Indonesia berfungsi sebagai bahasa ...",
+              "answer": "Persatuan/pemersatu bangsa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-029",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sikap yang mendukung persatuan bangsa, contohnya adalah ...",
+              "answer": "Bekerja sama dan saling menghargai",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-030",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keberagaman sosial-budaya sebaiknya dijadikan sebagai ...",
+              "answer": "Kekayaan/kekuatan bangsa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-031",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Contoh kegiatan gotong royong di lingkungan rumah adalah ...",
+              "answer": "Kerja bakti membersihkan lingkungan",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-032",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika masyarakat tidak bersatu, yang dapat terjadi adalah ...",
+              "answer": "Perselisihan/perpecahan",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-033",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sikap tolong-menolong antarwarga mencerminkan nilai ...",
+              "answer": "Gotong royong/kepedulian sosial",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-034",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menggunakan bahasa Indonesia saat berbicara dengan orang dari suku lain menunjukkan sikap ...",
+              "answer": "Menghargai persatuan bangsa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-035",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kerja sama antarwarga dalam kegiatan sosial mencerminkan sila Pancasila ke-...",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-036",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menjaga persatuan di lingkungan yang beragam dapat dilakukan dengan cara ...",
+              "answer": "Saling menghormati perbedaan",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Pancasila dalam Diriku",
+          "soal": [
+            {
+              "id": "pp4-037",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sila pertama Pancasila berbunyi ...",
+              "answer": "Ketuhanan Yang Maha Esa",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-038",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sila kedua Pancasila berbunyi ...",
+              "answer": "Kemanusiaan yang Adil dan Beradab",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-039",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sila ketiga Pancasila berbunyi ...",
+              "answer": "Persatuan Indonesia",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-040",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sila keempat Pancasila berbunyi ...",
+              "answer": "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-041",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sila kelima Pancasila berbunyi ...",
+              "answer": "Keadilan Sosial bagi Seluruh Rakyat Indonesia",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-042",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh pengamalan Pancasila di masyarakat adalah ...",
+              "answer": "Mengikuti kegiatan gotong royong",
+              "explanation": "Gotong royong mencerminkan sila ketiga Pancasila",
+              "options": [
+                "Mengikuti kegiatan gotong royong",
+                "Mengabaikan tetangga",
+                "Mementingkan diri sendiri",
+                "Merusak fasilitas umum"
+              ]
+            },
+            {
+              "id": "pp4-043",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pancasila dirumuskan dan disahkan menjelang peristiwa ...",
+              "answer": "Kemerdekaan Indonesia (1945)",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-044",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Karakter yang dapat diteladani dari para perumus Pancasila adalah ...",
+              "answer": "Semangat persatuan, kerja keras, dan rela berkorban",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-045",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nilai Pancasila sebaiknya kita terapkan dalam ...",
+              "answer": "Kehidupan sehari-hari",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-046",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menghargai pendapat teman saat berdiskusi mencerminkan pengamalan sila ke-...",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-047",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Membantu teman yang kesulitan mencerminkan pengamalan sila ke-...",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "id": "pp4-048",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pancasila digunakan sebagai pedoman dalam bersikap dan berperilaku sebagai ...",
+              "answer": "Warga negara Indonesia",
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

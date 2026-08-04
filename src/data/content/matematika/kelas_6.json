@@ -1,0 +1,2454 @@
+{
+  "kelas": 6,
+  "mapel": "Matematika",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Pecahan dan Desimal",
+          "soal": [
+            {
+              "id": "mtk6-0003",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/4 - 1/6 adalah ... (bentuk sederhana)",
+              "answer": "7/12",
+              "explanation": "Jawaban dihitung: 7/12",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0009",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 3/6 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0015",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/5 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "4/15",
+              "explanation": "Jawaban dihitung: 4/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0021",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 4/6 - 2/4 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0027",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 4/5 - 1/4 adalah ... (bentuk sederhana)",
+              "answer": "11/20",
+              "explanation": "Jawaban dihitung: 11/20",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0033",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/6 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0039",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/4 - 3/6 adalah ... (bentuk sederhana)",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0045",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 2/6 adalah ... (bentuk sederhana)",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0051",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 1/4 - 1/5 adalah ... (bentuk sederhana)",
+              "answer": "1/20",
+              "explanation": "Jawaban dihitung: 1/20",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0057",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/5 - 1/4 adalah ... (bentuk sederhana)",
+              "answer": "3/20",
+              "explanation": "Jawaban dihitung: 3/20",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0063",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 1/5 adalah ... (bentuk sederhana)",
+              "answer": "7/15",
+              "explanation": "Jawaban dihitung: 7/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0069",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/4 - 2/5 adalah ... (bentuk sederhana)",
+              "answer": "1/10",
+              "explanation": "Jawaban dihitung: 1/10",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0075",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 5/6 - 2/3 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0081",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 1/3 - 1/6 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0087",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 5/6 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0093",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 1/5 adalah ... (bentuk sederhana)",
+              "answer": "7/15",
+              "explanation": "Jawaban dihitung: 7/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0099",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 1/5 adalah ... (bentuk sederhana)",
+              "answer": "7/15",
+              "explanation": "Jawaban dihitung: 7/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0105",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 4/6 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0111",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/5 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "1/15",
+              "explanation": "Jawaban dihitung: 1/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0117",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 3/5 adalah ... (bentuk sederhana)",
+              "answer": "1/15",
+              "explanation": "Jawaban dihitung: 1/15",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0123",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/4 - 4/6 adalah ... (bentuk sederhana)",
+              "answer": "1/12",
+              "explanation": "Jawaban dihitung: 1/12",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0129",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/4 - 2/6 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0135",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 5/6 - 2/3 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0141",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 - 4/6 adalah ... (bentuk sederhana)",
+              "answer": "0",
+              "explanation": "Jawaban dihitung: 0",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0147",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/4 - 2/6 adalah ... (bentuk sederhana)",
+              "answer": "5/12",
+              "explanation": "Jawaban dihitung: 5/12",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0153",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/6 - 1/3 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0159",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/4 - 2/6 adalah ... (bentuk sederhana)",
+              "answer": "5/12",
+              "explanation": "Jawaban dihitung: 5/12",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0165",
+              "topic": "Pecahan, Desimal, Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/4 - 3/6 adalah ... (bentuk sederhana)",
+              "answer": "0",
+              "explanation": "Jawaban dihitung: 0",
+              "grade": 6,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Rasio",
+          "soal": [
+            {
+              "id": "mtk6-0004",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 9 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "9",
+              "explanation": "Jawaban dihitung: 9",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0010",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 20 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0016",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 13 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "13",
+              "explanation": "Jawaban dihitung: 13",
+              "options": [
+                "11",
+                "18",
+                "15",
+                "13"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0022",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 11 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "55",
+              "explanation": "Jawaban dihitung: 55",
+              "options": [
+                "55",
+                "57",
+                "60",
+                "53"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0028",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 10 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "options": [
+                "25",
+                "15",
+                "22",
+                "20"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0034",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 12 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "24",
+              "explanation": "Jawaban dihitung: 24",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0040",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 14 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "14",
+              "explanation": "Jawaban dihitung: 14",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0046",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 4 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "8",
+              "explanation": "Jawaban dihitung: 8",
+              "options": [
+                "10",
+                "8",
+                "6",
+                "13"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0052",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 7 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "7",
+              "explanation": "Jawaban dihitung: 7",
+              "options": [
+                "7",
+                "12",
+                "2",
+                "5"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0058",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 8 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "options": [
+                "40",
+                "45",
+                "42",
+                "35"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0064",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 11 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "55",
+              "explanation": "Jawaban dihitung: 55",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0070",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 4 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0076",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 3 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "15",
+              "explanation": "Jawaban dihitung: 15",
+              "options": [
+                "17",
+                "13",
+                "20",
+                "15"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0082",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 11 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "22",
+              "explanation": "Jawaban dihitung: 22",
+              "options": [
+                "17",
+                "24",
+                "27",
+                "22"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0088",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 16 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "16",
+                "21",
+                "14",
+                "18"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0094",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 18 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0100",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 15 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0106",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 15 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "options": [
+                "70",
+                "73",
+                "77",
+                "75"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0112",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 14 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "14",
+              "explanation": "Jawaban dihitung: 14",
+              "options": [
+                "12",
+                "16",
+                "9",
+                "14"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0118",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 13 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "26",
+              "explanation": "Jawaban dihitung: 26",
+              "options": [
+                "26",
+                "24",
+                "28",
+                "31"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0124",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 4 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "8",
+              "explanation": "Jawaban dihitung: 8",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0130",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 12 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0136",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 17 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "34",
+              "explanation": "Jawaban dihitung: 34",
+              "options": [
+                "29",
+                "34",
+                "36",
+                "32"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0142",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 10 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "options": [
+                "25",
+                "18",
+                "22",
+                "20"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0148",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:100. Jarak pada peta 5 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "options": [
+                "5",
+                "7",
+                "0",
+                "10"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0154",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:500. Jarak pada peta 4 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0160",
+              "topic": "Perbandingan & Skala",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 19 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "38",
+              "explanation": "Jawaban dihitung: 38",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0166",
+              "topic": "Perbandingan & Skala",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Peta berskala 1:200. Jarak pada peta 12 cm sama dengan jarak sebenarnya ... meter",
+              "answer": "24",
+              "explanation": "Jawaban dihitung: 24",
+              "options": [
+                "26",
+                "22",
+                "24",
+                "19"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kubus dan Balok",
+          "soal": [
+            {
+              "id": "mtk6-0005",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 10 cm x 4 cm x 8 cm adalah ... cm kubik",
+              "answer": "320",
+              "explanation": "Jawaban dihitung: 320",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0011",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 4 cm x 9 cm x 4 cm adalah ... cm kubik",
+              "answer": "144",
+              "explanation": "Jawaban dihitung: 144",
+              "options": [
+                "144",
+                "146",
+                "139",
+                "142"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0017",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 7 cm x 7 cm x 4 cm adalah ... cm kubik",
+              "answer": "196",
+              "explanation": "Jawaban dihitung: 196",
+              "options": [
+                "194",
+                "201",
+                "191",
+                "196"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0023",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 5 cm x 10 cm x 7 cm adalah ... cm kubik",
+              "answer": "350",
+              "explanation": "Jawaban dihitung: 350",
+              "options": [
+                "352",
+                "348",
+                "355",
+                "350"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0029",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 8 cm x 7 cm x 9 cm adalah ... cm kubik",
+              "answer": "504",
+              "explanation": "Jawaban dihitung: 504",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0035",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 11 cm x 8 cm x 10 cm adalah ... cm kubik",
+              "answer": "880",
+              "explanation": "Jawaban dihitung: 880",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0041",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 4 cm x 6 cm x 4 cm adalah ... cm kubik",
+              "answer": "96",
+              "explanation": "Jawaban dihitung: 96",
+              "options": [
+                "96",
+                "101",
+                "94",
+                "98"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0047",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 9 cm x 10 cm x 7 cm adalah ... cm kubik",
+              "answer": "630",
+              "explanation": "Jawaban dihitung: 630",
+              "options": [
+                "625",
+                "630",
+                "628",
+                "635"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0053",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 10 cm x 10 cm x 7 cm adalah ... cm kubik",
+              "answer": "700",
+              "explanation": "Jawaban dihitung: 700",
+              "options": [
+                "702",
+                "698",
+                "700",
+                "695"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0059",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 5 cm x 5 cm x 5 cm adalah ... cm kubik",
+              "answer": "125",
+              "explanation": "Jawaban dihitung: 125",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0065",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 12 cm x 5 cm x 4 cm adalah ... cm kubik",
+              "answer": "240",
+              "explanation": "Jawaban dihitung: 240",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0071",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 10 cm x 10 cm x 4 cm adalah ... cm kubik",
+              "answer": "400",
+              "explanation": "Jawaban dihitung: 400",
+              "options": [
+                "405",
+                "402",
+                "398",
+                "400"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0077",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 7 cm x 6 cm x 8 cm adalah ... cm kubik",
+              "answer": "336",
+              "explanation": "Jawaban dihitung: 336",
+              "options": [
+                "334",
+                "336",
+                "338",
+                "331"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0083",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 9 cm x 10 cm x 4 cm adalah ... cm kubik",
+              "answer": "360",
+              "explanation": "Jawaban dihitung: 360",
+              "options": [
+                "355",
+                "365",
+                "358",
+                "360"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0089",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 12 cm x 6 cm x 5 cm adalah ... cm kubik",
+              "answer": "360",
+              "explanation": "Jawaban dihitung: 360",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0095",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 6 cm x 10 cm x 8 cm adalah ... cm kubik",
+              "answer": "480",
+              "explanation": "Jawaban dihitung: 480",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0101",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 12 cm x 3 cm x 6 cm adalah ... cm kubik",
+              "answer": "216",
+              "explanation": "Jawaban dihitung: 216",
+              "options": [
+                "218",
+                "221",
+                "214",
+                "216"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0107",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 6 cm x 3 cm x 9 cm adalah ... cm kubik",
+              "answer": "162",
+              "explanation": "Jawaban dihitung: 162",
+              "options": [
+                "160",
+                "164",
+                "162",
+                "167"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0113",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 5 cm x 9 cm x 5 cm adalah ... cm kubik",
+              "answer": "225",
+              "explanation": "Jawaban dihitung: 225",
+              "options": [
+                "227",
+                "223",
+                "225",
+                "230"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0119",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 7 cm x 7 cm x 6 cm adalah ... cm kubik",
+              "answer": "294",
+              "explanation": "Jawaban dihitung: 294",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0125",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 6 cm x 10 cm x 5 cm adalah ... cm kubik",
+              "answer": "300",
+              "explanation": "Jawaban dihitung: 300",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0131",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 6 cm x 4 cm x 8 cm adalah ... cm kubik",
+              "answer": "192",
+              "explanation": "Jawaban dihitung: 192",
+              "options": [
+                "190",
+                "192",
+                "187",
+                "197"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0137",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 4 cm x 4 cm x 6 cm adalah ... cm kubik",
+              "answer": "96",
+              "explanation": "Jawaban dihitung: 96",
+              "options": [
+                "91",
+                "98",
+                "94",
+                "96"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0143",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 9 cm x 10 cm x 10 cm adalah ... cm kubik",
+              "answer": "900",
+              "explanation": "Jawaban dihitung: 900",
+              "options": [
+                "895",
+                "900",
+                "902",
+                "905"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0149",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 8 cm x 9 cm x 4 cm adalah ... cm kubik",
+              "answer": "288",
+              "explanation": "Jawaban dihitung: 288",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0155",
+              "topic": "Volume Bangun Ruang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 4 cm x 8 cm x 4 cm adalah ... cm kubik",
+              "answer": "128",
+              "explanation": "Jawaban dihitung: 128",
+              "grade": 6,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0161",
+              "topic": "Volume Bangun Ruang",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Volume balok dengan ukuran 10 cm x 10 cm x 9 cm adalah ... cm kubik",
+              "answer": "900",
+              "explanation": "Jawaban dihitung: 900",
+              "options": [
+                "905",
+                "902",
+                "898",
+                "900"
+              ],
+              "grade": 6,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Peluang",
+          "soal": [
+            {
+              "id": "mtk6-g001",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka 6 adalah ... (bentuk pecahan)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g002",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sebuah koin dilempar sekali. Peluang muncul sisi angka adalah ... (bentuk pecahan)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g003",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka lebih dari 4 adalah ... (bentuk pecahan)",
+              "answer": "2/6",
+              "explanation": "Jawaban dihitung: 2/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g004",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Dalam kotak ada 4 kelereng merah dan 6 kelereng biru. Peluang terambil kelereng merah adalah ... (bentuk sederhana)",
+              "answer": "2/5",
+              "explanation": "Jawaban dihitung: 2/5",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g005",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka ganjil adalah ... (bentuk pecahan)",
+              "answer": "3/6",
+              "explanation": "Jawaban dihitung: 3/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g006",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka genap adalah ... (bentuk pecahan)",
+              "answer": "3/6",
+              "explanation": "Jawaban dihitung: 3/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g007",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sebuah koin dilempar sekali. Peluang muncul sisi angka adalah ... (bentuk pecahan)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g008",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah koin dilempar sekali. Peluang muncul sisi angka adalah ... (bentuk pecahan)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g009",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Dalam kotak ada 5 kelereng merah dan 5 kelereng biru. Peluang terambil kelereng biru adalah ... (bentuk sederhana)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g010",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Dalam kotak ada 2 kelereng merah dan 4 kelereng biru. Peluang terambil kelereng biru adalah ... (bentuk sederhana)",
+              "answer": "2/3",
+              "explanation": "Jawaban dihitung: 2/3",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g011",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebuah koin dilempar sekali. Peluang muncul sisi angka adalah ... (bentuk pecahan)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g012",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Dalam kotak ada 6 kelereng merah dan 5 kelereng biru. Peluang terambil kelereng biru adalah ... (bentuk sederhana)",
+              "answer": "5/11",
+              "explanation": "Jawaban dihitung: 5/11",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g013",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka 6 adalah ... (bentuk pecahan)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g014",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah dadu dilempar sekali. Peluang muncul angka genap adalah ... (bentuk pecahan)",
+              "answer": "3/6",
+              "explanation": "Jawaban dihitung: 3/6",
+              "grade": 6,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk6-g015",
+              "topic": "Peluang",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebuah koin dilempar sekali. Peluang muncul sisi angka adalah ... (bentuk pecahan)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 6,
+              "sumber": "generated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "mtk6-0001",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 5 - 1 adalah ...",
+      "answer": "4",
+      "explanation": "Jawaban dihitung: 4",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "6"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0002",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 4 x 2 + 30 : 3 adalah ...",
+      "answer": "18",
+      "explanation": "Jawaban dihitung: 18",
+      "options": [
+        "18",
+        "23",
+        "8",
+        "28"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0006",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 79, 79, 56, 51, 75, 56, 55. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "79",
+      "explanation": "Jawaban dihitung: 79",
+      "options": [
+        "77",
+        "81",
+        "84",
+        "79"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0007",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 3 - 1 adalah ...",
+      "answer": "2",
+      "explanation": "Jawaban dihitung: 2",
+      "options": [
+        "6",
+        "4",
+        "0",
+        "2"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0008",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 6 + 15 : 3 adalah ...",
+      "answer": "23",
+      "explanation": "Jawaban dihitung: 23",
+      "options": [
+        "23",
+        "18",
+        "33",
+        "13"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0012",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 87, 87, 56, 63, 63, 75, 75. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "87",
+      "explanation": "Jawaban dihitung: 87",
+      "options": [
+        "82",
+        "92",
+        "87",
+        "89"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0013",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 8 + 8 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "options": [
+        "20",
+        "18",
+        "12",
+        "16"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0014",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 9 x 4 + 24 : 3 adalah ...",
+      "answer": "44",
+      "explanation": "Jawaban dihitung: 44",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0018",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 43, 43, 89, 65, 73, 88, 45, 46. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "43",
+      "explanation": "Jawaban dihitung: 43",
+      "options": [
+        "41",
+        "38",
+        "45",
+        "43"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0019",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari -3 - (-1) adalah ...",
+      "answer": "-2",
+      "explanation": "Jawaban dihitung: -2",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0020",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 4 x 4 + 4 : 2 adalah ...",
+      "answer": "18",
+      "explanation": "Jawaban dihitung: 18",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0024",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 92, 92, 94, 48, 62, 58, 70, 74. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "92",
+      "explanation": "Jawaban dihitung: 92",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0025",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari -10 - 5 adalah ...",
+      "answer": "-15",
+      "explanation": "Jawaban dihitung: -15",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0026",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 6 x 2 + 25 : 5 adalah ...",
+      "answer": "17",
+      "explanation": "Jawaban dihitung: 17",
+      "options": [
+        "22",
+        "17",
+        "12",
+        "7"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0030",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 94, 94, 51, 48, 58, 47. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "94",
+      "explanation": "Jawaban dihitung: 94",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0031",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 10 - 4 adalah ...",
+      "answer": "6",
+      "explanation": "Jawaban dihitung: 6",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "6"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0032",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 2 x 2 + 18 : 3 adalah ...",
+      "answer": "10",
+      "explanation": "Jawaban dihitung: 10",
+      "options": [
+        "0",
+        "5",
+        "10",
+        "20"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0036",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 90, 90, 61, 45, 93, 88, 100, 49. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "90",
+      "explanation": "Jawaban dihitung: 90",
+      "options": [
+        "90",
+        "85",
+        "92",
+        "95"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0037",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -5 - (-4) adalah ...",
+      "answer": "-1",
+      "explanation": "Jawaban dihitung: -1",
+      "options": [
+        "-1",
+        "3",
+        "-3",
+        "-5"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0038",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 2 x 5 + 25 : 5 adalah ...",
+      "answer": "15",
+      "explanation": "Jawaban dihitung: 15",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "10"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0042",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 47, 47, 90, 55, 40, 42, 77, 90. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "47",
+      "explanation": "Jawaban dihitung: 47",
+      "options": [
+        "45",
+        "52",
+        "49",
+        "47"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0043",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 5 - (-8) adalah ...",
+      "answer": "13",
+      "explanation": "Jawaban dihitung: 13",
+      "options": [
+        "15",
+        "13",
+        "11",
+        "9"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0044",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 5 x 7 + 15 : 3 adalah ...",
+      "answer": "40",
+      "explanation": "Jawaban dihitung: 40",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0048",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 40, 40, 80, 72, 64, 86, 51. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "40",
+      "explanation": "Jawaban dihitung: 40",
+      "options": [
+        "40",
+        "38",
+        "42",
+        "35"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0049",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 7 + 2 adalah ...",
+      "answer": "9",
+      "explanation": "Jawaban dihitung: 9",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0050",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 9 x 4 + 24 : 3 adalah ...",
+      "answer": "44",
+      "explanation": "Jawaban dihitung: 44",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0054",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 71, 71, 96, 93, 45, 69, 91, 80. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "71",
+      "explanation": "Jawaban dihitung: 71",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0055",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari -9 - 1 adalah ...",
+      "answer": "-10",
+      "explanation": "Jawaban dihitung: -10",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0056",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 7 x 2 + 10 : 5 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "options": [
+        "6",
+        "11",
+        "16",
+        "21"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0060",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 65, 65, 61, 82, 50, 74, 78, 68. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "65",
+      "explanation": "Jawaban dihitung: 65",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0061",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 1 - 0 adalah ...",
+      "answer": "1",
+      "explanation": "Jawaban dihitung: 1",
+      "options": [
+        "1",
+        "5",
+        "-1",
+        "3"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0062",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 7 x 9 + 4 : 2 adalah ...",
+      "answer": "65",
+      "explanation": "Jawaban dihitung: 65",
+      "options": [
+        "70",
+        "60",
+        "65",
+        "55"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0066",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 69, 69, 49, 48, 56, 63. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "69",
+      "explanation": "Jawaban dihitung: 69",
+      "options": [
+        "71",
+        "69",
+        "64",
+        "67"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0067",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -8 - 0 adalah ...",
+      "answer": "-8",
+      "explanation": "Jawaban dihitung: -8",
+      "options": [
+        "-12",
+        "-10",
+        "-8",
+        "-4"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0068",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 2 + 24 : 3 adalah ...",
+      "answer": "14",
+      "explanation": "Jawaban dihitung: 14",
+      "options": [
+        "14",
+        "24",
+        "9",
+        "4"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0072",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 45, 45, 76, 87, 43, 75, 65. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "45",
+      "explanation": "Jawaban dihitung: 45",
+      "options": [
+        "40",
+        "47",
+        "45",
+        "50"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0073",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -6 + 5 adalah ...",
+      "answer": "-1",
+      "explanation": "Jawaban dihitung: -1",
+      "options": [
+        "-5",
+        "-3",
+        "3",
+        "-1"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0074",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 3 + 21 : 3 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0078",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 68, 68, 41, 61, 53, 87, 74. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "68",
+      "explanation": "Jawaban dihitung: 68",
+      "options": [
+        "70",
+        "66",
+        "68",
+        "73"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0079",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 2 + 8 adalah ...",
+      "answer": "10",
+      "explanation": "Jawaban dihitung: 10",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0080",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 6 x 4 + 12 : 2 adalah ...",
+      "answer": "30",
+      "explanation": "Jawaban dihitung: 30",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0084",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 71, 71, 87, 50, 41, 62, 83. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "71",
+      "explanation": "Jawaban dihitung: 71",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0085",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 1 - 1 adalah ...",
+      "answer": "0",
+      "explanation": "Jawaban dihitung: 0",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0086",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 5 x 6 + 6 : 3 adalah ...",
+      "answer": "32",
+      "explanation": "Jawaban dihitung: 32",
+      "options": [
+        "37",
+        "42",
+        "27",
+        "32"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0090",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 84, 84, 97, 73, 98, 48, 67. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "84",
+      "explanation": "Jawaban dihitung: 84",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0091",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -6 + 10 adalah ...",
+      "answer": "4",
+      "explanation": "Jawaban dihitung: 4",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "0"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0092",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 7 x 8 + 18 : 3 adalah ...",
+      "answer": "62",
+      "explanation": "Jawaban dihitung: 62",
+      "options": [
+        "67",
+        "57",
+        "52",
+        "62"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0096",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 94, 94, 71, 70, 48, 50. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "94",
+      "explanation": "Jawaban dihitung: 94",
+      "options": [
+        "92",
+        "94",
+        "99",
+        "89"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0097",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -3 + (-4) adalah ...",
+      "answer": "-7",
+      "explanation": "Jawaban dihitung: -7",
+      "options": [
+        "-11",
+        "-7",
+        "-9",
+        "-3"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0098",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 9 x 5 + 16 : 2 adalah ...",
+      "answer": "53",
+      "explanation": "Jawaban dihitung: 53",
+      "options": [
+        "58",
+        "53",
+        "43",
+        "63"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0102",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 73, 73, 49, 69, 93, 81, 68, 45. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "73",
+      "explanation": "Jawaban dihitung: 73",
+      "options": [
+        "71",
+        "68",
+        "73",
+        "78"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0103",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -10 - (-5) adalah ...",
+      "answer": "-5",
+      "explanation": "Jawaban dihitung: -5",
+      "options": [
+        "-5",
+        "-7",
+        "-1",
+        "-9"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0104",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 3 + 35 : 5 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0108",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 79, 79, 56, 40, 69, 71. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "79",
+      "explanation": "Jawaban dihitung: 79",
+      "options": [
+        "74",
+        "79",
+        "77",
+        "84"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0109",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 4 - 3 adalah ...",
+      "answer": "1",
+      "explanation": "Jawaban dihitung: 1",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0110",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 2 + 50 : 5 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0114",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 60, 60, 97, 64, 92, 44, 88. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "60",
+      "explanation": "Jawaban dihitung: 60",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0115",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 3 + 7 adalah ...",
+      "answer": "10",
+      "explanation": "Jawaban dihitung: 10",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0116",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 6 x 9 + 30 : 5 adalah ...",
+      "answer": "60",
+      "explanation": "Jawaban dihitung: 60",
+      "options": [
+        "70",
+        "65",
+        "55",
+        "60"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0120",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 47, 47, 69, 80, 90, 47. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "47",
+      "explanation": "Jawaban dihitung: 47",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0121",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -4 - 9 adalah ...",
+      "answer": "-13",
+      "explanation": "Jawaban dihitung: -13",
+      "options": [
+        "-9",
+        "-13",
+        "-11",
+        "-17"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0122",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 2 x 5 + 12 : 2 adalah ...",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "options": [
+        "6",
+        "26",
+        "16",
+        "21"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0126",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 69, 69, 95, 74, 97, 61, 69, 90. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "69",
+      "explanation": "Jawaban dihitung: 69",
+      "options": [
+        "71",
+        "69",
+        "64",
+        "74"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0127",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -4 - 8 adalah ...",
+      "answer": "-12",
+      "explanation": "Jawaban dihitung: -12",
+      "options": [
+        "-12",
+        "-14",
+        "-16",
+        "-10"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0128",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 8 x 4 + 6 : 2 adalah ...",
+      "answer": "35",
+      "explanation": "Jawaban dihitung: 35",
+      "options": [
+        "35",
+        "45",
+        "40",
+        "25"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0132",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 61, 61, 70, 86, 95, 73. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "61",
+      "explanation": "Jawaban dihitung: 61",
+      "options": [
+        "61",
+        "63",
+        "59",
+        "56"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0133",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 4 + 2 adalah ...",
+      "answer": "6",
+      "explanation": "Jawaban dihitung: 6",
+      "options": [
+        "6",
+        "2",
+        "8",
+        "10"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0134",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 2 x 6 + 15 : 3 adalah ...",
+      "answer": "17",
+      "explanation": "Jawaban dihitung: 17",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0138",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 68, 68, 48, 41, 70, 97, 83, 43. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "68",
+      "explanation": "Jawaban dihitung: 68",
+      "options": [
+        "63",
+        "66",
+        "73",
+        "68"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0139",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari -1 + 0 adalah ...",
+      "answer": "-1",
+      "explanation": "Jawaban dihitung: -1",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0140",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 9 + 18 : 2 adalah ...",
+      "answer": "36",
+      "explanation": "Jawaban dihitung: 36",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0144",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 89, 89, 78, 76, 48, 72, 46. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "89",
+      "explanation": "Jawaban dihitung: 89",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0145",
+      "topic": "Bilangan Bulat",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Hasil dari 2 - (-7) adalah ...",
+      "answer": "9",
+      "explanation": "Jawaban dihitung: 9",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0146",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 3 x 6 + 24 : 3 adalah ...",
+      "answer": "26",
+      "explanation": "Jawaban dihitung: 26",
+      "options": [
+        "36",
+        "21",
+        "16",
+        "26"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0150",
+      "topic": "Statistika Lanjutan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Data: 46, 46, 92, 78, 89, 92, 64, 60. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "46",
+      "explanation": "Jawaban dihitung: 46",
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0151",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari 5 + 10 adalah ...",
+      "answer": "15",
+      "explanation": "Jawaban dihitung: 15",
+      "options": [
+        "19",
+        "11",
+        "15",
+        "13"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0152",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 5 x 5 + 30 : 5 adalah ...",
+      "answer": "31",
+      "explanation": "Jawaban dihitung: 31",
+      "options": [
+        "36",
+        "41",
+        "31",
+        "21"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0156",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 95, 95, 55, 67, 84, 77, 65. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "95",
+      "explanation": "Jawaban dihitung: 95",
+      "options": [
+        "97",
+        "95",
+        "93",
+        "100"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0157",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -4 - 7 adalah ...",
+      "answer": "-11",
+      "explanation": "Jawaban dihitung: -11",
+      "options": [
+        "-9",
+        "-11",
+        "-13",
+        "-7"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0158",
+      "topic": "Operasi Hitung Campuran",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hasil dari 4 x 2 + 18 : 2 adalah ...",
+      "answer": "17",
+      "explanation": "Jawaban dihitung: 17",
+      "options": [
+        "17",
+        "7",
+        "27",
+        "12"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0162",
+      "topic": "Statistika Lanjutan",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Data: 55, 55, 72, 57, 66, 99, 74, 76. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+      "answer": "55",
+      "explanation": "Jawaban dihitung: 55",
+      "options": [
+        "50",
+        "60",
+        "57",
+        "55"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0163",
+      "topic": "Bilangan Bulat",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Hasil dari -8 - (-6) adalah ...",
+      "answer": "-2",
+      "explanation": "Jawaban dihitung: -2",
+      "options": [
+        "-2",
+        "2",
+        "-6",
+        "-4"
+      ],
+      "grade": 6
+    },
+    {
+      "id": "mtk6-0164",
+      "topic": "Operasi Hitung Campuran",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Hasil dari 6 x 2 + 27 : 3 adalah ...",
+      "answer": "21",
+      "explanation": "Jawaban dihitung: 21",
+      "grade": 6
+    }
+  ]
+}

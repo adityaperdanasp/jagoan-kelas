@@ -1,0 +1,3148 @@
+{
+  "kelas": 5,
+  "mapel": "Matematika",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Bilangan Cacah Sampai 100.000",
+          "soal": [
+            {
+              "id": "mtk5-g001",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nilai tempat angka 0 pada bilangan 87014 adalah ...",
+              "answer": "0",
+              "explanation": "Jawaban dihitung: 0",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g002",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 8 pada bilangan 42780 adalah ...",
+              "answer": "80",
+              "explanation": "Jawaban dihitung: 80",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g003",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tanda yang tepat untuk 51422 ... 64335 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g004",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk 50986 ... 75963 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g005",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pembulatan 39780 ke ratusan terdekat adalah ...",
+              "answer": "39800",
+              "explanation": "Jawaban dihitung: 39800",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g006",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 7 pada bilangan 12875 adalah ...",
+              "answer": "70",
+              "explanation": "Jawaban dihitung: 70",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g007",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tanda yang tepat untuk 75177 ... 90889 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g008",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Tanda yang tepat untuk 80482 ... 98671 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g009",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nilai tempat angka 2 pada bilangan 40162 adalah ...",
+              "answer": "2",
+              "explanation": "Jawaban dihitung: 2",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g010",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tanda yang tepat untuk 84442 ... 25920 adalah (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g011",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 8 pada bilangan 98835 adalah ...",
+              "answer": "8000",
+              "explanation": "Jawaban dihitung: 8000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g012",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Tanda yang tepat untuk 83242 ... 85717 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g013",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nilai tempat angka 6 pada bilangan 67779 adalah ...",
+              "answer": "60000",
+              "explanation": "Jawaban dihitung: 60000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g014",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 2 pada bilangan 27224 adalah ...",
+              "answer": "20000",
+              "explanation": "Jawaban dihitung: 20000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g015",
+              "topic": "Bilangan Cacah Sampai 100.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nilai tempat angka 4 pada bilangan 64460 adalah ...",
+              "answer": "4000",
+              "explanation": "Jawaban dihitung: 4000",
+              "grade": 5,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "KPK dan FPB",
+          "soal": [
+            {
+              "id": "mtk5-0003",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "KPK dari 30 dan 28 adalah ...",
+              "answer": "420",
+              "explanation": "Jawaban dihitung: 420",
+              "options": [
+                "425",
+                "418",
+                "415",
+                "420"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0010",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "KPK dari 10 dan 13 adalah ...",
+              "answer": "130",
+              "explanation": "Jawaban dihitung: 130",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0017",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 5, 6, dan 7 adalah ...",
+              "answer": "210",
+              "explanation": "Jawaban dihitung: 210",
+              "options": [
+                "210",
+                "208",
+                "215",
+                "220"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0024",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "KPK dari 20 dan 25 adalah ...",
+              "answer": "100",
+              "explanation": "Jawaban dihitung: 100",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0031",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "KPK dari 10 dan 10 adalah ...",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "options": [
+                "20",
+                "10",
+                "5",
+                "15"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0038",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 5, 5, dan 6 adalah ...",
+              "answer": "30",
+              "explanation": "Jawaban dihitung: 30",
+              "options": [
+                "30",
+                "40",
+                "28",
+                "35"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0045",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "KPK dari 12 dan 12 adalah ...",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0052",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "KPK dari 14 dan 10 adalah ...",
+              "answer": "70",
+              "explanation": "Jawaban dihitung: 70",
+              "options": [
+                "70",
+                "65",
+                "75",
+                "68"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0059",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 10, 9, dan 6 adalah ...",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0066",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "KPK dari 12 dan 16 adalah ...",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "options": [
+                "48",
+                "43",
+                "50",
+                "53"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0073",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "KPK dari 14 dan 14 adalah ...",
+              "answer": "14",
+              "explanation": "Jawaban dihitung: 14",
+              "options": [
+                "12",
+                "16",
+                "19",
+                "14"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0080",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 5, 8, dan 10 adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0087",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "KPK dari 28 dan 27 adalah ...",
+              "answer": "756",
+              "explanation": "Jawaban dihitung: 756",
+              "options": [
+                "766",
+                "756",
+                "758",
+                "751"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0094",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "KPK dari 15 dan 7 adalah ...",
+              "answer": "105",
+              "explanation": "Jawaban dihitung: 105",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0101",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 6, 5, dan 9 adalah ...",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "options": [
+                "92",
+                "88",
+                "90",
+                "85"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0108",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "KPK dari 14 dan 20 adalah ...",
+              "answer": "140",
+              "explanation": "Jawaban dihitung: 140",
+              "options": [
+                "140",
+                "142",
+                "138",
+                "150"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0115",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "KPK dari 14 dan 11 adalah ...",
+              "answer": "154",
+              "explanation": "Jawaban dihitung: 154",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0122",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 4, 5, dan 8 adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "options": [
+                "50",
+                "35",
+                "38",
+                "40"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0129",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "KPK dari 15 dan 12 adalah ...",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0136",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "KPK dari 14 dan 12 adalah ...",
+              "answer": "84",
+              "explanation": "Jawaban dihitung: 84",
+              "options": [
+                "84",
+                "82",
+                "86",
+                "79"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0143",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 7, 10, dan 9 adalah ...",
+              "answer": "630",
+              "explanation": "Jawaban dihitung: 630",
+              "options": [
+                "640",
+                "625",
+                "628",
+                "630"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0150",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "KPK dari 21 dan 18 adalah ...",
+              "answer": "126",
+              "explanation": "Jawaban dihitung: 126",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0157",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "KPK dari 9 dan 11 adalah ...",
+              "answer": "99",
+              "explanation": "Jawaban dihitung: 99",
+              "options": [
+                "109",
+                "99",
+                "94",
+                "104"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0164",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 5, 5, dan 5 adalah ...",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 5,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Bilangan Pecahan",
+          "soal": [
+            {
+              "id": "mtk5-0001",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 5/6 + 4/6 adalah ... (bentuk sederhana)",
+              "answer": "3/2",
+              "explanation": "Jawaban dihitung: 3/2",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0002",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/4 dalam bentuk persen adalah ...",
+              "answer": "25%",
+              "explanation": "Jawaban dihitung: 25%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0008",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 1/3 + 3/6 adalah ... (bentuk sederhana)",
+              "answer": "5/6",
+              "explanation": "Jawaban dihitung: 5/6",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0009",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "75% dari 80 adalah ...",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0015",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/3 x 1/5 adalah ... (bentuk sederhana)",
+              "answer": "1/5",
+              "explanation": "Jawaban dihitung: 1/5",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0016",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 1/10 dalam bentuk persen adalah ...",
+              "answer": "10%",
+              "explanation": "Jawaban dihitung: 10%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0022",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 2/4 + 3/4 adalah ... (bentuk sederhana)",
+              "answer": "5/4",
+              "explanation": "Jawaban dihitung: 5/4",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0023",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/5 dalam bentuk persen adalah ...",
+              "answer": "20%",
+              "explanation": "Jawaban dihitung: 20%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0029",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3/4 + 1/5 adalah ... (bentuk sederhana)",
+              "answer": "19/20",
+              "explanation": "Jawaban dihitung: 19/20",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0030",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "60% dari 120 adalah ...",
+              "answer": "72",
+              "explanation": "Jawaban dihitung: 72",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0036",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/3 x 1/5 adalah ... (bentuk sederhana)",
+              "answer": "2/15",
+              "explanation": "Jawaban dihitung: 2/15",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0037",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 1/10 dalam bentuk persen adalah ...",
+              "answer": "10%",
+              "explanation": "Jawaban dihitung: 10%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0043",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 2/4 + 3/4 adalah ... (bentuk sederhana)",
+              "answer": "5/4",
+              "explanation": "Jawaban dihitung: 5/4",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0044",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/4 dalam bentuk persen adalah ...",
+              "answer": "75%",
+              "explanation": "Jawaban dihitung: 75%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0050",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 1/2 + 4/6 adalah ... (bentuk sederhana)",
+              "answer": "7/6",
+              "explanation": "Jawaban dihitung: 7/6",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0051",
+              "topic": "Desimal & Persen",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "60% dari 80 adalah ...",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "options": [
+                "53",
+                "43",
+                "48",
+                "58"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0057",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 1/2 x 3/4 adalah ... (bentuk sederhana)",
+              "answer": "3/8",
+              "explanation": "Jawaban dihitung: 3/8",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0058",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 3/10 dalam bentuk persen adalah ...",
+              "answer": "30%",
+              "explanation": "Jawaban dihitung: 30%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0064",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 3/4 + 2/4 adalah ... (bentuk sederhana)",
+              "answer": "5/4",
+              "explanation": "Jawaban dihitung: 5/4",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0065",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/5 dalam bentuk persen adalah ...",
+              "answer": "20%",
+              "explanation": "Jawaban dihitung: 20%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0071",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 2/3 + 4/5 adalah ... (bentuk sederhana)",
+              "answer": "22/15",
+              "explanation": "Jawaban dihitung: 22/15",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0072",
+              "topic": "Desimal & Persen",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "75% dari 200 adalah ...",
+              "answer": "150",
+              "explanation": "Jawaban dihitung: 150",
+              "options": [
+                "160",
+                "155",
+                "145",
+                "150"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0078",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/3 x 3/5 adalah ... (bentuk sederhana)",
+              "answer": "3/5",
+              "explanation": "Jawaban dihitung: 3/5",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0079",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 1/10 dalam bentuk persen adalah ...",
+              "answer": "10%",
+              "explanation": "Jawaban dihitung: 10%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0085",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 3/6 + 3/6 adalah ... (bentuk sederhana)",
+              "answer": "1/1",
+              "explanation": "Jawaban dihitung: 1/1",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0086",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/4 dalam bentuk persen adalah ...",
+              "answer": "75%",
+              "explanation": "Jawaban dihitung: 75%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0092",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3/4 + 1/5 adalah ... (bentuk sederhana)",
+              "answer": "19/20",
+              "explanation": "Jawaban dihitung: 19/20",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0093",
+              "topic": "Desimal & Persen",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "60% dari 60 adalah ...",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "options": [
+                "36",
+                "31",
+                "46",
+                "38"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0099",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 1/3 x 4/4 adalah ... (bentuk sederhana)",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0100",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 3/10 dalam bentuk persen adalah ...",
+              "answer": "30%",
+              "explanation": "Jawaban dihitung: 30%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0106",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 1/4 + 3/4 adalah ... (bentuk sederhana)",
+              "answer": "1/1",
+              "explanation": "Jawaban dihitung: 1/1",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0107",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/2 dalam bentuk persen adalah ...",
+              "answer": "50%",
+              "explanation": "Jawaban dihitung: 50%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0113",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 1/2 + 2/6 adalah ... (bentuk sederhana)",
+              "answer": "5/6",
+              "explanation": "Jawaban dihitung: 5/6",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0114",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "25% dari 400 adalah ...",
+              "answer": "100",
+              "explanation": "Jawaban dihitung: 100",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0120",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 2/2 x 1/4 adalah ... (bentuk sederhana)",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0121",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 1/10 dalam bentuk persen adalah ...",
+              "answer": "10%",
+              "explanation": "Jawaban dihitung: 10%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0127",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 2/4 + 2/4 adalah ... (bentuk sederhana)",
+              "answer": "1/1",
+              "explanation": "Jawaban dihitung: 1/1",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0128",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/4 dalam bentuk persen adalah ...",
+              "answer": "75%",
+              "explanation": "Jawaban dihitung: 75%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0134",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 1/3 + 1/6 adalah ... (bentuk sederhana)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0135",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "75% dari 60 adalah ...",
+              "answer": "45",
+              "explanation": "Jawaban dihitung: 45",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0141",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 3/3 x 1/4 adalah ... (bentuk sederhana)",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0142",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 1/10 dalam bentuk persen adalah ...",
+              "answer": "10%",
+              "explanation": "Jawaban dihitung: 10%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0148",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 1/6 + 2/6 adalah ... (bentuk sederhana)",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0149",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/2 dalam bentuk persen adalah ...",
+              "answer": "50%",
+              "explanation": "Jawaban dihitung: 50%",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0155",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 1/2 + 3/7 adalah ... (bentuk sederhana)",
+              "answer": "13/14",
+              "explanation": "Jawaban dihitung: 13/14",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0156",
+              "topic": "Desimal & Persen",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "25% dari 60 adalah ...",
+              "answer": "15",
+              "explanation": "Jawaban dihitung: 15",
+              "options": [
+                "20",
+                "15",
+                "17",
+                "25"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0162",
+              "topic": "Operasi Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Hasil dari 1/3 x 2/4 adalah ... (bentuk sederhana)",
+              "answer": "1/6",
+              "explanation": "Jawaban dihitung: 1/6",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0163",
+              "topic": "Desimal & Persen",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 3/10 dalam bentuk persen adalah ...",
+              "answer": "30%",
+              "explanation": "Jawaban dihitung: 30%",
+              "grade": 5,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Keliling Bangun Datar",
+          "soal": [
+            {
+              "id": "mtk5-g016",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 20 cm adalah ... cm",
+              "answer": "80",
+              "explanation": "Jawaban dihitung: 80",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g017",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling segitiga dengan sisi 11 cm, 18 cm, dan 12 cm adalah ... cm",
+              "answer": "41",
+              "explanation": "Jawaban dihitung: 41",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g018",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 29 cm dan lebar 6 cm adalah ... cm",
+              "answer": "70",
+              "explanation": "Jawaban dihitung: 70",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g019",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi dengan sisi 7 cm adalah ... cm",
+              "answer": "28",
+              "explanation": "Jawaban dihitung: 28",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g020",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling segitiga dengan sisi 5 cm, 15 cm, dan 3 cm adalah ... cm",
+              "answer": "23",
+              "explanation": "Jawaban dihitung: 23",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g021",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling segitiga dengan sisi 11 cm, 15 cm, dan 14 cm adalah ... cm",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g022",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling segitiga dengan sisi 20 cm, 13 cm, dan 10 cm adalah ... cm",
+              "answer": "43",
+              "explanation": "Jawaban dihitung: 43",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g023",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi dengan sisi 23 cm adalah ... cm",
+              "answer": "92",
+              "explanation": "Jawaban dihitung: 92",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g024",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling segitiga dengan sisi 7 cm, 4 cm, dan 4 cm adalah ... cm",
+              "answer": "15",
+              "explanation": "Jawaban dihitung: 15",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g025",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 7 cm dan lebar 6 cm adalah ... cm",
+              "answer": "26",
+              "explanation": "Jawaban dihitung: 26",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g026",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling segitiga dengan sisi 14 cm, 20 cm, dan 16 cm adalah ... cm",
+              "answer": "50",
+              "explanation": "Jawaban dihitung: 50",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g027",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling segitiga dengan sisi 18 cm, 16 cm, dan 11 cm adalah ... cm",
+              "answer": "45",
+              "explanation": "Jawaban dihitung: 45",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g028",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling segitiga dengan sisi 17 cm, 10 cm, dan 14 cm adalah ... cm",
+              "answer": "41",
+              "explanation": "Jawaban dihitung: 41",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g029",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling segitiga dengan sisi 4 cm, 15 cm, dan 11 cm adalah ... cm",
+              "answer": "30",
+              "explanation": "Jawaban dihitung: 30",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g030",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 17 cm adalah ... cm",
+              "answer": "68",
+              "explanation": "Jawaban dihitung: 68",
+              "grade": 5,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Luas Daerah Bangun Datar",
+          "soal": [
+            {
+              "id": "mtk5-0004",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 5 cm dan tinggi 4 cm adalah ... cm persegi",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0011",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 10 cm dan 9 cm, tinggi 10 cm adalah ... cm persegi",
+              "answer": "95",
+              "explanation": "Jawaban dihitung: 95",
+              "options": [
+                "95",
+                "93",
+                "100",
+                "97"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0018",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 13x5 cm dan persegi panjang 5x2 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "options": [
+                "75",
+                "80",
+                "70",
+                "77"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0025",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 10 cm dan tinggi 8 cm adalah ... cm persegi",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0032",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 9 cm dan 16 cm, tinggi 9 cm adalah ... cm persegi",
+              "answer": "112",
+              "explanation": "Jawaban dihitung: 112",
+              "options": [
+                "122",
+                "117",
+                "112",
+                "114"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0039",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 9x7 cm dan persegi panjang 5x3 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "78",
+              "explanation": "Jawaban dihitung: 78",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0046",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 7 cm dan tinggi 6 cm adalah ... cm persegi",
+              "answer": "21",
+              "explanation": "Jawaban dihitung: 21",
+              "options": [
+                "21",
+                "23",
+                "19",
+                "16"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0053",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 9 cm dan 16 cm, tinggi 6 cm adalah ... cm persegi",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "options": [
+                "75",
+                "80",
+                "73",
+                "85"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0060",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 14x4 cm dan persegi panjang 3x2 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "62",
+              "explanation": "Jawaban dihitung: 62",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0067",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 9 cm dan tinggi 4 cm adalah ... cm persegi",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "options": [
+                "23",
+                "18",
+                "20",
+                "16"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0074",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 10 cm dan 15 cm, tinggi 6 cm adalah ... cm persegi",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0081",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 12x4 cm dan persegi panjang 5x5 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "options": [
+                "68",
+                "75",
+                "73",
+                "71"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0088",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 4 cm dan tinggi 8 cm adalah ... cm persegi",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "16",
+                "18",
+                "21",
+                "11"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0095",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 6 cm dan 15 cm, tinggi 7 cm adalah ... cm persegi",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0102",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 15x7 cm dan persegi panjang 5x4 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "125",
+              "explanation": "Jawaban dihitung: 125",
+              "options": [
+                "135",
+                "125",
+                "123",
+                "127"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0109",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 4 cm dan tinggi 3 cm adalah ... cm persegi",
+              "answer": "6",
+              "explanation": "Jawaban dihitung: 6",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0116",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 7 cm dan 15 cm, tinggi 7 cm adalah ... cm persegi",
+              "answer": "77",
+              "explanation": "Jawaban dihitung: 77",
+              "options": [
+                "77",
+                "87",
+                "72",
+                "79"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0123",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 12x5 cm dan persegi panjang 6x2 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "72",
+              "explanation": "Jawaban dihitung: 72",
+              "options": [
+                "74",
+                "72",
+                "70",
+                "67"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0130",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 7 cm dan tinggi 9 cm adalah ... cm persegi",
+              "answer": "31",
+              "explanation": "Jawaban dihitung: 31",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0137",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 8 cm dan 8 cm, tinggi 7 cm adalah ... cm persegi",
+              "answer": "56",
+              "explanation": "Jawaban dihitung: 56",
+              "options": [
+                "58",
+                "54",
+                "56",
+                "61"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0144",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 10x7 cm dan persegi panjang 3x2 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "76",
+              "explanation": "Jawaban dihitung: 76",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0151",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas segitiga dengan alas 4 cm dan tinggi 6 cm adalah ... cm persegi",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "options": [
+                "22",
+                "7",
+                "10",
+                "12"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0158",
+              "topic": "Luas Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Luas trapesium dengan sisi sejajar 4 cm dan 14 cm, tinggi 9 cm adalah ... cm persegi",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "options": [
+                "86",
+                "81",
+                "83",
+                "79"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0165",
+              "topic": "Luas Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Sebuah bangun gabungan terdiri dari persegi panjang 11x8 cm dan persegi panjang 5x3 cm. Luas total bangun tersebut adalah ... cm persegi",
+              "answer": "103",
+              "explanation": "Jawaban dihitung: 103",
+              "grade": 5,
+              "sumber": "bank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Sudut",
+          "soal": [
+            {
+              "id": "mtk5-g031",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sudut sebesar 135 derajat termasuk sudut ...",
+              "answer": "tumpul",
+              "explanation": "Jawaban dihitung: tumpul",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g032",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sudut sebesar 150 derajat termasuk sudut ...",
+              "answer": "tumpul",
+              "explanation": "Jawaban dihitung: tumpul",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g033",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sudut sebesar 45 derajat termasuk sudut ...",
+              "answer": "lancip",
+              "explanation": "Jawaban dihitung: lancip",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g034",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sudut sebesar 150 derajat termasuk sudut ...",
+              "answer": "tumpul",
+              "explanation": "Jawaban dihitung: tumpul",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g035",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sudut sebesar 150 derajat termasuk sudut ...",
+              "answer": "tumpul",
+              "explanation": "Jawaban dihitung: tumpul",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g036",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk sudut 150 derajat ... sudut 45 derajat (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g037",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk sudut 150 derajat ... sudut 45 derajat (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g038",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk sudut 150 derajat ... sudut 45 derajat (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g039",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sudut sebesar 45 derajat termasuk sudut ...",
+              "answer": "lancip",
+              "explanation": "Jawaban dihitung: lancip",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g040",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk sudut 150 derajat ... sudut 45 derajat (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g041",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sudut sebesar 45 derajat termasuk sudut ...",
+              "answer": "lancip",
+              "explanation": "Jawaban dihitung: lancip",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g042",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sudut sebesar 45 derajat termasuk sudut ...",
+              "answer": "lancip",
+              "explanation": "Jawaban dihitung: lancip",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g043",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sudut sebesar 135 derajat termasuk sudut ...",
+              "answer": "tumpul",
+              "explanation": "Jawaban dihitung: tumpul",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g044",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk sudut 90 derajat ... sudut 150 derajat (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g045",
+              "topic": "Sudut",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sudut sebesar 90 derajat termasuk sudut ...",
+              "answer": "siku-siku",
+              "explanation": "Jawaban dihitung: siku-siku",
+              "grade": 5,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 7,
+          "judul_bab": "Membandingkan Ciri-Ciri Bangun Datar",
+          "soal": [
+            {
+              "id": "mtk5-g046",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun trapesium memiliki 4 sisi dan 4 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g047",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bangun persegi (4 sisi) dibandingkan segi lima (5 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi lima",
+              "explanation": "Jawaban dihitung: segi lima",
+              "options": [
+                "persegi",
+                "segi lima"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g048",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun segi lima memiliki 5 sisi dan 5 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g049",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun persegi memiliki 4 sisi dan 4 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g050",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun persegi memiliki 4 sisi dan 4 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g051",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bangun trapesium (4 sisi) dibandingkan segi enam (6 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi enam",
+              "explanation": "Jawaban dihitung: segi enam",
+              "options": [
+                "trapesium",
+                "segi enam"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g052",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bangun segi enam (6 sisi) dibandingkan segi lima (5 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi enam",
+              "explanation": "Jawaban dihitung: segi enam",
+              "options": [
+                "segi lima",
+                "segi enam"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g053",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun segi lima memiliki 5 sisi dan 5 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g054",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun segi lima memiliki 5 sisi dan 5 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g055",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bangun segi lima (5 sisi) dibandingkan trapesium (4 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi lima",
+              "explanation": "Jawaban dihitung: segi lima",
+              "options": [
+                "trapesium",
+                "segi lima"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g056",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bangun trapesium (4 sisi) dibandingkan segitiga (3 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "trapesium",
+              "explanation": "Jawaban dihitung: trapesium",
+              "options": [
+                "trapesium",
+                "segitiga"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g057",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bangun persegi (4 sisi) dibandingkan segi lima (5 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi lima",
+              "explanation": "Jawaban dihitung: segi lima",
+              "options": [
+                "segi lima",
+                "persegi"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g058",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun segi enam memiliki 6 sisi dan 6 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "6",
+              "explanation": "Jawaban dihitung: 6",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g059",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bangun persegi (4 sisi) dibandingkan segi lima (5 sisi). Bangun dengan sisi lebih banyak adalah ...",
+              "answer": "segi lima",
+              "explanation": "Jawaban dihitung: segi lima",
+              "options": [
+                "persegi",
+                "segi lima"
+              ],
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g060",
+              "topic": "Membandingkan Ciri-Ciri Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun segitiga memiliki 3 sisi dan 3 sudut. Jumlah sisi bangun ini ada ...",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "grade": 5,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 8,
+          "judul_bab": "Data",
+          "soal": [
+            {
+              "id": "mtk5-0007",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Data nilai 6 siswa: 75, 59, 89, 88, 93, 94. Rata-ratanya adalah ...",
+              "answer": "83",
+              "explanation": "Jawaban dihitung: 83",
+              "options": [
+                "78",
+                "83",
+                "85",
+                "88"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0014",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data nilai 5 siswa: 73, 95, 62, 67, 73. Rata-ratanya adalah ...",
+              "answer": "74",
+              "explanation": "Jawaban dihitung: 74",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0021",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 67, 91, 76, 82, 51. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "76",
+              "explanation": "Jawaban dihitung: 76",
+              "options": [
+                "81",
+                "76",
+                "74",
+                "71"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0028",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Data nilai 6 siswa: 91, 69, 62, 59, 83, 98. Rata-ratanya adalah ...",
+              "answer": "77",
+              "explanation": "Jawaban dihitung: 77",
+              "options": [
+                "77",
+                "75",
+                "72",
+                "87"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0035",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data nilai 7 siswa: 87, 89, 54, 80, 62, 82, 57. Rata-ratanya adalah ...",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0042",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 100, 98, 99, 55, 58, 89. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "93",
+              "explanation": "Jawaban dihitung: 93",
+              "options": [
+                "93",
+                "103",
+                "88",
+                "98"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0049",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data nilai 7 siswa: 58, 63, 96, 51, 87, 82, 60. Rata-ratanya adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0056",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Data nilai 5 siswa: 96, 96, 56, 66, 91. Rata-ratanya adalah ...",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "options": [
+                "83",
+                "81",
+                "86",
+                "79"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0063",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 74, 94, 80, 76, 91, 60. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "78",
+              "explanation": "Jawaban dihitung: 78",
+              "options": [
+                "76",
+                "73",
+                "78",
+                "83"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0070",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data nilai 6 siswa: 75, 65, 55, 79, 78, 86. Rata-ratanya adalah ...",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0077",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Data nilai 7 siswa: 88, 62, 99, 96, 62, 68, 78. Rata-ratanya adalah ...",
+              "answer": "79",
+              "explanation": "Jawaban dihitung: 79",
+              "options": [
+                "89",
+                "79",
+                "77",
+                "74"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0084",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 72, 64, 63, 92, 71. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0091",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Data nilai 5 siswa: 66, 85, 54, 86, 64. Rata-ratanya adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "options": [
+                "71",
+                "76",
+                "73",
+                "66"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0098",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Data nilai 5 siswa: 89, 66, 62, 57, 61. Rata-ratanya adalah ...",
+              "answer": "67",
+              "explanation": "Jawaban dihitung: 67",
+              "options": [
+                "62",
+                "67",
+                "77",
+                "72"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0105",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 78, 72, 99, 69, 81, 85. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "79",
+              "explanation": "Jawaban dihitung: 79",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0112",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Data nilai 5 siswa: 86, 92, 59, 97, 96. Rata-ratanya adalah ...",
+              "answer": "86",
+              "explanation": "Jawaban dihitung: 86",
+              "options": [
+                "86",
+                "91",
+                "81",
+                "88"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0119",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data nilai 6 siswa: 96, 57, 80, 93, 80, 80. Rata-ratanya adalah ...",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0126",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 88, 59, 100, 87, 99, 61. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "87",
+              "explanation": "Jawaban dihitung: 87",
+              "options": [
+                "97",
+                "89",
+                "85",
+                "87"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0133",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Data nilai 6 siswa: 52, 94, 83, 77, 64, 80. Rata-ratanya adalah ...",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "options": [
+                "80",
+                "85",
+                "75",
+                "77"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0140",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data nilai 7 siswa: 80, 66, 69, 86, 72, 99, 95. Rata-ratanya adalah ...",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0147",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data nilai siswa: 52, 96, 74, 75, 89, 91, 83. Median (nilai tengah) dari data tersebut adalah ...",
+              "answer": "83",
+              "explanation": "Jawaban dihitung: 83",
+              "options": [
+                "93",
+                "83",
+                "78",
+                "85"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0154",
+              "topic": "Statistika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data nilai 7 siswa: 50, 66, 61, 76, 82, 56, 85. Rata-ratanya adalah ...",
+              "answer": "68",
+              "explanation": "Jawaban dihitung: 68",
+              "grade": 5,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk5-0161",
+              "topic": "Statistika",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Data nilai 7 siswa: 97, 71, 54, 85, 61, 80, 70. Rata-ratanya adalah ...",
+              "answer": "74",
+              "explanation": "Jawaban dihitung: 74",
+              "options": [
+                "84",
+                "72",
+                "76",
+                "74"
+              ],
+              "grade": 5,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 9,
+          "judul_bab": "Bilangan Cacah Sampai 1.000.000",
+          "soal": [
+            {
+              "id": "mtk5-g061",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 4 pada bilangan 468727 adalah ...",
+              "answer": "400000",
+              "explanation": "Jawaban dihitung: 400000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g062",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pembulatan 323072 ke ribuan terdekat adalah ...",
+              "answer": "323000",
+              "explanation": "Jawaban dihitung: 323000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g063",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pembulatan 605612 ke ribuan terdekat adalah ...",
+              "answer": "606000",
+              "explanation": "Jawaban dihitung: 606000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g064",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk 467121 ... 986438 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g065",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 0 pada bilangan 220465 adalah ...",
+              "answer": "0",
+              "explanation": "Jawaban dihitung: 0",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g066",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Tanda yang tepat untuk 946432 ... 549956 adalah (isi dengan < atau >)",
+              "answer": ">",
+              "explanation": "Jawaban dihitung: >",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g067",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pembulatan 743378 ke ribuan terdekat adalah ...",
+              "answer": "743000",
+              "explanation": "Jawaban dihitung: 743000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g068",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pembulatan 683783 ke ribuan terdekat adalah ...",
+              "answer": "684000",
+              "explanation": "Jawaban dihitung: 684000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g069",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pembulatan 789786 ke ribuan terdekat adalah ...",
+              "answer": "790000",
+              "explanation": "Jawaban dihitung: 790000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g070",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai tempat angka 3 pada bilangan 130359 adalah ...",
+              "answer": "30000",
+              "explanation": "Jawaban dihitung: 30000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g071",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pembulatan 899444 ke ribuan terdekat adalah ...",
+              "answer": "899000",
+              "explanation": "Jawaban dihitung: 899000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g072",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nilai tempat angka 4 pada bilangan 468074 adalah ...",
+              "answer": "400000",
+              "explanation": "Jawaban dihitung: 400000",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g073",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tanda yang tepat untuk 693830 ... 789275 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g074",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tanda yang tepat untuk 248766 ... 876962 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk5-g075",
+              "topic": "Bilangan Cacah Sampai 1.000.000",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Tanda yang tepat untuk 196214 ... 882354 adalah (isi dengan < atau >)",
+              "answer": "<",
+              "explanation": "Jawaban dihitung: <",
+              "grade": 5,
+              "sumber": "generated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "mtk5-0005",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 7 cm, lebar 8 cm, dan tinggi 6 cm adalah ... cm kubik",
+      "answer": "336",
+      "explanation": "Jawaban dihitung: 336",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0006",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 8 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "8000",
+      "explanation": "Jawaban dihitung: 8000",
+      "options": [
+        "8002",
+        "8005",
+        "8010",
+        "8000"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0012",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 135 cm kubik. Jika panjang 9 cm dan lebar 3 cm, maka tinggi balok adalah ... cm",
+      "answer": "5",
+      "explanation": "Jawaban dihitung: 5",
+      "options": [
+        "15",
+        "5",
+        "10",
+        "3"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0013",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 2:4. Jika jumlah keduanya 36, maka bilangan pertama adalah ...",
+      "answer": "12",
+      "explanation": "Jawaban dihitung: 12",
+      "options": [
+        "22",
+        "17",
+        "12",
+        "10"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0019",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 5 cm adalah ... cm kubik",
+      "answer": "125",
+      "explanation": "Jawaban dihitung: 125",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0020",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 12 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "6000",
+      "explanation": "Jawaban dihitung: 6000",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0026",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 10 cm, lebar 4 cm, dan tinggi 3 cm adalah ... cm kubik",
+      "answer": "120",
+      "explanation": "Jawaban dihitung: 120",
+      "options": [
+        "130",
+        "125",
+        "120",
+        "122"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0027",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 10 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "1000",
+      "explanation": "Jawaban dihitung: 1000",
+      "options": [
+        "995",
+        "1000",
+        "1010",
+        "1002"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0033",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 96 cm kubik. Jika panjang 4 cm dan lebar 6 cm, maka tinggi balok adalah ... cm",
+      "answer": "4",
+      "explanation": "Jawaban dihitung: 4",
+      "options": [
+        "2",
+        "4",
+        "14",
+        "6"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0034",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 3:4. Jika jumlah keduanya 21, maka bilangan pertama adalah ...",
+      "answer": "9",
+      "explanation": "Jawaban dihitung: 9",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0040",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 7 cm adalah ... cm kubik",
+      "answer": "343",
+      "explanation": "Jawaban dihitung: 343",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0041",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 2 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "200",
+      "explanation": "Jawaban dihitung: 200",
+      "options": [
+        "200",
+        "202",
+        "205",
+        "198"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0047",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 5 cm, lebar 2 cm, dan tinggi 8 cm adalah ... cm kubik",
+      "answer": "80",
+      "explanation": "Jawaban dihitung: 80",
+      "options": [
+        "80",
+        "82",
+        "85",
+        "75"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0048",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "9000",
+      "explanation": "Jawaban dihitung: 9000",
+      "options": [
+        "9005",
+        "8998",
+        "9000",
+        "9002"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0054",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 132 cm kubik. Jika panjang 4 cm dan lebar 3 cm, maka tinggi balok adalah ... cm",
+      "answer": "11",
+      "explanation": "Jawaban dihitung: 11",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0055",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 48, maka bilangan pertama adalah ...",
+      "answer": "30",
+      "explanation": "Jawaban dihitung: 30",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0061",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 2 cm adalah ... cm kubik",
+      "answer": "8",
+      "explanation": "Jawaban dihitung: 8",
+      "options": [
+        "13",
+        "10",
+        "8",
+        "6"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0062",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 15 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "15000",
+      "explanation": "Jawaban dihitung: 15000",
+      "options": [
+        "14995",
+        "14998",
+        "15002",
+        "15000"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0068",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 3 cm, lebar 7 cm, dan tinggi 3 cm adalah ... cm kubik",
+      "answer": "63",
+      "explanation": "Jawaban dihitung: 63",
+      "options": [
+        "61",
+        "63",
+        "73",
+        "68"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0069",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 7 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "3500",
+      "explanation": "Jawaban dihitung: 3500",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0075",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 630 cm kubik. Jika panjang 10 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
+      "answer": "9",
+      "explanation": "Jawaban dihitung: 9",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0076",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 4:5. Jika jumlah keduanya 18, maka bilangan pertama adalah ...",
+      "answer": "8",
+      "explanation": "Jawaban dihitung: 8",
+      "options": [
+        "10",
+        "3",
+        "8",
+        "6"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0082",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 9 cm adalah ... cm kubik",
+      "answer": "729",
+      "explanation": "Jawaban dihitung: 729",
+      "options": [
+        "724",
+        "739",
+        "729",
+        "731"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0083",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 10 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "5000",
+      "explanation": "Jawaban dihitung: 5000",
+      "options": [
+        "4998",
+        "5010",
+        "5000",
+        "4995"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0089",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 10 cm, lebar 5 cm, dan tinggi 2 cm adalah ... cm kubik",
+      "answer": "100",
+      "explanation": "Jawaban dihitung: 100",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0090",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 12 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "12000",
+      "explanation": "Jawaban dihitung: 12000",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0096",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 160 cm kubik. Jika panjang 10 cm dan lebar 8 cm, maka tinggi balok adalah ... cm",
+      "answer": "2",
+      "explanation": "Jawaban dihitung: 2",
+      "options": [
+        "12",
+        "7",
+        "2",
+        "0"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0097",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 6:4. Jika jumlah keduanya 30, maka bilangan pertama adalah ...",
+      "answer": "18",
+      "explanation": "Jawaban dihitung: 18",
+      "options": [
+        "28",
+        "18",
+        "20",
+        "13"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0103",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 2 cm adalah ... cm kubik",
+      "answer": "8",
+      "explanation": "Jawaban dihitung: 8",
+      "options": [
+        "8",
+        "10",
+        "13",
+        "6"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0104",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "9000",
+      "explanation": "Jawaban dihitung: 9000",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0110",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 9 cm, lebar 8 cm, dan tinggi 6 cm adalah ... cm kubik",
+      "answer": "432",
+      "explanation": "Jawaban dihitung: 432",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0111",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 2 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "1000",
+      "explanation": "Jawaban dihitung: 1000",
+      "options": [
+        "1002",
+        "1005",
+        "1010",
+        "1000"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0117",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 224 cm kubik. Jika panjang 8 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
+      "answer": "4",
+      "explanation": "Jawaban dihitung: 4",
+      "options": [
+        "14",
+        "9",
+        "6",
+        "4"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0118",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 48, maka bilangan pertama adalah ...",
+      "answer": "30",
+      "explanation": "Jawaban dihitung: 30",
+      "options": [
+        "30",
+        "40",
+        "35",
+        "32"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0124",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 9 cm adalah ... cm kubik",
+      "answer": "729",
+      "explanation": "Jawaban dihitung: 729",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0125",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 5 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "2500",
+      "explanation": "Jawaban dihitung: 2500",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0131",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 5 cm, lebar 6 cm, dan tinggi 2 cm adalah ... cm kubik",
+      "answer": "60",
+      "explanation": "Jawaban dihitung: 60",
+      "options": [
+        "60",
+        "58",
+        "70",
+        "65"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0132",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "900",
+      "explanation": "Jawaban dihitung: 900",
+      "options": [
+        "900",
+        "895",
+        "898",
+        "910"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0138",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 378 cm kubik. Jika panjang 9 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
+      "answer": "6",
+      "explanation": "Jawaban dihitung: 6",
+      "options": [
+        "11",
+        "6",
+        "16",
+        "8"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0139",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 40, maka bilangan pertama adalah ...",
+      "answer": "25",
+      "explanation": "Jawaban dihitung: 25",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0145",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 4 cm adalah ... cm kubik",
+      "answer": "64",
+      "explanation": "Jawaban dihitung: 64",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0146",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Peta memiliki skala 1:2500. Jika jarak pada peta 11 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "27500",
+      "explanation": "Jawaban dihitung: 27500",
+      "options": [
+        "27502",
+        "27505",
+        "27500",
+        "27495"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0152",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Volume balok dengan panjang 5 cm, lebar 2 cm, dan tinggi 4 cm adalah ... cm kubik",
+      "answer": "40",
+      "explanation": "Jawaban dihitung: 40",
+      "options": [
+        "42",
+        "40",
+        "50",
+        "45"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0153",
+      "topic": "Perbandingan & Skala",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 3 cm, maka jarak sebenarnya adalah ... cm",
+      "answer": "300",
+      "explanation": "Jawaban dihitung: 300",
+      "options": [
+        "298",
+        "310",
+        "302",
+        "300"
+      ],
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0159",
+      "topic": "Volume Bangun Ruang",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Sebuah balok memiliki volume 250 cm kubik. Jika panjang 10 cm dan lebar 5 cm, maka tinggi balok adalah ... cm",
+      "answer": "5",
+      "explanation": "Jawaban dihitung: 5",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0160",
+      "topic": "Perbandingan & Skala",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Perbandingan dua bilangan adalah 4:2. Jika jumlah keduanya 30, maka bilangan pertama adalah ...",
+      "answer": "20",
+      "explanation": "Jawaban dihitung: 20",
+      "grade": 5
+    },
+    {
+      "id": "mtk5-0166",
+      "topic": "Volume Bangun Ruang",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Volume kubus dengan sisi 3 cm adalah ... cm kubik",
+      "answer": "27",
+      "explanation": "Jawaban dihitung: 27",
+      "options": [
+        "22",
+        "37",
+        "27",
+        "32"
+      ],
+      "grade": 5
+    }
+  ]
+}

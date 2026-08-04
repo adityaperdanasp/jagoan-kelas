@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---- neutrals / ink ---- */
+  --ink-900: #3d2e22; --ink-700: #5a4632; --ink-500: #7a5a2e; --ink-400: #9c8a76; --ink-300: #c2ac91; --ink-200: #e5dcc8;
+  --cream-50: #fdf6ea; --cream-100: #fbf3e7; --cream-200: #f6e3b4; --cream-300: #f1e6d3;
+  --bg-grad-top: #fdedd3; --bg-grad-mid: #e9dcc5; --bg-grad-bottom: #dccba9;
+  --surface-card: #fbf3e7; --surface-card-alt: #ffffff;
+
+  /* ---- pastel accent family ---- */
+  --pastel-pink: #F6C1C1; --pastel-green: #C1E1C1; --pastel-blue: #C1D4F6; --pastel-gold: #F6E3B4;
+  --pastel-purple: #D9C1F6; --pastel-magenta: #F6C1E0; --pastel-mint: #C1F0E8; --pastel-tan: #F0DCC4;
+
+  /* ---- ink pairs for text-on-pastel ---- */
+  --ink-on-blue: #2f4c8c; --ink-on-blue-soft: #5a6d99;
+  --ink-on-pink: #8c2f6b; --ink-on-pink-soft: #9b5d84;
+  --ink-on-green: #3f7a4e; --ink-on-green-soft: #5d9268;
+  --ink-on-tan: #8a4a1f; --ink-on-tan-soft: #a97a4f;
+  --ink-on-purple: #6b3f9b; --ink-on-purple-soft: #8f6db8;
+
+  /* ---- semantic ---- */
+  --color-success: #3F8F5F; --color-success-bg: #C1E1C1;
+  --color-error: #E2685F; --color-error-bg: #FDE7E5;
+  --color-warning: #F7C548;
+
+  /* ---- per-product accent ---- */
+  --product-math: #C1D4F6; --product-math-ink: #2f4c8c;
+  --product-lang: #F6C1E0; --product-lang-ink: #8c2f6b;
+  --product-science: #C1E1C1; --product-science-ink: #3f7a4e;
+  --product-town: #F0DCC4; --product-town-ink: #8a4a1f;
+  --product-focus: #E6D4F7; --product-focus-ink: #6b3f9b;
+
+  /* ---- mascot "Bo" palette ---- */
+  --bo-pink-light: #FFC4D2; --bo-pink: #F281A0; --bo-pink-dark: #C74D6C; --bo-stroke: #B3435F; --bo-drool: #B9E4F3;
+
+  /* ---- shadow tints ---- */
+  --shadow-ink: rgba(60,40,20,0.2); --shadow-ink-soft: rgba(0,0,0,0.06); --shadow-ink-softer: rgba(0,0,0,0.05);
+
+  /* ---- typography ---- */
+  --font-display: "Baloo 2", sans-serif;
+  --font-body: "Nunito", sans-serif;
+  --font-game: "Fredoka", sans-serif;
+
+  --text-hero: 2.375rem;
+  --text-display: 1.875rem;
+  --text-title-lg: 1.5rem;
+  --text-title: 1.15rem;
+  --text-body-lg: 1.05rem;
+  --text-body: 0.94rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.78rem;
+  --text-label: 0.75rem;
+
+  --weight-regular: 400; --weight-semibold: 600; --weight-bold: 700; --weight-heavy: 800;
+  --tracking-label: 0.5px;
+  --leading-tight: 1.05; --leading-snug: 1.3; --leading-normal: 1.5;
+
+  /* ---- spacing / radius / shadow ---- */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px; --space-6: 24px; --space-7: 32px; --space-8: 40px; --space-9: 48px;
+
+  --radius-sm: 10px; --radius-md: 14px; --radius-lg: 18px; --radius-xl: 20px; --radius-2xl: 24px; --radius-3xl: 32px; --radius-pill: 100px; --radius-circle: 50%;
+
+  --shadow-sticker-sm: 0 3px 0 rgba(0,0,0,0.06);
+  --shadow-sticker-md: 0 4px 0 rgba(0,0,0,0.08);
+  --shadow-sticker-lg: 0 6px 0 rgba(0,0,0,0.08);
+  --shadow-card: 0 24px 60px rgba(60,40,20,0.2);
+  --shadow-card-soft: 0 4px 0 rgba(0,0,0,0.05);
+  --shadow-overlay: 0 16px 40px rgba(0,0,0,0.22);
+  --shadow-float: 0 10px 28px rgba(0,0,0,0.22);
+  --shadow-chip: 0 3px 0 rgba(0,0,0,0.05);
+
+  --ease-bounce: cubic-bezier(.33,1.2,.3,1);
+  --ease-pop: cubic-bezier(.34,1.56,.64,1);
+  --duration-press: 0.15s;
+  --duration-hover: 0.28s;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, var(--bg-grad-top), var(--bg-grad-mid) 55%, var(--bg-grad-bottom));
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+button { font: inherit; }

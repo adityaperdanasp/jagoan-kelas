@@ -1,0 +1,2595 @@
+{
+  "kelas": 4,
+  "mapel": "Matematika",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Bilangan Cacah Besar (sampai 10.000)",
+          "soal": [
+            {
+              "id": "mtk4-0001",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 667 - 195 adalah ...",
+              "answer": "472",
+              "explanation": "Jawaban dihitung: 472",
+              "options": [
+                "482",
+                "477",
+                "462",
+                "472"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0005",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 8 dan 10 adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0007",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 740 + 607 adalah ...",
+              "answer": "1347",
+              "explanation": "Jawaban dihitung: 1347",
+              "options": [
+                "1342",
+                "1337",
+                "1357",
+                "1347"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0011",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 6 dan 8 adalah ...",
+              "answer": "24",
+              "explanation": "Jawaban dihitung: 24",
+              "options": [
+                "24",
+                "25",
+                "26",
+                "23"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0013",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 900 - 348 adalah ...",
+              "answer": "552",
+              "explanation": "Jawaban dihitung: 552",
+              "options": [
+                "557",
+                "542",
+                "552",
+                "562"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0017",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 6 dan 10 adalah ...",
+              "answer": "2",
+              "explanation": "Jawaban dihitung: 2",
+              "options": [
+                "2",
+                "0",
+                "3",
+                "4"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0019",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 760 - 676 adalah ...",
+              "answer": "84",
+              "explanation": "Jawaban dihitung: 84",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0023",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 6 dan 9 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "options": [
+                "18",
+                "17",
+                "20",
+                "19"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0025",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 929 + 827 adalah ...",
+              "answer": "1756",
+              "explanation": "Jawaban dihitung: 1756",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0029",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "FPB dari 10 dan 4 adalah ...",
+              "answer": "2",
+              "explanation": "Jawaban dihitung: 2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0031",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 164 + 691 adalah ...",
+              "answer": "855",
+              "explanation": "Jawaban dihitung: 855",
+              "options": [
+                "850",
+                "860",
+                "865",
+                "855"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0035",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 6 dan 9 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0037",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 623 - 497 adalah ...",
+              "answer": "126",
+              "explanation": "Jawaban dihitung: 126",
+              "options": [
+                "126",
+                "131",
+                "136",
+                "121"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0041",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 10 dan 12 adalah ...",
+              "answer": "2",
+              "explanation": "Jawaban dihitung: 2",
+              "options": [
+                "0",
+                "2",
+                "1",
+                "4"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0043",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 899 - 272 adalah ...",
+              "answer": "627",
+              "explanation": "Jawaban dihitung: 627",
+              "options": [
+                "617",
+                "637",
+                "627",
+                "632"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0047",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 5 dan 11 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "options": [
+                "2",
+                "-1",
+                "1",
+                "0"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0049",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 645 + 387 adalah ...",
+              "answer": "1032",
+              "explanation": "Jawaban dihitung: 1032",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0053",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 10 dan 10 adalah ...",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "options": [
+                "10",
+                "8",
+                "11",
+                "12"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0055",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 848 - 569 adalah ...",
+              "answer": "279",
+              "explanation": "Jawaban dihitung: 279",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0059",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "FPB dari 10 dan 7 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0061",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 770 - 195 adalah ...",
+              "answer": "575",
+              "explanation": "Jawaban dihitung: 575",
+              "options": [
+                "570",
+                "575",
+                "565",
+                "580"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0065",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 11 dan 4 adalah ...",
+              "answer": "44",
+              "explanation": "Jawaban dihitung: 44",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0067",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 334 - 172 adalah ...",
+              "answer": "162",
+              "explanation": "Jawaban dihitung: 162",
+              "options": [
+                "167",
+                "152",
+                "157",
+                "162"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0071",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 7 dan 6 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "options": [
+                "3",
+                "-1",
+                "0",
+                "1"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0073",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 353 - 243 adalah ...",
+              "answer": "110",
+              "explanation": "Jawaban dihitung: 110",
+              "options": [
+                "115",
+                "110",
+                "105",
+                "100"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0077",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 11 dan 5 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "options": [
+                "1",
+                "2",
+                "-1",
+                "0"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0079",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 888 + 174 adalah ...",
+              "answer": "1062",
+              "explanation": "Jawaban dihitung: 1062",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0083",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 6 dan 12 adalah ...",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "options": [
+                "14",
+                "12",
+                "10",
+                "13"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0085",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 723 - 156 adalah ...",
+              "answer": "567",
+              "explanation": "Jawaban dihitung: 567",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0089",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 8 dan 5 adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0091",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 261 + 361 adalah ...",
+              "answer": "622",
+              "explanation": "Jawaban dihitung: 622",
+              "options": [
+                "622",
+                "617",
+                "632",
+                "612"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0095",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 12 dan 4 adalah ...",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0097",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 965 - 418 adalah ...",
+              "answer": "547",
+              "explanation": "Jawaban dihitung: 547",
+              "options": [
+                "547",
+                "557",
+                "552",
+                "537"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0101",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 12 dan 7 adalah ...",
+              "answer": "84",
+              "explanation": "Jawaban dihitung: 84",
+              "options": [
+                "86",
+                "84",
+                "83",
+                "82"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0103",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 844 + 414 adalah ...",
+              "answer": "1258",
+              "explanation": "Jawaban dihitung: 1258",
+              "options": [
+                "1258",
+                "1268",
+                "1253",
+                "1248"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0107",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 10 dan 6 adalah ...",
+              "answer": "30",
+              "explanation": "Jawaban dihitung: 30",
+              "options": [
+                "30",
+                "29",
+                "31",
+                "32"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0109",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 421 + 516 adalah ...",
+              "answer": "937",
+              "explanation": "Jawaban dihitung: 937",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0113",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 12 dan 4 adalah ...",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "options": [
+                "3",
+                "4",
+                "2",
+                "5"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0115",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 224 + 112 adalah ...",
+              "answer": "336",
+              "explanation": "Jawaban dihitung: 336",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0119",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 11 dan 4 adalah ...",
+              "answer": "44",
+              "explanation": "Jawaban dihitung: 44",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0121",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 386 + 556 adalah ...",
+              "answer": "942",
+              "explanation": "Jawaban dihitung: 942",
+              "options": [
+                "947",
+                "932",
+                "937",
+                "942"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0125",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 12 dan 9 adalah ...",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0127",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 930 - 130 adalah ...",
+              "answer": "800",
+              "explanation": "Jawaban dihitung: 800",
+              "options": [
+                "810",
+                "800",
+                "805",
+                "790"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0131",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 10 dan 9 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "options": [
+                "2",
+                "1",
+                "-1",
+                "0"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0133",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 138 + 192 adalah ...",
+              "answer": "330",
+              "explanation": "Jawaban dihitung: 330",
+              "options": [
+                "320",
+                "340",
+                "325",
+                "330"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0137",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 5 dan 9 adalah ...",
+              "answer": "45",
+              "explanation": "Jawaban dihitung: 45",
+              "options": [
+                "47",
+                "46",
+                "45",
+                "44"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0139",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 851 - 414 adalah ...",
+              "answer": "437",
+              "explanation": "Jawaban dihitung: 437",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0143",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 9 dan 11 adalah ...",
+              "answer": "99",
+              "explanation": "Jawaban dihitung: 99",
+              "options": [
+                "99",
+                "97",
+                "98",
+                "100"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0145",
+              "topic": "Operasi Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hasil dari 523 - 270 adalah ...",
+              "answer": "253",
+              "explanation": "Jawaban dihitung: 253",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0149",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 12 dan 5 adalah ...",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0151",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 721 + 544 adalah ...",
+              "answer": "1265",
+              "explanation": "Jawaban dihitung: 1265",
+              "options": [
+                "1260",
+                "1270",
+                "1255",
+                "1265"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0155",
+              "topic": "KPK dan FPB",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "KPK dari 8 dan 11 adalah ...",
+              "answer": "88",
+              "explanation": "Jawaban dihitung: 88",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0157",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 183 + 584 adalah ...",
+              "answer": "767",
+              "explanation": "Jawaban dihitung: 767",
+              "options": [
+                "757",
+                "767",
+                "777",
+                "772"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0161",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KPK dari 11 dan 8 adalah ...",
+              "answer": "88",
+              "explanation": "Jawaban dihitung: 88",
+              "options": [
+                "88",
+                "87",
+                "86",
+                "89"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0163",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 960 - 496 adalah ...",
+              "answer": "464",
+              "explanation": "Jawaban dihitung: 464",
+              "options": [
+                "464",
+                "459",
+                "469",
+                "474"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0167",
+              "topic": "KPK dan FPB",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "FPB dari 7 dan 6 adalah ...",
+              "answer": "1",
+              "explanation": "Jawaban dihitung: 1",
+              "options": [
+                "1",
+                "2",
+                "-1",
+                "3"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Pecahan",
+          "soal": [
+            {
+              "id": "mtk4-0002",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 10/12 disederhanakan menjadi ...",
+              "answer": "5/6",
+              "explanation": "Jawaban dihitung: 5/6",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0008",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 8/10 disederhanakan menjadi ...",
+              "answer": "4/5",
+              "explanation": "Jawaban dihitung: 4/5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0014",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 10/12 disederhanakan menjadi ...",
+              "answer": "5/6",
+              "explanation": "Jawaban dihitung: 5/6",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0020",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 8/10 disederhanakan menjadi ...",
+              "answer": "4/5",
+              "explanation": "Jawaban dihitung: 4/5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0026",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 4/8 disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0032",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 7/12 disederhanakan menjadi ...",
+              "answer": "7/12",
+              "explanation": "Jawaban dihitung: 7/12",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0038",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/10 disederhanakan menjadi ...",
+              "answer": "1/5",
+              "explanation": "Jawaban dihitung: 1/5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0044",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 9/12 disederhanakan menjadi ...",
+              "answer": "3/4",
+              "explanation": "Jawaban dihitung: 3/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0050",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/10 disederhanakan menjadi ...",
+              "answer": "3/5",
+              "explanation": "Jawaban dihitung: 3/5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0056",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/8 disederhanakan menjadi ...",
+              "answer": "3/4",
+              "explanation": "Jawaban dihitung: 3/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0062",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 5/12 disederhanakan menjadi ...",
+              "answer": "5/12",
+              "explanation": "Jawaban dihitung: 5/12",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0068",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/8 disederhanakan menjadi ...",
+              "answer": "3/4",
+              "explanation": "Jawaban dihitung: 3/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0074",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/8 disederhanakan menjadi ...",
+              "answer": "3/4",
+              "explanation": "Jawaban dihitung: 3/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0080",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/12 disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0086",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 4/12 disederhanakan menjadi ...",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0092",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/8 disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0098",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 11/12 disederhanakan menjadi ...",
+              "answer": "11/12",
+              "explanation": "Jawaban dihitung: 11/12",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0104",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/8 disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0110",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 7/12 disederhanakan menjadi ...",
+              "answer": "7/12",
+              "explanation": "Jawaban dihitung: 7/12",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0116",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/8 disederhanakan menjadi ...",
+              "answer": "3/8",
+              "explanation": "Jawaban dihitung: 3/8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0122",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/8 disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0128",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 7/8 disederhanakan menjadi ...",
+              "answer": "7/8",
+              "explanation": "Jawaban dihitung: 7/8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0134",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 4/8 disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0140",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/8 disederhanakan menjadi ...",
+              "answer": "3/8",
+              "explanation": "Jawaban dihitung: 3/8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0146",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 7/10 disederhanakan menjadi ...",
+              "answer": "7/10",
+              "explanation": "Jawaban dihitung: 7/10",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0152",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/12 disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0158",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 7/10 disederhanakan menjadi ...",
+              "answer": "7/10",
+              "explanation": "Jawaban dihitung: 7/10",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0164",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 11/12 disederhanakan menjadi ...",
+              "answer": "11/12",
+              "explanation": "Jawaban dihitung: 11/12",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Pola Gambar dan Pola Bilangan",
+          "soal": [
+            {
+              "id": "mtk4-g001",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 24, 28, 32, ...",
+              "answer": "36",
+              "explanation": "Pola naik 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g002",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 25, 17, 9, ...",
+              "answer": "1",
+              "explanation": "Pola turun 8",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g003",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 9, 7, 5, ...",
+              "answer": "3",
+              "explanation": "Pola turun 2",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g004",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 10, 19, 28, ...",
+              "answer": "37",
+              "explanation": "Pola naik 9",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g005",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 18, 9, 0, ...",
+              "answer": "-9",
+              "explanation": "Pola turun 9",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g006",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 18, 10, 2, ...",
+              "answer": "-6",
+              "explanation": "Pola turun 8",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g007",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 28, 56, 112, ...",
+              "answer": "224",
+              "explanation": "Pola dikali 2",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g008",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 13, 8, 3, ...",
+              "answer": "-2",
+              "explanation": "Pola turun 5",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g009",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lanjutkan pola bilangan: 11, 33, 99, ...",
+              "answer": "297",
+              "explanation": "Pola dikali 3",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g010",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 22, 18, 14, ...",
+              "answer": "10",
+              "explanation": "Pola turun 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g011",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lanjutkan pola bilangan: 5, 12, 19, ...",
+              "answer": "26",
+              "explanation": "Pola naik 7",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g012",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lanjutkan pola bilangan: 4, 13, 22, ...",
+              "answer": "31",
+              "explanation": "Pola naik 9",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g013",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 5, 10, 20, ...",
+              "answer": "40",
+              "explanation": "Pola dikali 2",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g014",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lanjutkan pola bilangan: 16, 10, 4, ...",
+              "answer": "-2",
+              "explanation": "Pola turun 6",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g015",
+              "topic": "Pola Gambar dan Pola Bilangan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lanjutkan pola bilangan: 23, 46, 92, ...",
+              "answer": "184",
+              "explanation": "Pola dikali 2",
+              "grade": 4,
+              "sumber": "generated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Pengukuran Luas dan Volume",
+          "soal": [
+            {
+              "id": "mtk4-0004",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 10 cm adalah ... cm persegi",
+              "answer": "100",
+              "explanation": "Jawaban dihitung: 100",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0010",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 14 cm adalah ... cm persegi",
+              "answer": "196",
+              "explanation": "Jawaban dihitung: 196",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0016",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 8 cm adalah ... cm persegi",
+              "answer": "64",
+              "explanation": "Jawaban dihitung: 64",
+              "options": [
+                "62",
+                "64",
+                "69",
+                "59"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0022",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 9 cm adalah ... cm persegi",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "options": [
+                "76",
+                "86",
+                "81",
+                "83"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0028",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 14 cm adalah ... cm persegi",
+              "answer": "196",
+              "explanation": "Jawaban dihitung: 196",
+              "options": [
+                "196",
+                "194",
+                "191",
+                "201"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0034",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 14 cm adalah ... cm persegi",
+              "answer": "196",
+              "explanation": "Jawaban dihitung: 196",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0040",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 7 cm adalah ... cm persegi",
+              "answer": "49",
+              "explanation": "Jawaban dihitung: 49",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0046",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 15 cm adalah ... cm persegi",
+              "answer": "225",
+              "explanation": "Jawaban dihitung: 225",
+              "options": [
+                "225",
+                "227",
+                "220",
+                "223"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0052",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 15 cm adalah ... cm persegi",
+              "answer": "225",
+              "explanation": "Jawaban dihitung: 225",
+              "options": [
+                "230",
+                "227",
+                "225",
+                "223"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0058",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 4 cm adalah ... cm persegi",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "11",
+                "14",
+                "21",
+                "16"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0064",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 12 cm adalah ... cm persegi",
+              "answer": "144",
+              "explanation": "Jawaban dihitung: 144",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0070",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 15 cm adalah ... cm persegi",
+              "answer": "225",
+              "explanation": "Jawaban dihitung: 225",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0076",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 14 cm adalah ... cm persegi",
+              "answer": "196",
+              "explanation": "Jawaban dihitung: 196",
+              "options": [
+                "201",
+                "194",
+                "196",
+                "191"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0082",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 5 cm adalah ... cm persegi",
+              "answer": "25",
+              "explanation": "Jawaban dihitung: 25",
+              "options": [
+                "23",
+                "27",
+                "20",
+                "25"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0088",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 6 cm adalah ... cm persegi",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "options": [
+                "41",
+                "38",
+                "36",
+                "31"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0094",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 5 cm adalah ... cm persegi",
+              "answer": "25",
+              "explanation": "Jawaban dihitung: 25",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0100",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 7 cm adalah ... cm persegi",
+              "answer": "49",
+              "explanation": "Jawaban dihitung: 49",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0106",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 11 cm adalah ... cm persegi",
+              "answer": "121",
+              "explanation": "Jawaban dihitung: 121",
+              "options": [
+                "119",
+                "116",
+                "126",
+                "121"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0112",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 7 cm adalah ... cm persegi",
+              "answer": "49",
+              "explanation": "Jawaban dihitung: 49",
+              "options": [
+                "51",
+                "47",
+                "49",
+                "44"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0118",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 9 cm adalah ... cm persegi",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "options": [
+                "81",
+                "76",
+                "86",
+                "79"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0124",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 9 cm adalah ... cm persegi",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0130",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 7 cm adalah ... cm persegi",
+              "answer": "49",
+              "explanation": "Jawaban dihitung: 49",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0136",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 6 cm adalah ... cm persegi",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "options": [
+                "36",
+                "31",
+                "38",
+                "34"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0142",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 15 cm adalah ... cm persegi",
+              "answer": "225",
+              "explanation": "Jawaban dihitung: 225",
+              "options": [
+                "223",
+                "220",
+                "225",
+                "227"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0148",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 9 cm adalah ... cm persegi",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "options": [
+                "76",
+                "79",
+                "81",
+                "83"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0154",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 5 cm adalah ... cm persegi",
+              "answer": "25",
+              "explanation": "Jawaban dihitung: 25",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0160",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 11 cm adalah ... cm persegi",
+              "answer": "121",
+              "explanation": "Jawaban dihitung: 121",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0166",
+              "topic": "Bangun Datar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Luas persegi dengan sisi 6 cm adalah ... cm persegi",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "options": [
+                "36",
+                "41",
+                "31",
+                "34"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Bangun Datar",
+          "soal": [
+            {
+              "id": "mtk4-g016",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar persegi panjang memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g017",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 2 segitiga sama besar digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi panjang atau jajar genjang",
+              "explanation": "Jawaban dihitung: persegi panjang atau jajar genjang",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g018",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g019",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar segitiga memiliki ... sisi",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g020",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g021",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 2 segitiga sama besar digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi panjang atau jajar genjang",
+              "explanation": "Jawaban dihitung: persegi panjang atau jajar genjang",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g022",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 2 persegi panjang digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi panjang besar",
+              "explanation": "Jawaban dihitung: persegi panjang besar",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g023",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segi lima memiliki ... sisi",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g024",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Jika 6 persegi digabungkan, bisa membentuk bangun ...",
+              "answer": "jaring-jaring kubus",
+              "explanation": "Jawaban dihitung: jaring-jaring kubus",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g025",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Jika 4 persegi kecil digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi besar",
+              "explanation": "Jawaban dihitung: persegi besar",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g026",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g027",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 4 persegi kecil digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi besar",
+              "explanation": "Jawaban dihitung: persegi besar",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g028",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segi lima memiliki ... sisi",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g029",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 6 persegi digabungkan, bisa membentuk bangun ...",
+              "answer": "jaring-jaring kubus",
+              "explanation": "Jawaban dihitung: jaring-jaring kubus",
+              "grade": 4,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk4-g030",
+              "topic": "Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jika 2 segitiga sama besar digabungkan, bisa membentuk bangun ...",
+              "answer": "persegi panjang atau jajar genjang",
+              "explanation": "Jawaban dihitung: persegi panjang atau jajar genjang",
+              "grade": 4,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Diagram Batang",
+          "soal": [
+            {
+              "id": "mtk4-0006",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 73, 66, 65, 96. Nilai rata-ratanya adalah ...",
+              "answer": "75",
+              "explanation": "Jawaban dihitung: 75",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0012",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 97, 94, 90, 81, 86. Nilai rata-ratanya adalah ...",
+              "answer": "89.6",
+              "explanation": "Jawaban dihitung: 89.6",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0018",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 92, 72, 60, 91, 89, 52. Nilai rata-ratanya adalah ...",
+              "answer": "76",
+              "explanation": "Jawaban dihitung: 76",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0024",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 94, 78, 70, 54, 69, 52. Nilai rata-ratanya adalah ...",
+              "answer": "69.5",
+              "explanation": "Jawaban dihitung: 69.5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0030",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 67, 98, 95, 100. Nilai rata-ratanya adalah ...",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0036",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 57, 61, 73, 94, 59. Nilai rata-ratanya adalah ...",
+              "answer": "68.8",
+              "explanation": "Jawaban dihitung: 68.8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0042",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 67, 64, 84, 68. Nilai rata-ratanya adalah ...",
+              "answer": "70.8",
+              "explanation": "Jawaban dihitung: 70.8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0048",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 63, 53, 86, 72. Nilai rata-ratanya adalah ...",
+              "answer": "68.5",
+              "explanation": "Jawaban dihitung: 68.5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0054",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 87, 50, 99, 96, 55. Nilai rata-ratanya adalah ...",
+              "answer": "77.4",
+              "explanation": "Jawaban dihitung: 77.4",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0060",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 91, 69, 60, 67. Nilai rata-ratanya adalah ...",
+              "answer": "71.8",
+              "explanation": "Jawaban dihitung: 71.8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0066",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 57, 77, 94, 58, 80. Nilai rata-ratanya adalah ...",
+              "answer": "73.2",
+              "explanation": "Jawaban dihitung: 73.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0072",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 96, 74, 72, 77, 70, 100. Nilai rata-ratanya adalah ...",
+              "answer": "81.5",
+              "explanation": "Jawaban dihitung: 81.5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0078",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 84, 93, 61, 98, 80. Nilai rata-ratanya adalah ...",
+              "answer": "83.2",
+              "explanation": "Jawaban dihitung: 83.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0084",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 77, 57, 79, 89. Nilai rata-ratanya adalah ...",
+              "answer": "75.5",
+              "explanation": "Jawaban dihitung: 75.5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0090",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 73, 53, 81, 86, 60, 73. Nilai rata-ratanya adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0096",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 52, 75, 54, 79, 68, 99. Nilai rata-ratanya adalah ...",
+              "answer": "71.2",
+              "explanation": "Jawaban dihitung: 71.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0102",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 50, 98, 92, 74, 97. Nilai rata-ratanya adalah ...",
+              "answer": "82.2",
+              "explanation": "Jawaban dihitung: 82.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0108",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 56, 59, 56, 60, 78, 79. Nilai rata-ratanya adalah ...",
+              "answer": "64.7",
+              "explanation": "Jawaban dihitung: 64.7",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0114",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 79, 56, 100, 58. Nilai rata-ratanya adalah ...",
+              "answer": "73.2",
+              "explanation": "Jawaban dihitung: 73.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0120",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 5 siswa adalah 61, 72, 63, 61, 67. Nilai rata-ratanya adalah ...",
+              "answer": "64.8",
+              "explanation": "Jawaban dihitung: 64.8",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0126",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 51, 70, 88, 64. Nilai rata-ratanya adalah ...",
+              "answer": "68.2",
+              "explanation": "Jawaban dihitung: 68.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0132",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 62, 81, 84, 69, 61, 81. Nilai rata-ratanya adalah ...",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0138",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 92, 87, 61, 74. Nilai rata-ratanya adalah ...",
+              "answer": "78.5",
+              "explanation": "Jawaban dihitung: 78.5",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0144",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 74, 78, 96, 76. Nilai rata-ratanya adalah ...",
+              "answer": "81",
+              "explanation": "Jawaban dihitung: 81",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0150",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 80, 95, 51, 77, 91, 60. Nilai rata-ratanya adalah ...",
+              "answer": "75.7",
+              "explanation": "Jawaban dihitung: 75.7",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0156",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 4 siswa adalah 63, 60, 90, 68. Nilai rata-ratanya adalah ...",
+              "answer": "70.2",
+              "explanation": "Jawaban dihitung: 70.2",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0162",
+              "topic": "Data dan Statistika Dasar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Nilai ulangan 6 siswa adalah 76, 98, 87, 64, 85, 53. Nilai rata-ratanya adalah ...",
+              "answer": "77.2",
+              "explanation": "Jawaban dihitung: 77.2",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "mtk4-0003",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "3 liter 750 ml sama dengan ... ml",
+      "answer": "3750",
+      "explanation": "Jawaban dihitung: 3750",
+      "options": [
+        "3800",
+        "3750",
+        "3850",
+        "3700"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0009",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "6 liter 750 ml sama dengan ... ml",
+      "answer": "6750",
+      "explanation": "Jawaban dihitung: 6750",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0015",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "4 liter 750 ml sama dengan ... ml",
+      "answer": "4750",
+      "explanation": "Jawaban dihitung: 4750",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0021",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "2 liter 500 ml sama dengan ... ml",
+      "answer": "2500",
+      "explanation": "Jawaban dihitung: 2500",
+      "options": [
+        "2550",
+        "2500",
+        "2600",
+        "2450"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0027",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "4 liter 250 ml sama dengan ... ml",
+      "answer": "4250",
+      "explanation": "Jawaban dihitung: 4250",
+      "options": [
+        "4350",
+        "4300",
+        "4200",
+        "4250"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0033",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "2 liter 500 ml sama dengan ... ml",
+      "answer": "2500",
+      "explanation": "Jawaban dihitung: 2500",
+      "options": [
+        "2600",
+        "2500",
+        "2450",
+        "2550"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0039",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "8 liter 250 ml sama dengan ... ml",
+      "answer": "8250",
+      "explanation": "Jawaban dihitung: 8250",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0045",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "7 liter 100 ml sama dengan ... ml",
+      "answer": "7100",
+      "explanation": "Jawaban dihitung: 7100",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0051",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "9 liter 100 ml sama dengan ... ml",
+      "answer": "9100",
+      "explanation": "Jawaban dihitung: 9100",
+      "options": [
+        "9050",
+        "9100",
+        "9000",
+        "9200"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0057",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "7 liter 250 ml sama dengan ... ml",
+      "answer": "7250",
+      "explanation": "Jawaban dihitung: 7250",
+      "options": [
+        "7350",
+        "7250",
+        "7300",
+        "7200"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0063",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "2 liter 100 ml sama dengan ... ml",
+      "answer": "2100",
+      "explanation": "Jawaban dihitung: 2100",
+      "options": [
+        "2200",
+        "2000",
+        "2100",
+        "2050"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0069",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "8 liter 500 ml sama dengan ... ml",
+      "answer": "8500",
+      "explanation": "Jawaban dihitung: 8500",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0075",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "7 liter 500 ml sama dengan ... ml",
+      "answer": "7500",
+      "explanation": "Jawaban dihitung: 7500",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0081",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "4 liter 100 ml sama dengan ... ml",
+      "answer": "4100",
+      "explanation": "Jawaban dihitung: 4100",
+      "options": [
+        "4100",
+        "4200",
+        "4000",
+        "4150"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0087",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "3 liter 100 ml sama dengan ... ml",
+      "answer": "3100",
+      "explanation": "Jawaban dihitung: 3100",
+      "options": [
+        "3100",
+        "3050",
+        "3150",
+        "3200"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0093",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "4 liter 500 ml sama dengan ... ml",
+      "answer": "4500",
+      "explanation": "Jawaban dihitung: 4500",
+      "options": [
+        "4500",
+        "4450",
+        "4600",
+        "4550"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0099",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "6 liter 750 ml sama dengan ... ml",
+      "answer": "6750",
+      "explanation": "Jawaban dihitung: 6750",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0105",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "7 liter 500 ml sama dengan ... ml",
+      "answer": "7500",
+      "explanation": "Jawaban dihitung: 7500",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0111",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "5 liter 750 ml sama dengan ... ml",
+      "answer": "5750",
+      "explanation": "Jawaban dihitung: 5750",
+      "options": [
+        "5700",
+        "5650",
+        "5750",
+        "5800"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0117",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "6 liter 100 ml sama dengan ... ml",
+      "answer": "6100",
+      "explanation": "Jawaban dihitung: 6100",
+      "options": [
+        "6150",
+        "6000",
+        "6100",
+        "6050"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0123",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "3 liter 750 ml sama dengan ... ml",
+      "answer": "3750",
+      "explanation": "Jawaban dihitung: 3750",
+      "options": [
+        "3850",
+        "3750",
+        "3650",
+        "3700"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0129",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "9 liter 100 ml sama dengan ... ml",
+      "answer": "9100",
+      "explanation": "Jawaban dihitung: 9100",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0135",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "1 liter 100 ml sama dengan ... ml",
+      "answer": "1100",
+      "explanation": "Jawaban dihitung: 1100",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0141",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "1 liter 250 ml sama dengan ... ml",
+      "answer": "1250",
+      "explanation": "Jawaban dihitung: 1250",
+      "options": [
+        "1200",
+        "1250",
+        "1300",
+        "1150"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0147",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "2 liter 750 ml sama dengan ... ml",
+      "answer": "2750",
+      "explanation": "Jawaban dihitung: 2750",
+      "options": [
+        "2850",
+        "2750",
+        "2700",
+        "2650"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0153",
+      "topic": "Pengukuran",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "2 liter 100 ml sama dengan ... ml",
+      "answer": "2100",
+      "explanation": "Jawaban dihitung: 2100",
+      "options": [
+        "2200",
+        "2050",
+        "2000",
+        "2100"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0159",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "1 liter 500 ml sama dengan ... ml",
+      "answer": "1500",
+      "explanation": "Jawaban dihitung: 1500",
+      "grade": 4
+    },
+    {
+      "id": "mtk4-0165",
+      "topic": "Pengukuran",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "2 liter 750 ml sama dengan ... ml",
+      "answer": "2750",
+      "explanation": "Jawaban dihitung: 2750",
+      "grade": 4
+    }
+  ]
+}

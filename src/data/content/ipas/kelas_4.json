@@ -1,0 +1,1176 @@
+{
+  "kelas": 4,
+  "mapel": "IPAS",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Tumbuhan, Sumber Kehidupan di Bumi",
+          "soal": [
+            {
+              "id": "ipas4-d001",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tumbuhan yang berfungsi menyerap air dan mineral dari tanah adalah ...",
+              "answer": "Akar",
+              "explanation": "Akar",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d002",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Proses tumbuhan membuat makanannya sendiri dengan bantuan cahaya matahari disebut ...",
+              "answer": "Fotosintesis",
+              "explanation": "Fotosintesis",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d003",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Selain air dan cahaya matahari, bahan yang dibutuhkan tumbuhan untuk fotosintesis adalah ...",
+              "answer": "Karbon dioksida",
+              "explanation": "Karbon dioksida",
+              "options": [
+                "Oksigen murni",
+                "Nitrogen",
+                "Karbon dioksida"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d004",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tumbuhan tempat terjadinya fotosintesis adalah ...",
+              "answer": "Daun",
+              "explanation": "Daun",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d005",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Gas yang dihasilkan tumbuhan saat fotosintesis dan dibutuhkan manusia untuk bernapas adalah ...",
+              "answer": "Oksigen",
+              "explanation": "Oksigen",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d006",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tumbuhan yang berkembang biak dengan biji contohnya adalah ...",
+              "answer": "Mangga",
+              "explanation": "Mangga",
+              "options": [
+                "Pisang",
+                "Bawang merah",
+                "Mangga"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d007",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tumbuhan yang berfungsi menyalurkan air dari akar ke daun adalah ...",
+              "answer": "Batang",
+              "explanation": "Batang",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d008",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tumbuhan yang berkembang biak dengan tunas contohnya adalah ...",
+              "answer": "Pisang",
+              "explanation": "Pisang",
+              "options": [
+                "Mangga",
+                "Jeruk",
+                "Pisang"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d009",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Bagian bunga yang akan berkembang menjadi buah adalah ...",
+              "answer": "Bakal buah",
+              "explanation": "Bakal buah",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d010",
+              "topic": "Tumbuhan, Sumber Kehidupan di Bumi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Proses penyerbukan bunga yang dibantu oleh angin disebut penyerbukan dengan perantara ...",
+              "answer": "Angin",
+              "explanation": "Angin",
+              "options": [
+                "Air",
+                "Manusia",
+                "Angin"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Wujud Zat dan Perubahannya",
+          "soal": [
+            {
+              "id": "ipas4-d011",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Benda yang bentuknya tetap dan tidak mengikuti wadahnya disebut benda ...",
+              "answer": "Padat",
+              "explanation": "Padat",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d012",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Benda yang bentuknya berubah mengikuti wadahnya disebut benda ...",
+              "answer": "Cair",
+              "explanation": "Cair",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d013",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Benda yang memenuhi seluruh ruang yang ditempatinya disebut benda ...",
+              "answer": "Gas",
+              "explanation": "Gas",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d014",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Perubahan wujud dari cair menjadi padat disebut ...",
+              "answer": "Membeku",
+              "explanation": "Membeku",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d015",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Perubahan wujud dari padat menjadi cair disebut ...",
+              "answer": "Mencair",
+              "explanation": "Mencair",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d016",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perubahan wujud dari cair menjadi gas disebut ...",
+              "answer": "Menguap",
+              "explanation": "Menguap",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d017",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perubahan wujud dari gas menjadi cair disebut ...",
+              "answer": "Mengembun",
+              "explanation": "Mengembun",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d018",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Perubahan wujud dari padat langsung menjadi gas disebut ...",
+              "answer": "Menyublim",
+              "explanation": "Menyublim",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d019",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Es krim yang dibiarkan di luar lemari es lama-lama akan ...",
+              "answer": "Mencair",
+              "explanation": "Mencair",
+              "options": [
+                "Membeku",
+                "Menyublim",
+                "Mencair"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d020",
+              "topic": "Wujud Zat dan Perubahannya",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Kapur barus yang lama-kelamaan mengecil dan habis mengalami peristiwa ...",
+              "answer": "Menyublim",
+              "explanation": "Menyublim",
+              "options": [
+                "Mencair",
+                "Membeku",
+                "Menyublim"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Gaya di Sekitar Kita",
+          "soal": [
+            {
+              "id": "ipas4-027",
+              "topic": "Gaya & Gerak",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya yang bekerja saat kita mendorong meja disebut gaya ...",
+              "answer": "Otot",
+              "explanation": "Gaya adalah dorongan atau tarikan yang memengaruhi gerak benda",
+              "options": [
+                "Otot",
+                "Magnet",
+                "Gravitasi",
+                "Gesek"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-028",
+              "topic": "Gaya & Gerak",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya yang menyebabkan benda bergerak menjadi melambat karena permukaan kasar disebut gaya ...",
+              "answer": "Gesek",
+              "explanation": "Gaya adalah dorongan atau tarikan yang memengaruhi gerak benda",
+              "options": [
+                "Gesek",
+                "Magnet",
+                "Gravitasi",
+                "Otot"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-029",
+              "topic": "Gaya & Gerak",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya tarik menarik antara benda logam tertentu disebut gaya ...",
+              "answer": "Magnet",
+              "explanation": "Gaya adalah dorongan atau tarikan yang memengaruhi gerak benda",
+              "options": [
+                "Gravitasi",
+                "Magnet",
+                "Gesek",
+                "Otot"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-030",
+              "topic": "Gaya & Gerak",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Benda yang dapat ditarik oleh magnet biasanya terbuat dari ...",
+              "answer": "Besi/logam",
+              "explanation": "Gaya adalah dorongan atau tarikan yang memengaruhi gerak benda",
+              "options": [
+                "Plastik",
+                "Besi/logam",
+                "Kaca",
+                "Kayu"
+              ],
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-047",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Contoh gaya yang dapat mengubah bentuk benda adalah menekan ...",
+              "answer": "Plastisin/tanah liat",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-048",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bandul yang berayun karena adanya gaya ...",
+              "answer": "Gravitasi",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Mengubah Bentuk Energi",
+          "soal": [
+            {
+              "id": "ipas4-d021",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perubahan energi listrik menjadi energi gerak terjadi pada alat ...",
+              "answer": "Kipas angin/motor listrik",
+              "explanation": "Kipas angin/motor listrik",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d022",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Perubahan energi listrik menjadi energi panas terjadi pada alat ...",
+              "answer": "Setrika",
+              "explanation": "Setrika",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d023",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Perubahan energi listrik menjadi energi cahaya terjadi pada alat ...",
+              "answer": "Lampu",
+              "explanation": "Lampu",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d024",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Energi kimia dalam makanan berubah menjadi energi gerak saat kita ...",
+              "answer": "Berolahraga/beraktivitas",
+              "explanation": "Berolahraga/beraktivitas",
+              "options": [
+                "Tidur",
+                "Diam",
+                "Berolahraga/beraktivitas"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d025",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Panel surya mengubah energi matahari menjadi energi ...",
+              "answer": "Listrik",
+              "explanation": "Listrik",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d026",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Energi yang tersimpan pada baterai disebut energi ...",
+              "answer": "Kimia",
+              "explanation": "Kimia",
+              "options": [
+                "Gerak",
+                "Cahaya",
+                "Kimia"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d027",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perubahan energi listrik menjadi energi bunyi terjadi pada alat ...",
+              "answer": "Radio/speaker",
+              "explanation": "Radio/speaker",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d028",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ketika kita menggosokkan kedua telapak tangan, energi gerak berubah menjadi energi ...",
+              "answer": "Panas",
+              "explanation": "Panas",
+              "options": [
+                "Cahaya",
+                "Bunyi",
+                "Panas"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d029",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Kincir angin mengubah energi angin menjadi energi gerak lalu menjadi energi ...",
+              "answer": "Listrik",
+              "explanation": "Listrik",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d030",
+              "topic": "Mengubah Bentuk Energi",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Perubahan bentuk energi pada aki mobil adalah dari energi kimia menjadi energi ...",
+              "answer": "Listrik",
+              "explanation": "Listrik",
+              "options": [
+                "Cahaya",
+                "Bunyi",
+                "Listrik"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Cerita Tentang Daerahku",
+          "soal": [
+            {
+              "id": "ipas4-017",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota provinsi Jawa Barat adalah ...",
+              "answer": "Bandung",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-018",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota provinsi Jawa Timur adalah ...",
+              "answer": "Surabaya",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-019",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota provinsi Sumatera Utara adalah ...",
+              "answer": "Medan",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-020",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota provinsi Bali adalah ...",
+              "answer": "Denpasar",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-021",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota provinsi Sulawesi Selatan adalah ...",
+              "answer": "Makassar",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-022",
+              "topic": "Provinsi di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibu kota Negara Indonesia saat ini secara administratif adalah ...",
+              "answer": "Jakarta",
+              "explanation": "Pengenalan provinsi dan ibu kotanya",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-031",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kenampakan buatan manusia berupa jalur untuk kereta api disebut ...",
+              "answer": "Rel kereta api",
+              "explanation": "Pengetahuan gabungan IPA dan IPS",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-032",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangunan yang dibuat untuk menampung dan mengatur air disebut ...",
+              "answer": "Waduk/bendungan",
+              "explanation": "Pengetahuan gabungan IPA dan IPS",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Indonesiaku Kaya Budaya",
+          "soal": [
+            {
+              "id": "ipas4-023",
+              "topic": "Keragaman Suku Bangsa",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Suku Batak berasal dari provinsi ...",
+              "answer": "Sumatera Utara",
+              "explanation": "Indonesia memiliki ratusan suku bangsa",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-024",
+              "topic": "Keragaman Suku Bangsa",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Suku Asmat berasal dari provinsi ...",
+              "answer": "Papua",
+              "explanation": "Indonesia memiliki ratusan suku bangsa",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-025",
+              "topic": "Keragaman Suku Bangsa",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Suku Sunda banyak mendiami wilayah ...",
+              "answer": "Jawa Barat",
+              "explanation": "Indonesia memiliki ratusan suku bangsa",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-026",
+              "topic": "Keragaman Suku Bangsa",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Suku Bugis banyak mendiami wilayah ...",
+              "answer": "Sulawesi Selatan",
+              "explanation": "Indonesia memiliki ratusan suku bangsa",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-044",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Rumah adat Honai berasal dari provinsi ...",
+              "answer": "Papua",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 7,
+          "judul_bab": "Bagaimana Mendapatkan Semua Keperluan Kita?",
+          "soal": [
+            {
+              "id": "ipas4-013",
+              "topic": "Sumber Daya Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sumber daya alam yang tidak akan habis meski digunakan terus-menerus disebut sumber daya alam ...",
+              "answer": "Dapat diperbarui",
+              "explanation": "Pengelolaan sumber daya alam perlu bijaksana",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-014",
+              "topic": "Sumber Daya Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sumber daya alam yang akan habis jika digunakan terus-menerus disebut sumber daya alam ...",
+              "answer": "Tidak dapat diperbarui",
+              "explanation": "Pengelolaan sumber daya alam perlu bijaksana",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-015",
+              "topic": "Sumber Daya Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Contoh sumber daya alam yang dapat diperbarui adalah ...",
+              "answer": "Air/angin/matahari",
+              "explanation": "Pengelolaan sumber daya alam perlu bijaksana",
+              "grade": 4,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas4-016",
+              "topic": "Sumber Daya Alam",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Contoh sumber daya alam yang tidak dapat diperbarui adalah ...",
+              "answer": "Minyak bumi/batu bara",
+              "explanation": "Pengelolaan sumber daya alam perlu bijaksana",
+              "grade": 4,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 8,
+          "judul_bab": "Membangun Masyarakat yang Beradab",
+          "soal": [
+            {
+              "id": "ipas4-d031",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Aturan yang dibuat agar kehidupan bermasyarakat menjadi tertib disebut ...",
+              "answer": "Norma",
+              "explanation": "Norma",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d032",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Contoh norma yang berlaku di sekolah adalah ...",
+              "answer": "Memakai seragam",
+              "explanation": "Memakai seragam",
+              "options": [
+                "Bebas memakai baju apa saja",
+                "Boleh datang terlambat",
+                "Memakai seragam"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d033",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Aturan tertulis yang dibuat oleh pemerintah dan mengikat semua warga disebut ...",
+              "answer": "Undang-undang",
+              "explanation": "Undang-undang",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d034",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Akibat jika seseorang melanggar aturan adalah ...",
+              "answer": "Mendapat sanksi/hukuman",
+              "explanation": "Mendapat sanksi/hukuman",
+              "options": [
+                "Mendapat pujian",
+                "Tidak terjadi apa-apa",
+                "Mendapat sanksi/hukuman"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d035",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Norma yang bersumber dari ajaran agama disebut norma ...",
+              "answer": "Agama",
+              "explanation": "Agama",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d036",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Norma yang bersumber dari kebiasaan masyarakat dan berlaku turun-temurun disebut norma ...",
+              "answer": "Adat/kesopanan",
+              "explanation": "Adat/kesopanan",
+              "options": [
+                "Hukum",
+                "Agama",
+                "Adat/kesopanan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d037",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sikap menyeberang di zebra cross menunjukkan sikap ...",
+              "answer": "Tertib/disiplin",
+              "explanation": "Tertib/disiplin",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d038",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika melihat teman melanggar aturan, sikap yang baik adalah ...",
+              "answer": "Mengingatkan dengan sopan",
+              "explanation": "Mengingatkan dengan sopan",
+              "options": [
+                "Mengikutinya",
+                "Membiarkannya",
+                "Mengingatkan dengan sopan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d039",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tujuan dibuatnya aturan dalam masyarakat adalah agar kehidupan menjadi ...",
+              "answer": "Tertib, aman, dan nyaman",
+              "explanation": "Tertib, aman, dan nyaman",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-d040",
+              "topic": "Membangun Masyarakat yang Beradab",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Contoh pelanggaran norma di lingkungan sekolah adalah ...",
+              "answer": "Membolos/mencontek",
+              "explanation": "Membolos/mencontek",
+              "options": [
+                "Mengerjakan PR",
+                "Datang tepat waktu",
+                "Membolos/mencontek"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "ipas4-001",
+      "topic": "Sistem Pencernaan",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Urutan sistem pencernaan manusia yang benar dimulai dari ...",
+      "answer": "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
+      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+      "options": [
+        "Mulut - usus halus - lambung - kerongkongan - anus",
+        "Kerongkongan - mulut - lambung - usus - anus",
+        "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
+        "Mulut - lambung - kerongkongan - usus halus - anus"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-002",
+      "topic": "Sistem Pencernaan",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Organ yang berfungsi mencerna makanan dengan asam lambung adalah ...",
+      "answer": "Lambung",
+      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+      "options": [
+        "Pankreas",
+        "Hati",
+        "Lambung",
+        "Usus halus"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-003",
+      "topic": "Sistem Pencernaan",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Organ tempat penyerapan sari-sari makanan terjadi adalah ...",
+      "answer": "Usus halus",
+      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+      "options": [
+        "Usus besar",
+        "Kerongkongan",
+        "Usus halus",
+        "Lambung"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-004",
+      "topic": "Sistem Pencernaan",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Gigi yang berfungsi memotong makanan disebut gigi ...",
+      "answer": "Seri",
+      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+      "options": [
+        "Seri",
+        "Geraham",
+        "Susu",
+        "Taring"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-005",
+      "topic": "Sistem Pernapasan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Urutan sistem pernapasan manusia yang benar adalah ...",
+      "answer": "Hidung - tenggorokan - bronkus - paru-paru",
+      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-006",
+      "topic": "Sistem Pernapasan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Organ utama tempat pertukaran oksigen dan karbon dioksida terjadi adalah ...",
+      "answer": "Paru-paru",
+      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-007",
+      "topic": "Sistem Pernapasan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Udara yang kita hirup mengandung gas yang dibutuhkan tubuh, yaitu ...",
+      "answer": "Oksigen",
+      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-008",
+      "topic": "Sistem Pernapasan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Gas yang kita keluarkan saat bernapas adalah ...",
+      "answer": "Karbon dioksida",
+      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-009",
+      "topic": "Ekosistem",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Dalam rantai makanan padi - tikus - ular - elang, padi berperan sebagai ...",
+      "answer": "Produsen",
+      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+      "options": [
+        "Konsumen 2",
+        "Konsumen 1",
+        "Pengurai",
+        "Produsen"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-010",
+      "topic": "Ekosistem",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Dalam rantai makanan padi - tikus - ular - elang, tikus berperan sebagai ...",
+      "answer": "Konsumen 1",
+      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+      "options": [
+        "Produsen",
+        "Konsumen 1",
+        "Pengurai",
+        "Konsumen 2"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-011",
+      "topic": "Ekosistem",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Organisme yang berperan menguraikan sisa makhluk hidup yang telah mati disebut ...",
+      "answer": "Pengurai",
+      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+      "options": [
+        "Predator",
+        "Produsen",
+        "Pengurai",
+        "Konsumen"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-012",
+      "topic": "Ekosistem",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Hubungan antar makhluk hidup dengan lingkungannya disebut ...",
+      "answer": "Ekosistem",
+      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+      "options": [
+        "Ekosistem",
+        "Habitat",
+        "Populasi",
+        "Komunitas"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ipas4-033",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Peta yang menunjukkan ketinggian permukaan bumi disebut peta ...",
+      "answer": "Topografi",
+      "explanation": "Pengetahuan gabungan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-034",
+      "topic": "Pengetahuan Alam & Sosial",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Alat musik tradisional yang dimainkan dengan cara dipukul, contohnya adalah ...",
+      "answer": "Gamelan/kolintang",
+      "explanation": "Pengetahuan gabungan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-035",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Alat pernapasan pada ikan adalah ...",
+      "answer": "Insang",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-036",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Alat pernapasan pada serangga adalah ...",
+      "answer": "Trakea",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-037",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Alat pernapasan katak dewasa adalah ...",
+      "answer": "Paru-paru dan kulit",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-038",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Tulang yang melindungi otak manusia disebut ...",
+      "answer": "Tengkorak",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-039",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Tulang yang melindungi jantung dan paru-paru disebut ...",
+      "answer": "Tulang rusuk",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-040",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jumlah tulang rangka pada tubuh manusia dewasa sekitar ...",
+      "answer": "206",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-041",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Otot yang bekerja tanpa kita sadari, contohnya otot jantung, disebut otot ...",
+      "answer": "Tak sadar/involunter",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-042",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Nama ibu kota provinsi Kalimantan Timur adalah ...",
+      "answer": "Samarinda",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-043",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Nama ibu kota provinsi Riau adalah ...",
+      "answer": "Pekanbaru",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-045",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Julukan Indonesia sebagai paru-paru dunia berkaitan dengan luasnya ...",
+      "answer": "Hutan hujan tropis",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-046",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Kegiatan menangkap ikan menggunakan bahan peledak dapat merusak ...",
+      "answer": "Terumbu karang/ekosistem laut",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-049",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Nama ibu kota provinsi Sumatera Selatan adalah ...",
+      "answer": "Palembang",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    },
+    {
+      "id": "ipas4-050",
+      "topic": "Pengetahuan Alam & Sosial Tambahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Rumah adat Panjang berasal dari daerah ...",
+      "answer": "Kalimantan Barat",
+      "explanation": "Pengetahuan tambahan IPA dan IPS",
+      "grade": 4
+    }
+  ]
+}

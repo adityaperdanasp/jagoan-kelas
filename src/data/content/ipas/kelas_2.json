@@ -1,0 +1,606 @@
+{
+  "kelas": 2,
+  "mapel": "IPAS",
+  "catatan": "Kelas 2 IPAS tidak punya Buku Siswa resmi (Fase A) dan belum ketemu struktur modul ajar ber-bab yang cukup konsisten seperti kelas 1, jadi soal dikelompokkan per topik tematik, bukan nomor bab.",
+  "topik": [
+    {
+      "nama_topik": "Bagian Tumbuhan",
+      "soal": [
+        {
+          "id": "ipas2-001",
+          "topic": "Bagian Tumbuhan",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan yang berfungsi menyerap air dan mineral dari tanah adalah ...",
+          "answer": "Akar",
+          "explanation": "Setiap bagian tumbuhan punya fungsi berbeda",
+          "options": [
+            "Batang",
+            "Bunga",
+            "Akar",
+            "Buah",
+            "Daun"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-002",
+          "topic": "Bagian Tumbuhan",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan yang berfungsi mengangkut air dari akar ke daun adalah ...",
+          "answer": "Batang",
+          "explanation": "Setiap bagian tumbuhan punya fungsi berbeda",
+          "options": [
+            "Bunga",
+            "Buah",
+            "Daun",
+            "Akar",
+            "Batang"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-003",
+          "topic": "Bagian Tumbuhan",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan tempat terjadinya fotosintesis adalah ...",
+          "answer": "Daun",
+          "explanation": "Setiap bagian tumbuhan punya fungsi berbeda",
+          "options": [
+            "Akar",
+            "Daun",
+            "Batang",
+            "Bunga",
+            "Buah"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-004",
+          "topic": "Bagian Tumbuhan",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan yang akan menjadi buah setelah dibuahi adalah ...",
+          "answer": "Bunga",
+          "explanation": "Setiap bagian tumbuhan punya fungsi berbeda",
+          "options": [
+            "Buah",
+            "Batang",
+            "Bunga",
+            "Akar",
+            "Daun"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-005",
+          "topic": "Bagian Tumbuhan",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan yang berisi biji sebagai alat perkembangbiakan adalah ...",
+          "answer": "Buah",
+          "explanation": "Setiap bagian tumbuhan punya fungsi berbeda",
+          "options": [
+            "Bunga",
+            "Buah",
+            "Akar",
+            "Daun",
+            "Batang"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Kebutuhan Makhluk Hidup",
+      "soal": [
+        {
+          "id": "ipas2-006",
+          "topic": "Kebutuhan Makhluk Hidup",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Makhluk hidup membutuhkan ... untuk bernapas",
+          "answer": "Udara/oksigen",
+          "explanation": "Kebutuhan dasar makhluk hidup",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-007",
+          "topic": "Kebutuhan Makhluk Hidup",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Tumbuhan membutuhkan ... untuk membuat makanannya sendiri",
+          "answer": "Cahaya matahari",
+          "explanation": "Kebutuhan dasar makhluk hidup",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-008",
+          "topic": "Kebutuhan Makhluk Hidup",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Semua makhluk hidup membutuhkan ... untuk bertahan hidup",
+          "answer": "Air",
+          "explanation": "Kebutuhan dasar makhluk hidup",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-009",
+          "topic": "Kebutuhan Makhluk Hidup",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Hewan dan manusia membutuhkan ... agar punya tenaga",
+          "answer": "Makanan",
+          "explanation": "Kebutuhan dasar makhluk hidup",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Pertumbuhan & Perkembangbiakan Hewan",
+      "soal": [
+        {
+          "id": "ipas2-010",
+          "topic": "Pertumbuhan & Perkembangbiakan Hewan",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Anak ayam menetas dari ...",
+          "answer": "Telur",
+          "explanation": "Pengenalan cara berkembang biak hewan",
+          "options": [
+            "Kepompong",
+            "Berudu",
+            "Telur",
+            "Larva"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-011",
+          "topic": "Pertumbuhan & Perkembangbiakan Hewan",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Anak kucing disebut ...",
+          "answer": "Anak kucing/kitten",
+          "explanation": "Pengenalan cara berkembang biak hewan",
+          "options": [
+            "Anak kucing/kitten",
+            "Anak kambing",
+            "Anak anjing",
+            "Anak sapi"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-012",
+          "topic": "Pertumbuhan & Perkembangbiakan Hewan",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Hewan yang berkembang biak dengan bertelur disebut ...",
+          "answer": "Ovipar",
+          "explanation": "Pengenalan cara berkembang biak hewan",
+          "options": [
+            "Ovipar",
+            "Vivipar",
+            "Ovovivipar",
+            "Membelah diri"
+          ],
+          "grade": 2
+        },
+        {
+          "id": "ipas2-013",
+          "topic": "Pertumbuhan & Perkembangbiakan Hewan",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question": "Hewan yang berkembang biak dengan melahirkan disebut ...",
+          "answer": "Vivipar",
+          "explanation": "Pengenalan cara berkembang biak hewan",
+          "options": [
+            "Ovovivipar",
+            "Vivipar",
+            "Membelah diri",
+            "Ovipar"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Lingkungan Sosial",
+      "soal": [
+        {
+          "id": "ipas2-014",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Orang yang tinggal di sekitar rumah kita disebut ...",
+          "answer": "Tetangga",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-015",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Kegiatan saling membantu antar tetangga disebut ...",
+          "answer": "Gotong royong",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-016",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Tempat kita berbelanja bahan makanan segar disebut ...",
+          "answer": "Pasar",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-017",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Kegiatan menukar barang dengan uang disebut ...",
+          "answer": "Jual beli",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-018",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Orang yang menjual barang disebut ...",
+          "answer": "Penjual",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-019",
+          "topic": "Lingkungan Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Orang yang membeli barang disebut ...",
+          "answer": "Pembeli",
+          "explanation": "Interaksi sosial dasar di masyarakat",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Cuaca & Musim",
+      "soal": [
+        {
+          "id": "ipas2-020",
+          "topic": "Cuaca & Musim",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Indonesia memiliki dua musim, yaitu musim hujan dan musim ...",
+          "answer": "Kemarau",
+          "explanation": "Indonesia beriklim tropis dengan dua musim",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-021",
+          "topic": "Cuaca & Musim",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Pada musim kemarau, cuaca cenderung ...",
+          "answer": "Panas dan kering",
+          "explanation": "Indonesia beriklim tropis dengan dua musim",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-022",
+          "topic": "Cuaca & Musim",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Pada musim hujan, cuaca cenderung ...",
+          "answer": "Sering hujan dan lembap",
+          "explanation": "Indonesia beriklim tropis dengan dua musim",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-023",
+          "topic": "Cuaca & Musim",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Alat yang digunakan untuk berlindung dari hujan adalah ...",
+          "answer": "Payung",
+          "explanation": "Indonesia beriklim tropis dengan dua musim",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Aturan & Tata Tertib",
+      "soal": [
+        {
+          "id": "ipas2-024",
+          "topic": "Aturan & Tata Tertib",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Contoh aturan di sekolah adalah datang tepat ...",
+          "answer": "Waktu",
+          "explanation": "Pentingnya mematuhi aturan",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-025",
+          "topic": "Aturan & Tata Tertib",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Sebelum menyeberang jalan, sebaiknya kita melihat ke kanan dan ...",
+          "answer": "Kiri",
+          "explanation": "Pentingnya mematuhi aturan",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-026",
+          "topic": "Aturan & Tata Tertib",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Membuang sampah sebaiknya dilakukan di ...",
+          "answer": "Tempat sampah",
+          "explanation": "Pentingnya mematuhi aturan",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-027",
+          "topic": "Aturan & Tata Tertib",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Antre dengan tertib artinya ...",
+          "answer": "Menunggu giliran dengan sabar",
+          "explanation": "Pentingnya mematuhi aturan",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Pengetahuan Alam Dasar",
+      "soal": [
+        {
+          "id": "ipas2-028",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Hewan yang mengalami pergantian bentuk tubuh secara total disebut mengalami ...",
+          "answer": "Metamorfosis",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-029",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Contoh hewan yang mengalami metamorfosis adalah ...",
+          "answer": "Kupu-kupu/katak",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-030",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Bagian tubuh tumbuhan yang biasanya berwarna-warni dan harum adalah ...",
+          "answer": "Bunga",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-031",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Proses tumbuhan membuat makanan sendiri menggunakan cahaya matahari disebut ...",
+          "answer": "Fotosintesis",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-032",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Contoh hewan pemakan tumbuhan disebut ...",
+          "answer": "Herbivora",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-033",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Contoh hewan pemakan daging disebut ...",
+          "answer": "Karnivora",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-034",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Contoh hewan pemakan segala (tumbuhan dan daging) disebut ...",
+          "answer": "Omnivora",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-035",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Sampah yang bisa terurai secara alami disebut sampah ...",
+          "answer": "Organik",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-036",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Sampah yang sulit terurai seperti plastik disebut sampah ...",
+          "answer": "Anorganik",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-037",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Kegiatan mengumpulkan dan mengolah sampah agar bisa dipakai lagi disebut ...",
+          "answer": "Daur ulang",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-038",
+          "topic": "Pengetahuan Alam Dasar",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Tumbuhan yang batangnya berkayu dan keras disebut tumbuhan ...",
+          "answer": "Berkayu",
+          "explanation": "Pengetahuan alam tingkat dasar",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "nama_topik": "Pengetahuan Alam & Sosial",
+      "soal": [
+        {
+          "id": "ipas2-039",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Bagian tumbuhan yang biasa kita makan sebagai sayuran adalah ...",
+          "answer": "Daun/batang/akar",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-040",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Tumbuhan yang bisa hidup di air disebut tumbuhan ...",
+          "answer": "Hidrofit",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-041",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Tumbuhan yang biasa hidup di daerah kering disebut tumbuhan ...",
+          "answer": "Xerofit",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-042",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Hewan yang hidup di dua alam (darat dan air) disebut hewan ...",
+          "answer": "Amfibi",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-043",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Contoh hewan amfibi adalah ...",
+          "answer": "Katak",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-044",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Alat yang digunakan untuk mengukur berat badan adalah ...",
+          "answer": "Timbangan",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-045",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Alat yang digunakan untuk mengukur panjang benda adalah ...",
+          "answer": "Penggaris/meteran",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-046",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Kegiatan menanam berbagai jenis tanaman di lahan yang sama secara bergiliran disebut ...",
+          "answer": "Tumpang sari/rotasi tanaman",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-047",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Kerja sama yang dilakukan warga untuk membersihkan lingkungan bersama disebut ...",
+          "answer": "Kerja bakti",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-048",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Uang yang digunakan sebagai alat tukar resmi di suatu negara disebut ...",
+          "answer": "Mata uang",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-049",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "medium",
+          "question": "Kegiatan menabung di bank bertujuan untuk ...",
+          "answer": "Menyimpan uang untuk masa depan",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        },
+        {
+          "id": "ipas2-050",
+          "topic": "Pengetahuan Alam & Sosial",
+          "type": "short_answer",
+          "difficulty": "easy",
+          "question": "Contoh pekerjaan yang menghasilkan barang adalah ...",
+          "answer": "Petani/nelayan/perajin",
+          "explanation": "Pengetahuan tambahan alam dan sosial dasar",
+          "grade": 2
+        }
+      ]
+    }
+  ]
+}

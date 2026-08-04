@@ -1,0 +1,33 @@
+export const GRADE_COLORS = [
+  { bg: "var(--pastel-pink)", ink: "var(--ink-on-pink)" },
+  { bg: "var(--pastel-blue)", ink: "var(--ink-on-blue)" },
+  { bg: "var(--pastel-green)", ink: "var(--ink-on-green)" },
+  { bg: "var(--pastel-gold)", ink: "var(--ink-900)" },
+  { bg: "var(--pastel-purple)", ink: "var(--ink-on-purple)" },
+  { bg: "var(--pastel-magenta)", ink: "var(--ink-on-pink)" },
+];
+
+export const GRADES = Array.from({ length: 6 }).map((_, i) => {
+  const c = GRADE_COLORS[i];
+  return { n: i + 1, bg: c.bg, ink: c.ink, offset: i % 2 === 0 ? -34 : 34 };
+});
+
+export const SUBJECTS = [
+  { id: "matematika", name: "Matematika", sub: "Angka & hitung-hitungan", emoji: "🔢", accent: "math", rotate: -1 },
+  { id: "ipa", name: "IPA", sub: "Ilmu Pengetahuan Alam", emoji: "🔬", accent: "science", rotate: 1 },
+  { id: "ips", name: "IPS", sub: "Ilmu Pengetahuan Sosial", emoji: "🌍", accent: "town", rotate: -1 },
+  { id: "ppkn", name: "PPKn", sub: "Pendidikan Pancasila", emoji: "🇮🇩", accent: "focus", rotate: 1 },
+  { id: "pai", name: "Pendidikan Agama Islam", sub: "Belajar nilai & akhlak", emoji: "🕌", accent: "lang", rotate: -1 },
+  { id: "bindo", name: "Bahasa Indonesia", sub: "Membaca & menulis", emoji: "📖", accent: "science", rotate: 1 },
+  { id: "binggris", name: "Bahasa Inggris", sub: "English fun time", emoji: "🔤", accent: "math", rotate: -1 },
+];
+
+// Dummy topik contoh (Matematika Kelas 4) -- nanti diganti sumber data asli
+// dari content-pipeline/output/matematika/kelas_4.json.
+export const SAMPLE_TOPICS = [
+  { name: "Perkalian & Pembagian", icon: "✅", status: "Selesai", chipColor: "green", bg: "var(--cream-100)", opacity: 1 },
+  { name: "Pecahan", icon: "✅", status: "Selesai", chipColor: "green", bg: "var(--cream-100)", opacity: 1 },
+  { name: "Bangun Datar", icon: "▶️", status: "Lanjut", chipColor: "blue", bg: "var(--pastel-blue)", opacity: 1 },
+  { name: "Pengukuran", icon: "🔒", status: "Terkunci", chipColor: "gold", bg: "var(--cream-100)", opacity: 0.55 },
+  { name: "Data & Diagram", icon: "🔒", status: "Terkunci", chipColor: "gold", bg: "var(--cream-100)", opacity: 0.55 },
+];

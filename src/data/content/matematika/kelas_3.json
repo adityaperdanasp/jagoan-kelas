@@ -1,0 +1,2854 @@
+{
+  "kelas": 3,
+  "mapel": "Matematika",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Bilangan Cacah sampai 1.000",
+          "soal": [
+            {
+              "id": "mtk3-0001",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 930 + 238 adalah ...",
+              "answer": "1168",
+              "explanation": "Jawaban dihitung: 1168",
+              "options": [
+                "1068",
+                "1218",
+                "1268",
+                "1168"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0002",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 70 : 7 adalah ...",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "options": [
+                "13",
+                "11",
+                "12",
+                "10"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0006",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 6014 - 4579 adalah ...",
+              "answer": "1435",
+              "explanation": "Jawaban dihitung: 1435",
+              "options": [
+                "1435",
+                "1385",
+                "1485",
+                "1535"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0007",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 42 : 6 adalah ...",
+              "answer": "7",
+              "explanation": "Jawaban dihitung: 7",
+              "options": [
+                "10",
+                "7",
+                "5",
+                "9"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0011",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2968 - 2826 adalah ...",
+              "answer": "142",
+              "explanation": "Jawaban dihitung: 142",
+              "options": [
+                "192",
+                "92",
+                "242",
+                "142"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0012",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 196 : 7 adalah ...",
+              "answer": "28",
+              "explanation": "Jawaban dihitung: 28",
+              "options": [
+                "26",
+                "28",
+                "29",
+                "30"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0016",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 760 - 475 adalah ...",
+              "answer": "285",
+              "explanation": "Jawaban dihitung: 285",
+              "options": [
+                "235",
+                "385",
+                "185",
+                "285"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0017",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 51 : 3 adalah ...",
+              "answer": "17",
+              "explanation": "Jawaban dihitung: 17",
+              "options": [
+                "20",
+                "17",
+                "19",
+                "18"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0021",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 7601 - 1964 adalah ...",
+              "answer": "5637",
+              "explanation": "Jawaban dihitung: 5637",
+              "options": [
+                "5737",
+                "5587",
+                "5637",
+                "5687"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0022",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 5 x 3 adalah ...",
+              "answer": "15",
+              "explanation": "Jawaban dihitung: 15",
+              "options": [
+                "17",
+                "13",
+                "15",
+                "14"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0026",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3915 + 3406 adalah ...",
+              "answer": "7321",
+              "explanation": "Jawaban dihitung: 7321",
+              "options": [
+                "7371",
+                "7321",
+                "7271",
+                "7221"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0027",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 30 x 3 adalah ...",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "options": [
+                "90",
+                "93",
+                "92",
+                "91"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0031",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 887 + 519 adalah ...",
+              "answer": "1406",
+              "explanation": "Jawaban dihitung: 1406",
+              "options": [
+                "1406",
+                "1356",
+                "1456",
+                "1306"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0032",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 48 : 4 adalah ...",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "options": [
+                "15",
+                "12",
+                "11",
+                "14"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0036",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 8331 - 7250 adalah ...",
+              "answer": "1081",
+              "explanation": "Jawaban dihitung: 1081",
+              "options": [
+                "1081",
+                "1131",
+                "1031",
+                "981"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0037",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 12 : 4 adalah ...",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "options": [
+                "2",
+                "3",
+                "6",
+                "4"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0041",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3531 + 3117 adalah ...",
+              "answer": "6648",
+              "explanation": "Jawaban dihitung: 6648",
+              "options": [
+                "6648",
+                "6698",
+                "6748",
+                "6598"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0042",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 17 x 3 adalah ...",
+              "answer": "51",
+              "explanation": "Jawaban dihitung: 51",
+              "options": [
+                "51",
+                "52",
+                "50",
+                "53"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0046",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 208 + 426 adalah ...",
+              "answer": "634",
+              "explanation": "Jawaban dihitung: 634",
+              "options": [
+                "734",
+                "534",
+                "684",
+                "634"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0047",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 11 x 2 adalah ...",
+              "answer": "22",
+              "explanation": "Jawaban dihitung: 22",
+              "options": [
+                "24",
+                "25",
+                "21",
+                "22"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0051",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 5527 + 5074 adalah ...",
+              "answer": "10601",
+              "explanation": "Jawaban dihitung: 10601",
+              "options": [
+                "10551",
+                "10701",
+                "10501",
+                "10601"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0052",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 2 x 2 adalah ...",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "options": [
+                "6",
+                "5",
+                "7",
+                "4"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0056",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2640 + 709 adalah ...",
+              "answer": "3349",
+              "explanation": "Jawaban dihitung: 3349",
+              "options": [
+                "3399",
+                "3249",
+                "3449",
+                "3349"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0057",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 90 : 5 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "options": [
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0061",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 830 - 441 adalah ...",
+              "answer": "389",
+              "explanation": "Jawaban dihitung: 389",
+              "options": [
+                "489",
+                "339",
+                "439",
+                "389"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0062",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 114 : 6 adalah ...",
+              "answer": "19",
+              "explanation": "Jawaban dihitung: 19",
+              "options": [
+                "20",
+                "22",
+                "19",
+                "21"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0066",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 8154 - 1218 adalah ...",
+              "answer": "6936",
+              "explanation": "Jawaban dihitung: 6936",
+              "options": [
+                "6886",
+                "6936",
+                "6836",
+                "6986"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0067",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 4 x 5 adalah ...",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "options": [
+                "19",
+                "20",
+                "22",
+                "18"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0071",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3124 - 1349 adalah ...",
+              "answer": "1775",
+              "explanation": "Jawaban dihitung: 1775",
+              "options": [
+                "1775",
+                "1875",
+                "1725",
+                "1825"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0072",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 182 : 7 adalah ...",
+              "answer": "26",
+              "explanation": "Jawaban dihitung: 26",
+              "options": [
+                "26",
+                "29",
+                "27",
+                "25"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0076",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 838 - 673 adalah ...",
+              "answer": "165",
+              "explanation": "Jawaban dihitung: 165",
+              "options": [
+                "65",
+                "215",
+                "265",
+                "165"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0077",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 14 x 2 adalah ...",
+              "answer": "28",
+              "explanation": "Jawaban dihitung: 28",
+              "options": [
+                "29",
+                "30",
+                "26",
+                "28"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0081",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 4124 + 1894 adalah ...",
+              "answer": "6018",
+              "explanation": "Jawaban dihitung: 6018",
+              "options": [
+                "5918",
+                "5968",
+                "6118",
+                "6018"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0082",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 3 x 4 adalah ...",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "options": [
+                "12",
+                "14",
+                "15",
+                "11"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0086",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3191 + 3525 adalah ...",
+              "answer": "6716",
+              "explanation": "Jawaban dihitung: 6716",
+              "options": [
+                "6816",
+                "6666",
+                "6616",
+                "6716"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0087",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 24 x 3 adalah ...",
+              "answer": "72",
+              "explanation": "Jawaban dihitung: 72",
+              "options": [
+                "75",
+                "70",
+                "73",
+                "72"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0091",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 215 + 438 adalah ...",
+              "answer": "653",
+              "explanation": "Jawaban dihitung: 653",
+              "options": [
+                "603",
+                "653",
+                "753",
+                "703"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0092",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 14 x 5 adalah ...",
+              "answer": "70",
+              "explanation": "Jawaban dihitung: 70",
+              "options": [
+                "72",
+                "70",
+                "73",
+                "71"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0096",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 6142 - 2929 adalah ...",
+              "answer": "3213",
+              "explanation": "Jawaban dihitung: 3213",
+              "options": [
+                "3163",
+                "3113",
+                "3213",
+                "3263"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0097",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 9 x 6 adalah ...",
+              "answer": "54",
+              "explanation": "Jawaban dihitung: 54",
+              "options": [
+                "54",
+                "57",
+                "52",
+                "55"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0101",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3375 - 2703 adalah ...",
+              "answer": "672",
+              "explanation": "Jawaban dihitung: 672",
+              "options": [
+                "772",
+                "622",
+                "672",
+                "572"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0102",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 176 : 11 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "15",
+                "17",
+                "19",
+                "16"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0106",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 625 - 525 adalah ...",
+              "answer": "100",
+              "explanation": "Jawaban dihitung: 100",
+              "options": [
+                "200",
+                "0",
+                "150",
+                "100"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0107",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 50 : 5 adalah ...",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "options": [
+                "11",
+                "8",
+                "12",
+                "10"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0111",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 7273 - 4109 adalah ...",
+              "answer": "3164",
+              "explanation": "Jawaban dihitung: 3164",
+              "options": [
+                "3214",
+                "3064",
+                "3264",
+                "3164"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0112",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 12 : 4 adalah ...",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "options": [
+                "6",
+                "5",
+                "2",
+                "3"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0116",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 4372 + 1440 adalah ...",
+              "answer": "5812",
+              "explanation": "Jawaban dihitung: 5812",
+              "options": [
+                "5862",
+                "5762",
+                "5812",
+                "5912"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0117",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 144 : 9 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "14",
+                "16",
+                "15",
+                "19"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0121",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 322 + 872 adalah ...",
+              "answer": "1194",
+              "explanation": "Jawaban dihitung: 1194",
+              "options": [
+                "1244",
+                "1294",
+                "1144",
+                "1194"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0122",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 72 : 4 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "options": [
+                "20",
+                "18",
+                "16",
+                "21"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0126",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 9180 - 5406 adalah ...",
+              "answer": "3774",
+              "explanation": "Jawaban dihitung: 3774",
+              "options": [
+                "3774",
+                "3724",
+                "3824",
+                "3874"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0127",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 8 x 4 adalah ...",
+              "answer": "32",
+              "explanation": "Jawaban dihitung: 32",
+              "options": [
+                "31",
+                "32",
+                "30",
+                "33"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0131",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 4578 + 798 adalah ...",
+              "answer": "5376",
+              "explanation": "Jawaban dihitung: 5376",
+              "options": [
+                "5476",
+                "5376",
+                "5326",
+                "5426"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0132",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 84 : 4 adalah ...",
+              "answer": "21",
+              "explanation": "Jawaban dihitung: 21",
+              "options": [
+                "20",
+                "21",
+                "24",
+                "23"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0136",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 467 - 415 adalah ...",
+              "answer": "52",
+              "explanation": "Jawaban dihitung: 52",
+              "options": [
+                "52",
+                "152",
+                "102",
+                "-48"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0137",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 15 x 7 adalah ...",
+              "answer": "105",
+              "explanation": "Jawaban dihitung: 105",
+              "options": [
+                "108",
+                "105",
+                "104",
+                "103"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0141",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 9826 - 3013 adalah ...",
+              "answer": "6813",
+              "explanation": "Jawaban dihitung: 6813",
+              "options": [
+                "6763",
+                "6913",
+                "6863",
+                "6813"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0142",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 36 : 4 adalah ...",
+              "answer": "9",
+              "explanation": "Jawaban dihitung: 9",
+              "options": [
+                "7",
+                "11",
+                "12",
+                "9"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0146",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2528 - 747 adalah ...",
+              "answer": "1781",
+              "explanation": "Jawaban dihitung: 1781",
+              "options": [
+                "1781",
+                "1881",
+                "1831",
+                "1681"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0147",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 80 : 4 adalah ...",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "options": [
+                "20",
+                "21",
+                "23",
+                "19"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0151",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 813 - 331 adalah ...",
+              "answer": "482",
+              "explanation": "Jawaban dihitung: 482",
+              "options": [
+                "582",
+                "482",
+                "432",
+                "382"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0152",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 140 : 7 adalah ...",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "options": [
+                "20",
+                "19",
+                "18",
+                "23"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0156",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 3269 - 2469 adalah ...",
+              "answer": "800",
+              "explanation": "Jawaban dihitung: 800",
+              "options": [
+                "800",
+                "700",
+                "750",
+                "900"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0157",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 40 : 8 adalah ...",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "options": [
+                "8",
+                "7",
+                "6",
+                "5"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0161",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2978 - 2395 adalah ...",
+              "answer": "583",
+              "explanation": "Jawaban dihitung: 583",
+              "options": [
+                "683",
+                "483",
+                "633",
+                "583"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0162",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Hasil dari 27 x 9 adalah ...",
+              "answer": "243",
+              "explanation": "Jawaban dihitung: 243",
+              "options": [
+                "245",
+                "246",
+                "241",
+                "243"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0166",
+              "topic": "Operasi Bilangan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hasil dari 749 - 257 adalah ...",
+              "answer": "492",
+              "explanation": "Jawaban dihitung: 492",
+              "options": [
+                "492",
+                "542",
+                "392",
+                "592"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0167",
+              "topic": "Perkalian & Pembagian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 12 x 3 adalah ...",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "options": [
+                "34",
+                "38",
+                "36",
+                "39"
+              ],
+              "grade": 3,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Kalimat Matematika",
+          "soal": [
+            {
+              "id": "mtk3-g001",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 99 + 67 = ...",
+              "answer": "166",
+              "explanation": "Jawaban dihitung: 166",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g002",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lengkapi kalimat matematika: ... + 73 = 90",
+              "answer": "17",
+              "explanation": "Jawaban dihitung: 17",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g003",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lengkapi kalimat matematika: 71 + ... = 113",
+              "answer": "42",
+              "explanation": "Jawaban dihitung: 42",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g004",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 154 + ... = 219",
+              "answer": "65",
+              "explanation": "Jawaban dihitung: 65",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g005",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 104 - 52 = ...",
+              "answer": "52",
+              "explanation": "Jawaban dihitung: 52",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g006",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: ... + 89 = 140",
+              "answer": "51",
+              "explanation": "Jawaban dihitung: 51",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g007",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 89 + 157 = ...",
+              "answer": "246",
+              "explanation": "Jawaban dihitung: 246",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g008",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lengkapi kalimat matematika: ... - 60 = 133",
+              "answer": "193",
+              "explanation": "Jawaban dihitung: 193",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g009",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 36 + ... = 224",
+              "answer": "188",
+              "explanation": "Jawaban dihitung: 188",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g010",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 154 + ... = 174",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g011",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: ... - 104 = 75",
+              "answer": "179",
+              "explanation": "Jawaban dihitung: 179",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g012",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 117 - ... = 104",
+              "answer": "13",
+              "explanation": "Jawaban dihitung: 13",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g013",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lengkapi kalimat matematika: 172 - ... = 70",
+              "answer": "102",
+              "explanation": "Jawaban dihitung: 102",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g014",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 121 + 55 = ...",
+              "answer": "176",
+              "explanation": "Jawaban dihitung: 176",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g015",
+              "topic": "Kalimat Matematika",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi kalimat matematika: 167 - ... = 20",
+              "answer": "147",
+              "explanation": "Jawaban dihitung: 147",
+              "grade": 3,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Pengukuran Panjang dan Berat",
+          "soal": [
+            {
+              "id": "mtk3-g016",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "11 kg sama dengan ... ons",
+              "answer": "110",
+              "explanation": "Jawaban dihitung: 110",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g017",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "15 m sama dengan ... cm",
+              "answer": "1500",
+              "explanation": "Jawaban dihitung: 1500",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g018",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "11 kg sama dengan ... ons",
+              "answer": "110",
+              "explanation": "Jawaban dihitung: 110",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g019",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "6 kg sama dengan ... ons",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g020",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "9 m sama dengan ... cm",
+              "answer": "900",
+              "explanation": "Jawaban dihitung: 900",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g021",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "18 kg sama dengan ... ons",
+              "answer": "180",
+              "explanation": "Jawaban dihitung: 180",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g022",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "8 km sama dengan ... m",
+              "answer": "8000",
+              "explanation": "Jawaban dihitung: 8000",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g023",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "18 kg sama dengan ... ons",
+              "answer": "180",
+              "explanation": "Jawaban dihitung: 180",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g024",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "15 kg sama dengan ... ons",
+              "answer": "150",
+              "explanation": "Jawaban dihitung: 150",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g025",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "8 m sama dengan ... cm",
+              "answer": "800",
+              "explanation": "Jawaban dihitung: 800",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g026",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "19 m sama dengan ... cm",
+              "answer": "1900",
+              "explanation": "Jawaban dihitung: 1900",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g027",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "14 kg sama dengan ... ons",
+              "answer": "140",
+              "explanation": "Jawaban dihitung: 140",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g028",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "15 kg sama dengan ... ons",
+              "answer": "150",
+              "explanation": "Jawaban dihitung: 150",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g029",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "8 kg sama dengan ... ons",
+              "answer": "80",
+              "explanation": "Jawaban dihitung: 80",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g030",
+              "topic": "Pengukuran Panjang dan Berat",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "4 m sama dengan ... cm",
+              "answer": "400",
+              "explanation": "Jawaban dihitung: 400",
+              "grade": 3,
+              "sumber": "generated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Unsur-Unsur Bangun Datar",
+          "soal": [
+            {
+              "id": "mtk3-g031",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g032",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar persegi panjang memiliki ... sudut",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g033",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sudut",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g034",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi panjang memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g035",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segitiga memiliki ... sisi",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g036",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segitiga memiliki ... sisi",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g037",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar persegi memiliki ... sudut",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g038",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar segitiga memiliki ... sudut",
+              "answer": "3",
+              "explanation": "Jawaban dihitung: 3",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g039",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segi lima memiliki ... sudut",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g040",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g041",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangun datar segi lima memiliki ... sisi",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g042",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar segi lima memiliki ... sudut",
+              "answer": "5",
+              "explanation": "Jawaban dihitung: 5",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g043",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar segi enam memiliki ... sisi",
+              "answer": "6",
+              "explanation": "Jawaban dihitung: 6",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g044",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sudut",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g045",
+              "topic": "Unsur-Unsur Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bangun datar persegi memiliki ... sisi",
+              "answer": "4",
+              "explanation": "Jawaban dihitung: 4",
+              "grade": 3,
+              "sumber": "generated"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Penyajian Data dalam Tabel",
+          "soal": [
+            {
+              "id": "mtk3-g046",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Eka=8, Budi=8, Citra=5, Dedi=10. Siapa yang membaca buku paling sedikit?",
+              "answer": "Citra",
+              "explanation": "Jawaban dihitung: Citra",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g047",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data jumlah buku yang dibaca: Eka=4, Ani=5, Citra=2, Dedi=3, Budi=4. Siapa yang membaca buku paling banyak?",
+              "answer": "Ani",
+              "explanation": "Jawaban dihitung: Ani",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g048",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Budi=8, Ani=10, Eka=8. Siapa yang membaca buku paling sedikit?",
+              "answer": "Budi",
+              "explanation": "Jawaban dihitung: Budi",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g049",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data jumlah buku yang dibaca: Citra=8, Eka=2, Dedi=4. Siapa yang membaca buku paling sedikit?",
+              "answer": "Eka",
+              "explanation": "Jawaban dihitung: Eka",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g050",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Budi=5, Dedi=3, Ani=2, Citra=1, Eka=3. Siapa yang membaca buku paling sedikit?",
+              "answer": "Citra",
+              "explanation": "Jawaban dihitung: Citra",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g051",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Eka=5, Citra=7, Budi=5, Ani=9, Dedi=9. Siapa yang membaca buku paling sedikit?",
+              "answer": "Eka",
+              "explanation": "Jawaban dihitung: Eka",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g052",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data jumlah buku yang dibaca: Eka=6, Ani=10, Budi=5. Siapa yang membaca buku paling banyak?",
+              "answer": "Ani",
+              "explanation": "Jawaban dihitung: Ani",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g053",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data jumlah buku yang dibaca: Eka=5, Ani=10, Citra=1. Siapa yang membaca buku paling banyak?",
+              "answer": "Ani",
+              "explanation": "Jawaban dihitung: Ani",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g054",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data jumlah buku yang dibaca: Dedi=2, Citra=8, Ani=6, Budi=7, Eka=6. Siapa yang membaca buku paling sedikit?",
+              "answer": "Dedi",
+              "explanation": "Jawaban dihitung: Dedi",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g055",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Budi=8, Citra=5, Eka=7. Jumlah semua buku yang dibaca ada ...",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g056",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data jumlah buku yang dibaca: Ani=2, Citra=7, Budi=9, Dedi=1. Jumlah semua buku yang dibaca ada ...",
+              "answer": "19",
+              "explanation": "Jawaban dihitung: 19",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g057",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data jumlah buku yang dibaca: Dedi=10, Ani=8, Eka=8, Budi=1. Siapa yang membaca buku paling banyak?",
+              "answer": "Dedi",
+              "explanation": "Jawaban dihitung: Dedi",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g058",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data jumlah buku yang dibaca: Budi=1, Citra=10, Eka=4, Dedi=3, Ani=5. Jumlah semua buku yang dibaca ada ...",
+              "answer": "23",
+              "explanation": "Jawaban dihitung: 23",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g059",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Data jumlah buku yang dibaca: Dedi=2, Ani=3, Eka=8, Citra=5, Budi=9. Jumlah semua buku yang dibaca ada ...",
+              "answer": "27",
+              "explanation": "Jawaban dihitung: 27",
+              "grade": 3,
+              "sumber": "generated"
+            },
+            {
+              "id": "mtk3-g060",
+              "topic": "Penyajian Data dalam Tabel",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Data jumlah buku yang dibaca: Dedi=9, Eka=3, Ani=7, Budi=4. Jumlah semua buku yang dibaca ada ...",
+              "answer": "23",
+              "explanation": "Jawaban dihitung: 23",
+              "grade": 3,
+              "sumber": "generated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [
+    {
+      "id": "mtk3-0003",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 6/10 jika disederhanakan menjadi ...",
+      "answer": "3/5",
+      "explanation": "Jawaban dihitung: 3/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0004",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 01.30 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "02.00",
+      "explanation": "Jawaban dihitung: 02.00",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0005",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 7 cm dan lebar 15 cm adalah ... cm",
+      "answer": "44",
+      "explanation": "Jawaban dihitung: 44",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0008",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+      "answer": "1/5",
+      "explanation": "Jawaban dihitung: 1/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0009",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 02.30 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.30",
+      "explanation": "Jawaban dihitung: 03.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0010",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 7 cm adalah ... cm",
+      "answer": "28",
+      "explanation": "Jawaban dihitung: 28",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0013",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+      "answer": "2/3",
+      "explanation": "Jawaban dihitung: 2/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0014",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 01.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "01.45",
+      "explanation": "Jawaban dihitung: 01.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0015",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 15 cm adalah ... cm",
+      "answer": "48",
+      "explanation": "Jawaban dihitung: 48",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0018",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 1/8 jika disederhanakan menjadi ...",
+      "answer": "1/8",
+      "explanation": "Jawaban dihitung: 1/8",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0019",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 01.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "01.45",
+      "explanation": "Jawaban dihitung: 01.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0020",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 9 cm adalah ... cm",
+      "answer": "46",
+      "explanation": "Jawaban dihitung: 46",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0023",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+      "answer": "1/5",
+      "explanation": "Jawaban dihitung: 1/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0024",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 09.30 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "10.30",
+      "explanation": "Jawaban dihitung: 10.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0025",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 5 cm adalah ... cm",
+      "answer": "20",
+      "explanation": "Jawaban dihitung: 20",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0028",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+      "answer": "1/2",
+      "explanation": "Jawaban dihitung: 1/2",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0029",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 05.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.15",
+      "explanation": "Jawaban dihitung: 07.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0030",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 9 cm adalah ... cm",
+      "answer": "46",
+      "explanation": "Jawaban dihitung: 46",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0033",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 3/10 jika disederhanakan menjadi ...",
+      "answer": "3/10",
+      "explanation": "Jawaban dihitung: 3/10",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0034",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 03.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "04.15",
+      "explanation": "Jawaban dihitung: 04.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0035",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 8 cm adalah ... cm",
+      "answer": "34",
+      "explanation": "Jawaban dihitung: 34",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0038",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 5/6 jika disederhanakan menjadi ...",
+      "answer": "5/6",
+      "explanation": "Jawaban dihitung: 5/6",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0039",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 05.15 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.15",
+      "explanation": "Jawaban dihitung: 07.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0040",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 9 cm adalah ... cm",
+      "answer": "36",
+      "explanation": "Jawaban dihitung: 36",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0043",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0044",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 07.15 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "08.15",
+      "explanation": "Jawaban dihitung: 08.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0045",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 11 cm adalah ... cm",
+      "answer": "50",
+      "explanation": "Jawaban dihitung: 50",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0048",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 7/8 jika disederhanakan menjadi ...",
+      "answer": "7/8",
+      "explanation": "Jawaban dihitung: 7/8",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0049",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 03.45 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "04.30",
+      "explanation": "Jawaban dihitung: 04.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0050",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 10 cm adalah ... cm",
+      "answer": "46",
+      "explanation": "Jawaban dihitung: 46",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0053",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 3/8 jika disederhanakan menjadi ...",
+      "answer": "3/8",
+      "explanation": "Jawaban dihitung: 3/8",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0054",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 06.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.45",
+      "explanation": "Jawaban dihitung: 07.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0055",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 3 cm adalah ... cm",
+      "answer": "12",
+      "explanation": "Jawaban dihitung: 12",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0058",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+      "answer": "2/3",
+      "explanation": "Jawaban dihitung: 2/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0059",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 09.00 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "09.30",
+      "explanation": "Jawaban dihitung: 09.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0060",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 6 cm dan lebar 5 cm adalah ... cm",
+      "answer": "22",
+      "explanation": "Jawaban dihitung: 22",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0063",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+      "answer": "1/5",
+      "explanation": "Jawaban dihitung: 1/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0064",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 07.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "08.15",
+      "explanation": "Jawaban dihitung: 08.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0065",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 19 cm dan lebar 14 cm adalah ... cm",
+      "answer": "66",
+      "explanation": "Jawaban dihitung: 66",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0068",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 4/12 jika disederhanakan menjadi ...",
+      "answer": "1/3",
+      "explanation": "Jawaban dihitung: 1/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0069",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 07.45 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "08.15",
+      "explanation": "Jawaban dihitung: 08.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0070",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 5 cm adalah ... cm",
+      "answer": "20",
+      "explanation": "Jawaban dihitung: 20",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0073",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0074",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 04.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "05.45",
+      "explanation": "Jawaban dihitung: 05.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0075",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 8 cm adalah ... cm",
+      "answer": "42",
+      "explanation": "Jawaban dihitung: 42",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0078",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0079",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 09.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "10.15",
+      "explanation": "Jawaban dihitung: 10.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0080",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 17 cm dan lebar 7 cm adalah ... cm",
+      "answer": "48",
+      "explanation": "Jawaban dihitung: 48",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0083",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 6/10 jika disederhanakan menjadi ...",
+      "answer": "3/5",
+      "explanation": "Jawaban dihitung: 3/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0084",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 05.00 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "05.30",
+      "explanation": "Jawaban dihitung: 05.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0085",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 6 cm adalah ... cm",
+      "answer": "24",
+      "explanation": "Jawaban dihitung: 24",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0088",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+      "answer": "1/3",
+      "explanation": "Jawaban dihitung: 1/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0089",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 09.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
+      "answer": "10.45",
+      "explanation": "Jawaban dihitung: 10.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0090",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 15 cm adalah ... cm",
+      "answer": "48",
+      "explanation": "Jawaban dihitung: 48",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0093",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0094",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 08.30 dan berlalu 15 menit, maka waktu menunjukkan pukul ...",
+      "answer": "08.45",
+      "explanation": "Jawaban dihitung: 08.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0095",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 6 cm dan lebar 7 cm adalah ... cm",
+      "answer": "26",
+      "explanation": "Jawaban dihitung: 26",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0098",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0099",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 08.15 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "09.45",
+      "explanation": "Jawaban dihitung: 09.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0100",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 8 cm adalah ... cm",
+      "answer": "32",
+      "explanation": "Jawaban dihitung: 32",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0103",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+      "answer": "2/3",
+      "explanation": "Jawaban dihitung: 2/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0104",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 02.45 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.15",
+      "explanation": "Jawaban dihitung: 03.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0105",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 5 cm adalah ... cm",
+      "answer": "36",
+      "explanation": "Jawaban dihitung: 36",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0108",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+      "answer": "2/3",
+      "explanation": "Jawaban dihitung: 2/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0109",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 01.30 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "02.00",
+      "explanation": "Jawaban dihitung: 02.00",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0110",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 8 cm dan lebar 15 cm adalah ... cm",
+      "answer": "46",
+      "explanation": "Jawaban dihitung: 46",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0113",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 8/10 jika disederhanakan menjadi ...",
+      "answer": "4/5",
+      "explanation": "Jawaban dihitung: 4/5",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0114",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 11.45 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
+      "answer": "01.45",
+      "explanation": "Jawaban dihitung: 01.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0115",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 9 cm adalah ... cm",
+      "answer": "36",
+      "explanation": "Jawaban dihitung: 36",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0118",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+      "answer": "1/3",
+      "explanation": "Jawaban dihitung: 1/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0119",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 01.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.15",
+      "explanation": "Jawaban dihitung: 03.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0120",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 11 cm adalah ... cm",
+      "answer": "40",
+      "explanation": "Jawaban dihitung: 40",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0123",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 7/10 jika disederhanakan menjadi ...",
+      "answer": "7/10",
+      "explanation": "Jawaban dihitung: 7/10",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0124",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 07.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.45",
+      "explanation": "Jawaban dihitung: 07.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0125",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 12 cm dan lebar 5 cm adalah ... cm",
+      "answer": "34",
+      "explanation": "Jawaban dihitung: 34",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0128",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 1/8 jika disederhanakan menjadi ...",
+      "answer": "1/8",
+      "explanation": "Jawaban dihitung: 1/8",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0129",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 05.45 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.45",
+      "explanation": "Jawaban dihitung: 07.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0130",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 3 cm adalah ... cm",
+      "answer": "12",
+      "explanation": "Jawaban dihitung: 12",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0133",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+      "answer": "1/4",
+      "explanation": "Jawaban dihitung: 1/4",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0134",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 05.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "07.15",
+      "explanation": "Jawaban dihitung: 07.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0135",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 13 cm adalah ... cm",
+      "answer": "54",
+      "explanation": "Jawaban dihitung: 54",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0138",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 3/10 jika disederhanakan menjadi ...",
+      "answer": "3/10",
+      "explanation": "Jawaban dihitung: 3/10",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0139",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 04.30 dan berlalu 15 menit, maka waktu menunjukkan pukul ...",
+      "answer": "04.45",
+      "explanation": "Jawaban dihitung: 04.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0140",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 12 cm dan lebar 12 cm adalah ... cm",
+      "answer": "48",
+      "explanation": "Jawaban dihitung: 48",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0143",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+      "answer": "1/3",
+      "explanation": "Jawaban dihitung: 1/3",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0144",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 01.15 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.15",
+      "explanation": "Jawaban dihitung: 03.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0145",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 10 cm adalah ... cm",
+      "answer": "40",
+      "explanation": "Jawaban dihitung: 40",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0148",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+      "answer": "1/2",
+      "explanation": "Jawaban dihitung: 1/2",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0149",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 06.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "08.15",
+      "explanation": "Jawaban dihitung: 08.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0150",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 15 cm dan lebar 6 cm adalah ... cm",
+      "answer": "42",
+      "explanation": "Jawaban dihitung: 42",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0153",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Pecahan 1/10 jika disederhanakan menjadi ...",
+      "answer": "1/10",
+      "explanation": "Jawaban dihitung: 1/10",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0154",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Jika sekarang pukul 02.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.15",
+      "explanation": "Jawaban dihitung: 03.15",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0155",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Keliling persegi panjang dengan panjang 15 cm dan lebar 13 cm adalah ... cm",
+      "answer": "56",
+      "explanation": "Jawaban dihitung: 56",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0158",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Pecahan 1/10 jika disederhanakan menjadi ...",
+      "answer": "1/10",
+      "explanation": "Jawaban dihitung: 1/10",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0159",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Jika sekarang pukul 02.45 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
+      "answer": "03.30",
+      "explanation": "Jawaban dihitung: 03.30",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0160",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Keliling persegi dengan sisi 4 cm adalah ... cm",
+      "answer": "16",
+      "explanation": "Jawaban dihitung: 16",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0163",
+      "topic": "Pecahan",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+      "answer": "1/2",
+      "explanation": "Jawaban dihitung: 1/2",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0164",
+      "topic": "Pengukuran Waktu",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Jika sekarang pukul 05.15 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
+      "answer": "06.45",
+      "explanation": "Jawaban dihitung: 06.45",
+      "grade": 3
+    },
+    {
+      "id": "mtk3-0165",
+      "topic": "Keliling Bangun Datar",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Keliling persegi panjang dengan panjang 17 cm dan lebar 15 cm adalah ... cm",
+      "answer": "64",
+      "explanation": "Jawaban dihitung: 64",
+      "grade": 3
+    }
+  ]
+}

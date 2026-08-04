@@ -1,0 +1,1281 @@
+{
+  "kelas": 1,
+  "mapel": "IPAS",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Tubuhku",
+          "soal": [
+            {
+              "id": "ipas1-001",
+              "topic": "Panca Indera",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Panca indera yang digunakan untuk melihat adalah ...",
+              "answer": "Mata",
+              "explanation": "Mata berfungsi untuk melihat",
+              "options": [
+                "Kulit",
+                "Mata",
+                "Lidah",
+                "Telinga",
+                "Hidung"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-002",
+              "topic": "Panca Indera",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Panca indera yang digunakan untuk mendengar adalah ...",
+              "answer": "Telinga",
+              "explanation": "Telinga berfungsi untuk mendengar",
+              "options": [
+                "Hidung",
+                "Lidah",
+                "Telinga",
+                "Kulit",
+                "Mata"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-003",
+              "topic": "Panca Indera",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Panca indera yang digunakan untuk mencium bau adalah ...",
+              "answer": "Hidung",
+              "explanation": "Hidung berfungsi untuk mencium bau",
+              "options": [
+                "Lidah",
+                "Hidung",
+                "Mata",
+                "Telinga",
+                "Kulit"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-004",
+              "topic": "Panca Indera",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Panca indera yang digunakan untuk mengecap rasa adalah ...",
+              "answer": "Lidah",
+              "explanation": "Lidah berfungsi untuk mengecap rasa",
+              "options": [
+                "Telinga",
+                "Hidung",
+                "Mata",
+                "Kulit",
+                "Lidah"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-005",
+              "topic": "Panca Indera",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Panca indera yang digunakan untuk meraba adalah ...",
+              "answer": "Kulit",
+              "explanation": "Kulit berfungsi untuk meraba",
+              "options": [
+                "Telinga",
+                "Hidung",
+                "Kulit",
+                "Lidah",
+                "Mata"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-037",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tubuh yang digunakan untuk berjalan adalah ...",
+              "answer": "Kaki",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-038",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tubuh yang digunakan untuk memegang adalah ...",
+              "answer": "Tangan",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-039",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebelum makan, sebaiknya kita ... tangan terlebih dahulu",
+              "answer": "Mencuci",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-040",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Menggosok gigi sebaiknya dilakukan ... kali sehari",
+              "answer": "2",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-041",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hewan peliharaan yang suka mengeong adalah ...",
+              "answer": "Kucing",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-042",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hewan peliharaan yang suka menggonggong adalah ...",
+              "answer": "Anjing",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-043",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tumbuhan membutuhkan ... dari matahari untuk tumbuh",
+              "answer": "Cahaya",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-044",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Bagian tumbuhan yang menyerap air dari dalam tanah adalah ...",
+              "answer": "Akar",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-045",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Warna daun pada umumnya adalah ...",
+              "answer": "Hijau",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-046",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Hewan yang hidup di air dan bernapas dengan insang adalah ...",
+              "answer": "Ikan",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-047",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebelum tidur malam, sebaiknya kita merapikan ...",
+              "answer": "Tempat tidur",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-048",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Alat yang digunakan untuk menyapu lantai adalah ...",
+              "answer": "Sapu",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-049",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tempat kita membeli makanan dan kebutuhan sehari-hari disebut ...",
+              "answer": "Warung/toko",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-050",
+              "topic": "Pengetahuan Umum Dasar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Uang yang kita gunakan untuk membeli sesuatu di Indonesia disebut ...",
+              "answer": "Rupiah",
+              "explanation": "Pengetahuan dasar kehidupan sehari-hari",
+              "grade": 1,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Identitas Diri, Keluarga, dan Kerabat",
+          "soal": [
+            {
+              "id": "ipas1-006",
+              "topic": "Keluarga",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Orang yang melahirkan kita disebut ...",
+              "answer": "Ibu",
+              "explanation": "Pengenalan anggota keluarga",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-007",
+              "topic": "Keluarga",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Orang yang menjadi kepala keluarga biasanya adalah ...",
+              "answer": "Ayah",
+              "explanation": "Pengenalan anggota keluarga",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-008",
+              "topic": "Keluarga",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Saudara kandung dari ayah atau ibu kita disebut ...",
+              "answer": "Paman/Bibi",
+              "explanation": "Pengenalan anggota keluarga",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-009",
+              "topic": "Keluarga",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Anak dari paman atau bibi kita disebut ...",
+              "answer": "Sepupu",
+              "explanation": "Pengenalan anggota keluarga",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-010",
+              "topic": "Keluarga",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Orang tua dari ayah atau ibu kita disebut ...",
+              "answer": "Kakek/Nenek",
+              "explanation": "Pengenalan anggota keluarga",
+              "grade": 1,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Lingkungan dan Benda di Sekitarku",
+          "soal": [
+            {
+              "id": "ipas1-011",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kucing termasuk ...",
+              "answer": "Benda hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-012",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Batu termasuk ...",
+              "answer": "Benda tak hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-013",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Pohon mangga termasuk ...",
+              "answer": "Benda hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda hidup",
+                "Benda tak hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-014",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Meja termasuk ...",
+              "answer": "Benda tak hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-015",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ikan termasuk ...",
+              "answer": "Benda hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-016",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Buku termasuk ...",
+              "answer": "Benda tak hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-017",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ayam termasuk ...",
+              "answer": "Benda hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda tak hidup",
+                "Benda hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-018",
+              "topic": "Benda Hidup & Tak Hidup",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kursi termasuk ...",
+              "answer": "Benda tak hidup",
+              "explanation": "Benda hidup bisa tumbuh, bergerak, dan butuh makan; benda tak hidup tidak",
+              "options": [
+                "Benda hidup",
+                "Benda tak hidup"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-019",
+              "topic": "Ciri Makhluk Hidup",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ciri makhluk hidup yang menunjukkan ia tumbuh menjadi besar disebut ...",
+              "answer": "Tumbuh",
+              "explanation": "Ciri-ciri dasar makhluk hidup",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-020",
+              "topic": "Ciri Makhluk Hidup",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kemampuan makhluk hidup untuk berpindah tempat disebut ...",
+              "answer": "Bergerak",
+              "explanation": "Ciri-ciri dasar makhluk hidup",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-021",
+              "topic": "Ciri Makhluk Hidup",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Makhluk hidup memerlukan ... untuk bertahan hidup",
+              "answer": "Makanan dan air",
+              "explanation": "Ciri-ciri dasar makhluk hidup",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-022",
+              "topic": "Ciri Makhluk Hidup",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kemampuan makhluk hidup untuk menghasilkan keturunan disebut ...",
+              "answer": "Berkembang biak",
+              "explanation": "Ciri-ciri dasar makhluk hidup",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-023",
+              "topic": "Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Air adalah contoh benda ...",
+              "answer": "Cair",
+              "explanation": "Benda punya tiga wujud: padat, cair, dan gas",
+              "options": [
+                "Gas",
+                "Padat",
+                "Cair"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-024",
+              "topic": "Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Batu adalah contoh benda ...",
+              "answer": "Padat",
+              "explanation": "Benda punya tiga wujud: padat, cair, dan gas",
+              "options": [
+                "Cair",
+                "Padat",
+                "Gas"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-025",
+              "topic": "Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Udara adalah contoh benda ...",
+              "answer": "Gas",
+              "explanation": "Benda punya tiga wujud: padat, cair, dan gas",
+              "options": [
+                "Padat",
+                "Cair",
+                "Gas"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-026",
+              "topic": "Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Minyak goreng adalah contoh benda ...",
+              "answer": "Cair",
+              "explanation": "Benda punya tiga wujud: padat, cair, dan gas",
+              "options": [
+                "Cair",
+                "Padat",
+                "Gas"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-027",
+              "topic": "Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kayu adalah contoh benda ...",
+              "answer": "Padat",
+              "explanation": "Benda punya tiga wujud: padat, cair, dan gas",
+              "options": [
+                "Cair",
+                "Gas",
+                "Padat"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-028",
+              "topic": "Lingkungan Rumah & Sekolah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tempat kita belajar bersama guru dan teman disebut ...",
+              "answer": "Sekolah",
+              "explanation": "Pengenalan lingkungan sekitar",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-029",
+              "topic": "Lingkungan Rumah & Sekolah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Ruangan di rumah tempat kita memasak disebut ...",
+              "answer": "Dapur",
+              "explanation": "Pengenalan lingkungan sekitar",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-030",
+              "topic": "Lingkungan Rumah & Sekolah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Ruangan di rumah tempat kita tidur disebut ...",
+              "answer": "Kamar tidur",
+              "explanation": "Pengenalan lingkungan sekitar",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-031",
+              "topic": "Lingkungan Rumah & Sekolah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Orang yang mengajar di sekolah disebut ...",
+              "answer": "Guru",
+              "explanation": "Pengenalan lingkungan sekitar",
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-032",
+              "topic": "Lingkungan Rumah & Sekolah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Aturan yang harus dipatuhi siswa di sekolah disebut ...",
+              "answer": "Tata tertib",
+              "explanation": "Pengenalan lingkungan sekitar",
+              "grade": 1,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Kerukunan",
+          "soal": [
+            {
+              "id": "ipas1-d001",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap saling menghargai perbedaan disebut ...",
+              "answer": "Kerukunan",
+              "explanation": "Kerukunan",
+              "options": [
+                "Permusuhan",
+                "Persaingan",
+                "Kerukunan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d002",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Jika teman berpendapat beda dengan kita, sebaiknya kita ...",
+              "answer": "Menghargai pendapatnya",
+              "explanation": "Menghargai pendapatnya",
+              "options": [
+                "Memarahinya",
+                "Mengabaikannya",
+                "Menghargai pendapatnya"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d003",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Membantu teman yang kesulitan adalah sikap ...",
+              "answer": "Tolong-menolong",
+              "explanation": "Tolong-menolong",
+              "options": [
+                "Acuh tak acuh",
+                "Mengejek",
+                "Tolong-menolong"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d004",
+              "topic": "Kerukunan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bekerja sama membersihkan kelas bersama-sama disebut ...",
+              "answer": "Gotong royong",
+              "explanation": "Gotong royong",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d005",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika ada teman berbeda agama, sikap kita sebaiknya ...",
+              "answer": "Menghormatinya",
+              "explanation": "Menghormatinya",
+              "options": [
+                "Menjauhinya",
+                "Mengejeknya",
+                "Menghormatinya"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d006",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bermain bersama teman tanpa membeda-bedakan disebut sikap ...",
+              "answer": "Rukun",
+              "explanation": "Rukun",
+              "options": [
+                "Sombong",
+                "Egois",
+                "Rukun"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d007",
+              "topic": "Kerukunan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Ucapan yang diucapkan saat kita berbuat salah pada teman adalah ...",
+              "answer": "Maaf",
+              "explanation": "Maaf",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d008",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh sikap yang membuat pertemanan menjadi tidak rukun adalah ...",
+              "answer": "Mengejek teman",
+              "explanation": "Mengejek teman",
+              "options": [
+                "Membantu teman",
+                "Berbagi mainan",
+                "Mengejek teman"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d009",
+              "topic": "Kerukunan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Ucapan yang diucapkan ketika dibantu oleh teman adalah ...",
+              "answer": "Terima kasih",
+              "explanation": "Terima kasih",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d010",
+              "topic": "Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika teman menang lomba dan kita kalah, sikap yang baik adalah ...",
+              "answer": "Memberi selamat",
+              "explanation": "Memberi selamat",
+              "options": [
+                "Marah",
+                "Iri",
+                "Memberi selamat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Energi dan Manfaatnya",
+          "soal": [
+            {
+              "id": "ipas1-d011",
+              "topic": "Energi dan Manfaatnya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sumber energi utama bagi kehidupan di bumi adalah ...",
+              "answer": "Matahari",
+              "explanation": "Matahari",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d012",
+              "topic": "Energi dan Manfaatnya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Alat yang menggunakan energi listrik untuk menerangi ruangan adalah ...",
+              "answer": "Lampu",
+              "explanation": "Lampu",
+              "options": [
+                "Buku",
+                "Kursi",
+                "Lampu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d013",
+              "topic": "Energi dan Manfaatnya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Makanan yang kita makan memberi energi untuk tubuh agar bisa ...",
+              "answer": "Bergerak/beraktivitas",
+              "explanation": "Bergerak/beraktivitas",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d014",
+              "topic": "Energi dan Manfaatnya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kompor gas menggunakan energi dari ...",
+              "answer": "Gas",
+              "explanation": "Gas",
+              "options": [
+                "Air",
+                "Angin",
+                "Gas"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d015",
+              "topic": "Energi dan Manfaatnya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Energi dari sinar matahari yang bisa kita rasakan di kulit disebut energi ...",
+              "answer": "Panas",
+              "explanation": "Panas",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d016",
+              "topic": "Energi dan Manfaatnya",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kegiatan menghemat energi listrik di rumah adalah ...",
+              "answer": "Mematikan lampu saat tidak dipakai",
+              "explanation": "Mematikan lampu saat tidak dipakai",
+              "options": [
+                "Menyalakan lampu terus-menerus",
+                "Membiarkan TV menyala",
+                "Mematikan lampu saat tidak dipakai"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d017",
+              "topic": "Energi dan Manfaatnya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kipas angin menggunakan energi listrik untuk menghasilkan energi ...",
+              "answer": "Gerak",
+              "explanation": "Gerak",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d018",
+              "topic": "Energi dan Manfaatnya",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sepeda bergerak menggunakan energi dari ...",
+              "answer": "Tenaga orang yang mengayuh",
+              "explanation": "Tenaga orang yang mengayuh",
+              "options": [
+                "Listrik",
+                "Matahari",
+                "Tenaga orang yang mengayuh"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d019",
+              "topic": "Energi dan Manfaatnya",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Baterai adalah salah satu sumber energi ...",
+              "answer": "Listrik",
+              "explanation": "Listrik",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d020",
+              "topic": "Energi dan Manfaatnya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Alat memasak nasi yang menggunakan listrik disebut ...",
+              "answer": "Rice cooker/penanak nasi listrik",
+              "explanation": "Rice cooker/penanak nasi listrik",
+              "options": [
+                "Kipas angin",
+                "Setrika",
+                "Rice cooker/penanak nasi listrik"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Pengalamanku",
+          "soal": [
+            {
+              "id": "ipas1-d021",
+              "topic": "Pengalamanku",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kegiatan yang biasa kita lakukan setiap hari secara berulang disebut kegiatan ...",
+              "answer": "Rutin/sehari-hari",
+              "explanation": "Rutin/sehari-hari",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d022",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan kegiatan pagi hari yang benar adalah ...",
+              "answer": "Bangun tidur - mandi - sarapan - berangkat sekolah",
+              "explanation": "Bangun tidur - mandi - sarapan - berangkat sekolah",
+              "options": [
+                "Berangkat sekolah - bangun tidur - mandi",
+                "Sarapan - bangun tidur - mandi",
+                "Bangun tidur - mandi - sarapan - berangkat sekolah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d023",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sebelum tidur malam, sebaiknya kita ...",
+              "answer": "Menggosok gigi",
+              "explanation": "Menggosok gigi",
+              "options": [
+                "Bermain gadget",
+                "Makan permen",
+                "Menggosok gigi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d024",
+              "topic": "Pengalamanku",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kegiatan pertama yang biasa dilakukan setelah bangun tidur adalah merapikan ...",
+              "answer": "Tempat tidur",
+              "explanation": "Tempat tidur",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d025",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hari libur sekolah biasanya jatuh pada hari ...",
+              "answer": "Sabtu dan Minggu",
+              "explanation": "Sabtu dan Minggu",
+              "options": [
+                "Senin dan Selasa",
+                "Rabu dan Kamis",
+                "Sabtu dan Minggu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d026",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ketika mengalami pengalaman yang menyenangkan, perasaan kita adalah ...",
+              "answer": "Senang/gembira",
+              "explanation": "Senang/gembira",
+              "options": [
+                "Sedih",
+                "Marah",
+                "Senang/gembira"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d027",
+              "topic": "Pengalamanku",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sebelum makan, kegiatan yang sebaiknya dilakukan adalah mencuci ...",
+              "answer": "Tangan",
+              "explanation": "Tangan",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d028",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Menceritakan kembali kejadian yang sudah dialami disebut ...",
+              "answer": "Bercerita pengalaman",
+              "explanation": "Bercerita pengalaman",
+              "options": [
+                "Berkhayal",
+                "Mengarang cerita",
+                "Bercerita pengalaman"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d029",
+              "topic": "Pengalamanku",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pengalaman pertama kali masuk sekolah disebut hari pertama ...",
+              "answer": "Sekolah",
+              "explanation": "Sekolah",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d030",
+              "topic": "Pengalamanku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ketika mengalami pengalaman yang menyedihkan, sikap yang baik adalah ...",
+              "answer": "Menceritakannya pada orang tua/guru",
+              "explanation": "Menceritakannya pada orang tua/guru",
+              "options": [
+                "Memendamnya sendiri",
+                "Marah-marah",
+                "Menceritakannya pada orang tua/guru"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 7,
+          "judul_bab": "Benda-benda Langit dan Tanda-tanda Alam",
+          "soal": [
+            {
+              "id": "ipas1-033",
+              "topic": "Waktu & Cuaca",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Waktu ketika matahari bersinar terang disebut ...",
+              "answer": "Siang",
+              "explanation": "Pengenalan konsep waktu dan cuaca dasar",
+              "options": [
+                "Malam",
+                "Subuh",
+                "Siang",
+                "Sore"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-034",
+              "topic": "Waktu & Cuaca",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Waktu ketika langit gelap dan bulan terlihat disebut ...",
+              "answer": "Malam",
+              "explanation": "Pengenalan konsep waktu dan cuaca dasar",
+              "options": [
+                "Malam",
+                "Subuh",
+                "Sore",
+                "Siang"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-035",
+              "topic": "Waktu & Cuaca",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Keadaan udara di suatu tempat pada waktu tertentu disebut ...",
+              "answer": "Cuaca",
+              "explanation": "Pengenalan konsep waktu dan cuaca dasar",
+              "options": [
+                "Cuaca",
+                "Iklim",
+                "Musim",
+                "Suhu"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            },
+            {
+              "id": "ipas1-036",
+              "topic": "Waktu & Cuaca",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Saat hujan turun, langit biasanya terlihat ...",
+              "answer": "Mendung/gelap",
+              "explanation": "Pengenalan konsep waktu dan cuaca dasar",
+              "options": [
+                "Mendung/gelap",
+                "Panas",
+                "Cerah",
+                "Berbintang"
+              ],
+              "grade": 1,
+              "sumber": "bank"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 8,
+          "judul_bab": "Letak Rumah",
+          "soal": [
+            {
+              "id": "ipas1-d031",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Informasi yang menunjukkan tempat tinggal kita disebut ...",
+              "answer": "Alamat rumah",
+              "explanation": "Alamat rumah",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d032",
+              "topic": "Letak Rumah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Untuk mengetahui letak rumah dari atas, kita bisa melihat ...",
+              "answer": "Denah/peta sederhana",
+              "explanation": "Denah/peta sederhana",
+              "options": [
+                "Kalender",
+                "Jam",
+                "Denah/peta sederhana"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d033",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nama jalan tempat rumah kita berada biasanya tertulis di ...",
+              "answer": "Papan nama jalan",
+              "explanation": "Papan nama jalan",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d034",
+              "topic": "Letak Rumah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Rumah yang berada dekat dengan sekolah artinya jaraknya ...",
+              "answer": "Dekat",
+              "explanation": "Dekat",
+              "options": [
+                "Jauh",
+                "Sangat jauh",
+                "Dekat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d035",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Arah mata angin yang menunjukkan tempat matahari terbit adalah ...",
+              "answer": "Timur",
+              "explanation": "Timur",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d036",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Arah mata angin yang berlawanan dengan timur adalah ...",
+              "answer": "Barat",
+              "explanation": "Barat",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d037",
+              "topic": "Letak Rumah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika rumah kita di sebelah kanan sekolah, maka sekolah berada di sebelah ... rumah kita",
+              "answer": "Kiri",
+              "explanation": "Kiri",
+              "options": [
+                "Kanan",
+                "Atas",
+                "Kiri"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d038",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nomor yang tertulis di depan rumah untuk menunjukkan letaknya disebut ...",
+              "answer": "Nomor rumah",
+              "explanation": "Nomor rumah",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d039",
+              "topic": "Letak Rumah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Benda atau tempat yang dijadikan tanda untuk memudahkan menemukan rumah disebut ...",
+              "answer": "Patokan",
+              "explanation": "Patokan",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas1-d040",
+              "topic": "Letak Rumah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Arah mata angin yang menunjukkan tempat matahari terbenam adalah ...",
+              "answer": "Barat",
+              "explanation": "Barat",
+              "options": [
+                "Utara",
+                "Selatan",
+                "Barat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}
