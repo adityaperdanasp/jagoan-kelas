@@ -5,6 +5,7 @@ import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
 import { usePlayer } from "../data/PlayerContext";
+import { useSecretTap } from "../games/dinorace/useSecretTap";
 
 export default function Landing() {
   const navigate = useNavigate();
@@ -14,6 +15,8 @@ export default function Landing() {
     logout();
     navigate("/masuk");
   }
+
+  const handleSecretTap = useSecretTap(() => navigate("/rahasia/dinorace"));
 
   return (
     <Shell>
@@ -47,6 +50,7 @@ export default function Landing() {
 
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, textAlign: "center" }}>
           <div
+            onClick={handleSecretTap}
             style={{
               width: 220,
               height: 160,
@@ -56,6 +60,8 @@ export default function Landing() {
               alignItems: "center",
               justifyContent: "center",
               fontSize: 56,
+              cursor: "pointer",
+              WebkitTapHighlightColor: "transparent",
             }}
           >
             🎒✨
