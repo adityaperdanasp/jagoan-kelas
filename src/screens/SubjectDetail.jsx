@@ -101,7 +101,12 @@ export default function SubjectDetail() {
         )}
       </div>
 
-      <div style={{ padding: "0 18px 22px" }}>
+      <div style={{ padding: "0 18px 22px", display: "flex", flexDirection: "column", gap: 10 }}>
+        {subject === "matematika" && (
+          <Button variant="secondary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
+            🚗 Drive Mode
+          </Button>
+        )}
         <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} disabled={!topics || topics.length === 0}>
           Lanjut Belajar
         </Button>
