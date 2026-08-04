@@ -65,6 +65,19 @@ Folder `src/games/` — `drive/`, `plane/`, `dinorace/`, `shared/`. Semuanya **v
 - **`dinorace/`** — CUMA unlock mechanism yang jadi, game beneran BELUM. `useSecretTap.js`: tap 6 kuadran (bagi hero image Landing jadi TL/TR/BL/BR) sesuai urutan rahasia `TL,TR,TL,TR,BL,BR` dalam window 2.5 detik/tap, salah urutan atau kelamaan diem = reset progress. Berhasil → navigate ke `/rahasia/dinorace` (`DinoRaceUnlock.jsx`), yang JUJUR nampilin "segera hadir", bukan pura-pura ada game-nya. **Urutan tap sequence-nya SENGAJA gak didokumentasiin di UI/README publik manapun** (biar tetep rahasia) — cuma ada di kode ini.
   - DinoRace ASLI (2-player racing, sumber di `~/Documents/dinorace` atau `al-idrisi-games/dinorace/`) belum di-porting sama sekali. Butuh: Firebase RTDB (bukan Firestore) buat room pairing real-time, UI race track + joystick kontrol mobil, sistem 2-player sync. Scope besar terpisah, belum mulai dikerjain.
 
+## Parent Portal (`/parents`)
+
+Pola disamain **persis** sama BrainBox `parents/index.html`/`script.js` (baca dulu itu kalau mau ubah sesuatu di sini). Poin kunci yang WAJIB dipertahankan kalau diubah:
+
+- **Auth pakai PIN ANAK**, bukan PIN guru/dashboard terpisah — `signInAsChild()` di `authService.js` cuma alias ke `signIn()` yang sama dipakai anak login sendiri. Ini keputusan privacy yang sengaja: orang tua cuma bisa lihat data anaknya sendiri (butuh tau PIN anaknya), bukan semua murid. **Jangan pernah bikin 1 PIN admin buat semua data** — itu privacy bug persis yang dihindarin BrainBox.
+- **Route `/parents` TIDAK di-wrap `RequireAuth`** — beda sesi dari login player utama, biar orang tua gak harus login sebagai anak dulu di app utama.
+- **Yang jalan (real data)**: kirim pesan 1-arah (`players/{id}.parentMessage: {text, sentAt, read}`, nimpa pesan lama, bukan thread — sama kayak BrainBox), muncul sebagai popup `OverlayCard` di Landing anak pas dibuka lagi, ditandain `read:true` begitu di-dismiss.
+- **Yang BELUM jalan** (placeholder "🚧 Segera hadir" di `ParentPortal.jsx`, BUKAN data palsu):
+  - **"Fokus Minggu Ini"** (Assign) — BrainBox nya nyimpen ke `assignedTopics`, dibaca sama Focus Round MathVille (mode latihan campur-topik lintas subject). Jagoan Kelas gak punya mode Focus Round — kalau mau ngerjain ini, itu prasyaratnya.
+  - **"Perlu Latihan Lagi"** (Needs Practice / weak topics) — BrainBox ngitung dari `topicStats/{topic}/{correct,wrong}` (formula: `≥3 percobaan && akurasi<70%`, constants `MIN_ATTEMPTS`/`WEAK_ACCURACY` di `parents/script.js`). Progress tracking (lihat TODO #1) harus dibangun dulu sebelum ini bisa jalan beneran.
+  - **"Progress by Game/Subject"** — BrainBox breakdown XP per game. Kita cuma punya `player.xp` flat (bukan per-subject) — ditampilin apa adanya (total doang), breakdown per-subject nunggu progress tracking juga.
+- Entry point: link kecil "Untuk orang tua →" di footer Landing (`Landing.jsx`), sengaja gak menonjol — sama alasan BrainBox: biar anak gak notice/ke-klik gak sengaja.
+
 ## Data loading di app
 
 `src/data/contentLoader.js` — lazy-load per kelas pakai `import.meta.glob` (Vite code-split otomatis, gak bundle 42 kombinasi sekaligus). `hasContent(subjectId)` cuma `true` buat `matematika`/`ipas`/`ppkn` — subjek lain nampilin fallback "Materi lagi disiapin" di `SubjectDetail.jsx`, bukan error/crash.
