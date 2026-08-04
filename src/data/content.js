@@ -12,14 +12,17 @@ export const GRADES = Array.from({ length: 6 }).map((_, i) => {
   return { n: i + 1, bg: c.bg, ink: c.ink, offset: i % 2 === 0 ? -34 : 34 };
 });
 
+// 6 mata pelajaran (bukan 7) -- IPA & IPS digabung jadi satu card "IPAS", sesuai
+// Kurikulum Merdeka asli (buku IPAS gabungan sejak kelas 3; kelas 1-2 tematik).
+// Diputuskan bareng user setelah nemu mismatch antara wireframe (7 card) dan
+// struktur kurikulum asli (IPA+IPS udah merger).
 export const SUBJECTS = [
   { id: "matematika", name: "Matematika", sub: "Angka & hitung-hitungan", emoji: "🔢", accent: "math", rotate: -1 },
-  { id: "ipa", name: "IPA", sub: "Ilmu Pengetahuan Alam", emoji: "🔬", accent: "science", rotate: 1 },
-  { id: "ips", name: "IPS", sub: "Ilmu Pengetahuan Sosial", emoji: "🌍", accent: "town", rotate: -1 },
-  { id: "ppkn", name: "PPKn", sub: "Pendidikan Pancasila", emoji: "🇮🇩", accent: "focus", rotate: 1 },
-  { id: "pai", name: "Pendidikan Agama Islam", sub: "Belajar nilai & akhlak", emoji: "🕌", accent: "lang", rotate: -1 },
-  { id: "bindo", name: "Bahasa Indonesia", sub: "Membaca & menulis", emoji: "📖", accent: "science", rotate: 1 },
-  { id: "binggris", name: "Bahasa Inggris", sub: "English fun time", emoji: "🔤", accent: "math", rotate: -1 },
+  { id: "ipas", name: "IPAS", sub: "Ilmu Pengetahuan Alam & Sosial", emoji: "🔬", accent: "science", rotate: 1 },
+  { id: "ppkn", name: "PPKn", sub: "Pendidikan Pancasila", emoji: "🇮🇩", accent: "focus", rotate: -1 },
+  { id: "pai", name: "Pendidikan Agama Islam", sub: "Belajar nilai & akhlak", emoji: "🕌", accent: "lang", rotate: 1 },
+  { id: "bindo", name: "Bahasa Indonesia", sub: "Membaca & menulis", emoji: "📖", accent: "town", rotate: -1 },
+  { id: "binggris", name: "Bahasa Inggris", sub: "English fun time", emoji: "🔤", accent: "math", rotate: 1 },
 ];
 
 // Dummy topik contoh (Matematika Kelas 4) -- nanti diganti sumber data asli
