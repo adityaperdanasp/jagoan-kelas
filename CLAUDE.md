@@ -30,7 +30,7 @@ Sumber: `~/Documents/jagoan-kelas/design_handoff_kids_game_wireframe/` (`README.
 - Proteksi rute: `RequireAuth` wrapper di `App.jsx` — semua rute selain `/masuk` redirect ke situ kalau `player` null.
 
 ### Beda sengaja dari BrainBox (dicatat biar transparan, bukan silent divergence)
-- **Firestore, bukan Realtime Database.** BrainBox pakai RTDB (`al-idrisi-games` project) terutama karena butuh sinkronisasi real-time buat multiplayer (Math Race, DinoRace race state). Jagoan Kelas belum ada kebutuhan multiplayer real-time (DinoRace easter egg masih rencana jauh, caranya unlock aja belum diputusin) — Firestore lebih pas buat model data per-dokumen (progress per pelajaran) dan udah kepasang duluan pas setup awal. Kalau nanti butuh multiplayer beneran, pertimbangin nambah RTDB juga (project Firebase yang sama bisa punya keduanya).
+- **Firestore, bukan Realtime Database.** BrainBox pakai RTDB (`al-idrisi-games` project) terutama karena butuh sinkronisasi real-time buat multiplayer (Math Race, DinoRace race state). Jagoan Kelas belum ada kebutuhan multiplayer real-time — Firestore lebih pas buat model data per-dokumen (progress per pelajaran) dan udah kepasang duluan pas setup awal. **DinoRace beneran (2-player) belum di-porting justru karena butuh RTDB** buat live pairing (lihat bagian Games di bawah) — kalau itu dikerjain, project Firebase yang sama bisa ditambahin RTDB juga (satu project bisa punya keduanya).
 - Belum ada skema `badges`/`topicStats` kayak BrainBox (`players/{id}/badges/{gameId}/...`, `players/{id}/topicStats/{gameId}/{topicKey}/{correct,wrong,streak}`) — progress tracking (XP naik, topik jadi "selesai") **belum dibangun sama sekali**, `xp` di dokumen player masih statis 0 dari sign-up. Kalau mau ngerjain ini, ikutin bentuk BrainBox: `players/{id}/progress/{subjectId}/{grade}/{babKey}/{status, xp, stars}` (bukan flat kayak sekarang) biar konsisten sama pola nested-by-game(subject) BrainBox.
 
 ## Konten soal (content-pipeline)
@@ -48,6 +48,22 @@ Folder terpisah `~/Documents/jagoan-kelas/content-pipeline/` (di luar `app/`, cu
 ### Temuan penting soal mismatch kurikulum (buat direview manual user)
 - Matematika: kelas 2 "Perkalian/Pembagian" (84 soal, gak ada bab resmi di kelas 2), kelas 3 "Pecahan"+"Keliling Bangun Datar" (materi kelas 2/4 dan kelas 5, bukan kelas 3), kelas 5 "Volume Bangun Ruang"+"Perbandingan&Skala" (materi kelas 4 dan kelas 6), kelas 6 cuma 4 bab resmi vs bank soal yang jauh lebih luas (~separuh soal kelas 6 gak ketampung: Bilangan Bulat, Operasi Campuran, Statistika).
 - Semua soal mismatch ini ada di `belum_terpetakan` per file kelas, BUKAN dihapus — tinggal nunggu keputusan user.
+
+## Games (Drive Mode / Plane Mode / DinoRace easter egg)
+
+Folder `src/games/` — `drive/`, `plane/`, `dinorace/`, `shared/`. Semuanya **v1/core-engine**, di-port dari pola BrainBox mathville (baca kode aslinya di `al-idrisi-games/mathville/script.js`, cari komentar "Drive Mode"/"PLANE MODE") tapi DISEDERHANAIN — BrainBox sendiri butuh berbulan-bulan iterasi (nitro, water gun, vehicle skin, boss cycle, power-up, respawn gauntlet, dst, semua tercatat di CLAUDE.md BrainBox) buat nyampe ke versi sekarang. Jangan kaget kalau user minta salah satu fitur "lanjutan" ini nanti — itu emang belum ada, bukan bug.
+
+- **`shared/quickQuestion.js`** — generator soal kilat grade-aware (beda dari `generators_matematika.py` yang per-bab kurikulum). Rentang angka per kelas 1-6, dipakai Drive Mode & Plane Mode dua-duanya. BrainBox punya bank soal FIXED grade-4 (dari MathVille) karena mathville cuma 1 kelas; kita generate langsung per grade karena app-nya 6 kelas.
+- **`shared/useJoystick.js` + `Joystick.jsx`** — analog stick, pola sama kayak BrainBox (drag dari tengah, vector -1..1). Posisi visual nub lewat React state, tapi `vecRef` yang dibaca game loop tiap frame TIDAK lewat re-render (biar gak lag) — persis alasan BrainBox manipulasi DOM langsung.
+- **`drive/DriveMode.jsx`** — mobil dodge-obstacle + dino chase + quiz kilat pas nabrak obstacle. Entry: tombol "🚗 Drive" di `SubjectDetail.jsx` (khusus subject Matematika), route `/kelas/:grade/matematika/drive`.
+  - Ada: 1 dino ngejar (bukan 2 di Hard), obstacle dodge, quiz-on-hit, lives/bite-immunity, difficulty picker, win/lose.
+  - **BELUM ada** (fitur BrainBox yang sengaja di-skip v1): nitro boost, water gun, vehicle skin picker, city-markers-ke-chapter, dino obstacle-avoidance steering (dino kita jalan lurus ke arah mobil, gak belok-belok ngindarin rintangan kayak BrainBox `dinoSteerAngle`).
+- **`plane/PlaneMode.jsx`** — shmup vertikal, auto-fire, musuh turun+nembak balik, quiz berkala = bomb semua musuh. Entry: tombol "✈️ Plane" di sebelah Drive, route `/kelas/:grade/matematika/plane`.
+  - Ada: ship+joystick, auto-fire, 1 tipe musuh (+variasi sine drift), musuh nembak balik (aimed, ada spread error), lives+invuln flash, ledakan visual, quiz berkala = bomb, skor target buat menang.
+  - **BELUM ada**: power-up (rapid-fire/shield/heal/wingmen/spread), boss fight, endless mode + wave-difficulty-ramp, respawn gauntlet (3x kesempatan), high-score persisten, XP reward pas menang.
+  - Elemen bullet/musuh dimanipulasi langsung ke DOM (`document.createElement` + `style.left/top` tiap frame, BUKAN React state) — SAMA PERSIS pola performa BrainBox, krusial buat FPS yang smooth pas banyak bullet di layar.
+- **`dinorace/`** — CUMA unlock mechanism yang jadi, game beneran BELUM. `useSecretTap.js`: tap 6 kuadran (bagi hero image Landing jadi TL/TR/BL/BR) sesuai urutan rahasia `TL,TR,TL,TR,BL,BR` dalam window 2.5 detik/tap, salah urutan atau kelamaan diem = reset progress. Berhasil → navigate ke `/rahasia/dinorace` (`DinoRaceUnlock.jsx`), yang JUJUR nampilin "segera hadir", bukan pura-pura ada game-nya. **Urutan tap sequence-nya SENGAJA gak didokumentasiin di UI/README publik manapun** (biar tetep rahasia) — cuma ada di kode ini.
+  - DinoRace ASLI (2-player racing, sumber di `~/Documents/dinorace` atau `al-idrisi-games/dinorace/`) belum di-porting sama sekali. Butuh: Firebase RTDB (bukan Firestore) buat room pairing real-time, UI race track + joystick kontrol mobil, sistem 2-player sync. Scope besar terpisah, belum mulai dikerjain.
 
 ## Data loading di app
 
@@ -68,6 +84,6 @@ Status topik (locked/current/done) masih **hardcoded default** (bab pertama = cu
 3. **80 soal IPAS (`belum_terpetakan`) + 341 soal Matematika (`belum_terpetakan`)** nunggu review manual user, termasuk keputusan soal kelas 6 Matematika yang cuma 4 bab resmi (perlu dikonfirmasi apa itu bener struktur buku yang dipakai).
 4. **1 akun test nyangkut di Firestore production** (`players/azka-test`, PIN 1234, dari sesi testing auth) — aman dihapus manual kapan aja.
 5. **Hero illustration di Landing masih placeholder emoji** (🎒✨) — README wireframe nyebut ini "open image slot", butuh aset ilustrasi asli anak-anak belajar.
-6. **Drive Mode, Plane Mode, DinoRace easter egg** — 3 fitur wajib dari brief awal, belum ada satupun yang mulai dikerjain. DinoRace unlock method udah disepakati bentuknya (konami-code-style tap sequence) tapi detail implementasinya belum dirancang.
+6. **Drive Mode & Plane Mode masih v1/core-engine** — lihat daftar "BELUM ada" di bagian Games di atas (nitro, water gun, power-up, boss, dst). **DinoRace beneran (2-player racing) belum di-porting** — cuma unlock mechanism-nya yang jadi; butuh Firebase RTDB + race track UI, scope besar terpisah.
 7. **Firebase Authentication belum diaktifin di console** (cuma Firestore) — belum masalah karena auth sistem sendiri (name+PIN) gak pakai Firebase Auth SDK, tapi kalau nanti butuh Google Sign-In/dst buat orang tua, perlu diaktifin.
 8. **Belum ada dual-deploy pattern** kayak BrainBox (standalone domain per produk) — wajar karena masih 1 domain (`jagoan-kelas.vercel.app`), belum relevan sampai ada kebutuhan domain kustom.
