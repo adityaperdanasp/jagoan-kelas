@@ -91,6 +91,19 @@ Status topik (locked/current/done) masih **hardcoded default** (bab pertama = cu
 - Testing di real device krusial buat bug yang gak muncul di desktop — belum pernah dites di device asli sama sekali buat project ini (masih full browser-pane testing).
 - **Aksi yang butuh login interaktif (GitHub OAuth, Firebase Console) gak bisa diwakilin** — kasih instruksi jelas step-by-step, user yang jalanin sendiri, baru lanjut.
 
+## Sedang dikerjain sekarang: Progress Tracking + Focus Round
+
+Fokus kerjaan berikutnya (per keputusan 2026-08-04) — bangun fondasi progress tracking (TODO #1) buat ngidupin 2 section Parent Portal yang masih placeholder:
+- **"Perlu Latihan Lagi"** butuh `topicStats` (correct/wrong per topik) beneran dicatat dari quiz yang dijawab anak.
+- **"Fokus Minggu Ini"** butuh mode latihan campur-topik (equivalent Focus Round BrainBox) + Assign picker di Parent Portal yang nulis ke `assignedTopics`.
+
+Rencana implementasi:
+1. Quiz engine reusable (`src/games/quiz/`) yang bisa jalanin soal dari `bab.soal` (matematika/ipas/ppkn) — baik buat practice per-topik normal maupun Focus Round.
+2. Schema `players/{id}.progress.{subject}.{grade}.{babKey} = {status, stars, xp, correct, wrong, lastAt}` — satu sumber data buat locked/current/done DAN buat weak-topic calc, ngikutin pola BrainBox (chapter progress + topicStats reuse jalur yang sama).
+3. `SubjectDetail.jsx` disambungin ke progress asli (bukan hardcoded lagi), topik current/done bisa diklik → quiz beneran.
+4. Focus Round: picker topik (max 8, lintas subject+kelas) + entry point + quiz gabungan, tulis ke `progress` yang sama tapi gak ngubah status locked/unlocked (sama kayak BrainBox: Focus Round nyumbang ke topicStats, gak nyentuh chapter-progress linear).
+5. Parent Portal "Fokus Minggu Ini" & "Perlu Latihan Lagi" disambungin ke data asli.
+
 ## Yang masih perlu ditindaklanjuti
 1. **Progress tracking belum ada** — XP statis 0, status topik hardcoded, gak ada tulis-balik ke Firestore pas anak nyelesein topik. Ini gap paling besar buat bikin app-nya "berfungsi" beneran.
 2. **Konten IPS/PAI/B.Indo/B.Inggris belum ada sama sekali** — 4 dari 6 mata pelajaran masih fallback "coming soon". PAI butuh review ustadz sebelum ada apapun yang di-generate.
