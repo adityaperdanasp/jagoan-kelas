@@ -8,6 +8,7 @@ import SubjectDetail from "./screens/SubjectDetail";
 import DriveMode from "./games/drive/DriveMode";
 import PlaneMode from "./games/plane/PlaneMode";
 import DinoRaceUnlock from "./games/dinorace/DinoRaceUnlock";
+import ParentPortal from "./screens/ParentPortal";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -26,6 +27,7 @@ function AppRoutes() {
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/plane" element={<RequireAuth><PlaneMode /></RequireAuth>} />
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
+      <Route path="/parents" element={<ParentPortal />} />
     </Routes>
   );
 }

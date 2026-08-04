@@ -1,15 +1,37 @@
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useNavigate, Link } from "react-router-dom";
 import Shell from "../components/Shell";
 import Avatar from "../components/ds/Avatar";
 import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
+import OverlayCard from "../components/ds/OverlayCard";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
+import { getPlayerDoc, markParentMessageRead } from "../data/authService";
 
 export default function Landing() {
   const navigate = useNavigate();
   const { player, logout } = usePlayer();
+  const [parentMessage, setParentMessage] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    getPlayerDoc(player.id).then((fresh) => {
+      if (!cancelled && fresh?.parentMessage && !fresh.parentMessage.read) {
+        setParentMessage(fresh.parentMessage);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  function dismissMessage() {
+    setParentMessage(null);
+    markParentMessageRead(player.id).catch(() => {});
+  }
 
   function handleLogout() {
     logout();
@@ -75,7 +97,36 @@ export default function Landing() {
         <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate("/kelas")}>
           Ayo Main! 🚀
         </Button>
+
+        <Link
+          to="/parents"
+          style={{
+            display: "block",
+            textAlign: "center",
+            fontFamily: "var(--font-body)",
+            fontSize: "0.72rem",
+            fontWeight: 700,
+            color: "var(--ink-300)",
+            textDecoration: "none",
+            marginTop: 14,
+          }}
+        >
+          Untuk orang tua →
+        </Link>
       </div>
+
+      <OverlayCard open={!!parentMessage} onClose={dismissMessage}>
+        <div style={{ fontSize: 36, marginBottom: 8 }}>💌</div>
+        <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-900)", marginBottom: 10 }}>
+          Pesan dari orang tua kamu
+        </div>
+        <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", marginBottom: 18 }}>
+          "{parentMessage?.text}"
+        </div>
+        <Button variant="primary" style={{ width: "100%" }} onClick={dismissMessage}>
+          Makasih! 😊
+        </Button>
+      </OverlayCard>
     </Shell>
   );
 }

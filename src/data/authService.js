@@ -1,4 +1,4 @@
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
 // Nama -> id stabil buat dokumen Firestore, sama pola kayak BrainBox
@@ -42,4 +42,28 @@ export async function signIn(name, pin) {
     throw new Error("PIN salah, coba lagi.");
   }
   return { id: key, ...data };
+}
+
+// Dipakai Parent Portal buat sign-in pakai nama+PIN ANAK -- fungsi sama
+// kayak signIn(), dinamain beda biar jelas konteksnya di pemanggil.
+export const signInAsChild = signIn;
+
+export async function getPlayerDoc(id) {
+  const snap = await getDoc(doc(db, "players", id));
+  return snap.exists() ? { id, ...snap.data() } : null;
+}
+
+// Pesan satu arah orang tua -> anak (nimpa pesan lama, bukan thread) --
+// sama pola kayak BrainBox parents/script.js: nyimpen 1 pesan aktif aja,
+// popup muncul di Landing anak pas dibuka lagi.
+export async function sendParentMessage(childId, text) {
+  await updateDoc(doc(db, "players", childId), {
+    parentMessage: { text, sentAt: Date.now(), read: false },
+  });
+}
+
+export async function markParentMessageRead(childId) {
+  await updateDoc(doc(db, "players", childId), {
+    "parentMessage.read": true,
+  });
 }
