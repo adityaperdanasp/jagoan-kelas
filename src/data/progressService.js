@@ -100,7 +100,10 @@ export function computeWeakTopics(progressBySubject) {
         if (total < MIN_ATTEMPTS) continue;
         const accuracy = p.correct / total;
         if (accuracy < WEAK_ACCURACY) {
-          weak.push({ subject, grade, babKey, accuracy, total, title: p.title || babKey });
+          // Gak nyimpen title di sini -- babKey doang, judulnya di-resolve
+          // di UI dari daftar topik (loadAllFocusTopics), biar gak
+          // denormalisasi title ke Firestore.
+          weak.push({ subject, grade, babKey, accuracy, total });
         }
       }
     }

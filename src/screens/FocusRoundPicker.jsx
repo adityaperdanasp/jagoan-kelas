@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
+import TopicPicker from "../components/TopicPicker";
 import { loadAllFocusTopics } from "../data/focusTopics";
 import { getAssignedTopics } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
@@ -42,43 +43,11 @@ export default function FocusRoundPicker() {
         {selected.length} / {MAX_TOPICS} topik dipilih
       </div>
 
-      <div style={{ flex: 1, overflowY: "auto", padding: "10px 18px 18px", display: "flex", flexDirection: "column", gap: 18 }}>
+      <div style={{ flex: 1, overflowY: "auto", padding: "10px 18px 18px" }}>
         {!groups ? (
           <div style={{ textAlign: "center", color: "var(--ink-400)", padding: 40 }}>Memuat topik...</div>
         ) : (
-          groups.map((g) => (
-            <div key={`${g.subjectId}-${g.grade}`}>
-              <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.85rem", color: "var(--ink-700)", marginBottom: 8 }}>
-                {g.subjectEmoji} {g.subjectName} · Kelas {g.grade}
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-                {g.topics.map((t) => {
-                  const checked = selected.includes(t.id);
-                  const disabled = !checked && selected.length >= MAX_TOPICS;
-                  return (
-                    <label
-                      key={t.id}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: 10,
-                        padding: "10px 12px",
-                        borderRadius: 12,
-                        background: checked ? "var(--pastel-blue)" : "var(--surface-card-alt)",
-                        opacity: disabled ? 0.5 : 1,
-                        cursor: disabled ? "default" : "pointer",
-                      }}
-                    >
-                      <input type="checkbox" checked={checked} disabled={disabled} onChange={() => toggle(t.id)} />
-                      <span style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", fontWeight: 700, color: "var(--ink-900)" }}>
-                        {t.title}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            </div>
-          ))
+          <TopicPicker groups={groups} selected={selected} onToggle={toggle} max={MAX_TOPICS} />
         )}
       </div>
 
