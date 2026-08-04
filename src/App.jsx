@@ -10,6 +10,8 @@ import PlaneMode from "./games/plane/PlaneMode";
 import DinoRaceUnlock from "./games/dinorace/DinoRaceUnlock";
 import ParentPortal from "./screens/ParentPortal";
 import TopicQuiz from "./screens/TopicQuiz";
+import FocusRoundPicker from "./screens/FocusRoundPicker";
+import FocusRoundQuiz from "./screens/FocusRoundQuiz";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -30,6 +32,8 @@ function AppRoutes() {
       <Route path="/kelas/:grade/matematika/plane" element={<RequireAuth><PlaneMode /></RequireAuth>} />
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
       <Route path="/parents" element={<ParentPortal />} />
+      <Route path="/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
+      <Route path="/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
     </Routes>
   );
 }

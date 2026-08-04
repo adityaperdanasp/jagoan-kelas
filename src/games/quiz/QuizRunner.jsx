@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Button from "../../components/ds/Button";
 import { answersMatch } from "./normalizeAnswer";
 
 // Komponen quiz reusable -- dipakai TopicQuiz (practice per-bab normal)
 // DAN FocusRoundQuiz (campur beberapa bab). Satu soal per layar, MC
 // (tombol) atau short_answer (input teks), feedback + penjelasan abis
-// jawab, "Lanjut" ke soal berikutnya. onFinish({correct, wrong, results})
-// dipanggil begitu semua soal abis.
+// jawab, "Lanjut" ke soal berikutnya. onFinish({correct, wrong, total, results})
+// dipanggil begitu semua soal abis -- "results" = [{id, correct}] per soal
+// (pakai ref bukan state, biar gak kena race batching pas dibaca di finish),
+// dipakai FocusRoundQuiz buat breakdown correct/wrong per topik asal soal.
 export default function QuizRunner({ questions, onFinish }) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -14,6 +16,7 @@ export default function QuizRunner({ questions, onFinish }) {
   const [answered, setAnswered] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
+  const logRef = useRef([]);
 
   const q = questions[index];
   const isMc = q.type === "multiple_choice";
@@ -26,6 +29,7 @@ export default function QuizRunner({ questions, onFinish }) {
     if (isMc) setSelected(value);
     const correct = answersMatch(val, q.answer);
     setAnswered(true);
+    logRef.current.push({ id: q.id, correct });
     if (correct) setCorrectCount((c) => c + 1);
     else setWrongCount((w) => w + 1);
   }
@@ -36,6 +40,7 @@ export default function QuizRunner({ questions, onFinish }) {
         correct: correctCount,
         wrong: wrongCount,
         total: questions.length,
+        results: logRef.current,
       });
       return;
     }
