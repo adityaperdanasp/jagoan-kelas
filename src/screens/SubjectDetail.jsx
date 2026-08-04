@@ -103,9 +103,14 @@ export default function SubjectDetail() {
 
       <div style={{ padding: "0 18px 22px", display: "flex", flexDirection: "column", gap: 10 }}>
         {subject === "matematika" && (
-          <Button variant="secondary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
-            🚗 Drive Mode
-          </Button>
+          <div style={{ display: "flex", gap: 10 }}>
+            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
+              🚗 Drive
+            </Button>
+            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/plane`)}>
+              ✈️ Plane
+            </Button>
+          </div>
         )}
         <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} disabled={!topics || topics.length === 0}>
           Lanjut Belajar

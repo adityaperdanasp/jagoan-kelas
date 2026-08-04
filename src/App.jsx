@@ -6,6 +6,7 @@ import PickGrade from "./screens/PickGrade";
 import PickSubject from "./screens/PickSubject";
 import SubjectDetail from "./screens/SubjectDetail";
 import DriveMode from "./games/drive/DriveMode";
+import PlaneMode from "./games/plane/PlaneMode";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -22,6 +23,7 @@ function AppRoutes() {
       <Route path="/kelas/:grade" element={<RequireAuth><PickSubject /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
+      <Route path="/kelas/:grade/matematika/plane" element={<RequireAuth><PlaneMode /></RequireAuth>} />
     </Routes>
   );
 }
