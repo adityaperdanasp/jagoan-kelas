@@ -762,19 +762,21 @@
   // into the hub (2026-08-03). Multiplayer pairing lives at its own path
   // (GAMES_ROOT below), same isolation-by-path pattern MathVille uses
   // (mathvilleGames/{code}) rather than a shared schema with other games.
-  // IMPORTANT: this path must be added explicitly to the hub's RTDB
-  // security rules (Firebase Console > Realtime Database > Rules) --
-  // there is no wildcard fallback, unlisted paths default-deny:
+  // Pakai Realtime Database project "jagoan-kelas" sendiri (dipisah dari
+  // al-idrisi-games, dibuat 2026-08-05). RTDB dibikin dalam "test mode"
+  // (allow read/write ke semua path selama 30 hari sejak dibuat) -- kalau
+  // udah lewat 30 hari dan koneksi mulai gagal, buka Firebase Console >
+  // Realtime Database > Rules, dan pastiin ada:
   //   "dinorace_games": { ".read": true, ".write": true }
   // ============================================================
   const firebaseConfig = {
-    apiKey: "AIzaSyDEcYrtGNgjtXGE0vDk-Lc9zMCtct1-5g4",
-    authDomain: "al-idrisi-games.firebaseapp.com",
-    databaseURL: "https://al-idrisi-games-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "al-idrisi-games",
-    storageBucket: "al-idrisi-games.firebasestorage.app",
-    messagingSenderId: "542717578257",
-    appId: "1:542717578257:web:6d2f1c3c5339467dceb5b0"
+    apiKey: "AIzaSyA_26fgTPBYzH1Xpq_hXXEN7IvDvei-A-I",
+    authDomain: "jagoan-kelas.firebaseapp.com",
+    databaseURL: "https://jagoan-kelas-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "jagoan-kelas",
+    storageBucket: "jagoan-kelas.firebasestorage.app",
+    messagingSenderId: "516862721101",
+    appId: "1:516862721101:web:aa38d54da64785d1f4f004"
   };
 
   let db = null;
