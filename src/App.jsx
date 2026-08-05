@@ -11,6 +11,7 @@ import DriveMode from "./games/drive/DriveMode";
 import PlaneMode from "./games/plane/PlaneMode";
 import DinoRaceUnlock from "./games/dinorace/DinoRaceUnlock";
 import GlassBridge from "./games/bobridge/GlassBridge";
+import MathRace from "./games/mathrace/MathRace";
 import ParentPortal from "./screens/ParentPortal";
 import TopicQuiz from "./screens/TopicQuiz";
 import FocusRoundPicker from "./screens/FocusRoundPicker";
@@ -33,6 +34,7 @@ function AppRoutes() {
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/plane" element={<RequireAuth><PlaneMode /></RequireAuth>} />
+      <Route path="/kelas/:grade/matematika/mathrace" element={<RequireAuth><MathRace /></RequireAuth>} />
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/bobridge" element={<RequireAuth><GlassBridge /></RequireAuth>} />
       <Route path="/parents" element={<ParentPortal />} />
