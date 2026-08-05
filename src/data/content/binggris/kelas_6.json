@@ -1,0 +1,1275 @@
+{
+  "kelas": 6,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "My Future Dreams (Jobs)",
+          "soal": [
+            {
+              "id": "ing6-d001",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'engineer' dalam Bahasa Indonesia?",
+              "answer": "insinyur",
+              "explanation": "Apa arti kata 'engineer' dalam Bahasa Indonesia? -> insinyur",
+              "options": [
+                "ilmuwan",
+                "astronaut",
+                "insinyur"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d002",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'insinyur' adalah ...",
+              "answer": "Engineer",
+              "explanation": "Bahasa Inggris dari 'insinyur' adalah ... -> Engineer",
+              "options": [
+                "Scientist",
+                "Astronaut",
+                "Engineer"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d003",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'scientist' dalam Bahasa Indonesia?",
+              "answer": "ilmuwan",
+              "explanation": "Apa arti kata 'scientist' dalam Bahasa Indonesia? -> ilmuwan",
+              "options": [
+                "insinyur",
+                "astronaut",
+                "ilmuwan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d004",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ilmuwan' adalah ...",
+              "answer": "Scientist",
+              "explanation": "Bahasa Inggris dari 'ilmuwan' adalah ... -> Scientist",
+              "options": [
+                "Engineer",
+                "Astronaut",
+                "Scientist"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d005",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'astronaut' dalam Bahasa Indonesia?",
+              "answer": "astronaut",
+              "explanation": "Apa arti kata 'astronaut' dalam Bahasa Indonesia? -> astronaut",
+              "options": [
+                "insinyur",
+                "ilmuwan",
+                "astronaut"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d006",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'astronaut' adalah ...",
+              "answer": "Astronaut",
+              "explanation": "Bahasa Inggris dari 'astronaut' adalah ... -> Astronaut",
+              "options": [
+                "Engineer",
+                "Scientist",
+                "Astronaut"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d007",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'dream' dalam Bahasa Indonesia?",
+              "answer": "cita-cita",
+              "explanation": "Apa arti kata 'dream' dalam Bahasa Indonesia? -> cita-cita",
+              "options": [
+                "insinyur",
+                "ilmuwan",
+                "cita-cita"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d008",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'cita-cita' adalah ...",
+              "answer": "Dream",
+              "explanation": "Bahasa Inggris dari 'cita-cita' adalah ... -> Dream",
+              "options": [
+                "Engineer",
+                "Scientist",
+                "Dream"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d009",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'become' dalam Bahasa Indonesia?",
+              "answer": "menjadi",
+              "explanation": "Apa arti kata 'become' dalam Bahasa Indonesia? -> menjadi",
+              "options": [
+                "insinyur",
+                "ilmuwan",
+                "menjadi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d010",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menjadi' adalah ...",
+              "answer": "Become",
+              "explanation": "Bahasa Inggris dari 'menjadi' adalah ... -> Become",
+              "options": [
+                "Engineer",
+                "Scientist",
+                "Become"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d011",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'future' dalam Bahasa Indonesia?",
+              "answer": "masa depan",
+              "explanation": "Apa arti kata 'future' dalam Bahasa Indonesia? -> masa depan",
+              "options": [
+                "insinyur",
+                "ilmuwan",
+                "masa depan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d012",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'masa depan' adalah ...",
+              "answer": "Future",
+              "explanation": "Bahasa Inggris dari 'masa depan' adalah ... -> Future",
+              "options": [
+                "Engineer",
+                "Scientist",
+                "Future"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d013",
+              "topic": "My Future Dreams (Jobs)",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lengkapi: 'I want to ___ a doctor.' (menjadi)",
+              "answer": "become",
+              "explanation": "become",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Travel & Holidays",
+          "soal": [
+            {
+              "id": "ing6-d014",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'beach' dalam Bahasa Indonesia?",
+              "answer": "pantai",
+              "explanation": "Apa arti kata 'beach' dalam Bahasa Indonesia? -> pantai",
+              "options": [
+                "gunung",
+                "hotel",
+                "pantai"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d015",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pantai' adalah ...",
+              "answer": "Beach",
+              "explanation": "Bahasa Inggris dari 'pantai' adalah ... -> Beach",
+              "options": [
+                "Mountain",
+                "Hotel",
+                "Beach"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d016",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mountain' dalam Bahasa Indonesia?",
+              "answer": "gunung",
+              "explanation": "Apa arti kata 'mountain' dalam Bahasa Indonesia? -> gunung",
+              "options": [
+                "pantai",
+                "hotel",
+                "gunung"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d017",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'gunung' adalah ...",
+              "answer": "Mountain",
+              "explanation": "Bahasa Inggris dari 'gunung' adalah ... -> Mountain",
+              "options": [
+                "Beach",
+                "Hotel",
+                "Mountain"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d018",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hotel' dalam Bahasa Indonesia?",
+              "answer": "hotel",
+              "explanation": "Apa arti kata 'hotel' dalam Bahasa Indonesia? -> hotel",
+              "options": [
+                "pantai",
+                "gunung",
+                "hotel"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d019",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hotel' adalah ...",
+              "answer": "Hotel",
+              "explanation": "Bahasa Inggris dari 'hotel' adalah ... -> Hotel",
+              "options": [
+                "Beach",
+                "Mountain",
+                "Hotel"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d020",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'ticket' dalam Bahasa Indonesia?",
+              "answer": "tiket",
+              "explanation": "Apa arti kata 'ticket' dalam Bahasa Indonesia? -> tiket",
+              "options": [
+                "pantai",
+                "gunung",
+                "tiket"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d021",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tiket' adalah ...",
+              "answer": "Ticket",
+              "explanation": "Bahasa Inggris dari 'tiket' adalah ... -> Ticket",
+              "options": [
+                "Beach",
+                "Mountain",
+                "Ticket"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d022",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'luggage' dalam Bahasa Indonesia?",
+              "answer": "koper/bagasi",
+              "explanation": "Apa arti kata 'luggage' dalam Bahasa Indonesia? -> koper/bagasi",
+              "options": [
+                "pantai",
+                "gunung",
+                "koper/bagasi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d023",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'koper/bagasi' adalah ...",
+              "answer": "Luggage",
+              "explanation": "Bahasa Inggris dari 'koper/bagasi' adalah ... -> Luggage",
+              "options": [
+                "Beach",
+                "Mountain",
+                "Luggage"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d024",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'passport' dalam Bahasa Indonesia?",
+              "answer": "paspor",
+              "explanation": "Apa arti kata 'passport' dalam Bahasa Indonesia? -> paspor",
+              "options": [
+                "pantai",
+                "gunung",
+                "paspor"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d025",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'paspor' adalah ...",
+              "answer": "Passport",
+              "explanation": "Bahasa Inggris dari 'paspor' adalah ... -> Passport",
+              "options": [
+                "Beach",
+                "Mountain",
+                "Passport"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d026",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'map' dalam Bahasa Indonesia?",
+              "answer": "peta",
+              "explanation": "Apa arti kata 'map' dalam Bahasa Indonesia? -> peta",
+              "options": [
+                "pantai",
+                "gunung",
+                "peta"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d027",
+              "topic": "Travel & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'peta' adalah ...",
+              "answer": "Map",
+              "explanation": "Bahasa Inggris dari 'peta' adalah ... -> Map",
+              "options": [
+                "Beach",
+                "Mountain",
+                "Map"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Comparing Things",
+          "soal": [
+            {
+              "id": "ing6-d028",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bigger' dalam Bahasa Indonesia?",
+              "answer": "lebih besar",
+              "explanation": "Apa arti kata 'bigger' dalam Bahasa Indonesia? -> lebih besar",
+              "options": [
+                "lebih kecil",
+                "lebih tinggi",
+                "lebih besar"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d029",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lebih besar' adalah ...",
+              "answer": "Bigger",
+              "explanation": "Bahasa Inggris dari 'lebih besar' adalah ... -> Bigger",
+              "options": [
+                "Smaller",
+                "Taller",
+                "Bigger"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d030",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'smaller' dalam Bahasa Indonesia?",
+              "answer": "lebih kecil",
+              "explanation": "Apa arti kata 'smaller' dalam Bahasa Indonesia? -> lebih kecil",
+              "options": [
+                "lebih besar",
+                "lebih tinggi",
+                "lebih kecil"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d031",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lebih kecil' adalah ...",
+              "answer": "Smaller",
+              "explanation": "Bahasa Inggris dari 'lebih kecil' adalah ... -> Smaller",
+              "options": [
+                "Bigger",
+                "Taller",
+                "Smaller"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d032",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'taller' dalam Bahasa Indonesia?",
+              "answer": "lebih tinggi",
+              "explanation": "Apa arti kata 'taller' dalam Bahasa Indonesia? -> lebih tinggi",
+              "options": [
+                "lebih besar",
+                "lebih kecil",
+                "lebih tinggi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d033",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lebih tinggi' adalah ...",
+              "answer": "Taller",
+              "explanation": "Bahasa Inggris dari 'lebih tinggi' adalah ... -> Taller",
+              "options": [
+                "Bigger",
+                "Smaller",
+                "Taller"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d034",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'faster' dalam Bahasa Indonesia?",
+              "answer": "lebih cepat",
+              "explanation": "Apa arti kata 'faster' dalam Bahasa Indonesia? -> lebih cepat",
+              "options": [
+                "lebih besar",
+                "lebih kecil",
+                "lebih cepat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d035",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lebih cepat' adalah ...",
+              "answer": "Faster",
+              "explanation": "Bahasa Inggris dari 'lebih cepat' adalah ... -> Faster",
+              "options": [
+                "Bigger",
+                "Smaller",
+                "Faster"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d036",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'slower' dalam Bahasa Indonesia?",
+              "answer": "lebih lambat",
+              "explanation": "Apa arti kata 'slower' dalam Bahasa Indonesia? -> lebih lambat",
+              "options": [
+                "lebih besar",
+                "lebih kecil",
+                "lebih lambat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d037",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lebih lambat' adalah ...",
+              "answer": "Slower",
+              "explanation": "Bahasa Inggris dari 'lebih lambat' adalah ... -> Slower",
+              "options": [
+                "Bigger",
+                "Smaller",
+                "Slower"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d038",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'the biggest' dalam Bahasa Indonesia?",
+              "answer": "paling besar",
+              "explanation": "Apa arti kata 'the biggest' dalam Bahasa Indonesia? -> paling besar",
+              "options": [
+                "lebih besar",
+                "lebih kecil",
+                "paling besar"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d039",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'paling besar' adalah ...",
+              "answer": "The biggest",
+              "explanation": "Bahasa Inggris dari 'paling besar' adalah ... -> The biggest",
+              "options": [
+                "Bigger",
+                "Smaller",
+                "The biggest"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d040",
+              "topic": "Comparing Things",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'An elephant is bigger than a cat' artinya ...",
+              "answer": "Gajah lebih besar dari kucing",
+              "explanation": "'An elephant is bigger than a cat' artinya ... -> Gajah lebih besar dari kucing",
+              "options": [
+                "Gajah lebih kecil dari kucing",
+                "Gajah sama besar dengan kucing",
+                "Gajah lebih besar dari kucing"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Yesterday & Today",
+          "soal": [
+            {
+              "id": "ing6-d041",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'yesterday' dalam Bahasa Indonesia?",
+              "answer": "kemarin",
+              "explanation": "Apa arti kata 'yesterday' dalam Bahasa Indonesia? -> kemarin",
+              "options": [
+                "hari ini",
+                "besok",
+                "kemarin"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d042",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kemarin' adalah ...",
+              "answer": "Yesterday",
+              "explanation": "Bahasa Inggris dari 'kemarin' adalah ... -> Yesterday",
+              "options": [
+                "Today",
+                "Tomorrow",
+                "Yesterday"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d043",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'today' dalam Bahasa Indonesia?",
+              "answer": "hari ini",
+              "explanation": "Apa arti kata 'today' dalam Bahasa Indonesia? -> hari ini",
+              "options": [
+                "kemarin",
+                "besok",
+                "hari ini"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d044",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hari ini' adalah ...",
+              "answer": "Today",
+              "explanation": "Bahasa Inggris dari 'hari ini' adalah ... -> Today",
+              "options": [
+                "Yesterday",
+                "Tomorrow",
+                "Today"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d045",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'tomorrow' dalam Bahasa Indonesia?",
+              "answer": "besok",
+              "explanation": "Apa arti kata 'tomorrow' dalam Bahasa Indonesia? -> besok",
+              "options": [
+                "kemarin",
+                "hari ini",
+                "besok"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d046",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'besok' adalah ...",
+              "answer": "Tomorrow",
+              "explanation": "Bahasa Inggris dari 'besok' adalah ... -> Tomorrow",
+              "options": [
+                "Yesterday",
+                "Today",
+                "Tomorrow"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d047",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'went' dalam Bahasa Indonesia?",
+              "answer": "pergi (lampau)",
+              "explanation": "Apa arti kata 'went' dalam Bahasa Indonesia? -> pergi (lampau)",
+              "options": [
+                "kemarin",
+                "hari ini",
+                "pergi (lampau)"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d048",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pergi (lampau)' adalah ...",
+              "answer": "Went",
+              "explanation": "Bahasa Inggris dari 'pergi (lampau)' adalah ... -> Went",
+              "options": [
+                "Yesterday",
+                "Today",
+                "Went"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d049",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'played' dalam Bahasa Indonesia?",
+              "answer": "bermain (lampau)",
+              "explanation": "Apa arti kata 'played' dalam Bahasa Indonesia? -> bermain (lampau)",
+              "options": [
+                "kemarin",
+                "hari ini",
+                "bermain (lampau)"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d050",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bermain (lampau)' adalah ...",
+              "answer": "Played",
+              "explanation": "Bahasa Inggris dari 'bermain (lampau)' adalah ... -> Played",
+              "options": [
+                "Yesterday",
+                "Today",
+                "Played"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d051",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'visited' dalam Bahasa Indonesia?",
+              "answer": "mengunjungi (lampau)",
+              "explanation": "Apa arti kata 'visited' dalam Bahasa Indonesia? -> mengunjungi (lampau)",
+              "options": [
+                "kemarin",
+                "hari ini",
+                "mengunjungi (lampau)"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d052",
+              "topic": "Yesterday & Today",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mengunjungi (lampau)' adalah ...",
+              "answer": "Visited",
+              "explanation": "Bahasa Inggris dari 'mengunjungi (lampau)' adalah ... -> Visited",
+              "options": [
+                "Yesterday",
+                "Today",
+                "Visited"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d053",
+              "topic": "Yesterday & Today",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lengkapi: 'Yesterday, I ___ to my grandmother's house.' (pergi, bentuk lampau)",
+              "answer": "went",
+              "explanation": "went",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Environment & Nature",
+          "soal": [
+            {
+              "id": "ing6-d054",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'forest' dalam Bahasa Indonesia?",
+              "answer": "hutan",
+              "explanation": "Apa arti kata 'forest' dalam Bahasa Indonesia? -> hutan",
+              "options": [
+                "sungai",
+                "polusi",
+                "hutan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d055",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hutan' adalah ...",
+              "answer": "Forest",
+              "explanation": "Bahasa Inggris dari 'hutan' adalah ... -> Forest",
+              "options": [
+                "River",
+                "Pollution",
+                "Forest"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d056",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'river' dalam Bahasa Indonesia?",
+              "answer": "sungai",
+              "explanation": "Apa arti kata 'river' dalam Bahasa Indonesia? -> sungai",
+              "options": [
+                "hutan",
+                "polusi",
+                "sungai"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d057",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sungai' adalah ...",
+              "answer": "River",
+              "explanation": "Bahasa Inggris dari 'sungai' adalah ... -> River",
+              "options": [
+                "Forest",
+                "Pollution",
+                "River"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d058",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pollution' dalam Bahasa Indonesia?",
+              "answer": "polusi",
+              "explanation": "Apa arti kata 'pollution' dalam Bahasa Indonesia? -> polusi",
+              "options": [
+                "hutan",
+                "sungai",
+                "polusi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d059",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'polusi' adalah ...",
+              "answer": "Pollution",
+              "explanation": "Bahasa Inggris dari 'polusi' adalah ... -> Pollution",
+              "options": [
+                "Forest",
+                "River",
+                "Pollution"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d060",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'recycle' dalam Bahasa Indonesia?",
+              "answer": "mendaur ulang",
+              "explanation": "Apa arti kata 'recycle' dalam Bahasa Indonesia? -> mendaur ulang",
+              "options": [
+                "hutan",
+                "sungai",
+                "mendaur ulang"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d061",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mendaur ulang' adalah ...",
+              "answer": "Recycle",
+              "explanation": "Bahasa Inggris dari 'mendaur ulang' adalah ... -> Recycle",
+              "options": [
+                "Forest",
+                "River",
+                "Recycle"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d062",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'plant a tree' dalam Bahasa Indonesia?",
+              "answer": "menanam pohon",
+              "explanation": "Apa arti kata 'plant a tree' dalam Bahasa Indonesia? -> menanam pohon",
+              "options": [
+                "hutan",
+                "sungai",
+                "menanam pohon"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d063",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menanam pohon' adalah ...",
+              "answer": "Plant a tree",
+              "explanation": "Bahasa Inggris dari 'menanam pohon' adalah ... -> Plant a tree",
+              "options": [
+                "Forest",
+                "River",
+                "Plant a tree"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d064",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'save water' dalam Bahasa Indonesia?",
+              "answer": "menghemat air",
+              "explanation": "Apa arti kata 'save water' dalam Bahasa Indonesia? -> menghemat air",
+              "options": [
+                "hutan",
+                "sungai",
+                "menghemat air"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d065",
+              "topic": "Environment & Nature",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menghemat air' adalah ...",
+              "answer": "Save water",
+              "explanation": "Bahasa Inggris dari 'menghemat air' adalah ... -> Save water",
+              "options": [
+                "Forest",
+                "River",
+                "Save water"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Review & Farewell",
+          "soal": [
+            {
+              "id": "ing6-d066",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'congratulations' dalam Bahasa Indonesia?",
+              "answer": "selamat",
+              "explanation": "Apa arti kata 'congratulations' dalam Bahasa Indonesia? -> selamat",
+              "options": [
+                "semoga beruntung",
+                "jaga diri baik-baik",
+                "selamat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d067",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'selamat' adalah ...",
+              "answer": "Congratulations",
+              "explanation": "Bahasa Inggris dari 'selamat' adalah ... -> Congratulations",
+              "options": [
+                "Good luck",
+                "Take care",
+                "Congratulations"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d068",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'good luck' dalam Bahasa Indonesia?",
+              "answer": "semoga beruntung",
+              "explanation": "Apa arti kata 'good luck' dalam Bahasa Indonesia? -> semoga beruntung",
+              "options": [
+                "selamat",
+                "jaga diri baik-baik",
+                "semoga beruntung"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d069",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'semoga beruntung' adalah ...",
+              "answer": "Good luck",
+              "explanation": "Bahasa Inggris dari 'semoga beruntung' adalah ... -> Good luck",
+              "options": [
+                "Congratulations",
+                "Take care",
+                "Good luck"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d070",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'take care' dalam Bahasa Indonesia?",
+              "answer": "jaga diri baik-baik",
+              "explanation": "Apa arti kata 'take care' dalam Bahasa Indonesia? -> jaga diri baik-baik",
+              "options": [
+                "selamat",
+                "semoga beruntung",
+                "jaga diri baik-baik"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d071",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jaga diri baik-baik' adalah ...",
+              "answer": "Take care",
+              "explanation": "Bahasa Inggris dari 'jaga diri baik-baik' adalah ... -> Take care",
+              "options": [
+                "Congratulations",
+                "Good luck",
+                "Take care"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d072",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'i will miss you' dalam Bahasa Indonesia?",
+              "answer": "aku akan merindukanmu",
+              "explanation": "Apa arti kata 'i will miss you' dalam Bahasa Indonesia? -> aku akan merindukanmu",
+              "options": [
+                "selamat",
+                "semoga beruntung",
+                "aku akan merindukanmu"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d073",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'aku akan merindukanmu' adalah ...",
+              "answer": "I will miss you",
+              "explanation": "Bahasa Inggris dari 'aku akan merindukanmu' adalah ... -> I will miss you",
+              "options": [
+                "Congratulations",
+                "Good luck",
+                "I will miss you"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d074",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'good job' dalam Bahasa Indonesia?",
+              "answer": "kerja bagus",
+              "explanation": "Apa arti kata 'good job' dalam Bahasa Indonesia? -> kerja bagus",
+              "options": [
+                "selamat",
+                "semoga beruntung",
+                "kerja bagus"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d075",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kerja bagus' adalah ...",
+              "answer": "Good job",
+              "explanation": "Bahasa Inggris dari 'kerja bagus' adalah ... -> Good job",
+              "options": [
+                "Congratulations",
+                "Good luck",
+                "Good job"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d076",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'well done' dalam Bahasa Indonesia?",
+              "answer": "kerja bagus/mantap",
+              "explanation": "Apa arti kata 'well done' dalam Bahasa Indonesia? -> kerja bagus/mantap",
+              "options": [
+                "selamat",
+                "semoga beruntung",
+                "kerja bagus/mantap"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing6-d077",
+              "topic": "Review & Farewell",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kerja bagus/mantap' adalah ...",
+              "answer": "Well done",
+              "explanation": "Bahasa Inggris dari 'kerja bagus/mantap' adalah ... -> Well done",
+              "options": [
+                "Congratulations",
+                "Good luck",
+                "Well done"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

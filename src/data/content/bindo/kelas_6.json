@@ -1,0 +1,699 @@
+{
+  "kelas": 6,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Teks Argumentasi",
+          "soal": [
+            {
+              "id": "bindo6-d001",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang berisi pendapat disertai alasan/bukti disebut teks ...",
+              "answer": "Argumentasi",
+              "explanation": "Jawaban: Argumentasi",
+              "options": [
+                "Narasi",
+                "Deskripsi",
+                "Argumentasi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d002",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pendapat utama dalam teks argumentasi disebut ...",
+              "answer": "Tesis",
+              "explanation": "Jawaban: Tesis",
+              "options": [
+                "Penegasan ulang",
+                "Sampiran",
+                "Tesis"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d003",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Alasan/bukti pendukung pendapat disebut ...",
+              "answer": "Argumen",
+              "explanation": "Jawaban: Argumen",
+              "options": [
+                "Tesis",
+                "Orientasi",
+                "Argumen"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d004",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian akhir teks argumentasi yang menegaskan kembali pendapat disebut ...",
+              "answer": "Penegasan ulang",
+              "explanation": "Jawaban: Penegasan ulang",
+              "options": [
+                "Tesis",
+                "Argumen",
+                "Penegasan ulang"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d005",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Teks argumentasi bertujuan untuk ...",
+              "answer": "Meyakinkan pembaca dengan alasan logis",
+              "explanation": "Jawaban: Meyakinkan pembaca dengan alasan logis",
+              "options": [
+                "Menghibur pembaca",
+                "Menceritakan pengalaman",
+                "Meyakinkan pembaca dengan alasan logis"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d006",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat 'Sekolah perlu menambah jam olahraga karena kesehatan siswa penting' adalah contoh ...",
+              "answer": "Argumentasi",
+              "explanation": "Jawaban: Argumentasi",
+              "options": [
+                "Narasi",
+                "Deskripsi",
+                "Argumentasi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d007",
+              "topic": "Teks Argumentasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Argumen yang baik harus didukung dengan ...",
+              "answer": "Data/fakta yang jelas",
+              "explanation": "Jawaban: Data/fakta yang jelas",
+              "options": [
+                "Perasaan pribadi saja",
+                "Dugaan tanpa bukti",
+                "Data/fakta yang jelas"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Ringkasan & Kesimpulan",
+          "soal": [
+            {
+              "id": "bindo6-d008",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Menyajikan kembali isi bacaan secara singkat disebut ...",
+              "answer": "Ringkasan",
+              "explanation": "Jawaban: Ringkasan",
+              "options": [
+                "Kesimpulan",
+                "Judul",
+                "Ringkasan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d009",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pernyataan akhir yang menyimpulkan isi bacaan disebut ...",
+              "answer": "Kesimpulan",
+              "explanation": "Jawaban: Kesimpulan",
+              "options": [
+                "Ringkasan",
+                "Ide pokok",
+                "Kesimpulan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d010",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Langkah pertama membuat ringkasan adalah ...",
+              "answer": "Membaca teks secara keseluruhan",
+              "explanation": "Jawaban: Membaca teks secara keseluruhan",
+              "options": [
+                "Langsung menulis tanpa membaca",
+                "Menghafal semua kata",
+                "Membaca teks secara keseluruhan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d011",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ringkasan yang baik harus ...",
+              "answer": "Singkat tapi tetap memuat inti bacaan",
+              "explanation": "Jawaban: Singkat tapi tetap memuat inti bacaan",
+              "options": [
+                "Sama persis dengan teks asli",
+                "Lebih panjang dari teks asli",
+                "Singkat tapi tetap memuat inti bacaan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d012",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kesimpulan sebaiknya diambil dari ... paragraf",
+              "answer": "Keseluruhan/semua",
+              "explanation": "Keseluruhan/semua",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d013",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ringkasan berbeda dari kesimpulan karena ringkasan ...",
+              "answer": "Menyajikan ulang seluruh isi secara singkat",
+              "explanation": "Jawaban: Menyajikan ulang seluruh isi secara singkat",
+              "options": [
+                "Cuma berisi pendapat penulis",
+                "Selalu lebih panjang dari aslinya",
+                "Menyajikan ulang seluruh isi secara singkat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d014",
+              "topic": "Ringkasan & Kesimpulan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata kunci penting dalam sebuah teks berguna untuk membantu ...",
+              "answer": "Membuat ringkasan/menemukan ide pokok",
+              "explanation": "Jawaban: Membuat ringkasan/menemukan ide pokok",
+              "options": [
+                "Menghitung jumlah huruf",
+                "Menghias tulisan",
+                "Membuat ringkasan/menemukan ide pokok"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Pidato Sederhana",
+          "soal": [
+            {
+              "id": "bindo6-d015",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian awal pidato yang berisi salam & sapaan disebut ...",
+              "answer": "Pembukaan",
+              "explanation": "Jawaban: Pembukaan",
+              "options": [
+                "Isi",
+                "Penutup",
+                "Pembukaan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d016",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian pidato yang berisi pesan utama disebut ...",
+              "answer": "Isi",
+              "explanation": "Jawaban: Isi",
+              "options": [
+                "Pembukaan",
+                "Penutup",
+                "Isi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d017",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian akhir pidato yang berisi salam penutup & ucapan terima kasih disebut ...",
+              "answer": "Penutup",
+              "explanation": "Jawaban: Penutup",
+              "options": [
+                "Pembukaan",
+                "Isi",
+                "Penutup"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d018",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Saat berpidato, sebaiknya kita berbicara dengan ...",
+              "answer": "Jelas dan percaya diri",
+              "explanation": "Jawaban: Jelas dan percaya diri",
+              "options": [
+                "Sangat pelan dan menunduk",
+                "Sangat cepat dan terburu-buru",
+                "Jelas dan percaya diri"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d019",
+              "topic": "Pidato Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Naskah tertulis yang dipakai sebagai panduan berpidato disebut ...",
+              "answer": "Teks pidato",
+              "explanation": "Teks pidato",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d020",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Topik yang cocok untuk pidato perpisahan sekolah adalah ...",
+              "answer": "Ucapan terima kasih & harapan masa depan",
+              "explanation": "Jawaban: Ucapan terima kasih & harapan masa depan",
+              "options": [
+                "Resep masakan",
+                "Aturan bermain sepak bola",
+                "Ucapan terima kasih & harapan masa depan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d021",
+              "topic": "Pidato Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sebelum berpidato di depan kelas, sebaiknya kita ...",
+              "answer": "Berlatih membaca teks pidato",
+              "explanation": "Jawaban: Berlatih membaca teks pidato",
+              "options": [
+                "Langsung tampil tanpa persiapan",
+                "Menghafal pidato orang lain",
+                "Berlatih membaca teks pidato"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Cerita Fiksi & Non-fiksi",
+          "soal": [
+            {
+              "id": "bindo6-d022",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita hasil khayalan pengarang disebut cerita ...",
+              "answer": "Fiksi",
+              "explanation": "Jawaban: Fiksi",
+              "options": [
+                "Non-fiksi",
+                "Berita",
+                "Fiksi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d023",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tulisan berdasarkan fakta/kejadian nyata disebut ...",
+              "answer": "Non-fiksi",
+              "explanation": "Jawaban: Non-fiksi",
+              "options": [
+                "Fiksi",
+                "Dongeng",
+                "Non-fiksi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d024",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh karya fiksi adalah ...",
+              "answer": "Dongeng/novel",
+              "explanation": "Jawaban: Dongeng/novel",
+              "options": [
+                "Buku sejarah",
+                "Ensiklopedia",
+                "Dongeng/novel"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d025",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh karya non-fiksi adalah ...",
+              "answer": "Biografi/buku sejarah",
+              "explanation": "Jawaban: Biografi/buku sejarah",
+              "options": [
+                "Dongeng",
+                "Cerita fantasi",
+                "Biografi/buku sejarah"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d026",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Cerita rakyat yang diwariskan turun-temurun termasuk cerita ...",
+              "answer": "Fiksi (legenda/mitos/dongeng)",
+              "explanation": "Fiksi (legenda/mitos/dongeng)",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d027",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Buku pelajaran IPAS termasuk contoh tulisan ...",
+              "answer": "Non-fiksi",
+              "explanation": "Jawaban: Non-fiksi",
+              "options": [
+                "Fiksi",
+                "Dongeng",
+                "Non-fiksi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d028",
+              "topic": "Cerita Fiksi & Non-fiksi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita fiksi ilmiah yang menggambarkan teknologi masa depan disebut ...",
+              "answer": "Fiksi ilmiah/sci-fi",
+              "explanation": "Jawaban: Fiksi ilmiah/sci-fi",
+              "options": [
+                "Biografi",
+                "Laporan berita",
+                "Fiksi ilmiah/sci-fi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Kalimat Efektif",
+          "soal": [
+            {
+              "id": "bindo6-d029",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat efektif adalah kalimat yang ...",
+              "answer": "Mudah dipahami & tidak bertele-tele",
+              "explanation": "Jawaban: Mudah dipahami & tidak bertele-tele",
+              "options": [
+                "Sangat panjang dan berulang",
+                "Tanpa subjek dan predikat",
+                "Mudah dipahami & tidak bertele-tele"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d030",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Kalimat yang lebih efektif adalah ...",
+              "answer": "Dia sudah makan.",
+              "explanation": "Jawaban: Dia sudah makan.",
+              "options": [
+                "Dia sudah makan-makan tadi sebelumnya.",
+                "Dia sudah makan."
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d031",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Kesalahan yang membuat kalimat tidak efektif adalah ...",
+              "answer": "Pengulangan kata yang gak perlu (pemborosan kata)",
+              "explanation": "Jawaban: Pengulangan kata yang gak perlu (pemborosan kata)",
+              "options": [
+                "Menggunakan subjek yang jelas",
+                "Menggunakan tanda baca yang benar",
+                "Pengulangan kata yang gak perlu (pemborosan kata)"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d032",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Setiap kalimat efektif minimal harus punya unsur ...",
+              "answer": "Subjek dan predikat",
+              "explanation": "Jawaban: Subjek dan predikat",
+              "options": [
+                "Hanya keterangan",
+                "Hanya objek",
+                "Subjek dan predikat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d033",
+              "topic": "Kalimat Efektif",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kalimat yang berbelit-belit dan sulit dipahami disebut kalimat yang tidak ...",
+              "answer": "Efektif",
+              "explanation": "Efektif",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d034",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat efektif membantu pembaca ...",
+              "answer": "Memahami maksud penulis dengan cepat",
+              "explanation": "Jawaban: Memahami maksud penulis dengan cepat",
+              "options": [
+                "Menebak-nebak maksud penulis",
+                "Membaca berulang-ulang tanpa paham",
+                "Memahami maksud penulis dengan cepat"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d035",
+              "topic": "Kalimat Efektif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Perbaikan kalimat 'Bagi para siswa-siswa harus hadir tepat waktu' yang lebih efektif adalah ...",
+              "answer": "Para siswa harus hadir tepat waktu.",
+              "explanation": "Jawaban: Para siswa harus hadir tepat waktu.",
+              "options": [
+                "Bagi siswa harus hadir tepat waktu.",
+                "Siswa-siswa bagi harus hadir tepat waktu.",
+                "Para siswa harus hadir tepat waktu."
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Menulis Cerpen Sederhana",
+          "soal": [
+            {
+              "id": "bindo6-d036",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tokoh yang berperan sebagai pahlawan/baik dalam cerita disebut tokoh ...",
+              "answer": "Protagonis",
+              "explanation": "Jawaban: Protagonis",
+              "options": [
+                "Antagonis",
+                "Figuran",
+                "Protagonis"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d037",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tokoh yang menjadi lawan/penghalang tokoh utama disebut tokoh ...",
+              "answer": "Antagonis",
+              "explanation": "Jawaban: Antagonis",
+              "options": [
+                "Protagonis",
+                "Narator",
+                "Antagonis"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d038",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tempat dan waktu terjadinya cerita disebut ...",
+              "answer": "Latar/setting",
+              "explanation": "Jawaban: Latar/setting",
+              "options": [
+                "Alur",
+                "Tema",
+                "Latar/setting"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d039",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gagasan pokok yang mendasari sebuah cerita disebut ...",
+              "answer": "Tema",
+              "explanation": "Jawaban: Tema",
+              "options": [
+                "Latar",
+                "Sudut pandang",
+                "Tema"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d040",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Cara pengarang menempatkan dirinya dalam cerita (misal jadi 'aku') disebut ...",
+              "answer": "Sudut pandang",
+              "explanation": "Jawaban: Sudut pandang",
+              "options": [
+                "Latar",
+                "Tema",
+                "Sudut pandang"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d041",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Cerita pendek disingkat dengan istilah ...",
+              "answer": "Cerpen",
+              "explanation": "Cerpen",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo6-d042",
+              "topic": "Menulis Cerpen Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian cerpen yang menceritakan puncak masalah disebut ...",
+              "answer": "Klimaks",
+              "explanation": "Jawaban: Klimaks",
+              "options": [
+                "Orientasi",
+                "Latar",
+                "Klimaks"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

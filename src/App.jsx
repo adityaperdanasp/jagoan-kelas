@@ -1,5 +1,7 @@
+import { useEffect } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
 import { PlayerProvider, usePlayer } from "./data/PlayerContext";
+import { initBgmUnlock } from "./data/bgm";
 import Auth from "./screens/Auth";
 import Landing from "./screens/Landing";
 import PickGrade from "./screens/PickGrade";
@@ -39,6 +41,10 @@ function AppRoutes() {
 }
 
 export default function App() {
+  useEffect(() => {
+    initBgmUnlock();
+  }, []);
+
   return (
     <PlayerProvider>
       <AppRoutes />

@@ -264,6 +264,70 @@
               ],
               "grade": 4,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-010-mv3to4",
+              "topic": "Perubahan Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perubahan air menjadi es disebut ...",
+              "answer": "Membeku",
+              "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+              "options": [
+                "Mencair",
+                "Mengembun",
+                "Membeku",
+                "Menguap"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "ipas3-011-mv3to4",
+              "topic": "Perubahan Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perubahan es menjadi air disebut ...",
+              "answer": "Mencair",
+              "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+              "options": [
+                "Mencair",
+                "Menguap",
+                "Membeku",
+                "Mengembun"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "ipas3-012-mv3to4",
+              "topic": "Perubahan Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perubahan air menjadi uap disebut ...",
+              "answer": "Menguap",
+              "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+              "options": [
+                "Mencair",
+                "Mengembun",
+                "Membeku",
+                "Menguap"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "ipas3-013-mv3to4",
+              "topic": "Perubahan Wujud Benda",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perubahan uap air menjadi titik-titik air disebut ...",
+              "answer": "Mengembun",
+              "explanation": "Perubahan wujud benda terjadi karena perubahan suhu",
+              "options": [
+                "Membeku",
+                "Menguap",
+                "Mencair",
+                "Mengembun"
+              ],
+              "grade": 4
             }
           ]
         },
@@ -360,6 +424,16 @@
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas3-031-mv3to4",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Gaya yang menyebabkan benda jatuh ke bawah disebut gaya ...",
+              "answer": "Gravitasi",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 4
             }
           ]
         },
@@ -496,6 +570,16 @@
               ],
               "grade": 4,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-030-mv3to4",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Proses berpindahnya panas tanpa melalui zat perantara disebut ...",
+              "answer": "Radiasi",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 4
             }
           ]
         }
@@ -595,6 +679,46 @@
               "explanation": "Pengetahuan gabungan IPA dan IPS",
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas4-033",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Peta yang menunjukkan ketinggian permukaan bumi disebut peta ...",
+              "answer": "Topografi",
+              "explanation": "Pengetahuan gabungan IPA dan IPS",
+              "grade": 4
+            },
+            {
+              "id": "ipas4-042",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama ibu kota provinsi Kalimantan Timur adalah ...",
+              "answer": "Samarinda",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4
+            },
+            {
+              "id": "ipas4-043",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama ibu kota provinsi Riau adalah ...",
+              "answer": "Pekanbaru",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4
+            },
+            {
+              "id": "ipas4-049",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama ibu kota provinsi Sumatera Selatan adalah ...",
+              "answer": "Palembang",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4
             }
           ]
         },
@@ -656,6 +780,26 @@
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas4-034",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Alat musik tradisional yang dimainkan dengan cara dipukul, contohnya adalah ...",
+              "answer": "Gamelan/kolintang",
+              "explanation": "Pengetahuan gabungan IPA dan IPS",
+              "grade": 4
+            },
+            {
+              "id": "ipas4-050",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Rumah adat Panjang berasal dari daerah ...",
+              "answer": "Kalimantan Barat",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4
             }
           ]
         },
@@ -706,6 +850,16 @@
               "explanation": "Pengelolaan sumber daya alam perlu bijaksana",
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas4-045",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Julukan Indonesia sebagai paru-paru dunia berkaitan dengan luasnya ...",
+              "answer": "Hutan hujan tropis",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 4
             }
           ]
         },
@@ -853,324 +1007,5 @@
       ]
     }
   ],
-  "belum_terpetakan": [
-    {
-      "id": "ipas4-001",
-      "topic": "Sistem Pencernaan",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Urutan sistem pencernaan manusia yang benar dimulai dari ...",
-      "answer": "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
-      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
-      "options": [
-        "Mulut - usus halus - lambung - kerongkongan - anus",
-        "Kerongkongan - mulut - lambung - usus - anus",
-        "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
-        "Mulut - lambung - kerongkongan - usus halus - anus"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-002",
-      "topic": "Sistem Pencernaan",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Organ yang berfungsi mencerna makanan dengan asam lambung adalah ...",
-      "answer": "Lambung",
-      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
-      "options": [
-        "Pankreas",
-        "Hati",
-        "Lambung",
-        "Usus halus"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-003",
-      "topic": "Sistem Pencernaan",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Organ tempat penyerapan sari-sari makanan terjadi adalah ...",
-      "answer": "Usus halus",
-      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
-      "options": [
-        "Usus besar",
-        "Kerongkongan",
-        "Usus halus",
-        "Lambung"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-004",
-      "topic": "Sistem Pencernaan",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Gigi yang berfungsi memotong makanan disebut gigi ...",
-      "answer": "Seri",
-      "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
-      "options": [
-        "Seri",
-        "Geraham",
-        "Susu",
-        "Taring"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-005",
-      "topic": "Sistem Pernapasan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Urutan sistem pernapasan manusia yang benar adalah ...",
-      "answer": "Hidung - tenggorokan - bronkus - paru-paru",
-      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-006",
-      "topic": "Sistem Pernapasan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Organ utama tempat pertukaran oksigen dan karbon dioksida terjadi adalah ...",
-      "answer": "Paru-paru",
-      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-007",
-      "topic": "Sistem Pernapasan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Udara yang kita hirup mengandung gas yang dibutuhkan tubuh, yaitu ...",
-      "answer": "Oksigen",
-      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-008",
-      "topic": "Sistem Pernapasan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Gas yang kita keluarkan saat bernapas adalah ...",
-      "answer": "Karbon dioksida",
-      "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-009",
-      "topic": "Ekosistem",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Dalam rantai makanan padi - tikus - ular - elang, padi berperan sebagai ...",
-      "answer": "Produsen",
-      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
-      "options": [
-        "Konsumen 2",
-        "Konsumen 1",
-        "Pengurai",
-        "Produsen"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-010",
-      "topic": "Ekosistem",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Dalam rantai makanan padi - tikus - ular - elang, tikus berperan sebagai ...",
-      "answer": "Konsumen 1",
-      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
-      "options": [
-        "Produsen",
-        "Konsumen 1",
-        "Pengurai",
-        "Konsumen 2"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-011",
-      "topic": "Ekosistem",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Organisme yang berperan menguraikan sisa makhluk hidup yang telah mati disebut ...",
-      "answer": "Pengurai",
-      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
-      "options": [
-        "Predator",
-        "Produsen",
-        "Pengurai",
-        "Konsumen"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-012",
-      "topic": "Ekosistem",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Hubungan antar makhluk hidup dengan lingkungannya disebut ...",
-      "answer": "Ekosistem",
-      "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
-      "options": [
-        "Ekosistem",
-        "Habitat",
-        "Populasi",
-        "Komunitas"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "ipas4-033",
-      "topic": "Pengetahuan Alam & Sosial",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Peta yang menunjukkan ketinggian permukaan bumi disebut peta ...",
-      "answer": "Topografi",
-      "explanation": "Pengetahuan gabungan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-034",
-      "topic": "Pengetahuan Alam & Sosial",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Alat musik tradisional yang dimainkan dengan cara dipukul, contohnya adalah ...",
-      "answer": "Gamelan/kolintang",
-      "explanation": "Pengetahuan gabungan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-035",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Alat pernapasan pada ikan adalah ...",
-      "answer": "Insang",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-036",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Alat pernapasan pada serangga adalah ...",
-      "answer": "Trakea",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-037",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Alat pernapasan katak dewasa adalah ...",
-      "answer": "Paru-paru dan kulit",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-038",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Tulang yang melindungi otak manusia disebut ...",
-      "answer": "Tengkorak",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-039",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Tulang yang melindungi jantung dan paru-paru disebut ...",
-      "answer": "Tulang rusuk",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-040",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Jumlah tulang rangka pada tubuh manusia dewasa sekitar ...",
-      "answer": "206",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-041",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Otot yang bekerja tanpa kita sadari, contohnya otot jantung, disebut otot ...",
-      "answer": "Tak sadar/involunter",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-042",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Nama ibu kota provinsi Kalimantan Timur adalah ...",
-      "answer": "Samarinda",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-043",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Nama ibu kota provinsi Riau adalah ...",
-      "answer": "Pekanbaru",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-045",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Julukan Indonesia sebagai paru-paru dunia berkaitan dengan luasnya ...",
-      "answer": "Hutan hujan tropis",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-046",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Kegiatan menangkap ikan menggunakan bahan peledak dapat merusak ...",
-      "answer": "Terumbu karang/ekosistem laut",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-049",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Nama ibu kota provinsi Sumatera Selatan adalah ...",
-      "answer": "Palembang",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    },
-    {
-      "id": "ipas4-050",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Rumah adat Panjang berasal dari daerah ...",
-      "answer": "Kalimantan Barat",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 4
-    }
-  ]
+  "belum_terpetakan": []
 }

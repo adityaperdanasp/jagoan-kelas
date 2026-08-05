@@ -4,8 +4,10 @@ import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
 import QuizRunner from "../games/quiz/QuizRunner";
 import { loadTopicByKey } from "../data/contentLoader";
-import { recordTopicResult } from "../data/progressService";
+import { recordTopicResult, starsFor } from "../data/progressService";
+import { pickEncouragement } from "../data/encouragement";
 import { usePlayer } from "../data/PlayerContext";
+import { SUBJECTS } from "../data/content";
 
 const ROUND_SIZE = 8;
 const XP_PER_CORRECT = 10;
@@ -44,8 +46,14 @@ export default function TopicQuiz() {
       login({ ...player, xp: (player.xp || 0) + xpEarned });
     } finally {
       setSaving(false);
-      setResult({ correct, wrong, xpEarned });
+      const accuracy = correct / (correct + wrong || 1);
+      setResult({ correct, wrong, xpEarned, encouragement: pickEncouragement(accuracy) });
     }
+  }
+
+  function handleRetry() {
+    setResult(null);
+    setQuestions(pickRound(topic.soal));
   }
 
   return (
@@ -56,7 +64,15 @@ export default function TopicQuiz() {
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Memuat soal...</div>
       )}
 
-      {questions && !result && <QuizRunner questions={questions} onFinish={handleFinish} />}
+      {questions && !result && (
+        <QuizRunner
+          questions={questions}
+          onFinish={handleFinish}
+          subjectName={SUBJECTS.find((s) => s.id === subject)?.name}
+          gradeLabel={`Kelas ${grade}`}
+          topicTitle={topic?.title}
+        />
+      )}
 
       {result && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
@@ -64,9 +80,20 @@ export default function TopicQuiz() {
           <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem", color: "var(--ink-900)" }}>
             {result.correct} / {result.correct + result.wrong} benar!
           </div>
+          <div style={{ fontSize: 28, letterSpacing: 4 }}>
+            {[0, 1, 2].map((i) => (
+              <span key={i} style={{ opacity: i < starsFor(result.correct / (result.correct + result.wrong || 1)) ? 1 : 0.25 }}>⭐</span>
+            ))}
+          </div>
           <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-500)" }}>
             {saving ? "Nyimpen progress..." : `+${result.xpEarned} XP`}
           </div>
+          <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-700)", maxWidth: 240 }}>
+            {result.encouragement}
+          </div>
+          <Button variant="secondary" size="lg" onClick={handleRetry}>
+            Ulangi buat Naikin Bintang 🔁
+          </Button>
           <Button variant="primary" size="lg" onClick={() => navigate(`/kelas/${grade}/${subject}`)}>
             Kembali ke Topik
           </Button>

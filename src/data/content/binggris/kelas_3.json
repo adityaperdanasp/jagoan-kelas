@@ -1,0 +1,1483 @@
+{
+  "kelas": 3,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "All About Me",
+          "soal": [
+            {
+              "id": "ing3-d001",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'name' dalam Bahasa Indonesia?",
+              "answer": "nama",
+              "explanation": "Apa arti kata 'name' dalam Bahasa Indonesia? -> nama",
+              "options": [
+                "umur",
+                "sekolah",
+                "nama"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d002",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'nama' adalah ...",
+              "answer": "Name",
+              "explanation": "Bahasa Inggris dari 'nama' adalah ... -> Name",
+              "options": [
+                "Age",
+                "School",
+                "Name"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d003",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'age' dalam Bahasa Indonesia?",
+              "answer": "umur",
+              "explanation": "Apa arti kata 'age' dalam Bahasa Indonesia? -> umur",
+              "options": [
+                "nama",
+                "sekolah",
+                "umur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d004",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'umur' adalah ...",
+              "answer": "Age",
+              "explanation": "Bahasa Inggris dari 'umur' adalah ... -> Age",
+              "options": [
+                "Name",
+                "School",
+                "Age"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d005",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'school' dalam Bahasa Indonesia?",
+              "answer": "sekolah",
+              "explanation": "Apa arti kata 'school' dalam Bahasa Indonesia? -> sekolah",
+              "options": [
+                "nama",
+                "umur",
+                "sekolah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d006",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sekolah' adalah ...",
+              "answer": "School",
+              "explanation": "Bahasa Inggris dari 'sekolah' adalah ... -> School",
+              "options": [
+                "Name",
+                "Age",
+                "School"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d007",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'grade' dalam Bahasa Indonesia?",
+              "answer": "kelas",
+              "explanation": "Apa arti kata 'grade' dalam Bahasa Indonesia? -> kelas",
+              "options": [
+                "nama",
+                "umur",
+                "kelas"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d008",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kelas' adalah ...",
+              "answer": "Grade",
+              "explanation": "Bahasa Inggris dari 'kelas' adalah ... -> Grade",
+              "options": [
+                "Name",
+                "Age",
+                "Grade"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d009",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'friend' dalam Bahasa Indonesia?",
+              "answer": "teman",
+              "explanation": "Apa arti kata 'friend' dalam Bahasa Indonesia? -> teman",
+              "options": [
+                "nama",
+                "umur",
+                "teman"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d010",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'teman' adalah ...",
+              "answer": "Friend",
+              "explanation": "Bahasa Inggris dari 'teman' adalah ... -> Friend",
+              "options": [
+                "Name",
+                "Age",
+                "Friend"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d011",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'student' dalam Bahasa Indonesia?",
+              "answer": "murid",
+              "explanation": "Apa arti kata 'student' dalam Bahasa Indonesia? -> murid",
+              "options": [
+                "nama",
+                "umur",
+                "murid"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d012",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'murid' adalah ...",
+              "answer": "Student",
+              "explanation": "Bahasa Inggris dari 'murid' adalah ... -> Student",
+              "options": [
+                "Name",
+                "Age",
+                "Student"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d013",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'teacher' dalam Bahasa Indonesia?",
+              "answer": "guru",
+              "explanation": "Apa arti kata 'teacher' dalam Bahasa Indonesia? -> guru",
+              "options": [
+                "nama",
+                "umur",
+                "guru"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d014",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'guru' adalah ...",
+              "answer": "Teacher",
+              "explanation": "Bahasa Inggris dari 'guru' adalah ... -> Teacher",
+              "options": [
+                "Name",
+                "Age",
+                "Teacher"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d015",
+              "topic": "All About Me",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lengkapi: 'I am ten years ___.' (umur)",
+              "answer": "old",
+              "explanation": "old",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d016",
+              "topic": "All About Me",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pertanyaan 'What is your name?' artinya ...",
+              "answer": "Siapa namamu?",
+              "explanation": "Pertanyaan 'What is your name?' artinya ... -> Siapa namamu?",
+              "options": [
+                "Berapa umurmu?",
+                "Di mana rumahmu?",
+                "Siapa namamu?"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "My House",
+          "soal": [
+            {
+              "id": "ing3-d017",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'house' dalam Bahasa Indonesia?",
+              "answer": "rumah",
+              "explanation": "Apa arti kata 'house' dalam Bahasa Indonesia? -> rumah",
+              "options": [
+                "kamar tidur",
+                "dapur",
+                "rumah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d018",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rumah' adalah ...",
+              "answer": "House",
+              "explanation": "Bahasa Inggris dari 'rumah' adalah ... -> House",
+              "options": [
+                "Bedroom",
+                "Kitchen",
+                "House"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d019",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bedroom' dalam Bahasa Indonesia?",
+              "answer": "kamar tidur",
+              "explanation": "Apa arti kata 'bedroom' dalam Bahasa Indonesia? -> kamar tidur",
+              "options": [
+                "rumah",
+                "dapur",
+                "kamar tidur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d020",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kamar tidur' adalah ...",
+              "answer": "Bedroom",
+              "explanation": "Bahasa Inggris dari 'kamar tidur' adalah ... -> Bedroom",
+              "options": [
+                "House",
+                "Kitchen",
+                "Bedroom"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d021",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'kitchen' dalam Bahasa Indonesia?",
+              "answer": "dapur",
+              "explanation": "Apa arti kata 'kitchen' dalam Bahasa Indonesia? -> dapur",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "dapur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d022",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dapur' adalah ...",
+              "answer": "Kitchen",
+              "explanation": "Bahasa Inggris dari 'dapur' adalah ... -> Kitchen",
+              "options": [
+                "House",
+                "Bedroom",
+                "Kitchen"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d023",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bathroom' dalam Bahasa Indonesia?",
+              "answer": "kamar mandi",
+              "explanation": "Apa arti kata 'bathroom' dalam Bahasa Indonesia? -> kamar mandi",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "kamar mandi"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d024",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kamar mandi' adalah ...",
+              "answer": "Bathroom",
+              "explanation": "Bahasa Inggris dari 'kamar mandi' adalah ... -> Bathroom",
+              "options": [
+                "House",
+                "Bedroom",
+                "Bathroom"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d025",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'living room' dalam Bahasa Indonesia?",
+              "answer": "ruang tamu",
+              "explanation": "Apa arti kata 'living room' dalam Bahasa Indonesia? -> ruang tamu",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "ruang tamu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d026",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ruang tamu' adalah ...",
+              "answer": "Living room",
+              "explanation": "Bahasa Inggris dari 'ruang tamu' adalah ... -> Living room",
+              "options": [
+                "House",
+                "Bedroom",
+                "Living room"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d027",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'door' dalam Bahasa Indonesia?",
+              "answer": "pintu",
+              "explanation": "Apa arti kata 'door' dalam Bahasa Indonesia? -> pintu",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "pintu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d028",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pintu' adalah ...",
+              "answer": "Door",
+              "explanation": "Bahasa Inggris dari 'pintu' adalah ... -> Door",
+              "options": [
+                "House",
+                "Bedroom",
+                "Door"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d029",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'window' dalam Bahasa Indonesia?",
+              "answer": "jendela",
+              "explanation": "Apa arti kata 'window' dalam Bahasa Indonesia? -> jendela",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "jendela"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d030",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jendela' adalah ...",
+              "answer": "Window",
+              "explanation": "Bahasa Inggris dari 'jendela' adalah ... -> Window",
+              "options": [
+                "House",
+                "Bedroom",
+                "Window"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d031",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'garden' dalam Bahasa Indonesia?",
+              "answer": "taman/kebun",
+              "explanation": "Apa arti kata 'garden' dalam Bahasa Indonesia? -> taman/kebun",
+              "options": [
+                "rumah",
+                "kamar tidur",
+                "taman/kebun"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d032",
+              "topic": "My House",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'taman/kebun' adalah ...",
+              "answer": "Garden",
+              "explanation": "Bahasa Inggris dari 'taman/kebun' adalah ... -> Garden",
+              "options": [
+                "House",
+                "Bedroom",
+                "Garden"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Numbers 11-100 & Time",
+          "soal": [
+            {
+              "id": "ing3-d033",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'eleven' dalam Bahasa Indonesia?",
+              "answer": "sebelas",
+              "explanation": "Apa arti kata 'eleven' dalam Bahasa Indonesia? -> sebelas",
+              "options": [
+                "dua puluh",
+                "tiga puluh",
+                "sebelas"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d034",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sebelas' adalah ...",
+              "answer": "Eleven",
+              "explanation": "Bahasa Inggris dari 'sebelas' adalah ... -> Eleven",
+              "options": [
+                "Twenty",
+                "Thirty",
+                "Eleven"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d035",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'twenty' dalam Bahasa Indonesia?",
+              "answer": "dua puluh",
+              "explanation": "Apa arti kata 'twenty' dalam Bahasa Indonesia? -> dua puluh",
+              "options": [
+                "sebelas",
+                "tiga puluh",
+                "dua puluh"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d036",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dua puluh' adalah ...",
+              "answer": "Twenty",
+              "explanation": "Bahasa Inggris dari 'dua puluh' adalah ... -> Twenty",
+              "options": [
+                "Eleven",
+                "Thirty",
+                "Twenty"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d037",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'thirty' dalam Bahasa Indonesia?",
+              "answer": "tiga puluh",
+              "explanation": "Apa arti kata 'thirty' dalam Bahasa Indonesia? -> tiga puluh",
+              "options": [
+                "sebelas",
+                "dua puluh",
+                "tiga puluh"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d038",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tiga puluh' adalah ...",
+              "answer": "Thirty",
+              "explanation": "Bahasa Inggris dari 'tiga puluh' adalah ... -> Thirty",
+              "options": [
+                "Eleven",
+                "Twenty",
+                "Thirty"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d039",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'fifty' dalam Bahasa Indonesia?",
+              "answer": "lima puluh",
+              "explanation": "Apa arti kata 'fifty' dalam Bahasa Indonesia? -> lima puluh",
+              "options": [
+                "sebelas",
+                "dua puluh",
+                "lima puluh"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d040",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lima puluh' adalah ...",
+              "answer": "Fifty",
+              "explanation": "Bahasa Inggris dari 'lima puluh' adalah ... -> Fifty",
+              "options": [
+                "Eleven",
+                "Twenty",
+                "Fifty"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d041",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hundred' dalam Bahasa Indonesia?",
+              "answer": "seratus",
+              "explanation": "Apa arti kata 'hundred' dalam Bahasa Indonesia? -> seratus",
+              "options": [
+                "sebelas",
+                "dua puluh",
+                "seratus"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d042",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'seratus' adalah ...",
+              "answer": "Hundred",
+              "explanation": "Bahasa Inggris dari 'seratus' adalah ... -> Hundred",
+              "options": [
+                "Eleven",
+                "Twenty",
+                "Hundred"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d043",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'o'clock' dalam Bahasa Indonesia?",
+              "answer": "tepat pukul",
+              "explanation": "Apa arti kata 'o'clock' dalam Bahasa Indonesia? -> tepat pukul",
+              "options": [
+                "sebelas",
+                "dua puluh",
+                "tepat pukul"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d044",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tepat pukul' adalah ...",
+              "answer": "O'clock",
+              "explanation": "Bahasa Inggris dari 'tepat pukul' adalah ... -> O'clock",
+              "options": [
+                "Eleven",
+                "Twenty",
+                "O'clock"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d045",
+              "topic": "Numbers 11-100 & Time",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tulis dalam Bahasa Inggris: pukul 7 tepat -> seven ...",
+              "answer": "o'clock",
+              "explanation": "o'clock",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d046",
+              "topic": "Numbers 11-100 & Time",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'It is seven o'clock' artinya ...",
+              "answer": "Sekarang pukul tujuh",
+              "explanation": "'It is seven o'clock' artinya ... -> Sekarang pukul tujuh",
+              "options": [
+                "Sekarang pukul delapan",
+                "Sekarang pukul lima",
+                "Sekarang pukul tujuh"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Clothes",
+          "soal": [
+            {
+              "id": "ing3-d047",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'shirt' dalam Bahasa Indonesia?",
+              "answer": "kemeja/baju",
+              "explanation": "Apa arti kata 'shirt' dalam Bahasa Indonesia? -> kemeja/baju",
+              "options": [
+                "celana",
+                "sepatu",
+                "kemeja/baju"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d048",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kemeja/baju' adalah ...",
+              "answer": "Shirt",
+              "explanation": "Bahasa Inggris dari 'kemeja/baju' adalah ... -> Shirt",
+              "options": [
+                "Pants",
+                "Shoes",
+                "Shirt"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d049",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pants' dalam Bahasa Indonesia?",
+              "answer": "celana",
+              "explanation": "Apa arti kata 'pants' dalam Bahasa Indonesia? -> celana",
+              "options": [
+                "kemeja/baju",
+                "sepatu",
+                "celana"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d050",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'celana' adalah ...",
+              "answer": "Pants",
+              "explanation": "Bahasa Inggris dari 'celana' adalah ... -> Pants",
+              "options": [
+                "Shirt",
+                "Shoes",
+                "Pants"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d051",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'shoes' dalam Bahasa Indonesia?",
+              "answer": "sepatu",
+              "explanation": "Apa arti kata 'shoes' dalam Bahasa Indonesia? -> sepatu",
+              "options": [
+                "kemeja/baju",
+                "celana",
+                "sepatu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d052",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepatu' adalah ...",
+              "answer": "Shoes",
+              "explanation": "Bahasa Inggris dari 'sepatu' adalah ... -> Shoes",
+              "options": [
+                "Shirt",
+                "Pants",
+                "Shoes"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d053",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hat' dalam Bahasa Indonesia?",
+              "answer": "topi",
+              "explanation": "Apa arti kata 'hat' dalam Bahasa Indonesia? -> topi",
+              "options": [
+                "kemeja/baju",
+                "celana",
+                "topi"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d054",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'topi' adalah ...",
+              "answer": "Hat",
+              "explanation": "Bahasa Inggris dari 'topi' adalah ... -> Hat",
+              "options": [
+                "Shirt",
+                "Pants",
+                "Hat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d055",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'socks' dalam Bahasa Indonesia?",
+              "answer": "kaus kaki",
+              "explanation": "Apa arti kata 'socks' dalam Bahasa Indonesia? -> kaus kaki",
+              "options": [
+                "kemeja/baju",
+                "celana",
+                "kaus kaki"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d056",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kaus kaki' adalah ...",
+              "answer": "Socks",
+              "explanation": "Bahasa Inggris dari 'kaus kaki' adalah ... -> Socks",
+              "options": [
+                "Shirt",
+                "Pants",
+                "Socks"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d057",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'dress' dalam Bahasa Indonesia?",
+              "answer": "gaun",
+              "explanation": "Apa arti kata 'dress' dalam Bahasa Indonesia? -> gaun",
+              "options": [
+                "kemeja/baju",
+                "celana",
+                "gaun"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d058",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'gaun' adalah ...",
+              "answer": "Dress",
+              "explanation": "Bahasa Inggris dari 'gaun' adalah ... -> Dress",
+              "options": [
+                "Shirt",
+                "Pants",
+                "Dress"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d059",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'jacket' dalam Bahasa Indonesia?",
+              "answer": "jaket",
+              "explanation": "Apa arti kata 'jacket' dalam Bahasa Indonesia? -> jaket",
+              "options": [
+                "kemeja/baju",
+                "celana",
+                "jaket"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d060",
+              "topic": "Clothes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jaket' adalah ...",
+              "answer": "Jacket",
+              "explanation": "Bahasa Inggris dari 'jaket' adalah ... -> Jacket",
+              "options": [
+                "Shirt",
+                "Pants",
+                "Jacket"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Transportation",
+          "soal": [
+            {
+              "id": "ing3-d061",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'car' dalam Bahasa Indonesia?",
+              "answer": "mobil",
+              "explanation": "Apa arti kata 'car' dalam Bahasa Indonesia? -> mobil",
+              "options": [
+                "bus",
+                "sepeda",
+                "mobil"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d062",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mobil' adalah ...",
+              "answer": "Car",
+              "explanation": "Bahasa Inggris dari 'mobil' adalah ... -> Car",
+              "options": [
+                "Bus",
+                "Bicycle",
+                "Car"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d063",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bus' dalam Bahasa Indonesia?",
+              "answer": "bus",
+              "explanation": "Apa arti kata 'bus' dalam Bahasa Indonesia? -> bus",
+              "options": [
+                "mobil",
+                "sepeda",
+                "bus"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d064",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bus' adalah ...",
+              "answer": "Bus",
+              "explanation": "Bahasa Inggris dari 'bus' adalah ... -> Bus",
+              "options": [
+                "Car",
+                "Bicycle",
+                "Bus"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d065",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bicycle' dalam Bahasa Indonesia?",
+              "answer": "sepeda",
+              "explanation": "Apa arti kata 'bicycle' dalam Bahasa Indonesia? -> sepeda",
+              "options": [
+                "mobil",
+                "bus",
+                "sepeda"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d066",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepeda' adalah ...",
+              "answer": "Bicycle",
+              "explanation": "Bahasa Inggris dari 'sepeda' adalah ... -> Bicycle",
+              "options": [
+                "Car",
+                "Bus",
+                "Bicycle"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d067",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'motorcycle' dalam Bahasa Indonesia?",
+              "answer": "sepeda motor",
+              "explanation": "Apa arti kata 'motorcycle' dalam Bahasa Indonesia? -> sepeda motor",
+              "options": [
+                "mobil",
+                "bus",
+                "sepeda motor"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d068",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepeda motor' adalah ...",
+              "answer": "Motorcycle",
+              "explanation": "Bahasa Inggris dari 'sepeda motor' adalah ... -> Motorcycle",
+              "options": [
+                "Car",
+                "Bus",
+                "Motorcycle"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d069",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'airplane' dalam Bahasa Indonesia?",
+              "answer": "pesawat",
+              "explanation": "Apa arti kata 'airplane' dalam Bahasa Indonesia? -> pesawat",
+              "options": [
+                "mobil",
+                "bus",
+                "pesawat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d070",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pesawat' adalah ...",
+              "answer": "Airplane",
+              "explanation": "Bahasa Inggris dari 'pesawat' adalah ... -> Airplane",
+              "options": [
+                "Car",
+                "Bus",
+                "Airplane"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d071",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'ship' dalam Bahasa Indonesia?",
+              "answer": "kapal",
+              "explanation": "Apa arti kata 'ship' dalam Bahasa Indonesia? -> kapal",
+              "options": [
+                "mobil",
+                "bus",
+                "kapal"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d072",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kapal' adalah ...",
+              "answer": "Ship",
+              "explanation": "Bahasa Inggris dari 'kapal' adalah ... -> Ship",
+              "options": [
+                "Car",
+                "Bus",
+                "Ship"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d073",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'train' dalam Bahasa Indonesia?",
+              "answer": "kereta",
+              "explanation": "Apa arti kata 'train' dalam Bahasa Indonesia? -> kereta",
+              "options": [
+                "mobil",
+                "bus",
+                "kereta"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d074",
+              "topic": "Transportation",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kereta' adalah ...",
+              "answer": "Train",
+              "explanation": "Bahasa Inggris dari 'kereta' adalah ... -> Train",
+              "options": [
+                "Car",
+                "Bus",
+                "Train"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Jobs & Occupations",
+          "soal": [
+            {
+              "id": "ing3-d075",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'doctor' dalam Bahasa Indonesia?",
+              "answer": "dokter",
+              "explanation": "Apa arti kata 'doctor' dalam Bahasa Indonesia? -> dokter",
+              "options": [
+                "guru",
+                "petani",
+                "dokter"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d076",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dokter' adalah ...",
+              "answer": "Doctor",
+              "explanation": "Bahasa Inggris dari 'dokter' adalah ... -> Doctor",
+              "options": [
+                "Teacher",
+                "Farmer",
+                "Doctor"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d077",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'teacher' dalam Bahasa Indonesia?",
+              "answer": "guru",
+              "explanation": "Apa arti kata 'teacher' dalam Bahasa Indonesia? -> guru",
+              "options": [
+                "dokter",
+                "petani",
+                "guru"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d078",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'guru' adalah ...",
+              "answer": "Teacher",
+              "explanation": "Bahasa Inggris dari 'guru' adalah ... -> Teacher",
+              "options": [
+                "Doctor",
+                "Farmer",
+                "Teacher"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d079",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'farmer' dalam Bahasa Indonesia?",
+              "answer": "petani",
+              "explanation": "Apa arti kata 'farmer' dalam Bahasa Indonesia? -> petani",
+              "options": [
+                "dokter",
+                "guru",
+                "petani"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d080",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'petani' adalah ...",
+              "answer": "Farmer",
+              "explanation": "Bahasa Inggris dari 'petani' adalah ... -> Farmer",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Farmer"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d081",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'police officer' dalam Bahasa Indonesia?",
+              "answer": "polisi",
+              "explanation": "Apa arti kata 'police officer' dalam Bahasa Indonesia? -> polisi",
+              "options": [
+                "dokter",
+                "guru",
+                "polisi"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d082",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'polisi' adalah ...",
+              "answer": "Police officer",
+              "explanation": "Bahasa Inggris dari 'polisi' adalah ... -> Police officer",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Police officer"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d083",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'chef' dalam Bahasa Indonesia?",
+              "answer": "koki",
+              "explanation": "Apa arti kata 'chef' dalam Bahasa Indonesia? -> koki",
+              "options": [
+                "dokter",
+                "guru",
+                "koki"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d084",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'koki' adalah ...",
+              "answer": "Chef",
+              "explanation": "Bahasa Inggris dari 'koki' adalah ... -> Chef",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Chef"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d085",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pilot' dalam Bahasa Indonesia?",
+              "answer": "pilot",
+              "explanation": "Apa arti kata 'pilot' dalam Bahasa Indonesia? -> pilot",
+              "options": [
+                "dokter",
+                "guru",
+                "pilot"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d086",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pilot' adalah ...",
+              "answer": "Pilot",
+              "explanation": "Bahasa Inggris dari 'pilot' adalah ... -> Pilot",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Pilot"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d087",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'nurse' dalam Bahasa Indonesia?",
+              "answer": "perawat",
+              "explanation": "Apa arti kata 'nurse' dalam Bahasa Indonesia? -> perawat",
+              "options": [
+                "dokter",
+                "guru",
+                "perawat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d088",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'perawat' adalah ...",
+              "answer": "Nurse",
+              "explanation": "Bahasa Inggris dari 'perawat' adalah ... -> Nurse",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Nurse"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d089",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'driver' dalam Bahasa Indonesia?",
+              "answer": "sopir",
+              "explanation": "Apa arti kata 'driver' dalam Bahasa Indonesia? -> sopir",
+              "options": [
+                "dokter",
+                "guru",
+                "sopir"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing3-d090",
+              "topic": "Jobs & Occupations",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sopir' adalah ...",
+              "answer": "Driver",
+              "explanation": "Bahasa Inggris dari 'sopir' adalah ... -> Driver",
+              "options": [
+                "Doctor",
+                "Teacher",
+                "Driver"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

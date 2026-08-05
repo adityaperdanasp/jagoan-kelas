@@ -1,0 +1,1456 @@
+{
+  "kelas": 2,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Days of the Week",
+          "soal": [
+            {
+              "id": "ing2-d001",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'monday' dalam Bahasa Indonesia?",
+              "answer": "senin",
+              "explanation": "Apa arti kata 'monday' dalam Bahasa Indonesia? -> senin",
+              "options": [
+                "selasa",
+                "rabu",
+                "senin"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d002",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'senin' adalah ...",
+              "answer": "Monday",
+              "explanation": "Bahasa Inggris dari 'senin' adalah ... -> Monday",
+              "options": [
+                "Tuesday",
+                "Wednesday",
+                "Monday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d003",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'tuesday' dalam Bahasa Indonesia?",
+              "answer": "selasa",
+              "explanation": "Apa arti kata 'tuesday' dalam Bahasa Indonesia? -> selasa",
+              "options": [
+                "senin",
+                "rabu",
+                "selasa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d004",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'selasa' adalah ...",
+              "answer": "Tuesday",
+              "explanation": "Bahasa Inggris dari 'selasa' adalah ... -> Tuesday",
+              "options": [
+                "Monday",
+                "Wednesday",
+                "Tuesday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d005",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'wednesday' dalam Bahasa Indonesia?",
+              "answer": "rabu",
+              "explanation": "Apa arti kata 'wednesday' dalam Bahasa Indonesia? -> rabu",
+              "options": [
+                "senin",
+                "selasa",
+                "rabu"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d006",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rabu' adalah ...",
+              "answer": "Wednesday",
+              "explanation": "Bahasa Inggris dari 'rabu' adalah ... -> Wednesday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d007",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'thursday' dalam Bahasa Indonesia?",
+              "answer": "kamis",
+              "explanation": "Apa arti kata 'thursday' dalam Bahasa Indonesia? -> kamis",
+              "options": [
+                "senin",
+                "selasa",
+                "kamis"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d008",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kamis' adalah ...",
+              "answer": "Thursday",
+              "explanation": "Bahasa Inggris dari 'kamis' adalah ... -> Thursday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Thursday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d009",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'friday' dalam Bahasa Indonesia?",
+              "answer": "jumat",
+              "explanation": "Apa arti kata 'friday' dalam Bahasa Indonesia? -> jumat",
+              "options": [
+                "senin",
+                "selasa",
+                "jumat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d010",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jumat' adalah ...",
+              "answer": "Friday",
+              "explanation": "Bahasa Inggris dari 'jumat' adalah ... -> Friday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Friday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d011",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'saturday' dalam Bahasa Indonesia?",
+              "answer": "sabtu",
+              "explanation": "Apa arti kata 'saturday' dalam Bahasa Indonesia? -> sabtu",
+              "options": [
+                "senin",
+                "selasa",
+                "sabtu"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d012",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sabtu' adalah ...",
+              "answer": "Saturday",
+              "explanation": "Bahasa Inggris dari 'sabtu' adalah ... -> Saturday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Saturday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d013",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sunday' dalam Bahasa Indonesia?",
+              "answer": "minggu",
+              "explanation": "Apa arti kata 'sunday' dalam Bahasa Indonesia? -> minggu",
+              "options": [
+                "senin",
+                "selasa",
+                "minggu"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d014",
+              "topic": "Days of the Week",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'minggu' adalah ...",
+              "answer": "Sunday",
+              "explanation": "Bahasa Inggris dari 'minggu' adalah ... -> Sunday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Sunday"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d015",
+              "topic": "Days of the Week",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hari sebelum 'Sunday' adalah ...",
+              "answer": "Saturday",
+              "explanation": "Saturday",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Fruits",
+          "soal": [
+            {
+              "id": "ing2-d016",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'apple' dalam Bahasa Indonesia?",
+              "answer": "apel",
+              "explanation": "Apa arti kata 'apple' dalam Bahasa Indonesia? -> apel",
+              "options": [
+                "pisang",
+                "mangga",
+                "apel"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d017",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'apel' adalah ...",
+              "answer": "Apple",
+              "explanation": "Bahasa Inggris dari 'apel' adalah ... -> Apple",
+              "options": [
+                "Banana",
+                "Mango",
+                "Apple"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d018",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'banana' dalam Bahasa Indonesia?",
+              "answer": "pisang",
+              "explanation": "Apa arti kata 'banana' dalam Bahasa Indonesia? -> pisang",
+              "options": [
+                "apel",
+                "mangga",
+                "pisang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d019",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pisang' adalah ...",
+              "answer": "Banana",
+              "explanation": "Bahasa Inggris dari 'pisang' adalah ... -> Banana",
+              "options": [
+                "Apple",
+                "Mango",
+                "Banana"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d020",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mango' dalam Bahasa Indonesia?",
+              "answer": "mangga",
+              "explanation": "Apa arti kata 'mango' dalam Bahasa Indonesia? -> mangga",
+              "options": [
+                "apel",
+                "pisang",
+                "mangga"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d021",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mangga' adalah ...",
+              "answer": "Mango",
+              "explanation": "Bahasa Inggris dari 'mangga' adalah ... -> Mango",
+              "options": [
+                "Apple",
+                "Banana",
+                "Mango"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d022",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'orange' dalam Bahasa Indonesia?",
+              "answer": "jeruk",
+              "explanation": "Apa arti kata 'orange' dalam Bahasa Indonesia? -> jeruk",
+              "options": [
+                "apel",
+                "pisang",
+                "jeruk"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d023",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jeruk' adalah ...",
+              "answer": "Orange",
+              "explanation": "Bahasa Inggris dari 'jeruk' adalah ... -> Orange",
+              "options": [
+                "Apple",
+                "Banana",
+                "Orange"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d024",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'grape' dalam Bahasa Indonesia?",
+              "answer": "anggur",
+              "explanation": "Apa arti kata 'grape' dalam Bahasa Indonesia? -> anggur",
+              "options": [
+                "apel",
+                "pisang",
+                "anggur"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d025",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'anggur' adalah ...",
+              "answer": "Grape",
+              "explanation": "Bahasa Inggris dari 'anggur' adalah ... -> Grape",
+              "options": [
+                "Apple",
+                "Banana",
+                "Grape"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d026",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'watermelon' dalam Bahasa Indonesia?",
+              "answer": "semangka",
+              "explanation": "Apa arti kata 'watermelon' dalam Bahasa Indonesia? -> semangka",
+              "options": [
+                "apel",
+                "pisang",
+                "semangka"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d027",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'semangka' adalah ...",
+              "answer": "Watermelon",
+              "explanation": "Bahasa Inggris dari 'semangka' adalah ... -> Watermelon",
+              "options": [
+                "Apple",
+                "Banana",
+                "Watermelon"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d028",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'papaya' dalam Bahasa Indonesia?",
+              "answer": "pepaya",
+              "explanation": "Apa arti kata 'papaya' dalam Bahasa Indonesia? -> pepaya",
+              "options": [
+                "apel",
+                "pisang",
+                "pepaya"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d029",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pepaya' adalah ...",
+              "answer": "Papaya",
+              "explanation": "Bahasa Inggris dari 'pepaya' adalah ... -> Papaya",
+              "options": [
+                "Apple",
+                "Banana",
+                "Papaya"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d030",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pineapple' dalam Bahasa Indonesia?",
+              "answer": "nanas",
+              "explanation": "Apa arti kata 'pineapple' dalam Bahasa Indonesia? -> nanas",
+              "options": [
+                "apel",
+                "pisang",
+                "nanas"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d031",
+              "topic": "Fruits",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'nanas' adalah ...",
+              "answer": "Pineapple",
+              "explanation": "Bahasa Inggris dari 'nanas' adalah ... -> Pineapple",
+              "options": [
+                "Apple",
+                "Banana",
+                "Pineapple"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Classroom Objects",
+          "soal": [
+            {
+              "id": "ing2-d032",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'book' dalam Bahasa Indonesia?",
+              "answer": "buku",
+              "explanation": "Apa arti kata 'book' dalam Bahasa Indonesia? -> buku",
+              "options": [
+                "pensil",
+                "penghapus",
+                "buku"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d033",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'buku' adalah ...",
+              "answer": "Book",
+              "explanation": "Bahasa Inggris dari 'buku' adalah ... -> Book",
+              "options": [
+                "Pencil",
+                "Eraser",
+                "Book"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d034",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pencil' dalam Bahasa Indonesia?",
+              "answer": "pensil",
+              "explanation": "Apa arti kata 'pencil' dalam Bahasa Indonesia? -> pensil",
+              "options": [
+                "buku",
+                "penghapus",
+                "pensil"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d035",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pensil' adalah ...",
+              "answer": "Pencil",
+              "explanation": "Bahasa Inggris dari 'pensil' adalah ... -> Pencil",
+              "options": [
+                "Book",
+                "Eraser",
+                "Pencil"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d036",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'eraser' dalam Bahasa Indonesia?",
+              "answer": "penghapus",
+              "explanation": "Apa arti kata 'eraser' dalam Bahasa Indonesia? -> penghapus",
+              "options": [
+                "buku",
+                "pensil",
+                "penghapus"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d037",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'penghapus' adalah ...",
+              "answer": "Eraser",
+              "explanation": "Bahasa Inggris dari 'penghapus' adalah ... -> Eraser",
+              "options": [
+                "Book",
+                "Pencil",
+                "Eraser"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d038",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bag' dalam Bahasa Indonesia?",
+              "answer": "tas",
+              "explanation": "Apa arti kata 'bag' dalam Bahasa Indonesia? -> tas",
+              "options": [
+                "buku",
+                "pensil",
+                "tas"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d039",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tas' adalah ...",
+              "answer": "Bag",
+              "explanation": "Bahasa Inggris dari 'tas' adalah ... -> Bag",
+              "options": [
+                "Book",
+                "Pencil",
+                "Bag"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d040",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'chair' dalam Bahasa Indonesia?",
+              "answer": "kursi",
+              "explanation": "Apa arti kata 'chair' dalam Bahasa Indonesia? -> kursi",
+              "options": [
+                "buku",
+                "pensil",
+                "kursi"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d041",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kursi' adalah ...",
+              "answer": "Chair",
+              "explanation": "Bahasa Inggris dari 'kursi' adalah ... -> Chair",
+              "options": [
+                "Book",
+                "Pencil",
+                "Chair"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d042",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'table' dalam Bahasa Indonesia?",
+              "answer": "meja",
+              "explanation": "Apa arti kata 'table' dalam Bahasa Indonesia? -> meja",
+              "options": [
+                "buku",
+                "pensil",
+                "meja"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d043",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'meja' adalah ...",
+              "answer": "Table",
+              "explanation": "Bahasa Inggris dari 'meja' adalah ... -> Table",
+              "options": [
+                "Book",
+                "Pencil",
+                "Table"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d044",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'ruler' dalam Bahasa Indonesia?",
+              "answer": "penggaris",
+              "explanation": "Apa arti kata 'ruler' dalam Bahasa Indonesia? -> penggaris",
+              "options": [
+                "buku",
+                "pensil",
+                "penggaris"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d045",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'penggaris' adalah ...",
+              "answer": "Ruler",
+              "explanation": "Bahasa Inggris dari 'penggaris' adalah ... -> Ruler",
+              "options": [
+                "Book",
+                "Pencil",
+                "Ruler"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d046",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'board' dalam Bahasa Indonesia?",
+              "answer": "papan tulis",
+              "explanation": "Apa arti kata 'board' dalam Bahasa Indonesia? -> papan tulis",
+              "options": [
+                "buku",
+                "pensil",
+                "papan tulis"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d047",
+              "topic": "Classroom Objects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'papan tulis' adalah ...",
+              "answer": "Board",
+              "explanation": "Bahasa Inggris dari 'papan tulis' adalah ... -> Board",
+              "options": [
+                "Book",
+                "Pencil",
+                "Board"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Shapes",
+          "soal": [
+            {
+              "id": "ing2-d048",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'circle' dalam Bahasa Indonesia?",
+              "answer": "lingkaran",
+              "explanation": "Apa arti kata 'circle' dalam Bahasa Indonesia? -> lingkaran",
+              "options": [
+                "persegi",
+                "segitiga",
+                "lingkaran"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d049",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lingkaran' adalah ...",
+              "answer": "Circle",
+              "explanation": "Bahasa Inggris dari 'lingkaran' adalah ... -> Circle",
+              "options": [
+                "Square",
+                "Triangle",
+                "Circle"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d050",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'square' dalam Bahasa Indonesia?",
+              "answer": "persegi",
+              "explanation": "Apa arti kata 'square' dalam Bahasa Indonesia? -> persegi",
+              "options": [
+                "lingkaran",
+                "segitiga",
+                "persegi"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d051",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'persegi' adalah ...",
+              "answer": "Square",
+              "explanation": "Bahasa Inggris dari 'persegi' adalah ... -> Square",
+              "options": [
+                "Circle",
+                "Triangle",
+                "Square"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d052",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'triangle' dalam Bahasa Indonesia?",
+              "answer": "segitiga",
+              "explanation": "Apa arti kata 'triangle' dalam Bahasa Indonesia? -> segitiga",
+              "options": [
+                "lingkaran",
+                "persegi",
+                "segitiga"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d053",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'segitiga' adalah ...",
+              "answer": "Triangle",
+              "explanation": "Bahasa Inggris dari 'segitiga' adalah ... -> Triangle",
+              "options": [
+                "Circle",
+                "Square",
+                "Triangle"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d054",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'rectangle' dalam Bahasa Indonesia?",
+              "answer": "persegi panjang",
+              "explanation": "Apa arti kata 'rectangle' dalam Bahasa Indonesia? -> persegi panjang",
+              "options": [
+                "lingkaran",
+                "persegi",
+                "persegi panjang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d055",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'persegi panjang' adalah ...",
+              "answer": "Rectangle",
+              "explanation": "Bahasa Inggris dari 'persegi panjang' adalah ... -> Rectangle",
+              "options": [
+                "Circle",
+                "Square",
+                "Rectangle"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d056",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'star' dalam Bahasa Indonesia?",
+              "answer": "bintang",
+              "explanation": "Apa arti kata 'star' dalam Bahasa Indonesia? -> bintang",
+              "options": [
+                "lingkaran",
+                "persegi",
+                "bintang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d057",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bintang' adalah ...",
+              "answer": "Star",
+              "explanation": "Bahasa Inggris dari 'bintang' adalah ... -> Star",
+              "options": [
+                "Circle",
+                "Square",
+                "Star"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d058",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'heart' dalam Bahasa Indonesia?",
+              "answer": "hati",
+              "explanation": "Apa arti kata 'heart' dalam Bahasa Indonesia? -> hati",
+              "options": [
+                "lingkaran",
+                "persegi",
+                "hati"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d059",
+              "topic": "Shapes",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hati' adalah ...",
+              "answer": "Heart",
+              "explanation": "Bahasa Inggris dari 'hati' adalah ... -> Heart",
+              "options": [
+                "Circle",
+                "Square",
+                "Heart"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Weather",
+          "soal": [
+            {
+              "id": "ing2-d060",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sunny' dalam Bahasa Indonesia?",
+              "answer": "cerah",
+              "explanation": "Apa arti kata 'sunny' dalam Bahasa Indonesia? -> cerah",
+              "options": [
+                "hujan",
+                "berawan",
+                "cerah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d061",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'cerah' adalah ...",
+              "answer": "Sunny",
+              "explanation": "Bahasa Inggris dari 'cerah' adalah ... -> Sunny",
+              "options": [
+                "Rainy",
+                "Cloudy",
+                "Sunny"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d062",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'rainy' dalam Bahasa Indonesia?",
+              "answer": "hujan",
+              "explanation": "Apa arti kata 'rainy' dalam Bahasa Indonesia? -> hujan",
+              "options": [
+                "cerah",
+                "berawan",
+                "hujan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d063",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hujan' adalah ...",
+              "answer": "Rainy",
+              "explanation": "Bahasa Inggris dari 'hujan' adalah ... -> Rainy",
+              "options": [
+                "Sunny",
+                "Cloudy",
+                "Rainy"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d064",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cloudy' dalam Bahasa Indonesia?",
+              "answer": "berawan",
+              "explanation": "Apa arti kata 'cloudy' dalam Bahasa Indonesia? -> berawan",
+              "options": [
+                "cerah",
+                "hujan",
+                "berawan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d065",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'berawan' adalah ...",
+              "answer": "Cloudy",
+              "explanation": "Bahasa Inggris dari 'berawan' adalah ... -> Cloudy",
+              "options": [
+                "Sunny",
+                "Rainy",
+                "Cloudy"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d066",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'windy' dalam Bahasa Indonesia?",
+              "answer": "berangin",
+              "explanation": "Apa arti kata 'windy' dalam Bahasa Indonesia? -> berangin",
+              "options": [
+                "cerah",
+                "hujan",
+                "berangin"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d067",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'berangin' adalah ...",
+              "answer": "Windy",
+              "explanation": "Bahasa Inggris dari 'berangin' adalah ... -> Windy",
+              "options": [
+                "Sunny",
+                "Rainy",
+                "Windy"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d068",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hot' dalam Bahasa Indonesia?",
+              "answer": "panas",
+              "explanation": "Apa arti kata 'hot' dalam Bahasa Indonesia? -> panas",
+              "options": [
+                "cerah",
+                "hujan",
+                "panas"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d069",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'panas' adalah ...",
+              "answer": "Hot",
+              "explanation": "Bahasa Inggris dari 'panas' adalah ... -> Hot",
+              "options": [
+                "Sunny",
+                "Rainy",
+                "Hot"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d070",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cold' dalam Bahasa Indonesia?",
+              "answer": "dingin",
+              "explanation": "Apa arti kata 'cold' dalam Bahasa Indonesia? -> dingin",
+              "options": [
+                "cerah",
+                "hujan",
+                "dingin"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d071",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dingin' adalah ...",
+              "answer": "Cold",
+              "explanation": "Bahasa Inggris dari 'dingin' adalah ... -> Cold",
+              "options": [
+                "Sunny",
+                "Rainy",
+                "Cold"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d072",
+              "topic": "Weather",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat 'It is raining' artinya ...",
+              "answer": "Sedang hujan",
+              "explanation": "Kalimat 'It is raining' artinya ... -> Sedang hujan",
+              "options": [
+                "Sedang panas",
+                "Sedang berangin",
+                "Sedang hujan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Feelings & Emotions",
+          "soal": [
+            {
+              "id": "ing2-d073",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'happy' dalam Bahasa Indonesia?",
+              "answer": "senang",
+              "explanation": "Apa arti kata 'happy' dalam Bahasa Indonesia? -> senang",
+              "options": [
+                "sedih",
+                "marah",
+                "senang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d074",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'senang' adalah ...",
+              "answer": "Happy",
+              "explanation": "Bahasa Inggris dari 'senang' adalah ... -> Happy",
+              "options": [
+                "Sad",
+                "Angry",
+                "Happy"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d075",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sad' dalam Bahasa Indonesia?",
+              "answer": "sedih",
+              "explanation": "Apa arti kata 'sad' dalam Bahasa Indonesia? -> sedih",
+              "options": [
+                "senang",
+                "marah",
+                "sedih"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d076",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sedih' adalah ...",
+              "answer": "Sad",
+              "explanation": "Bahasa Inggris dari 'sedih' adalah ... -> Sad",
+              "options": [
+                "Happy",
+                "Angry",
+                "Sad"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d077",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'angry' dalam Bahasa Indonesia?",
+              "answer": "marah",
+              "explanation": "Apa arti kata 'angry' dalam Bahasa Indonesia? -> marah",
+              "options": [
+                "senang",
+                "sedih",
+                "marah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d078",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'marah' adalah ...",
+              "answer": "Angry",
+              "explanation": "Bahasa Inggris dari 'marah' adalah ... -> Angry",
+              "options": [
+                "Happy",
+                "Sad",
+                "Angry"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d079",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'scared' dalam Bahasa Indonesia?",
+              "answer": "takut",
+              "explanation": "Apa arti kata 'scared' dalam Bahasa Indonesia? -> takut",
+              "options": [
+                "senang",
+                "sedih",
+                "takut"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d080",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'takut' adalah ...",
+              "answer": "Scared",
+              "explanation": "Bahasa Inggris dari 'takut' adalah ... -> Scared",
+              "options": [
+                "Happy",
+                "Sad",
+                "Scared"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d081",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'tired' dalam Bahasa Indonesia?",
+              "answer": "lelah",
+              "explanation": "Apa arti kata 'tired' dalam Bahasa Indonesia? -> lelah",
+              "options": [
+                "senang",
+                "sedih",
+                "lelah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d082",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lelah' adalah ...",
+              "answer": "Tired",
+              "explanation": "Bahasa Inggris dari 'lelah' adalah ... -> Tired",
+              "options": [
+                "Happy",
+                "Sad",
+                "Tired"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d083",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'excited' dalam Bahasa Indonesia?",
+              "answer": "bersemangat",
+              "explanation": "Apa arti kata 'excited' dalam Bahasa Indonesia? -> bersemangat",
+              "options": [
+                "senang",
+                "sedih",
+                "bersemangat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d084",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bersemangat' adalah ...",
+              "answer": "Excited",
+              "explanation": "Bahasa Inggris dari 'bersemangat' adalah ... -> Excited",
+              "options": [
+                "Happy",
+                "Sad",
+                "Excited"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d085",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hungry' dalam Bahasa Indonesia?",
+              "answer": "lapar",
+              "explanation": "Apa arti kata 'hungry' dalam Bahasa Indonesia? -> lapar",
+              "options": [
+                "senang",
+                "sedih",
+                "lapar"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d086",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lapar' adalah ...",
+              "answer": "Hungry",
+              "explanation": "Bahasa Inggris dari 'lapar' adalah ... -> Hungry",
+              "options": [
+                "Happy",
+                "Sad",
+                "Hungry"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d087",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sleepy' dalam Bahasa Indonesia?",
+              "answer": "mengantuk",
+              "explanation": "Apa arti kata 'sleepy' dalam Bahasa Indonesia? -> mengantuk",
+              "options": [
+                "senang",
+                "sedih",
+                "mengantuk"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing2-d088",
+              "topic": "Feelings & Emotions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mengantuk' adalah ...",
+              "answer": "Sleepy",
+              "explanation": "Bahasa Inggris dari 'mengantuk' adalah ... -> Sleepy",
+              "options": [
+                "Happy",
+                "Sad",
+                "Sleepy"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

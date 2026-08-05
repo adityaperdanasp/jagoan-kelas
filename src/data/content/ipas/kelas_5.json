@@ -138,6 +138,56 @@
               ],
               "grade": 5,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-028-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Benda yang dapat ditembus cahaya disebut benda ...",
+              "answer": "Bening/transparan",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 5
+            },
+            {
+              "id": "ipas3-029-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Benda yang tidak dapat ditembus cahaya sama sekali disebut benda ...",
+              "answer": "Gelap/opak",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 5
+            },
+            {
+              "id": "ipas3-048-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Alat yang digunakan untuk melihat benda kecil agar tampak besar adalah ...",
+              "answer": "Kaca pembesar/lup",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas3-049-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Cermin yang permukaannya datar disebut cermin ...",
+              "answer": "Datar",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas3-050-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Peristiwa pembiasan cahaya membuat pensil dalam gelas berisi air terlihat ...",
+              "answer": "Patah/bengkok",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
             }
           ]
         },
@@ -223,6 +273,70 @@
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas4-009-mv4to5",
+              "topic": "Ekosistem",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Dalam rantai makanan padi - tikus - ular - elang, padi berperan sebagai ...",
+              "answer": "Produsen",
+              "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+              "options": [
+                "Konsumen 2",
+                "Konsumen 1",
+                "Pengurai",
+                "Produsen"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-010-mv4to5",
+              "topic": "Ekosistem",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Dalam rantai makanan padi - tikus - ular - elang, tikus berperan sebagai ...",
+              "answer": "Konsumen 1",
+              "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+              "options": [
+                "Produsen",
+                "Konsumen 1",
+                "Pengurai",
+                "Konsumen 2"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-011-mv4to5",
+              "topic": "Ekosistem",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Organisme yang berperan menguraikan sisa makhluk hidup yang telah mati disebut ...",
+              "answer": "Pengurai",
+              "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+              "options": [
+                "Predator",
+                "Produsen",
+                "Pengurai",
+                "Konsumen"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-012-mv4to5",
+              "topic": "Ekosistem",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hubungan antar makhluk hidup dengan lingkungannya disebut ...",
+              "answer": "Ekosistem",
+              "explanation": "Ekosistem terdiri dari komponen biotik dan abiotik yang saling berinteraksi",
+              "options": [
+                "Ekosistem",
+                "Habitat",
+                "Populasi",
+                "Komunitas"
+              ],
+              "grade": 5
             }
           ]
         },
@@ -359,6 +473,70 @@
               ],
               "grade": 5,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas6-001-mv6to5",
+              "topic": "Listrik & Rangkaian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Rangkaian listrik yang disusun berurutan tanpa cabang disebut rangkaian ...",
+              "answer": "Seri",
+              "explanation": "Listrik mengalir melalui rangkaian tertutup",
+              "options": [
+                "Seri",
+                "Tertutup",
+                "Campuran",
+                "Paralel"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas6-002-mv6to5",
+              "topic": "Listrik & Rangkaian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Rangkaian listrik yang disusun bercabang disebut rangkaian ...",
+              "answer": "Paralel",
+              "explanation": "Listrik mengalir melalui rangkaian tertutup",
+              "options": [
+                "Seri",
+                "Paralel",
+                "Tertutup",
+                "Campuran"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas6-003-mv6to5",
+              "topic": "Listrik & Rangkaian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Alat yang berfungsi menyimpan energi listrik disebut ...",
+              "answer": "Baterai/aki",
+              "explanation": "Listrik mengalir melalui rangkaian tertutup",
+              "options": [
+                "Kabel",
+                "Saklar",
+                "Baterai/aki",
+                "Sekring"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas6-004-mv6to5",
+              "topic": "Listrik & Rangkaian",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Alat yang berfungsi memutus dan menyambung aliran listrik disebut ...",
+              "answer": "Saklar",
+              "explanation": "Listrik mengalir melalui rangkaian tertutup",
+              "options": [
+                "Baterai/aki",
+                "Saklar",
+                "Kabel",
+                "Sekring"
+              ],
+              "grade": 5
             }
           ]
         },
@@ -495,6 +673,16 @@
               ],
               "grade": 5,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas3-046-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Lapisan udara yang menyelimuti bumi disebut ...",
+              "answer": "Atmosfer",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
             }
           ]
         }
@@ -638,6 +826,150 @@
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas3-032-mv3to5",
+              "topic": "Pengetahuan Alam & Sosial",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Alat yang digunakan untuk mengukur suhu tubuh disebut ...",
+              "answer": "Termometer",
+              "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
+              "grade": 5
+            },
+            {
+              "id": "ipas4-001-mv4to5",
+              "topic": "Sistem Pencernaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan sistem pencernaan manusia yang benar dimulai dari ...",
+              "answer": "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
+              "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+              "options": [
+                "Mulut - usus halus - lambung - kerongkongan - anus",
+                "Kerongkongan - mulut - lambung - usus - anus",
+                "Mulut - kerongkongan - lambung - usus halus - usus besar - anus",
+                "Mulut - lambung - kerongkongan - usus halus - anus"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-002-mv4to5",
+              "topic": "Sistem Pencernaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Organ yang berfungsi mencerna makanan dengan asam lambung adalah ...",
+              "answer": "Lambung",
+              "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+              "options": [
+                "Pankreas",
+                "Hati",
+                "Lambung",
+                "Usus halus"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-003-mv4to5",
+              "topic": "Sistem Pencernaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Organ tempat penyerapan sari-sari makanan terjadi adalah ...",
+              "answer": "Usus halus",
+              "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+              "options": [
+                "Usus besar",
+                "Kerongkongan",
+                "Usus halus",
+                "Lambung"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-004-mv4to5",
+              "topic": "Sistem Pencernaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gigi yang berfungsi memotong makanan disebut gigi ...",
+              "answer": "Seri",
+              "explanation": "Sistem pencernaan mengolah makanan menjadi energi",
+              "options": [
+                "Seri",
+                "Geraham",
+                "Susu",
+                "Taring"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "ipas4-005-mv4to5",
+              "topic": "Sistem Pernapasan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Urutan sistem pernapasan manusia yang benar adalah ...",
+              "answer": "Hidung - tenggorokan - bronkus - paru-paru",
+              "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+              "grade": 5
+            },
+            {
+              "id": "ipas4-006-mv4to5",
+              "topic": "Sistem Pernapasan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Organ utama tempat pertukaran oksigen dan karbon dioksida terjadi adalah ...",
+              "answer": "Paru-paru",
+              "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+              "grade": 5
+            },
+            {
+              "id": "ipas4-007-mv4to5",
+              "topic": "Sistem Pernapasan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Udara yang kita hirup mengandung gas yang dibutuhkan tubuh, yaitu ...",
+              "answer": "Oksigen",
+              "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+              "grade": 5
+            },
+            {
+              "id": "ipas4-008-mv4to5",
+              "topic": "Sistem Pernapasan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Gas yang kita keluarkan saat bernapas adalah ...",
+              "answer": "Karbon dioksida",
+              "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-034",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Penyakit yang disebabkan kekurangan sel darah merah disebut ...",
+              "answer": "Anemia",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-035",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Vitamin yang penting untuk kesehatan mata adalah vitamin ...",
+              "answer": "A",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-036",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Vitamin yang berperan dalam pembekuan darah adalah vitamin ...",
+              "answer": "K",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
             }
           ]
         },
@@ -688,6 +1020,66 @@
               "explanation": "Indonesia memiliki letak geografis yang strategis",
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas5-032",
+              "topic": "Pengetahuan Alam & Sosial Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Batas wilayah laut suatu negara yang diakui secara internasional disebut ...",
+              "answer": "Zona Ekonomi Eksklusif (ZEE)",
+              "explanation": "Pengetahuan lanjutan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-040",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Selat yang memisahkan pulau Sumatera dan Jawa adalah ...",
+              "answer": "Selat Sunda",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-041",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Selat yang memisahkan pulau Jawa dan Bali adalah ...",
+              "answer": "Selat Bali",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas6-027-mv6to5",
+              "topic": "Letak Astronomis & Geografis",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Secara astronomis, Indonesia terletak di antara garis lintang dan garis ...",
+              "answer": "Bujur",
+              "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
+              "grade": 5
+            },
+            {
+              "id": "ipas6-028-mv6to5",
+              "topic": "Letak Astronomis & Geografis",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Karena dilewati garis khatulistiwa, Indonesia beriklim ...",
+              "answer": "Tropis",
+              "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
+              "grade": 5
+            },
+            {
+              "id": "ipas6-029-mv6to5",
+              "topic": "Letak Astronomis & Geografis",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Wilayah Indonesia bagian timur berbatasan dengan negara ...",
+              "answer": "Papua Nugini",
+              "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
+              "grade": 5
             }
           ]
         },
@@ -738,6 +1130,86 @@
               "explanation": "Keragaman budaya memperkaya bangsa Indonesia",
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas5-014",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kerajaan Hindu tertua di Indonesia adalah ...",
+              "answer": "Kutai",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-015",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kerajaan Sriwijaya berpusat di pulau ...",
+              "answer": "Sumatera",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-016",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kerajaan Majapahit berpusat di pulau ...",
+              "answer": "Jawa",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-017",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kerajaan Islam pertama di Indonesia adalah ...",
+              "answer": "Samudera Pasai",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-018",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Wali Songo adalah sebutan untuk ... penyebar agama Islam di Jawa",
+              "answer": "Sembilan wali",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-019",
+              "topic": "Sejarah Kerajaan di Indonesia",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Candi Borobudur merupakan peninggalan kerajaan ...",
+              "answer": "Mataram Kuno/Syailendra",
+              "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-039",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bandar udara internasional yang terletak di Jakarta bernama ...",
+              "answer": "Soekarno-Hatta",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-042",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Kerajaan Islam yang berpusat di Aceh dan terkenal pada masa Sultan Iskandar Muda adalah ...",
+              "answer": "Kesultanan Aceh",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
             }
           ]
         },
@@ -788,222 +1260,31 @@
               "explanation": "Menjaga kelestarian alam penting untuk kehidupan",
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas4-046-mv4to5",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Kegiatan menangkap ikan menggunakan bahan peledak dapat merusak ...",
+              "answer": "Terumbu karang/ekosistem laut",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
+            },
+            {
+              "id": "ipas5-049",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Salah satu upaya menjaga kelestarian terumbu karang adalah tidak melakukan ...",
+              "answer": "Pengeboman ikan/perusakan karang",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 5
             }
           ]
         }
       ]
     }
   ],
-  "belum_terpetakan": [
-    {
-      "id": "ipas5-014",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Kerajaan Hindu tertua di Indonesia adalah ...",
-      "answer": "Kutai",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-015",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Kerajaan Sriwijaya berpusat di pulau ...",
-      "answer": "Sumatera",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-016",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Kerajaan Majapahit berpusat di pulau ...",
-      "answer": "Jawa",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-017",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Kerajaan Islam pertama di Indonesia adalah ...",
-      "answer": "Samudera Pasai",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-018",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Wali Songo adalah sebutan untuk ... penyebar agama Islam di Jawa",
-      "answer": "Sembilan wali",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-019",
-      "topic": "Sejarah Kerajaan di Indonesia",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Candi Borobudur merupakan peninggalan kerajaan ...",
-      "answer": "Mataram Kuno/Syailendra",
-      "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-032",
-      "topic": "Pengetahuan Alam & Sosial Lanjutan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Batas wilayah laut suatu negara yang diakui secara internasional disebut ...",
-      "answer": "Zona Ekonomi Eksklusif (ZEE)",
-      "explanation": "Pengetahuan lanjutan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-034",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Penyakit yang disebabkan kekurangan sel darah merah disebut ...",
-      "answer": "Anemia",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-035",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Vitamin yang penting untuk kesehatan mata adalah vitamin ...",
-      "answer": "A",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-036",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Vitamin yang berperan dalam pembekuan darah adalah vitamin ...",
-      "answer": "K",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-039",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Bandar udara internasional yang terletak di Jakarta bernama ...",
-      "answer": "Soekarno-Hatta",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-040",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Selat yang memisahkan pulau Sumatera dan Jawa adalah ...",
-      "answer": "Selat Sunda",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-041",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Selat yang memisahkan pulau Jawa dan Bali adalah ...",
-      "answer": "Selat Bali",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-042",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Kerajaan Islam yang berpusat di Aceh dan terkenal pada masa Sultan Iskandar Muda adalah ...",
-      "answer": "Kesultanan Aceh",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-043",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Pahlawan wanita yang memperjuangkan pendidikan bagi kaum perempuan Indonesia adalah ...",
-      "answer": "R.A. Kartini",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-044",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Hari Kartini diperingati setiap tanggal ...",
-      "answer": "21 April",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-045",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Lagu kebangsaan Indonesia berjudul ...",
-      "answer": "Indonesia Raya",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-046",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Pencipta lagu Indonesia Raya adalah ...",
-      "answer": "W.R. Supratman",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-047",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Dasar negara Indonesia yang memuat lima sila disebut ...",
-      "answer": "Pancasila",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-049",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Salah satu upaya menjaga kelestarian terumbu karang adalah tidak melakukan ...",
-      "answer": "Pengeboman ikan/perusakan karang",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    },
-    {
-      "id": "ipas5-050",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Peristiwa Rengasdengklok terjadi menjelang peristiwa ...",
-      "answer": "Proklamasi kemerdekaan",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 5
-    }
-  ]
+  "belum_terpetakan": []
 }

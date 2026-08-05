@@ -1,0 +1,424 @@
+{
+  "kelas": 6,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Kisah Dakwah Nabi Muhammad ﷺ",
+          "soal": [
+            {
+              "id": "pai6-d001",
+              "topic": "Kisah Dakwah Nabi Muhammad ﷺ",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Muhammad ﷺ menerima wahyu pertama di ...",
+              "answer": "Gua Hira",
+              "explanation": "Jawaban: Gua Hira",
+              "options": [
+                "Gua Tsur",
+                "Masjidil Aqsa",
+                "Gua Hira"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d002",
+              "topic": "Kisah Dakwah Nabi Muhammad ﷺ",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perpindahan Nabi Muhammad ﷺ dari Makkah ke Madinah disebut ...",
+              "answer": "Hijrah",
+              "explanation": "Jawaban: Hijrah",
+              "options": [
+                "Isra Mi'raj",
+                "Fathu Makkah",
+                "Hijrah"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d003",
+              "topic": "Kisah Dakwah Nabi Muhammad ﷺ",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kota yang menjadi tujuan hijrah Nabi Muhammad ﷺ adalah ...",
+              "answer": "Madinah",
+              "explanation": "Jawaban: Madinah",
+              "options": [
+                "Makkah",
+                "Thaif",
+                "Madinah"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d004",
+              "topic": "Kisah Dakwah Nabi Muhammad ﷺ",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perjalanan malam Nabi Muhammad ﷺ dari Masjidil Haram ke Masjidil Aqsa lalu ke langit disebut ...",
+              "answer": "Isra Mi'raj",
+              "explanation": "Isra Mi'raj",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Sahabat Nabi",
+          "soal": [
+            {
+              "id": "pai6-d005",
+              "topic": "Sahabat Nabi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sahabat Nabi yang menjadi khalifah pertama adalah ...",
+              "answer": "Abu Bakar ash-Shiddiq",
+              "explanation": "Jawaban: Abu Bakar ash-Shiddiq",
+              "options": [
+                "Umar bin Khattab",
+                "Utsman bin Affan",
+                "Abu Bakar ash-Shiddiq"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d006",
+              "topic": "Sahabat Nabi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sahabat Nabi yang dikenal tegas dan menjadi khalifah kedua adalah ...",
+              "answer": "Umar bin Khattab",
+              "explanation": "Jawaban: Umar bin Khattab",
+              "options": [
+                "Abu Bakar",
+                "Ali bin Abi Thalib",
+                "Umar bin Khattab"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d007",
+              "topic": "Sahabat Nabi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Empat sahabat Nabi yang menjadi khalifah disebut Khulafaur ...",
+              "answer": "Rasyidin",
+              "explanation": "Jawaban: Rasyidin",
+              "options": [
+                "Rasul",
+                "Anbiya",
+                "Rasyidin"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d008",
+              "topic": "Sahabat Nabi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sahabat yang menjadi menantu sekaligus khalifah keempat adalah ...",
+              "answer": "Ali bin Abi Thalib",
+              "explanation": "Ali bin Abi Thalib",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Toleransi & Kerukunan",
+          "soal": [
+            {
+              "id": "pai6-d009",
+              "topic": "Toleransi & Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap saling menghargai perbedaan agama, suku, dan budaya disebut ...",
+              "answer": "Toleransi",
+              "explanation": "Jawaban: Toleransi",
+              "options": [
+                "Perpecahan",
+                "Permusuhan",
+                "Toleransi"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d010",
+              "topic": "Toleransi & Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hidup rukun dengan tetangga yang berbeda keyakinan termasuk contoh ...",
+              "answer": "Toleransi antarumat beragama",
+              "explanation": "Jawaban: Toleransi antarumat beragama",
+              "options": [
+                "Sikap acuh",
+                "Pemaksaan keyakinan",
+                "Toleransi antarumat beragama"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d011",
+              "topic": "Toleransi & Kerukunan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Indonesia adalah negara dengan banyak suku, agama, dan budaya, sehingga kita perlu menjunjung ...",
+              "answer": "Persatuan dan kerukunan",
+              "explanation": "Jawaban: Persatuan dan kerukunan",
+              "options": [
+                "Perpecahan",
+                "Fanatik sempit",
+                "Persatuan dan kerukunan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d012",
+              "topic": "Toleransi & Kerukunan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menghormati ibadah teman yang berbeda agama termasuk sikap ...",
+              "answer": "Toleransi",
+              "explanation": "Toleransi",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Tanggung Jawab",
+          "soal": [
+            {
+              "id": "pai6-d013",
+              "topic": "Tanggung Jawab",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Menyelesaikan tugas yang diberikan dengan sebaik-baiknya disebut ...",
+              "answer": "Tanggung jawab",
+              "explanation": "Jawaban: Tanggung jawab",
+              "options": [
+                "Malas",
+                "Lalai",
+                "Tanggung jawab"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d014",
+              "topic": "Tanggung Jawab",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Mengakui kesalahan dan memperbaikinya termasuk sikap ...",
+              "answer": "Bertanggung jawab",
+              "explanation": "Jawaban: Bertanggung jawab",
+              "options": [
+                "Menyalahkan orang lain",
+                "Lari dari masalah",
+                "Bertanggung jawab"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d015",
+              "topic": "Tanggung Jawab",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sebagai pelajar, tanggung jawab utama kita adalah ...",
+              "answer": "Belajar dengan sungguh-sungguh",
+              "explanation": "Jawaban: Belajar dengan sungguh-sungguh",
+              "options": [
+                "Bermain terus",
+                "Mengabaikan tugas",
+                "Belajar dengan sungguh-sungguh"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d016",
+              "topic": "Tanggung Jawab",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Setiap perbuatan manusia kelak akan diminta ... di akhirat",
+              "answer": "Pertanggungjawaban",
+              "explanation": "Pertanggungjawaban",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Menjaga Persatuan",
+          "soal": [
+            {
+              "id": "pai6-d017",
+              "topic": "Menjaga Persatuan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap yang menjaga keutuhan bangsa meski berbeda-beda disebut ...",
+              "answer": "Persatuan",
+              "explanation": "Jawaban: Persatuan",
+              "options": [
+                "Perpecahan",
+                "Individualisme",
+                "Persatuan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d018",
+              "topic": "Menjaga Persatuan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Semboyan bangsa Indonesia yang berarti 'berbeda-beda tetapi tetap satu' adalah ...",
+              "answer": "Bhinneka Tunggal Ika",
+              "explanation": "Jawaban: Bhinneka Tunggal Ika",
+              "options": [
+                "Pancasila",
+                "Sumpah Pemuda",
+                "Bhinneka Tunggal Ika"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d019",
+              "topic": "Menjaga Persatuan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pertengkaran antarteman sebaiknya diselesaikan dengan ...",
+              "answer": "Musyawarah dan saling memaafkan",
+              "explanation": "Jawaban: Musyawarah dan saling memaafkan",
+              "options": [
+                "Bermusuhan terus",
+                "Saling diam-diaman",
+                "Musyawarah dan saling memaafkan"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d020",
+              "topic": "Menjaga Persatuan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kerja sama menjaga kerukunan di sekolah termasuk upaya menjaga ...",
+              "answer": "Persatuan",
+              "explanation": "Persatuan",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Meneladani Akhlak Rasul",
+          "soal": [
+            {
+              "id": "pai6-d021",
+              "topic": "Meneladani Akhlak Rasul",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sifat wajib Rasul yang berarti jujur adalah ...",
+              "answer": "Shiddiq",
+              "explanation": "Jawaban: Shiddiq",
+              "options": [
+                "Kizib",
+                "Kitman",
+                "Shiddiq"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d022",
+              "topic": "Meneladani Akhlak Rasul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sifat wajib Rasul yang berarti dapat dipercaya adalah ...",
+              "answer": "Amanah",
+              "explanation": "Jawaban: Amanah",
+              "options": [
+                "Khianat",
+                "Baladah",
+                "Amanah"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d023",
+              "topic": "Meneladani Akhlak Rasul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sifat wajib Rasul yang berarti menyampaikan (wahyu) adalah ...",
+              "answer": "Tabligh",
+              "explanation": "Jawaban: Tabligh",
+              "options": [
+                "Kitman",
+                "Kizib",
+                "Tabligh"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d024",
+              "topic": "Meneladani Akhlak Rasul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sifat wajib Rasul yang berarti cerdas adalah ...",
+              "answer": "Fathanah",
+              "explanation": "Jawaban: Fathanah",
+              "options": [
+                "Baladah",
+                "Kizib",
+                "Fathanah"
+              ],
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai6-d025",
+              "topic": "Meneladani Akhlak Rasul",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Meneladani akhlak Nabi Muhammad ﷺ dalam kehidupan sehari-hari termasuk bentuk ...",
+              "answer": "Cinta kepada Rasul/rasa syukur",
+              "explanation": "Cinta kepada Rasul/rasa syukur",
+              "grade": 6,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

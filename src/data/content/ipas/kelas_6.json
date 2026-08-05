@@ -138,6 +138,46 @@
               ],
               "grade": 6,
               "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ipas4-038-mv4to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tulang yang melindungi otak manusia disebut ...",
+              "answer": "Tengkorak",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas4-039-mv4to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tulang yang melindungi jantung dan paru-paru disebut ...",
+              "answer": "Tulang rusuk",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas4-040-mv4to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Jumlah tulang rangka pada tubuh manusia dewasa sekitar ...",
+              "answer": "206",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas4-041-mv4to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Otot yang bekerja tanpa kita sadari, contohnya otot jantung, disebut otot ...",
+              "answer": "Tak sadar/involunter",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
             }
           ]
         },
@@ -221,6 +261,116 @@
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 6,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas5-043-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pahlawan wanita yang memperjuangkan pendidikan bagi kaum perempuan Indonesia adalah ...",
+              "answer": "R.A. Kartini",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas5-044-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hari Kartini diperingati setiap tanggal ...",
+              "answer": "21 April",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas5-045-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lagu kebangsaan Indonesia berjudul ...",
+              "answer": "Indonesia Raya",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas5-046-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pencipta lagu Indonesia Raya adalah ...",
+              "answer": "W.R. Supratman",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas5-047-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Dasar negara Indonesia yang memuat lima sila disebut ...",
+              "answer": "Pancasila",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas5-050-mv5to6",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Peristiwa Rengasdengklok terjadi menjelang peristiwa ...",
+              "answer": "Proklamasi kemerdekaan",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-042",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Tokoh yang dikenal sebagai Bapak Koperasi Indonesia adalah ...",
+              "answer": "Mohammad Hatta",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-043",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pertempuran besar yang terjadi di Surabaya melawan sekutu dikenang sebagai Hari ...",
+              "answer": "Pahlawan",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-044",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hari Pahlawan diperingati setiap tanggal ...",
+              "answer": "10 November",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-046",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kepala pemerintahan di Indonesia dijabat oleh ...",
+              "answer": "Presiden",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-047",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sistem pemerintahan Indonesia berbentuk ...",
+              "answer": "Republik",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
             }
           ]
         },
@@ -343,6 +493,36 @@
               "explanation": "ASEAN adalah organisasi kerja sama regional Asia Tenggara",
               "grade": 6,
               "sumber": "bank"
+            },
+            {
+              "id": "ipas6-040",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Kerja sama ekonomi negara-negara di kawasan Asia Pasifik disebut ...",
+              "answer": "APEC",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-048",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Perubahan sosial akibat masuknya teknologi digital ke berbagai bidang kehidupan disebut ...",
+              "answer": "Digitalisasi",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
+            },
+            {
+              "id": "ipas6-049",
+              "topic": "Pengetahuan Alam & Sosial Tambahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Dampak positif kemajuan teknologi transportasi adalah mempersingkat ...",
+              "answer": "Waktu tempuh perjalanan",
+              "explanation": "Pengetahuan tambahan IPA dan IPS",
+              "grade": 6
             }
           ]
         }
@@ -710,180 +890,5 @@
       ]
     }
   ],
-  "belum_terpetakan": [
-    {
-      "id": "ipas6-001",
-      "topic": "Listrik & Rangkaian",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Rangkaian listrik yang disusun berurutan tanpa cabang disebut rangkaian ...",
-      "answer": "Seri",
-      "explanation": "Listrik mengalir melalui rangkaian tertutup",
-      "options": [
-        "Seri",
-        "Tertutup",
-        "Campuran",
-        "Paralel"
-      ],
-      "grade": 6
-    },
-    {
-      "id": "ipas6-002",
-      "topic": "Listrik & Rangkaian",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Rangkaian listrik yang disusun bercabang disebut rangkaian ...",
-      "answer": "Paralel",
-      "explanation": "Listrik mengalir melalui rangkaian tertutup",
-      "options": [
-        "Seri",
-        "Paralel",
-        "Tertutup",
-        "Campuran"
-      ],
-      "grade": 6
-    },
-    {
-      "id": "ipas6-003",
-      "topic": "Listrik & Rangkaian",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Alat yang berfungsi menyimpan energi listrik disebut ...",
-      "answer": "Baterai/aki",
-      "explanation": "Listrik mengalir melalui rangkaian tertutup",
-      "options": [
-        "Kabel",
-        "Saklar",
-        "Baterai/aki",
-        "Sekring"
-      ],
-      "grade": 6
-    },
-    {
-      "id": "ipas6-004",
-      "topic": "Listrik & Rangkaian",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Alat yang berfungsi memutus dan menyambung aliran listrik disebut ...",
-      "answer": "Saklar",
-      "explanation": "Listrik mengalir melalui rangkaian tertutup",
-      "options": [
-        "Baterai/aki",
-        "Saklar",
-        "Kabel",
-        "Sekring"
-      ],
-      "grade": 6
-    },
-    {
-      "id": "ipas6-027",
-      "topic": "Letak Astronomis & Geografis",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Secara astronomis, Indonesia terletak di antara garis lintang dan garis ...",
-      "answer": "Bujur",
-      "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-028",
-      "topic": "Letak Astronomis & Geografis",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Karena dilewati garis khatulistiwa, Indonesia beriklim ...",
-      "answer": "Tropis",
-      "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-029",
-      "topic": "Letak Astronomis & Geografis",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Wilayah Indonesia bagian timur berbatasan dengan negara ...",
-      "answer": "Papua Nugini",
-      "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-040",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Kerja sama ekonomi negara-negara di kawasan Asia Pasifik disebut ...",
-      "answer": "APEC",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-042",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Tokoh yang dikenal sebagai Bapak Koperasi Indonesia adalah ...",
-      "answer": "Mohammad Hatta",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-043",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Pertempuran besar yang terjadi di Surabaya melawan sekutu dikenang sebagai Hari ...",
-      "answer": "Pahlawan",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-044",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Hari Pahlawan diperingati setiap tanggal ...",
-      "answer": "10 November",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-046",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Kepala pemerintahan di Indonesia dijabat oleh ...",
-      "answer": "Presiden",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-047",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Sistem pemerintahan Indonesia berbentuk ...",
-      "answer": "Republik",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-048",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Perubahan sosial akibat masuknya teknologi digital ke berbagai bidang kehidupan disebut ...",
-      "answer": "Digitalisasi",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    },
-    {
-      "id": "ipas6-049",
-      "topic": "Pengetahuan Alam & Sosial Tambahan",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Dampak positif kemajuan teknologi transportasi adalah mempersingkat ...",
-      "answer": "Waktu tempuh perjalanan",
-      "explanation": "Pengetahuan tambahan IPA dan IPS",
-      "grade": 6
-    }
-  ]
+  "belum_terpetakan": []
 }

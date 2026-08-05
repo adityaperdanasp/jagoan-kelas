@@ -94,6 +94,7 @@ button { font: inherit; }
   80% { margin-left: 4px; }
 }
 .jk-bitten { animation: jk-shake 0.4s ease-in-out 0s 3; }
+.jk-nitro-empty { opacity: 0.45; }
 
 @keyframes jk-pop {
   0% { transform: translate(-50%, -50%) scale(0.4); opacity: 1; }

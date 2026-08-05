@@ -1,7 +1,7 @@
 // Lazy-loaded per kelas biar Vite code-split -- gak perlu bundle 42 kombinasi sekaligus.
 const modules = import.meta.glob("./content/*/kelas_*.json");
 
-const SUBJECTS_WITH_CONTENT = ["matematika", "ipas", "ppkn"];
+const SUBJECTS_WITH_CONTENT = ["matematika", "ipas", "ppkn", "binggris", "bindo", "pai"];
 
 export function hasContent(subjectId) {
   return SUBJECTS_WITH_CONTENT.includes(subjectId);

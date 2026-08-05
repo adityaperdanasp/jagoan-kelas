@@ -1,0 +1,456 @@
+{
+  "kelas": 4,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Kisah Nabi Musa & Nabi Isa",
+          "soal": [
+            {
+              "id": "pai4-d001",
+              "topic": "Kisah Nabi Musa & Nabi Isa",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Musa a.s. diutus Allah untuk menghadapi raja yang zalim bernama ...",
+              "answer": "Fir'aun",
+              "explanation": "Jawaban: Fir'aun",
+              "options": [
+                "Namrud",
+                "Abu Jahal",
+                "Fir'aun"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d002",
+              "topic": "Kisah Nabi Musa & Nabi Isa",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Mukjizat Nabi Musa a.s. yang terkenal adalah tongkat yang bisa ...",
+              "answer": "Membelah lautan",
+              "explanation": "Jawaban: Membelah lautan",
+              "options": [
+                "Terbang",
+                "Berbicara",
+                "Membelah lautan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d003",
+              "topic": "Kisah Nabi Musa & Nabi Isa",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Isa a.s. lahir dari ibu bernama ...",
+              "answer": "Siti Maryam",
+              "explanation": "Jawaban: Siti Maryam",
+              "options": [
+                "Siti Hawa",
+                "Siti Sarah",
+                "Siti Maryam"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d004",
+              "topic": "Kisah Nabi Musa & Nabi Isa",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kitab yang diturunkan kepada Nabi Musa a.s. bernama ...",
+              "answer": "Taurat",
+              "explanation": "Taurat",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Kitab-Kitab Allah",
+          "soal": [
+            {
+              "id": "pai4-d005",
+              "topic": "Kitab-Kitab Allah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kitab suci yang diturunkan kepada Nabi Muhammad ﷺ adalah ...",
+              "answer": "Al-Qur'an",
+              "explanation": "Jawaban: Al-Qur'an",
+              "options": [
+                "Taurat",
+                "Injil",
+                "Al-Qur'an"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d006",
+              "topic": "Kitab-Kitab Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kitab Zabur diturunkan kepada Nabi ...",
+              "answer": "Daud a.s.",
+              "explanation": "Jawaban: Daud a.s.",
+              "options": [
+                "Musa a.s.",
+                "Isa a.s.",
+                "Daud a.s."
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d007",
+              "topic": "Kitab-Kitab Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kitab Injil diturunkan kepada Nabi ...",
+              "answer": "Isa a.s.",
+              "explanation": "Jawaban: Isa a.s.",
+              "options": [
+                "Musa a.s.",
+                "Daud a.s.",
+                "Isa a.s."
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d008",
+              "topic": "Kitab-Kitab Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kitab suci umat Islam yang terjaga keasliannya sampai sekarang adalah ...",
+              "answer": "Al-Qur'an",
+              "explanation": "Jawaban: Al-Qur'an",
+              "options": [
+                "Taurat",
+                "Zabur",
+                "Al-Qur'an"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d009",
+              "topic": "Kitab-Kitab Allah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kitab yang diturunkan kepada Nabi Musa a.s. bernama ...",
+              "answer": "Taurat",
+              "explanation": "Taurat",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Zakat & Sedekah",
+          "soal": [
+            {
+              "id": "pai4-d010",
+              "topic": "Zakat & Sedekah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Memberi sebagian harta kepada yang membutuhkan disebut ...",
+              "answer": "Sedekah/zakat",
+              "explanation": "Jawaban: Sedekah/zakat",
+              "options": [
+                "Menabung",
+                "Berhutang",
+                "Sedekah/zakat"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d011",
+              "topic": "Zakat & Sedekah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Zakat termasuk rukun Islam yang ke ...",
+              "answer": "3 (tiga)",
+              "explanation": "Jawaban: 3 (tiga)",
+              "options": [
+                "1 (satu)",
+                "5 (lima)",
+                "3 (tiga)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d012",
+              "topic": "Zakat & Sedekah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sedekah bisa diberikan kapan saja, sedangkan zakat fitrah biasanya ditunaikan menjelang ...",
+              "answer": "Hari Raya Idul Fitri",
+              "explanation": "Jawaban: Hari Raya Idul Fitri",
+              "options": [
+                "Tahun baru",
+                "Ulang tahun",
+                "Hari Raya Idul Fitri"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d013",
+              "topic": "Zakat & Sedekah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Manfaat bersedekah antara lain melatih sikap ...",
+              "answer": "Peduli dan dermawan",
+              "explanation": "Jawaban: Peduli dan dermawan",
+              "options": [
+                "Kikir",
+                "Sombong",
+                "Peduli dan dermawan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d014",
+              "topic": "Zakat & Sedekah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sedekah tidak harus berupa uang, senyum kepada sesama juga termasuk ...",
+              "answer": "Sedekah",
+              "explanation": "Sedekah",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Adab Bertetangga",
+          "soal": [
+            {
+              "id": "pai4-d015",
+              "topic": "Adab Bertetangga",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap yang baik kepada tetangga adalah ...",
+              "answer": "Saling membantu dan menghormati",
+              "explanation": "Jawaban: Saling membantu dan menghormati",
+              "options": [
+                "Bermusuhan",
+                "Cuek",
+                "Saling membantu dan menghormati"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d016",
+              "topic": "Adab Bertetangga",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika tetangga sedang kesusahan, sebaiknya kita ...",
+              "answer": "Membantu semampu kita",
+              "explanation": "Jawaban: Membantu semampu kita",
+              "options": [
+                "Mengabaikannya",
+                "Menertawakannya",
+                "Membantu semampu kita"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d017",
+              "topic": "Adab Bertetangga",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Berbagi makanan dengan tetangga adalah contoh ...",
+              "answer": "Kepedulian sosial",
+              "explanation": "Jawaban: Kepedulian sosial",
+              "options": [
+                "Pemborosan",
+                "Kewajiban semata",
+                "Kepedulian sosial"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d018",
+              "topic": "Adab Bertetangga",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menjaga kerukunan dengan tetangga termasuk bagian dari akhlak yang ...",
+              "answer": "Terpuji/baik",
+              "explanation": "Terpuji/baik",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Tolong-Menolong",
+          "soal": [
+            {
+              "id": "pai4-d019",
+              "topic": "Tolong-Menolong",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Membantu orang lain yang kesulitan disebut sikap ...",
+              "answer": "Tolong-menolong",
+              "explanation": "Jawaban: Tolong-menolong",
+              "options": [
+                "Egois",
+                "Acuh",
+                "Tolong-menolong"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d020",
+              "topic": "Tolong-Menolong",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tolong-menolong sebaiknya dilakukan dalam hal ...",
+              "answer": "Kebaikan",
+              "explanation": "Jawaban: Kebaikan",
+              "options": [
+                "Keburukan/dosa",
+                "Kecurangan",
+                "Kebaikan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d021",
+              "topic": "Tolong-Menolong",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap tolong-menolong akan mempererat ...",
+              "answer": "Persaudaraan/ukhuwah",
+              "explanation": "Jawaban: Persaudaraan/ukhuwah",
+              "options": [
+                "Permusuhan",
+                "Persaingan",
+                "Persaudaraan/ukhuwah"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d022",
+              "topic": "Tolong-Menolong",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Gotong royong membersihkan lingkungan adalah contoh sikap ...",
+              "answer": "Tolong-menolong",
+              "explanation": "Tolong-menolong",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Mengenal Puasa Ramadhan",
+          "soal": [
+            {
+              "id": "pai4-d023",
+              "topic": "Mengenal Puasa Ramadhan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Umat Islam berpuasa selama bulan ...",
+              "answer": "Ramadhan",
+              "explanation": "Jawaban: Ramadhan",
+              "options": [
+                "Syawal",
+                "Muharram",
+                "Ramadhan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d024",
+              "topic": "Mengenal Puasa Ramadhan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Puasa dimulai sejak ... hingga terbenam matahari",
+              "answer": "Terbit fajar",
+              "explanation": "Jawaban: Terbit fajar",
+              "options": [
+                "Siang hari",
+                "Sore hari",
+                "Terbit fajar"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d025",
+              "topic": "Mengenal Puasa Ramadhan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Makan sebelum fajar saat puasa disebut ...",
+              "answer": "Sahur",
+              "explanation": "Jawaban: Sahur",
+              "options": [
+                "Buka puasa",
+                "Sarapan biasa",
+                "Sahur"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d026",
+              "topic": "Mengenal Puasa Ramadhan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Makan setelah matahari terbenam saat puasa disebut ...",
+              "answer": "Berbuka puasa",
+              "explanation": "Jawaban: Berbuka puasa",
+              "options": [
+                "Sahur",
+                "Makan malam biasa",
+                "Berbuka puasa"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai4-d027",
+              "topic": "Mengenal Puasa Ramadhan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hari raya setelah selesai bulan Ramadhan disebut ...",
+              "answer": "Idul Fitri",
+              "explanation": "Idul Fitri",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

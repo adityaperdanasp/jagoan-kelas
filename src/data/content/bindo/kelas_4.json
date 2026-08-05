@@ -1,0 +1,732 @@
+{
+  "kelas": 4,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Kalimat Transitif & Intransitif",
+          "soal": [
+            {
+              "id": "bindo4-d001",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat yang butuh objek disebut kalimat ...",
+              "answer": "Transitif",
+              "explanation": "Jawaban: Transitif",
+              "options": [
+                "Intransitif",
+                "Tanya",
+                "Transitif"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d002",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat yang tidak butuh objek disebut kalimat ...",
+              "answer": "Intransitif",
+              "explanation": "Jawaban: Intransitif",
+              "options": [
+                "Transitif",
+                "Perintah",
+                "Intransitif"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d003",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Ibu memasak nasi goreng' adalah kalimat ...",
+              "answer": "Transitif",
+              "explanation": "Jawaban: Transitif",
+              "options": [
+                "Intransitif",
+                "Seru",
+                "Transitif"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d004",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Adik tidur' adalah kalimat ...",
+              "answer": "Intransitif",
+              "explanation": "Jawaban: Intransitif",
+              "options": [
+                "Transitif",
+                "Tanya",
+                "Intransitif"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d005",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Objek dalam kalimat 'Ayah membaca koran' adalah ...",
+              "answer": "Koran",
+              "explanation": "Jawaban: Koran",
+              "options": [
+                "Ayah",
+                "Membaca",
+                "Koran"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d006",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'Kakak menulis surat' -- objeknya adalah ...",
+              "answer": "Surat",
+              "explanation": "Jawaban: Surat",
+              "options": [
+                "Kakak",
+                "Menulis",
+                "Surat"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d007",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Bayi itu menangis' adalah kalimat ...",
+              "answer": "Intransitif",
+              "explanation": "Jawaban: Intransitif",
+              "options": [
+                "Transitif",
+                "Berita bersyarat",
+                "Intransitif"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d008",
+              "topic": "Kalimat Transitif & Intransitif",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'Nenek merajut selimut' -- objeknya adalah ...",
+              "answer": "Selimut",
+              "explanation": "Jawaban: Selimut",
+              "options": [
+                "Nenek",
+                "Merajut",
+                "Selimut"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Tanda Baca & Ejaan",
+          "soal": [
+            {
+              "id": "bindo4-d009",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tanda baca untuk memisahkan unsur dalam kalimat adalah ...",
+              "answer": "Koma (,)",
+              "explanation": "Jawaban: Koma (,)",
+              "options": [
+                "Titik (.)",
+                "Tanya (?)",
+                "Koma (,)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d010",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Penulisan kata depan 'di' yang benar untuk tempat adalah ...",
+              "answer": "di sekolah (dipisah)",
+              "explanation": "Jawaban: di sekolah (dipisah)",
+              "options": [
+                "disekolah (digabung)",
+                "Di-sekolah",
+                "di sekolah (dipisah)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d011",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Penulisan awalan 'di-' yang benar untuk kata kerja pasif adalah ...",
+              "answer": "dimakan (digabung)",
+              "explanation": "Jawaban: dimakan (digabung)",
+              "options": [
+                "di makan (dipisah)",
+                "di-makan",
+                "dimakan (digabung)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d012",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ejaan yang benar adalah ...",
+              "answer": "Apotek",
+              "explanation": "Jawaban: Apotek",
+              "options": [
+                "Apotik",
+                "Apotek.",
+                "Apotek"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d013",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ejaan yang benar adalah ...",
+              "answer": "Praktik",
+              "explanation": "Jawaban: Praktik",
+              "options": [
+                "Praktek",
+                "Practic",
+                "Praktik"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d014",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tanda baca yang dipakai untuk kalimat langsung (kutipan) adalah tanda ...",
+              "answer": "Petik (\")",
+              "explanation": "Petik (\")",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d015",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ejaan yang benar adalah ...",
+              "answer": "Aktivitas",
+              "explanation": "Jawaban: Aktivitas",
+              "options": [
+                "Aktifitas",
+                "Aktivitaz",
+                "Aktivitas"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d016",
+              "topic": "Tanda Baca & Ejaan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tanda baca untuk memisahkan dua kalimat setara dalam satu kalimat majemuk adalah ...",
+              "answer": "Titik koma (;)",
+              "explanation": "Jawaban: Titik koma (;)",
+              "options": [
+                "Tanda seru (!)",
+                "Tanda tanya (?)",
+                "Titik koma (;)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Mencari Arti Kata (Kamus & KBBI)",
+          "soal": [
+            {
+              "id": "bindo4-d017",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata di kamus disusun berdasarkan urutan ...",
+              "answer": "Abjad (alfabetis)",
+              "explanation": "Jawaban: Abjad (alfabetis)",
+              "options": [
+                "Panjang kata",
+                "Tanggal ditemukan",
+                "Abjad (alfabetis)"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d018",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata 'meja' dicari di kamus pada bagian huruf ...",
+              "answer": "M",
+              "explanation": "Jawaban: M",
+              "options": [
+                "A",
+                "J",
+                "M"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d019",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "KBBI adalah singkatan dari ...",
+              "answer": "Kamus Besar Bahasa Indonesia",
+              "explanation": "Jawaban: Kamus Besar Bahasa Indonesia",
+              "options": [
+                "Kamus Bahasa Baku Indonesia",
+                "Kumpulan Buku Bahasa Indonesia",
+                "Kamus Besar Bahasa Indonesia"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d020",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang urutannya lebih dulu di kamus adalah ...",
+              "answer": "Apel",
+              "explanation": "Jawaban: Apel",
+              "options": [
+                "Buku",
+                "Cangkir",
+                "Apel"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d021",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang urutannya lebih dulu di kamus adalah ...",
+              "answer": "Ikan",
+              "explanation": "Jawaban: Ikan",
+              "options": [
+                "Jendela",
+                "Kursi",
+                "Ikan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d022",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "KBBI daring bisa diakses lewat ...",
+              "answer": "Internet/website kbbi.kemdikbud.go.id",
+              "explanation": "Internet/website kbbi.kemdikbud.go.id",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d023",
+              "topic": "Mencari Arti Kata (Kamus & KBBI)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang urutannya lebih dulu di kamus adalah ...",
+              "answer": "Duduk",
+              "explanation": "Jawaban: Duduk",
+              "options": [
+                "Lompat",
+                "Nyanyi",
+                "Duduk"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Teks Prosedur",
+          "soal": [
+            {
+              "id": "bindo4-d024",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang berisi langkah-langkah melakukan sesuatu disebut teks ...",
+              "answer": "Prosedur",
+              "explanation": "Jawaban: Prosedur",
+              "options": [
+                "Deskripsi",
+                "Narasi",
+                "Prosedur"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d025",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang menunjukkan urutan langkah adalah ...",
+              "answer": "Pertama, kemudian, lalu, terakhir",
+              "explanation": "Jawaban: Pertama, kemudian, lalu, terakhir",
+              "options": [
+                "Merah, biru, hijau",
+                "Besar, kecil, sedang",
+                "Pertama, kemudian, lalu, terakhir"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d026",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Contoh teks prosedur adalah ...",
+              "answer": "Cara membuat teh manis",
+              "explanation": "Jawaban: Cara membuat teh manis",
+              "options": [
+                "Cerita liburan ke pantai",
+                "Ciri-ciri kucing",
+                "Cara membuat teh manis"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d027",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian teks prosedur yang berisi bahan/alat disebut bagian ...",
+              "answer": "Bahan dan alat",
+              "explanation": "Jawaban: Bahan dan alat",
+              "options": [
+                "Langkah-langkah",
+                "Kesimpulan",
+                "Bahan dan alat"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d028",
+              "topic": "Teks Prosedur",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata hubung yang menunjukkan langkah terakhir adalah ...",
+              "answer": "Terakhir/akhirnya",
+              "explanation": "Terakhir/akhirnya",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d029",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks prosedur biasanya ditulis dalam bentuk kalimat ...",
+              "answer": "Perintah",
+              "explanation": "Jawaban: Perintah",
+              "options": [
+                "Tanya",
+                "Seru",
+                "Perintah"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d030",
+              "topic": "Teks Prosedur",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata hubung yang menunjukkan langkah kedua adalah ...",
+              "answer": "Kemudian/selanjutnya",
+              "explanation": "Jawaban: Kemudian/selanjutnya",
+              "options": [
+                "Pertama",
+                "Sebelumnya",
+                "Kemudian/selanjutnya"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Teks Persuasi (Menabung & Uang)",
+          "soal": [
+            {
+              "id": "bindo4-d031",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang bertujuan mengajak/membujuk pembaca disebut teks ...",
+              "answer": "Persuasi",
+              "explanation": "Jawaban: Persuasi",
+              "options": [
+                "Deskripsi",
+                "Prosedur",
+                "Persuasi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d032",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kegiatan menyisihkan uang untuk disimpan disebut ...",
+              "answer": "Menabung",
+              "explanation": "Jawaban: Menabung",
+              "options": [
+                "Berbelanja",
+                "Meminjam",
+                "Menabung"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d033",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tempat resmi untuk menabung yang aman adalah ...",
+              "answer": "Bank",
+              "explanation": "Jawaban: Bank",
+              "options": [
+                "Dompet saja",
+                "Celengan di jalan",
+                "Bank"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d034",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Salah satu ciri uang asli adalah ...",
+              "answer": "Ada benang pengaman & watermark",
+              "explanation": "Jawaban: Ada benang pengaman & watermark",
+              "options": [
+                "Kertasnya sangat tipis",
+                "Warnanya pudar",
+                "Ada benang pengaman & watermark"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d035",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat ajakan biasanya memakai kata ...",
+              "answer": "Ayo/mari",
+              "explanation": "Jawaban: Ayo/mari",
+              "options": [
+                "Karena",
+                "Meskipun",
+                "Ayo/mari"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d036",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Manfaat menabung sejak kecil adalah melatih sikap ...",
+              "answer": "Hemat/bertanggung jawab",
+              "explanation": "Hemat/bertanggung jawab",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d037",
+              "topic": "Teks Persuasi (Menabung & Uang)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat persuasif yang tepat untuk mengajak menabung adalah ...",
+              "answer": "Ayo, mulai menabung dari sekarang!",
+              "explanation": "Jawaban: Ayo, mulai menabung dari sekarang!",
+              "options": [
+                "Uang itu ada di dompet.",
+                "Bank tutup jam 3 sore.",
+                "Ayo, mulai menabung dari sekarang!"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Puisi & Pantun",
+          "soal": [
+            {
+              "id": "bindo4-d038",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pantun terdiri dari ... baris per bait",
+              "answer": "4",
+              "explanation": "Jawaban: 4",
+              "options": [
+                "2",
+                "6",
+                "4"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d039",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Dua baris pertama pantun disebut ...",
+              "answer": "Sampiran",
+              "explanation": "Jawaban: Sampiran",
+              "options": [
+                "Isi",
+                "Judul",
+                "Sampiran"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d040",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Dua baris terakhir pantun disebut ...",
+              "answer": "Isi",
+              "explanation": "Jawaban: Isi",
+              "options": [
+                "Sampiran",
+                "Judul",
+                "Isi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d041",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Pola rima pantun yang umum adalah ...",
+              "answer": "a-b-a-b",
+              "explanation": "Jawaban: a-b-a-b",
+              "options": [
+                "a-a-b-b",
+                "a-b-b-a",
+                "a-b-a-b"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d042",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Beda puisi dan pantun: pantun punya sampiran dan isi, sedangkan puisi ...",
+              "answer": "Bebas, gak wajib bersampiran",
+              "explanation": "Jawaban: Bebas, gak wajib bersampiran",
+              "options": [
+                "Selalu 4 baris",
+                "Gak boleh berima",
+                "Bebas, gak wajib bersampiran"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d043",
+              "topic": "Puisi & Pantun",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Jumlah suku kata tiap baris pantun biasanya sekitar ... suku kata",
+              "answer": "8-12",
+              "explanation": "8-12",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo4-d044",
+              "topic": "Puisi & Pantun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pantun biasanya dipakai untuk ...",
+              "answer": "Menyampaikan nasihat/sindiran secara halus",
+              "explanation": "Jawaban: Menyampaikan nasihat/sindiran secara halus",
+              "options": [
+                "Menulis surat resmi",
+                "Membuat daftar belanja",
+                "Menyampaikan nasihat/sindiran secara halus"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

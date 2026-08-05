@@ -1148,6 +1148,336 @@
               "explanation": "Jawaban dihitung: 11/12",
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "mtk3-0003-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 6/10 jika disederhanakan menjadi ...",
+              "answer": "3/5",
+              "explanation": "Jawaban dihitung: 3/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0008-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+              "answer": "1/5",
+              "explanation": "Jawaban dihitung: 1/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0013-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+              "answer": "2/3",
+              "explanation": "Jawaban dihitung: 2/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0018-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 1/8 jika disederhanakan menjadi ...",
+              "answer": "1/8",
+              "explanation": "Jawaban dihitung: 1/8",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0023-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+              "answer": "1/5",
+              "explanation": "Jawaban dihitung: 1/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0028-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0033-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 3/10 jika disederhanakan menjadi ...",
+              "answer": "3/10",
+              "explanation": "Jawaban dihitung: 3/10",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0038-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 5/6 jika disederhanakan menjadi ...",
+              "answer": "5/6",
+              "explanation": "Jawaban dihitung: 5/6",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0043-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0048-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 7/8 jika disederhanakan menjadi ...",
+              "answer": "7/8",
+              "explanation": "Jawaban dihitung: 7/8",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0053-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 3/8 jika disederhanakan menjadi ...",
+              "answer": "3/8",
+              "explanation": "Jawaban dihitung: 3/8",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0058-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+              "answer": "2/3",
+              "explanation": "Jawaban dihitung: 2/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0063-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 2/10 jika disederhanakan menjadi ...",
+              "answer": "1/5",
+              "explanation": "Jawaban dihitung: 1/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0068-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 4/12 jika disederhanakan menjadi ...",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0073-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0078-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0083-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 6/10 jika disederhanakan menjadi ...",
+              "answer": "3/5",
+              "explanation": "Jawaban dihitung: 3/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0088-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0093-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0098-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0103-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+              "answer": "2/3",
+              "explanation": "Jawaban dihitung: 2/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0108-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 4/6 jika disederhanakan menjadi ...",
+              "answer": "2/3",
+              "explanation": "Jawaban dihitung: 2/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0113-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 8/10 jika disederhanakan menjadi ...",
+              "answer": "4/5",
+              "explanation": "Jawaban dihitung: 4/5",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0118-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0123-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 7/10 jika disederhanakan menjadi ...",
+              "answer": "7/10",
+              "explanation": "Jawaban dihitung: 7/10",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0128-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/8 jika disederhanakan menjadi ...",
+              "answer": "1/8",
+              "explanation": "Jawaban dihitung: 1/8",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0133-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/8 jika disederhanakan menjadi ...",
+              "answer": "1/4",
+              "explanation": "Jawaban dihitung: 1/4",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0138-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 3/10 jika disederhanakan menjadi ...",
+              "answer": "3/10",
+              "explanation": "Jawaban dihitung: 3/10",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0143-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 2/6 jika disederhanakan menjadi ...",
+              "answer": "1/3",
+              "explanation": "Jawaban dihitung: 1/3",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0148-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0153-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Pecahan 1/10 jika disederhanakan menjadi ...",
+              "answer": "1/10",
+              "explanation": "Jawaban dihitung: 1/10",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0158-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pecahan 1/10 jika disederhanakan menjadi ...",
+              "answer": "1/10",
+              "explanation": "Jawaban dihitung: 1/10",
+              "grade": 4
+            },
+            {
+              "id": "mtk3-0163-mv3to4",
+              "topic": "Pecahan",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Pecahan 2/4 jika disederhanakan menjadi ...",
+              "answer": "1/2",
+              "explanation": "Jawaban dihitung: 1/2",
+              "grade": 4
             }
           ]
         },
@@ -1734,6 +2064,382 @@
               ],
               "grade": 4,
               "sumber": "bank"
+            },
+            {
+              "id": "mtk4-0003-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "3 liter 750 ml sama dengan ... ml",
+              "answer": "3750",
+              "explanation": "Jawaban dihitung: 3750",
+              "options": [
+                "3800",
+                "3750",
+                "3850",
+                "3700"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0009-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "6 liter 750 ml sama dengan ... ml",
+              "answer": "6750",
+              "explanation": "Jawaban dihitung: 6750",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0015-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "4 liter 750 ml sama dengan ... ml",
+              "answer": "4750",
+              "explanation": "Jawaban dihitung: 4750",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0021-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "2 liter 500 ml sama dengan ... ml",
+              "answer": "2500",
+              "explanation": "Jawaban dihitung: 2500",
+              "options": [
+                "2550",
+                "2500",
+                "2600",
+                "2450"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0027-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "4 liter 250 ml sama dengan ... ml",
+              "answer": "4250",
+              "explanation": "Jawaban dihitung: 4250",
+              "options": [
+                "4350",
+                "4300",
+                "4200",
+                "4250"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0033-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "2 liter 500 ml sama dengan ... ml",
+              "answer": "2500",
+              "explanation": "Jawaban dihitung: 2500",
+              "options": [
+                "2600",
+                "2500",
+                "2450",
+                "2550"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0039-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "8 liter 250 ml sama dengan ... ml",
+              "answer": "8250",
+              "explanation": "Jawaban dihitung: 8250",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0045-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "7 liter 100 ml sama dengan ... ml",
+              "answer": "7100",
+              "explanation": "Jawaban dihitung: 7100",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0051-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "9 liter 100 ml sama dengan ... ml",
+              "answer": "9100",
+              "explanation": "Jawaban dihitung: 9100",
+              "options": [
+                "9050",
+                "9100",
+                "9000",
+                "9200"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0057-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "7 liter 250 ml sama dengan ... ml",
+              "answer": "7250",
+              "explanation": "Jawaban dihitung: 7250",
+              "options": [
+                "7350",
+                "7250",
+                "7300",
+                "7200"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0063-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "2 liter 100 ml sama dengan ... ml",
+              "answer": "2100",
+              "explanation": "Jawaban dihitung: 2100",
+              "options": [
+                "2200",
+                "2000",
+                "2100",
+                "2050"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0069-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "8 liter 500 ml sama dengan ... ml",
+              "answer": "8500",
+              "explanation": "Jawaban dihitung: 8500",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0075-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "7 liter 500 ml sama dengan ... ml",
+              "answer": "7500",
+              "explanation": "Jawaban dihitung: 7500",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0081-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "4 liter 100 ml sama dengan ... ml",
+              "answer": "4100",
+              "explanation": "Jawaban dihitung: 4100",
+              "options": [
+                "4100",
+                "4200",
+                "4000",
+                "4150"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0087-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "3 liter 100 ml sama dengan ... ml",
+              "answer": "3100",
+              "explanation": "Jawaban dihitung: 3100",
+              "options": [
+                "3100",
+                "3050",
+                "3150",
+                "3200"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0093-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "4 liter 500 ml sama dengan ... ml",
+              "answer": "4500",
+              "explanation": "Jawaban dihitung: 4500",
+              "options": [
+                "4500",
+                "4450",
+                "4600",
+                "4550"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0099-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "6 liter 750 ml sama dengan ... ml",
+              "answer": "6750",
+              "explanation": "Jawaban dihitung: 6750",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0105-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "7 liter 500 ml sama dengan ... ml",
+              "answer": "7500",
+              "explanation": "Jawaban dihitung: 7500",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0111-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "5 liter 750 ml sama dengan ... ml",
+              "answer": "5750",
+              "explanation": "Jawaban dihitung: 5750",
+              "options": [
+                "5700",
+                "5650",
+                "5750",
+                "5800"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0117-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "6 liter 100 ml sama dengan ... ml",
+              "answer": "6100",
+              "explanation": "Jawaban dihitung: 6100",
+              "options": [
+                "6150",
+                "6000",
+                "6100",
+                "6050"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0123-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "3 liter 750 ml sama dengan ... ml",
+              "answer": "3750",
+              "explanation": "Jawaban dihitung: 3750",
+              "options": [
+                "3850",
+                "3750",
+                "3650",
+                "3700"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0129-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "9 liter 100 ml sama dengan ... ml",
+              "answer": "9100",
+              "explanation": "Jawaban dihitung: 9100",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0135-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "1 liter 100 ml sama dengan ... ml",
+              "answer": "1100",
+              "explanation": "Jawaban dihitung: 1100",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0141-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "1 liter 250 ml sama dengan ... ml",
+              "answer": "1250",
+              "explanation": "Jawaban dihitung: 1250",
+              "options": [
+                "1200",
+                "1250",
+                "1300",
+                "1150"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0147-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "2 liter 750 ml sama dengan ... ml",
+              "answer": "2750",
+              "explanation": "Jawaban dihitung: 2750",
+              "options": [
+                "2850",
+                "2750",
+                "2700",
+                "2650"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0153-mv4to4",
+              "topic": "Pengukuran",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "2 liter 100 ml sama dengan ... ml",
+              "answer": "2100",
+              "explanation": "Jawaban dihitung: 2100",
+              "options": [
+                "2200",
+                "2050",
+                "2000",
+                "2100"
+              ],
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0159-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "1 liter 500 ml sama dengan ... ml",
+              "answer": "1500",
+              "explanation": "Jawaban dihitung: 1500",
+              "grade": 4
+            },
+            {
+              "id": "mtk4-0165-mv4to4",
+              "topic": "Pengukuran",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "2 liter 750 ml sama dengan ... ml",
+              "answer": "2750",
+              "explanation": "Jawaban dihitung: 2750",
+              "grade": 4
             }
           ]
         },
@@ -2214,382 +2920,5 @@
       ]
     }
   ],
-  "belum_terpetakan": [
-    {
-      "id": "mtk4-0003",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "3 liter 750 ml sama dengan ... ml",
-      "answer": "3750",
-      "explanation": "Jawaban dihitung: 3750",
-      "options": [
-        "3800",
-        "3750",
-        "3850",
-        "3700"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0009",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "6 liter 750 ml sama dengan ... ml",
-      "answer": "6750",
-      "explanation": "Jawaban dihitung: 6750",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0015",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "4 liter 750 ml sama dengan ... ml",
-      "answer": "4750",
-      "explanation": "Jawaban dihitung: 4750",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0021",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "2 liter 500 ml sama dengan ... ml",
-      "answer": "2500",
-      "explanation": "Jawaban dihitung: 2500",
-      "options": [
-        "2550",
-        "2500",
-        "2600",
-        "2450"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0027",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "4 liter 250 ml sama dengan ... ml",
-      "answer": "4250",
-      "explanation": "Jawaban dihitung: 4250",
-      "options": [
-        "4350",
-        "4300",
-        "4200",
-        "4250"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0033",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "2 liter 500 ml sama dengan ... ml",
-      "answer": "2500",
-      "explanation": "Jawaban dihitung: 2500",
-      "options": [
-        "2600",
-        "2500",
-        "2450",
-        "2550"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0039",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "8 liter 250 ml sama dengan ... ml",
-      "answer": "8250",
-      "explanation": "Jawaban dihitung: 8250",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0045",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "7 liter 100 ml sama dengan ... ml",
-      "answer": "7100",
-      "explanation": "Jawaban dihitung: 7100",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0051",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "9 liter 100 ml sama dengan ... ml",
-      "answer": "9100",
-      "explanation": "Jawaban dihitung: 9100",
-      "options": [
-        "9050",
-        "9100",
-        "9000",
-        "9200"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0057",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "7 liter 250 ml sama dengan ... ml",
-      "answer": "7250",
-      "explanation": "Jawaban dihitung: 7250",
-      "options": [
-        "7350",
-        "7250",
-        "7300",
-        "7200"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0063",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "2 liter 100 ml sama dengan ... ml",
-      "answer": "2100",
-      "explanation": "Jawaban dihitung: 2100",
-      "options": [
-        "2200",
-        "2000",
-        "2100",
-        "2050"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0069",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "8 liter 500 ml sama dengan ... ml",
-      "answer": "8500",
-      "explanation": "Jawaban dihitung: 8500",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0075",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "7 liter 500 ml sama dengan ... ml",
-      "answer": "7500",
-      "explanation": "Jawaban dihitung: 7500",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0081",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "4 liter 100 ml sama dengan ... ml",
-      "answer": "4100",
-      "explanation": "Jawaban dihitung: 4100",
-      "options": [
-        "4100",
-        "4200",
-        "4000",
-        "4150"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0087",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "3 liter 100 ml sama dengan ... ml",
-      "answer": "3100",
-      "explanation": "Jawaban dihitung: 3100",
-      "options": [
-        "3100",
-        "3050",
-        "3150",
-        "3200"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0093",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "4 liter 500 ml sama dengan ... ml",
-      "answer": "4500",
-      "explanation": "Jawaban dihitung: 4500",
-      "options": [
-        "4500",
-        "4450",
-        "4600",
-        "4550"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0099",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "6 liter 750 ml sama dengan ... ml",
-      "answer": "6750",
-      "explanation": "Jawaban dihitung: 6750",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0105",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "7 liter 500 ml sama dengan ... ml",
-      "answer": "7500",
-      "explanation": "Jawaban dihitung: 7500",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0111",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "5 liter 750 ml sama dengan ... ml",
-      "answer": "5750",
-      "explanation": "Jawaban dihitung: 5750",
-      "options": [
-        "5700",
-        "5650",
-        "5750",
-        "5800"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0117",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "6 liter 100 ml sama dengan ... ml",
-      "answer": "6100",
-      "explanation": "Jawaban dihitung: 6100",
-      "options": [
-        "6150",
-        "6000",
-        "6100",
-        "6050"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0123",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "3 liter 750 ml sama dengan ... ml",
-      "answer": "3750",
-      "explanation": "Jawaban dihitung: 3750",
-      "options": [
-        "3850",
-        "3750",
-        "3650",
-        "3700"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0129",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "9 liter 100 ml sama dengan ... ml",
-      "answer": "9100",
-      "explanation": "Jawaban dihitung: 9100",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0135",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "1 liter 100 ml sama dengan ... ml",
-      "answer": "1100",
-      "explanation": "Jawaban dihitung: 1100",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0141",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "1 liter 250 ml sama dengan ... ml",
-      "answer": "1250",
-      "explanation": "Jawaban dihitung: 1250",
-      "options": [
-        "1200",
-        "1250",
-        "1300",
-        "1150"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0147",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "2 liter 750 ml sama dengan ... ml",
-      "answer": "2750",
-      "explanation": "Jawaban dihitung: 2750",
-      "options": [
-        "2850",
-        "2750",
-        "2700",
-        "2650"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0153",
-      "topic": "Pengukuran",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "2 liter 100 ml sama dengan ... ml",
-      "answer": "2100",
-      "explanation": "Jawaban dihitung: 2100",
-      "options": [
-        "2200",
-        "2050",
-        "2000",
-        "2100"
-      ],
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0159",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "1 liter 500 ml sama dengan ... ml",
-      "answer": "1500",
-      "explanation": "Jawaban dihitung: 1500",
-      "grade": 4
-    },
-    {
-      "id": "mtk4-0165",
-      "topic": "Pengukuran",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "2 liter 750 ml sama dengan ... ml",
-      "answer": "2750",
-      "explanation": "Jawaban dihitung: 2750",
-      "grade": 4
-    }
-  ]
+  "belum_terpetakan": []
 }

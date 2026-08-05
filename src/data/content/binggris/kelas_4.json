@@ -1,0 +1,1360 @@
+{
+  "kelas": 4,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Daily Activities",
+          "soal": [
+            {
+              "id": "ing4-d001",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'wake up' dalam Bahasa Indonesia?",
+              "answer": "bangun tidur",
+              "explanation": "Apa arti kata 'wake up' dalam Bahasa Indonesia? -> bangun tidur",
+              "options": [
+                "sikat gigi",
+                "mandi",
+                "bangun tidur"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d002",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bangun tidur' adalah ...",
+              "answer": "Wake up",
+              "explanation": "Bahasa Inggris dari 'bangun tidur' adalah ... -> Wake up",
+              "options": [
+                "Brush teeth",
+                "Take a bath",
+                "Wake up"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d003",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'brush teeth' dalam Bahasa Indonesia?",
+              "answer": "sikat gigi",
+              "explanation": "Apa arti kata 'brush teeth' dalam Bahasa Indonesia? -> sikat gigi",
+              "options": [
+                "bangun tidur",
+                "mandi",
+                "sikat gigi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d004",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sikat gigi' adalah ...",
+              "answer": "Brush teeth",
+              "explanation": "Bahasa Inggris dari 'sikat gigi' adalah ... -> Brush teeth",
+              "options": [
+                "Wake up",
+                "Take a bath",
+                "Brush teeth"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d005",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'take a bath' dalam Bahasa Indonesia?",
+              "answer": "mandi",
+              "explanation": "Apa arti kata 'take a bath' dalam Bahasa Indonesia? -> mandi",
+              "options": [
+                "bangun tidur",
+                "sikat gigi",
+                "mandi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d006",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mandi' adalah ...",
+              "answer": "Take a bath",
+              "explanation": "Bahasa Inggris dari 'mandi' adalah ... -> Take a bath",
+              "options": [
+                "Wake up",
+                "Brush teeth",
+                "Take a bath"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d007",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'eat breakfast' dalam Bahasa Indonesia?",
+              "answer": "sarapan",
+              "explanation": "Apa arti kata 'eat breakfast' dalam Bahasa Indonesia? -> sarapan",
+              "options": [
+                "bangun tidur",
+                "sikat gigi",
+                "sarapan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d008",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sarapan' adalah ...",
+              "answer": "Eat breakfast",
+              "explanation": "Bahasa Inggris dari 'sarapan' adalah ... -> Eat breakfast",
+              "options": [
+                "Wake up",
+                "Brush teeth",
+                "Eat breakfast"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d009",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'go to school' dalam Bahasa Indonesia?",
+              "answer": "pergi ke sekolah",
+              "explanation": "Apa arti kata 'go to school' dalam Bahasa Indonesia? -> pergi ke sekolah",
+              "options": [
+                "bangun tidur",
+                "sikat gigi",
+                "pergi ke sekolah"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d010",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pergi ke sekolah' adalah ...",
+              "answer": "Go to school",
+              "explanation": "Bahasa Inggris dari 'pergi ke sekolah' adalah ... -> Go to school",
+              "options": [
+                "Wake up",
+                "Brush teeth",
+                "Go to school"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d011",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sleep' dalam Bahasa Indonesia?",
+              "answer": "tidur",
+              "explanation": "Apa arti kata 'sleep' dalam Bahasa Indonesia? -> tidur",
+              "options": [
+                "bangun tidur",
+                "sikat gigi",
+                "tidur"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d012",
+              "topic": "Daily Activities",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tidur' adalah ...",
+              "answer": "Sleep",
+              "explanation": "Bahasa Inggris dari 'tidur' adalah ... -> Sleep",
+              "options": [
+                "Wake up",
+                "Brush teeth",
+                "Sleep"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d013",
+              "topic": "Daily Activities",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lengkapi: 'I ___ up at six every morning.' (bangun)",
+              "answer": "wake",
+              "explanation": "wake",
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Hobbies",
+          "soal": [
+            {
+              "id": "ing4-d014",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'reading' dalam Bahasa Indonesia?",
+              "answer": "membaca",
+              "explanation": "Apa arti kata 'reading' dalam Bahasa Indonesia? -> membaca",
+              "options": [
+                "menggambar",
+                "bernyanyi",
+                "membaca"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d015",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'membaca' adalah ...",
+              "answer": "Reading",
+              "explanation": "Bahasa Inggris dari 'membaca' adalah ... -> Reading",
+              "options": [
+                "Drawing",
+                "Singing",
+                "Reading"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d016",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'drawing' dalam Bahasa Indonesia?",
+              "answer": "menggambar",
+              "explanation": "Apa arti kata 'drawing' dalam Bahasa Indonesia? -> menggambar",
+              "options": [
+                "membaca",
+                "bernyanyi",
+                "menggambar"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d017",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menggambar' adalah ...",
+              "answer": "Drawing",
+              "explanation": "Bahasa Inggris dari 'menggambar' adalah ... -> Drawing",
+              "options": [
+                "Reading",
+                "Singing",
+                "Drawing"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d018",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'singing' dalam Bahasa Indonesia?",
+              "answer": "bernyanyi",
+              "explanation": "Apa arti kata 'singing' dalam Bahasa Indonesia? -> bernyanyi",
+              "options": [
+                "membaca",
+                "menggambar",
+                "bernyanyi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d019",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bernyanyi' adalah ...",
+              "answer": "Singing",
+              "explanation": "Bahasa Inggris dari 'bernyanyi' adalah ... -> Singing",
+              "options": [
+                "Reading",
+                "Drawing",
+                "Singing"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d020",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'dancing' dalam Bahasa Indonesia?",
+              "answer": "menari",
+              "explanation": "Apa arti kata 'dancing' dalam Bahasa Indonesia? -> menari",
+              "options": [
+                "membaca",
+                "menggambar",
+                "menari"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d021",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menari' adalah ...",
+              "answer": "Dancing",
+              "explanation": "Bahasa Inggris dari 'menari' adalah ... -> Dancing",
+              "options": [
+                "Reading",
+                "Drawing",
+                "Dancing"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d022",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'swimming' dalam Bahasa Indonesia?",
+              "answer": "berenang",
+              "explanation": "Apa arti kata 'swimming' dalam Bahasa Indonesia? -> berenang",
+              "options": [
+                "membaca",
+                "menggambar",
+                "berenang"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d023",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'berenang' adalah ...",
+              "answer": "Swimming",
+              "explanation": "Bahasa Inggris dari 'berenang' adalah ... -> Swimming",
+              "options": [
+                "Reading",
+                "Drawing",
+                "Swimming"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d024",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cycling' dalam Bahasa Indonesia?",
+              "answer": "bersepeda",
+              "explanation": "Apa arti kata 'cycling' dalam Bahasa Indonesia? -> bersepeda",
+              "options": [
+                "membaca",
+                "menggambar",
+                "bersepeda"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d025",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bersepeda' adalah ...",
+              "answer": "Cycling",
+              "explanation": "Bahasa Inggris dari 'bersepeda' adalah ... -> Cycling",
+              "options": [
+                "Reading",
+                "Drawing",
+                "Cycling"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d026",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cooking' dalam Bahasa Indonesia?",
+              "answer": "memasak",
+              "explanation": "Apa arti kata 'cooking' dalam Bahasa Indonesia? -> memasak",
+              "options": [
+                "membaca",
+                "menggambar",
+                "memasak"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d027",
+              "topic": "Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'memasak' adalah ...",
+              "answer": "Cooking",
+              "explanation": "Bahasa Inggris dari 'memasak' adalah ... -> Cooking",
+              "options": [
+                "Reading",
+                "Drawing",
+                "Cooking"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "School Subjects",
+          "soal": [
+            {
+              "id": "ing4-d028",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mathematics' dalam Bahasa Indonesia?",
+              "answer": "matematika",
+              "explanation": "Apa arti kata 'mathematics' dalam Bahasa Indonesia? -> matematika",
+              "options": [
+                "sains",
+                "seni",
+                "matematika"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d029",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'matematika' adalah ...",
+              "answer": "Mathematics",
+              "explanation": "Bahasa Inggris dari 'matematika' adalah ... -> Mathematics",
+              "options": [
+                "Science",
+                "Art",
+                "Mathematics"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d030",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'science' dalam Bahasa Indonesia?",
+              "answer": "sains",
+              "explanation": "Apa arti kata 'science' dalam Bahasa Indonesia? -> sains",
+              "options": [
+                "matematika",
+                "seni",
+                "sains"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d031",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sains' adalah ...",
+              "answer": "Science",
+              "explanation": "Bahasa Inggris dari 'sains' adalah ... -> Science",
+              "options": [
+                "Mathematics",
+                "Art",
+                "Science"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d032",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'art' dalam Bahasa Indonesia?",
+              "answer": "seni",
+              "explanation": "Apa arti kata 'art' dalam Bahasa Indonesia? -> seni",
+              "options": [
+                "matematika",
+                "sains",
+                "seni"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d033",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'seni' adalah ...",
+              "answer": "Art",
+              "explanation": "Bahasa Inggris dari 'seni' adalah ... -> Art",
+              "options": [
+                "Mathematics",
+                "Science",
+                "Art"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d034",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sports' dalam Bahasa Indonesia?",
+              "answer": "olahraga",
+              "explanation": "Apa arti kata 'sports' dalam Bahasa Indonesia? -> olahraga",
+              "options": [
+                "matematika",
+                "sains",
+                "olahraga"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d035",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'olahraga' adalah ...",
+              "answer": "Sports",
+              "explanation": "Bahasa Inggris dari 'olahraga' adalah ... -> Sports",
+              "options": [
+                "Mathematics",
+                "Science",
+                "Sports"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d036",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'religion' dalam Bahasa Indonesia?",
+              "answer": "agama",
+              "explanation": "Apa arti kata 'religion' dalam Bahasa Indonesia? -> agama",
+              "options": [
+                "matematika",
+                "sains",
+                "agama"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d037",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'agama' adalah ...",
+              "answer": "Religion",
+              "explanation": "Bahasa Inggris dari 'agama' adalah ... -> Religion",
+              "options": [
+                "Mathematics",
+                "Science",
+                "Religion"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d038",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'english' dalam Bahasa Indonesia?",
+              "answer": "bahasa inggris",
+              "explanation": "Apa arti kata 'english' dalam Bahasa Indonesia? -> bahasa inggris",
+              "options": [
+                "matematika",
+                "sains",
+                "bahasa inggris"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d039",
+              "topic": "School Subjects",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bahasa inggris' adalah ...",
+              "answer": "English",
+              "explanation": "Bahasa Inggris dari 'bahasa inggris' adalah ... -> English",
+              "options": [
+                "Mathematics",
+                "Science",
+                "English"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Food & Drinks",
+          "soal": [
+            {
+              "id": "ing4-d040",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'rice' dalam Bahasa Indonesia?",
+              "answer": "nasi",
+              "explanation": "Apa arti kata 'rice' dalam Bahasa Indonesia? -> nasi",
+              "options": [
+                "roti",
+                "telur",
+                "nasi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d041",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'nasi' adalah ...",
+              "answer": "Rice",
+              "explanation": "Bahasa Inggris dari 'nasi' adalah ... -> Rice",
+              "options": [
+                "Bread",
+                "Egg",
+                "Rice"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d042",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bread' dalam Bahasa Indonesia?",
+              "answer": "roti",
+              "explanation": "Apa arti kata 'bread' dalam Bahasa Indonesia? -> roti",
+              "options": [
+                "nasi",
+                "telur",
+                "roti"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d043",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'roti' adalah ...",
+              "answer": "Bread",
+              "explanation": "Bahasa Inggris dari 'roti' adalah ... -> Bread",
+              "options": [
+                "Rice",
+                "Egg",
+                "Bread"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d044",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'egg' dalam Bahasa Indonesia?",
+              "answer": "telur",
+              "explanation": "Apa arti kata 'egg' dalam Bahasa Indonesia? -> telur",
+              "options": [
+                "nasi",
+                "roti",
+                "telur"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d045",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'telur' adalah ...",
+              "answer": "Egg",
+              "explanation": "Bahasa Inggris dari 'telur' adalah ... -> Egg",
+              "options": [
+                "Rice",
+                "Bread",
+                "Egg"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d046",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'chicken' dalam Bahasa Indonesia?",
+              "answer": "ayam",
+              "explanation": "Apa arti kata 'chicken' dalam Bahasa Indonesia? -> ayam",
+              "options": [
+                "nasi",
+                "roti",
+                "ayam"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d047",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ayam' adalah ...",
+              "answer": "Chicken",
+              "explanation": "Bahasa Inggris dari 'ayam' adalah ... -> Chicken",
+              "options": [
+                "Rice",
+                "Bread",
+                "Chicken"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d048",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'water' dalam Bahasa Indonesia?",
+              "answer": "air",
+              "explanation": "Apa arti kata 'water' dalam Bahasa Indonesia? -> air",
+              "options": [
+                "nasi",
+                "roti",
+                "air"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d049",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'air' adalah ...",
+              "answer": "Water",
+              "explanation": "Bahasa Inggris dari 'air' adalah ... -> Water",
+              "options": [
+                "Rice",
+                "Bread",
+                "Water"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d050",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'milk' dalam Bahasa Indonesia?",
+              "answer": "susu",
+              "explanation": "Apa arti kata 'milk' dalam Bahasa Indonesia? -> susu",
+              "options": [
+                "nasi",
+                "roti",
+                "susu"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d051",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'susu' adalah ...",
+              "answer": "Milk",
+              "explanation": "Bahasa Inggris dari 'susu' adalah ... -> Milk",
+              "options": [
+                "Rice",
+                "Bread",
+                "Milk"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d052",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'juice' dalam Bahasa Indonesia?",
+              "answer": "jus",
+              "explanation": "Apa arti kata 'juice' dalam Bahasa Indonesia? -> jus",
+              "options": [
+                "nasi",
+                "roti",
+                "jus"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d053",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jus' adalah ...",
+              "answer": "Juice",
+              "explanation": "Bahasa Inggris dari 'jus' adalah ... -> Juice",
+              "options": [
+                "Rice",
+                "Bread",
+                "Juice"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d054",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'noodle' dalam Bahasa Indonesia?",
+              "answer": "mi",
+              "explanation": "Apa arti kata 'noodle' dalam Bahasa Indonesia? -> mi",
+              "options": [
+                "nasi",
+                "roti",
+                "mi"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d055",
+              "topic": "Food & Drinks",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mi' adalah ...",
+              "answer": "Noodle",
+              "explanation": "Bahasa Inggris dari 'mi' adalah ... -> Noodle",
+              "options": [
+                "Rice",
+                "Bread",
+                "Noodle"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Places in Town",
+          "soal": [
+            {
+              "id": "ing4-d056",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'market' dalam Bahasa Indonesia?",
+              "answer": "pasar",
+              "explanation": "Apa arti kata 'market' dalam Bahasa Indonesia? -> pasar",
+              "options": [
+                "rumah sakit",
+                "taman",
+                "pasar"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d057",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pasar' adalah ...",
+              "answer": "Market",
+              "explanation": "Bahasa Inggris dari 'pasar' adalah ... -> Market",
+              "options": [
+                "Hospital",
+                "Park",
+                "Market"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d058",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hospital' dalam Bahasa Indonesia?",
+              "answer": "rumah sakit",
+              "explanation": "Apa arti kata 'hospital' dalam Bahasa Indonesia? -> rumah sakit",
+              "options": [
+                "pasar",
+                "taman",
+                "rumah sakit"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d059",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rumah sakit' adalah ...",
+              "answer": "Hospital",
+              "explanation": "Bahasa Inggris dari 'rumah sakit' adalah ... -> Hospital",
+              "options": [
+                "Market",
+                "Park",
+                "Hospital"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d060",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'park' dalam Bahasa Indonesia?",
+              "answer": "taman",
+              "explanation": "Apa arti kata 'park' dalam Bahasa Indonesia? -> taman",
+              "options": [
+                "pasar",
+                "rumah sakit",
+                "taman"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d061",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'taman' adalah ...",
+              "answer": "Park",
+              "explanation": "Bahasa Inggris dari 'taman' adalah ... -> Park",
+              "options": [
+                "Market",
+                "Hospital",
+                "Park"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d062",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'library' dalam Bahasa Indonesia?",
+              "answer": "perpustakaan",
+              "explanation": "Apa arti kata 'library' dalam Bahasa Indonesia? -> perpustakaan",
+              "options": [
+                "pasar",
+                "rumah sakit",
+                "perpustakaan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d063",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'perpustakaan' adalah ...",
+              "answer": "Library",
+              "explanation": "Bahasa Inggris dari 'perpustakaan' adalah ... -> Library",
+              "options": [
+                "Market",
+                "Hospital",
+                "Library"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d064",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mosque' dalam Bahasa Indonesia?",
+              "answer": "masjid",
+              "explanation": "Apa arti kata 'mosque' dalam Bahasa Indonesia? -> masjid",
+              "options": [
+                "pasar",
+                "rumah sakit",
+                "masjid"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d065",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'masjid' adalah ...",
+              "answer": "Mosque",
+              "explanation": "Bahasa Inggris dari 'masjid' adalah ... -> Mosque",
+              "options": [
+                "Market",
+                "Hospital",
+                "Mosque"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d066",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'post office' dalam Bahasa Indonesia?",
+              "answer": "kantor pos",
+              "explanation": "Apa arti kata 'post office' dalam Bahasa Indonesia? -> kantor pos",
+              "options": [
+                "pasar",
+                "rumah sakit",
+                "kantor pos"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d067",
+              "topic": "Places in Town",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kantor pos' adalah ...",
+              "answer": "Post office",
+              "explanation": "Bahasa Inggris dari 'kantor pos' adalah ... -> Post office",
+              "options": [
+                "Market",
+                "Hospital",
+                "Post office"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Simple Directions",
+          "soal": [
+            {
+              "id": "ing4-d068",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'left' dalam Bahasa Indonesia?",
+              "answer": "kiri",
+              "explanation": "Apa arti kata 'left' dalam Bahasa Indonesia? -> kiri",
+              "options": [
+                "kanan",
+                "lurus",
+                "kiri"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d069",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kiri' adalah ...",
+              "answer": "Left",
+              "explanation": "Bahasa Inggris dari 'kiri' adalah ... -> Left",
+              "options": [
+                "Right",
+                "Straight",
+                "Left"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d070",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'right' dalam Bahasa Indonesia?",
+              "answer": "kanan",
+              "explanation": "Apa arti kata 'right' dalam Bahasa Indonesia? -> kanan",
+              "options": [
+                "kiri",
+                "lurus",
+                "kanan"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d071",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kanan' adalah ...",
+              "answer": "Right",
+              "explanation": "Bahasa Inggris dari 'kanan' adalah ... -> Right",
+              "options": [
+                "Left",
+                "Straight",
+                "Right"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d072",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'straight' dalam Bahasa Indonesia?",
+              "answer": "lurus",
+              "explanation": "Apa arti kata 'straight' dalam Bahasa Indonesia? -> lurus",
+              "options": [
+                "kiri",
+                "kanan",
+                "lurus"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d073",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lurus' adalah ...",
+              "answer": "Straight",
+              "explanation": "Bahasa Inggris dari 'lurus' adalah ... -> Straight",
+              "options": [
+                "Left",
+                "Right",
+                "Straight"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d074",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'near' dalam Bahasa Indonesia?",
+              "answer": "dekat",
+              "explanation": "Apa arti kata 'near' dalam Bahasa Indonesia? -> dekat",
+              "options": [
+                "kiri",
+                "kanan",
+                "dekat"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d075",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dekat' adalah ...",
+              "answer": "Near",
+              "explanation": "Bahasa Inggris dari 'dekat' adalah ... -> Near",
+              "options": [
+                "Left",
+                "Right",
+                "Near"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d076",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'far' dalam Bahasa Indonesia?",
+              "answer": "jauh",
+              "explanation": "Apa arti kata 'far' dalam Bahasa Indonesia? -> jauh",
+              "options": [
+                "kiri",
+                "kanan",
+                "jauh"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d077",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'jauh' adalah ...",
+              "answer": "Far",
+              "explanation": "Bahasa Inggris dari 'jauh' adalah ... -> Far",
+              "options": [
+                "Left",
+                "Right",
+                "Far"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d078",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'here' dalam Bahasa Indonesia?",
+              "answer": "di sini",
+              "explanation": "Apa arti kata 'here' dalam Bahasa Indonesia? -> di sini",
+              "options": [
+                "kiri",
+                "kanan",
+                "di sini"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d079",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'di sini' adalah ...",
+              "answer": "Here",
+              "explanation": "Bahasa Inggris dari 'di sini' adalah ... -> Here",
+              "options": [
+                "Left",
+                "Right",
+                "Here"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d080",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'there' dalam Bahasa Indonesia?",
+              "answer": "di sana",
+              "explanation": "Apa arti kata 'there' dalam Bahasa Indonesia? -> di sana",
+              "options": [
+                "kiri",
+                "kanan",
+                "di sana"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d081",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'di sana' adalah ...",
+              "answer": "There",
+              "explanation": "Bahasa Inggris dari 'di sana' adalah ... -> There",
+              "options": [
+                "Left",
+                "Right",
+                "There"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing4-d082",
+              "topic": "Simple Directions",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Turn left' artinya ...",
+              "answer": "Belok kiri",
+              "explanation": "'Turn left' artinya ... -> Belok kiri",
+              "options": [
+                "Belok kanan",
+                "Jalan lurus",
+                "Belok kiri"
+              ],
+              "grade": 4,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

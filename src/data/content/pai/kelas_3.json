@@ -1,0 +1,456 @@
+{
+  "kelas": 3,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Wudhu",
+          "soal": [
+            {
+              "id": "pai3-d001",
+              "topic": "Wudhu",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Membersihkan diri sebelum sholat dengan air disebut ...",
+              "answer": "Wudhu",
+              "explanation": "Jawaban: Wudhu",
+              "options": [
+                "Mandi",
+                "Tayamum",
+                "Wudhu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d002",
+              "topic": "Wudhu",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Wudhu diawali dengan membaca ...",
+              "answer": "Basmalah",
+              "explanation": "Jawaban: Basmalah",
+              "options": [
+                "Salam",
+                "Takbir",
+                "Basmalah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d003",
+              "topic": "Wudhu",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Anggota wudhu yang dibasuh antara lain wajah dan ...",
+              "answer": "Tangan",
+              "explanation": "Jawaban: Tangan",
+              "options": [
+                "Rambut saja",
+                "Baju",
+                "Tangan"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d004",
+              "topic": "Wudhu",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika tidak ada air, wudhu bisa diganti dengan ...",
+              "answer": "Tayamum (debu suci)",
+              "explanation": "Jawaban: Tayamum (debu suci)",
+              "options": [
+                "Dibiarkan saja",
+                "Mandi",
+                "Tayamum (debu suci)"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d005",
+              "topic": "Wudhu",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Wudhu bertujuan untuk ... sebelum beribadah",
+              "answer": "Bersuci",
+              "explanation": "Bersuci",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Mengenal Sholat",
+          "soal": [
+            {
+              "id": "pai3-d006",
+              "topic": "Mengenal Sholat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Umat Islam sholat wajib sebanyak ... waktu dalam sehari",
+              "answer": "5 (lima)",
+              "explanation": "Jawaban: 5 (lima)",
+              "options": [
+                "3 (tiga)",
+                "7 (tujuh)",
+                "5 (lima)"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d007",
+              "topic": "Mengenal Sholat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sholat yang dikerjakan di waktu subuh disebut sholat ...",
+              "answer": "Subuh",
+              "explanation": "Jawaban: Subuh",
+              "options": [
+                "Dzuhur",
+                "Isya",
+                "Subuh"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d008",
+              "topic": "Mengenal Sholat",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan sholat wajib dari pagi ke malam adalah Subuh, Dzuhur, Ashar, Maghrib, dan ...",
+              "answer": "Isya",
+              "explanation": "Jawaban: Isya",
+              "options": [
+                "Dhuha",
+                "Tahajud",
+                "Isya"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d009",
+              "topic": "Mengenal Sholat",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sebelum sholat, kita wajib dalam keadaan ...",
+              "answer": "Suci dari hadas (sudah berwudhu)",
+              "explanation": "Jawaban: Suci dari hadas (sudah berwudhu)",
+              "options": [
+                "Lapar",
+                "Mengantuk",
+                "Suci dari hadas (sudah berwudhu)"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d010",
+              "topic": "Mengenal Sholat",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tempat sholat berjamaah umat Islam disebut ...",
+              "answer": "Masjid/mushola",
+              "explanation": "Masjid/mushola",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kisah Nabi Ibrahim & Nabi Ismail",
+          "soal": [
+            {
+              "id": "pai3-d011",
+              "topic": "Kisah Nabi Ibrahim & Nabi Ismail",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Ibrahim a.s. dan Nabi Ismail a.s. bersama-sama membangun ...",
+              "answer": "Ka'bah",
+              "explanation": "Jawaban: Ka'bah",
+              "options": [
+                "Masjid Nabawi",
+                "Kapal",
+                "Ka'bah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d012",
+              "topic": "Kisah Nabi Ibrahim & Nabi Ismail",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Ibrahim a.s. dikenal karena ketaatannya yang luar biasa kepada ...",
+              "answer": "Allah",
+              "explanation": "Jawaban: Allah",
+              "options": [
+                "Raja",
+                "Ayahnya",
+                "Allah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d013",
+              "topic": "Kisah Nabi Ibrahim & Nabi Ismail",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Ibadah kurban yang dilakukan umat Islam mengenang kisah Nabi Ibrahim a.s. dan Nabi ...",
+              "answer": "Ismail a.s.",
+              "explanation": "Ismail a.s.",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d014",
+              "topic": "Kisah Nabi Ibrahim & Nabi Ismail",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sifat Nabi Ismail a.s. yang patut diteladani adalah ...",
+              "answer": "Taat dan sabar",
+              "explanation": "Jawaban: Taat dan sabar",
+              "options": [
+                "Pemarah",
+                "Malas",
+                "Taat dan sabar"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Jujur & Amanah",
+          "soal": [
+            {
+              "id": "pai3-d015",
+              "topic": "Jujur & Amanah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap berkata benar, tidak berbohong, disebut ...",
+              "answer": "Jujur",
+              "explanation": "Jawaban: Jujur",
+              "options": [
+                "Amanah",
+                "Sombong",
+                "Jujur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d016",
+              "topic": "Jujur & Amanah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap dapat dipercaya dalam menjaga titipan/tugas disebut ...",
+              "answer": "Amanah",
+              "explanation": "Jawaban: Amanah",
+              "options": [
+                "Jujur",
+                "Kikir",
+                "Amanah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d017",
+              "topic": "Jujur & Amanah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Muhammad ﷺ dijuluki 'Al-Amin' yang artinya ...",
+              "answer": "Yang dapat dipercaya",
+              "explanation": "Jawaban: Yang dapat dipercaya",
+              "options": [
+                "Yang paling kaya",
+                "Yang paling tampan",
+                "Yang dapat dipercaya"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d018",
+              "topic": "Jujur & Amanah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lawan dari sikap jujur adalah ...",
+              "answer": "Bohong/dusta",
+              "explanation": "Bohong/dusta",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Rendah Hati",
+          "soal": [
+            {
+              "id": "pai3-d019",
+              "topic": "Rendah Hati",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap tidak sombong dan menghargai orang lain disebut ...",
+              "answer": "Rendah hati/tawadhu",
+              "explanation": "Jawaban: Rendah hati/tawadhu",
+              "options": [
+                "Takabur",
+                "Iri",
+                "Rendah hati/tawadhu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d020",
+              "topic": "Rendah Hati",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Merasa diri paling hebat dan meremehkan orang lain disebut sikap ...",
+              "answer": "Sombong/takabur",
+              "explanation": "Jawaban: Sombong/takabur",
+              "options": [
+                "Rendah hati",
+                "Sabar",
+                "Sombong/takabur"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d021",
+              "topic": "Rendah Hati",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Orang yang rendah hati biasanya disukai karena ...",
+              "answer": "Mudah bergaul dan menghargai orang lain",
+              "explanation": "Jawaban: Mudah bergaul dan menghargai orang lain",
+              "options": [
+                "Suka membanggakan diri",
+                "Suka meremehkan",
+                "Mudah bergaul dan menghargai orang lain"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d022",
+              "topic": "Rendah Hati",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Menghargai pendapat orang lain meski berbeda adalah bagian dari sikap ...",
+              "answer": "Rendah hati/toleran",
+              "explanation": "Rendah hati/toleran",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Malaikat Allah",
+          "soal": [
+            {
+              "id": "pai3-d023",
+              "topic": "Malaikat Allah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Malaikat yang bertugas menyampaikan wahyu kepada nabi adalah ...",
+              "answer": "Jibril",
+              "explanation": "Jawaban: Jibril",
+              "options": [
+                "Mikail",
+                "Israfil",
+                "Jibril"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d024",
+              "topic": "Malaikat Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Malaikat yang bertugas membagi rezeki adalah ...",
+              "answer": "Mikail",
+              "explanation": "Jawaban: Mikail",
+              "options": [
+                "Jibril",
+                "Izrail",
+                "Mikail"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d025",
+              "topic": "Malaikat Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Malaikat yang bertugas mencabut nyawa adalah ...",
+              "answer": "Izrail",
+              "explanation": "Jawaban: Izrail",
+              "options": [
+                "Israfil",
+                "Munkar",
+                "Izrail"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d026",
+              "topic": "Malaikat Allah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Malaikat yang bertugas meniup sangkakala saat hari kiamat adalah ...",
+              "answer": "Israfil",
+              "explanation": "Jawaban: Israfil",
+              "options": [
+                "Jibril",
+                "Ridwan",
+                "Israfil"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai3-d027",
+              "topic": "Malaikat Allah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Malaikat diciptakan Allah dari ...",
+              "answer": "Cahaya/nur",
+              "explanation": "Cahaya/nur",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

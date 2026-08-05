@@ -8,12 +8,14 @@ import { SUBJECTS } from "../data/content";
 import { hasContent, loadRawTopics, statusDisplay } from "../data/contentLoader";
 import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
+import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 
 export default function SubjectDetail() {
   const navigate = useNavigate();
   const { grade, subject } = useParams();
   const { player } = usePlayer();
   const subj = SUBJECTS.find((s) => s.id === subject) || SUBJECTS[0];
+  useBgmTrack(TRACK_BY_SUBJECT[subject]);
   const [topics, setTopics] = useState(null);
   const [loading, setLoading] = useState(true);
 

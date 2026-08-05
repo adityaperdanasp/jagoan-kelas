@@ -1,0 +1,855 @@
+{
+  "kelas": 2,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Kalimat Tanya",
+          "soal": [
+            {
+              "id": "bindo2-d001",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan orang adalah ...",
+              "answer": "Siapa",
+              "explanation": "Jawaban: Siapa",
+              "options": [
+                "Kapan",
+                "Mengapa",
+                "Siapa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d002",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan waktu adalah ...",
+              "answer": "Kapan",
+              "explanation": "Jawaban: Kapan",
+              "options": [
+                "Siapa",
+                "Di mana",
+                "Kapan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d003",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan tempat adalah ...",
+              "answer": "Di mana",
+              "explanation": "Jawaban: Di mana",
+              "options": [
+                "Kapan",
+                "Mengapa",
+                "Di mana"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d004",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan alasan adalah ...",
+              "answer": "Mengapa",
+              "explanation": "Jawaban: Mengapa",
+              "options": [
+                "Di mana",
+                "Siapa",
+                "Mengapa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d005",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan cara adalah ...",
+              "answer": "Bagaimana",
+              "explanation": "Jawaban: Bagaimana",
+              "options": [
+                "Kapan",
+                "Apa",
+                "Bagaimana"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d006",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata tanya untuk menanyakan benda adalah ...",
+              "answer": "Apa",
+              "explanation": "Jawaban: Apa",
+              "options": [
+                "Siapa",
+                "Kapan",
+                "Apa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d007",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tanda baca di akhir kalimat tanya adalah ...",
+              "answer": "Tanda tanya (?)",
+              "explanation": "Jawaban: Tanda tanya (?)",
+              "options": [
+                "Titik (.)",
+                "Seru (!)",
+                "Tanda tanya (?)"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d008",
+              "topic": "Kalimat Tanya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata tanya yang tepat: '... rumahmu?' (menanyakan tempat)",
+              "answer": "Di mana",
+              "explanation": "Di mana",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d009",
+              "topic": "Kalimat Tanya",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata tanya yang tepat: '... namamu?' (menanyakan nama)",
+              "answer": "Siapa",
+              "explanation": "Siapa",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d010",
+              "topic": "Kalimat Tanya",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata tanya untuk menanyakan jumlah adalah ...",
+              "answer": "Berapa",
+              "explanation": "Jawaban: Berapa",
+              "options": [
+                "Siapa",
+                "Mengapa",
+                "Berapa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Huruf Kapital & Tanda Titik",
+          "soal": [
+            {
+              "id": "bindo2-d011",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf kapital dipakai di ... kalimat",
+              "answer": "Awal",
+              "explanation": "Jawaban: Awal",
+              "options": [
+                "Tengah",
+                "Akhir",
+                "Awal"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d012",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Penulisan kalimat yang benar adalah ...",
+              "answer": "Ani pergi ke sekolah.",
+              "explanation": "Jawaban: Ani pergi ke sekolah.",
+              "options": [
+                "ani pergi ke sekolah.",
+                "ANI pergi ke sekolah",
+                "Ani pergi ke sekolah."
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d013",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tanda titik dipakai di akhir kalimat ...",
+              "answer": "Berita",
+              "explanation": "Jawaban: Berita",
+              "options": [
+                "Tanya",
+                "Seru",
+                "Berita"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d014",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nama bulan yang ditulis dengan benar adalah ...",
+              "answer": "Januari",
+              "explanation": "Jawaban: Januari",
+              "options": [
+                "januari",
+                "JANUARI.",
+                "Januari"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d015",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Huruf kapital juga dipakai untuk menulis ...",
+              "answer": "Nama orang",
+              "explanation": "Jawaban: Nama orang",
+              "options": [
+                "Kata kerja",
+                "Kata sifat",
+                "Nama orang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d016",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Perbaiki penulisan: 'budi pergi ke pasar' -> huruf pertama seharusnya ...",
+              "answer": "B (kapital)",
+              "explanation": "B (kapital)",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d017",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Kalimat yang penulisannya SALAH adalah ...",
+              "answer": "budi Suka membaca buku",
+              "explanation": "Jawaban: budi Suka membaca buku",
+              "options": [
+                "Budi suka membaca buku.",
+                "Ibu memasak nasi goreng.",
+                "budi Suka membaca buku"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d018",
+              "topic": "Huruf Kapital & Tanda Titik",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nama tempat yang ditulis dengan benar adalah ...",
+              "answer": "Bandung",
+              "explanation": "Jawaban: Bandung",
+              "options": [
+                "bandung",
+                "BANDUNG.",
+                "Bandung"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Cerita Pendek",
+          "soal": [
+            {
+              "id": "bindo2-d019",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Kelinci berlari cepat, kura-kura berjalan pelan. Kelinci tertidur, kura-kura menang lomba.' Siapa yang menang lomba?",
+              "answer": "Kura-kura",
+              "explanation": "Jawaban: Kura-kura",
+              "options": [
+                "Kelinci",
+                "Keduanya",
+                "Kura-kura"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d020",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Kelinci berlari cepat, kura-kura berjalan pelan. Kelinci tertidur, kura-kura menang lomba.' Mengapa kelinci kalah?",
+              "answer": "Karena tertidur",
+              "explanation": "Jawaban: Karena tertidur",
+              "options": [
+                "Karena lelah",
+                "Karena sakit",
+                "Karena tertidur"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d021",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bagian awal cerita yang mengenalkan tokoh & tempat disebut ...",
+              "answer": "Pembuka/awal cerita",
+              "explanation": "Jawaban: Pembuka/awal cerita",
+              "options": [
+                "Penutup cerita",
+                "Judul buku",
+                "Pembuka/awal cerita"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d022",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pesan baik yang bisa dipetik dari sebuah cerita disebut ...",
+              "answer": "Amanat/pesan moral",
+              "explanation": "Jawaban: Amanat/pesan moral",
+              "options": [
+                "Judul cerita",
+                "Nama pengarang",
+                "Amanat/pesan moral"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d023",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Semut kecil menolong gajah yang terjebak lumpur.' Siapa yang ditolong?",
+              "answer": "Gajah",
+              "explanation": "Jawaban: Gajah",
+              "options": [
+                "Semut",
+                "Tidak ada",
+                "Gajah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d024",
+              "topic": "Cerita Pendek",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Tokoh utama dalam sebuah cerita disebut tokoh ...",
+              "answer": "Utama",
+              "explanation": "Utama",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d025",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tempat terjadinya cerita disebut ...",
+              "answer": "Latar tempat",
+              "explanation": "Jawaban: Latar tempat",
+              "options": [
+                "Tokoh",
+                "Amanat",
+                "Latar tempat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d026",
+              "topic": "Cerita Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Beruang menolong burung yang sayapnya patah.' Sikap beruang menunjukkan ...",
+              "answer": "Suka menolong",
+              "explanation": "Jawaban: Suka menolong",
+              "options": [
+                "Suka mengejek",
+                "Malas",
+                "Suka menolong"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Kata Berlawanan (Antonim)",
+          "soal": [
+            {
+              "id": "bindo2-d027",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'besar' adalah ...",
+              "answer": "kecil",
+              "explanation": "Jawaban: kecil",
+              "options": [
+                "rendah",
+                "dingin",
+                "kecil"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d028",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'tinggi' adalah ...",
+              "answer": "rendah",
+              "explanation": "Jawaban: rendah",
+              "options": [
+                "kecil",
+                "dingin",
+                "rendah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d029",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'panas' adalah ...",
+              "answer": "dingin",
+              "explanation": "Jawaban: dingin",
+              "options": [
+                "kecil",
+                "rendah",
+                "dingin"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d030",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'cepat' adalah ...",
+              "answer": "lambat",
+              "explanation": "Jawaban: lambat",
+              "options": [
+                "kecil",
+                "rendah",
+                "lambat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d031",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'terang' adalah ...",
+              "answer": "gelap",
+              "explanation": "Jawaban: gelap",
+              "options": [
+                "kecil",
+                "rendah",
+                "gelap"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d032",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'berat' adalah ...",
+              "answer": "ringan",
+              "explanation": "Jawaban: ringan",
+              "options": [
+                "kecil",
+                "rendah",
+                "ringan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d033",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'naik' adalah ...",
+              "answer": "turun",
+              "explanation": "Jawaban: turun",
+              "options": [
+                "kecil",
+                "rendah",
+                "turun"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d034",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'basah' adalah ...",
+              "answer": "kering",
+              "explanation": "Jawaban: kering",
+              "options": [
+                "kecil",
+                "rendah",
+                "kering"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d035",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'baru' adalah ...",
+              "answer": "lama",
+              "explanation": "Jawaban: lama",
+              "options": [
+                "kecil",
+                "rendah",
+                "lama"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d036",
+              "topic": "Kata Berlawanan (Antonim)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Lawan kata dari 'jauh' adalah ...",
+              "answer": "dekat",
+              "explanation": "Jawaban: dekat",
+              "options": [
+                "kecil",
+                "rendah",
+                "dekat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Puisi Anak Sederhana",
+          "soal": [
+            {
+              "id": "bindo2-d037",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Satu baris dalam puisi disebut ...",
+              "answer": "Larik/baris",
+              "explanation": "Jawaban: Larik/baris",
+              "options": [
+                "Bait",
+                "Rima",
+                "Larik/baris"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d038",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kumpulan beberapa baris dalam puisi disebut ...",
+              "answer": "Bait",
+              "explanation": "Jawaban: Bait",
+              "options": [
+                "Larik",
+                "Judul",
+                "Bait"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d039",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bunyi akhir yang sama pada baris puisi disebut ...",
+              "answer": "Rima/sajak",
+              "explanation": "Jawaban: Rima/sajak",
+              "options": [
+                "Bait",
+                "Judul",
+                "Rima/sajak"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d040",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Puisi biasanya dibaca dengan ... yang indah",
+              "answer": "Irama",
+              "explanation": "Jawaban: Irama",
+              "options": [
+                "Suara keras",
+                "Cepat sekali",
+                "Irama"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d041",
+              "topic": "Puisi Anak Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata yang berima dengan 'bunga' adalah ... (contoh: harum semerbak ...)",
+              "answer": "Bahagia/gembira/ceria (jawaban terbuka)",
+              "explanation": "Contoh: 'bunga - gembira' -- jawaban bisa bervariasi, cek rima akhirnya",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d042",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Puisi anak biasanya bercerita tentang ...",
+              "answer": "Hal-hal yang menyenangkan/dekat dengan anak",
+              "explanation": "Jawaban: Hal-hal yang menyenangkan/dekat dengan anak",
+              "options": [
+                "Hal yang rumit",
+                "Angka statistik",
+                "Hal-hal yang menyenangkan/dekat dengan anak"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d043",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Puisi dibaca dengan penuh perasaan supaya ...",
+              "answer": "Lebih indah didengar/mudah dipahami",
+              "explanation": "Jawaban: Lebih indah didengar/mudah dipahami",
+              "options": [
+                "Lebih cepat selesai",
+                "Lebih sulit dimengerti",
+                "Lebih indah didengar/mudah dipahami"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d044",
+              "topic": "Puisi Anak Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Judul biasanya diletakkan di ... puisi",
+              "answer": "Bagian atas/awal",
+              "explanation": "Jawaban: Bagian atas/awal",
+              "options": [
+                "Bagian tengah",
+                "Bagian akhir",
+                "Bagian atas/awal"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Menulis Pengalaman",
+          "soal": [
+            {
+              "id": "bindo2-d045",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita tentang kejadian yang sudah kita alami disebut ...",
+              "answer": "Pengalaman",
+              "explanation": "Jawaban: Pengalaman",
+              "options": [
+                "Khayalan",
+                "Dongeng",
+                "Pengalaman"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d046",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Urutan menulis pengalaman yang baik adalah ...",
+              "answer": "Awal - tengah - akhir kejadian",
+              "explanation": "Jawaban: Awal - tengah - akhir kejadian",
+              "options": [
+                "Acak",
+                "Akhir dulu baru awal",
+                "Awal - tengah - akhir kejadian"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d047",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata yang menunjukkan waktu lampau adalah ...",
+              "answer": "Kemarin",
+              "explanation": "Jawaban: Kemarin",
+              "options": [
+                "Besok",
+                "Nanti",
+                "Kemarin"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d048",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat yang tepat menceritakan pengalaman liburan adalah ...",
+              "answer": "Kemarin aku pergi ke pantai bersama keluarga.",
+              "explanation": "Jawaban: Kemarin aku pergi ke pantai bersama keluarga.",
+              "options": [
+                "Besok aku akan pergi ke pantai.",
+                "Pantai itu sangat indah selalu.",
+                "Kemarin aku pergi ke pantai bersama keluarga."
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d049",
+              "topic": "Menulis Pengalaman",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata hubung waktu yang menunjukkan urutan pertama adalah ...",
+              "answer": "Pertama/mula-mula",
+              "explanation": "Pertama/mula-mula",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d050",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita pengalaman ditulis memakai kata ganti orang ...",
+              "answer": "Pertama (aku/saya)",
+              "explanation": "Jawaban: Pertama (aku/saya)",
+              "options": [
+                "Kedua (kamu)",
+                "Ketiga (dia)",
+                "Pertama (aku/saya)"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d051",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Pengalaman yang paling seru biasanya diceritakan dengan perasaan ...",
+              "answer": "Senang/bersemangat",
+              "explanation": "Jawaban: Senang/bersemangat",
+              "options": [
+                "Datar tanpa perasaan",
+                "Bingung",
+                "Senang/bersemangat"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo2-d052",
+              "topic": "Menulis Pengalaman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang menunjukkan waktu yang akan datang adalah ...",
+              "answer": "Besok",
+              "explanation": "Jawaban: Besok",
+              "options": [
+                "Kemarin",
+                "Tadi",
+                "Besok"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

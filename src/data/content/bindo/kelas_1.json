@@ -1,0 +1,871 @@
+{
+  "kelas": 1,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Mengenal Huruf & Bunyi",
+          "soal": [
+            {
+              "id": "bindo1-d001",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'ayam' adalah ...",
+              "answer": "A",
+              "explanation": "Jawaban: A",
+              "options": [
+                "B",
+                "Y",
+                "A"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d002",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'bola' adalah ...",
+              "answer": "B",
+              "explanation": "Jawaban: B",
+              "options": [
+                "A",
+                "L",
+                "B"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d003",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'ikan' adalah ...",
+              "answer": "I",
+              "explanation": "Jawaban: I",
+              "options": [
+                "A",
+                "K",
+                "I"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d004",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf vokal (bunyi terbuka) di antara ini adalah ...",
+              "answer": "A",
+              "explanation": "Jawaban: A",
+              "options": [
+                "B",
+                "C",
+                "A"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d005",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf konsonan di antara ini adalah ...",
+              "answer": "B",
+              "explanation": "Jawaban: B",
+              "options": [
+                "A",
+                "I",
+                "B"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d006",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Jumlah huruf vokal dalam abjad Indonesia ada ... (a, i, u, e, o)",
+              "answer": "5",
+              "explanation": "5",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d007",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Huruf terakhir dari kata 'meja' adalah ...",
+              "answer": "A",
+              "explanation": "Jawaban: A",
+              "options": [
+                "M",
+                "J",
+                "A"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d008",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'topi' adalah ...",
+              "answer": "T",
+              "explanation": "Jawaban: T",
+              "options": [
+                "O",
+                "P",
+                "T"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d009",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'ular' adalah ...",
+              "answer": "U",
+              "explanation": "Jawaban: U",
+              "options": [
+                "L",
+                "R",
+                "U"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d010",
+              "topic": "Mengenal Huruf & Bunyi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama dari kata 'es' adalah ...",
+              "answer": "E",
+              "explanation": "Jawaban: E",
+              "options": [
+                "S",
+                "A",
+                "E"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Membaca Suku Kata",
+          "soal": [
+            {
+              "id": "bindo1-d011",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata 'bo-la' terdiri dari ... suku kata",
+              "answer": "2",
+              "explanation": "Jawaban: 2",
+              "options": [
+                "1",
+                "3",
+                "2"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d012",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kata 'se-pa-tu' terdiri dari ... suku kata",
+              "answer": "3",
+              "explanation": "Jawaban: 3",
+              "options": [
+                "2",
+                "4",
+                "3"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d013",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Suku kata pertama dari 'meja' adalah ...",
+              "answer": "me",
+              "explanation": "Jawaban: me",
+              "options": [
+                "ja",
+                "eja",
+                "me"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d014",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Suku kata kedua dari 'buku' adalah ...",
+              "answer": "ku",
+              "explanation": "Jawaban: ku",
+              "options": [
+                "bu",
+                "uku",
+                "ku"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d015",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Gabungan huruf 'b' dan 'a' dibaca ...",
+              "answer": "ba",
+              "explanation": "Jawaban: ba",
+              "options": [
+                "ab",
+                "ib",
+                "ba"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d016",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Gabungan huruf 'k' dan 'u' dibaca ...",
+              "answer": "ku",
+              "explanation": "Jawaban: ku",
+              "options": [
+                "uk",
+                "ki",
+                "ku"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d017",
+              "topic": "Membaca Suku Kata",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Suku kata pertama dari kata 'kaki' adalah ...",
+              "answer": "ka",
+              "explanation": "ka",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d018",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata 'ka-ki' terdiri dari ... suku kata",
+              "answer": "2",
+              "explanation": "Jawaban: 2",
+              "options": [
+                "1",
+                "3",
+                "2"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d019",
+              "topic": "Membaca Suku Kata",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Kata 'ke-la-pa' terdiri dari ... suku kata",
+              "answer": "3",
+              "explanation": "Jawaban: 3",
+              "options": [
+                "2",
+                "4",
+                "3"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kata dan Kalimat Sederhana",
+          "soal": [
+            {
+              "id": "bindo1-d020",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "'Adik makan nasi' adalah contoh ...",
+              "answer": "Kalimat",
+              "explanation": "Jawaban: Kalimat",
+              "options": [
+                "Kata",
+                "Huruf",
+                "Kalimat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d021",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat yang benar untuk gambar orang tidur adalah ...",
+              "answer": "Ibu tidur",
+              "explanation": "Jawaban: Ibu tidur",
+              "options": [
+                "Tidur ibu makan",
+                "Makan tidur ibu",
+                "Ibu tidur"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d022",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Susunan kata yang benar: 'makan - Budi - nasi' adalah ...",
+              "answer": "Budi makan nasi",
+              "explanation": "Jawaban: Budi makan nasi",
+              "options": [
+                "Nasi makan Budi",
+                "Makan Budi nasi",
+                "Budi makan nasi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d023",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Susunan kata yang benar: 'bermain - bola - Ani' adalah ...",
+              "answer": "Ani bermain bola",
+              "explanation": "Jawaban: Ani bermain bola",
+              "options": [
+                "Bola bermain Ani",
+                "Bermain Ani bola",
+                "Ani bermain bola"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d024",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kalimat diawali dengan huruf ... (besar/kecil)",
+              "answer": "Besar",
+              "explanation": "Besar",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d025",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tanda baca yang dipakai di akhir kalimat berita adalah ...",
+              "answer": "Titik (.)",
+              "explanation": "Jawaban: Titik (.)",
+              "options": [
+                "Tanya (?)",
+                "Seru (!)",
+                "Titik (.)"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d026",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang menunjukkan nama benda adalah ...",
+              "answer": "Meja",
+              "explanation": "Jawaban: Meja",
+              "options": [
+                "Makan",
+                "Cepat",
+                "Meja"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d027",
+              "topic": "Kata dan Kalimat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang menunjukkan suatu kegiatan adalah ...",
+              "answer": "Berlari",
+              "explanation": "Jawaban: Berlari",
+              "options": [
+                "Meja",
+                "Kursi",
+                "Berlari"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Ungkapan Santun",
+          "soal": [
+            {
+              "id": "bindo1-d028",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ucapan yang tepat saat kita berbuat salah adalah ...",
+              "answer": "Maaf",
+              "explanation": "Jawaban: Maaf",
+              "options": [
+                "Terima kasih",
+                "Permisi",
+                "Maaf"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d029",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ucapan yang tepat saat kita dibantu orang lain adalah ...",
+              "answer": "Terima kasih",
+              "explanation": "Jawaban: Terima kasih",
+              "options": [
+                "Maaf",
+                "Halo",
+                "Terima kasih"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d030",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ucapan yang tepat saat meminta bantuan adalah ...",
+              "answer": "Tolong",
+              "explanation": "Jawaban: Tolong",
+              "options": [
+                "Maaf",
+                "Sama-sama",
+                "Tolong"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d031",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ucapan yang tepat saat lewat di depan orang lain adalah ...",
+              "answer": "Permisi",
+              "explanation": "Jawaban: Permisi",
+              "options": [
+                "Tolong",
+                "Terima kasih",
+                "Permisi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d032",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jawaban yang tepat untuk ucapan 'terima kasih' adalah ...",
+              "answer": "Sama-sama",
+              "explanation": "Jawaban: Sama-sama",
+              "options": [
+                "Maaf",
+                "Tolong",
+                "Sama-sama"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d033",
+              "topic": "Ungkapan Santun",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kata yang diucapkan saat meminjam barang teman: '... aku pinjam pensilmu'",
+              "answer": "Tolong",
+              "explanation": "Tolong",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d034",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap yang menunjukkan sopan santun kepada orang tua adalah ...",
+              "answer": "Berbicara dengan lembut",
+              "explanation": "Jawaban: Berbicara dengan lembut",
+              "options": [
+                "Berteriak",
+                "Membantah",
+                "Berbicara dengan lembut"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d035",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ucapan yang tepat saat menyapa teman di pagi hari adalah ...",
+              "answer": "Selamat pagi",
+              "explanation": "Jawaban: Selamat pagi",
+              "options": [
+                "Selamat malam",
+                "Sampai jumpa",
+                "Selamat pagi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d036",
+              "topic": "Ungkapan Santun",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika tidak sengaja menginjak kaki teman, kita sebaiknya berkata ...",
+              "answer": "Maaf",
+              "explanation": "Jawaban: Maaf",
+              "options": [
+                "Terima kasih",
+                "Tolong",
+                "Maaf"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Cerita Bergambar",
+          "soal": [
+            {
+              "id": "bindo1-d037",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Gambar dalam cerita bergambar berguna untuk membantu kita ...",
+              "answer": "Memahami cerita",
+              "explanation": "Jawaban: Memahami cerita",
+              "options": [
+                "Menghitung angka",
+                "Mengukur panjang",
+                "Memahami cerita"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d038",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Kucing kecil bermain bola di taman.' Siapa yang bermain?",
+              "answer": "Kucing kecil",
+              "explanation": "Jawaban: Kucing kecil",
+              "options": [
+                "Taman",
+                "Bola",
+                "Kucing kecil"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d039",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Kucing kecil bermain bola di taman.' Di mana kucing bermain?",
+              "answer": "Di taman",
+              "explanation": "Jawaban: Di taman",
+              "options": [
+                "Di rumah",
+                "Di sekolah",
+                "Di taman"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d040",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Ani membeli apel merah di pasar.' Apa yang dibeli Ani?",
+              "answer": "Apel merah",
+              "explanation": "Jawaban: Apel merah",
+              "options": [
+                "Bola",
+                "Buku",
+                "Apel merah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d041",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Budi memberi makan ayam setiap pagi.' Kapan Budi memberi makan ayam?",
+              "answer": "Setiap pagi",
+              "explanation": "Jawaban: Setiap pagi",
+              "options": [
+                "Setiap malam",
+                "Setiap siang",
+                "Setiap pagi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d042",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tokoh dalam cerita disebut juga ...",
+              "answer": "Karakter/pelaku cerita",
+              "explanation": "Jawaban: Karakter/pelaku cerita",
+              "options": [
+                "Judul cerita",
+                "Tempat cerita",
+                "Karakter/pelaku cerita"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d043",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Rani menyiram bunga setiap sore.' Apa yang dilakukan Rani?",
+              "answer": "Menyiram bunga",
+              "explanation": "Jawaban: Menyiram bunga",
+              "options": [
+                "Menyapu lantai",
+                "Membaca buku",
+                "Menyiram bunga"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d044",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita: 'Doni dan adiknya bermain layang-layang di sawah.' Di mana mereka bermain?",
+              "answer": "Di sawah",
+              "explanation": "Jawaban: Di sawah",
+              "options": [
+                "Di laut",
+                "Di kelas",
+                "Di sawah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d045",
+              "topic": "Cerita Bergambar",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Urutan gambar dalam cerita bergambar dibaca dari ...",
+              "answer": "Kiri ke kanan/atas ke bawah",
+              "explanation": "Jawaban: Kiri ke kanan/atas ke bawah",
+              "options": [
+                "Acak",
+                "Belakang ke depan",
+                "Kiri ke kanan/atas ke bawah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Menulis Namaku",
+          "soal": [
+            {
+              "id": "bindo1-d046",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Huruf pertama nama orang harus ditulis dengan huruf ...",
+              "answer": "Kapital/besar",
+              "explanation": "Jawaban: Kapital/besar",
+              "options": [
+                "Kecil",
+                "Miring",
+                "Kapital/besar"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d047",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Penulisan nama yang benar adalah ...",
+              "answer": "Azka",
+              "explanation": "Jawaban: Azka",
+              "options": [
+                "azka",
+                "AZKA.",
+                "Azka"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d048",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Penulisan nama yang benar adalah ...",
+              "answer": "Siti Aminah",
+              "explanation": "Jawaban: Siti Aminah",
+              "options": [
+                "siti aminah",
+                "SITI aminah",
+                "Siti Aminah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d049",
+              "topic": "Menulis Namaku",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nama diri termasuk kata benda khusus, ditulis pakai huruf ... di awal",
+              "answer": "Kapital",
+              "explanation": "Kapital",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d050",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nama kota yang ditulis dengan benar adalah ...",
+              "answer": "Jakarta",
+              "explanation": "Jawaban: Jakarta",
+              "options": [
+                "jakarta",
+                "JAKARTA.",
+                "Jakarta"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d051",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nama hari yang ditulis dengan benar adalah ...",
+              "answer": "Senin",
+              "explanation": "Jawaban: Senin",
+              "options": [
+                "senin",
+                "SENIN.",
+                "Senin"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d052",
+              "topic": "Menulis Namaku",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Nama teman yang ditulis dengan benar adalah ...",
+              "answer": "Ahmad",
+              "explanation": "Jawaban: Ahmad",
+              "options": [
+                "ahmad",
+                "AHMAD.",
+                "Ahmad"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo1-d053",
+              "topic": "Menulis Namaku",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama negara kita ditulis dengan huruf kapital di awal, yaitu ...",
+              "answer": "Indonesia",
+              "explanation": "Indonesia",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

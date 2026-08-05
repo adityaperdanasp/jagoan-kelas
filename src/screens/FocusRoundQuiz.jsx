@@ -6,6 +6,7 @@ import QuizRunner from "../games/quiz/QuizRunner";
 import { loadTopicByKey } from "../data/contentLoader";
 import { parseTopicId } from "../data/focusTopics";
 import { recordFocusRoundAttempt } from "../data/progressService";
+import { pickEncouragement } from "../data/encouragement";
 import { usePlayer } from "../data/PlayerContext";
 
 const PER_TOPIC = 3;
@@ -79,7 +80,8 @@ export default function FocusRoundQuiz() {
       login({ ...player, xp: (player.xp || 0) + totalXp });
     } finally {
       setSaving(false);
-      setResult({ correct, wrong, xpEarned: totalXp });
+      const accuracy = correct / (correct + wrong || 1);
+      setResult({ correct, wrong, xpEarned: totalXp, encouragement: pickEncouragement(accuracy) });
     }
   }
 
@@ -103,7 +105,9 @@ export default function FocusRoundQuiz() {
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Menyiapin soal...</div>
       )}
 
-      {questions && !result && <QuizRunner questions={questions} onFinish={handleFinish} />}
+      {questions && !result && (
+        <QuizRunner questions={questions} onFinish={handleFinish} subjectName="Fokus Latihan" topicTitle="Topik campuran" />
+      )}
 
       {result && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
@@ -113,6 +117,9 @@ export default function FocusRoundQuiz() {
           </div>
           <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-500)" }}>
             {saving ? "Nyimpen progress..." : `+${result.xpEarned} XP`}
+          </div>
+          <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-700)", maxWidth: 240 }}>
+            {result.encouragement}
           </div>
           <Button variant="primary" size="lg" onClick={() => navigate("/")}>
             Kembali

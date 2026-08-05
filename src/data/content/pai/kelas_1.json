@@ -1,0 +1,553 @@
+{
+  "kelas": 1,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Rukun Iman",
+          "soal": [
+            {
+              "id": "pai1-d001",
+              "topic": "Rukun Iman",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Rukun Iman ada ... perkara",
+              "answer": "6 (enam)",
+              "explanation": "6 (enam)",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d002",
+              "topic": "Rukun Iman",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Rukun Iman yang pertama adalah iman kepada ...",
+              "answer": "Allah",
+              "explanation": "Jawaban: Allah",
+              "options": [
+                "Malaikat",
+                "Kitab",
+                "Allah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d003",
+              "topic": "Rukun Iman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Rukun Iman yang kedua adalah iman kepada ...",
+              "answer": "Malaikat Allah",
+              "explanation": "Jawaban: Malaikat Allah",
+              "options": [
+                "Rasul Allah",
+                "Hari Akhir",
+                "Malaikat Allah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d004",
+              "topic": "Rukun Iman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Rukun Iman yang terakhir (ke-6) adalah iman kepada ...",
+              "answer": "Qada dan Qadar",
+              "explanation": "Jawaban: Qada dan Qadar",
+              "options": [
+                "Malaikat",
+                "Kitab",
+                "Qada dan Qadar"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d005",
+              "topic": "Rukun Iman",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Percaya bahwa Allah itu Esa (satu) disebut iman kepada ...",
+              "answer": "Allah",
+              "explanation": "Allah",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d006",
+              "topic": "Rukun Iman",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kita wajib percaya kepada Nabi dan ... Allah",
+              "answer": "Rasul",
+              "explanation": "Jawaban: Rasul",
+              "options": [
+                "Malaikat",
+                "Manusia",
+                "Rasul"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d007",
+              "topic": "Rukun Iman",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kitab-kitab Allah termasuk rukun iman ke ...",
+              "answer": "3 (tiga)",
+              "explanation": "Jawaban: 3 (tiga)",
+              "options": [
+                "1 (satu)",
+                "6 (enam)",
+                "3 (tiga)"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Rukun Islam",
+          "soal": [
+            {
+              "id": "pai1-d008",
+              "topic": "Rukun Islam",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Rukun Islam ada ... perkara",
+              "answer": "5 (lima)",
+              "explanation": "5 (lima)",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d009",
+              "topic": "Rukun Islam",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Rukun Islam yang pertama adalah ...",
+              "answer": "Syahadat",
+              "explanation": "Jawaban: Syahadat",
+              "options": [
+                "Sholat",
+                "Puasa",
+                "Syahadat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d010",
+              "topic": "Rukun Islam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ibadah sholat lima waktu termasuk rukun Islam yang ke ...",
+              "answer": "2 (dua)",
+              "explanation": "Jawaban: 2 (dua)",
+              "options": [
+                "1 (satu)",
+                "5 (lima)",
+                "2 (dua)"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d011",
+              "topic": "Rukun Islam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Berpuasa di bulan Ramadhan termasuk rukun Islam yang ke ...",
+              "answer": "4 (empat)",
+              "explanation": "Jawaban: 4 (empat)",
+              "options": [
+                "3 (tiga)",
+                "5 (lima)",
+                "4 (empat)"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d012",
+              "topic": "Rukun Islam",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Rukun Islam yang terakhir (ke-5) adalah ...",
+              "answer": "Naik haji bagi yang mampu",
+              "explanation": "Jawaban: Naik haji bagi yang mampu",
+              "options": [
+                "Zakat",
+                "Syahadat",
+                "Naik haji bagi yang mampu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d013",
+              "topic": "Rukun Islam",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Mengucap dua kalimat syahadat adalah rukun Islam ke ...",
+              "answer": "1 (satu)",
+              "explanation": "1 (satu)",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Mengenal Nabi & Rasul",
+          "soal": [
+            {
+              "id": "pai1-d014",
+              "topic": "Mengenal Nabi & Rasul",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Nabi dan Rasul yang wajib diketahui umat Islam jumlahnya ... orang",
+              "answer": "25",
+              "explanation": "25",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d015",
+              "topic": "Mengenal Nabi & Rasul",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Nabi terakhir yang diutus Allah adalah ...",
+              "answer": "Nabi Muhammad ﷺ",
+              "explanation": "Jawaban: Nabi Muhammad ﷺ",
+              "options": [
+                "Nabi Isa",
+                "Nabi Musa",
+                "Nabi Muhammad ﷺ"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d016",
+              "topic": "Mengenal Nabi & Rasul",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Manusia pertama yang juga seorang Nabi adalah ...",
+              "answer": "Nabi Adam a.s.",
+              "explanation": "Jawaban: Nabi Adam a.s.",
+              "options": [
+                "Nabi Nuh a.s.",
+                "Nabi Ibrahim a.s.",
+                "Nabi Adam a.s."
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d017",
+              "topic": "Mengenal Nabi & Rasul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi yang dikenal dengan bahtera/kapal besar adalah ...",
+              "answer": "Nabi Nuh a.s.",
+              "explanation": "Jawaban: Nabi Nuh a.s.",
+              "options": [
+                "Nabi Musa a.s.",
+                "Nabi Yusuf a.s.",
+                "Nabi Nuh a.s."
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d018",
+              "topic": "Mengenal Nabi & Rasul",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nabi yang membangun Ka'bah bersama putranya adalah ...",
+              "answer": "Nabi Ibrahim a.s.",
+              "explanation": "Nabi Ibrahim a.s.",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Akhlak Terpuji",
+          "soal": [
+            {
+              "id": "pai1-d019",
+              "topic": "Akhlak Terpuji",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Berkata apa adanya, tidak bohong, disebut sikap ...",
+              "answer": "Jujur",
+              "explanation": "Jawaban: Jujur",
+              "options": [
+                "Sombong",
+                "Malas",
+                "Jujur"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d020",
+              "topic": "Akhlak Terpuji",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Membantu teman yang kesusahan adalah sikap ...",
+              "answer": "Suka menolong",
+              "explanation": "Jawaban: Suka menolong",
+              "options": [
+                "Acuh tak acuh",
+                "Pelit",
+                "Suka menolong"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d021",
+              "topic": "Akhlak Terpuji",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap yang baik kepada kedua orang tua adalah ...",
+              "answer": "Menghormati dan menyayangi",
+              "explanation": "Jawaban: Menghormati dan menyayangi",
+              "options": [
+                "Membantah",
+                "Mengabaikan",
+                "Menghormati dan menyayangi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d022",
+              "topic": "Akhlak Terpuji",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap sombong dan merasa paling hebat disebut ...",
+              "answer": "Takabur",
+              "explanation": "Jawaban: Takabur",
+              "options": [
+                "Tawadhu",
+                "Sabar",
+                "Takabur"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d023",
+              "topic": "Akhlak Terpuji",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Sikap rendah hati, tidak sombong, disebut ...",
+              "answer": "Tawadhu",
+              "explanation": "Tawadhu",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d024",
+              "topic": "Akhlak Terpuji",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Menahan diri saat marah atau ditimpa kesulitan disebut ...",
+              "answer": "Sabar",
+              "explanation": "Jawaban: Sabar",
+              "options": [
+                "Takabur",
+                "Tergesa-gesa",
+                "Sabar"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Bersuci & Kebersihan",
+          "soal": [
+            {
+              "id": "pai1-d025",
+              "topic": "Bersuci & Kebersihan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Membersihkan diri sebelum ibadah disebut ...",
+              "answer": "Bersuci",
+              "explanation": "Jawaban: Bersuci",
+              "options": [
+                "Berdandan",
+                "Berhias",
+                "Bersuci"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d026",
+              "topic": "Bersuci & Kebersihan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kita dianjurkan mandi supaya badan ...",
+              "answer": "Bersih dan sehat",
+              "explanation": "Jawaban: Bersih dan sehat",
+              "options": [
+                "Kotor",
+                "Basah saja",
+                "Bersih dan sehat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d027",
+              "topic": "Bersuci & Kebersihan",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sebelum makan, tangan sebaiknya ...",
+              "answer": "Dicuci dulu",
+              "explanation": "Jawaban: Dicuci dulu",
+              "options": [
+                "Dibiarkan kotor",
+                "Diusap ke baju",
+                "Dicuci dulu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d028",
+              "topic": "Bersuci & Kebersihan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kebersihan adalah sebagian dari ...",
+              "answer": "Iman",
+              "explanation": "Iman",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d029",
+              "topic": "Bersuci & Kebersihan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gosok gigi rutin termasuk menjaga kebersihan ...",
+              "answer": "Mulut dan gigi",
+              "explanation": "Jawaban: Mulut dan gigi",
+              "options": [
+                "Rambut",
+                "Pakaian",
+                "Mulut dan gigi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Doa Sehari-hari",
+          "soal": [
+            {
+              "id": "pai1-d030",
+              "topic": "Doa Sehari-hari",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sebelum makan, kita membaca ...",
+              "answer": "Basmalah",
+              "explanation": "Jawaban: Basmalah",
+              "options": [
+                "Hamdalah",
+                "Takbir",
+                "Basmalah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d031",
+              "topic": "Doa Sehari-hari",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Setelah selesai makan, kita membaca ...",
+              "answer": "Hamdalah/Alhamdulillah",
+              "explanation": "Jawaban: Hamdalah/Alhamdulillah",
+              "options": [
+                "Basmalah",
+                "Salam",
+                "Hamdalah/Alhamdulillah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d032",
+              "topic": "Doa Sehari-hari",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sebelum tidur, sebaiknya kita membaca ...",
+              "answer": "Doa sebelum tidur",
+              "explanation": "Jawaban: Doa sebelum tidur",
+              "options": [
+                "Doa naik kendaraan",
+                "Doa masuk pasar",
+                "Doa sebelum tidur"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d033",
+              "topic": "Doa Sehari-hari",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Saat bertemu sesama muslim, kita mengucapkan ...",
+              "answer": "Assalamu'alaikum",
+              "explanation": "Jawaban: Assalamu'alaikum",
+              "options": [
+                "Selamat pagi saja",
+                "Halo",
+                "Assalamu'alaikum"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai1-d034",
+              "topic": "Doa Sehari-hari",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kalimat 'Bismillahirrahmanirrahim' diucapkan sebelum memulai ...",
+              "answer": "Suatu pekerjaan/kegiatan",
+              "explanation": "Suatu pekerjaan/kegiatan",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

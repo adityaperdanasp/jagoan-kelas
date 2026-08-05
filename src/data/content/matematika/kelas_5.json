@@ -173,6 +173,388 @@
               "explanation": "Jawaban dihitung: 4000",
               "grade": 5,
               "sumber": "generated"
+            },
+            {
+              "id": "mtk6-0002-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 4 x 2 + 30 : 3 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "options": [
+                "18",
+                "23",
+                "8",
+                "28"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0008-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 6 + 15 : 3 adalah ...",
+              "answer": "23",
+              "explanation": "Jawaban dihitung: 23",
+              "options": [
+                "23",
+                "18",
+                "33",
+                "13"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0014-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 9 x 4 + 24 : 3 adalah ...",
+              "answer": "44",
+              "explanation": "Jawaban dihitung: 44",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0020-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 4 x 4 + 4 : 2 adalah ...",
+              "answer": "18",
+              "explanation": "Jawaban dihitung: 18",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0026-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 6 x 2 + 25 : 5 adalah ...",
+              "answer": "17",
+              "explanation": "Jawaban dihitung: 17",
+              "options": [
+                "22",
+                "17",
+                "12",
+                "7"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0032-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2 x 2 + 18 : 3 adalah ...",
+              "answer": "10",
+              "explanation": "Jawaban dihitung: 10",
+              "options": [
+                "0",
+                "5",
+                "10",
+                "20"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0038-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2 x 5 + 25 : 5 adalah ...",
+              "answer": "15",
+              "explanation": "Jawaban dihitung: 15",
+              "options": [
+                "20",
+                "25",
+                "15",
+                "10"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0044-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 5 x 7 + 15 : 3 adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0050-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 9 x 4 + 24 : 3 adalah ...",
+              "answer": "44",
+              "explanation": "Jawaban dihitung: 44",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0056-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 7 x 2 + 10 : 5 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "6",
+                "11",
+                "16",
+                "21"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0062-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 7 x 9 + 4 : 2 adalah ...",
+              "answer": "65",
+              "explanation": "Jawaban dihitung: 65",
+              "options": [
+                "70",
+                "60",
+                "65",
+                "55"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0068-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 2 + 24 : 3 adalah ...",
+              "answer": "14",
+              "explanation": "Jawaban dihitung: 14",
+              "options": [
+                "14",
+                "24",
+                "9",
+                "4"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0074-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 3 + 21 : 3 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0080-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 6 x 4 + 12 : 2 adalah ...",
+              "answer": "30",
+              "explanation": "Jawaban dihitung: 30",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0086-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 5 x 6 + 6 : 3 adalah ...",
+              "answer": "32",
+              "explanation": "Jawaban dihitung: 32",
+              "options": [
+                "37",
+                "42",
+                "27",
+                "32"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0092-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 7 x 8 + 18 : 3 adalah ...",
+              "answer": "62",
+              "explanation": "Jawaban dihitung: 62",
+              "options": [
+                "67",
+                "57",
+                "52",
+                "62"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0098-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 9 x 5 + 16 : 2 adalah ...",
+              "answer": "53",
+              "explanation": "Jawaban dihitung: 53",
+              "options": [
+                "58",
+                "53",
+                "43",
+                "63"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0104-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 3 + 35 : 5 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0110-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 2 + 50 : 5 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0116-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 6 x 9 + 30 : 5 adalah ...",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "options": [
+                "70",
+                "65",
+                "55",
+                "60"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0122-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 2 x 5 + 12 : 2 adalah ...",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "options": [
+                "6",
+                "26",
+                "16",
+                "21"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0128-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 8 x 4 + 6 : 2 adalah ...",
+              "answer": "35",
+              "explanation": "Jawaban dihitung: 35",
+              "options": [
+                "35",
+                "45",
+                "40",
+                "25"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0134-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 2 x 6 + 15 : 3 adalah ...",
+              "answer": "17",
+              "explanation": "Jawaban dihitung: 17",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0140-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 9 + 18 : 2 adalah ...",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0146-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 3 x 6 + 24 : 3 adalah ...",
+              "answer": "26",
+              "explanation": "Jawaban dihitung: 26",
+              "options": [
+                "36",
+                "21",
+                "16",
+                "26"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0152-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 5 x 5 + 30 : 5 adalah ...",
+              "answer": "31",
+              "explanation": "Jawaban dihitung: 31",
+              "options": [
+                "36",
+                "41",
+                "31",
+                "21"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0158-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil dari 4 x 2 + 18 : 2 adalah ...",
+              "answer": "17",
+              "explanation": "Jawaban dihitung: 17",
+              "options": [
+                "17",
+                "7",
+                "27",
+                "12"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0164-mv6to5",
+              "topic": "Operasi Hitung Campuran",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Hasil dari 6 x 2 + 27 : 3 adalah ...",
+              "answer": "21",
+              "explanation": "Jawaban dihitung: 21",
+              "grade": 5
             }
           ]
         },
@@ -1256,6 +1638,336 @@
               "explanation": "Jawaban dihitung: 68",
               "grade": 5,
               "sumber": "generated"
+            },
+            {
+              "id": "mtk3-0005-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 7 cm dan lebar 15 cm adalah ... cm",
+              "answer": "44",
+              "explanation": "Jawaban dihitung: 44",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0010-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 7 cm adalah ... cm",
+              "answer": "28",
+              "explanation": "Jawaban dihitung: 28",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0015-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 15 cm adalah ... cm",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0020-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 9 cm adalah ... cm",
+              "answer": "46",
+              "explanation": "Jawaban dihitung: 46",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0025-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 5 cm adalah ... cm",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0030-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 9 cm adalah ... cm",
+              "answer": "46",
+              "explanation": "Jawaban dihitung: 46",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0035-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 8 cm adalah ... cm",
+              "answer": "34",
+              "explanation": "Jawaban dihitung: 34",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0040-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 9 cm adalah ... cm",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0045-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 11 cm adalah ... cm",
+              "answer": "50",
+              "explanation": "Jawaban dihitung: 50",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0050-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 10 cm adalah ... cm",
+              "answer": "46",
+              "explanation": "Jawaban dihitung: 46",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0055-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 3 cm adalah ... cm",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0060-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 6 cm dan lebar 5 cm adalah ... cm",
+              "answer": "22",
+              "explanation": "Jawaban dihitung: 22",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0065-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 19 cm dan lebar 14 cm adalah ... cm",
+              "answer": "66",
+              "explanation": "Jawaban dihitung: 66",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0070-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 5 cm adalah ... cm",
+              "answer": "20",
+              "explanation": "Jawaban dihitung: 20",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0075-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 8 cm adalah ... cm",
+              "answer": "42",
+              "explanation": "Jawaban dihitung: 42",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0080-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 17 cm dan lebar 7 cm adalah ... cm",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0085-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 6 cm adalah ... cm",
+              "answer": "24",
+              "explanation": "Jawaban dihitung: 24",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0090-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 15 cm adalah ... cm",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0095-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 6 cm dan lebar 7 cm adalah ... cm",
+              "answer": "26",
+              "explanation": "Jawaban dihitung: 26",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0100-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 8 cm adalah ... cm",
+              "answer": "32",
+              "explanation": "Jawaban dihitung: 32",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0105-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 13 cm dan lebar 5 cm adalah ... cm",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0110-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 8 cm dan lebar 15 cm adalah ... cm",
+              "answer": "46",
+              "explanation": "Jawaban dihitung: 46",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0115-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 9 cm adalah ... cm",
+              "answer": "36",
+              "explanation": "Jawaban dihitung: 36",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0120-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 9 cm dan lebar 11 cm adalah ... cm",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0125-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 12 cm dan lebar 5 cm adalah ... cm",
+              "answer": "34",
+              "explanation": "Jawaban dihitung: 34",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0130-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 3 cm adalah ... cm",
+              "answer": "12",
+              "explanation": "Jawaban dihitung: 12",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0135-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 14 cm dan lebar 13 cm adalah ... cm",
+              "answer": "54",
+              "explanation": "Jawaban dihitung: 54",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0140-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 12 cm dan lebar 12 cm adalah ... cm",
+              "answer": "48",
+              "explanation": "Jawaban dihitung: 48",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0145-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 10 cm adalah ... cm",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0150-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 15 cm dan lebar 6 cm adalah ... cm",
+              "answer": "42",
+              "explanation": "Jawaban dihitung: 42",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0155-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Keliling persegi panjang dengan panjang 15 cm dan lebar 13 cm adalah ... cm",
+              "answer": "56",
+              "explanation": "Jawaban dihitung: 56",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0160-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Keliling persegi dengan sisi 4 cm adalah ... cm",
+              "answer": "16",
+              "explanation": "Jawaban dihitung: 16",
+              "grade": 5
+            },
+            {
+              "id": "mtk3-0165-mv3to5",
+              "topic": "Keliling Bangun Datar",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Keliling persegi panjang dengan panjang 17 cm dan lebar 15 cm adalah ... cm",
+              "answer": "64",
+              "explanation": "Jawaban dihitung: 64",
+              "grade": 5
             }
           ]
         },
@@ -2328,6 +3040,378 @@
               ],
               "grade": 5,
               "sumber": "bank"
+            },
+            {
+              "id": "mtk6-0006-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 79, 79, 56, 51, 75, 56, 55. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "79",
+              "explanation": "Jawaban dihitung: 79",
+              "options": [
+                "77",
+                "81",
+                "84",
+                "79"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0012-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 87, 87, 56, 63, 63, 75, 75. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "87",
+              "explanation": "Jawaban dihitung: 87",
+              "options": [
+                "82",
+                "92",
+                "87",
+                "89"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0018-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 43, 43, 89, 65, 73, 88, 45, 46. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "43",
+              "explanation": "Jawaban dihitung: 43",
+              "options": [
+                "41",
+                "38",
+                "45",
+                "43"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0024-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 92, 92, 94, 48, 62, 58, 70, 74. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "92",
+              "explanation": "Jawaban dihitung: 92",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0030-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 94, 94, 51, 48, 58, 47. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "94",
+              "explanation": "Jawaban dihitung: 94",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0036-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 90, 90, 61, 45, 93, 88, 100, 49. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "90",
+              "explanation": "Jawaban dihitung: 90",
+              "options": [
+                "90",
+                "85",
+                "92",
+                "95"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0042-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 47, 47, 90, 55, 40, 42, 77, 90. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "47",
+              "explanation": "Jawaban dihitung: 47",
+              "options": [
+                "45",
+                "52",
+                "49",
+                "47"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0048-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 40, 40, 80, 72, 64, 86, 51. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "40",
+              "explanation": "Jawaban dihitung: 40",
+              "options": [
+                "40",
+                "38",
+                "42",
+                "35"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0054-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 71, 71, 96, 93, 45, 69, 91, 80. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0060-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 65, 65, 61, 82, 50, 74, 78, 68. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "65",
+              "explanation": "Jawaban dihitung: 65",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0066-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 69, 69, 49, 48, 56, 63. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "69",
+              "explanation": "Jawaban dihitung: 69",
+              "options": [
+                "71",
+                "69",
+                "64",
+                "67"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0072-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 45, 45, 76, 87, 43, 75, 65. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "45",
+              "explanation": "Jawaban dihitung: 45",
+              "options": [
+                "40",
+                "47",
+                "45",
+                "50"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0078-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 68, 68, 41, 61, 53, 87, 74. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "68",
+              "explanation": "Jawaban dihitung: 68",
+              "options": [
+                "70",
+                "66",
+                "68",
+                "73"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0084-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 71, 71, 87, 50, 41, 62, 83. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "71",
+              "explanation": "Jawaban dihitung: 71",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0090-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 84, 84, 97, 73, 98, 48, 67. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "84",
+              "explanation": "Jawaban dihitung: 84",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0096-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 94, 94, 71, 70, 48, 50. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "94",
+              "explanation": "Jawaban dihitung: 94",
+              "options": [
+                "92",
+                "94",
+                "99",
+                "89"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0102-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 73, 73, 49, 69, 93, 81, 68, 45. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "73",
+              "explanation": "Jawaban dihitung: 73",
+              "options": [
+                "71",
+                "68",
+                "73",
+                "78"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0108-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 79, 79, 56, 40, 69, 71. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "79",
+              "explanation": "Jawaban dihitung: 79",
+              "options": [
+                "74",
+                "79",
+                "77",
+                "84"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0114-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 60, 60, 97, 64, 92, 44, 88. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "60",
+              "explanation": "Jawaban dihitung: 60",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0120-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 47, 47, 69, 80, 90, 47. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "47",
+              "explanation": "Jawaban dihitung: 47",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0126-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 69, 69, 95, 74, 97, 61, 69, 90. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "69",
+              "explanation": "Jawaban dihitung: 69",
+              "options": [
+                "71",
+                "69",
+                "64",
+                "74"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0132-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 61, 61, 70, 86, 95, 73. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "61",
+              "explanation": "Jawaban dihitung: 61",
+              "options": [
+                "61",
+                "63",
+                "59",
+                "56"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0138-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 68, 68, 48, 41, 70, 97, 83, 43. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "68",
+              "explanation": "Jawaban dihitung: 68",
+              "options": [
+                "63",
+                "66",
+                "73",
+                "68"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0144-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 89, 89, 78, 76, 48, 72, 46. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "89",
+              "explanation": "Jawaban dihitung: 89",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0150-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "short_answer",
+              "difficulty": "hard",
+              "question": "Data: 46, 46, 92, 78, 89, 92, 64, 60. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "46",
+              "explanation": "Jawaban dihitung: 46",
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0156-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 95, 95, 55, 67, 84, 77, 65. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "95",
+              "explanation": "Jawaban dihitung: 95",
+              "options": [
+                "97",
+                "95",
+                "93",
+                "100"
+              ],
+              "grade": 5
+            },
+            {
+              "id": "mtk6-0162-mv6to5",
+              "topic": "Statistika Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Data: 55, 55, 72, 57, 66, 99, 74, 76. Modus (nilai yang paling sering muncul) dari data tersebut adalah ...",
+              "answer": "55",
+              "explanation": "Jawaban dihitung: 55",
+              "options": [
+                "50",
+                "60",
+                "57",
+                "55"
+              ],
+              "grade": 5
             }
           ]
         },
@@ -2505,644 +3589,5 @@
       ]
     }
   ],
-  "belum_terpetakan": [
-    {
-      "id": "mtk5-0005",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 7 cm, lebar 8 cm, dan tinggi 6 cm adalah ... cm kubik",
-      "answer": "336",
-      "explanation": "Jawaban dihitung: 336",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0006",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 8 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "8000",
-      "explanation": "Jawaban dihitung: 8000",
-      "options": [
-        "8002",
-        "8005",
-        "8010",
-        "8000"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0012",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 135 cm kubik. Jika panjang 9 cm dan lebar 3 cm, maka tinggi balok adalah ... cm",
-      "answer": "5",
-      "explanation": "Jawaban dihitung: 5",
-      "options": [
-        "15",
-        "5",
-        "10",
-        "3"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0013",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 2:4. Jika jumlah keduanya 36, maka bilangan pertama adalah ...",
-      "answer": "12",
-      "explanation": "Jawaban dihitung: 12",
-      "options": [
-        "22",
-        "17",
-        "12",
-        "10"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0019",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 5 cm adalah ... cm kubik",
-      "answer": "125",
-      "explanation": "Jawaban dihitung: 125",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0020",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 12 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "6000",
-      "explanation": "Jawaban dihitung: 6000",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0026",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 10 cm, lebar 4 cm, dan tinggi 3 cm adalah ... cm kubik",
-      "answer": "120",
-      "explanation": "Jawaban dihitung: 120",
-      "options": [
-        "130",
-        "125",
-        "120",
-        "122"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0027",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 10 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "1000",
-      "explanation": "Jawaban dihitung: 1000",
-      "options": [
-        "995",
-        "1000",
-        "1010",
-        "1002"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0033",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 96 cm kubik. Jika panjang 4 cm dan lebar 6 cm, maka tinggi balok adalah ... cm",
-      "answer": "4",
-      "explanation": "Jawaban dihitung: 4",
-      "options": [
-        "2",
-        "4",
-        "14",
-        "6"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0034",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 3:4. Jika jumlah keduanya 21, maka bilangan pertama adalah ...",
-      "answer": "9",
-      "explanation": "Jawaban dihitung: 9",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0040",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 7 cm adalah ... cm kubik",
-      "answer": "343",
-      "explanation": "Jawaban dihitung: 343",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0041",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 2 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "200",
-      "explanation": "Jawaban dihitung: 200",
-      "options": [
-        "200",
-        "202",
-        "205",
-        "198"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0047",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 5 cm, lebar 2 cm, dan tinggi 8 cm adalah ... cm kubik",
-      "answer": "80",
-      "explanation": "Jawaban dihitung: 80",
-      "options": [
-        "80",
-        "82",
-        "85",
-        "75"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0048",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "9000",
-      "explanation": "Jawaban dihitung: 9000",
-      "options": [
-        "9005",
-        "8998",
-        "9000",
-        "9002"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0054",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 132 cm kubik. Jika panjang 4 cm dan lebar 3 cm, maka tinggi balok adalah ... cm",
-      "answer": "11",
-      "explanation": "Jawaban dihitung: 11",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0055",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 48, maka bilangan pertama adalah ...",
-      "answer": "30",
-      "explanation": "Jawaban dihitung: 30",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0061",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 2 cm adalah ... cm kubik",
-      "answer": "8",
-      "explanation": "Jawaban dihitung: 8",
-      "options": [
-        "13",
-        "10",
-        "8",
-        "6"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0062",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 15 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "15000",
-      "explanation": "Jawaban dihitung: 15000",
-      "options": [
-        "14995",
-        "14998",
-        "15002",
-        "15000"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0068",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 3 cm, lebar 7 cm, dan tinggi 3 cm adalah ... cm kubik",
-      "answer": "63",
-      "explanation": "Jawaban dihitung: 63",
-      "options": [
-        "61",
-        "63",
-        "73",
-        "68"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0069",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 7 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "3500",
-      "explanation": "Jawaban dihitung: 3500",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0075",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 630 cm kubik. Jika panjang 10 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
-      "answer": "9",
-      "explanation": "Jawaban dihitung: 9",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0076",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 4:5. Jika jumlah keduanya 18, maka bilangan pertama adalah ...",
-      "answer": "8",
-      "explanation": "Jawaban dihitung: 8",
-      "options": [
-        "10",
-        "3",
-        "8",
-        "6"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0082",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 9 cm adalah ... cm kubik",
-      "answer": "729",
-      "explanation": "Jawaban dihitung: 729",
-      "options": [
-        "724",
-        "739",
-        "729",
-        "731"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0083",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 10 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "5000",
-      "explanation": "Jawaban dihitung: 5000",
-      "options": [
-        "4998",
-        "5010",
-        "5000",
-        "4995"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0089",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 10 cm, lebar 5 cm, dan tinggi 2 cm adalah ... cm kubik",
-      "answer": "100",
-      "explanation": "Jawaban dihitung: 100",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0090",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 12 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "12000",
-      "explanation": "Jawaban dihitung: 12000",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0096",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 160 cm kubik. Jika panjang 10 cm dan lebar 8 cm, maka tinggi balok adalah ... cm",
-      "answer": "2",
-      "explanation": "Jawaban dihitung: 2",
-      "options": [
-        "12",
-        "7",
-        "2",
-        "0"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0097",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 6:4. Jika jumlah keduanya 30, maka bilangan pertama adalah ...",
-      "answer": "18",
-      "explanation": "Jawaban dihitung: 18",
-      "options": [
-        "28",
-        "18",
-        "20",
-        "13"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0103",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 2 cm adalah ... cm kubik",
-      "answer": "8",
-      "explanation": "Jawaban dihitung: 8",
-      "options": [
-        "8",
-        "10",
-        "13",
-        "6"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0104",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:1000. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "9000",
-      "explanation": "Jawaban dihitung: 9000",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0110",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 9 cm, lebar 8 cm, dan tinggi 6 cm adalah ... cm kubik",
-      "answer": "432",
-      "explanation": "Jawaban dihitung: 432",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0111",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 2 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "1000",
-      "explanation": "Jawaban dihitung: 1000",
-      "options": [
-        "1002",
-        "1005",
-        "1010",
-        "1000"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0117",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 224 cm kubik. Jika panjang 8 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
-      "answer": "4",
-      "explanation": "Jawaban dihitung: 4",
-      "options": [
-        "14",
-        "9",
-        "6",
-        "4"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0118",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 48, maka bilangan pertama adalah ...",
-      "answer": "30",
-      "explanation": "Jawaban dihitung: 30",
-      "options": [
-        "30",
-        "40",
-        "35",
-        "32"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0124",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 9 cm adalah ... cm kubik",
-      "answer": "729",
-      "explanation": "Jawaban dihitung: 729",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0125",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:500. Jika jarak pada peta 5 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "2500",
-      "explanation": "Jawaban dihitung: 2500",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0131",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 5 cm, lebar 6 cm, dan tinggi 2 cm adalah ... cm kubik",
-      "answer": "60",
-      "explanation": "Jawaban dihitung: 60",
-      "options": [
-        "60",
-        "58",
-        "70",
-        "65"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0132",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 9 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "900",
-      "explanation": "Jawaban dihitung: 900",
-      "options": [
-        "900",
-        "895",
-        "898",
-        "910"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0138",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 378 cm kubik. Jika panjang 9 cm dan lebar 7 cm, maka tinggi balok adalah ... cm",
-      "answer": "6",
-      "explanation": "Jawaban dihitung: 6",
-      "options": [
-        "11",
-        "6",
-        "16",
-        "8"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0139",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 5:3. Jika jumlah keduanya 40, maka bilangan pertama adalah ...",
-      "answer": "25",
-      "explanation": "Jawaban dihitung: 25",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0145",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 4 cm adalah ... cm kubik",
-      "answer": "64",
-      "explanation": "Jawaban dihitung: 64",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0146",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Peta memiliki skala 1:2500. Jika jarak pada peta 11 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "27500",
-      "explanation": "Jawaban dihitung: 27500",
-      "options": [
-        "27502",
-        "27505",
-        "27500",
-        "27495"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0152",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "medium",
-      "question": "Volume balok dengan panjang 5 cm, lebar 2 cm, dan tinggi 4 cm adalah ... cm kubik",
-      "answer": "40",
-      "explanation": "Jawaban dihitung: 40",
-      "options": [
-        "42",
-        "40",
-        "50",
-        "45"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0153",
-      "topic": "Perbandingan & Skala",
-      "type": "multiple_choice",
-      "difficulty": "hard",
-      "question": "Peta memiliki skala 1:100. Jika jarak pada peta 3 cm, maka jarak sebenarnya adalah ... cm",
-      "answer": "300",
-      "explanation": "Jawaban dihitung: 300",
-      "options": [
-        "298",
-        "310",
-        "302",
-        "300"
-      ],
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0159",
-      "topic": "Volume Bangun Ruang",
-      "type": "short_answer",
-      "difficulty": "hard",
-      "question": "Sebuah balok memiliki volume 250 cm kubik. Jika panjang 10 cm dan lebar 5 cm, maka tinggi balok adalah ... cm",
-      "answer": "5",
-      "explanation": "Jawaban dihitung: 5",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0160",
-      "topic": "Perbandingan & Skala",
-      "type": "short_answer",
-      "difficulty": "easy",
-      "question": "Perbandingan dua bilangan adalah 4:2. Jika jumlah keduanya 30, maka bilangan pertama adalah ...",
-      "answer": "20",
-      "explanation": "Jawaban dihitung: 20",
-      "grade": 5
-    },
-    {
-      "id": "mtk5-0166",
-      "topic": "Volume Bangun Ruang",
-      "type": "multiple_choice",
-      "difficulty": "easy",
-      "question": "Volume kubus dengan sisi 3 cm adalah ... cm kubik",
-      "answer": "27",
-      "explanation": "Jawaban dihitung: 27",
-      "options": [
-        "22",
-        "37",
-        "27",
-        "32"
-      ],
-      "grade": 5
-    }
-  ]
+  "belum_terpetakan": []
 }

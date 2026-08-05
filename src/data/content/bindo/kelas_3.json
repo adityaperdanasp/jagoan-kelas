@@ -1,0 +1,785 @@
+{
+  "kelas": 3,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Jenis-Jenis Kalimat",
+          "soal": [
+            {
+              "id": "bindo3-d001",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat yang berisi pemberitahuan disebut kalimat ...",
+              "answer": "Berita",
+              "explanation": "Jawaban: Berita",
+              "options": [
+                "Tanya",
+                "Perintah",
+                "Berita"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d002",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat yang berisi pertanyaan disebut kalimat ...",
+              "answer": "Tanya",
+              "explanation": "Jawaban: Tanya",
+              "options": [
+                "Berita",
+                "Seru",
+                "Tanya"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d003",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat yang berisi suruhan disebut kalimat ...",
+              "answer": "Perintah",
+              "explanation": "Jawaban: Perintah",
+              "options": [
+                "Berita",
+                "Tanya",
+                "Perintah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d004",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat yang menunjukkan perasaan kuat/kaget disebut kalimat ...",
+              "answer": "Seru",
+              "explanation": "Jawaban: Seru",
+              "options": [
+                "Berita",
+                "Tanya",
+                "Seru"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d005",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Tutup pintu itu!' adalah contoh kalimat ...",
+              "answer": "Perintah",
+              "explanation": "Jawaban: Perintah",
+              "options": [
+                "Tanya",
+                "Berita",
+                "Perintah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d006",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Wah, indah sekali pemandangan ini!' adalah contoh kalimat ...",
+              "answer": "Seru",
+              "explanation": "Jawaban: Seru",
+              "options": [
+                "Berita",
+                "Perintah",
+                "Seru"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d007",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Hari ini cuaca sangat cerah.' adalah contoh kalimat ...",
+              "answer": "Berita",
+              "explanation": "Jawaban: Berita",
+              "options": [
+                "Tanya",
+                "Perintah",
+                "Berita"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d008",
+              "topic": "Jenis-Jenis Kalimat",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Tanda seru (!) dipakai di akhir kalimat ...",
+              "answer": "Perintah/seru",
+              "explanation": "Jawaban: Perintah/seru",
+              "options": [
+                "Tanya",
+                "Berita biasa",
+                "Perintah/seru"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Paragraf & Ide Pokok",
+          "soal": [
+            {
+              "id": "bindo3-d009",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gagasan utama dalam sebuah paragraf disebut ...",
+              "answer": "Ide pokok",
+              "explanation": "Jawaban: Ide pokok",
+              "options": [
+                "Kalimat penjelas",
+                "Judul",
+                "Ide pokok"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d010",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat yang menjelaskan ide pokok lebih detail disebut kalimat ...",
+              "answer": "Penjelas",
+              "explanation": "Jawaban: Penjelas",
+              "options": [
+                "Utama",
+                "Judul",
+                "Penjelas"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d011",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ide pokok biasanya terletak di kalimat ...",
+              "answer": "Utama (awal/akhir paragraf)",
+              "explanation": "Jawaban: Utama (awal/akhir paragraf)",
+              "options": [
+                "Tengah selalu",
+                "Judul buku",
+                "Utama (awal/akhir paragraf)"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d012",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Paragraf: 'Kucing suka tidur. Ia juga suka bermain bola benang. Kucing adalah hewan yang lucu.' Ide pokoknya adalah ...",
+              "answer": "Kucing adalah hewan yang lucu",
+              "explanation": "Jawaban: Kucing adalah hewan yang lucu",
+              "options": [
+                "Kucing suka tidur saja",
+                "Bola benang itu bulat",
+                "Kucing adalah hewan yang lucu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d013",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kumpulan kalimat yang membahas satu topik disebut ...",
+              "answer": "Paragraf",
+              "explanation": "Jawaban: Paragraf",
+              "options": [
+                "Kata",
+                "Suku kata",
+                "Paragraf"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d014",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kalimat pertama dalam sebuah paragraf sering disebut kalimat ...",
+              "answer": "Utama",
+              "explanation": "Utama",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d015",
+              "topic": "Paragraf & Ide Pokok",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Judul yang baik untuk sebuah paragraf harus ...",
+              "answer": "Sesuai dengan isi paragraf",
+              "explanation": "Jawaban: Sesuai dengan isi paragraf",
+              "options": [
+                "Sangat panjang",
+                "Tidak berhubungan dengan isi",
+                "Sesuai dengan isi paragraf"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kata Baku & Tidak Baku",
+          "soal": [
+            {
+              "id": "bindo3-d016",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'nggak' adalah ...",
+              "answer": "tidak",
+              "explanation": "Jawaban: tidak",
+              "options": [
+                "bagaimana",
+                "mengapa",
+                "tidak"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d017",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'gimana' adalah ...",
+              "answer": "bagaimana",
+              "explanation": "Jawaban: bagaimana",
+              "options": [
+                "tidak",
+                "mengapa",
+                "bagaimana"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d018",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'kenapa' adalah ...",
+              "answer": "mengapa",
+              "explanation": "Jawaban: mengapa",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "mengapa"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d019",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'bilang' adalah ...",
+              "answer": "berkata",
+              "explanation": "Jawaban: berkata",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "berkata"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d020",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'cuma' adalah ...",
+              "answer": "hanya",
+              "explanation": "Jawaban: hanya",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "hanya"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d021",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'udah' adalah ...",
+              "answer": "sudah",
+              "explanation": "Jawaban: sudah",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "sudah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d022",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'kalo' adalah ...",
+              "answer": "kalau",
+              "explanation": "Jawaban: kalau",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "kalau"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d023",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bentuk baku dari kata 'emang' adalah ...",
+              "answer": "memang",
+              "explanation": "Jawaban: memang",
+              "options": [
+                "tidak",
+                "bagaimana",
+                "memang"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d024",
+              "topic": "Kata Baku & Tidak Baku",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata baku dipakai dalam ...",
+              "answer": "Tulisan resmi/formal",
+              "explanation": "Jawaban: Tulisan resmi/formal",
+              "options": [
+                "Obrolan santai saja",
+                "Chat dengan teman",
+                "Tulisan resmi/formal"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Teks Deskripsi",
+          "soal": [
+            {
+              "id": "bindo3-d025",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang menggambarkan ciri-ciri suatu benda/tempat disebut teks ...",
+              "answer": "Deskripsi",
+              "explanation": "Jawaban: Deskripsi",
+              "options": [
+                "Prosedur",
+                "Narasi",
+                "Deskripsi"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d026",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat 'Kucingku berbulu putih dan lembut' termasuk kalimat ...",
+              "answer": "Deskripsi",
+              "explanation": "Jawaban: Deskripsi",
+              "options": [
+                "Perintah",
+                "Tanya",
+                "Deskripsi"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d027",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Teks deskripsi biasanya menjelaskan ...",
+              "answer": "Ciri-ciri/keadaan sesuatu",
+              "explanation": "Jawaban: Ciri-ciri/keadaan sesuatu",
+              "options": [
+                "Langkah-langkah membuat sesuatu",
+                "Urutan waktu kejadian",
+                "Ciri-ciri/keadaan sesuatu"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d028",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kata yang menggambarkan sifat/ciri disebut kata ...",
+              "answer": "Sifat",
+              "explanation": "Jawaban: Sifat",
+              "options": [
+                "Kerja",
+                "Bilangan",
+                "Sifat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d029",
+              "topic": "Teks Deskripsi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kata sifat dari kalimat 'Bunga itu berwarna merah dan harum' adalah ... dan ...",
+              "answer": "Merah, harum",
+              "explanation": "Merah, harum",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d030",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Contoh kata sifat adalah ...",
+              "answer": "Indah",
+              "explanation": "Jawaban: Indah",
+              "options": [
+                "Berlari",
+                "Sekolah",
+                "Indah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d031",
+              "topic": "Teks Deskripsi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Deskripsi 'Rumahku berwarna biru dan halamannya luas' menjelaskan tentang ...",
+              "answer": "Rumah",
+              "explanation": "Jawaban: Rumah",
+              "options": [
+                "Sekolah",
+                "Taman kota",
+                "Rumah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Sinonim & Antonim",
+          "soal": [
+            {
+              "id": "bindo3-d032",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'senang' adalah ...",
+              "answer": "gembira",
+              "explanation": "Jawaban: gembira",
+              "options": [
+                "cantik",
+                "raksasa/gede",
+                "gembira"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d033",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'indah' adalah ...",
+              "answer": "cantik",
+              "explanation": "Jawaban: cantik",
+              "options": [
+                "gembira",
+                "raksasa/gede",
+                "cantik"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d034",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'besar' adalah ...",
+              "answer": "raksasa/gede",
+              "explanation": "Jawaban: raksasa/gede",
+              "options": [
+                "gembira",
+                "cantik",
+                "raksasa/gede"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d035",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'pintar' adalah ...",
+              "answer": "cerdas",
+              "explanation": "Jawaban: cerdas",
+              "options": [
+                "gembira",
+                "cantik",
+                "cerdas"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d036",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'cepat' adalah ...",
+              "answer": "kilat",
+              "explanation": "Jawaban: kilat",
+              "options": [
+                "gembira",
+                "cantik",
+                "kilat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d037",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Persamaan kata (sinonim) dari 'melihat' adalah ...",
+              "answer": "memandang",
+              "explanation": "Jawaban: memandang",
+              "options": [
+                "gembira",
+                "cantik",
+                "memandang"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d038",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Lawan kata (antonim) dari 'gelap' adalah ...",
+              "answer": "terang",
+              "explanation": "Jawaban: terang",
+              "options": [
+                "lemah",
+                "murah",
+                "terang"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d039",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Lawan kata (antonim) dari 'kuat' adalah ...",
+              "answer": "lemah",
+              "explanation": "Jawaban: lemah",
+              "options": [
+                "terang",
+                "murah",
+                "lemah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d040",
+              "topic": "Sinonim & Antonim",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Lawan kata (antonim) dari 'mahal' adalah ...",
+              "answer": "murah",
+              "explanation": "Jawaban: murah",
+              "options": [
+                "terang",
+                "lemah",
+                "murah"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Menulis Surat Sederhana",
+          "soal": [
+            {
+              "id": "bindo3-d041",
+              "topic": "Menulis Surat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian awal surat yang berisi sapaan disebut ...",
+              "answer": "Salam pembuka",
+              "explanation": "Jawaban: Salam pembuka",
+              "options": [
+                "Isi surat",
+                "Salam penutup",
+                "Salam pembuka"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d042",
+              "topic": "Menulis Surat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian akhir surat yang berisi ucapan perpisahan disebut ...",
+              "answer": "Salam penutup",
+              "explanation": "Jawaban: Salam penutup",
+              "options": [
+                "Salam pembuka",
+                "Alamat",
+                "Salam penutup"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d043",
+              "topic": "Menulis Surat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Contoh salam pembuka surat adalah ...",
+              "answer": "Dengan hormat,",
+              "explanation": "Jawaban: Dengan hormat,",
+              "options": [
+                "Sekian dan terima kasih.",
+                "Nomor 1",
+                "Dengan hormat,"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d044",
+              "topic": "Menulis Surat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian yang berisi pesan utama dalam surat disebut ...",
+              "answer": "Isi surat",
+              "explanation": "Jawaban: Isi surat",
+              "options": [
+                "Salam pembuka",
+                "Tanggal",
+                "Isi surat"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d045",
+              "topic": "Menulis Surat Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama orang yang mengirim surat disebut ...",
+              "answer": "Pengirim",
+              "explanation": "Pengirim",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d046",
+              "topic": "Menulis Surat Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nama orang yang menerima surat disebut ...",
+              "answer": "Penerima",
+              "explanation": "Penerima",
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo3-d047",
+              "topic": "Menulis Surat Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tanggal penulisan surat biasanya diletakkan di bagian ...",
+              "answer": "Atas/sebelum salam pembuka",
+              "explanation": "Jawaban: Atas/sebelum salam pembuka",
+              "options": [
+                "Setelah tanda tangan",
+                "Di tengah isi surat",
+                "Atas/sebelum salam pembuka"
+              ],
+              "grade": 3,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

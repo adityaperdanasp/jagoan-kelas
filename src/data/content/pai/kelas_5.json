@@ -1,0 +1,408 @@
+{
+  "kelas": 5,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
+          "soal": [
+            {
+              "id": "pai5-d001",
+              "topic": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Muhammad ﷺ lahir di kota ...",
+              "answer": "Makkah",
+              "explanation": "Jawaban: Makkah",
+              "options": [
+                "Madinah",
+                "Yerusalem",
+                "Makkah"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d002",
+              "topic": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Muhammad ﷺ sudah menjadi yatim piatu sejak kecil, diasuh oleh kakek lalu pamannya yang bernama ...",
+              "answer": "Abu Thalib",
+              "explanation": "Jawaban: Abu Thalib",
+              "options": [
+                "Abu Jahal",
+                "Abu Bakar",
+                "Abu Thalib"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d003",
+              "topic": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sejak muda, Nabi Muhammad ﷺ dikenal punya sifat jujur sehingga dijuluki ...",
+              "answer": "Al-Amin",
+              "explanation": "Jawaban: Al-Amin",
+              "options": [
+                "Al-Faruq",
+                "As-Siddiq",
+                "Al-Amin"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d004",
+              "topic": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nabi Muhammad ﷺ bekerja sebagai pedagang sebelum diangkat menjadi ...",
+              "answer": "Nabi dan Rasul",
+              "explanation": "Nabi dan Rasul",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Qada & Qadar",
+          "soal": [
+            {
+              "id": "pai5-d005",
+              "topic": "Qada & Qadar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ketetapan Allah yang sudah pasti terjadi disebut ...",
+              "answer": "Qada",
+              "explanation": "Jawaban: Qada",
+              "options": [
+                "Qadar",
+                "Ikhtiar",
+                "Qada"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d006",
+              "topic": "Qada & Qadar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Usaha manusia sebelum menerima hasil dari Allah disebut ...",
+              "answer": "Ikhtiar",
+              "explanation": "Jawaban: Ikhtiar",
+              "options": [
+                "Qada",
+                "Pasrah tanpa usaha",
+                "Ikhtiar"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d007",
+              "topic": "Qada & Qadar",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Menerima dengan lapang dada apapun ketetapan Allah setelah berusaha disebut ...",
+              "answer": "Tawakal",
+              "explanation": "Jawaban: Tawakal",
+              "options": [
+                "Putus asa",
+                "Sombong",
+                "Tawakal"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d008",
+              "topic": "Qada & Qadar",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Qada dan Qadar termasuk rukun Iman yang ke ...",
+              "answer": "6 (enam)",
+              "explanation": "6 (enam)",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Mengenal Haji & Umrah",
+          "soal": [
+            {
+              "id": "pai5-d009",
+              "topic": "Mengenal Haji & Umrah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ibadah haji dilakukan di kota ...",
+              "answer": "Makkah",
+              "explanation": "Jawaban: Makkah",
+              "options": [
+                "Madinah",
+                "Baghdad",
+                "Makkah"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d010",
+              "topic": "Mengenal Haji & Umrah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Haji termasuk rukun Islam yang ke ...",
+              "answer": "5 (lima)",
+              "explanation": "Jawaban: 5 (lima)",
+              "options": [
+                "3 (tiga)",
+                "4 (empat)",
+                "5 (lima)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d011",
+              "topic": "Mengenal Haji & Umrah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Haji wajib dilakukan bagi umat Islam yang ...",
+              "answer": "Mampu (secara fisik & materi)",
+              "explanation": "Jawaban: Mampu (secara fisik & materi)",
+              "options": [
+                "Semua orang tanpa terkecuali",
+                "Anak-anak saja",
+                "Mampu (secara fisik & materi)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d012",
+              "topic": "Mengenal Haji & Umrah",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Bangunan yang menjadi kiblat umat Islam di Makkah bernama ...",
+              "answer": "Ka'bah",
+              "explanation": "Ka'bah",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Menghindari Sifat Tercela",
+          "soal": [
+            {
+              "id": "pai5-d013",
+              "topic": "Menghindari Sifat Tercela",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap iri terhadap kebahagiaan orang lain disebut ...",
+              "answer": "Dengki/hasad",
+              "explanation": "Jawaban: Dengki/hasad",
+              "options": [
+                "Syukur",
+                "Sabar",
+                "Dengki/hasad"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d014",
+              "topic": "Menghindari Sifat Tercela",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Suka marah-marah tanpa alasan yang jelas disebut sifat ...",
+              "answer": "Pemarah",
+              "explanation": "Jawaban: Pemarah",
+              "options": [
+                "Penyabar",
+                "Pemaaf",
+                "Pemarah"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d015",
+              "topic": "Menghindari Sifat Tercela",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap pelit dan enggan berbagi disebut ...",
+              "answer": "Kikir",
+              "explanation": "Jawaban: Kikir",
+              "options": [
+                "Dermawan",
+                "Rendah hati",
+                "Kikir"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d016",
+              "topic": "Menghindari Sifat Tercela",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sifat sombong dan merasa paling hebat disebut ...",
+              "answer": "Takabur",
+              "explanation": "Takabur",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Adab Bergaul",
+          "soal": [
+            {
+              "id": "pai5-d017",
+              "topic": "Adab Bergaul",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Saat berteman, sebaiknya kita saling ...",
+              "answer": "Menghormati dan menghargai",
+              "explanation": "Jawaban: Menghormati dan menghargai",
+              "options": [
+                "Mengejek",
+                "Membeda-bedakan",
+                "Menghormati dan menghargai"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d018",
+              "topic": "Adab Bergaul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Memilih teman sebaiknya berdasarkan ...",
+              "answer": "Akhlak baik, bukan kekayaan/status",
+              "explanation": "Jawaban: Akhlak baik, bukan kekayaan/status",
+              "options": [
+                "Kekayaan saja",
+                "Kepopuleran saja",
+                "Akhlak baik, bukan kekayaan/status"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d019",
+              "topic": "Adab Bergaul",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jika ada teman berbeda agama/suku, sikap kita sebaiknya ...",
+              "answer": "Tetap menghormati dan berteman baik",
+              "explanation": "Jawaban: Tetap menghormati dan berteman baik",
+              "options": [
+                "Menjauhinya",
+                "Mengucilkannya",
+                "Tetap menghormati dan berteman baik"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d020",
+              "topic": "Adab Bergaul",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Berkata sopan dan tidak menyakiti hati teman termasuk akhlak yang ...",
+              "answer": "Terpuji/baik",
+              "explanation": "Terpuji/baik",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Hari Akhir",
+          "soal": [
+            {
+              "id": "pai5-d021",
+              "topic": "Hari Akhir",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Percaya adanya hari kiamat termasuk rukun Iman yang ke ...",
+              "answer": "5 (lima)",
+              "explanation": "Jawaban: 5 (lima)",
+              "options": [
+                "4 (empat)",
+                "6 (enam)",
+                "5 (lima)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d022",
+              "topic": "Hari Akhir",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hari akhir disebut juga hari ...",
+              "answer": "Kiamat",
+              "explanation": "Jawaban: Kiamat",
+              "options": [
+                "Raya",
+                "Jumat",
+                "Kiamat"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d023",
+              "topic": "Hari Akhir",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Meyakini hari akhir membuat kita lebih ...",
+              "answer": "Berhati-hati dalam berbuat baik",
+              "explanation": "Jawaban: Berhati-hati dalam berbuat baik",
+              "options": [
+                "Bebas berbuat semaunya",
+                "Tidak peduli",
+                "Berhati-hati dalam berbuat baik"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai5-d024",
+              "topic": "Hari Akhir",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Setelah hari kiamat, manusia akan dibangkitkan untuk mempertanggungjawabkan ...",
+              "answer": "Amal perbuatannya",
+              "explanation": "Amal perbuatannya",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

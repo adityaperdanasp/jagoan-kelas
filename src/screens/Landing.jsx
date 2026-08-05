@@ -6,14 +6,24 @@ import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
 import OverlayCard from "../components/ds/OverlayCard";
+import HeroIllustration from "../components/ds/HeroIllustration";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
 import { getPlayerDoc, markParentMessageRead } from "../data/authService";
+import { TRACK_HUB, useBgmTrack, isBgmMuted, setBgmMuted } from "../data/bgm";
 
 export default function Landing() {
   const navigate = useNavigate();
   const { player, logout } = usePlayer();
   const [parentMessage, setParentMessage] = useState(null);
+  const [muted, setMuted] = useState(isBgmMuted);
+  useBgmTrack(TRACK_HUB);
+
+  function toggleMute() {
+    const next = !muted;
+    setBgmMuted(next);
+    setMuted(next);
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -67,7 +77,27 @@ export default function Landing() {
               </button>
             </div>
           </div>
-          <ProgressXP xp={player.xp ?? 0} maxStars={0} />
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <ProgressXP xp={player.xp ?? 0} maxStars={0} />
+            <button
+              onClick={toggleMute}
+              aria-label={muted ? "Nyalain musik" : "Matiin musik"}
+              style={{
+                border: "none",
+                background: "var(--cream-200)",
+                borderRadius: "50%",
+                width: 28,
+                height: 28,
+                fontSize: 14,
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              {muted ? "🔇" : "🔊"}
+            </button>
+          </div>
         </div>
 
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, textAlign: "center" }}>
@@ -81,12 +111,12 @@ export default function Landing() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 56,
               cursor: "pointer",
               WebkitTapHighlightColor: "transparent",
+              overflow: "hidden",
             }}
           >
-            🎒✨
+            <HeroIllustration />
           </div>
           <Badge color="gold" rotate={-3}>Jagoan Kelas</Badge>
           <div style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", color: "var(--ink-700)", maxWidth: 220 }}>

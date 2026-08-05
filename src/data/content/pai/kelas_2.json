@@ -1,0 +1,525 @@
+{
+  "kelas": 2,
+  "mapel": "Pendidikan Agama Islam",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Asmaul Husna (Dasar)",
+          "soal": [
+            {
+              "id": "pai2-d001",
+              "topic": "Asmaul Husna (Dasar)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Asmaul Husna artinya nama-nama Allah yang ...",
+              "answer": "Indah/baik",
+              "explanation": "Jawaban: Indah/baik",
+              "options": [
+                "Buruk",
+                "Rahasia",
+                "Indah/baik"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d002",
+              "topic": "Asmaul Husna (Dasar)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ar-Rahman artinya Allah Maha ...",
+              "answer": "Pengasih",
+              "explanation": "Jawaban: Pengasih",
+              "options": [
+                "Pemarah",
+                "Pelupa",
+                "Pengasih"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d003",
+              "topic": "Asmaul Husna (Dasar)",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Ar-Rahim artinya Allah Maha ...",
+              "answer": "Penyayang",
+              "explanation": "Jawaban: Penyayang",
+              "options": [
+                "Pemarah",
+                "Sombong",
+                "Penyayang"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d004",
+              "topic": "Asmaul Husna (Dasar)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Al-'Alim artinya Allah Maha ...",
+              "answer": "Mengetahui",
+              "explanation": "Jawaban: Mengetahui",
+              "options": [
+                "Melupakan",
+                "Kecil",
+                "Mengetahui"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d005",
+              "topic": "Asmaul Husna (Dasar)",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "As-Sami' artinya Allah Maha ...",
+              "answer": "Mendengar",
+              "explanation": "Jawaban: Mendengar",
+              "options": [
+                "Diam",
+                "Tuli (mustahil bagi Allah)",
+                "Mendengar"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Kalimat Thayyibah",
+          "soal": [
+            {
+              "id": "pai2-d006",
+              "topic": "Kalimat Thayyibah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat 'Alhamdulillah' diucapkan saat kita ...",
+              "answer": "Bersyukur",
+              "explanation": "Jawaban: Bersyukur",
+              "options": [
+                "Kaget",
+                "Sedih tanpa sebab",
+                "Bersyukur"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d007",
+              "topic": "Kalimat Thayyibah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat 'Astaghfirullah' diucapkan saat kita ...",
+              "answer": "Memohon ampun/menyesali kesalahan",
+              "explanation": "Jawaban: Memohon ampun/menyesali kesalahan",
+              "options": [
+                "Senang",
+                "Lapar",
+                "Memohon ampun/menyesali kesalahan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d008",
+              "topic": "Kalimat Thayyibah",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Kalimat 'Masya Allah' diucapkan saat kita ...",
+              "answer": "Kagum/takjub",
+              "explanation": "Jawaban: Kagum/takjub",
+              "options": [
+                "Marah",
+                "Sedih",
+                "Kagum/takjub"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d009",
+              "topic": "Kalimat Thayyibah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat 'InsyaAllah' diucapkan saat kita ...",
+              "answer": "Berencana melakukan sesuatu (dengan izin Allah)",
+              "explanation": "Jawaban: Berencana melakukan sesuatu (dengan izin Allah)",
+              "options": [
+                "Menolak sesuatu",
+                "Marah",
+                "Berencana melakukan sesuatu (dengan izin Allah)"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d010",
+              "topic": "Kalimat Thayyibah",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat 'Allahu Akbar' artinya Allah Maha ...",
+              "answer": "Besar",
+              "explanation": "Jawaban: Besar",
+              "options": [
+                "Kecil",
+                "Dekat saja",
+                "Besar"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d011",
+              "topic": "Kalimat Thayyibah",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Kalimat pujian 'Subhanallah' diucapkan saat kita melihat sesuatu yang ...",
+              "answer": "Menakjubkan/indah",
+              "explanation": "Menakjubkan/indah",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Kisah Nabi Adam & Nabi Nuh",
+          "soal": [
+            {
+              "id": "pai2-d012",
+              "topic": "Kisah Nabi Adam & Nabi Nuh",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Nabi Adam a.s. adalah manusia pertama yang diciptakan Allah dari ...",
+              "answer": "Tanah",
+              "explanation": "Jawaban: Tanah",
+              "options": [
+                "Air",
+                "Api",
+                "Tanah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d013",
+              "topic": "Kisah Nabi Adam & Nabi Nuh",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Istri Nabi Adam a.s. bernama ...",
+              "answer": "Siti Hawa",
+              "explanation": "Jawaban: Siti Hawa",
+              "options": [
+                "Siti Aminah",
+                "Siti Khadijah",
+                "Siti Hawa"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d014",
+              "topic": "Kisah Nabi Adam & Nabi Nuh",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Nuh a.s. membuat kapal besar untuk menyelamatkan umatnya dari ...",
+              "answer": "Banjir besar",
+              "explanation": "Jawaban: Banjir besar",
+              "options": [
+                "Gempa bumi",
+                "Kebakaran",
+                "Banjir besar"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d015",
+              "topic": "Kisah Nabi Adam & Nabi Nuh",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Nabi Nuh a.s. mengajak umatnya untuk ...",
+              "answer": "Menyembah Allah semata",
+              "explanation": "Jawaban: Menyembah Allah semata",
+              "options": [
+                "Menyembah berhala",
+                "Berperang",
+                "Menyembah Allah semata"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d016",
+              "topic": "Kisah Nabi Adam & Nabi Nuh",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Nabi Adam a.s. tinggal di ... sebelum diturunkan ke bumi",
+              "answer": "Surga",
+              "explanation": "Surga",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Adab Makan & Minum",
+          "soal": [
+            {
+              "id": "pai2-d017",
+              "topic": "Adab Makan & Minum",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sebaiknya makan dan minum menggunakan tangan ...",
+              "answer": "Kanan",
+              "explanation": "Jawaban: Kanan",
+              "options": [
+                "Kiri",
+                "Keduanya sekaligus",
+                "Kanan"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d018",
+              "topic": "Adab Makan & Minum",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sebelum makan kita membaca ...",
+              "answer": "Basmalah",
+              "explanation": "Jawaban: Basmalah",
+              "options": [
+                "Hamdalah",
+                "Salam",
+                "Basmalah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d019",
+              "topic": "Adab Makan & Minum",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Posisi makan yang dianjurkan adalah ...",
+              "answer": "Duduk",
+              "explanation": "Jawaban: Duduk",
+              "options": [
+                "Berdiri",
+                "Berlari",
+                "Duduk"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d020",
+              "topic": "Adab Makan & Minum",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap yang baik terhadap makanan adalah ...",
+              "answer": "Tidak menyisakan/mubazir",
+              "explanation": "Jawaban: Tidak menyisakan/mubazir",
+              "options": [
+                "Membuang-buang",
+                "Bermain dengan makanan",
+                "Tidak menyisakan/mubazir"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d021",
+              "topic": "Adab Makan & Minum",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Minum sebaiknya dilakukan sambil ...",
+              "answer": "Duduk, tidak sambil berdiri",
+              "explanation": "Duduk, tidak sambil berdiri",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Adab kepada Orang Tua",
+          "soal": [
+            {
+              "id": "pai2-d022",
+              "topic": "Adab kepada Orang Tua",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Sikap yang baik kepada orang tua adalah ...",
+              "answer": "Menghormati dan mematuhi nasihatnya",
+              "explanation": "Jawaban: Menghormati dan mematuhi nasihatnya",
+              "options": [
+                "Membantah",
+                "Mengabaikan",
+                "Menghormati dan mematuhi nasihatnya"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d023",
+              "topic": "Adab kepada Orang Tua",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Saat orang tua memanggil, sebaiknya kita ...",
+              "answer": "Segera menjawab dan menghampiri",
+              "explanation": "Jawaban: Segera menjawab dan menghampiri",
+              "options": [
+                "Pura-pura tidak dengar",
+                "Marah",
+                "Segera menjawab dan menghampiri"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d024",
+              "topic": "Adab kepada Orang Tua",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Berkata kasar kepada orang tua adalah perbuatan ...",
+              "answer": "Durhaka",
+              "explanation": "Jawaban: Durhaka",
+              "options": [
+                "Berbakti",
+                "Terpuji",
+                "Durhaka"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d025",
+              "topic": "Adab kepada Orang Tua",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Mendoakan orang tua adalah bentuk ...",
+              "answer": "Bakti/kasih sayang anak",
+              "explanation": "Jawaban: Bakti/kasih sayang anak",
+              "options": [
+                "Kewajiban orang tua",
+                "Hal yang tidak perlu",
+                "Bakti/kasih sayang anak"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d026",
+              "topic": "Adab kepada Orang Tua",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Berbuat baik kepada orang tua disebut ...",
+              "answer": "Berbakti/birrul walidain",
+              "explanation": "Berbakti/birrul walidain",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Mengenal Surat-Surat Pendek",
+          "soal": [
+            {
+              "id": "pai2-d027",
+              "topic": "Mengenal Surat-Surat Pendek",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Surat pertama dalam Al-Qur'an bernama ...",
+              "answer": "Al-Fatihah",
+              "explanation": "Jawaban: Al-Fatihah",
+              "options": [
+                "Al-Ikhlas",
+                "An-Nas",
+                "Al-Fatihah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d028",
+              "topic": "Mengenal Surat-Surat Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Surat terakhir dalam Al-Qur'an bernama ...",
+              "answer": "An-Nas",
+              "explanation": "Jawaban: An-Nas",
+              "options": [
+                "Al-Fatihah",
+                "Al-Ikhlas",
+                "An-Nas"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d029",
+              "topic": "Mengenal Surat-Surat Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Surat Al-Ikhlas menjelaskan tentang ...",
+              "answer": "Keesaan Allah",
+              "explanation": "Jawaban: Keesaan Allah",
+              "options": [
+                "Kisah nabi",
+                "Adab makan",
+                "Keesaan Allah"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d030",
+              "topic": "Mengenal Surat-Surat Pendek",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kitab suci umat Islam bernama ...",
+              "answer": "Al-Qur'an",
+              "explanation": "Al-Qur'an",
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "pai2-d031",
+              "topic": "Mengenal Surat-Surat Pendek",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kumpulan surat-surat pendek di juz terakhir Al-Qur'an biasa disebut ...",
+              "answer": "Juz 'Amma",
+              "explanation": "Jawaban: Juz 'Amma",
+              "options": [
+                "Juz 1",
+                "Al-Fatihah",
+                "Juz 'Amma"
+              ],
+              "grade": 2,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": [],
+  "catatan": "WAJIB direview ustadz/guru agama sebelum dipakai -- semua soal sumber draft_ai_perlu_review"
+}

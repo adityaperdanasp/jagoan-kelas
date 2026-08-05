@@ -1,0 +1,1771 @@
+{
+  "kelas": 1,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Greetings & Introductions",
+          "soal": [
+            {
+              "id": "ing1-d001",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hello' dalam Bahasa Indonesia?",
+              "answer": "halo",
+              "explanation": "Apa arti kata 'hello' dalam Bahasa Indonesia? -> halo",
+              "options": [
+                "selamat pagi",
+                "sampai jumpa",
+                "halo"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d002",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'halo' adalah ...",
+              "answer": "Hello",
+              "explanation": "Bahasa Inggris dari 'halo' adalah ... -> Hello",
+              "options": [
+                "Good morning",
+                "Good bye",
+                "Hello"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d003",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'good morning' dalam Bahasa Indonesia?",
+              "answer": "selamat pagi",
+              "explanation": "Apa arti kata 'good morning' dalam Bahasa Indonesia? -> selamat pagi",
+              "options": [
+                "halo",
+                "sampai jumpa",
+                "selamat pagi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d004",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'selamat pagi' adalah ...",
+              "answer": "Good morning",
+              "explanation": "Bahasa Inggris dari 'selamat pagi' adalah ... -> Good morning",
+              "options": [
+                "Hello",
+                "Good bye",
+                "Good morning"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d005",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'good bye' dalam Bahasa Indonesia?",
+              "answer": "sampai jumpa",
+              "explanation": "Apa arti kata 'good bye' dalam Bahasa Indonesia? -> sampai jumpa",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "sampai jumpa"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d006",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sampai jumpa' adalah ...",
+              "answer": "Good bye",
+              "explanation": "Bahasa Inggris dari 'sampai jumpa' adalah ... -> Good bye",
+              "options": [
+                "Hello",
+                "Good morning",
+                "Good bye"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d007",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'please' dalam Bahasa Indonesia?",
+              "answer": "tolong",
+              "explanation": "Apa arti kata 'please' dalam Bahasa Indonesia? -> tolong",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "tolong"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d008",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tolong' adalah ...",
+              "answer": "Please",
+              "explanation": "Bahasa Inggris dari 'tolong' adalah ... -> Please",
+              "options": [
+                "Hello",
+                "Good morning",
+                "Please"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d009",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'thank you' dalam Bahasa Indonesia?",
+              "answer": "terima kasih",
+              "explanation": "Apa arti kata 'thank you' dalam Bahasa Indonesia? -> terima kasih",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "terima kasih"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d010",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'terima kasih' adalah ...",
+              "answer": "Thank you",
+              "explanation": "Bahasa Inggris dari 'terima kasih' adalah ... -> Thank you",
+              "options": [
+                "Hello",
+                "Good morning",
+                "Thank you"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d011",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sorry' dalam Bahasa Indonesia?",
+              "answer": "maaf",
+              "explanation": "Apa arti kata 'sorry' dalam Bahasa Indonesia? -> maaf",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "maaf"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d012",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'maaf' adalah ...",
+              "answer": "Sorry",
+              "explanation": "Bahasa Inggris dari 'maaf' adalah ... -> Sorry",
+              "options": [
+                "Hello",
+                "Good morning",
+                "Sorry"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d013",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'my name is' dalam Bahasa Indonesia?",
+              "answer": "nama saya",
+              "explanation": "Apa arti kata 'my name is' dalam Bahasa Indonesia? -> nama saya",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "nama saya"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d014",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'nama saya' adalah ...",
+              "answer": "My name is",
+              "explanation": "Bahasa Inggris dari 'nama saya' adalah ... -> My name is",
+              "options": [
+                "Hello",
+                "Good morning",
+                "My name is"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d015",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'yes' dalam Bahasa Indonesia?",
+              "answer": "iya",
+              "explanation": "Apa arti kata 'yes' dalam Bahasa Indonesia? -> iya",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "iya"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d016",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'iya' adalah ...",
+              "answer": "Yes",
+              "explanation": "Bahasa Inggris dari 'iya' adalah ... -> Yes",
+              "options": [
+                "Hello",
+                "Good morning",
+                "Yes"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d017",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'no' dalam Bahasa Indonesia?",
+              "answer": "tidak",
+              "explanation": "Apa arti kata 'no' dalam Bahasa Indonesia? -> tidak",
+              "options": [
+                "halo",
+                "selamat pagi",
+                "tidak"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d018",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tidak' adalah ...",
+              "answer": "No",
+              "explanation": "Bahasa Inggris dari 'tidak' adalah ... -> No",
+              "options": [
+                "Hello",
+                "Good morning",
+                "No"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d019",
+              "topic": "Greetings & Introductions",
+              "type": "short_answer",
+              "difficulty": "easy",
+              "question": "Lengkapi: 'Hello, my ___ is Azka.' (nama)",
+              "answer": "name",
+              "explanation": "name",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d020",
+              "topic": "Greetings & Introductions",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Ucapan yang tepat saat bertemu teman di pagi hari adalah ...",
+              "answer": "Good morning",
+              "explanation": "Ucapan yang tepat saat bertemu teman di pagi hari adalah ... -> Good morning",
+              "options": [
+                "Good night",
+                "Good bye",
+                "Good morning"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Numbers 1-10",
+          "soal": [
+            {
+              "id": "ing1-d021",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'one' dalam Bahasa Indonesia?",
+              "answer": "satu",
+              "explanation": "Apa arti kata 'one' dalam Bahasa Indonesia? -> satu",
+              "options": [
+                "dua",
+                "tiga",
+                "satu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d022",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'satu' adalah ...",
+              "answer": "One",
+              "explanation": "Bahasa Inggris dari 'satu' adalah ... -> One",
+              "options": [
+                "Two",
+                "Three",
+                "One"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d023",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'two' dalam Bahasa Indonesia?",
+              "answer": "dua",
+              "explanation": "Apa arti kata 'two' dalam Bahasa Indonesia? -> dua",
+              "options": [
+                "satu",
+                "tiga",
+                "dua"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d024",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'dua' adalah ...",
+              "answer": "Two",
+              "explanation": "Bahasa Inggris dari 'dua' adalah ... -> Two",
+              "options": [
+                "One",
+                "Three",
+                "Two"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d025",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'three' dalam Bahasa Indonesia?",
+              "answer": "tiga",
+              "explanation": "Apa arti kata 'three' dalam Bahasa Indonesia? -> tiga",
+              "options": [
+                "satu",
+                "dua",
+                "tiga"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d026",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tiga' adalah ...",
+              "answer": "Three",
+              "explanation": "Bahasa Inggris dari 'tiga' adalah ... -> Three",
+              "options": [
+                "One",
+                "Two",
+                "Three"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d027",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'four' dalam Bahasa Indonesia?",
+              "answer": "empat",
+              "explanation": "Apa arti kata 'four' dalam Bahasa Indonesia? -> empat",
+              "options": [
+                "satu",
+                "dua",
+                "empat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d028",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'empat' adalah ...",
+              "answer": "Four",
+              "explanation": "Bahasa Inggris dari 'empat' adalah ... -> Four",
+              "options": [
+                "One",
+                "Two",
+                "Four"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d029",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'five' dalam Bahasa Indonesia?",
+              "answer": "lima",
+              "explanation": "Apa arti kata 'five' dalam Bahasa Indonesia? -> lima",
+              "options": [
+                "satu",
+                "dua",
+                "lima"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d030",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'lima' adalah ...",
+              "answer": "Five",
+              "explanation": "Bahasa Inggris dari 'lima' adalah ... -> Five",
+              "options": [
+                "One",
+                "Two",
+                "Five"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d031",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'six' dalam Bahasa Indonesia?",
+              "answer": "enam",
+              "explanation": "Apa arti kata 'six' dalam Bahasa Indonesia? -> enam",
+              "options": [
+                "satu",
+                "dua",
+                "enam"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d032",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'enam' adalah ...",
+              "answer": "Six",
+              "explanation": "Bahasa Inggris dari 'enam' adalah ... -> Six",
+              "options": [
+                "One",
+                "Two",
+                "Six"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d033",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'seven' dalam Bahasa Indonesia?",
+              "answer": "tujuh",
+              "explanation": "Apa arti kata 'seven' dalam Bahasa Indonesia? -> tujuh",
+              "options": [
+                "satu",
+                "dua",
+                "tujuh"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d034",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tujuh' adalah ...",
+              "answer": "Seven",
+              "explanation": "Bahasa Inggris dari 'tujuh' adalah ... -> Seven",
+              "options": [
+                "One",
+                "Two",
+                "Seven"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d035",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'eight' dalam Bahasa Indonesia?",
+              "answer": "delapan",
+              "explanation": "Apa arti kata 'eight' dalam Bahasa Indonesia? -> delapan",
+              "options": [
+                "satu",
+                "dua",
+                "delapan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d036",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'delapan' adalah ...",
+              "answer": "Eight",
+              "explanation": "Bahasa Inggris dari 'delapan' adalah ... -> Eight",
+              "options": [
+                "One",
+                "Two",
+                "Eight"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d037",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'nine' dalam Bahasa Indonesia?",
+              "answer": "sembilan",
+              "explanation": "Apa arti kata 'nine' dalam Bahasa Indonesia? -> sembilan",
+              "options": [
+                "satu",
+                "dua",
+                "sembilan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d038",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sembilan' adalah ...",
+              "answer": "Nine",
+              "explanation": "Bahasa Inggris dari 'sembilan' adalah ... -> Nine",
+              "options": [
+                "One",
+                "Two",
+                "Nine"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d039",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'ten' dalam Bahasa Indonesia?",
+              "answer": "sepuluh",
+              "explanation": "Apa arti kata 'ten' dalam Bahasa Indonesia? -> sepuluh",
+              "options": [
+                "satu",
+                "dua",
+                "sepuluh"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d040",
+              "topic": "Numbers 1-10",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepuluh' adalah ...",
+              "answer": "Ten",
+              "explanation": "Bahasa Inggris dari 'sepuluh' adalah ... -> Ten",
+              "options": [
+                "One",
+                "Two",
+                "Ten"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d041",
+              "topic": "Numbers 1-10",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Tulis dalam Bahasa Inggris: 5 + 2 = ... (tujuh)",
+              "answer": "seven",
+              "explanation": "seven",
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Colors",
+          "soal": [
+            {
+              "id": "ing1-d042",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'red' dalam Bahasa Indonesia?",
+              "answer": "merah",
+              "explanation": "Apa arti kata 'red' dalam Bahasa Indonesia? -> merah",
+              "options": [
+                "biru",
+                "kuning",
+                "merah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d043",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'merah' adalah ...",
+              "answer": "Red",
+              "explanation": "Bahasa Inggris dari 'merah' adalah ... -> Red",
+              "options": [
+                "Blue",
+                "Yellow",
+                "Red"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d044",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'blue' dalam Bahasa Indonesia?",
+              "answer": "biru",
+              "explanation": "Apa arti kata 'blue' dalam Bahasa Indonesia? -> biru",
+              "options": [
+                "merah",
+                "kuning",
+                "biru"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d045",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'biru' adalah ...",
+              "answer": "Blue",
+              "explanation": "Bahasa Inggris dari 'biru' adalah ... -> Blue",
+              "options": [
+                "Red",
+                "Yellow",
+                "Blue"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d046",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'yellow' dalam Bahasa Indonesia?",
+              "answer": "kuning",
+              "explanation": "Apa arti kata 'yellow' dalam Bahasa Indonesia? -> kuning",
+              "options": [
+                "merah",
+                "biru",
+                "kuning"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d047",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kuning' adalah ...",
+              "answer": "Yellow",
+              "explanation": "Bahasa Inggris dari 'kuning' adalah ... -> Yellow",
+              "options": [
+                "Red",
+                "Blue",
+                "Yellow"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d048",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'green' dalam Bahasa Indonesia?",
+              "answer": "hijau",
+              "explanation": "Apa arti kata 'green' dalam Bahasa Indonesia? -> hijau",
+              "options": [
+                "merah",
+                "biru",
+                "hijau"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d049",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hijau' adalah ...",
+              "answer": "Green",
+              "explanation": "Bahasa Inggris dari 'hijau' adalah ... -> Green",
+              "options": [
+                "Red",
+                "Blue",
+                "Green"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d050",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'black' dalam Bahasa Indonesia?",
+              "answer": "hitam",
+              "explanation": "Apa arti kata 'black' dalam Bahasa Indonesia? -> hitam",
+              "options": [
+                "merah",
+                "biru",
+                "hitam"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d051",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hitam' adalah ...",
+              "answer": "Black",
+              "explanation": "Bahasa Inggris dari 'hitam' adalah ... -> Black",
+              "options": [
+                "Red",
+                "Blue",
+                "Black"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d052",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'white' dalam Bahasa Indonesia?",
+              "answer": "putih",
+              "explanation": "Apa arti kata 'white' dalam Bahasa Indonesia? -> putih",
+              "options": [
+                "merah",
+                "biru",
+                "putih"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d053",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'putih' adalah ...",
+              "answer": "White",
+              "explanation": "Bahasa Inggris dari 'putih' adalah ... -> White",
+              "options": [
+                "Red",
+                "Blue",
+                "White"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d054",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'orange' dalam Bahasa Indonesia?",
+              "answer": "oranye",
+              "explanation": "Apa arti kata 'orange' dalam Bahasa Indonesia? -> oranye",
+              "options": [
+                "merah",
+                "biru",
+                "oranye"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d055",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'oranye' adalah ...",
+              "answer": "Orange",
+              "explanation": "Bahasa Inggris dari 'oranye' adalah ... -> Orange",
+              "options": [
+                "Red",
+                "Blue",
+                "Orange"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d056",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'pink' dalam Bahasa Indonesia?",
+              "answer": "merah muda",
+              "explanation": "Apa arti kata 'pink' dalam Bahasa Indonesia? -> merah muda",
+              "options": [
+                "merah",
+                "biru",
+                "merah muda"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d057",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'merah muda' adalah ...",
+              "answer": "Pink",
+              "explanation": "Bahasa Inggris dari 'merah muda' adalah ... -> Pink",
+              "options": [
+                "Red",
+                "Blue",
+                "Pink"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d058",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Warna langit yang cerah adalah ...",
+              "answer": "Blue",
+              "explanation": "Warna langit yang cerah adalah ... -> Blue",
+              "options": [
+                "Red",
+                "Black",
+                "Blue"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d059",
+              "topic": "Colors",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Warna daun biasanya adalah ...",
+              "answer": "Green",
+              "explanation": "Warna daun biasanya adalah ... -> Green",
+              "options": [
+                "Yellow",
+                "Pink",
+                "Green"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Family Members",
+          "soal": [
+            {
+              "id": "ing1-d060",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'father' dalam Bahasa Indonesia?",
+              "answer": "ayah",
+              "explanation": "Apa arti kata 'father' dalam Bahasa Indonesia? -> ayah",
+              "options": [
+                "ibu",
+                "kakak/adik laki-laki",
+                "ayah"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d061",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ayah' adalah ...",
+              "answer": "Father",
+              "explanation": "Bahasa Inggris dari 'ayah' adalah ... -> Father",
+              "options": [
+                "Mother",
+                "Brother",
+                "Father"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d062",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mother' dalam Bahasa Indonesia?",
+              "answer": "ibu",
+              "explanation": "Apa arti kata 'mother' dalam Bahasa Indonesia? -> ibu",
+              "options": [
+                "ayah",
+                "kakak/adik laki-laki",
+                "ibu"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d063",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ibu' adalah ...",
+              "answer": "Mother",
+              "explanation": "Bahasa Inggris dari 'ibu' adalah ... -> Mother",
+              "options": [
+                "Father",
+                "Brother",
+                "Mother"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d064",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'brother' dalam Bahasa Indonesia?",
+              "answer": "kakak/adik laki-laki",
+              "explanation": "Apa arti kata 'brother' dalam Bahasa Indonesia? -> kakak/adik laki-laki",
+              "options": [
+                "ayah",
+                "ibu",
+                "kakak/adik laki-laki"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d065",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kakak/adik laki-laki' adalah ...",
+              "answer": "Brother",
+              "explanation": "Bahasa Inggris dari 'kakak/adik laki-laki' adalah ... -> Brother",
+              "options": [
+                "Father",
+                "Mother",
+                "Brother"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d066",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sister' dalam Bahasa Indonesia?",
+              "answer": "kakak/adik perempuan",
+              "explanation": "Apa arti kata 'sister' dalam Bahasa Indonesia? -> kakak/adik perempuan",
+              "options": [
+                "ayah",
+                "ibu",
+                "kakak/adik perempuan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d067",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kakak/adik perempuan' adalah ...",
+              "answer": "Sister",
+              "explanation": "Bahasa Inggris dari 'kakak/adik perempuan' adalah ... -> Sister",
+              "options": [
+                "Father",
+                "Mother",
+                "Sister"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d068",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'grandmother' dalam Bahasa Indonesia?",
+              "answer": "nenek",
+              "explanation": "Apa arti kata 'grandmother' dalam Bahasa Indonesia? -> nenek",
+              "options": [
+                "ayah",
+                "ibu",
+                "nenek"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d069",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'nenek' adalah ...",
+              "answer": "Grandmother",
+              "explanation": "Bahasa Inggris dari 'nenek' adalah ... -> Grandmother",
+              "options": [
+                "Father",
+                "Mother",
+                "Grandmother"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d070",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'grandfather' dalam Bahasa Indonesia?",
+              "answer": "kakek",
+              "explanation": "Apa arti kata 'grandfather' dalam Bahasa Indonesia? -> kakek",
+              "options": [
+                "ayah",
+                "ibu",
+                "kakek"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d071",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kakek' adalah ...",
+              "answer": "Grandfather",
+              "explanation": "Bahasa Inggris dari 'kakek' adalah ... -> Grandfather",
+              "options": [
+                "Father",
+                "Mother",
+                "Grandfather"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d072",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'baby' dalam Bahasa Indonesia?",
+              "answer": "bayi",
+              "explanation": "Apa arti kata 'baby' dalam Bahasa Indonesia? -> bayi",
+              "options": [
+                "ayah",
+                "ibu",
+                "bayi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d073",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bayi' adalah ...",
+              "answer": "Baby",
+              "explanation": "Bahasa Inggris dari 'bayi' adalah ... -> Baby",
+              "options": [
+                "Father",
+                "Mother",
+                "Baby"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d074",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'family' dalam Bahasa Indonesia?",
+              "answer": "keluarga",
+              "explanation": "Apa arti kata 'family' dalam Bahasa Indonesia? -> keluarga",
+              "options": [
+                "ayah",
+                "ibu",
+                "keluarga"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d075",
+              "topic": "Family Members",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'keluarga' adalah ...",
+              "answer": "Family",
+              "explanation": "Bahasa Inggris dari 'keluarga' adalah ... -> Family",
+              "options": [
+                "Father",
+                "Mother",
+                "Family"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Animals",
+          "soal": [
+            {
+              "id": "ing1-d076",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cat' dalam Bahasa Indonesia?",
+              "answer": "kucing",
+              "explanation": "Apa arti kata 'cat' dalam Bahasa Indonesia? -> kucing",
+              "options": [
+                "anjing",
+                "burung",
+                "kucing"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d077",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kucing' adalah ...",
+              "answer": "Cat",
+              "explanation": "Bahasa Inggris dari 'kucing' adalah ... -> Cat",
+              "options": [
+                "Dog",
+                "Bird",
+                "Cat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d078",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'dog' dalam Bahasa Indonesia?",
+              "answer": "anjing",
+              "explanation": "Apa arti kata 'dog' dalam Bahasa Indonesia? -> anjing",
+              "options": [
+                "kucing",
+                "burung",
+                "anjing"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d079",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'anjing' adalah ...",
+              "answer": "Dog",
+              "explanation": "Bahasa Inggris dari 'anjing' adalah ... -> Dog",
+              "options": [
+                "Cat",
+                "Bird",
+                "Dog"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d080",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'bird' dalam Bahasa Indonesia?",
+              "answer": "burung",
+              "explanation": "Apa arti kata 'bird' dalam Bahasa Indonesia? -> burung",
+              "options": [
+                "kucing",
+                "anjing",
+                "burung"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d081",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'burung' adalah ...",
+              "answer": "Bird",
+              "explanation": "Bahasa Inggris dari 'burung' adalah ... -> Bird",
+              "options": [
+                "Cat",
+                "Dog",
+                "Bird"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d082",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'fish' dalam Bahasa Indonesia?",
+              "answer": "ikan",
+              "explanation": "Apa arti kata 'fish' dalam Bahasa Indonesia? -> ikan",
+              "options": [
+                "kucing",
+                "anjing",
+                "ikan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d083",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ikan' adalah ...",
+              "answer": "Fish",
+              "explanation": "Bahasa Inggris dari 'ikan' adalah ... -> Fish",
+              "options": [
+                "Cat",
+                "Dog",
+                "Fish"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d084",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cow' dalam Bahasa Indonesia?",
+              "answer": "sapi",
+              "explanation": "Apa arti kata 'cow' dalam Bahasa Indonesia? -> sapi",
+              "options": [
+                "kucing",
+                "anjing",
+                "sapi"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d085",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sapi' adalah ...",
+              "answer": "Cow",
+              "explanation": "Bahasa Inggris dari 'sapi' adalah ... -> Cow",
+              "options": [
+                "Cat",
+                "Dog",
+                "Cow"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d086",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'chicken' dalam Bahasa Indonesia?",
+              "answer": "ayam",
+              "explanation": "Apa arti kata 'chicken' dalam Bahasa Indonesia? -> ayam",
+              "options": [
+                "kucing",
+                "anjing",
+                "ayam"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d087",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ayam' adalah ...",
+              "answer": "Chicken",
+              "explanation": "Bahasa Inggris dari 'ayam' adalah ... -> Chicken",
+              "options": [
+                "Cat",
+                "Dog",
+                "Chicken"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d088",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'goat' dalam Bahasa Indonesia?",
+              "answer": "kambing",
+              "explanation": "Apa arti kata 'goat' dalam Bahasa Indonesia? -> kambing",
+              "options": [
+                "kucing",
+                "anjing",
+                "kambing"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d089",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kambing' adalah ...",
+              "answer": "Goat",
+              "explanation": "Bahasa Inggris dari 'kambing' adalah ... -> Goat",
+              "options": [
+                "Cat",
+                "Dog",
+                "Goat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d090",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'duck' dalam Bahasa Indonesia?",
+              "answer": "bebek",
+              "explanation": "Apa arti kata 'duck' dalam Bahasa Indonesia? -> bebek",
+              "options": [
+                "kucing",
+                "anjing",
+                "bebek"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d091",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bebek' adalah ...",
+              "answer": "Duck",
+              "explanation": "Bahasa Inggris dari 'bebek' adalah ... -> Duck",
+              "options": [
+                "Cat",
+                "Dog",
+                "Duck"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d092",
+              "topic": "Animals",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Hewan yang berkata 'meow' adalah ...",
+              "answer": "Cat",
+              "explanation": "Hewan yang berkata 'meow' adalah ... -> Cat",
+              "options": [
+                "Dog",
+                "Bird",
+                "Cat"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Body Parts",
+          "soal": [
+            {
+              "id": "ing1-d093",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'head' dalam Bahasa Indonesia?",
+              "answer": "kepala",
+              "explanation": "Apa arti kata 'head' dalam Bahasa Indonesia? -> kepala",
+              "options": [
+                "tangan",
+                "kaki",
+                "kepala"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d094",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kepala' adalah ...",
+              "answer": "Head",
+              "explanation": "Bahasa Inggris dari 'kepala' adalah ... -> Head",
+              "options": [
+                "Hand",
+                "Leg",
+                "Head"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d095",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hand' dalam Bahasa Indonesia?",
+              "answer": "tangan",
+              "explanation": "Apa arti kata 'hand' dalam Bahasa Indonesia? -> tangan",
+              "options": [
+                "kepala",
+                "kaki",
+                "tangan"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d096",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tangan' adalah ...",
+              "answer": "Hand",
+              "explanation": "Bahasa Inggris dari 'tangan' adalah ... -> Hand",
+              "options": [
+                "Head",
+                "Leg",
+                "Hand"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d097",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'leg' dalam Bahasa Indonesia?",
+              "answer": "kaki",
+              "explanation": "Apa arti kata 'leg' dalam Bahasa Indonesia? -> kaki",
+              "options": [
+                "kepala",
+                "tangan",
+                "kaki"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d098",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kaki' adalah ...",
+              "answer": "Leg",
+              "explanation": "Bahasa Inggris dari 'kaki' adalah ... -> Leg",
+              "options": [
+                "Head",
+                "Hand",
+                "Leg"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d099",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'eye' dalam Bahasa Indonesia?",
+              "answer": "mata",
+              "explanation": "Apa arti kata 'eye' dalam Bahasa Indonesia? -> mata",
+              "options": [
+                "kepala",
+                "tangan",
+                "mata"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d100",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mata' adalah ...",
+              "answer": "Eye",
+              "explanation": "Bahasa Inggris dari 'mata' adalah ... -> Eye",
+              "options": [
+                "Head",
+                "Hand",
+                "Eye"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d101",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'ear' dalam Bahasa Indonesia?",
+              "answer": "telinga",
+              "explanation": "Apa arti kata 'ear' dalam Bahasa Indonesia? -> telinga",
+              "options": [
+                "kepala",
+                "tangan",
+                "telinga"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d102",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'telinga' adalah ...",
+              "answer": "Ear",
+              "explanation": "Bahasa Inggris dari 'telinga' adalah ... -> Ear",
+              "options": [
+                "Head",
+                "Hand",
+                "Ear"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d103",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'nose' dalam Bahasa Indonesia?",
+              "answer": "hidung",
+              "explanation": "Apa arti kata 'nose' dalam Bahasa Indonesia? -> hidung",
+              "options": [
+                "kepala",
+                "tangan",
+                "hidung"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d104",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'hidung' adalah ...",
+              "answer": "Nose",
+              "explanation": "Bahasa Inggris dari 'hidung' adalah ... -> Nose",
+              "options": [
+                "Head",
+                "Hand",
+                "Nose"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d105",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'mouth' dalam Bahasa Indonesia?",
+              "answer": "mulut",
+              "explanation": "Apa arti kata 'mouth' dalam Bahasa Indonesia? -> mulut",
+              "options": [
+                "kepala",
+                "tangan",
+                "mulut"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d106",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mulut' adalah ...",
+              "answer": "Mouth",
+              "explanation": "Bahasa Inggris dari 'mulut' adalah ... -> Mouth",
+              "options": [
+                "Head",
+                "Hand",
+                "Mouth"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d107",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'hair' dalam Bahasa Indonesia?",
+              "answer": "rambut",
+              "explanation": "Apa arti kata 'hair' dalam Bahasa Indonesia? -> rambut",
+              "options": [
+                "kepala",
+                "tangan",
+                "rambut"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing1-d108",
+              "topic": "Body Parts",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rambut' adalah ...",
+              "answer": "Hair",
+              "explanation": "Bahasa Inggris dari 'rambut' adalah ... -> Hair",
+              "options": [
+                "Head",
+                "Hand",
+                "Hair"
+              ],
+              "grade": 1,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

@@ -1,0 +1,1344 @@
+{
+  "kelas": 5,
+  "mapel": "Bahasa Inggris",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Greetings & Simple Dialogues",
+          "soal": [
+            {
+              "id": "ing5-d001",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'how are you' dalam Bahasa Indonesia?",
+              "answer": "apa kabar",
+              "explanation": "Apa arti kata 'how are you' dalam Bahasa Indonesia? -> apa kabar",
+              "options": [
+                "saya baik-baik saja",
+                "senang bertemu denganmu",
+                "apa kabar"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d002",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'apa kabar' adalah ...",
+              "answer": "How are you",
+              "explanation": "Bahasa Inggris dari 'apa kabar' adalah ... -> How are you",
+              "options": [
+                "I am fine",
+                "Nice to meet you",
+                "How are you"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d003",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'i am fine' dalam Bahasa Indonesia?",
+              "answer": "saya baik-baik saja",
+              "explanation": "Apa arti kata 'i am fine' dalam Bahasa Indonesia? -> saya baik-baik saja",
+              "options": [
+                "apa kabar",
+                "senang bertemu denganmu",
+                "saya baik-baik saja"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d004",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'saya baik-baik saja' adalah ...",
+              "answer": "I am fine",
+              "explanation": "Bahasa Inggris dari 'saya baik-baik saja' adalah ... -> I am fine",
+              "options": [
+                "How are you",
+                "Nice to meet you",
+                "I am fine"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d005",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'nice to meet you' dalam Bahasa Indonesia?",
+              "answer": "senang bertemu denganmu",
+              "explanation": "Apa arti kata 'nice to meet you' dalam Bahasa Indonesia? -> senang bertemu denganmu",
+              "options": [
+                "apa kabar",
+                "saya baik-baik saja",
+                "senang bertemu denganmu"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d006",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'senang bertemu denganmu' adalah ...",
+              "answer": "Nice to meet you",
+              "explanation": "Bahasa Inggris dari 'senang bertemu denganmu' adalah ... -> Nice to meet you",
+              "options": [
+                "How are you",
+                "I am fine",
+                "Nice to meet you"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d007",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'see you later' dalam Bahasa Indonesia?",
+              "answer": "sampai jumpa lagi",
+              "explanation": "Apa arti kata 'see you later' dalam Bahasa Indonesia? -> sampai jumpa lagi",
+              "options": [
+                "apa kabar",
+                "saya baik-baik saja",
+                "sampai jumpa lagi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d008",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sampai jumpa lagi' adalah ...",
+              "answer": "See you later",
+              "explanation": "Bahasa Inggris dari 'sampai jumpa lagi' adalah ... -> See you later",
+              "options": [
+                "How are you",
+                "I am fine",
+                "See you later"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d009",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'welcome' dalam Bahasa Indonesia?",
+              "answer": "selamat datang",
+              "explanation": "Apa arti kata 'welcome' dalam Bahasa Indonesia? -> selamat datang",
+              "options": [
+                "apa kabar",
+                "saya baik-baik saja",
+                "selamat datang"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d010",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'selamat datang' adalah ...",
+              "answer": "Welcome",
+              "explanation": "Bahasa Inggris dari 'selamat datang' adalah ... -> Welcome",
+              "options": [
+                "How are you",
+                "I am fine",
+                "Welcome"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d011",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'excuse me' dalam Bahasa Indonesia?",
+              "answer": "permisi",
+              "explanation": "Apa arti kata 'excuse me' dalam Bahasa Indonesia? -> permisi",
+              "options": [
+                "apa kabar",
+                "saya baik-baik saja",
+                "permisi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d012",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'permisi' adalah ...",
+              "answer": "Excuse me",
+              "explanation": "Bahasa Inggris dari 'permisi' adalah ... -> Excuse me",
+              "options": [
+                "How are you",
+                "I am fine",
+                "Excuse me"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d013",
+              "topic": "Greetings & Simple Dialogues",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Jawaban yang tepat untuk 'How are you?' adalah ...",
+              "answer": "I am fine, thank you",
+              "explanation": "Jawaban yang tepat untuk 'How are you?' adalah ... -> I am fine, thank you",
+              "options": [
+                "My name is Azka",
+                "It is Monday",
+                "I am fine, thank you"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Describing People",
+          "soal": [
+            {
+              "id": "ing5-d014",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'tall' dalam Bahasa Indonesia?",
+              "answer": "tinggi",
+              "explanation": "Apa arti kata 'tall' dalam Bahasa Indonesia? -> tinggi",
+              "options": [
+                "pendek",
+                "baik hati",
+                "tinggi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d015",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'tinggi' adalah ...",
+              "answer": "Tall",
+              "explanation": "Bahasa Inggris dari 'tinggi' adalah ... -> Tall",
+              "options": [
+                "Short",
+                "Kind",
+                "Tall"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d016",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'short' dalam Bahasa Indonesia?",
+              "answer": "pendek",
+              "explanation": "Apa arti kata 'short' dalam Bahasa Indonesia? -> pendek",
+              "options": [
+                "tinggi",
+                "baik hati",
+                "pendek"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d017",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pendek' adalah ...",
+              "answer": "Short",
+              "explanation": "Bahasa Inggris dari 'pendek' adalah ... -> Short",
+              "options": [
+                "Tall",
+                "Kind",
+                "Short"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d018",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'kind' dalam Bahasa Indonesia?",
+              "answer": "baik hati",
+              "explanation": "Apa arti kata 'kind' dalam Bahasa Indonesia? -> baik hati",
+              "options": [
+                "tinggi",
+                "pendek",
+                "baik hati"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d019",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'baik hati' adalah ...",
+              "answer": "Kind",
+              "explanation": "Bahasa Inggris dari 'baik hati' adalah ... -> Kind",
+              "options": [
+                "Tall",
+                "Short",
+                "Kind"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d020",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'friendly' dalam Bahasa Indonesia?",
+              "answer": "ramah",
+              "explanation": "Apa arti kata 'friendly' dalam Bahasa Indonesia? -> ramah",
+              "options": [
+                "tinggi",
+                "pendek",
+                "ramah"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d021",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'ramah' adalah ...",
+              "answer": "Friendly",
+              "explanation": "Bahasa Inggris dari 'ramah' adalah ... -> Friendly",
+              "options": [
+                "Tall",
+                "Short",
+                "Friendly"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d022",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'smart' dalam Bahasa Indonesia?",
+              "answer": "pintar",
+              "explanation": "Apa arti kata 'smart' dalam Bahasa Indonesia? -> pintar",
+              "options": [
+                "tinggi",
+                "pendek",
+                "pintar"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d023",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'pintar' adalah ...",
+              "answer": "Smart",
+              "explanation": "Bahasa Inggris dari 'pintar' adalah ... -> Smart",
+              "options": [
+                "Tall",
+                "Short",
+                "Smart"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d024",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'curly hair' dalam Bahasa Indonesia?",
+              "answer": "rambut keriting",
+              "explanation": "Apa arti kata 'curly hair' dalam Bahasa Indonesia? -> rambut keriting",
+              "options": [
+                "tinggi",
+                "pendek",
+                "rambut keriting"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d025",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rambut keriting' adalah ...",
+              "answer": "Curly hair",
+              "explanation": "Bahasa Inggris dari 'rambut keriting' adalah ... -> Curly hair",
+              "options": [
+                "Tall",
+                "Short",
+                "Curly hair"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d026",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'straight hair' dalam Bahasa Indonesia?",
+              "answer": "rambut lurus",
+              "explanation": "Apa arti kata 'straight hair' dalam Bahasa Indonesia? -> rambut lurus",
+              "options": [
+                "tinggi",
+                "pendek",
+                "rambut lurus"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d027",
+              "topic": "Describing People",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'rambut lurus' adalah ...",
+              "answer": "Straight hair",
+              "explanation": "Bahasa Inggris dari 'rambut lurus' adalah ... -> Straight hair",
+              "options": [
+                "Tall",
+                "Short",
+                "Straight hair"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d028",
+              "topic": "Describing People",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Lengkapi: 'My friend is very ___.' (baik hati)",
+              "answer": "kind",
+              "explanation": "kind",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "My Family",
+          "soal": [
+            {
+              "id": "ing5-d029",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'parents' dalam Bahasa Indonesia?",
+              "answer": "orang tua",
+              "explanation": "Apa arti kata 'parents' dalam Bahasa Indonesia? -> orang tua",
+              "options": [
+                "paman",
+                "bibi",
+                "orang tua"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d030",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'orang tua' adalah ...",
+              "answer": "Parents",
+              "explanation": "Bahasa Inggris dari 'orang tua' adalah ... -> Parents",
+              "options": [
+                "Uncle",
+                "Aunt",
+                "Parents"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d031",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'uncle' dalam Bahasa Indonesia?",
+              "answer": "paman",
+              "explanation": "Apa arti kata 'uncle' dalam Bahasa Indonesia? -> paman",
+              "options": [
+                "orang tua",
+                "bibi",
+                "paman"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d032",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'paman' adalah ...",
+              "answer": "Uncle",
+              "explanation": "Bahasa Inggris dari 'paman' adalah ... -> Uncle",
+              "options": [
+                "Parents",
+                "Aunt",
+                "Uncle"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d033",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'aunt' dalam Bahasa Indonesia?",
+              "answer": "bibi",
+              "explanation": "Apa arti kata 'aunt' dalam Bahasa Indonesia? -> bibi",
+              "options": [
+                "orang tua",
+                "paman",
+                "bibi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d034",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bibi' adalah ...",
+              "answer": "Aunt",
+              "explanation": "Bahasa Inggris dari 'bibi' adalah ... -> Aunt",
+              "options": [
+                "Parents",
+                "Uncle",
+                "Aunt"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d035",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cousin' dalam Bahasa Indonesia?",
+              "answer": "sepupu",
+              "explanation": "Apa arti kata 'cousin' dalam Bahasa Indonesia? -> sepupu",
+              "options": [
+                "orang tua",
+                "paman",
+                "sepupu"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d036",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepupu' adalah ...",
+              "answer": "Cousin",
+              "explanation": "Bahasa Inggris dari 'sepupu' adalah ... -> Cousin",
+              "options": [
+                "Parents",
+                "Uncle",
+                "Cousin"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d037",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'son' dalam Bahasa Indonesia?",
+              "answer": "anak laki-laki",
+              "explanation": "Apa arti kata 'son' dalam Bahasa Indonesia? -> anak laki-laki",
+              "options": [
+                "orang tua",
+                "paman",
+                "anak laki-laki"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d038",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'anak laki-laki' adalah ...",
+              "answer": "Son",
+              "explanation": "Bahasa Inggris dari 'anak laki-laki' adalah ... -> Son",
+              "options": [
+                "Parents",
+                "Uncle",
+                "Son"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d039",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'daughter' dalam Bahasa Indonesia?",
+              "answer": "anak perempuan",
+              "explanation": "Apa arti kata 'daughter' dalam Bahasa Indonesia? -> anak perempuan",
+              "options": [
+                "orang tua",
+                "paman",
+                "anak perempuan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d040",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'anak perempuan' adalah ...",
+              "answer": "Daughter",
+              "explanation": "Bahasa Inggris dari 'anak perempuan' adalah ... -> Daughter",
+              "options": [
+                "Parents",
+                "Uncle",
+                "Daughter"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d041",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'relative' dalam Bahasa Indonesia?",
+              "answer": "kerabat",
+              "explanation": "Apa arti kata 'relative' dalam Bahasa Indonesia? -> kerabat",
+              "options": [
+                "orang tua",
+                "paman",
+                "kerabat"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d042",
+              "topic": "My Family",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'kerabat' adalah ...",
+              "answer": "Relative",
+              "explanation": "Bahasa Inggris dari 'kerabat' adalah ... -> Relative",
+              "options": [
+                "Parents",
+                "Uncle",
+                "Relative"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Sports & Hobbies",
+          "soal": [
+            {
+              "id": "ing5-d043",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'football' dalam Bahasa Indonesia?",
+              "answer": "sepak bola",
+              "explanation": "Apa arti kata 'football' dalam Bahasa Indonesia? -> sepak bola",
+              "options": [
+                "bulu tangkis",
+                "bola basket",
+                "sepak bola"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d044",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'sepak bola' adalah ...",
+              "answer": "Football",
+              "explanation": "Bahasa Inggris dari 'sepak bola' adalah ... -> Football",
+              "options": [
+                "Badminton",
+                "Basketball",
+                "Football"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d045",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'badminton' dalam Bahasa Indonesia?",
+              "answer": "bulu tangkis",
+              "explanation": "Apa arti kata 'badminton' dalam Bahasa Indonesia? -> bulu tangkis",
+              "options": [
+                "sepak bola",
+                "bola basket",
+                "bulu tangkis"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d046",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bulu tangkis' adalah ...",
+              "answer": "Badminton",
+              "explanation": "Bahasa Inggris dari 'bulu tangkis' adalah ... -> Badminton",
+              "options": [
+                "Football",
+                "Basketball",
+                "Badminton"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d047",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'basketball' dalam Bahasa Indonesia?",
+              "answer": "bola basket",
+              "explanation": "Apa arti kata 'basketball' dalam Bahasa Indonesia? -> bola basket",
+              "options": [
+                "sepak bola",
+                "bulu tangkis",
+                "bola basket"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d048",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bola basket' adalah ...",
+              "answer": "Basketball",
+              "explanation": "Bahasa Inggris dari 'bola basket' adalah ... -> Basketball",
+              "options": [
+                "Football",
+                "Badminton",
+                "Basketball"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d049",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'volleyball' dalam Bahasa Indonesia?",
+              "answer": "bola voli",
+              "explanation": "Apa arti kata 'volleyball' dalam Bahasa Indonesia? -> bola voli",
+              "options": [
+                "sepak bola",
+                "bulu tangkis",
+                "bola voli"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d050",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'bola voli' adalah ...",
+              "answer": "Volleyball",
+              "explanation": "Bahasa Inggris dari 'bola voli' adalah ... -> Volleyball",
+              "options": [
+                "Football",
+                "Badminton",
+                "Volleyball"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d051",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'running' dalam Bahasa Indonesia?",
+              "answer": "berlari",
+              "explanation": "Apa arti kata 'running' dalam Bahasa Indonesia? -> berlari",
+              "options": [
+                "sepak bola",
+                "bulu tangkis",
+                "berlari"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d052",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'berlari' adalah ...",
+              "answer": "Running",
+              "explanation": "Bahasa Inggris dari 'berlari' adalah ... -> Running",
+              "options": [
+                "Football",
+                "Badminton",
+                "Running"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d053",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'chess' dalam Bahasa Indonesia?",
+              "answer": "catur",
+              "explanation": "Apa arti kata 'chess' dalam Bahasa Indonesia? -> catur",
+              "options": [
+                "sepak bola",
+                "bulu tangkis",
+                "catur"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d054",
+              "topic": "Sports & Hobbies",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'catur' adalah ...",
+              "answer": "Chess",
+              "explanation": "Bahasa Inggris dari 'catur' adalah ... -> Chess",
+              "options": [
+                "Football",
+                "Badminton",
+                "Chess"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Shopping",
+          "soal": [
+            {
+              "id": "ing5-d055",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'buy' dalam Bahasa Indonesia?",
+              "answer": "membeli",
+              "explanation": "Apa arti kata 'buy' dalam Bahasa Indonesia? -> membeli",
+              "options": [
+                "menjual",
+                "harga",
+                "membeli"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d056",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'membeli' adalah ...",
+              "answer": "Buy",
+              "explanation": "Bahasa Inggris dari 'membeli' adalah ... -> Buy",
+              "options": [
+                "Sell",
+                "Price",
+                "Buy"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d057",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'sell' dalam Bahasa Indonesia?",
+              "answer": "menjual",
+              "explanation": "Apa arti kata 'sell' dalam Bahasa Indonesia? -> menjual",
+              "options": [
+                "membeli",
+                "harga",
+                "menjual"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d058",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'menjual' adalah ...",
+              "answer": "Sell",
+              "explanation": "Bahasa Inggris dari 'menjual' adalah ... -> Sell",
+              "options": [
+                "Buy",
+                "Price",
+                "Sell"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d059",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'price' dalam Bahasa Indonesia?",
+              "answer": "harga",
+              "explanation": "Apa arti kata 'price' dalam Bahasa Indonesia? -> harga",
+              "options": [
+                "membeli",
+                "menjual",
+                "harga"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d060",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'harga' adalah ...",
+              "answer": "Price",
+              "explanation": "Bahasa Inggris dari 'harga' adalah ... -> Price",
+              "options": [
+                "Buy",
+                "Sell",
+                "Price"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d061",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'money' dalam Bahasa Indonesia?",
+              "answer": "uang",
+              "explanation": "Apa arti kata 'money' dalam Bahasa Indonesia? -> uang",
+              "options": [
+                "membeli",
+                "menjual",
+                "uang"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d062",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'uang' adalah ...",
+              "answer": "Money",
+              "explanation": "Bahasa Inggris dari 'uang' adalah ... -> Money",
+              "options": [
+                "Buy",
+                "Sell",
+                "Money"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d063",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'cheap' dalam Bahasa Indonesia?",
+              "answer": "murah",
+              "explanation": "Apa arti kata 'cheap' dalam Bahasa Indonesia? -> murah",
+              "options": [
+                "membeli",
+                "menjual",
+                "murah"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d064",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'murah' adalah ...",
+              "answer": "Cheap",
+              "explanation": "Bahasa Inggris dari 'murah' adalah ... -> Cheap",
+              "options": [
+                "Buy",
+                "Sell",
+                "Cheap"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d065",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'expensive' dalam Bahasa Indonesia?",
+              "answer": "mahal",
+              "explanation": "Apa arti kata 'expensive' dalam Bahasa Indonesia? -> mahal",
+              "options": [
+                "membeli",
+                "menjual",
+                "mahal"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d066",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'mahal' adalah ...",
+              "answer": "Expensive",
+              "explanation": "Bahasa Inggris dari 'mahal' adalah ... -> Expensive",
+              "options": [
+                "Buy",
+                "Sell",
+                "Expensive"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d067",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'shop' dalam Bahasa Indonesia?",
+              "answer": "toko",
+              "explanation": "Apa arti kata 'shop' dalam Bahasa Indonesia? -> toko",
+              "options": [
+                "membeli",
+                "menjual",
+                "toko"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d068",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'toko' adalah ...",
+              "answer": "Shop",
+              "explanation": "Bahasa Inggris dari 'toko' adalah ... -> Shop",
+              "options": [
+                "Buy",
+                "Sell",
+                "Shop"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d069",
+              "topic": "Shopping",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'How much is this?' dipakai untuk menanyakan ...",
+              "answer": "Harga",
+              "explanation": "'How much is this?' dipakai untuk menanyakan ... -> Harga",
+              "options": [
+                "Warna",
+                "Ukuran",
+                "Harga"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Seasons & Holidays",
+          "soal": [
+            {
+              "id": "ing5-d070",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'dry season' dalam Bahasa Indonesia?",
+              "answer": "musim kemarau",
+              "explanation": "Apa arti kata 'dry season' dalam Bahasa Indonesia? -> musim kemarau",
+              "options": [
+                "musim hujan",
+                "liburan",
+                "musim kemarau"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d071",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'musim kemarau' adalah ...",
+              "answer": "Dry season",
+              "explanation": "Bahasa Inggris dari 'musim kemarau' adalah ... -> Dry season",
+              "options": [
+                "Rainy season",
+                "Holiday",
+                "Dry season"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d072",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'rainy season' dalam Bahasa Indonesia?",
+              "answer": "musim hujan",
+              "explanation": "Apa arti kata 'rainy season' dalam Bahasa Indonesia? -> musim hujan",
+              "options": [
+                "musim kemarau",
+                "liburan",
+                "musim hujan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d073",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'musim hujan' adalah ...",
+              "answer": "Rainy season",
+              "explanation": "Bahasa Inggris dari 'musim hujan' adalah ... -> Rainy season",
+              "options": [
+                "Dry season",
+                "Holiday",
+                "Rainy season"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d074",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'holiday' dalam Bahasa Indonesia?",
+              "answer": "liburan",
+              "explanation": "Apa arti kata 'holiday' dalam Bahasa Indonesia? -> liburan",
+              "options": [
+                "musim kemarau",
+                "musim hujan",
+                "liburan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d075",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'liburan' adalah ...",
+              "answer": "Holiday",
+              "explanation": "Bahasa Inggris dari 'liburan' adalah ... -> Holiday",
+              "options": [
+                "Dry season",
+                "Rainy season",
+                "Holiday"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d076",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'vacation' dalam Bahasa Indonesia?",
+              "answer": "liburan panjang",
+              "explanation": "Apa arti kata 'vacation' dalam Bahasa Indonesia? -> liburan panjang",
+              "options": [
+                "musim kemarau",
+                "musim hujan",
+                "liburan panjang"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d077",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'liburan panjang' adalah ...",
+              "answer": "Vacation",
+              "explanation": "Bahasa Inggris dari 'liburan panjang' adalah ... -> Vacation",
+              "options": [
+                "Dry season",
+                "Rainy season",
+                "Vacation"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d078",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'celebration' dalam Bahasa Indonesia?",
+              "answer": "perayaan",
+              "explanation": "Apa arti kata 'celebration' dalam Bahasa Indonesia? -> perayaan",
+              "options": [
+                "musim kemarau",
+                "musim hujan",
+                "perayaan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d079",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'perayaan' adalah ...",
+              "answer": "Celebration",
+              "explanation": "Bahasa Inggris dari 'perayaan' adalah ... -> Celebration",
+              "options": [
+                "Dry season",
+                "Rainy season",
+                "Celebration"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d080",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Apa arti kata 'festival' dalam Bahasa Indonesia?",
+              "answer": "festival",
+              "explanation": "Apa arti kata 'festival' dalam Bahasa Indonesia? -> festival",
+              "options": [
+                "musim kemarau",
+                "musim hujan",
+                "festival"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "ing5-d081",
+              "topic": "Seasons & Holidays",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Bahasa Inggris dari 'festival' adalah ...",
+              "answer": "Festival",
+              "explanation": "Bahasa Inggris dari 'festival' adalah ... -> Festival",
+              "options": [
+                "Dry season",
+                "Rainy season",
+                "Festival"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}

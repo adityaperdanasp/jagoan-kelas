@@ -6,8 +6,9 @@ import Input from "../components/ds/Input";
 import { Badge } from "../components/ds/Badge";
 import TopicPicker from "../components/TopicPicker";
 import { signInAsChild, getPlayerDoc, sendParentMessage } from "../data/authService";
-import { setAssignedTopics, computeWeakTopics } from "../data/progressService";
+import { setAssignedTopics, computeWeakTopics, computeXpBySubject } from "../data/progressService";
 import { loadAllFocusTopics, topicId } from "../data/focusTopics";
+import { SUBJECTS } from "../data/content";
 
 const MAX_TOPICS = 8;
 
@@ -167,6 +168,39 @@ export default function ParentPortal() {
               <div style={{ fontSize: "0.78rem", color: "var(--ink-400)" }}>✨ {child.xp ?? 0} XP total</div>
             </div>
           </div>
+
+          <Section title="📊 XP per Pelajaran" desc="Rincian XP yang udah dikumpulin anak per mata pelajaran.">
+            {(() => {
+              const bySubject = computeXpBySubject(child.progress);
+              const rows = SUBJECTS.map((s) => ({ ...s, xp: bySubject[s.id] || 0 })).filter((s) => s.xp > 0);
+              if (rows.length === 0) {
+                return (
+                  <div style={{ fontSize: "0.8rem", color: "var(--ink-300)", fontStyle: "italic" }}>
+                    Belum ada XP tercatat — ayo mulai belajar dulu!
+                  </div>
+                );
+              }
+              const maxXp = Math.max(...rows.map((r) => r.xp));
+              return (
+                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  {rows
+                    .sort((a, b) => b.xp - a.xp)
+                    .map((s) => (
+                      <div key={s.id} style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                        <span style={{ fontSize: "1rem", width: 22 }}>{s.emoji}</span>
+                        <div style={{ flex: 1 }}>
+                          <div style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--ink-900)" }}>{s.name}</div>
+                          <div style={{ height: 6, background: "var(--cream-300)", borderRadius: 999, marginTop: 3 }}>
+                            <div style={{ height: "100%", width: `${(s.xp / maxXp) * 100}%`, background: "var(--pastel-green)", borderRadius: 999 }} />
+                          </div>
+                        </div>
+                        <span style={{ fontSize: "0.75rem", color: "var(--ink-400)", minWidth: 44, textAlign: "right" }}>{s.xp} XP</span>
+                      </div>
+                    ))}
+                </div>
+              );
+            })()}
+          </Section>
 
           <Section title="💌 Kirim Pesan" desc="Kirim semangat singkat — bakal muncul di layar anak pas dia buka aplikasi lagi.">
             <textarea

@@ -30,7 +30,7 @@ export function computeStatuses(rawTopics, progressMap) {
   });
 }
 
-function starsFor(accuracy) {
+export function starsFor(accuracy) {
   if (accuracy >= 0.9) return 3;
   if (accuracy >= 0.7) return 2;
   if (accuracy >= 0.4) return 1;
@@ -62,19 +62,40 @@ export async function recordTopicResult(playerId, subject, grade, babKey, { corr
 /** Focus Round -- CUMA nambah correct/wrong (buat weak-topic calc) + XP
  * kecil, SENGAJA gak nyentuh status/stars biar gak ganggu urutan
  * locked/unlocked linear di SubjectDetail (sama filosofi kayak BrainBox:
- * Focus Round nyumbang ke topicStats, bukan ke chapter-progress). */
+ * Focus Round nyumbang ke topicStats, bukan ke chapter-progress). Tetep
+ * nambahin ke path+.xp (bukan cuma top-level xp) biar computeXpBySubject
+ * ikut ngitung kontribusi Focus Round, gak cuma dari practice biasa. */
 export async function recordFocusRoundAttempt(playerId, subject, grade, babKey, { correct, wrong, xpEarned }) {
   const ref = doc(db, "players", playerId);
   const snap = await getDoc(ref);
   const data = snap.exists() ? snap.data() : {};
-  const prev = data.progress?.[subject]?.[String(grade)]?.[babKey] || { correct: 0, wrong: 0 };
+  const prev = data.progress?.[subject]?.[String(grade)]?.[babKey] || { correct: 0, wrong: 0, xp: 0 };
   const path = `progress.${subject}.${grade}.${babKey}`;
   await updateDoc(ref, {
     [path + ".correct"]: (prev.correct || 0) + correct,
     [path + ".wrong"]: (prev.wrong || 0) + wrong,
+    [path + ".xp"]: (prev.xp || 0) + xpEarned,
     [path + ".lastAt"]: Date.now(),
     xp: increment(xpEarned),
   });
+}
+
+/** Jumlahin XP per subject dari progress map -- buat breakdown di Parent
+ * Portal (sebelumnya cuma nampilin player.xp flat total). Baca dari field
+ * "xp" per bab yang udah kesimpen (practice DAN Focus Round sama-sama
+ * nyumbang ke situ), jadi gak butuh skema Firestore baru. */
+export function computeXpBySubject(progressMap) {
+  const bySubject = {};
+  for (const [subject, byGrade] of Object.entries(progressMap || {})) {
+    let total = 0;
+    for (const byBab of Object.values(byGrade || {})) {
+      for (const p of Object.values(byBab || {})) {
+        total += p.xp || 0;
+      }
+    }
+    if (total > 0) bySubject[subject] = total;
+  }
+  return bySubject;
 }
 
 export async function getAssignedTopics(playerId) {

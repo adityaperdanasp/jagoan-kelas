@@ -1,0 +1,737 @@
+{
+  "kelas": 5,
+  "mapel": "Bahasa Indonesia",
+  "semester": [
+    {
+      "semester": 1,
+      "bab": [
+        {
+          "nomor_bab": 1,
+          "judul_bab": "Teks Narasi",
+          "soal": [
+            {
+              "id": "bindo5-d001",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang menceritakan rangkaian peristiwa disebut teks ...",
+              "answer": "Narasi",
+              "explanation": "Jawaban: Narasi",
+              "options": [
+                "Eksposisi",
+                "Deskripsi",
+                "Narasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d002",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian awal cerita yang mengenalkan tokoh & latar disebut ...",
+              "answer": "Orientasi",
+              "explanation": "Jawaban: Orientasi",
+              "options": [
+                "Resolusi",
+                "Koda",
+                "Orientasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d003",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian cerita yang berisi masalah/konflik disebut ...",
+              "answer": "Komplikasi",
+              "explanation": "Jawaban: Komplikasi",
+              "options": [
+                "Orientasi",
+                "Koda",
+                "Komplikasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d004",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian cerita yang berisi penyelesaian masalah disebut ...",
+              "answer": "Resolusi",
+              "explanation": "Jawaban: Resolusi",
+              "options": [
+                "Komplikasi",
+                "Orientasi",
+                "Resolusi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d005",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "question": "Contoh teks narasi adalah ...",
+              "answer": "Cerita dongeng",
+              "explanation": "Jawaban: Cerita dongeng",
+              "options": [
+                "Resep masakan",
+                "Iklan produk",
+                "Cerita dongeng"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d006",
+              "topic": "Teks Narasi",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Urutan waktu kejadian dalam cerita disebut ...",
+              "answer": "Alur",
+              "explanation": "Alur",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d007",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bagian akhir cerita yang berisi pesan/pelajaran disebut ...",
+              "answer": "Koda",
+              "explanation": "Jawaban: Koda",
+              "options": [
+                "Orientasi",
+                "Komplikasi",
+                "Koda"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d008",
+              "topic": "Teks Narasi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Cerita rakyat termasuk salah satu jenis teks ...",
+              "answer": "Narasi",
+              "explanation": "Jawaban: Narasi",
+              "options": [
+                "Eksposisi",
+                "Prosedur",
+                "Narasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 2,
+          "judul_bab": "Teks Eksposisi",
+          "soal": [
+            {
+              "id": "bindo5-d009",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks yang menjelaskan suatu topik dengan fakta disebut teks ...",
+              "answer": "Eksposisi",
+              "explanation": "Jawaban: Eksposisi",
+              "options": [
+                "Narasi",
+                "Puisi",
+                "Eksposisi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d010",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks eksposisi bertujuan untuk ...",
+              "answer": "Memberi informasi/menjelaskan",
+              "explanation": "Jawaban: Memberi informasi/menjelaskan",
+              "options": [
+                "Menghibur pembaca",
+                "Membujuk pembaca",
+                "Memberi informasi/menjelaskan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d011",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat berisi kenyataan yang bisa dibuktikan disebut kalimat ...",
+              "answer": "Fakta",
+              "explanation": "Jawaban: Fakta",
+              "options": [
+                "Pendapat/opini",
+                "Ajakan",
+                "Fakta"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d012",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kalimat berisi pikiran/perasaan seseorang disebut kalimat ...",
+              "answer": "Pendapat/opini",
+              "explanation": "Jawaban: Pendapat/opini",
+              "options": [
+                "Fakta",
+                "Perintah",
+                "Pendapat/opini"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d013",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'Menurutku, cerita ini sangat seru' adalah contoh kalimat ...",
+              "answer": "Opini",
+              "explanation": "Jawaban: Opini",
+              "options": [
+                "Fakta",
+                "Prosedur",
+                "Opini"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d014",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "'Indonesia memiliki 38 provinsi' adalah contoh kalimat ...",
+              "answer": "Fakta",
+              "explanation": "Jawaban: Fakta",
+              "options": [
+                "Opini",
+                "Ajakan",
+                "Fakta"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d015",
+              "topic": "Teks Eksposisi",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Teks eksposisi biasanya disusun berdasarkan ...",
+              "answer": "Data dan fakta yang akurat",
+              "explanation": "Jawaban: Data dan fakta yang akurat",
+              "options": [
+                "Khayalan penulis",
+                "Rima dan irama",
+                "Data dan fakta yang akurat"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 3,
+          "judul_bab": "Majas & Ungkapan",
+          "soal": [
+            {
+              "id": "bindo5-d016",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya bahasa yang membandingkan benda mati seolah hidup disebut majas ...",
+              "answer": "Personifikasi",
+              "explanation": "Jawaban: Personifikasi",
+              "options": [
+                "Metafora",
+                "Hiperbola",
+                "Personifikasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d017",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Angin berbisik lembut' menggunakan majas ...",
+              "answer": "Personifikasi",
+              "explanation": "Jawaban: Personifikasi",
+              "options": [
+                "Metafora",
+                "Simile",
+                "Personifikasi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d018",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya bahasa yang melebih-lebihkan disebut majas ...",
+              "answer": "Hiperbola",
+              "explanation": "Jawaban: Hiperbola",
+              "options": [
+                "Personifikasi",
+                "Metafora",
+                "Hiperbola"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d019",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "'Suaranya menggelegar sampai ke langit' menggunakan majas ...",
+              "answer": "Hiperbola",
+              "explanation": "Jawaban: Hiperbola",
+              "options": [
+                "Personifikasi",
+                "Metafora",
+                "Hiperbola"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d020",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Ungkapan 'kutu buku' artinya orang yang ...",
+              "answer": "Suka membaca/rajin membaca",
+              "explanation": "Jawaban: Suka membaca/rajin membaca",
+              "options": [
+                "Punya kutu di buku",
+                "Suka bermain",
+                "Suka membaca/rajin membaca"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d021",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Ungkapan 'buah tangan' artinya ...",
+              "answer": "Oleh-oleh",
+              "explanation": "Jawaban: Oleh-oleh",
+              "options": [
+                "Buah asli",
+                "Tangan yang berbuah",
+                "Oleh-oleh"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d022",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "hard",
+              "question": "Ungkapan 'ringan tangan' artinya orang yang suka ...",
+              "answer": "Membantu / suka memukul (tergantung konteks, umumnya suka menolong)",
+              "explanation": "Jawaban: Membantu / suka memukul (tergantung konteks, umumnya suka menolong)",
+              "options": [
+                "Malas bekerja",
+                "Sering sakit tangan",
+                "Membantu / suka memukul (tergantung konteks, umumnya suka menolong)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d023",
+              "topic": "Majas & Ungkapan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gaya bahasa yang membandingkan dua hal langsung memakai kata 'seperti/bagai' disebut majas ...",
+              "answer": "Simile/perumpamaan",
+              "explanation": "Jawaban: Simile/perumpamaan",
+              "options": [
+                "Personifikasi",
+                "Hiperbola",
+                "Simile/perumpamaan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "bab": [
+        {
+          "nomor_bab": 4,
+          "judul_bab": "Iklan & Poster",
+          "soal": [
+            {
+              "id": "bindo5-d024",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Tujuan utama iklan adalah ...",
+              "answer": "Mempromosikan/menawarkan sesuatu",
+              "explanation": "Jawaban: Mempromosikan/menawarkan sesuatu",
+              "options": [
+                "Menceritakan kisah hidup",
+                "Menjelaskan langkah memasak",
+                "Mempromosikan/menawarkan sesuatu"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d025",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Bahasa iklan biasanya bersifat ...",
+              "answer": "Singkat dan menarik",
+              "explanation": "Jawaban: Singkat dan menarik",
+              "options": [
+                "Panjang dan rumit",
+                "Formal sekali",
+                "Singkat dan menarik"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d026",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Gambar dalam poster berfungsi untuk ...",
+              "answer": "Menarik perhatian & memperjelas pesan",
+              "explanation": "Jawaban: Menarik perhatian & memperjelas pesan",
+              "options": [
+                "Menghitung angka",
+                "Mengisi halaman kosong saja",
+                "Menarik perhatian & memperjelas pesan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d027",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Poster layanan masyarakat biasanya berisi pesan tentang ...",
+              "answer": "Kesehatan/kebersihan/keselamatan",
+              "explanation": "Jawaban: Kesehatan/kebersihan/keselamatan",
+              "options": [
+                "Iklan produk mahal",
+                "Cerita fiksi",
+                "Kesehatan/kebersihan/keselamatan"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d028",
+              "topic": "Iklan & Poster",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Kalimat pendek yang mudah diingat dalam iklan disebut ...",
+              "answer": "Slogan",
+              "explanation": "Slogan",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d029",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Iklan yang muncul di televisi disebut iklan ...",
+              "answer": "Elektronik",
+              "explanation": "Jawaban: Elektronik",
+              "options": [
+                "Cetak",
+                "Baliho saja",
+                "Elektronik"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d030",
+              "topic": "Iklan & Poster",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perbedaan iklan dan poster: poster lebih sering dipakai untuk ...",
+              "answer": "Kampanye/pengumuman/ajakan sosial",
+              "explanation": "Jawaban: Kampanye/pengumuman/ajakan sosial",
+              "options": [
+                "Menjual barang selalu",
+                "Cerita fiksi",
+                "Kampanye/pengumuman/ajakan sosial"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 5,
+          "judul_bab": "Puisi & Pantun Lanjutan",
+          "soal": [
+            {
+              "id": "bindo5-d031",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pantun yang berisi nasihat disebut pantun ...",
+              "answer": "Nasihat",
+              "explanation": "Jawaban: Nasihat",
+              "options": [
+                "Jenaka",
+                "Teka-teki",
+                "Nasihat"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d032",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pantun yang berisi lelucon disebut pantun ...",
+              "answer": "Jenaka",
+              "explanation": "Jawaban: Jenaka",
+              "options": [
+                "Nasihat",
+                "Agama",
+                "Jenaka"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d033",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Puisi bebas tanpa aturan bait/rima tetap disebut puisi ...",
+              "answer": "Modern/bebas",
+              "explanation": "Jawaban: Modern/bebas",
+              "options": [
+                "Lama/terikat",
+                "Pantun",
+                "Modern/bebas"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d034",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Perasaan yang ingin disampaikan penyair dalam puisi disebut ...",
+              "answer": "Makna/pesan puisi",
+              "explanation": "Jawaban: Makna/pesan puisi",
+              "options": [
+                "Judul buku",
+                "Nama penerbit",
+                "Makna/pesan puisi"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d035",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Pengulangan bunyi dalam puisi untuk keindahan disebut ...",
+              "answer": "Rima",
+              "explanation": "Rima",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d036",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pantun teka-teki biasanya diakhiri dengan ...",
+              "answer": "Pertanyaan yang perlu ditebak",
+              "explanation": "Jawaban: Pertanyaan yang perlu ditebak",
+              "options": [
+                "Nasihat langsung",
+                "Lelucon",
+                "Pertanyaan yang perlu ditebak"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d037",
+              "topic": "Puisi & Pantun Lanjutan",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Puisi lama yang terikat aturan baris & rima disebut puisi ...",
+              "answer": "Lama/terikat (misal pantun & syair)",
+              "explanation": "Jawaban: Lama/terikat (misal pantun & syair)",
+              "options": [
+                "Bebas",
+                "Modern",
+                "Lama/terikat (misal pantun & syair)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        },
+        {
+          "nomor_bab": 6,
+          "judul_bab": "Wawancara Sederhana",
+          "soal": [
+            {
+              "id": "bindo5-d038",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Kegiatan tanya jawab untuk mendapat informasi dari narasumber disebut ...",
+              "answer": "Wawancara",
+              "explanation": "Jawaban: Wawancara",
+              "options": [
+                "Pidato",
+                "Diskusi",
+                "Wawancara"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d039",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Orang yang diwawancarai disebut ...",
+              "answer": "Narasumber",
+              "explanation": "Jawaban: Narasumber",
+              "options": [
+                "Pewawancara",
+                "Penonton",
+                "Narasumber"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d040",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Orang yang melakukan wawancara disebut ...",
+              "answer": "Pewawancara",
+              "explanation": "Jawaban: Pewawancara",
+              "options": [
+                "Narasumber",
+                "Reporter saja",
+                "Pewawancara"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d041",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Pertanyaan wawancara yang baik memakai unsur ...",
+              "answer": "5W+1H (apa, siapa, kapan, di mana, mengapa, bagaimana)",
+              "explanation": "Jawaban: 5W+1H (apa, siapa, kapan, di mana, mengapa, bagaimana)",
+              "options": [
+                "Hanya ya/tidak",
+                "Angka saja",
+                "5W+1H (apa, siapa, kapan, di mana, mengapa, bagaimana)"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d042",
+              "topic": "Wawancara Sederhana",
+              "type": "short_answer",
+              "difficulty": "medium",
+              "question": "Sebelum wawancara, sebaiknya kita menyiapkan daftar ...",
+              "answer": "Pertanyaan",
+              "explanation": "Pertanyaan",
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d043",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Sikap yang baik saat mewawancarai narasumber adalah ...",
+              "answer": "Sopan dan mendengarkan dengan saksama",
+              "explanation": "Jawaban: Sopan dan mendengarkan dengan saksama",
+              "options": [
+                "Memotong pembicaraan terus",
+                "Tidak mencatat apapun",
+                "Sopan dan mendengarkan dengan saksama"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            },
+            {
+              "id": "bindo5-d044",
+              "topic": "Wawancara Sederhana",
+              "type": "multiple_choice",
+              "difficulty": "medium",
+              "question": "Hasil wawancara biasanya ditulis dalam bentuk ...",
+              "answer": "Laporan wawancara",
+              "explanation": "Jawaban: Laporan wawancara",
+              "options": [
+                "Puisi",
+                "Iklan",
+                "Laporan wawancara"
+              ],
+              "grade": 5,
+              "sumber": "draft_ai_perlu_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "belum_terpetakan": []
+}
