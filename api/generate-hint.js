@@ -21,7 +21,7 @@ Jawaban HARUS pendek: 1-3 kalimat aja.
 Jelasin KENAPA jawaban yang benar itu benar, pakai angka/kata dari soal itu sendiri -- jangan cuma ngulang jawabannya doang.
 Jangan pernah ngarang fakta di luar yang dikasih. Selalu kasih semangat di akhir -- jawaban salah itu bagian dari belajar, bukan hal yang harus bikin minder. Jangan nyebut nama anaknya di setiap kalimat, cukup sesekali kalau natural.`;
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ error: "Method not allowed" });
     return;
@@ -86,4 +86,4 @@ module.exports = async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
-};
+}
