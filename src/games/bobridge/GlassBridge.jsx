@@ -185,7 +185,7 @@ export default function GlassBridge() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title="🌉 Bo Bridge" subtitle={`${subj.name} — Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title="🌉 Dino Bridge" subtitle={`${subj.name} — Kelas ${grade}`} />
 
       {!pool && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Nyiapin kaca...</div>

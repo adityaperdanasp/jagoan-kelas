@@ -1,13 +1,15 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-// Bo Bridge -- di-port dari azkacraft/script.js (cari komentar "Bo Bridge").
-// Banner ambient: dino jalan ngelewatin sebaris kaca, looping terus,
-// kaca-kacanya muncul di depan & ilang di belakang (reveal window
+// Dino Bridge (nama tampilan -- kode/route masih "bobridge" secara
+// internal) -- di-port dari azkacraft/script.js (cari komentar "Bo
+// Bridge"). Banner ambient: dino jalan ngelewatin sebaris kaca, looping
+// terus, kaca-kacanya muncul di depan & ilang di belakang (reveal window
 // berbasis jarak progress ke tiap kaca). TAP banner = buka Glass Bridge
 // Challenge (game beneran, route terpisah). Dino dipakai sebagai
-// "walker" (bukan Bo si maskot BrainBox) biar konsisten sama karakter
-// yang udah dipakai jagoan-kelas (DinoRace, WanderingDino).
+// "walker" (bukan Bo si maskot BrainBox, gak ada asetnya di project ini)
+// -- user eksplisit minta nama tampilan diganti "Dino Bridge" biar gak
+// bikin bingung ("kok Bo Bridge yang keluar malah dino").
 const TILES = 9;
 const DURATION_MS = 8000;
 const REVEAL_WINDOW = 0.16;
@@ -30,7 +32,9 @@ export default function BoBridgeBanner({ grade, subject }) {
       const progress = ((now - startAt) % DURATION_MS) / DURATION_MS;
       const bannerWidth = banner.clientWidth;
       const walkerX = -30 + progress * (bannerWidth + 60);
-      walker.style.transform = `translateX(${walkerX}px)`;
+      // scaleX(-1) -- emoji 🦕 defaultnya ngadep KIRI, tapi jalannya ke
+      // kanan (progress 0->1), jadi tanpa di-flip keliatan jalan mundur.
+      walker.style.transform = `translateX(${walkerX}px) scaleX(-1)`;
 
       tilesRef.current.forEach((tile, i) => {
         if (!tile) return;
@@ -52,7 +56,7 @@ export default function BoBridgeBanner({ grade, subject }) {
     <button
       ref={bannerRef}
       onClick={() => navigate(`/kelas/${grade}/${subject}/bobridge`)}
-      aria-label="Main Bo Bridge"
+      aria-label="Main Dino Bridge"
       style={{
         position: "relative",
         width: "100%",
@@ -97,7 +101,7 @@ export default function BoBridgeBanner({ grade, subject }) {
           color: "var(--ink-500)",
         }}
       >
-        🌉 Bo Bridge — tap buat main!
+        🌉 Dino Bridge — tap buat main!
       </div>
     </button>
   );
