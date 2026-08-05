@@ -9,6 +9,8 @@ import { hasContent, loadRawTopics, statusDisplay } from "../data/contentLoader"
 import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
+import { setLastGrade } from "../data/lastGrade";
+import BoBridgeBanner from "../components/BoBridgeBanner";
 
 export default function SubjectDetail() {
   const navigate = useNavigate();
@@ -18,6 +20,10 @@ export default function SubjectDetail() {
   useBgmTrack(TRACK_BY_SUBJECT[subject]);
   const [topics, setTopics] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLastGrade(grade);
+  }, [grade]);
 
   useEffect(() => {
     let cancelled = false;
@@ -123,6 +129,7 @@ export default function SubjectDetail() {
             </Button>
           </div>
         )}
+        {(subject === "bindo" || subject === "binggris") && <BoBridgeBanner grade={grade} subject={subject} />}
         <Button
           variant="primary"
           size="lg"
