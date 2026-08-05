@@ -4,11 +4,12 @@ import Button from "../../components/ds/Button";
 import { Badge } from "../../components/ds/Badge";
 
 // Halaman reveal easter egg -- unlock mechanism-nya udah jalan penuh
-// (lihat useSecretTap.js), tapi game DinoRace beneran (2-player racing,
-// butuh Firebase Realtime Database buat pairing, bukan Firestore yang
-// dipakai project ini) belum di-porting -- itu scope terpisah yang gede,
-// lihat CLAUDE.md follow-up. Ini placeholder yang jujur, bukan pura-pura
-// selesai.
+// (lihat useSecretTap.js). Game DinoRace-nya sendiri BUKAN reimplementasi
+// React (butuh Firebase Realtime Database buat pairing 2-player, beda dari
+// Firestore yang dipakai project ini) -- di-reuse langsung dari file statis
+// al-idrisi-games/dinorace (public/dinorace/index.html), sama pola kayak
+// BrainBox sendiri nge-embed DinoRace-nya. Halaman ini cuma reveal + link
+// keluar ke game statisnya.
 export default function DinoRaceUnlock() {
   const navigate = useNavigate();
   return (
@@ -20,9 +21,12 @@ export default function DinoRaceUnlock() {
           DinoRace
         </div>
         <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-500)", maxWidth: 260 }}>
-          Kombinasi rahasianya ketemu! Game balapan 2-player-nya masih disiapin, segera hadir 🚧
+          Kombinasi rahasianya ketemu! Ayo balapan dino sama temenmu 🦕
         </div>
-        <Button variant="primary" size="lg" onClick={() => navigate("/")}>
+        <Button variant="primary" size="lg" onClick={() => { window.location.href = "/dinorace/index.html"; }}>
+          Main Sekarang! 🏁
+        </Button>
+        <Button variant="ghost" size="sm" onClick={() => navigate("/")}>
           Kembali
         </Button>
       </div>

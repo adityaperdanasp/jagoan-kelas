@@ -1,12 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import { GRADES } from "../data/content";
+import WanderingDino from "../components/WanderingDino";
 
 export default function PickGrade() {
   const navigate = useNavigate();
   return (
     <Shell>
       <ScreenHeader onBack={() => navigate("/")} title="Pilih Kelas Kamu!" />
+      <WanderingDino onTap={() => { window.location.href = "/dinorace/index.html"; }} />
       <div
         style={{
           flex: 1,
