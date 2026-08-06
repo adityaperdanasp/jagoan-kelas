@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
 import QuizRunner from "../games/quiz/QuizRunner";
@@ -19,6 +19,7 @@ function pick(arr, n) {
 export default function FocusRoundQuiz() {
   const location = useLocation();
   const navigate = useNavigate();
+  const { grade } = useParams();
   const { player, login } = usePlayer();
   const topicIds = location.state?.topicIds || [];
   const [questions, setQuestions] = useState(null);
@@ -88,10 +89,10 @@ export default function FocusRoundQuiz() {
   if (topicIds.length === 0) {
     return (
       <Shell>
-        <ScreenHeader onBack={() => navigate("/")} title="Fokus Latihan" />
+        <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Fokus Latihan" />
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
           <div style={{ color: "var(--ink-400)" }}>Belum ada topik dipilih.</div>
-          <Button variant="primary" onClick={() => navigate("/fokus")}>Pilih Topik</Button>
+          <Button variant="primary" onClick={() => navigate(`/kelas/${grade}/fokus`)}>Pilih Topik</Button>
         </div>
       </Shell>
     );
@@ -99,7 +100,7 @@ export default function FocusRoundQuiz() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate("/fokus")} title="Fokus Latihan" subtitle={`${topicIds.length} topik campur`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/fokus`)} title="Fokus Latihan" subtitle={`${topicIds.length} topik campur`} />
 
       {!questions && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Menyiapin soal...</div>
@@ -121,7 +122,7 @@ export default function FocusRoundQuiz() {
           <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-700)", maxWidth: 240 }}>
             {result.encouragement}
           </div>
-          <Button variant="primary" size="lg" onClick={() => navigate("/")}>
+          <Button variant="primary" size="lg" onClick={() => navigate(`/kelas/${grade}`)}>
             Kembali
           </Button>
         </div>

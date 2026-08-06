@@ -23,6 +23,13 @@ export default function PickSubject() {
             onClick={() => navigate(`/kelas/${grade}/${s.id}`)}
           />
         ))}
+        <GameCard
+          accent="focus"
+          icon="🎯"
+          title="Fokus Latihan"
+          subtitle="Campur soal dari pelajaran manapun"
+          onClick={() => navigate(`/kelas/${grade}/fokus`)}
+        />
       </div>
     </Shell>
   );

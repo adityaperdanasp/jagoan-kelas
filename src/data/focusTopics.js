@@ -14,11 +14,10 @@ export function parseTopicId(id) {
   return { subject, grade, babKey };
 }
 
-/** Semua topik yang ADA kontennya, lintas subject x kelas 1-6, buat picker. */
-export async function loadAllFocusTopics() {
+async function loadFocusTopicsForGrades(grades) {
   const jobs = [];
   for (const subj of CONTENT_SUBJECTS) {
-    for (const grade of GRADES) {
+    for (const grade of grades) {
       jobs.push(
         loadRawTopics(subj.id, grade).then((raw) => ({ subj, grade, raw: raw || [] }))
       );
@@ -34,4 +33,17 @@ export async function loadAllFocusTopics() {
       grade: r.grade,
       topics: r.raw.map((t) => ({ id: topicId(r.subj.id, r.grade, t.key), title: t.title })),
     }));
+}
+
+/** Semua topik yang ADA kontennya, lintas subject x kelas 1-6 -- dipake ParentPortal
+ * (orang tua boleh assign topik dari kelas manapun, gak dibatasin ke 1 kelas). */
+export function loadAllFocusTopics() {
+  return loadFocusTopicsForGrades(GRADES);
+}
+
+/** Topik 1 kelas doang, lintas subject -- dipake FocusRoundPicker (2026-08-06,
+ * dipindah ke per-kelas dari `/kelas/:grade/fokus` biar list-nya gak segede
+ * lintas 6 kelas x 6 subject, kepanjangan buat di-scroll anak). */
+export function loadFocusTopicsForGrade(grade) {
+  return loadFocusTopicsForGrades([Number(grade)]);
 }

@@ -38,8 +38,8 @@ function AppRoutes() {
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/bobridge" element={<RequireAuth><GlassBridge /></RequireAuth>} />
       <Route path="/parents" element={<ParentPortal />} />
-      <Route path="/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
-      <Route path="/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
+      <Route path="/kelas/:grade/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
+      <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
     </Routes>
   );
 }

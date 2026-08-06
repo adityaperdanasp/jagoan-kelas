@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
 import TopicPicker from "../components/TopicPicker";
-import { loadAllFocusTopics } from "../data/focusTopics";
+import { loadFocusTopicsForGrade, parseTopicId } from "../data/focusTopics";
 import { getAssignedTopics } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 
@@ -11,21 +11,25 @@ const MAX_TOPICS = 8;
 
 export default function FocusRoundPicker() {
   const navigate = useNavigate();
+  const { grade } = useParams();
   const { player } = usePlayer();
   const [groups, setGroups] = useState(null);
   const [selected, setSelected] = useState([]);
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadAllFocusTopics(), getAssignedTopics(player.id)]).then(([g, assigned]) => {
+    Promise.all([loadFocusTopicsForGrade(grade), getAssignedTopics(player.id)]).then(([g, assigned]) => {
       if (cancelled) return;
       setGroups(g);
-      setSelected(assigned.slice(0, MAX_TOPICS));
+      // Assigned topics orang tua bisa lintas kelas (ParentPortal gak dibatasin) --
+      // filter ke kelas ini doang biar gak ada id "ke-select" yang gak nongol
+      // di list (bikin counter "X/8 topik dipilih" nyasar dari checkbox yang keliatan).
+      setSelected(assigned.filter((id) => parseTopicId(id).grade === String(grade)).slice(0, MAX_TOPICS));
     });
     return () => {
       cancelled = true;
     };
-  }, [player.id]);
+  }, [player.id, grade]);
 
   function toggle(id) {
     setSelected((prev) => {
@@ -37,7 +41,7 @@ export default function FocusRoundPicker() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate("/")} title="Fokus Latihan" subtitle={`Pilih sampai ${MAX_TOPICS} topik`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Fokus Latihan" subtitle={`Kelas ${grade} · Pilih sampai ${MAX_TOPICS} topik`} />
 
       <div style={{ padding: "10px 18px 0", fontFamily: "var(--font-body)", fontSize: "0.8rem", fontWeight: 700, color: "var(--ink-500)" }}>
         {selected.length} / {MAX_TOPICS} topik dipilih
@@ -57,7 +61,7 @@ export default function FocusRoundPicker() {
           size="lg"
           style={{ width: "100%", justifyContent: "center" }}
           disabled={selected.length === 0}
-          onClick={() => navigate("/fokus/main", { state: { topicIds: selected } })}
+          onClick={() => navigate(`/kelas/${grade}/fokus/main`, { state: { topicIds: selected } })}
         >
           Mulai Latihan ({selected.length})
         </Button>

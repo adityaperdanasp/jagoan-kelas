@@ -127,9 +127,6 @@ export default function Landing() {
         <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate("/kelas")}>
           Ayo Main! 🚀
         </Button>
-        <Button variant="secondary" size="md" style={{ width: "100%", justifyContent: "center", marginTop: 8 }} onClick={() => navigate("/fokus")}>
-          🎯 Fokus Latihan
-        </Button>
 
         <Link
           to="/parents"
