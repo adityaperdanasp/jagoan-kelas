@@ -96,6 +96,27 @@ button { font: inherit; }
 .jk-bitten { animation: jk-shake 0.4s ease-in-out 0s 3; }
 .jk-nitro-empty { opacity: 0.45; }
 
+/* Drive Mode dino walk-cycle -- di-port dari al-idrisi-games mathville
+   (.dino-leg / .walking / dinoLegSwing). transform-box:fill-box WAJIB di
+   sini biar transform-origin ngukur dari bounding box shape SVG-nya
+   sendiri (default-nya ngukur dari SVG viewport, bikin kaki muter dari
+   pojok kiri-atas viewBox, bukan dari pangkal kaki). */
+.jk-dino-leg { transform-box: fill-box; transform-origin: top center; }
+@keyframes jk-dino-leg-swing {
+  0%, 100% { transform: rotate(-20deg); }
+  50% { transform: rotate(20deg); }
+}
+.jk-dino-walking .jk-dino-leg-l { animation: jk-dino-leg-swing 0.3s ease-in-out infinite; }
+.jk-dino-walking .jk-dino-leg-r { animation: jk-dino-leg-swing 0.3s ease-in-out infinite reverse; }
+
+/* Vehicle skin glow -- di-port dari al-idrisi-games (.vehicle-glow +
+   --vehicle-glow custom property, di-set inline per skin lewat JS). */
+@keyframes jk-vehicle-glow-pulse {
+  0%, 100% { filter: drop-shadow(0 0 2px var(--vehicle-glow, transparent)); }
+  50% { filter: drop-shadow(0 0 8px var(--vehicle-glow, transparent)); }
+}
+.jk-vehicle-glow svg { animation: jk-vehicle-glow-pulse 1.8s ease-in-out infinite; }
+
 @keyframes jk-pop {
   0% { transform: translate(-50%, -50%) scale(0.4); opacity: 1; }
   100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }

@@ -7,6 +7,7 @@ import { useJoystick } from "../shared/useJoystick";
 import { generateQuickQuestion } from "../shared/quickQuestion";
 import { TRACK_DRIVE, useBgmTrack } from "../../data/bgm";
 import Kiko from "../../components/ds/Kiko";
+import { VEHICLE_SKINS, DinoSvg, VehicleSkinSvg } from "./vehicleArt";
 
 // Core engine di-port dari pola BrainBox mathville Drive Mode (car top-down
 // dodge + dino chase + quiz-on-obstacle-hit), versi disederhanain -- 1 dino
@@ -27,9 +28,17 @@ import Kiko from "../../components/ds/Kiko";
 // air ke arah dino -- kena TOTAL sekian frame (akumulatif lintas beberapa
 // semburan) bikin dino melambat sementara. Tombol nitro dipindah ke header
 // atas (bukan lagi kanan-bawah) biar gak rebutan tempat sama aim-joystick
-// yang butuh posisi jempol yang sama. Vehicle skin: ganti tampilan mobil
-// (emoji, bukan SVG custom kayak BrainBox -- app ini emoji-based dari
-// awal), persisten di localStorage, murni kosmetik.
+// yang butuh posisi jempol yang sama. Vehicle skin: ganti tampilan mobil,
+// persisten di localStorage, murni kosmetik.
+//
+// Mobil+dino SVG (2026-08-06) -- awalnya emoji polos (🚗/🦖), diganti SVG
+// top-down asli di-port dari `vehicleArt.jsx` (sumber: al-idrisi-games
+// mathville) karena emoji GAK "nose-up" (orientasi natural beda-beda per
+// emoji/platform), jadi pas di-rotate ngikutin arah gerak lewat
+// `headingCss()`, hasilnya keliatan miring/salah arah -- bug dilaporin
+// user. `headingCss()` (+90 offset) dikalibrasi buat art yang DIGAMBAR
+// nose-up (0deg=ngadep atas), makanya SVG-nya WAJIB nose-up juga, bukan
+// approx.
 
 const SCORE_TARGET = 12;
 const MAX_BITES = 3;
@@ -55,13 +64,11 @@ const WATER_SLOW_MULT = 0.7; // -30% speed
 const WATER_MAX_STREAM_FRAMES = 1.5 * 60; // tangki abis abis nembak 1.5 detik nonstop
 const WATER_COOLDOWN_FRAMES = 1.5 * 60; // baru bisa nembak lagi abis cooldown ini
 
-const VEHICLE_SKINS = [
-  { id: "car", emoji: "🚗", name: "Blaze" },
-  { id: "taxi", emoji: "🚕", name: "Comet" },
-  { id: "suv", emoji: "🚙", name: "Turbo" },
-  { id: "police", emoji: "🚓", name: "Sunburst" },
-  { id: "race", emoji: "🏎️", name: "Nova" },
-];
+// Vehicle skin id SEKARANG cocok persis sama VEHICLE_SKINS.car al-idrisi
+// (blaze/comet/turbo/sunburst/nova, dulu id generik "car"/"taxi"/dst) --
+// preferensi skin pemain lama di localStorage bakal fallback ke default
+// (blaze) sekali karena id-nya gak match lagi, minor reset kosmetik yang
+// diterima demi konsistensi sama sumber aslinya.
 const VEHICLE_SKIN_KEY = "jk_drive_vehicle_skin";
 
 function getVehicleSkin() {
@@ -279,7 +286,10 @@ export default function DriveMode() {
             dinoRef.current.style.left = g.dinoX + "%";
             dinoRef.current.style.top = g.dinoY + "%";
             dinoRef.current.style.transform = `translate(-50%,-50%) rotate(${headingCss(dAngle)}deg)`;
+            dinoRef.current.classList.add("jk-dino-walking");
           }
+        } else if (dinoRef.current) {
+          dinoRef.current.classList.remove("jk-dino-walking");
         }
 
         // obstacle collisions
@@ -336,12 +346,16 @@ export default function DriveMode() {
 
         {phase === "picker" && !pickingSkin && (
           <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
-            <div style={{ fontSize: 48 }}>{vehicleSkin.emoji}💨🦖</div>
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <VehicleSkinSvg skinId={vehicleSkin.id} size={40} glow={vehicleSkin.glow} />
+              <span style={{ fontSize: 32 }}>💨</span>
+              <DinoSvg size={40} />
+            </div>
             <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", textAlign: "center" }}>
               Kabur dari dino, tabrak rintangan buat dapet poin & soal kilat! Tahan ⚡ buat nitro, aim-stick kanan buat semprot air 💦.
             </div>
             <Button variant="secondary" size="sm" onClick={() => setPickingSkin(true)}>
-              Ganti Mobil: {vehicleSkin.name} {vehicleSkin.emoji}
+              Ganti Mobil: {vehicleSkin.name}
             </Button>
             <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
               {["easy", "medium", "hard"].map((d) => (
@@ -368,7 +382,7 @@ export default function DriveMode() {
                     background: s.id === vehicleSkin.id ? "var(--pastel-green)" : "var(--cream-50)",
                   }}
                 >
-                  <span style={{ fontSize: 32 }}>{s.emoji}</span>
+                  <VehicleSkinSvg skinId={s.id} size={30} glow={s.glow} />
                   <span style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", fontWeight: 700 }}>{s.name}</span>
                 </button>
               ))}
@@ -427,23 +441,23 @@ export default function DriveMode() {
                   {o.icon}
                 </div>
               ))}
-              <div ref={dinoRef} style={{ position: "absolute", left: DINO_START.x + "%", top: DINO_START.y + "%", transform: "translate(-50%,-50%)", fontSize: 30 }}>
-                🦖
+              <div ref={dinoRef} style={{ position: "absolute", left: DINO_START.x + "%", top: DINO_START.y + "%", transform: "translate(-50%,-50%)", lineHeight: 0 }}>
+                <DinoSvg size={26} />
               </div>
-              <div ref={carRef} style={{ position: "absolute", left: CAR_START.x + "%", top: CAR_START.y + "%", transform: "translate(-50%,-50%)", fontSize: 28 }}>
-                {vehicleSkin.emoji}
+              <div ref={carRef} style={{ position: "absolute", left: CAR_START.x + "%", top: CAR_START.y + "%", transform: "translate(-50%,-50%)", lineHeight: 0 }}>
+                <VehicleSkinSvg skinId={vehicleSkin.id} size={24} glow={vehicleSkin.glow} />
                 <div
                   ref={kikoFaceRef}
                   style={{
                     position: "absolute",
                     left: "50%",
-                    top: "38%",
+                    top: "30%",
                     transform: "translate(-50%,-50%)",
                     pointerEvents: "none",
                   }}
                   title="Kiko nemenin di kaca depan"
                 >
-                  <Kiko size={13} />
+                  <Kiko size={11} />
                 </div>
               </div>
               <div
