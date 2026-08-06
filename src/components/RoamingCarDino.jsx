@@ -13,6 +13,18 @@ import { useNavigate } from "react-router-dom";
 // dari URL params, `grade` di-terima sebagai PROP -- gak perlu lagi trik
 // "kelas terakhir dibuka" (`lastGrade.js`, udah dihapus) yang dulu jadi
 // workaround pas komponen ini masih di Landing (layar tanpa konteks kelas).
+//
+// Layer roaming BUKAN kotak kecil kayak card (2026-08-06, feedback user
+// "jangan didalam card, biarin dia bisa jalan2 selayar") -- wrapper
+// `position:absolute` transparan, `height:100vh` (BUKAN diukur dari tinggi
+// parent yang emang gak dibatasi/auto-grow, lihat Shell.jsx -- pakai unit
+// viewport langsung biar dapet "satu layar" penuh tanpa perlu ngukur DOM),
+// `pointerEvents:none` biar gak nge-block tap kartu pelajaran di
+// belakangnya, KECUALI tombol mobil sendiri (`pointerEvents:"auto"`) biar
+// tetep bisa di-tap. Parent (`PickSubject.jsx`) WAJIB `position:relative`
+// biar `left:0/right:0` ke-bound ke lebar area konten, bukan lebar
+// viewport browser penuh (penting di desktop preview yang lebih lebar dari
+// card app).
 const ROAM_CAR_SPEED = 0.9;
 const ROAM_DINO_BASE_SPEED = 0.65;
 const ROAM_DINO_AMPLITUDE = 0.55;
@@ -104,20 +116,25 @@ export default function RoamingCarDino({ grade }) {
     return () => cancelAnimationFrame(rafId);
   }, []);
 
-  function goDrive() {
-    navigate(`/kelas/${grade}/matematika/drive`);
+  function goToMatematika() {
+    // Navigate ke SubjectDetail (BUKAN langsung /drive) -- ada 2 game (Drive
+    // & Plane) buat Matematika, jadi mobil ngarah ke layar pilihan biar anak
+    // milih sendiri, bukan langsung dikomit ke Drive Mode doang (2026-08-06,
+    // feedback user "langsung ke pilihan pesawat/drive mode").
+    navigate(`/kelas/${grade}/matematika`);
   }
 
   return (
     <div
       ref={layerRef}
       style={{
-        position: "relative",
-        width: "100%",
-        height: 92,
-        borderRadius: 14,
-        background: "var(--cream-200)",
-        overflow: "hidden",
+        position: "absolute",
+        top: 0,
+        left: 0,
+        right: 0,
+        height: "100vh",
+        zIndex: 2,
+        pointerEvents: "none",
       }}
     >
       <div
@@ -143,8 +160,8 @@ export default function RoamingCarDino({ grade }) {
       </div>
       <button
         ref={carRef}
-        onClick={goDrive}
-        aria-label="Main Drive Mode"
+        onClick={goToMatematika}
+        aria-label="Main Matematika (Drive/Plane Mode)"
         style={{
           position: "absolute",
           left: 0,
@@ -155,6 +172,7 @@ export default function RoamingCarDino({ grade }) {
           cursor: "pointer",
           willChange: "transform",
           lineHeight: 0,
+          pointerEvents: "auto",
         }}
       >
         <svg viewBox="0 0 26 40" width="19" height="30">

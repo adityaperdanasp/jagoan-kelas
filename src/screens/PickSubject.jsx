@@ -10,7 +10,7 @@ export default function PickSubject() {
   return (
     <Shell>
       <ScreenHeader onBack={() => navigate("/")} title={`Kelas ${grade}`} subtitle="Pilih pelajaran" />
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 10, padding: "14px 18px 22px", overflowY: "auto" }}>
+      <div style={{ position: "relative", flex: 1, display: "flex", flexDirection: "column", gap: 10, padding: "14px 18px 22px", overflowY: "auto" }}>
         <RoamingCarDino grade={grade} />
         {SUBJECTS.map((s) => (
           <GameCard
