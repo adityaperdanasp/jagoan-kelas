@@ -15,21 +15,31 @@ export default function FocusRoundPicker() {
   const { player } = usePlayer();
   const [groups, setGroups] = useState(null);
   const [selected, setSelected] = useState([]);
+  const [loadError, setLoadError] = useState(false);
+  const [retryTick, setRetryTick] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadFocusTopicsForGrade(grade), getAssignedTopics(player.id)]).then(([g, assigned]) => {
-      if (cancelled) return;
-      setGroups(g);
-      // Assigned topics orang tua bisa lintas kelas (ParentPortal gak dibatasin) --
-      // filter ke kelas ini doang biar gak ada id "ke-select" yang gak nongol
-      // di list (bikin counter "X/8 topik dipilih" nyasar dari checkbox yang keliatan).
-      setSelected(assigned.filter((id) => parseTopicId(id).grade === String(grade)).slice(0, MAX_TOPICS));
-    });
+    setLoadError(false);
+    Promise.all([loadFocusTopicsForGrade(grade), getAssignedTopics(player.id)])
+      .then(([g, assigned]) => {
+        if (cancelled) return;
+        setGroups(g);
+        // Assigned topics orang tua bisa lintas kelas (ParentPortal gak dibatasin) --
+        // filter ke kelas ini doang biar gak ada id "ke-select" yang gak nongol
+        // di list (bikin counter "X/8 topik dipilih" nyasar dari checkbox yang keliatan).
+        setSelected(assigned.filter((id) => parseTopicId(id).grade === String(grade)).slice(0, MAX_TOPICS));
+      })
+      .catch(() => {
+        // Dulu gak ke-tangkep -- gagal load = "Memuat topik..." nyangkut
+        // selamanya, gak ada pesan error/cara coba lagi.
+        if (cancelled) return;
+        setLoadError(true);
+      });
     return () => {
       cancelled = true;
     };
-  }, [player.id, grade]);
+  }, [player.id, grade, retryTick]);
 
   function toggle(id) {
     setSelected((prev) => {
@@ -48,7 +58,14 @@ export default function FocusRoundPicker() {
       </div>
 
       <div style={{ flex: 1, overflowY: "auto", padding: "10px 18px 18px" }}>
-        {!groups ? (
+        {loadError ? (
+          <div style={{ textAlign: "center", padding: 40 }}>
+            <div style={{ color: "var(--ink-400)", marginBottom: 12 }}>Gagal muat topik. Coba cek koneksi internet kamu, ya!</div>
+            <Button variant="secondary" size="sm" onClick={() => setRetryTick((n) => n + 1)}>
+              Coba Lagi
+            </Button>
+          </div>
+        ) : !groups ? (
           <div style={{ textAlign: "center", color: "var(--ink-400)", padding: 40 }}>Memuat topik...</div>
         ) : (
           <TopicPicker groups={groups} selected={selected} onToggle={toggle} max={MAX_TOPICS} />

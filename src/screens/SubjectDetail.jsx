@@ -19,21 +19,31 @@ export default function SubjectDetail() {
   useBgmTrack(TRACK_BY_SUBJECT[subject]);
   const [topics, setTopics] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
+  const [retryTick, setRetryTick] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    Promise.all([loadRawTopics(subject, grade), getSubjectProgress(player.id, subject, grade)]).then(
-      ([raw, progressMap]) => {
+    setLoadError(false);
+    Promise.all([loadRawTopics(subject, grade), getSubjectProgress(player.id, subject, grade)])
+      .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : null);
         setLoading(false);
-      }
-    );
+      })
+      .catch(() => {
+        // Biasanya Firestore gagal di-fetch (jaringan/ad-blocker/dll) --
+        // dulu gak ke-tangkep sama sekali, jadi "Memuat topik..." nyangkut
+        // selamanya tanpa pesan error atau cara buat coba lagi.
+        if (cancelled) return;
+        setLoadError(true);
+        setLoading(false);
+      });
     return () => {
       cancelled = true;
     };
-  }, [subject, grade, player.id]);
+  }, [subject, grade, player.id, retryTick]);
 
   const doneCount = topics ? topics.filter((t) => t.status === "done").length : 0;
   const stars = topics && topics.length ? Math.round((doneCount / topics.length) * 3) : 0;
@@ -78,6 +88,15 @@ export default function SubjectDetail() {
           <EmptyState text="Materi pelajaran ini lagi disiapin, tunggu update ya! 🚧" />
         ) : loading ? (
           <EmptyState text="Memuat topik..." />
+        ) : loadError ? (
+          <div style={{ textAlign: "center", padding: "40px 20px" }}>
+            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", color: "var(--ink-400)", marginBottom: 12 }}>
+              Gagal muat topik. Coba cek koneksi internet kamu, ya!
+            </div>
+            <Button variant="secondary" size="sm" onClick={() => setRetryTick((n) => n + 1)}>
+              Coba Lagi
+            </Button>
+          </div>
         ) : !topics || topics.length === 0 ? (
           <EmptyState text="Belum ada topik buat kelas ini." />
         ) : (

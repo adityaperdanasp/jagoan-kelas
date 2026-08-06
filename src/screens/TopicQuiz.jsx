@@ -25,18 +25,28 @@ export default function TopicQuiz() {
   const [questions, setQuestions] = useState(null);
   const [result, setResult] = useState(null);
   const [saving, setSaving] = useState(false);
+  const [loadError, setLoadError] = useState(false);
+  const [retryTick, setRetryTick] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
-    loadTopicByKey(subject, grade, babKey).then((t) => {
-      if (cancelled) return;
-      setTopic(t);
-      if (t) setQuestions(pickRound(t.soal));
-    });
+    setLoadError(false);
+    loadTopicByKey(subject, grade, babKey)
+      .then((t) => {
+        if (cancelled) return;
+        setTopic(t);
+        if (t) setQuestions(pickRound(t.soal));
+      })
+      .catch(() => {
+        // Dulu gak ke-tangkep -- gagal load = "Memuat soal..." nyangkut
+        // selamanya, gak ada pesan error/cara coba lagi.
+        if (cancelled) return;
+        setLoadError(true);
+      });
     return () => {
       cancelled = true;
     };
-  }, [subject, grade, babKey]);
+  }, [subject, grade, babKey, retryTick]);
 
   async function handleFinish({ correct, wrong }) {
     setSaving(true);
@@ -60,8 +70,17 @@ export default function TopicQuiz() {
     <Shell>
       <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title={topic?.title || "Topik"} subtitle={`Kelas ${grade}`} />
 
-      {!questions && (
+      {!questions && !loadError && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Memuat soal...</div>
+      )}
+
+      {loadError && (
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 12, padding: 24, textAlign: "center" }}>
+          <div style={{ color: "var(--ink-400)" }}>Gagal muat soal. Coba cek koneksi internet kamu, ya!</div>
+          <Button variant="secondary" size="sm" onClick={() => setRetryTick((n) => n + 1)}>
+            Coba Lagi
+          </Button>
+        </div>
       )}
 
       {questions && !result && (

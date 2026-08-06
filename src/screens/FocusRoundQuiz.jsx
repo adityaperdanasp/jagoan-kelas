@@ -26,6 +26,7 @@ export default function FocusRoundQuiz() {
   const [idToTopic, setIdToTopic] = useState(null);
   const [result, setResult] = useState(null);
   const [saving, setSaving] = useState(false);
+  const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
     if (topicIds.length === 0) return;
@@ -36,19 +37,28 @@ export default function FocusRoundQuiz() {
         const topic = await loadTopicByKey(subject, grade, babKey);
         return { tid, subject, grade, babKey, soal: topic?.soal || [] };
       })
-    ).then((entries) => {
-      if (cancelled) return;
-      const map = {};
-      const pool = [];
-      entries.forEach(({ tid, subject, grade, babKey, soal }) => {
-        pick(soal, PER_TOPIC).forEach((q) => {
-          map[q.id] = { tid, subject, grade, babKey };
-          pool.push(q);
+    )
+      .then((entries) => {
+        if (cancelled) return;
+        const map = {};
+        const pool = [];
+        entries.forEach(({ tid, subject, grade, babKey, soal }) => {
+          pick(soal, PER_TOPIC).forEach((q) => {
+            map[q.id] = { tid, subject, grade, babKey };
+            pool.push(q);
+          });
         });
+        setIdToTopic(map);
+        setQuestions(pick(pool, pool.length));
+      })
+      .catch(() => {
+        // Dulu gak ke-tangkep -- gagal load = "Menyiapin soal..." nyangkut
+        // selamanya. Gak ada tombol coba lagi di sini (beda dari layar
+        // lain) karena topicIds cuma nyampe lewat router state -- reload
+        // bakal ilangin state itu, jadi arahin balik ke picker aja.
+        if (cancelled) return;
+        setLoadError(true);
       });
-      setIdToTopic(map);
-      setQuestions(pick(pool, pool.length));
-    });
     return () => {
       cancelled = true;
     };
@@ -102,8 +112,15 @@ export default function FocusRoundQuiz() {
     <Shell>
       <ScreenHeader onBack={() => navigate(`/kelas/${grade}/fokus`)} title="Fokus Latihan" subtitle={`${topicIds.length} topik campur`} />
 
-      {!questions && (
+      {!questions && !loadError && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Menyiapin soal...</div>
+      )}
+
+      {loadError && (
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
+          <div style={{ color: "var(--ink-400)" }}>Gagal muat soal. Coba cek koneksi internet kamu, ya!</div>
+          <Button variant="primary" onClick={() => navigate(`/kelas/${grade}/fokus`)}>Pilih Topik Lagi</Button>
+        </div>
       )}
 
       {questions && !result && (
