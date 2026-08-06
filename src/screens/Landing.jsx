@@ -7,6 +7,8 @@ import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
 import OverlayCard from "../components/ds/OverlayCard";
 import Kiko from "../components/ds/Kiko";
+import WanderingKiko from "../components/WanderingKiko";
+import { GRADES } from "../data/content";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
 import { getPlayerDoc, markParentMessageRead } from "../data/authService";
@@ -100,13 +102,13 @@ export default function Landing() {
           </div>
         </div>
 
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, textAlign: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, textAlign: "center", padding: "10px 0 6px" }}>
           <div
             onClick={handleSecretTap}
             style={{
-              width: 220,
-              height: 160,
-              borderRadius: 20,
+              width: 150,
+              height: 112,
+              borderRadius: 18,
               background: "var(--pastel-gold)",
               display: "flex",
               alignItems: "center",
@@ -116,17 +118,84 @@ export default function Landing() {
               overflow: "hidden",
             }}
           >
-            <Kiko size={140} />
+            <Kiko size={92} />
           </div>
           <Badge color="gold" rotate={-3}>Jagoan Kelas</Badge>
-          <div style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", color: "var(--ink-700)", maxWidth: 220 }}>
-            Pilih kelas kamu, terus pilih pelajaran buat mulai main &amp; belajar!
-          </div>
         </div>
 
-        <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate("/kelas")}>
-          Ayo Main! 🚀
-        </Button>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "6px 4px 0" }}>
+          <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.95rem", color: "var(--ink-900)" }}>
+            Pilih Kelas Kamu!
+          </div>
+          <button
+            onClick={() => {
+              window.location.href = "/dinorace/index.html";
+            }}
+            aria-label="Main DinoRace"
+            style={{
+              border: "none",
+              cursor: "pointer",
+              background: "var(--pastel-purple)",
+              borderRadius: "var(--radius-pill)",
+              padding: "6px 12px",
+              display: "flex",
+              alignItems: "center",
+              gap: 5,
+              fontFamily: "var(--font-body)",
+              fontWeight: 700,
+              fontSize: "0.72rem",
+              color: "var(--ink-on-purple)",
+              boxShadow: "var(--shadow-sticker-sm)",
+            }}
+          >
+            🦕 DinoRace
+          </button>
+        </div>
+        <WanderingKiko />
+
+        <div style={{ flex: 1, minHeight: 0, overflowY: "auto", display: "flex", flexDirection: "column", alignItems: "center", gap: 16, padding: "8px 18px 10px" }}>
+          {GRADES.map((g) => (
+            <div
+              key={g.n}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: 6,
+                transform: `translateX(${g.offset}px)`,
+              }}
+            >
+              <button
+                onClick={() => navigate(`/kelas/${g.n}`)}
+                style={{
+                  width: 64,
+                  height: 64,
+                  borderRadius: "50%",
+                  border: "none",
+                  cursor: "pointer",
+                  background: g.bg,
+                  boxShadow: "var(--shadow-sticker-sm)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 800,
+                  fontSize: "1.5rem",
+                  color: g.ink,
+                  transition: "transform var(--duration-press) ease",
+                }}
+                onPointerDown={(e) => (e.currentTarget.style.transform = "translateY(2px)")}
+                onPointerUp={(e) => (e.currentTarget.style.transform = "translateY(0)")}
+                onPointerLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
+              >
+                {g.n}
+              </button>
+              <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.72rem", color: "var(--ink-500)" }}>
+                Kelas {g.n}
+              </span>
+            </div>
+          ))}
+        </div>
 
         <Link
           to="/parents"

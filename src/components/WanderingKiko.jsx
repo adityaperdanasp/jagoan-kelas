@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import Kiko from "./ds/Kiko";
 
-// Dekorasi "Kiko jalan-jalan" di halaman Pilih Kelas -- gantiin WanderingDino
+// Dekorasi "Kiko jalan-jalan" di layar pilih kelas -- gantiin WanderingDino
 // (2026-08-06, dino emoji diganti maskot resmi Kiko). Patroli bolak-balik
 // murni dekoratif sekarang, gak ada tap-to-navigate lagi -- entry ke
-// DinoRace dipindah ke tombol terpisah di PickGrade.jsx.
+// DinoRace ada di tombol pill terpisah (dulu di `PickGrade.jsx`, sekarang
+// di `Landing.jsx` setelah PickGrade digabung ke situ, lihat CLAUDE.md).
 const PATROL_MIN = 6; // persen dari lebar container
 const PATROL_MAX = 82;
 const STEP_MS = 2600;
