@@ -1,21 +1,24 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { getLastGrade } from "../data/lastGrade";
 
-// Dekorasi "mobil dikejar dino" di Landing -- di-port dari hub landing
-// al-idrisi-games (index.html, cari komentar "ROAMING CAR + DINO"): mobil
-// jalan random ke titik-titik acak, dino ngejar dengan kecepatan yang
-// naik-turun (sinus) tapi jaraknya dibatasin (ROAM_MIN_DIST) biar GAK
-// PERNAH nangkep mobilnya. Tap mobil = langsung ke Drive Mode.
-// Beda dari sumber aslinya: mathville cuma 1 kelas tetap, jagoan-kelas
-// multi-kelas -- jadi tap mobil pakai kelas TERAKHIR dibuka (lastGrade.js),
-// default kelas 1 kalau belum pernah buka pelajaran apa-apa.
+// Dekorasi "mobil dikejar dino" -- di-port dari hub landing al-idrisi-games
+// (index.html, cari komentar "ROAMING CAR + DINO"): mobil jalan random ke
+// titik-titik acak, dino ngejar dengan kecepatan yang naik-turun (sinus)
+// tapi jaraknya dibatasin (ROAM_MIN_DIST) biar GAK PERNAH nangkep mobilnya.
+// Tap mobil = langsung ke Drive Mode.
+// Dipasang di `PickSubject.jsx` (2026-08-06, dulu sempet di `Landing.jsx`
+// -- dipindah biar match penempatan al-idrisi: di sana ini nempel di hub
+// tempat milih game, yang padanannya di jagoan-kelas itu layar milih
+// pelajaran, bukan layar sambutan). Karena PickSubject udah tau `grade`
+// dari URL params, `grade` di-terima sebagai PROP -- gak perlu lagi trik
+// "kelas terakhir dibuka" (`lastGrade.js`, udah dihapus) yang dulu jadi
+// workaround pas komponen ini masih di Landing (layar tanpa konteks kelas).
 const ROAM_CAR_SPEED = 0.9;
 const ROAM_DINO_BASE_SPEED = 0.65;
 const ROAM_DINO_AMPLITUDE = 0.55;
 const ROAM_MIN_DIST = 46;
 
-export default function RoamingCarDino() {
+export default function RoamingCarDino({ grade }) {
   const navigate = useNavigate();
   const layerRef = useRef(null);
   const carRef = useRef(null);
@@ -102,7 +105,7 @@ export default function RoamingCarDino() {
   }, []);
 
   function goDrive() {
-    navigate(`/kelas/${getLastGrade()}/matematika/drive`);
+    navigate(`/kelas/${grade}/matematika/drive`);
   }
 
   return (

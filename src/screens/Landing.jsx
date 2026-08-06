@@ -7,7 +7,6 @@ import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
 import OverlayCard from "../components/ds/OverlayCard";
 import Kiko from "../components/ds/Kiko";
-import RoamingCarDino from "../components/RoamingCarDino";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
 import { getPlayerDoc, markParentMessageRead } from "../data/authService";
@@ -123,7 +122,6 @@ export default function Landing() {
           <div style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", color: "var(--ink-700)", maxWidth: 220 }}>
             Pilih kelas kamu, terus pilih pelajaran buat mulai main &amp; belajar!
           </div>
-          <RoamingCarDino />
         </div>
 
         <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate("/kelas")}>
