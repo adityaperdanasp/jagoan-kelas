@@ -1,11 +1,16 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import OverlayCard from "./ds/OverlayCard";
+import Button from "./ds/Button";
 
 // Dekorasi "mobil dikejar dino" -- di-port dari hub landing al-idrisi-games
 // (index.html, cari komentar "ROAMING CAR + DINO"): mobil jalan random ke
 // titik-titik acak, dino ngejar dengan kecepatan yang naik-turun (sinus)
 // tapi jaraknya dibatasin (ROAM_MIN_DIST) biar GAK PERNAH nangkep mobilnya.
-// Tap mobil = langsung ke Drive Mode.
+// Tap mobil = buka popup kecil pilih Drive/Plane Mode (2026-08-06, awalnya
+// langsung navigate ke SubjectDetail Matematika, diubah lagi ke popup on-
+// screen biar gak keluar dari layar ini sama sekali -- feedback user
+// "langsung muncul card kecil pesawat/mobil, kaya di al-idrisi").
 // Dipasang di `PickSubject.jsx` (2026-08-06, dulu sempet di `Landing.jsx`
 // -- dipindah biar match penempatan al-idrisi: di sana ini nempel di hub
 // tempat milih game, yang padanannya di jagoan-kelas itu layar milih
@@ -32,6 +37,7 @@ const ROAM_MIN_DIST = 46;
 
 export default function RoamingCarDino({ grade }) {
   const navigate = useNavigate();
+  const [showPicker, setShowPicker] = useState(false);
   const layerRef = useRef(null);
   const carRef = useRef(null);
   const dinoRef = useRef(null);
@@ -116,15 +122,8 @@ export default function RoamingCarDino({ grade }) {
     return () => cancelAnimationFrame(rafId);
   }, []);
 
-  function goToMatematika() {
-    // Navigate ke SubjectDetail (BUKAN langsung /drive) -- ada 2 game (Drive
-    // & Plane) buat Matematika, jadi mobil ngarah ke layar pilihan biar anak
-    // milih sendiri, bukan langsung dikomit ke Drive Mode doang (2026-08-06,
-    // feedback user "langsung ke pilihan pesawat/drive mode").
-    navigate(`/kelas/${grade}/matematika`);
-  }
-
   return (
+    <>
     <div
       ref={layerRef}
       style={{
@@ -160,8 +159,8 @@ export default function RoamingCarDino({ grade }) {
       </div>
       <button
         ref={carRef}
-        onClick={goToMatematika}
-        aria-label="Main Matematika (Drive/Plane Mode)"
+        onClick={() => setShowPicker(true)}
+        aria-label="Pilih Drive atau Plane Mode"
         style={{
           position: "absolute",
           left: 0,
@@ -189,5 +188,20 @@ export default function RoamingCarDino({ grade }) {
         .jkRoamWalking { animation: jkRoamDinoBounce 0.35s ease-in-out infinite; }
       `}</style>
     </div>
+
+    <OverlayCard open={showPicker} onClose={() => setShowPicker(false)} maxWidth={260}>
+      <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1rem", color: "var(--ink-900)", marginBottom: 14 }}>
+        Main apa nih?
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        <Button variant="secondary" size="lg" style={{ justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
+          🚗 Drive
+        </Button>
+        <Button variant="secondary" size="lg" style={{ justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/plane`)}>
+          ✈️ Plane
+        </Button>
+      </div>
+    </OverlayCard>
+    </>
   );
 }
