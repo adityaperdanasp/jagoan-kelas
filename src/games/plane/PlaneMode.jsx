@@ -6,6 +6,7 @@ import Joystick from "../shared/Joystick";
 import { useJoystick } from "../shared/useJoystick";
 import { generateQuickQuestion } from "../shared/quickQuestion";
 import { TRACK_PLANE, useBgmTrack } from "../../data/bgm";
+import { PLANE_SKINS, PlaneSkinSvg } from "./planeArt";
 
 // Core engine di-port dari pola BrainBox mathville Plane Mode (shmup
 // vertikal: joystick, auto-fire, musuh turun+nembak balik, quiz berkala =
@@ -18,11 +19,10 @@ import { TRACK_PLANE, useBgmTrack } from "../../data/bgm";
 // endless murni & butuh berbulan-bulan balancing lintas playtesting, kita
 // ambil bentuknya: power-up, boss, respawn gauntlet, endless+ramp, high
 // score persisten):
-// - Power-up (⚡ rapid-fire / 🛡️ shield) drop dari musuh biasa yang mati,
-//   dipungut nabrak badan pesawat.
-// - Boss muncul tiap skor nyampe threshold (naik tiap boss kalah), HP
-//   beberapa kali kena, jawaban benar juga ngasih damage ke boss (bukan
-//   cuma bom musuh biasa).
+// - Power-up drop dari musuh biasa yang mati, dipungut nabrak badan
+//   pesawat. Boss muncul tiap skor nyampe threshold (naik tiap boss
+//   kalah), HP beberapa kali kena, jawaban benar juga ngasih damage ke
+//   boss (bukan cuma bom musuh biasa).
 // - Nyawa habis TIDAK langsung game over -- respawn gauntlet: jawab
 //   beberapa soal benar BERTURUT-TURUT buat balik main full nyawa, max
 //   sekian kali per sesi.
@@ -30,6 +30,17 @@ import { TRACK_PLANE, useBgmTrack } from "../../data/bgm";
 //   makin rapat, threshold boss berikutnya makin jauh).
 // - High score persisten per kelas (localStorage, bukan Firestore -- ini
 //   cuma rekor lokal di device, beda dari XP yang kesimpen ke akun).
+//
+// Pesawat SVG + picker + 3 power-up baru (2026-08-06) -- di-port dari
+// al-idrisi-games mathville (`VEHICLE_SKINS.plane` + `PLANE_POWERUP_TYPES`)
+// nyusul feedback user: (1) pesawat 🚀 emoji keliatan "miring" -- rocket
+// emoji kebanyakan platform DIGAMBAR diagonal/meluncur, padahal pesawat di
+// sini gak pernah di-rotate (beda dari mobil Drive Mode yang muter
+// ngikutin arah gerak) -- ganti ke SVG nose-up asli dari `planeArt.jsx`,
+// (2) picker 5 pesawat sebelum main (falcon/inferno/viper/solstice/ghost,
+// sama persis id+warna kayak al-idrisi), (3) power-up cuma ada rapid+
+// shield sebelumnya, al-idrisi punya 5 (+ heal/wingmen/spread) -- lihat
+// bagian POWERUP_TYPES di bawah.
 
 const SHIP_SPEED = 0.75;
 const BULLET_SPEED = 2.2;
@@ -49,12 +60,23 @@ const QUESTION_INTERVAL_MIN_MS = 7000; // makin cepet seiring endless ramp, tapi
 const SHIP_START = { x: 50, y: 82 };
 const ENEMY_EMOJIS = ["👾", "👽", "🛸"];
 
-// --- Power-up (Fase 5) ---
+// --- Power-up (Fase 5, 5-way 2026-08-06) ---
 const POWERUP_DROP_CHANCE = 0.22; // per musuh biasa yang mati (bukan boss)
 const POWERUP_FALL_SPEED = 0.28;
 const POWERUP_PICKUP_RADIUS_PX = 26;
 const RAPID_DURATION_MS = 8000;
 const SHIELD_DURATION_MS = 6000;
+const WINGMEN_DURATION_MS = 10000; // 2 pesawat kecil pengawal, auto-fire bareng
+const SPREAD_DURATION_MS = 10000; // tembakan nambah 2 peluru miring (bukan gantiin yang lurus)
+const SPREAD_ANGLE_DEG = 18;
+const POWERUP_TYPES = ["rapid", "shield", "heal", "wingmen", "spread"];
+const POWERUP_EMOJI = { rapid: "⚡", shield: "🛡️", heal: "❤️", wingmen: "👯", spread: "🔱" };
+const VEHICLE_SKIN_KEY = "jk_plane_vehicle_skin";
+
+function getPlaneSkin() {
+  const id = localStorage.getItem(VEHICLE_SKIN_KEY);
+  return PLANE_SKINS.find((s) => s.id === id) || PLANE_SKINS[0];
+}
 
 // --- Boss (Fase 5-6) ---
 const BOSS_SCORE_THRESHOLD_START = 15;
@@ -97,13 +119,21 @@ export default function PlaneMode() {
   const [respawning, setRespawning] = useState(false);
   const [respawnProgress, setRespawnProgress] = useState(0);
   const [highScore, setHighScore] = useState(0);
-  const [activePowerups, setActivePowerups] = useState({ rapid: false, shield: false });
+  const [activePowerups, setActivePowerups] = useState({ rapid: false, shield: false, wingmen: false, spread: false });
+  const [planeSkin, setPlaneSkin] = useState(getPlaneSkin);
+  const [pickingSkin, setPickingSkin] = useState(false);
 
   const worldRef = useRef(null);
   const shipRef = useRef(null);
   const rafRef = useRef(null);
   const gRef = useRef(null); // mutable game state, gak lewat React re-render
-  const activePowerupsRef = useRef({ rapid: false, shield: false }); // buat deteksi PERUBAHAN tiap frame -- baca React state `activePowerups` di sini bakal stale (closure frame() dibuat sekali, gak keikut re-render)
+  const activePowerupsRef = useRef({ rapid: false, shield: false, wingmen: false, spread: false }); // buat deteksi PERUBAHAN tiap frame -- baca React state `activePowerups` di sini bakal stale (closure frame() dibuat sekali, gak keikut re-render)
+
+  function pickPlaneSkin(skin) {
+    localStorage.setItem(VEHICLE_SKIN_KEY, skin.id);
+    setPlaneSkin(skin);
+    setPickingSkin(false);
+  }
 
   useEffect(() => {
     const saved = Number(localStorage.getItem(highScoreKey(grade)) || 0);
@@ -116,12 +146,51 @@ export default function PlaneMode() {
     return Math.hypot(((ax - bx) / 100) * rect.width, ((ay - by) / 100) * rect.height);
   }, []);
 
-  function spawnBullet(x, y) {
+  // angleDeg diukur dari lurus-ke-atas (0 = lurus, positif = miring
+  // kanan) -- dipake power-up spread buat nembak 2 peluru miring
+  // TAMBAHAN (bukan gantiin yang lurus), sama kayak pola al-idrisi
+  // `spawnPlaneBulletAt`.
+  function spawnBulletAt(x, y, angleDeg = 0) {
     const el = document.createElement("div");
     el.textContent = "🔸";
     el.style.cssText = "position:absolute;font-size:16px;transform:translate(-50%,-50%);";
     worldRef.current.appendChild(el);
-    gRef.current.bullets.push({ x, y, el });
+    const rad = (angleDeg * Math.PI) / 180;
+    const vx = Math.sin(rad) * BULLET_SPEED;
+    const vy = -Math.cos(rad) * BULLET_SPEED;
+    gRef.current.bullets.push({ x, y, vx, vy, el });
+  }
+
+  // Tembakan pesawat sendiri -- spread power-up NAMBAH 2 peluru miring
+  // (±SPREAD_ANGLE_DEG) di samping yang lurus, jadi 3 total pas aktif.
+  function fireShip() {
+    const g = gRef.current;
+    spawnBulletAt(g.x, g.y - 5, 0);
+    if (performance.now() < g.spreadUntil) {
+      spawnBulletAt(g.x, g.y - 5, -SPREAD_ANGLE_DEG);
+      spawnBulletAt(g.x, g.y - 5, SPREAD_ANGLE_DEG);
+    }
+  }
+
+  // 2 pesawat kecil pengawal (power-up wingmen) -- dibuat sekali pas buff
+  // mulai, dicabut pas buff abis. Mungut wingmen KEDUA kali pas udah aktif
+  // cuma nambahin durasi (lihat pemanggil di pickup handler), gak
+  // nge-duplicate pesawatnya -- sama pola kayak `ensurePlaneWingmen`.
+  function ensureWingmen() {
+    const g = gRef.current;
+    if (g.wingmen.length) return;
+    [-11, 11].forEach((offsetX) => {
+      const el = document.createElement("div");
+      el.textContent = "🛩️";
+      el.style.cssText = "position:absolute;font-size:15px;transform:translate(-50%,-50%);opacity:.92;";
+      worldRef.current.appendChild(el);
+      g.wingmen.push({ el, offsetX, lastFireAt: performance.now() });
+    });
+  }
+  function removeWingmen() {
+    const g = gRef.current;
+    g.wingmen.forEach((w) => w.el.remove());
+    g.wingmen = [];
   }
 
   function spawnEnemyBullet(x, y) {
@@ -147,9 +216,9 @@ export default function PlaneMode() {
 
   function spawnPowerup(x, y) {
     const g = gRef.current;
-    const type = Math.random() < 0.5 ? "rapid" : "shield";
+    const type = POWERUP_TYPES[rand(0, POWERUP_TYPES.length - 1)];
     const el = document.createElement("div");
-    el.textContent = type === "rapid" ? "⚡" : "🛡️";
+    el.textContent = POWERUP_EMOJI[type];
     el.style.cssText = "position:absolute;font-size:22px;transform:translate(-50%,-50%);filter:drop-shadow(0 0 4px rgba(255,255,255,0.8));";
     worldRef.current.appendChild(el);
     g.powerups.push({ x, y, type, el });
@@ -290,6 +359,7 @@ export default function PlaneMode() {
     g.enemyBullets.forEach((b) => b.el.remove());
     g.enemies.forEach((e) => e.el.remove());
     g.powerups.forEach((p) => p.el.remove());
+    (g.wingmen || []).forEach((w) => w.el.remove());
     if (g.boss) g.boss.el.remove();
   }
 
@@ -322,6 +392,9 @@ export default function PlaneMode() {
       respawnsUsed: 0,
       rapidUntil: 0,
       shieldUntil: 0,
+      wingmenUntil: 0,
+      spreadUntil: 0,
+      wingmen: [],
       lastFireAt: 0,
       lastSpawnAt: performance.now(),
       lastQuestionAt: performance.now(),
@@ -334,7 +407,7 @@ export default function PlaneMode() {
     setQuestion(null);
     setBossHp(null);
     setRespawning(false);
-    activePowerupsRef.current = { rapid: false, shield: false };
+    activePowerupsRef.current = { rapid: false, shield: false, wingmen: false, spread: false };
     setActivePowerups(activePowerupsRef.current);
     setPhase("playing");
   }
@@ -348,8 +421,11 @@ export default function PlaneMode() {
         const now = performance.now();
         const rapidActive = now < g.rapidUntil;
         const shieldActive = now < g.shieldUntil;
-        if (rapidActive !== activePowerupsRef.current.rapid || shieldActive !== activePowerupsRef.current.shield) {
-          activePowerupsRef.current = { rapid: rapidActive, shield: shieldActive };
+        const wingmenActive = now < g.wingmenUntil;
+        const spreadActive = now < g.spreadUntil;
+        const prevActive = activePowerupsRef.current;
+        if (rapidActive !== prevActive.rapid || shieldActive !== prevActive.shield || wingmenActive !== prevActive.wingmen || spreadActive !== prevActive.spread) {
+          activePowerupsRef.current = { rapid: rapidActive, shield: shieldActive, wingmen: wingmenActive, spread: spreadActive };
           setActivePowerups(activePowerupsRef.current);
         }
 
@@ -364,7 +440,25 @@ export default function PlaneMode() {
         const fireInterval = rapidActive ? RAPID_FIRE_INTERVAL_MS : FIRE_INTERVAL_MS;
         if (now - g.lastFireAt > fireInterval) {
           g.lastFireAt = now;
-          spawnBullet(g.x, g.y - 5);
+          fireShip();
+        }
+
+        // Wingmen -- 2 pesawat kecil ngikutin posisi ship (offset kiri-
+        // kanan), nembak di interval NORMAL (gak kepengaruh rapid-fire,
+        // sama kayak al-idrisi biar simpel).
+        if (wingmenActive) {
+          g.wingmen.forEach((w) => {
+            const wx = Math.max(4, Math.min(96, g.x + w.offsetX));
+            const wy = g.y + 6;
+            w.el.style.left = wx + "%";
+            w.el.style.top = wy + "%";
+            if (now - w.lastFireAt > FIRE_INTERVAL_MS) {
+              w.lastFireAt = now;
+              spawnBulletAt(wx, wy - 4, 0);
+            }
+          });
+        } else if (g.wingmen.length) {
+          removeWingmen();
         }
         // musuh biasa berhenti spawn total pas boss lagi aktif
         const spawnMs = Math.max(ENEMY_SPAWN_MS_MIN, ENEMY_SPAWN_MS / g.enemyDensity);
@@ -393,8 +487,9 @@ export default function PlaneMode() {
         }
 
         g.bullets = g.bullets.filter((b) => {
-          b.y -= BULLET_SPEED;
-          if (b.y < -5) {
+          b.x += b.vx || 0;
+          b.y += b.vy ?? -BULLET_SPEED;
+          if (b.y < -5 || b.x < -6 || b.x > 106) {
             b.el.remove();
             return false;
           }
@@ -469,12 +564,18 @@ export default function PlaneMode() {
             }
           }
         }
-        // power-up pickup
+        // power-up pickup -- heal instan (nambah nyawa), 4 lainnya buff
+        // ber-durasi (nge-refresh timer kalau dipungut lagi pas udah aktif).
         g.powerups = g.powerups.filter((p) => {
           if (pxDist(p.x, p.y, g.x, g.y) < POWERUP_PICKUP_RADIUS_PX) {
             p.el.remove();
             if (p.type === "rapid") g.rapidUntil = now + RAPID_DURATION_MS;
-            else g.shieldUntil = now + SHIELD_DURATION_MS;
+            else if (p.type === "shield") g.shieldUntil = now + SHIELD_DURATION_MS;
+            else if (p.type === "heal") setLives((l) => Math.min(MAX_LIVES, l + 1));
+            else if (p.type === "wingmen") {
+              g.wingmenUntil = now + WINGMEN_DURATION_MS;
+              ensureWingmen();
+            } else if (p.type === "spread") g.spreadUntil = now + SPREAD_DURATION_MS;
             return false;
           }
           return true;
@@ -537,12 +638,18 @@ export default function PlaneMode() {
           <div style={{ width: 24 }} />
         </div>
 
-        {phase === "picker" && (
+        {phase === "picker" && !pickingSkin && (
           <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
-            <div style={{ fontSize: 48 }}>✈️💥👾</div>
-            <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", textAlign: "center" }}>
-              Tembak musuh, hindarin peluru, jawab soal buat bom semua musuh! Pungut ⚡/🛡️, lawan boss 🐉, dan main terus tanpa batas.
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <PlaneSkinSvg skinId={planeSkin.id} size={40} glow={planeSkin.glow} />
+              <span style={{ fontSize: 32 }}>💥👾</span>
             </div>
+            <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", textAlign: "center" }}>
+              Tembak musuh, hindarin peluru, jawab soal buat bom semua musuh! Pungut ⚡🛡️❤️👯🔱, lawan boss 🐉, dan main terus tanpa batas.
+            </div>
+            <Button variant="secondary" size="sm" onClick={() => setPickingSkin(true)}>
+              Ganti Pesawat: {planeSkin.name}
+            </Button>
             {highScore > 0 && (
               <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>🏆 Rekor kamu: {highScore}</div>
             )}
@@ -556,6 +663,32 @@ export default function PlaneMode() {
           </div>
         )}
 
+        {phase === "picker" && pickingSkin && (
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, color: "var(--ink-900)" }}>Pilih Pesawat Kamu</div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, width: "100%" }}>
+              {PLANE_SKINS.map((s) => (
+                <button
+                  key={s.id}
+                  onClick={() => pickPlaneSkin(s)}
+                  style={{
+                    display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
+                    padding: "14px 8px", borderRadius: 16, cursor: "pointer",
+                    border: s.id === planeSkin.id ? "3px solid var(--pastel-green)" : "2px solid var(--cream-300)",
+                    background: s.id === planeSkin.id ? "var(--pastel-green)" : "var(--cream-50)",
+                  }}
+                >
+                  <PlaneSkinSvg skinId={s.id} size={30} glow={s.glow} />
+                  <span style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", fontWeight: 700 }}>{s.name}</span>
+                </button>
+              ))}
+            </div>
+            <Button variant="secondary" size="md" onClick={() => setPickingSkin(false)}>
+              Selesai
+            </Button>
+          </div>
+        )}
+
         {phase === "playing" && (
           <>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 18px" }}>
@@ -563,6 +696,8 @@ export default function PlaneMode() {
               <div style={{ display: "flex", gap: 6 }}>
                 {activePowerups.rapid && <span title="Rapid-fire aktif">⚡</span>}
                 {activePowerups.shield && <span title="Shield aktif">🛡️</span>}
+                {activePowerups.wingmen && <span title="Wingmen aktif">👯</span>}
+                {activePowerups.spread && <span title="Spread-shot aktif">🔱</span>}
               </div>
               <div>{"❤️".repeat(Math.max(0, lives))}{"🖤".repeat(MAX_LIVES - Math.max(0, lives))}</div>
             </div>
@@ -585,8 +720,8 @@ export default function PlaneMode() {
                 overflow: "hidden",
               }}
             >
-              <div ref={shipRef} style={{ position: "absolute", left: SHIP_START.x + "%", top: SHIP_START.y + "%", transform: "translate(-50%,-50%)", fontSize: 28 }}>
-                🚀
+              <div ref={shipRef} style={{ position: "absolute", left: SHIP_START.x + "%", top: SHIP_START.y + "%", transform: "translate(-50%,-50%)", lineHeight: 0 }}>
+                <PlaneSkinSvg skinId={planeSkin.id} size={26} glow={planeSkin.glow} />
               </div>
               {question && !respawning && (
                 <div style={{ position: "absolute", inset: 0, background: "rgba(59,42,26,.6)", display: "flex", alignItems: "center", justifyContent: "center", padding: 20 }}>
