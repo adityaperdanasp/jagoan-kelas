@@ -18,6 +18,15 @@ Jangan pernah ngarang fakta di luar konteks soal yang dikasih. Selalu suportif -
 ATURAN PALING PENTING soal ngasih jawaban: kalau field "sudahJawab" di konteks soal itu false, JANGAN PERNAH langsung kasih tau jawaban akhirnya -- kasih PETUNJUK/HINT/cara mikir aja biar anak nemuin sendiri jawabannya, walaupun anak minta jawaban langsung. Kalau "sudahJawab" true (anak udah submit jawaban), baru boleh jelasin kenapa jawaban yang benar itu benar, pakai angka/kata dari soal itu sendiri.
 ATURAN TOPIK: kamu CUMA boleh ngobrolin soal/pelajaran yang lagi dibahas (konteks soal di bawah) -- gak ngasih hint pelajaran lain, gak ngobrolin hal di luar pelajaran sama sekali (topik random, curhat, minta cerita, dll), APALAGI hal yang gak pantas buat anak SD. Kalau anak nanya/ngajak ngobrol di luar itu, JANGAN ikutin topiknya walau sepintas -- tolak dengan ramah singkat terus ARAHIN BALIK ke soal yang lagi dikerjain (misal ajak coba mikirin soalnya lagi atau tawarin kasih petunjuk). Jangan ceramah panjang soal aturan ini ke anak, cukup 1 kalimat redirect terus lanjut fokus ke soal.`;
 
+// Mode "general" (2026-08-06) -- Kiko di-tap langsung dari hero Landing.jsx
+// (BUKAN dari dalam 1 soal quiz kayak mode di atas), jadi gak ada
+// "sudahJawab"/topik-soal-spesifik buat dijadiin batasan. Tetep dikasih
+// guardrail konten (aman buat anak SD) walau topiknya lebih bebas.
+const GENERAL_SYSTEM_PROMPT = `Kamu adalah Kiko, maskot AI ramah di Jagoan Kelas, aplikasi belajar buat anak SD Indonesia (kelas 1-6). Anak lagi ngajak ngobrol bebas (BUKAN pas ngerjain soal tertentu).
+Gaya bicara: kayak kakak/teman yang ceria dan seru, Bahasa Indonesia santai tapi sopan, sesuai umur anak SD. TULIS PLAIN TEXT DOANG -- JANGAN PERNAH pakai simbol markdown apapun.
+Balasan HARUS pendek: maksimal 2-3 kalimat tiap giliran.
+Boleh ngobrolin apa aja yang WAJAR buat anak SD (pelajaran sekolah, hal-hal seru seputar app ini, semangatin belajar, jawab pertanyaan umum sederhana) TAPI kalau ditanya/diajak hal yang gak pantas atau gak wajar buat anak SD, TOLAK dengan ramah terus alihin ke topik positif -- jangan ceramah panjang, cukup 1 kalimat redirect. Jangan pernah ngarang fakta serius (sejarah/sains/dll) -- kalau gak yakin, ngaku jujur gak tau daripada asal jawab.`;
+
 // Safety net kalau model tetep keceplosan pakai markdown walau udah
 // dilarang di system prompt (LLM gak selalu 100% nurut instruksi
 // formatting) -- bubble chat di KikoTutorChat.jsx nampilin teks polos,
@@ -48,9 +57,20 @@ export default async function handler(req, res) {
     messages,
   } = req.body || {};
 
-  if (!question || typeof question !== "string") {
-    res.status(400).json({ error: "Missing 'question'" });
-    return;
+  // Ada 'question' = lagi bahas 1 soal quiz (dari KikoTutorChat.jsx di
+  // QuizRunner). Gak ada = chat umum (dari Kiko di Landing.jsx hero) --
+  // dibedain dari ADA-GAKNYA field ini, bukan flag terpisah, biar client
+  // gak perlu ngirim apa-apa ekstra buat mode umum.
+  const isQuizMode = question !== undefined && question !== null;
+  if (isQuizMode) {
+    if (typeof question !== "string") {
+      res.status(400).json({ error: "'question' harus string" });
+      return;
+    }
+    if (correctAnswer === undefined || correctAnswer === null) {
+      res.status(400).json({ error: "Missing 'correctAnswer'" });
+      return;
+    }
   }
   if (!Array.isArray(messages) || messages.length === 0) {
     res.status(400).json({ error: "Missing 'messages'" });
@@ -63,16 +83,18 @@ export default async function handler(req, res) {
     return;
   }
 
-  const facts = {
-    mataPelajaran: subjectName,
-    kelas: gradeLabel,
-    topik: topic,
-    soal: question,
-    jawabanBenar: correctAnswer,
-    jawabanAnak: kidAnswer ?? "(belum jawab)",
-    penjelasanSingkat: explanation,
-    sudahJawab: !!sudahJawab,
-  };
+  const facts = isQuizMode
+    ? {
+        mataPelajaran: subjectName,
+        kelas: gradeLabel,
+        topik: topic,
+        soal: question,
+        jawabanBenar: correctAnswer,
+        jawabanAnak: kidAnswer ?? "(belum jawab)",
+        penjelasanSingkat: explanation,
+        sudahJawab: !!sudahJawab,
+      }
+    : null;
 
   const chatMessages = messages
     .filter((m) => m && typeof m.text === "string" && m.text.trim())
@@ -94,7 +116,9 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: "claude-haiku-4-5",
         max_tokens: 220,
-        system: `${SYSTEM_PROMPT_BASE}\n\nKonteks soal yang lagi dibahas (JSON, buat kamu ngerti -- JANGAN ditunjukin mentah ke anak):\n${JSON.stringify(facts)}`,
+        system: isQuizMode
+          ? `${SYSTEM_PROMPT_BASE}\n\nKonteks soal yang lagi dibahas (JSON, buat kamu ngerti -- JANGAN ditunjukin mentah ke anak):\n${JSON.stringify(facts)}`
+          : GENERAL_SYSTEM_PROMPT,
         messages: chatMessages,
       }),
     });

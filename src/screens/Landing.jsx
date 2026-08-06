@@ -4,21 +4,35 @@ import Shell from "../components/Shell";
 import Avatar from "../components/ds/Avatar";
 import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
-import { Badge } from "../components/ds/Badge";
 import OverlayCard from "../components/ds/OverlayCard";
 import Kiko from "../components/ds/Kiko";
-import WanderingKiko from "../components/WanderingKiko";
+import WalkingDino from "../components/WalkingDino";
+import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { GRADES } from "../data/content";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
 import { getPlayerDoc, markParentMessageRead } from "../data/authService";
 import { TRACK_HUB, useBgmTrack, isBgmMuted, setBgmMuted } from "../data/bgm";
 
+// Palet "pastel lucu" (2026-08-06, revamp Landing -- lihat CLAUDE.md buat
+// histori 3 mockup A/B/C yang direview user sebelum ini) -- BUKAN token
+// --pastel-* biasa (itu terlalu pucat, keluhan awal user "warna terlalu
+// pale") DAN BUKAN token --ink-on-* dari mockup awal (itu kebalikannya,
+// kegelapan/kurang "lucu"). Ini tier warna baru di tengah-tengah: cukup
+// saturated buat nge-pop kayak card game (mirip Duolingo/Kahoot), tapi
+// tetep ringan/ceria bukan gelap. Dipakai SEBAGAI BACKGROUND kartu kelas
+// (teks putih di atasnya, kontras cukup karena udah lumayan saturated).
+// Kelas 3 (index 2) & 6 (index 5) awalnya "#6FCF7C"/"#F06BA8" -- kena
+// feedback user "terlalu gonjreng", diganti versi lebih desaturated/muted
+// (sage green & dusty rose) biar "pastel gemes", bukan neon.
+const GRADE_CARD_COLORS = ["#FF8FA8", "#5AB4E8", "#8FCB9B", "#FFC93D", "#B48CF0", "#E888B4"];
+
 export default function Landing() {
   const navigate = useNavigate();
   const { player, logout } = usePlayer();
   const [parentMessage, setParentMessage] = useState(null);
   const [muted, setMuted] = useState(isBgmMuted);
+  const [chatOpen, setChatOpen] = useState(false);
   useBgmTrack(TRACK_HUB);
 
   function toggleMute() {
@@ -102,100 +116,129 @@ export default function Landing() {
           </div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, textAlign: "center", padding: "10px 0 6px" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "10px 0 4px" }}>
+          <button
+            onClick={() => setChatOpen(true)}
+            aria-label="Ngobrol sama Kiko"
+            style={{
+              position: "relative",
+              border: "none",
+              background: "none",
+              padding: 0,
+              cursor: "pointer",
+              WebkitTapHighlightColor: "transparent",
+              animation: "jkKikoWiggle 2.6s ease-in-out infinite",
+              filter: "drop-shadow(0 10px 14px rgba(60,40,20,.28))",
+            }}
+          >
+            <div
+              aria-hidden="true"
+              style={{
+                position: "absolute",
+                top: -6,
+                right: -34,
+                background: "#fff",
+                borderRadius: 12,
+                padding: "5px 10px",
+                fontFamily: "var(--font-body)",
+                fontWeight: 800,
+                fontSize: "0.62rem",
+                color: "var(--ink-900)",
+                whiteSpace: "nowrap",
+                boxShadow: "var(--shadow-sticker-sm)",
+                transform: "rotate(4deg)",
+              }}
+            >
+              Hai, ini Kiko! 👋
+              <span
+                style={{
+                  position: "absolute",
+                  left: 14,
+                  bottom: -5,
+                  width: 10,
+                  height: 10,
+                  background: "#fff",
+                  transform: "rotate(45deg)",
+                }}
+              />
+            </div>
+            <Kiko size={112} />
+            <span
+              aria-hidden="true"
+              style={{
+                position: "absolute",
+                right: -2,
+                bottom: 8,
+                width: 30,
+                height: 30,
+                borderRadius: "50%",
+                background: "var(--pastel-purple)",
+                border: "3px solid var(--cream-50)",
+                fontSize: 14,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                animation: "jkBagPulse 1.6s ease-in-out infinite",
+              }}
+            >
+              🎒
+            </span>
+          </button>
           <div
             onClick={handleSecretTap}
             style={{
-              width: 150,
-              height: 112,
-              borderRadius: 18,
-              background: "var(--pastel-gold)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
+              marginTop: 2,
               cursor: "pointer",
               WebkitTapHighlightColor: "transparent",
-              overflow: "hidden",
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: "1.25rem",
+              background: "linear-gradient(90deg, var(--ink-on-purple), var(--ink-on-blue))",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
             }}
           >
-            <Kiko size={92} />
+            Jagoan Kelas
           </div>
-          <Badge color="gold" rotate={-3}>Jagoan Kelas</Badge>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "6px 4px 0" }}>
-          <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.95rem", color: "var(--ink-900)" }}>
-            Pilih Kelas Kamu!
-          </div>
-          <button
-            onClick={() => {
-              window.location.href = "/dinorace/index.html";
-            }}
-            aria-label="Main DinoRace"
-            style={{
-              border: "none",
-              cursor: "pointer",
-              background: "var(--pastel-purple)",
-              borderRadius: "var(--radius-pill)",
-              padding: "6px 12px",
-              display: "flex",
-              alignItems: "center",
-              gap: 5,
-              fontFamily: "var(--font-body)",
-              fontWeight: 700,
-              fontSize: "0.72rem",
-              color: "var(--ink-on-purple)",
-              boxShadow: "var(--shadow-sticker-sm)",
-            }}
-          >
-            🦕 DinoRace
-          </button>
+        <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.8rem", color: "var(--ink-500)", textAlign: "center", margin: "2px 0 12px" }}>
+          Pilih kelas kamu!
         </div>
-        <WanderingKiko />
 
-        <div style={{ flex: 1, minHeight: 0, overflowY: "auto", display: "flex", flexDirection: "column", alignItems: "center", gap: 16, padding: "8px 18px 10px" }}>
-          {GRADES.map((g) => (
-            <div
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, padding: "0 18px" }}>
+          {GRADES.map((g, i) => (
+            <button
               key={g.n}
+              onClick={() => navigate(`/kelas/${g.n}`)}
               style={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                gap: 6,
-                transform: `translateX(${g.offset}px)`,
+                justifyContent: "center",
+                gap: 4,
+                aspectRatio: "1",
+                borderRadius: 16,
+                border: "none",
+                cursor: "pointer",
+                background: GRADE_CARD_COLORS[i],
+                boxShadow: "var(--shadow-sticker-sm)",
+                transition: "transform var(--duration-press) ease",
               }}
+              onPointerDown={(e) => (e.currentTarget.style.transform = "translateY(2px)")}
+              onPointerUp={(e) => (e.currentTarget.style.transform = "translateY(0)")}
+              onPointerLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
             >
-              <button
-                onClick={() => navigate(`/kelas/${g.n}`)}
-                style={{
-                  width: 64,
-                  height: 64,
-                  borderRadius: "50%",
-                  border: "none",
-                  cursor: "pointer",
-                  background: g.bg,
-                  boxShadow: "var(--shadow-sticker-sm)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontFamily: "var(--font-display)",
-                  fontWeight: 800,
-                  fontSize: "1.5rem",
-                  color: g.ink,
-                  transition: "transform var(--duration-press) ease",
-                }}
-                onPointerDown={(e) => (e.currentTarget.style.transform = "translateY(2px)")}
-                onPointerUp={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-                onPointerLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-              >
-                {g.n}
-              </button>
-              <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.72rem", color: "var(--ink-500)" }}>
-                Kelas {g.n}
-              </span>
-            </div>
+              <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem", color: "#fff" }}>{g.n}</span>
+              <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.62rem", color: "rgba(255,255,255,.9)" }}>Kelas {g.n}</span>
+            </button>
           ))}
         </div>
+
+        <div style={{ flex: 1, minHeight: 8 }} />
+
+        <WalkingDino />
 
         <Link
           to="/parents"
@@ -207,7 +250,7 @@ export default function Landing() {
             fontWeight: 700,
             color: "var(--ink-300)",
             textDecoration: "none",
-            marginTop: 14,
+            marginTop: 6,
           }}
         >
           Untuk orang tua →
@@ -226,6 +269,13 @@ export default function Landing() {
           Makasih! 😊
         </Button>
       </OverlayCard>
+
+      <KikoChatPanel open={chatOpen} onClose={() => setChatOpen(false)} mode="general" resetKey="landing" />
+
+      <style>{`
+        @keyframes jkKikoWiggle { 0%,100%{transform:rotate(0)} 25%{transform:rotate(-4deg)} 75%{transform:rotate(4deg)} }
+        @keyframes jkBagPulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.12)} }
+      `}</style>
     </Shell>
   );
 }
