@@ -1,14 +1,38 @@
 import { useNavigate } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import { GRADES } from "../data/content";
-import WanderingDino from "../components/WanderingDino";
+import WanderingKiko from "../components/WanderingKiko";
 
 export default function PickGrade() {
   const navigate = useNavigate();
   return (
     <Shell>
       <ScreenHeader onBack={() => navigate("/")} title="Pilih Kelas Kamu!" />
-      <WanderingDino onTap={() => { window.location.href = "/dinorace/index.html"; }} />
+      <button
+        onClick={() => { window.location.href = "/dinorace/index.html"; }}
+        aria-label="Main DinoRace"
+        style={{
+          position: "absolute",
+          top: 22,
+          right: 18,
+          border: "none",
+          cursor: "pointer",
+          background: "var(--pastel-purple)",
+          borderRadius: "var(--radius-pill)",
+          padding: "6px 12px",
+          display: "flex",
+          alignItems: "center",
+          gap: 5,
+          fontFamily: "var(--font-body)",
+          fontWeight: 700,
+          fontSize: "0.72rem",
+          color: "var(--ink-on-purple)",
+          boxShadow: "var(--shadow-sticker-sm)",
+        }}
+      >
+        🦕 DinoRace
+      </button>
+      <WanderingKiko />
       <div
         style={{
           flex: 1,

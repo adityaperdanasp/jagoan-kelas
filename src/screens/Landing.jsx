@@ -6,7 +6,7 @@ import Button from "../components/ds/Button";
 import ProgressXP from "../components/ds/ProgressXP";
 import { Badge } from "../components/ds/Badge";
 import OverlayCard from "../components/ds/OverlayCard";
-import HeroIllustration from "../components/ds/HeroIllustration";
+import Kiko from "../components/ds/Kiko";
 import RoamingCarDino from "../components/RoamingCarDino";
 import { usePlayer } from "../data/PlayerContext";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
@@ -117,7 +117,7 @@ export default function Landing() {
               overflow: "hidden",
             }}
           >
-            <HeroIllustration />
+            <Kiko size={140} />
           </div>
           <Badge color="gold" rotate={-3}>Jagoan Kelas</Badge>
           <div style={{ fontFamily: "var(--font-body)", fontSize: "0.85rem", color: "var(--ink-700)", maxWidth: 220 }}>

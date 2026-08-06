@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import Button from "../../components/ds/Button";
+import KikoTutorChat from "./KikoTutorChat";
 import { answersMatch } from "./normalizeAnswer";
 
 // Komponen quiz reusable -- dipakai TopicQuiz (practice per-bab normal)
@@ -10,11 +11,10 @@ import { answersMatch } from "./normalizeAnswer";
 // (pakai ref bukan state, biar gak kena race batching pas dibaca di finish),
 // dipakai FocusRoundQuiz buat breakdown correct/wrong per topik asal soal.
 //
-// AI Tutor (2026-08-05) -- tombol "🤖 Jelasin lagi" ON-DEMAND pas jawaban
-// salah (bukan otomatis, biar API kepake cuma pas beneran diminta),
-// manggil /api/generate-hint (Vercel serverless, lihat file itu). Gagal
-// (network/API key belum di-set) = tombol ilang diem-diem, GAK PERNAH
-// nge-block kuis -- sama filosofi kayak BrainBox.
+// AI Tutor (2026-08-05, upgrade ke chat interaktif 2026-08-06) -- tombol
+// "Tanya Kiko" SELALU muncul di header soal (bukan cuma pas jawaban salah
+// kayak v1), buka chat pakai wajah Kiko (KikoTutorChat.jsx, manggil
+// /api/kiko-chat). Percakapan direset tiap ganti soal (resetKey={q.id}).
 export default function QuizRunner({ questions, onFinish, subjectName, gradeLabel, topicTitle }) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -22,9 +22,6 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
   const [answered, setAnswered] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
-  const [hint, setHint] = useState(null);
-  const [hintLoading, setHintLoading] = useState(false);
-  const [hintFailed, setHintFailed] = useState(false);
   const logRef = useRef([]);
 
   const q = questions[index];
@@ -43,38 +40,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
     else setWrongCount((w) => w + 1);
   }
 
-  async function askHint() {
-    setHintLoading(true);
-    setHintFailed(false);
-    try {
-      const res = await fetch("/api/generate-hint", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          subjectName,
-          gradeLabel,
-          topic: topicTitle,
-          question: q.question,
-          correctAnswer: q.answer,
-          kidAnswer: given,
-          explanation: q.explanation,
-        }),
-      });
-      if (!res.ok) throw new Error("hint request failed");
-      const data = await res.json();
-      if (!data.hint) throw new Error("no hint in response");
-      setHint(data.hint);
-    } catch {
-      // Diem-diem gagal -- tombol/card hint ilang, kuis TETEP jalan.
-      setHintFailed(true);
-    } finally {
-      setHintLoading(false);
-    }
-  }
-
   function next() {
-    setHint(null);
-    setHintFailed(false);
     if (index + 1 >= questions.length) {
       onFinish({
         correct: correctCount,
@@ -92,8 +58,22 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
 
   return (
     <div style={{ display: "flex", flexDirection: "column", flex: 1, padding: "0 18px 18px" }}>
-      <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)", marginBottom: 8 }}>
-        Soal {index + 1} / {questions.length}
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 8 }}>
+        <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)" }}>
+          Soal {index + 1} / {questions.length}
+        </div>
+        <KikoTutorChat
+          resetKey={q.id}
+          subjectName={subjectName}
+          gradeLabel={gradeLabel}
+          topicTitle={topicTitle}
+          question={q.question}
+          correctAnswer={q.answer}
+          kidAnswer={given}
+          explanation={q.explanation}
+          answered={answered}
+          isCorrect={isCorrect}
+        />
       </div>
 
       <div
@@ -172,17 +152,6 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
             </div>
             {q.explanation && (
               <div style={{ fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", marginTop: 4 }}>{q.explanation}</div>
-            )}
-            {!isCorrect && !hint && !hintFailed && (
-              <Button variant="secondary" size="sm" disabled={hintLoading} onClick={askHint} style={{ marginTop: 10 }}>
-                {hintLoading ? "Mikir..." : "🤖 Jelasin Lagi"}
-              </Button>
-            )}
-            {hint && (
-              <div style={{ marginTop: 10, padding: 10, borderRadius: 10, background: "var(--surface-card-alt)", display: "flex", gap: 8 }}>
-                <span style={{ fontSize: "1.1rem" }}>🤖</span>
-                <div style={{ fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)" }}>{hint}</div>
-              </div>
             )}
           </div>
         )}

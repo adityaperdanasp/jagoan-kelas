@@ -6,6 +6,7 @@ import Joystick from "../shared/Joystick";
 import { useJoystick } from "../shared/useJoystick";
 import { generateQuickQuestion } from "../shared/quickQuestion";
 import { TRACK_DRIVE, useBgmTrack } from "../../data/bgm";
+import Kiko from "../../components/ds/Kiko";
 
 // Core engine di-port dari pola BrainBox mathville Drive Mode (car top-down
 // dodge + dino chase + quiz-on-obstacle-hit), versi disederhanain -- 1 dino
@@ -110,6 +111,7 @@ export default function DriveMode() {
 
   const worldRef = useRef(null);
   const carRef = useRef(null);
+  const kikoFaceRef = useRef(null);
   const dinoRef = useRef(null);
   const waterJetRef = useRef(null);
   const gameRef = useRef({
@@ -253,6 +255,15 @@ export default function DriveMode() {
             carRef.current.style.left = g.x + "%";
             carRef.current.style.top = g.y + "%";
             carRef.current.style.transform = `translate(-50%,-50%) rotate(${headingCss(angle)}deg)`;
+          }
+          if (kikoFaceRef.current) {
+            // Counter-rotate biar wajah Kiko di kaca depan selalu keliatan
+            // tegak (gak ikut muter bareng bodi mobil yang di-rotate parent).
+            // translate(-50%,-50%) WAJIB diulang di sini (bukan cuma di style
+            // JSX awal) -- style.transform di-OVERWRITE penuh tiap frame,
+            // bukan di-merge, jadi kalau cuma rotate() doang, elemen kehilangan
+            // centering-nya abis frame pertama gerak.
+            kikoFaceRef.current.style.transform = `translate(-50%,-50%) rotate(${-headingCss(angle)}deg)`;
           }
         }
         const dx = g.x - g.dinoX;
@@ -421,6 +432,19 @@ export default function DriveMode() {
               </div>
               <div ref={carRef} style={{ position: "absolute", left: CAR_START.x + "%", top: CAR_START.y + "%", transform: "translate(-50%,-50%)", fontSize: 28 }}>
                 {vehicleSkin.emoji}
+                <div
+                  ref={kikoFaceRef}
+                  style={{
+                    position: "absolute",
+                    left: "50%",
+                    top: "38%",
+                    transform: "translate(-50%,-50%)",
+                    pointerEvents: "none",
+                  }}
+                  title="Kiko nemenin di kaca depan"
+                >
+                  <Kiko size={13} />
+                </div>
               </div>
               <div
                 ref={waterJetRef}
