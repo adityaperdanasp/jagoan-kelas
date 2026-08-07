@@ -32,7 +32,19 @@ export const TRACK_BY_SUBJECT = {
   binggris: "/audio/bgm/binggris.mp3",
 };
 export const TRACK_HUB = DEFAULT_SRC;
-export const TRACK_DRIVE = "/audio/bgm/drive.mp3";
+// Al-idrisi Drive Mode GAK punya track sendiri -- mathville/bgm.js cuma
+// punya 2 track total (DEFAULT_SRC "bgm.mp3" dipake di mana-mana TERMASUK
+// Drive Mode, + "plane-bgm.mp3" khusus Plane Mode lewat playPlaneTrack()).
+// File "drive.mp3" di sini KEBALIK pas porting 2026-08-05 -- isinya
+// byte-identik sama plane-bgm.mp3 (bukan bgm.mp3), jadi Drive Mode malah
+// muter musik Plane Mode al-idrisi. Ketauan user 2026-08-07 ("samain
+// dengan drive mode di alidrisi"). Fix: TRACK_DRIVE diarahin ke
+// matematika.mp3 (file itu SUDAH byte-identik sama al-idrisi bgm.mp3,
+// diverifikasi md5) -- gak bikin file baru, karena emang itu track yang
+// bener (sama kayak Drive Mode al-idrisi make DEFAULT_SRC yang sama
+// kayak seantero situs). File `drive.mp3` fisiknya DIBIARIN (masih
+// dipake `TRACK_BY_SUBJECT.ppkn`, di luar scope perbaikan ini).
+export const TRACK_DRIVE = "/audio/bgm/matematika.mp3";
 export const TRACK_PLANE = "/audio/bgm/plane.mp3";
 
 const track = new Audio(DEFAULT_SRC);

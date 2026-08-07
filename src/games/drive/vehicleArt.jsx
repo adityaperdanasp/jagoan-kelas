@@ -10,7 +10,18 @@
 // 5 skin ID (blaze/comet/turbo/sunburst/nova) SAMA PERSIS kayak
 // VEHICLE_SKINS.car di al-idrisi -- body shape identik smua (rect
 // rounded + windshield + 4 roda), cuma warna beda, KECUALI turbo (viewBox
-// lebih tinggi + spoiler rect di depan) dan nova (nambah decal petir).
+// lebih tinggi, nambah rear spoiler) dan nova (nambah decal petir).
+//
+// FIX turbo (2026-08-07): sumber al-idrisi nempatin spoiler bar-nya DI
+// DEPAN (y=0, sebelum body/windshield) -- keliatan bener/simetris kalau
+// statis, tapi begitu di-rotate lewat `headingCss()` (nose-up = depan di
+// atas), bar itu jadi "mimpin" di ujung nose, persis kayak spoiler
+// BELAKANG yang kebalik ke depan -- user lapor "mobil ijo kebalik ga?".
+// Body/windshield/roda turbo di sini udah digeser biar proporsinya PERSIS
+// sama kayak Blaze (nose-up bener), spoiler bar dipindah ke y=39-44
+// (BELAKANG body, nempel abis roda belakang) -- posisi rear spoiler yang
+// bener. Perubahan ini CUMA di jagoan-kelas (al-idrisi read-only, gak
+// disentuh -- lihat CLAUDE.md).
 
 export const VEHICLE_SKINS = [
   { id: "blaze", name: "Blaze", glow: "#E4572E" },
@@ -48,13 +59,13 @@ function CarComet({ size = 23 }) {
 function CarTurbo({ size = 23 }) {
   return (
     <svg viewBox="0 0 26 44" width={size} height={(size * 44) / 26}>
-      <rect x="3" y="5" width="20" height="38" rx="8" fill="#3FA84A" stroke="#2A7A32" strokeWidth="1.5" />
-      <rect x="2" y="0" width="22" height="5" rx="2" fill="#2A7A32" />
-      <rect x="6" y="11" width="14" height="10" rx="2.5" fill="#BFE3F0" />
-      <rect x="0" y="13" width="4" height="8" rx="1.5" fill="#1A1A1A" />
-      <rect x="22" y="13" width="4" height="8" rx="1.5" fill="#1A1A1A" />
-      <rect x="0" y="27" width="4" height="8" rx="1.5" fill="#1A1A1A" />
-      <rect x="22" y="27" width="4" height="8" rx="1.5" fill="#1A1A1A" />
+      <rect x="3" y="1" width="20" height="38" rx="8" fill="#3FA84A" stroke="#2A7A32" strokeWidth="1.5" />
+      <rect x="2" y="39" width="22" height="5" rx="2" fill="#2A7A32" />
+      <rect x="6" y="7" width="14" height="10" rx="2.5" fill="#BFE3F0" />
+      <rect x="0" y="9" width="4" height="8" rx="1.5" fill="#1A1A1A" />
+      <rect x="22" y="9" width="4" height="8" rx="1.5" fill="#1A1A1A" />
+      <rect x="0" y="23" width="4" height="8" rx="1.5" fill="#1A1A1A" />
+      <rect x="22" y="23" width="4" height="8" rx="1.5" fill="#1A1A1A" />
     </svg>
   );
 }
@@ -110,16 +121,38 @@ export function VehicleSkinSvg({ skinId, size = 23, glow }) {
 // Kaki (`jk-dino-leg-l`/`jk-dino-leg-r`) di-toggle jalan lewat class
 // `jk-dino-walking` di elemen PEMBUNGKUS (bukan svg ini sendiri) -- lihat
 // keyframes `jk-dino-leg-swing` di tokens.css.
+//
+// GAMBAR ULANG (2026-08-07) -- versi lama (SAMA PERSIS kayak al-idrisi
+// `#drive-dino` di index.html) punya 1 lingkaran kepala + 1 titik merah
+// DI TENGAH (posisi "mata" nyatu jadi satu, kayak wajah ngadep depan)
+// plus overlay biru transparan mirip kaca depan mobil -- di statis
+// keliatan oke, tapi user lapor "masih miring, belum tampak atas" karena
+// bahasa visualnya beda dari mobil (yang jelas top-down: 4 roda di
+// pojok + kaca depan kotak tengah). Fix: desain ulang biar SAMA JELAS
+// top-down kayak mobil -- 2 titik mata di SISI KIRI/KANAN kepala (bukan
+// 1 titik tengah, karena mata beneran ada di samping kepala kalau
+// dilihat dari atas), duri punggung (dorsal spike) di garis tengah
+// badan (petunjuk visual umum buat "ini dilihat dari atas"), dan 4 kaki
+// (2 pasang, depan+belakang) nempel di SAMPING badan alih-alih 2 kaki
+// doang. `jk-dino-leg-l`/`jk-dino-leg-r` dipake ulang di kedua pasang
+// kaki (kiri selalu -l, kanan selalu -r) biar animasi jalan tetep pakai
+// keyframes yang sama, gak perlu nambah CSS baru. Perubahan CUMA di
+// jagoan-kelas (al-idrisi read-only, gak disentuh).
 export function DinoSvg({ size = 27 }) {
   return (
     <svg viewBox="0 0 30 40" width={size} height={(size * 40) / 30}>
-      <path d="M15 39 Q9 34 15 29 Q21 34 15 39 Z" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.2" />
-      <ellipse cx="15" cy="24" rx="10" ry="13" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
-      <rect className="jk-dino-leg jk-dino-leg-l" x="4" y="30" width="4" height="8" rx="2" fill="#3F7A3D" />
-      <rect className="jk-dino-leg jk-dino-leg-r" x="22" y="30" width="4" height="8" rx="2" fill="#3F7A3D" />
-      <circle cx="15" cy="10" r="9.5" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
-      <circle cx="15" cy="10" r="9.5" fill="rgba(191,227,240,.5)" stroke="#8fb9c9" strokeWidth="1.5" />
-      <circle cx="15" cy="3.5" r="1.6" fill="#E4572E" />
+      <path d="M15 40 Q10 35 15 30 Q20 35 15 40 Z" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.2" />
+      <ellipse cx="15" cy="23" rx="8.5" ry="13" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
+      <rect className="jk-dino-leg jk-dino-leg-l" x="4" y="15" width="4" height="7" rx="2" fill="#3F7A3D" />
+      <rect className="jk-dino-leg jk-dino-leg-r" x="22" y="15" width="4" height="7" rx="2" fill="#3F7A3D" />
+      <rect className="jk-dino-leg jk-dino-leg-l" x="5" y="27" width="4" height="7" rx="2" fill="#3F7A3D" />
+      <rect className="jk-dino-leg jk-dino-leg-r" x="21" y="27" width="4" height="7" rx="2" fill="#3F7A3D" />
+      <path d="M15 11 L13 14 L17 14 Z" fill="#3F7A3D" />
+      <path d="M15 16.5 L12.5 20 L17.5 20 Z" fill="#3F7A3D" />
+      <path d="M15 22 L12.5 25.5 L17.5 25.5 Z" fill="#3F7A3D" />
+      <circle cx="15" cy="8" r="6.5" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
+      <circle cx="10.5" cy="6.8" r="1.4" fill="#2A2A2A" />
+      <circle cx="19.5" cy="6.8" r="1.4" fill="#2A2A2A" />
     </svg>
   );
 }
