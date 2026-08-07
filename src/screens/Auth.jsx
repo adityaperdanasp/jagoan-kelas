@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Shell from "../components/Shell";
 import { Badge } from "../components/ds/Badge";
+import Kiko from "../components/ds/Kiko";
+import AuthDecor from "../components/AuthDecor";
 import SegmentedToggle from "../components/ds/SegmentedToggle";
 import Input from "../components/ds/Input";
 import Button from "../components/ds/Button";
@@ -33,9 +35,13 @@ export default function Auth() {
 
   return (
     <Shell>
-      <div style={{ padding: "26px 24px 36px", display: "flex", flexDirection: "column", gap: 24 }}>
+      <AuthDecor />
+      <div style={{ padding: "26px 24px 36px", display: "flex", flexDirection: "column", gap: 24, position: "relative", zIndex: 1 }}>
         <div style={{ textAlign: "center" }}>
-          <Badge color="gold">🎒 Jagoan Kelas</Badge>
+          <Badge color="gold">
+            <Kiko size={24} />
+            Jagoan Kelas
+          </Badge>
         </div>
 
         <div style={{ textAlign: "center" }}>

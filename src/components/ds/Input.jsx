@@ -15,7 +15,7 @@ export default function Input({ label, type = "text", pin, invalid, error, value
         </span>
       ) : null}
       <input
-        type={type}
+        type={pin ? "password" : type}
         value={value}
         onChange={onChange}
         placeholder={placeholder}

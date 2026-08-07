@@ -137,7 +137,7 @@ export default function Landing() {
                 position: "absolute",
                 top: -6,
                 right: -34,
-                background: "#fff",
+                background: "color-mix(in srgb, var(--pastel-purple) 35%, white)",
                 borderRadius: 12,
                 padding: "5px 10px",
                 fontFamily: "var(--font-body)",
@@ -149,7 +149,7 @@ export default function Landing() {
                 transform: "rotate(4deg)",
               }}
             >
-              Hai, ini Kiko! 👋
+              Kiko disini
               <span
                 style={{
                   position: "absolute",
@@ -157,7 +157,7 @@ export default function Landing() {
                   bottom: -5,
                   width: 10,
                   height: 10,
-                  background: "#fff",
+                  background: "color-mix(in srgb, var(--pastel-purple) 35%, white)",
                   transform: "rotate(45deg)",
                 }}
               />
