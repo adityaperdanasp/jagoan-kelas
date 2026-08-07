@@ -8,6 +8,15 @@ import { increment } from "firebase/firestore";
 // baca, bukan disimpen -- lihat computeStatuses) biar gak ada 2 sumber
 // kebenaran yang bisa out-of-sync.
 
+/** Nambah XP total player TANPA nyentuh progress per-topik apapun -- dipake
+ * mode kayak Ninja Runner yang nulis topicStats sendiri per topik (xpEarned:0
+ * di tiap panggilan recordFocusRoundAttempt) terus nambahin XP totalnya
+ * sekali di sini, biar gak dobel-hitung. */
+export async function addXp(playerId, xpEarned) {
+  if (!xpEarned) return;
+  await updateDoc(doc(db, "players", playerId), { xp: increment(xpEarned) });
+}
+
 export async function getSubjectProgress(playerId, subject, grade) {
   const snap = await getDoc(doc(db, "players", playerId));
   if (!snap.exists()) return {};

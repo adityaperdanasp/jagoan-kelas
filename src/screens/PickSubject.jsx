@@ -30,6 +30,13 @@ export default function PickSubject() {
           subtitle="Campur soal dari pelajaran manapun"
           onClick={() => navigate(`/kelas/${grade}/fokus`)}
         />
+        <GameCard
+          accent="mint"
+          icon="🥷"
+          title="Ninja Runner"
+          subtitle="Lari, lompat, jawab soal campur!"
+          onClick={() => navigate(`/kelas/${grade}/ninja`)}
+        />
       </div>
     </Shell>
   );

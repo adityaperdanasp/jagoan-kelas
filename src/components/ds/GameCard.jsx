@@ -6,6 +6,8 @@ const ACCENTS = {
   science: { bg: "var(--product-science)", ink: "var(--product-science-ink)", inkSoft: "var(--ink-on-green-soft)" },
   town: { bg: "var(--product-town)", ink: "var(--product-town-ink)", inkSoft: "var(--ink-on-tan-soft)" },
   focus: { bg: "var(--product-focus)", ink: "var(--product-focus-ink)", inkSoft: "var(--ink-on-purple-soft)" },
+  wood: { bg: "var(--product-wood)", ink: "var(--product-wood-ink)", inkSoft: "var(--ink-on-wood-soft)" },
+  mint: { bg: "var(--product-mint)", ink: "var(--product-mint-ink)", inkSoft: "var(--product-mint-ink)" },
 };
 
 export default function GameCard({ accent = "math", icon, title, subtitle, rotate, onClick, href }) {
