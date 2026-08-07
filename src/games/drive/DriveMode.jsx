@@ -43,6 +43,7 @@ import { VEHICLE_SKINS, DinoSvg, VehicleSkinSvg } from "./vehicleArt";
 const SCORE_TARGET = 12;
 const MAX_BITES = 3;
 const BITE_IMMUNE_MS = 3000;
+const POST_QUESTION_IMMUNE_MS = 2000; // biar dino gak langsung gigit begitu resume abis soal
 const CAR_R_PX = 16;
 const OBSTACLE_R_PX = 15;
 const DINO_R_PX = 15;
@@ -164,6 +165,7 @@ export default function DriveMode() {
     setTimeout(() => {
       setQuestion(null);
       gameRef.current.paused = false;
+      gameRef.current.immuneUntil = performance.now() + POST_QUESTION_IMMUNE_MS;
     }, 800);
   }
 
