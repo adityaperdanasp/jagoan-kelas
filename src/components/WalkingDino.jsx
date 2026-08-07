@@ -24,7 +24,7 @@ export default function WalkingDino() {
           lineHeight: 1,
           padding: 0,
           WebkitTapHighlightColor: "transparent",
-          animation: "jkDinoWalkAcross 7s linear infinite, jkDinoWalkBounce 0.4s ease-in-out infinite",
+          animation: "jkDinoWalkAcross 8.05s linear infinite, jkDinoWalkBounce 0.4s ease-in-out infinite", // 15% lebih pelan (7s -> 8.05s, request user)
           filter: "drop-shadow(0 3px 3px rgba(0,0,0,0.15))",
           transform: "scaleX(-1)",
         }}

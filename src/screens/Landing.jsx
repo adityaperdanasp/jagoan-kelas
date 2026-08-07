@@ -7,6 +7,7 @@ import ProgressXP from "../components/ds/ProgressXP";
 import OverlayCard from "../components/ds/OverlayCard";
 import Kiko from "../components/ds/Kiko";
 import WalkingDino from "../components/WalkingDino";
+import LandingDecor from "../components/LandingDecor";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { GRADES } from "../data/content";
 import { usePlayer } from "../data/PlayerContext";
@@ -68,7 +69,8 @@ export default function Landing() {
 
   return (
     <Shell>
-      <div style={{ padding: "22px 18px", display: "flex", flexDirection: "column", flex: 1 }}>
+      <LandingDecor />
+      <div style={{ padding: "22px 18px", display: "flex", flexDirection: "column", flex: 1, position: "relative", zIndex: 1 }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <Avatar name={player.name} size={36} />
