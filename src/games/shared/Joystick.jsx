@@ -1,12 +1,9 @@
 export default function Joystick({ joystick, size = 96, color = "var(--pastel-blue)" }) {
-  const { baseRef, nub, onPointerDown, onPointerMove, onPointerUp, onPointerLeave } = joystick;
+  const { baseRef, nub, onPointerDown } = joystick;
   return (
     <div
       ref={baseRef}
       onPointerDown={onPointerDown}
-      onPointerMove={onPointerMove}
-      onPointerUp={onPointerUp}
-      onPointerLeave={onPointerLeave}
       style={{
         width: size,
         height: size,
