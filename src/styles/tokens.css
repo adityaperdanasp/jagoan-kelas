@@ -121,3 +121,24 @@ button { font: inherit; }
   0% { transform: translate(-50%, -50%) scale(0.4); opacity: 1; }
   100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }
 }
+
+/* Water gun jet -- di-port PERSIS dari al-idrisi-games mathville/style.css
+   (.drive-water-stream): segitiga CSS panjang (bukan emoji statis), zero-
+   size box + border-left/right transparan + border-bottom solid biar
+   ujung lancip nempel di mobil dan melebar ke arah semprotan. Default
+   (rotate 0deg) ngarah KE BAWAH layar -- makanya rotasinya di JS pakai
+   formula beda dari sprite mobil/dino yang "nose-up" (headingCss:+90),
+   ini butuh -90 (lihat komentar di DriveMode.jsx). */
+.jk-water-stream {
+  position: absolute; width: 0; height: 0; z-index: 6; pointer-events: none;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 128px solid rgba(120, 200, 240, 0.4);
+  transform-origin: 50% 0%;
+  margin-left: -10px;
+  animation: jk-water-flow 0.25s linear infinite;
+}
+@keyframes jk-water-flow {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.85; }
+}

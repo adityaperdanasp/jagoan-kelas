@@ -235,7 +235,12 @@ export default function DriveMode() {
           if (firing) {
             waterJetRef.current.style.left = g.x + "%";
             waterJetRef.current.style.top = g.y + "%";
-            waterJetRef.current.style.transform = `translate(-50%,-50%) rotate(${headingCss(aimAngle)}deg)`;
+            // BEDA dari headingCss() yang dipake sprite mobil/dino (+90,
+            // buat art yang digambar "nose-up") -- segitiga CSS jet air ini
+            // defaultnya udah ngarah KE BAWAH (lihat .jk-water-stream di
+            // tokens.css), jadi butuh offset -90, sama persis formula
+            // driveWaterTick() BrainBox.
+            waterJetRef.current.style.transform = `rotate(${(aimAngle * 180) / Math.PI - 90}deg)`;
           }
         }
         if (firing) {
@@ -464,13 +469,9 @@ export default function DriveMode() {
               </div>
               <div
                 ref={waterJetRef}
-                style={{
-                  position: "absolute", left: CAR_START.x + "%", top: CAR_START.y + "%",
-                  transform: "translate(-50%,-50%)", fontSize: 20, display: "none", pointerEvents: "none",
-                }}
-              >
-                💦
-              </div>
+                className="jk-water-stream"
+                style={{ left: CAR_START.x + "%", top: CAR_START.y + "%", display: "none" }}
+              />
               {toast && (
                 <div
                   style={{
