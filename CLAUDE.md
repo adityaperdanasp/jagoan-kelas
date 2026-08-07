@@ -287,6 +287,17 @@ User minta engine cross-subject "ninja runner" dari `al-idrisi-games` (`mathvill
 
 **Verifikasi end-to-end** (browser-pane, otomatisasi klik via script di-inject `javascript_tool` biar gak manual 20 soal per test — native DOM `.click()` di tombol asli, bukan simulasi terpisah): render awal (3 kartu match desain persis screenshot user), jawab MATH/LANG&ARTS/SCIENCE manual satu-satu (soal+opsi dari konten ASLI, bukan dummy), jawab salah (verifikasi wrong-flash + no-crash abis fix #1), JUMP button, full 20-soal sampe overlay "Your journey has completed" + skor + tombol "Lihat N Soal yang Salah" (review list nampilin prompt/jawaban-kamu/jawaban-benar per soal, scroll jalan), dan write Firestore (topicStats + XP) dikonfirmasi lewat re-login FRESH ke Parent Portal (bukan baca state lokal) abis fix #2.
 
+## Favicon/app icon (2026-08-08) — diganti dari placeholder Vite ke Kiko
+
+Sebelumnya masih favicon default Vite (blob petir ungu) — kepake juga jadi ikon "Add to Home Screen" iOS karena app ini belum pernah punya `apple-touch-icon`/manifest sama sekali. User minta diganti pake Kiko versi "cream" (salah satu dari 2 avatar PNG/JPEG yang sebelumnya dibikinin buat foto profil email), bentuknya bulat bukan kotak, niru gaya foto profil Zoho yang di-crop bulat.
+
+- **2 varian rasterisasi, alasan teknis beda tujuan** (source SVG di-generate manual, path & warna Kiko PERSIS `Kiko.jsx`, bukan re-desain):
+  - `public/favicon.svg` + `favicon-32.png` — **bulat, pojokan TRANSPARAN**. Browser gak nge-mask favicon sama sekali, jadi bentuk asli file yang nampil di tab — ini yang bikin bisa keliatan "bulat" beneran di address bar/tab, sesuai request user.
+  - `public/apple-touch-icon.png` (180x180) + `icon-192.png`/`icon-512.png` (buat `manifest.json`) — **kotak penuh, TANPA transparansi**. iOS/Android nge-mask app-icon pake bentuk sistem sendiri (squircle/adaptive icon) — kalo sumbernya dikasih transparan di pojok, iOS render pojokan itu JADI HITAM (gotcha yang udah dikenal luas), bukan tembus. Jadi versi ini sengaja full-bleed persegi, biar OS yang bulet-in otomatis, bukan kita yang manual crop.
+- **`public/manifest.json`** (baru, belum pernah ada) — nama/theme-color/icons buat PWA "Add to Home Screen" Android, referensi `icon-192.png`/`icon-512.png`.
+- **`index.html`** ditambahin `<link rel="apple-touch-icon">`, `<link rel="manifest">`, `<meta name="theme-color">`, plus fallback PNG icon (`favicon-32.png`) buat browser yang gak support favicon SVG.
+- Diverifikasi: build sukses, semua asset baru serve 200 di dev DAN production (`curl` langsung ke tiap path), `<link>` tags kebaca bener di DOM, gak ada console error.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
