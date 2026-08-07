@@ -15,6 +15,7 @@ import ParentPortal from "./screens/ParentPortal";
 import TopicQuiz from "./screens/TopicQuiz";
 import FocusRoundPicker from "./screens/FocusRoundPicker";
 import FocusRoundQuiz from "./screens/FocusRoundQuiz";
+import IpasQuestMap from "./screens/IpasQuestMap";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -38,6 +39,9 @@ function AppRoutes() {
       <Route path="/parents" element={<ParentPortal />} />
       <Route path="/kelas/:grade/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
       <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
+      {/* MOCKUP (2026-08-07) -- preview route terpisah, belum gantiin
+          SubjectDetail.jsx buat ipas beneran, nunggu approval user. */}
+      <Route path="/kelas/:grade/ipas/peta-mockup" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
     </Routes>
   );
 }
