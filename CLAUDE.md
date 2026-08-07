@@ -298,6 +298,17 @@ Sebelumnya masih favicon default Vite (blob petir ungu) — kepake juga jadi iko
 - **`index.html`** ditambahin `<link rel="apple-touch-icon">`, `<link rel="manifest">`, `<meta name="theme-color">`, plus fallback PNG icon (`favicon-32.png`) buat browser yang gak support favicon SVG.
 - Diverifikasi: build sukses, semua asset baru serve 200 di dev DAN production (`curl` langsung ke tiap path), `<link>` tags kebaca bener di DOM, gak ada console error.
 
+## Auth screen didekorasi + PIN masking (2026-08-08)
+
+User kirim 2 screenshot perbandingan (Auth Jagoan Kelas yang masih polos vs. Welcome screen al-idrisi-games yang penuh hiasan pastel) + 4 poin request:
+
+1. **Header badge** (`Auth.jsx`) — 🎒 emoji diganti `<Kiko size={24}/>` di sebelah teks "Jagoan Kelas", ukuran disetarain sama tinggi teks (bukan icon kegedean/kekecilan kayak emoji sebelumnya).
+2. **Ornamen pastel** — `src/components/AuthDecor.jsx` (baru), di-port dari al-idrisi-games (`index.html` komentar "Page-level floating decoration", `style.css` `.sc-blob`/`.sc-star`/`.sc-cloud`/`.sc-dot`/`.sc-bob`) — teknik SAMA PERSIS (clip-path polygon buat bintang, `position:absolute` blob/dot/cloud, keyframe bob pelan), warna pake token `--pastel-*` yang emang udah nilainya identik sama punya BrainBox dari awal (bukan re-derive). Dipasang di `Auth.jsx` sebagai layer `position:absolute;inset:0;z-index:0` di dalem card Shell (yang emang udah `position:relative;overflow:hidden`), konten form di-bungkus `z-index:1` biar tetep di atas. **Cuma dipasang di `Auth.jsx`**, bukan `Landing.jsx` (screenshot user emang ngebandingin layar Auth-nya doang).
+3. **Bubble Kiko di Landing** — teks diganti dari "Hai, ini Kiko! 👋" jadi **"Kiko disini"** (permintaan user persis), background bubble diganti dari solid putih jadi `color-mix(in srgb, var(--pastel-purple) 35%, white)` -- pola "soft pastel wash" yang sama kayak dipake `Chip.jsx` buat state unselected, biar "super lembut" beneran (bukan cuma ganti 1 warna solid pekat). Fungsinya (tap buka `KikoChatPanel` mode general) TIDAK diubah, ini emang udah ada dari batch kerjaan Kiko 2026-08-06 -- request user cuma soal teks+warna bubble-nya doang.
+4. **PIN kebaca pas Sign In** — `Input.jsx` sebelumnya SELALU render `type="text"` biarpun prop `pin` true, jadi 4 digit PIN kebaca polos di kedua mode (Daftar & Masuk). Fix: `type={pin ? "password" : type}` -- sekarang browser native-mask pake titik, sama kayak PIN field al-idrisi-games. Satu perubahan di komponen shared otomatis kena ke Daftar & Masuk dua-duanya (cuma ada 1 instance Input buat PIN di `Auth.jsx`, dibedain lewat `mode` state, bukan 2 komponen terpisah).
+
+Diverifikasi di browser: screenshot Daftar & Masuk dua-duanya (ornamen render penuh, badge Kiko+teks sejajar), isi PIN "1234" beneran ke-mask jadi titik (placeholder DAN value asli, bukan cuma placeholder-nya doang yang kebetulan mirip titik), tap Kiko di Landing tetep buka chat panel normal (fungsi gak somehow ke-regress), gak ada console error.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
