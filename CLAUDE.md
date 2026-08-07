@@ -264,6 +264,14 @@ User report (device fisik, BUKAN browser-pane): "pesawat dan mobil ga bisa dipen
 
 **Verifikasi**: browser-pane, `PointerEvent` didispatch manual — pointerdown di tengah base, lalu pointermove di `window` ke `clientX` +300px (jauh ngelewatin lebar base yang cuma 96px) — nub joystick tetep ke-clamp di radius maksimal (BUKAN reset ke nol kayak sebelumnya), lalu pointerup bener-bener ngereset ke nol. **Belum bisa diverifikasi ulang di device fisik beneran** (masih browser-pane) — kalau user masih lapor sama setelah fix ini, cek lagi lebih dalam (kemungkinan lain: `touch-action` kena override parent, atau splash/overlay lain numpuk di atas joystick pas gameplay).
 
+### Fix susulan: water gun gak keliatan nyemprot (2026-08-07, sesi yang sama)
+
+User lapor lagi abis fix joystick di atas: "untuk mobil, semprotan airnya ga bisa nyemprot bneran. ikutin repo di al idrisi aja udah". Ternyata BUKAN soal joystick lagi (itu udah kena fix di atas) — root cause KEDUA yang beda: visual jet-nya sendiri dari awal cuma render 1 emoji 💦 STATIS nempel di posisi mobil, gak ada bentuk terarah sama sekali, jadi walau hit-detection logic-nya (cone+range) udah bener dari awal, SECARA VISUAL emang gak pernah keliatan "nyemprot" ke mana pun.
+
+**Fix**: port ULANG persis dari `al-idrisi-games/mathville/style.css` (`.drive-water-stream`) — segitiga CSS panjang (zero-size box, border-left/right transparan 10px, border-bottom solid 128px, animasi pulse opacity), BUKAN emoji. Class baru `.jk-water-stream` di `tokens.css`. **Bonus bug ketemu sekalian**: rotasi jet sebelumnya salah pakai `headingCss()` (formula +90 buat sprite "nose-up" kayak mobil/dino) — segitiga CSS ini defaultnya ngarah KE BAWAH (bukan ke atas), jadi butuh formula BEDA (`aimAngle*180/π - 90`, persis punya BrainBox punya `driveWaterTick()`). Kalau cuma benerin bentuknya doang tanpa benerin rotasi ini, jet-nya bakal keliatan tapi ngarah ke arah yang salah.
+
+**Verifikasi**: browser-pane, drag aim-joystick via `window` pointermove (pola sama kayak verifikasi fix joystick di atas) — screenshot nunjukin balok segitiga biru transparan kepancar dari mobil ke arah drag, animasi pulse jalan. Git hygiene: `tokens.css` juga lagi ada perubahan gak-terkait dari sesi lain (accent warna "wood" Matematika) — di-pisah pakai `git add -p` (bukan `git add` biasa) biar cuma hunk punya sendiri yang ke-commit, hunk punya sesi lain dibiarin uncommitted kayak semula.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
