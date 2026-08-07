@@ -254,6 +254,16 @@ Pola yang sama kayak "Peta IPAS" di atas, tapi sumbernya `mathville` (bukan `azk
 - **Verifikasi**: dites di dev (`/kelas/4/matematika/peta-mockup`), 6 bab kelas 4 render judul asli, icon Drive di header beneran navigate ke `/kelas/4/matematika/drive` (dicek `location.pathname`), tap truck buka Kiko chat. Screenshot dikirim ke user 2x (v1 truck numpuk+footer lama, v2 header icon+Math Race card) via Playwright (`scratchpad/shot_math.mjs`).
 - **Belum dikerjain**: wire ke route asli (gantiin `SubjectDetail.jsx` khusus subject `matematika`), cleanup route `/peta-mockup`, testing di 6 kelas (baru dites kelas 4).
 
+## Fix: joystick gak responsif di device asli (2026-08-07)
+
+User report (device fisik, BUKAN browser-pane): "pesawat dan mobil ga bisa dipencet kanan kiri togglenya. mobil bahkan ga jalan" — Drive Mode & Plane Mode dua-duanya kena (pertama kalinya bug ini kebukti sejak `useJoystick.js`/`Joystick.jsx` ditulis, karena project ini **belum pernah dites di device fisik** sampe sekarang, cuma browser-pane).
+
+**Root cause**: `useJoystick.js` lama nempelin `onPointerMove`/`onPointerUp`/`onPointerLeave` LANGSUNG ke elemen base joystick (lingkaran kecil, radius ~40px). Padahal buat dapet deflection PENUH, jari WAJIB geser sampe/lewat batas fisik lingkaran itu — itu emang cara kerja joystick, bukan edge case. Di beberapa browser mobile, geser sejauh itu bikin `pointerleave` ke-fire di tengah drag WALAU `setPointerCapture` udah dipanggil (capture-nya gak selalu reliable nyekat boundary event di semua browser/versi) — tiap kali itu kejadian, vector joystick ke-reset ke nol di tengah gesture, jadi KERASA kayak "gak bisa digeser ke kanan/kiri sama sekali".
+
+**Fix** (`useJoystick.js`): pointermove/pointerup/pointercancel dipantau di **`window`**, bukan di elemen base — difilter pakai `pointerId` (`pointerIdRef`) biar 2 joystick (steer+aim water-gun Drive Mode) gak interferensi satu sama lain. `onPointerDown` tetep di elemen base (biar cuma nge-drag mulai kalau nekan DI DALAM lingkaran), tapi begitu drag aktif, gerakan/lepas dipantau global — imun dari masalah boundary-element di atas. `Joystick.jsx` disederhanain (buang prop `onPointerMove`/`onPointerUp`/`onPointerLeave` yang gak dipake lagi).
+
+**Verifikasi**: browser-pane, `PointerEvent` didispatch manual — pointerdown di tengah base, lalu pointermove di `window` ke `clientX` +300px (jauh ngelewatin lebar base yang cuma 96px) — nub joystick tetep ke-clamp di radius maksimal (BUKAN reset ke nol kayak sebelumnya), lalu pointerup bener-bener ngereset ke nol. **Belum bisa diverifikasi ulang di device fisik beneran** (masih browser-pane) — kalau user masih lapor sama setelah fix ini, cek lagi lebih dalam (kemungkinan lain: `touch-action` kena override parent, atau splash/overlay lain numpuk di atas joystick pas gameplay).
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
