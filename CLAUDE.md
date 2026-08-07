@@ -309,6 +309,17 @@ User kirim 2 screenshot perbandingan (Auth Jagoan Kelas yang masih polos vs. Wel
 
 Diverifikasi di browser: screenshot Daftar & Masuk dua-duanya (ornamen render penuh, badge Kiko+teks sejajar), isi PIN "1234" beneran ke-mask jadi titik (placeholder DAN value asli, bukan cuma placeholder-nya doang yang kebetulan mirip titik), tap Kiko di Landing tetep buka chat panel normal (fungsi gak somehow ke-regress), gak ada console error.
 
+**Fix susulan: favicon gak ke-update di browser user (2026-08-08, sesi yang sama)** — user lapor tab masih nampilin petir ungu lama padahal `curl` langsung ke `jagoan-kelas.vercel.app/favicon.svg` udah kebukti nyimpen Kiko yang baru (server-side udah bener). Root cause: favicon di-cache browser JAUH lebih agresif/persisten daripada asset halaman biasa, hard-refresh biasa gak mempan. Fix: `index.html` link tags favicon/apple-touch-icon ditambahin query `?v=2` — pola cache-busting yang SAMA kayak dipake project azkauniverse (`?v=N` di `script.js`/`style.css`), maksa browser nganggep itu resource baru sepenuhnya, bukan nunggu cache lama expire.
+
+## Landing (pilih kelas) didekorasi + dino diperlambat (2026-08-08)
+
+User kirim screenshot BrainBox hub (`playalidrisi.fun`, penuh bintang/titik/blob pastel di sekitar card game) vs. Landing Jagoan Kelas yang masih polos, minta 2 hal:
+
+1. **Ornamen** — `src/components/LandingDecor.jsx` (baru, BUKAN reuse `AuthDecor.jsx` — posisi elemennya beda karena layout Landing beda: header+Kiko+grid 6 kelas+dino vs. form Auth doang, jadi bikin file baru lebih simpel daripada 1 komponen shared dengan logic percabangan posisi). Teknik identik (`STAR_CLIP` clip-path, `--pastel-*` token, `position:absolute;pointer-events:none;z-index:0` di belakang konten yang di-bungkus `z-index:1`) — blob di 4 pojok, bintang+titik+sparkle nyebar di margin kiri-kanan (deket header, samping Kiko, pinggir grid kelas, atas dino) biar gak numpuk di atas tombol/card yang emang udah rame warna.
+2. **Dino jalan 15% lebih pelan** (`WalkingDino.jsx`) — `jkDinoWalkAcross` durasinya `7s` → `8.05s` (`7 × 1.15`), cuma keyframe horizontal-nya doang yang disentuh, `jkDinoWalkBounce` (bob naik-turun) TETEP `0.4s` (gak ada di request user).
+
+Diverifikasi: screenshot Landing abis login (ornamen kebaca jelas, gak nutupin avatar/XP/tombol mute/Kiko/grid kelas/dino), klik salah satu kartu kelas TETEP navigate normal (`pointer-events:none` di layer dekorasi kebukti gak nge-block), `getComputedStyle` tombol dino nunjukin `animationDuration: "8.05s, 0.4s"` persis target, gak ada console error.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
