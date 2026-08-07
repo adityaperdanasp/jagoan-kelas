@@ -16,6 +16,7 @@ import TopicQuiz from "./screens/TopicQuiz";
 import FocusRoundPicker from "./screens/FocusRoundPicker";
 import FocusRoundQuiz from "./screens/FocusRoundQuiz";
 import IpasQuestMap from "./screens/IpasQuestMap";
+import MathTownMap from "./screens/MathTownMap";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -42,6 +43,7 @@ function AppRoutes() {
       {/* MOCKUP (2026-08-07) -- preview route terpisah, belum gantiin
           SubjectDetail.jsx buat ipas beneran, nunggu approval user. */}
       <Route path="/kelas/:grade/ipas/peta-mockup" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
+      <Route path="/kelas/:grade/matematika/peta-mockup" element={<RequireAuth><MathTownMap /></RequireAuth>} />
     </Routes>
   );
 }
