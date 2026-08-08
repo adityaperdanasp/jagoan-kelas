@@ -28,11 +28,6 @@ const QUICK_REPLIES_QUIZ = [
   "Aku masih bingung 😕",
 ];
 const QUICK_REPLY_AFTER_ANSWER = "Kenapa jawabanku salah?";
-const QUICK_REPLIES_GENERAL = [
-  "Hai Kiko! 👋",
-  "Kamu suka pelajaran apa?",
-  "Kasih semangat dong!",
-];
 
 export function KikoChatPanel({
   open,
@@ -104,12 +99,11 @@ export function KikoChatPanel({
 
   if (!open) return null;
 
+  // Mode "general" (Landing/KikoGreeting) sengaja gak punya quick-reply --
+  // dulu ada 3 chip ("Hai Kiko!"/"Kamu suka pelajaran apa?"/"Kasih semangat
+  // dong!"), user minta dicabut karena bikin panel kerasa sempit.
   const quickReplies =
-    mode === "quiz"
-      ? answered && !isCorrect
-        ? [QUICK_REPLY_AFTER_ANSWER, ...QUICK_REPLIES_QUIZ]
-        : QUICK_REPLIES_QUIZ
-      : QUICK_REPLIES_GENERAL;
+    mode === "quiz" ? (answered && !isCorrect ? [QUICK_REPLY_AFTER_ANSWER, ...QUICK_REPLIES_QUIZ] : QUICK_REPLIES_QUIZ) : [];
   const welcomeText = mode === "quiz" ? "Hai! Aku Kiko 👋 Ada yang mau ditanyain soal ini?" : "Hai! Aku Kiko 👋 Mau ngobrol apa nih?";
 
   return (
@@ -200,29 +194,31 @@ export function KikoChatPanel({
           )}
         </div>
 
-        <div style={{ display: "flex", gap: 6, padding: "0 16px 10px", flexWrap: "wrap" }}>
-          {quickReplies.map((qr) => (
-            <button
-              key={qr}
-              disabled={loading}
-              onClick={() => send(qr)}
-              style={{
-                border: "2px solid var(--cream-300)",
-                background: "var(--surface-card-alt)",
-                borderRadius: "var(--radius-pill)",
-                padding: "6px 12px",
-                fontFamily: "var(--font-body)",
-                fontWeight: 700,
-                fontSize: "0.72rem",
-                color: "var(--ink-700)",
-                cursor: loading ? "default" : "pointer",
-                opacity: loading ? 0.6 : 1,
-              }}
-            >
-              {qr}
-            </button>
-          ))}
-        </div>
+        {quickReplies.length > 0 && (
+          <div style={{ display: "flex", gap: 6, padding: "0 16px 10px", flexWrap: "wrap" }}>
+            {quickReplies.map((qr) => (
+              <button
+                key={qr}
+                disabled={loading}
+                onClick={() => send(qr)}
+                style={{
+                  border: "2px solid var(--cream-300)",
+                  background: "var(--surface-card-alt)",
+                  borderRadius: "var(--radius-pill)",
+                  padding: "6px 12px",
+                  fontFamily: "var(--font-body)",
+                  fontWeight: 700,
+                  fontSize: "0.72rem",
+                  color: "var(--ink-700)",
+                  cursor: loading ? "default" : "pointer",
+                  opacity: loading ? 0.6 : 1,
+                }}
+              >
+                {qr}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div style={{ display: "flex", gap: 8, padding: "0 16px 16px" }}>
           <input
