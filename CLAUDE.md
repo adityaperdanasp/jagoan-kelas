@@ -387,7 +387,7 @@ BEDA dari Bindo/IPAS/Matematika di atas: ketiganya port desain al-idrisi-games, 
 - Diverifikasi: `/kelas/4/binggris` nunjukin 6 kota (Daily Activities/Hobbies/School Subjects/Food & Drinks/Places in Town/Simple Directions — data ASLI dari `content/binggris/kelas_4.json`, bukan dummy), node current pulsing merah, node locked dim+gembok, tap node current beneran jalanin animasi terbang lalu navigate ke `/kelas/4/binggris/topik/bab-1` (`location.pathname` dicek), quiz-nya render soal asli, tombol back balik ke `/kelas/4`, `/kelas/4/ppkn` (subject lain) TETEP `SubjectDetail.jsx` gak ke-affect, gak ada console error.
 
 **Revisi susulan (2026-08-08, sesi yang sama)** — user: "dino bridge delete dari bahasa inggris". Banner "Dino Bridge" (`BoBridgeBanner.jsx`) yang tadinya dipindah ke bawah `BinggrisWorldMap.jsx` DICABUT LAGI (import + JSX-nya), bukan sekadar disembunyiin. Komponennya sendiri TETEP ADA & TETEP dipake di `BindoQuestMap.jsx` (Bahasa Indonesia) — cuma dilepas dari Bahasa Inggris, subject lain gak kesentuh. Diverifikasi: `/kelas/4/binggris` udah gak nunjukin banner (map berenti bersih di node terakhir "Simple Directions"), `/kelas/4/bindo/bab` banner-nya masih ada normal, gak ada console error abis dicabut.
-- **Belum dikerjain**: testing di 6 kelas (baru dites kelas 4). PPKn ("Kampung Pancasila") & PAI ("Taman Akhlak") masih ide, belum digarap.
+- **Belum dikerjain**: testing di 6 kelas (baru dites kelas 4). (PPKn & PAI udah digarap juga sekarang, lihat 2 section di bawah.)
 
 ## PPKn — "Kampung Pancasila" (2026-08-08, LIVE — halaman resmi, konsep ORISINIL bukan porting)
 
@@ -401,6 +401,20 @@ Konsep ke-2 dari brainstorm yang sama kayak Bahasa Inggris di atas. User sempet 
 - **Route**: `/kelas/:grade/ppkn` (statis, sebelum `:subject` generik). Gak ada cleanup di `SubjectDetail.jsx` (ppkn emang gak pernah punya percabangan kondisional di situ sebelumnya).
 - Diverifikasi: `/kelas/4/ppkn` nunjukin 4 bab kelas 4 (data ASLI dari `content/ppkn/kelas_4.json`), tap node current jalanin animasi jalan lalu buka modal dilema, pilih opsi nunjukin feedback lalu tombol "Lanjut ke Kuis" beneran navigate ke `/kelas/4/ppkn/topik/bab-1` (`location.pathname` dicek), quiz-nya render soal asli, `/kelas/4/pai` (subject lain) TETEP `SubjectDetail.jsx` gak ke-affect, gak ada console error.
 - **Belum dikerjain**: testing di 6 kelas (baru dites kelas 4), poin 1-5 lapisan tambahan (feedback real-time/mini-game/koleksi/perayaan/node kejutan) belum digarap, PAI ("Taman Akhlak") masih ide belum digarap.
+
+## PAI — "Taman Akhlak" (2026-08-08, LIVE — halaman resmi, konsep ORISINIL bukan porting)
+
+Konsep ke-3 (terakhir) dari brainstorm yang sama kayak Bahasa Inggris/PPKn di atas — user: "ok kerjain gas" lanjutin urutan yang udah disepakati (design PPKn dulu, baru PAI, baru poin 1-5). **Abis subject ini, SEMUA 6 subject udah punya halaman tema sendiri** -- gak ada lagi yang plain `SubjectDetail.jsx`. File: `src/screens/PaiGardenPath.jsx` (baru).
+
+- **Nuansa SENGAJA lebih TENANG** dari 4 map lain (bukan "rame kayak game") -- kontennya nilai akhlak & kisah nabi, bukan tema petualangan. Animasi lebih lambat (idle bob 2.2s vs 1.6-1.8s di map lain), gak ada mekanik tambahan kayak dilema PPKn -- tap node LANGSUNG ke quiz (pola sama kayak Bahasa Inggris), SENGAJA gak ditambahin mekanik ekstra biar tetep kalem.
+- **"Jalan setapak batu"** — lingkaran kecil (bukan garis) berjejer sepanjang tiap segmen (`SteppingStones`), BEDA dari 4 style path lain (Catmull-Rom/bezier/dash penerbangan/jalan aspal 2-layer PPKn) — kesan taman, bukan jalan raya.
+- **Node = tanaman, bukan bangunan/landmark** — ikon bunga `🌷🌻🌼🌺🌹🌵🍀🌾` di-cycle per index. Ukuran font ikon BEDA per status (locked kecil 22px, current 26px, done 30px, plus CSS `transition` di properti `fontSize`) — biar keliatan kayak "tumbuh" pas status berubah, ini yang paling literal ngewujudin ide "kebun yang tumbuh" dari brainstorm awal. Badge selesai pake ✨ (bukan checkmark/stempel/lencana kayak map lain), counter header `🌸 doneCount/total` "Kuncup Mekar".
+- **Gapura kecil** (`GardenGate`, custom inline SVG -- kubah + 2 pilar disederhanain, hijau-emas) ditaro statis di ATAS peta (bukan per-node) sebagai elemen dekoratif pembuka, ngewujudin ide awal "bab dibuka lewat gerbang masjid kecil" tanpa bikin tiap node jadi gerbang literal.
+- **Traveler Kiko jalan kaki sendiri** — pola SAMA kayak PPKn (`Kiko.jsx` gak diubah, dipakein polos, tap langsung buka chat, gak ada badge terpisah), TAPI animasi lebih lambat/kalem sesuai nuansa subject ini.
+- **Palet warna**: hijau `#4C8C6B` + emas `#D9A544` + cream lembut `#F5F1E3` — beda dari PPKn (merah-emas) meski sama-sama pakai emas, kesan lebih adem/tenang.
+- **Route**: `/kelas/:grade/pai` (statis, sebelum `:subject` generik). Gak ada cleanup di `SubjectDetail.jsx` (pai emang gak pernah punya percabangan kondisional di situ).
+- Diverifikasi: `/kelas/4/pai` nunjukin 6 bab kelas 4 (data ASLI dari `content/pai/kelas_4.json` -- Kisah Nabi Musa & Nabi Isa/Kitab-Kitab Allah/Zakat & Sedekah/dst), gerbang render di atas, node current pulsing hijau lembut, tap node current jalanin animasi jalan lalu LANGSUNG navigate ke `/kelas/4/pai/topik/bab-1` (`location.pathname` dicek), quiz-nya render soal asli, gak ada console error.
+- **Belum dikerjain**: testing di 6 kelas (baru dites kelas 4). Poin 1-5 lapisan tambahan (feedback real-time quiz/mini-game per-subject/koleksi-kustomisasi/momen perayaan/node kejutan) dari brainstorm masih belum digarap sama sekali di subject manapun — ini next step abis semua 6 subject beres desainnya.
 
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.

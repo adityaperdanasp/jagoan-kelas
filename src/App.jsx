@@ -21,6 +21,7 @@ import BindoStorybookTrail from "./screens/BindoStorybookTrail";
 import BindoQuestMap from "./screens/BindoQuestMap";
 import BinggrisWorldMap from "./screens/BinggrisWorldMap";
 import PpknVillageMap from "./screens/PpknVillageMap";
+import PaiGardenPath from "./screens/PaiGardenPath";
 import NinjaRunner from "./games/ninja/NinjaRunner";
 
 function RequireAuth({ children }) {
@@ -61,6 +62,11 @@ function AppRoutes() {
           dilema sipil kecil muncul sebelum quiz dibuka, bukan cuma peta
           biasa) -- pola route sama kayak subject lain di atas. */}
       <Route path="/kelas/:grade/ppkn" element={<RequireAuth><PpknVillageMap /></RequireAuth>} />
+      {/* PAI punya halaman sendiri ("Taman Akhlak", 2026-08-08, konsep
+          ORISINIL, nuansa lebih tenang dibanding map lain) -- pola route
+          sama kayak subject lain di atas, subject terakhir yang masih
+          plain sekarang cuma tinggal ini abis di-wire. */}
+      <Route path="/kelas/:grade/pai" element={<RequireAuth><PaiGardenPath /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
