@@ -18,6 +18,7 @@ import FocusRoundQuiz from "./screens/FocusRoundQuiz";
 import IpasQuestMap from "./screens/IpasQuestMap";
 import MathTownMap from "./screens/MathTownMap";
 import BindoStorybookTrail from "./screens/BindoStorybookTrail";
+import BindoQuestMap from "./screens/BindoQuestMap";
 import NinjaRunner from "./games/ninja/NinjaRunner";
 
 function RequireAuth({ children }) {
@@ -37,6 +38,10 @@ function AppRoutes() {
           (React Router ranking: segmen statis > dinamis, gak soal urutan
           deklarasi), jadi 5 subject lain tetep kena SubjectDetail.jsx. */}
       <Route path="/kelas/:grade/bindo" element={<RequireAuth><BindoStorybookTrail /></RequireAuth>} />
+      {/* Daftar bab -- layar TERPISAH (bukan scroll di halaman yang sama),
+          masuk lewat tombol "Solo Adventure" di BindoStorybookTrail --
+          samain pola 2-layar (Landing vs Quest Map) azkacraft persis. */}
+      <Route path="/kelas/:grade/bindo/bab" element={<RequireAuth><BindoQuestMap /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
