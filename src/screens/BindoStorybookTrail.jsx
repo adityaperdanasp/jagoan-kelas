@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Kiko from "../components/ds/Kiko";
@@ -24,11 +24,31 @@ import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
 //
 // Beda sengaja dari sumbernya:
 // - Hero mascot (CSS-built, boy/girl) DIGANTI Kiko (maskot resmi app ini),
-//   ukuran ~sama (104px), tetep bounce, SEKARANG bisa di-tap buka AI chat
-//   (azkacraft punya widget chat terpisah di layar lain, di sini digabung
-//   ke satu tap di mascot-nya langsung -- request eksplisit user).
-// - Mode-grid Solo/Multiplayer DICABUT -- app ini gak punya mode
-//   multiplayer per-topik kayak azkacraft, cuma ada 1 jalur practice.
+//   ukuran ~sama (104px), SEKARANG bisa di-tap buka AI chat (azkacraft
+//   punya widget chat terpisah di layar lain, di sini digabung ke satu
+//   tap di mascot-nya langsung -- request eksplisit user).
+// - Kiko GAK cuma bounce di tempat (2026-08-08, revisi) -- "jalan2 kanan
+//   kiri joget2 naik turun" (request user) -- 2 animasi kepasang bareng:
+//   `jkBindoKikoWalk` (geser `left` pelan bolak-balik, 14s) + terpisah
+//   `jkBindoKikoDance` (bounce+rotate cepat, 0.9s) di elemen yang SAMA --
+//   properti beda (`left` vs `transform`) jadi 2 animasi CSS gak nabrak,
+//   hasilnya "jalan sambil joget" bukan lompat teleport antar titik.
+// - Bubble "Kiko disini" jadi CHILD di dalem button Kiko (bukan sibling
+//   posisi absolut sendiri) -- biar otomatis ikut kemanapun Kiko jalan,
+//   gak perlu itung ulang posisi manual tiap frame. Ekor bubble (sudut
+//   radius kecil) di KANAN-BAWAH (bukan kiri-bawah kayak port awal/
+//   azkacraft asli) karena Kiko selalu di bawah-kanan bubble, biar
+//   kebaca "Kiko yang ngomong" (request eksplisit user, bug ketemu pas
+//   direview). Timing bubble juga diubah: dulu selalu nongol, sekarang
+//   siklus nongol 2 detik / ilang 5 detik (`jkBindoBubbleCycle`, 7s loop)
+//   -- gak nutupin pemandangan terus-terusan.
+// - Mode-grid Solo/Multiplayer DITAMBAHIN balik (2026-08-08, semula
+//   dicabut) -- "Solo Adventure" scroll ke jejak bab di bawah (app ini
+//   single-screen, gak ada transisi layar terpisah kayak azkacraft),
+//   "Multiplayer" SENGAJA visual doang dulu (toast "segera hadir" pas
+//   di-tap) -- user eksplisit milih "visual doang" pas ditanya, BUKAN
+//   fitur head-to-head beneran kayak Math Race (scope kerjaan gede,
+//   di luar "ikutin desainnya doang").
 // - Stat-strip pakai DATA ASLI (XP/bab selesai/bab lagi jalan), bukan
 //   dummy placeholder kayak contoh HTML statisnya azkacraft.
 // - Word of the Day / Fun Fact isinya ditulis sendiri Bahasa Indonesia
@@ -39,8 +59,10 @@ import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
 const BRAND = "#2F6FED";
 const BRAND_DARK = "#1E56C4";
 const ACCENT_1 = "#FFB35C";
+const ACCENT_1_DARK = "#E89A3F";
 const ACCENT_2 = "#FFD866";
 const ACCENT_3 = "#22B573";
+const ACCENT_3_DARK = "#158A54";
 const CARD_BORDER = "#F1E6D2";
 const PAPER = "#FFFBF2";
 const INK = "#4a3520";
@@ -65,6 +87,13 @@ export default function BindoStorybookTrail() {
   const [topics, setTopics] = useState(null);
   const [loadError, setLoadError] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
+  const [mpToast, setMpToast] = useState(false);
+  const trailRef = useRef(null);
+
+  function handleMultiplayerTap() {
+    setMpToast(true);
+    setTimeout(() => setMpToast(false), 1800);
+  }
 
   const wordOfDay = wordOfDayForToday();
   const funFact = funFactForToday();
@@ -139,7 +168,6 @@ export default function BindoStorybookTrail() {
               style={{
                 position: "absolute",
                 bottom: 14,
-                right: 24,
                 width: 104,
                 height: 118,
                 border: "none",
@@ -147,31 +175,32 @@ export default function BindoStorybookTrail() {
                 padding: 0,
                 cursor: "pointer",
                 WebkitTapHighlightColor: "transparent",
-                animation: "jkBindoMascotBounce 3.4s ease-in-out infinite",
+                animation: "jkBindoKikoWalk 14s ease-in-out infinite, jkBindoKikoDance 0.9s ease-in-out infinite",
                 filter: "drop-shadow(0 6px 8px rgba(60,40,20,.22))",
               }}
             >
+              <span
+                aria-hidden="true"
+                style={{
+                  position: "absolute",
+                  bottom: "88%",
+                  right: 4,
+                  background: "#fff",
+                  padding: "6px 12px",
+                  borderRadius: "14px 14px 4px 14px",
+                  fontFamily: "var(--font-body)",
+                  fontWeight: 700,
+                  fontSize: "0.78rem",
+                  color: INK,
+                  boxShadow: "0 3px 8px rgba(0,0,0,.10)",
+                  whiteSpace: "nowrap",
+                  animation: "jkBindoBubbleCycle 7s ease-in-out infinite",
+                }}
+              >
+                Kiko disini
+              </span>
               <Kiko size={104} />
             </button>
-            <div
-              aria-hidden="true"
-              style={{
-                position: "absolute",
-                bottom: 100,
-                right: 96,
-                background: "#fff",
-                padding: "6px 12px",
-                borderRadius: "14px 14px 14px 4px",
-                fontFamily: "var(--font-body)",
-                fontWeight: 700,
-                fontSize: "0.78rem",
-                color: INK,
-                boxShadow: "0 3px 8px rgba(0,0,0,.10)",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Kiko disini
-            </div>
           </div>
 
           {/* ---- Body (port dari .home-body / .title-ribbon / .stat-strip / .info-card) ---- */}
@@ -191,6 +220,71 @@ export default function BindoStorybookTrail() {
             </div>
             <div style={{ textAlign: "center", fontSize: "0.85rem", color: INK_SOFT, margin: "12px 0 18px", fontWeight: 700 }}>
               Petualangan Kata &amp; Cerita
+            </div>
+
+            <div style={{ position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 18 }}>
+              <button
+                onClick={() => trailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
+                style={{
+                  border: "none",
+                  cursor: "pointer",
+                  borderRadius: 20,
+                  padding: "20px 12px",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: 8,
+                  background: ACCENT_3,
+                  boxShadow: `0 8px 0 ${ACCENT_3_DARK}`,
+                }}
+              >
+                <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
+                  📖
+                </span>
+                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: "#fff" }}>Solo Adventure</span>
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "rgba(255,255,255,.92)" }}>Main sendiri</span>
+              </button>
+              <button
+                onClick={handleMultiplayerTap}
+                style={{
+                  border: "none",
+                  cursor: "pointer",
+                  borderRadius: 20,
+                  padding: "20px 12px",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: 8,
+                  background: ACCENT_1,
+                  boxShadow: `0 8px 0 ${ACCENT_1_DARK}`,
+                }}
+              >
+                <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
+                  🤝
+                </span>
+                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: INK }}>Multiplayer</span>
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "#5a4a30" }}>Lawan teman</span>
+              </button>
+              {mpToast && (
+                <div
+                  style={{
+                    position: "absolute",
+                    bottom: "calc(100% + 8px)",
+                    right: 0,
+                    background: INK,
+                    color: "#fff",
+                    padding: "6px 12px",
+                    borderRadius: 12,
+                    fontFamily: "var(--font-body)",
+                    fontWeight: 700,
+                    fontSize: "0.72rem",
+                    whiteSpace: "nowrap",
+                    boxShadow: "0 4px 10px rgba(0,0,0,.18)",
+                  }}
+                >
+                  Mode ini segera hadir! 🚧
+                </div>
+              )}
             </div>
 
             <div
@@ -252,7 +346,7 @@ export default function BindoStorybookTrail() {
           </div>
 
           {/* ---- Storybook Trail chapter timeline (port dari .chapters-content/.timeline) ---- */}
-          <div style={{ padding: "8px 18px 30px" }}>
+          <div ref={trailRef} style={{ padding: "8px 18px 30px" }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, margin: "10px 0 18px" }}>
               <span style={{ fontSize: 20, transform: "rotate(-8deg)", display: "inline-block" }}>📚</span>
               <h2 style={{ margin: 0, fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.1rem", color: BRAND }}>Jejak Ceritamu</h2>
@@ -346,7 +440,24 @@ export default function BindoStorybookTrail() {
 
       <style>{`
         @keyframes jkBindoTwinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.9; } }
-        @keyframes jkBindoMascotBounce { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-8px) rotate(3deg); } }
+        @keyframes jkBindoKikoWalk {
+          0%   { left: 4%; }
+          25%  { left: 62%; }
+          50%  { left: 68%; }
+          75%  { left: 20%; }
+          100% { left: 4%; }
+        }
+        @keyframes jkBindoKikoDance {
+          0%, 100% { transform: translateY(0) rotate(-4deg); }
+          50%      { transform: translateY(-12px) rotate(4deg); }
+        }
+        @keyframes jkBindoBubbleCycle {
+          0%   { opacity: 0; }
+          2%   { opacity: 1; }
+          28%  { opacity: 1; }
+          32%  { opacity: 0; }
+          100% { opacity: 0; }
+        }
       `}</style>
     </Shell>
   );
