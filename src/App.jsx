@@ -17,6 +17,7 @@ import FocusRoundPicker from "./screens/FocusRoundPicker";
 import FocusRoundQuiz from "./screens/FocusRoundQuiz";
 import IpasQuestMap from "./screens/IpasQuestMap";
 import MathTownMap from "./screens/MathTownMap";
+import BindoStorybookTrail from "./screens/BindoStorybookTrail";
 import NinjaRunner from "./games/ninja/NinjaRunner";
 
 function RequireAuth({ children }) {
@@ -46,6 +47,7 @@ function AppRoutes() {
           SubjectDetail.jsx buat ipas beneran, nunggu approval user. */}
       <Route path="/kelas/:grade/ipas/peta-mockup" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/peta-mockup" element={<RequireAuth><MathTownMap /></RequireAuth>} />
+      <Route path="/kelas/:grade/bindo/peta-mockup" element={<RequireAuth><BindoStorybookTrail /></RequireAuth>} />
     </Routes>
   );
 }
