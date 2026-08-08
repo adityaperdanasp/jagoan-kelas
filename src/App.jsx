@@ -42,6 +42,9 @@ function AppRoutes() {
           masuk lewat tombol "Solo Adventure" di BindoStorybookTrail --
           samain pola 2-layar (Landing vs Quest Map) azkacraft persis. */}
       <Route path="/kelas/:grade/bindo/bab" element={<RequireAuth><BindoQuestMap /></RequireAuth>} />
+      {/* IPAS punya halaman sendiri ("SolarQuest", 2026-08-08, awalnya
+          mockup preview-only) -- pola sama kayak bindo di atas. */}
+      <Route path="/kelas/:grade/ipas" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
@@ -54,8 +57,7 @@ function AppRoutes() {
       <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/ninja" element={<RequireAuth><NinjaRunner /></RequireAuth>} />
       {/* MOCKUP (2026-08-07) -- preview route terpisah, belum gantiin
-          SubjectDetail.jsx buat ipas beneran, nunggu approval user. */}
-      <Route path="/kelas/:grade/ipas/peta-mockup" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
+          SubjectDetail.jsx buat matematika beneran, nunggu approval user. */}
       <Route path="/kelas/:grade/matematika/peta-mockup" element={<RequireAuth><MathTownMap /></RequireAuth>} />
     </Routes>
   );

@@ -9,16 +9,26 @@ import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { DinoSvg } from "../games/drive/vehicleArt";
 
-// MOCKUP v2 (2026-08-07) -- user minta "plek2 ikutin SolarQuest" (port
-// SEPRESISI mungkin, bukan reinterpretasi). Semua angka/warna/shape di
-// bawah ini disalin LANGSUNG dari al-idrisi-games/azkauniverse
-// (style.css section 6b "QUEST PATH MAP" + script.js `renderQuestPathMap`/
-// `planetSVG`/`buildPathStarfield`/`flyShipTo`), termasuk planet art
-// asli (sun/mercury/earth/mars/jupiter -- BUKAN planet generik pastel
-// versi v1 mockup) di-cycle per index karena IPAS 8 topik/kelas vs
-// SolarQuest yang cuma 5 (di-hardcode di sana). Satu-satunya yang GAK
-// disamain persis: font (tetep pake token font app ini, bukan import
-// Fredoka/Baloo 2 asing) dan bahasa (Indonesia, ngikutin UI app ini).
+// LIVE (2026-08-08, awalnya MOCKUP v2 2026-08-07) -- user minta "plek2
+// ikutin SolarQuest" (port SEPRESISI mungkin, bukan reinterpretasi).
+// Semua angka/warna/shape di bawah ini disalin LANGSUNG dari
+// al-idrisi-games/azkauniverse (style.css section 6b "QUEST PATH MAP" +
+// script.js `renderQuestPathMap`/`planetSVG`/`buildPathStarfield`/
+// `flyShipTo`), termasuk planet art asli (sun/mercury/earth/mars/jupiter
+// -- BUKAN planet generik pastel versi v1 mockup) di-cycle per index
+// karena IPAS 8 topik/kelas vs SolarQuest yang cuma 5 (di-hardcode di
+// sana). Satu-satunya yang GAK disamain persis: font (tetep pake token
+// font app ini, bukan import Fredoka/Baloo 2 asing) dan bahasa
+// (Indonesia, ngikutin UI app ini).
+//
+// Awalnya preview-only (`/kelas/:grade/ipas/peta-mockup`), di-wire jadi
+// halaman resmi subject "ipas" (`/kelas/:grade/ipas`, App.jsx) per user
+// eksplisit minta disamain sama Bahasa Indonesia ("ipas bukan udah pake
+// solarquest ya? kok masi static bgt") -- pola sama persis: route statis
+// `/kelas/:grade/ipas` ditaro sebelum `/kelas/:grade/:subject` generik,
+// `onBack` diubah dari `/kelas/${grade}/ipas` (dulu nunjuk ke
+// SubjectDetail.jsx sebagai "detail sebenarnya") ke `/kelas/${grade}`
+// (PickSubject), title header dari "Peta IPAS" jadi "IPAS".
 
 const NODE_SPACING_Y = 230;
 const NODE_START_Y = 90;
@@ -453,7 +463,7 @@ export default function IpasQuestMap() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/ipas`)} title="Peta IPAS" subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="IPAS" subtitle={`Kelas ${grade}`} />
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
