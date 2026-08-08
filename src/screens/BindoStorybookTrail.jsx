@@ -10,15 +10,17 @@ import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
 
-// MOCKUP (2026-08-08) -- user minta "design dan visual serta ilustrasi
+// LIVE (2026-08-08) -- user minta "design dan visual serta ilustrasi
 // plek2 ikutin aja Language & Arts" (azkacraft) buat Bahasa Indonesia.
 // Warna/layout di bawah di-port LANGSUNG dari azkacraft/style.css (hero-*,
 // title-ribbon, stat-strip, info-card, timeline-*) + script.js
 // (TOPIC_STYLE/CHAPTER_DECO/renderBookshelf) -- palet default "Sky
 // Explorer" (boy/palette0) yang mereka pakai, BUKAN sistem ganti-tema
 // gender/palet mereka (di luar scope, app ini gak punya konsep itu).
-// SENGAJA belum gantiin SubjectDetail.jsx buat subject "bindo" beneran,
-// nunggu approval user -- pola sama kayak IpasQuestMap.jsx/MathTownMap.jsx.
+// Awalnya mockup preview-only (`/bindo/peta-mockup`), SEKARANG udah jadi
+// halaman resmi subject "bindo" (`/kelas/:grade/bindo`, App.jsx) per
+// approval eksplisit user -- SubjectDetail.jsx generic TETEP dipake buat
+// 5 subject lain, cuma bindo yang punya halaman sendiri kayak gini.
 //
 // Beda sengaja dari sumbernya:
 // - Hero mascot (CSS-built, boy/girl) DIGANTI Kiko (maskot resmi app ini),
@@ -89,7 +91,7 @@ export default function BindoStorybookTrail() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/bindo`)} title="Peta Bahasa Indonesia" subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Bahasa Indonesia" subtitle={`Kelas ${grade}`} />
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", padding: 24, textAlign: "center", color: "var(--ink-400)" }}>

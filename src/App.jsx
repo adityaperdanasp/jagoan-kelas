@@ -32,6 +32,11 @@ function AppRoutes() {
       <Route path="/masuk" element={<Auth />} />
       <Route path="/" element={<RequireAuth><Landing /></RequireAuth>} />
       <Route path="/kelas/:grade" element={<RequireAuth><PickSubject /></RequireAuth>} />
+      {/* Bindo punya halaman sendiri ("Storybook Trail", 2026-08-08) --
+          route statis ini menang atas ":subject" generik di bawahnya
+          (React Router ranking: segmen statis > dinamis, gak soal urutan
+          deklarasi), jadi 5 subject lain tetep kena SubjectDetail.jsx. */}
+      <Route path="/kelas/:grade/bindo" element={<RequireAuth><BindoStorybookTrail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
@@ -47,7 +52,6 @@ function AppRoutes() {
           SubjectDetail.jsx buat ipas beneran, nunggu approval user. */}
       <Route path="/kelas/:grade/ipas/peta-mockup" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/peta-mockup" element={<RequireAuth><MathTownMap /></RequireAuth>} />
-      <Route path="/kelas/:grade/bindo/peta-mockup" element={<RequireAuth><BindoStorybookTrail /></RequireAuth>} />
     </Routes>
   );
 }
