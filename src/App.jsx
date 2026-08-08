@@ -20,6 +20,7 @@ import MathTownMap from "./screens/MathTownMap";
 import BindoStorybookTrail from "./screens/BindoStorybookTrail";
 import BindoQuestMap from "./screens/BindoQuestMap";
 import BinggrisWorldMap from "./screens/BinggrisWorldMap";
+import PpknVillageMap from "./screens/PpknVillageMap";
 import NinjaRunner from "./games/ninja/NinjaRunner";
 
 function RequireAuth({ children }) {
@@ -55,6 +56,11 @@ function AppRoutes() {
           referensinya udah abis kepake) -- pola sama kayak bindo/ipas/
           matematika di atas. */}
       <Route path="/kelas/:grade/binggris" element={<RequireAuth><BinggrisWorldMap /></RequireAuth>} />
+      {/* PPKn punya halaman sendiri ("Kampung Pancasila", 2026-08-08,
+          konsep ORISINIL kayak binggris -- ada mekanik tambahan: skenario
+          dilema sipil kecil muncul sebelum quiz dibuka, bukan cuma peta
+          biasa) -- pola route sama kayak subject lain di atas. */}
+      <Route path="/kelas/:grade/ppkn" element={<RequireAuth><PpknVillageMap /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
