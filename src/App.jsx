@@ -45,6 +45,10 @@ function AppRoutes() {
       {/* IPAS punya halaman sendiri ("SolarQuest", 2026-08-08, awalnya
           mockup preview-only) -- pola sama kayak bindo di atas. */}
       <Route path="/kelas/:grade/ipas" element={<RequireAuth><IpasQuestMap /></RequireAuth>} />
+      {/* Matematika punya halaman sendiri ("Blockville Workshop" town map,
+          2026-08-08, awalnya mockup preview-only) -- pola sama kayak
+          bindo/ipas di atas. */}
+      <Route path="/kelas/:grade/matematika" element={<RequireAuth><MathTownMap /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
@@ -56,9 +60,6 @@ function AppRoutes() {
       <Route path="/kelas/:grade/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
       <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/ninja" element={<RequireAuth><NinjaRunner /></RequireAuth>} />
-      {/* MOCKUP (2026-08-07) -- preview route terpisah, belum gantiin
-          SubjectDetail.jsx buat matematika beneran, nunggu approval user. */}
-      <Route path="/kelas/:grade/matematika/peta-mockup" element={<RequireAuth><MathTownMap /></RequireAuth>} />
     </Routes>
   );
 }

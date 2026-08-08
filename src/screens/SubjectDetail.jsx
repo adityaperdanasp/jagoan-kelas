@@ -135,17 +135,7 @@ export default function SubjectDetail() {
       </div>
 
       <div style={{ padding: "0 18px 22px", display: "flex", flexDirection: "column", gap: 10 }}>
-        {subject === "matematika" && (
-          <div style={{ display: "flex", gap: 10 }}>
-            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
-              🚗 Drive
-            </Button>
-            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/plane`)}>
-              ✈️ Plane
-            </Button>
-          </div>
-        )}
-        {(subject === "bindo" || subject === "binggris") && <BoBridgeBanner grade={grade} subject={subject} />}
+        {subject === "binggris" && <BoBridgeBanner grade={grade} subject={subject} />}
       </div>
       </div>
     </Shell>

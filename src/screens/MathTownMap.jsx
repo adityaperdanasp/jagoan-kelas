@@ -8,15 +8,15 @@ import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 
-// MOCKUP (2026-08-07) -- user: "untuk mathville inget ga di play alidirisi
-// jg? ... yang ada truck jalan? didalamnya ada ai mascot kita bisa di
-// click. Bisa ambil design dari sana? lalu kita gantikan ke matematika
-// yang masih basi." Port dari al-idrisi-games/mathville (tema "Blockville
-// Workshop": kayu/cherry/emas, BUKAN tema luar angkasa SolarQuest yang
-// dipake buat IPAS) -- truck 🚚 jalan di jalan kota (Catmull-Rom curve,
-// bukan bezier sederhana kayak SolarQuest) ngelewatin "stop" (topik),
-// Kiko numpang di truck bisa di-tap buat chat, ornamen kota (pohon/
-// rumah/gunung/awan/dst) di kiri-kanan jalan.
+// LIVE (2026-08-08, awalnya MOCKUP 2026-08-07) -- user: "untuk mathville
+// inget ga di play alidirisi jg? ... yang ada truck jalan? didalamnya ada
+// ai mascot kita bisa di click. Bisa ambil design dari sana? lalu kita
+// gantikan ke matematika yang masih basi." Port dari al-idrisi-games/
+// mathville (tema "Blockville Workshop": kayu/cherry/emas, BUKAN tema
+// luar angkasa SolarQuest yang dipake buat IPAS) -- truck 🚚 jalan di
+// jalan kota (Catmull-Rom curve, bukan bezier sederhana kayak SolarQuest)
+// ngelewatin "stop" (topik), Kiko numpang di truck bisa di-tap buat chat,
+// ornamen kota (pohon/rumah/gunung/awan/dst) di kiri-kanan jalan.
 //
 // BEDA dari MathVille asli: (1) chapter count VARIASI per kelas (5-9,
 // beda dari IPAS yang selalu 8) -- layout jalan+ornamen digeneralisasi,
@@ -25,11 +25,17 @@ import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 // jagoan-kelas tetep pake progression lock/current/done yang udah ada
 // di seluruh app (`computeStatuses`), demi konsistensi sama IPAS map +
 // SubjectDetail.jsx lain, jadi ada state locked (gak ada di source
-// asli) dengan treatment sama kayak IPAS (dim + lock chip). (3) footer
-// tombol Drive/Plane/Math Race (fitur matematika yang udah ada) tetep
-// dipertahanin di bawah peta, gak coba dimasukin ke visual town map
-// (MathVille asli juga gak gitu -- Drive Mode py sistem marker sendiri,
-// terpisah dari town map).
+// asli) dengan treatment sama kayak IPAS (dim + lock chip). (3) tombol
+// Drive/Plane tetep dipertahanin sebagai icon di header, gak coba
+// dimasukin ke visual town map (MathVille asli juga gak gitu -- Drive
+// Mode punya sistem marker sendiri, terpisah dari town map).
+//
+// Awalnya preview-only (`/kelas/:grade/matematika/peta-mockup`), di-wire
+// jadi halaman resmi subject "matematika" (`/kelas/:grade/matematika`,
+// App.jsx) -- pola sama kayak Bindo & IPAS. Kartu promo "🏁 Math Race"
+// yang dulu nempel di atas peta ini DICABUT sekalian -- udah jadi kartu
+// sendiri di `PickSubject.jsx` (kerjaan sebelumnya), kalau dibiarin di
+// sini bakal dobel/nyampur.
 
 const MAP_CANVAS_WIDTH = 440;
 const NODE_SPACING_Y = 170;
@@ -45,9 +51,12 @@ const WOOD_DARK = "#A8632F";
 const CHERRY = "#E4572E";
 const GOLD = "#F7C548";
 const TAUPE = "#D8C7AE";
-const CREAM = "#F7EEE0";
 const INK = "#3B2A1A";
 const INK_SOFT = "#7A6A56";
+// Background peta -- sempet dicoba biru `--product-math` (2026-08-07)
+// biar konsisten sama warna card subject Matematika, tapi user gak
+// suka ("jelek") -- BALIK LAGI ke cream tema asli MathVille.
+const MATH_BG = "#F7EEE0";
 
 // Ikon "lokasi kota" -- disalin dari `CHAPTER_META` MathVille (9 lokasi
 // asli: Town Hall/Bakery/Factor Grove/dst), di-cycle per index karena
@@ -135,12 +144,18 @@ function TownOrnaments({ height }) {
     return Array.from({ length: count }).map((_, i) => {
       const def = ORNAMENT_SHAPES[i % ORNAMENT_SHAPES.length];
       const leftSide = i % 2 === 0;
+      // Ukuran DULUAN, baru posisi -- biar lebar shape ikut diperhitungin
+      // pas nentuin `x`, gak ada lagi yang kepotong di tepi kanvas (kejadian
+      // sebelumnya: `x` bisa negatif di kiri / nabrak tepi 440 di kanan,
+      // user lapor "ornamen banyak yang keluar garis").
+      const size = 24 + rand() * 20;
+      const margin = 4 + rand() * 26;
       return {
         key: "orn" + i,
         ...def,
-        x: leftSide ? -10 + rand() * 20 : MAP_CANVAS_WIDTH - 30 + rand() * 30,
+        x: leftSide ? margin : MAP_CANVAS_WIDTH - margin - size,
         y: 20 + rand() * (height - 40),
-        size: 30 + rand() * 26,
+        size,
         delay: rand() * 2,
         duration: 3 + rand() * 2,
       };
@@ -292,14 +307,14 @@ export default function MathTownMap() {
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, padding: "22px 18px 0" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <button
-            onClick={() => navigate(`/kelas/${grade}/matematika`)}
+            onClick={() => navigate(`/kelas/${grade}`)}
             aria-label="Kembali"
             style={{ border: "none", background: "none", cursor: "pointer", fontSize: "1.2rem", padding: 4, lineHeight: 1, color: "var(--ink-900)" }}
           >
             ←
           </button>
           <div>
-            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>Peta Matematika</div>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>Matematika</div>
             <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>Kelas {grade}</div>
           </div>
         </div>
@@ -326,34 +341,6 @@ export default function MathTownMap() {
         </div>
       </div>
 
-      {!loadError && topics && layout && (
-        <div style={{ padding: "12px 18px 0" }}>
-          <button
-            onClick={() => navigate(`/kelas/${grade}/matematika/mathrace`)}
-            style={{
-              position: "relative",
-              width: "100%",
-              height: 60,
-              borderRadius: 16,
-              border: "none",
-              cursor: "pointer",
-              overflow: "hidden",
-              background: CHERRY,
-              display: "flex",
-              alignItems: "center",
-              padding: "0 16px",
-            }}
-          >
-            <span style={{ position: "relative", fontFamily: "var(--font-display)", fontWeight: 800, color: "#fff", fontSize: "0.95rem", display: "flex", alignItems: "center", gap: 6 }}>
-              🏁 Math Race
-            </span>
-            <span style={{ position: "absolute", bottom: 6, left: 0, right: 0, height: 24, overflow: "hidden" }}>
-              <span style={{ position: "absolute", left: "-15%", fontSize: 24, animation: "jkF1Drive 3.2s linear infinite" }}>🏎️</span>
-            </span>
-          </button>
-        </div>
-      )}
-
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
           <div style={{ color: "var(--ink-400)" }}>Gagal muat peta. Coba cek koneksi internet kamu, ya!</div>
@@ -368,7 +355,7 @@ export default function MathTownMap() {
 
       {!loadError && topics && layout && (
         <>
-          <div ref={outerRef} style={{ flex: 1, overflowY: "auto", overflowX: "hidden", position: "relative", background: CREAM }}>
+          <div ref={outerRef} style={{ flex: 1, overflowY: "auto", overflowX: "hidden", position: "relative", background: MATH_BG, paddingTop: 30 }}>
             <div style={{ position: "relative", width: MAP_CANVAS_WIDTH, height: layout.totalHeight * scale, transform: `scale(${scale})`, transformOrigin: "top left" }}>
               <TownOrnaments height={layout.totalHeight} />
 
@@ -421,7 +408,7 @@ export default function MathTownMap() {
                         boxShadow: "0 2px 6px rgba(59,42,26,0.15)",
                         opacity: locked ? 0.55 : 1,
                         filter: locked ? "grayscale(0.5)" : "none",
-                        background: done ? WOOD : "#fff",
+                        background: done ? WOOD : MATH_BG,
                         border: `3px solid ${done ? WOOD_DARK : current ? CHERRY : TAUPE}`,
                         animation: current ? "jkMvStopPulse 1.8s ease-in-out infinite" : "none",
                       }}
@@ -581,10 +568,6 @@ export default function MathTownMap() {
         @keyframes jkMvStopPulse {
           0%, 100% { box-shadow: 0 0 0 4px rgba(228,87,46,0.22); }
           50% { box-shadow: 0 0 0 10px rgba(228,87,46,0.35); }
-        }
-        @keyframes jkF1Drive {
-          from { left: -15%; }
-          to { left: 115%; }
         }
       `}</style>
     </Shell>
