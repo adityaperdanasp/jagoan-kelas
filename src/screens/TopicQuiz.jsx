@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
+import PageDecor from "../components/PageDecor";
 import QuizRunner from "../games/quiz/QuizRunner";
 import { loadTopicByKey } from "../data/contentLoader";
 import { recordTopicResult, starsFor } from "../data/progressService";
@@ -68,6 +69,8 @@ export default function TopicQuiz() {
 
   return (
     <Shell>
+      <PageDecor seed={"topic-" + subject + "-" + babKey} />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
       <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title={topic?.title || "Topik"} subtitle={`Kelas ${grade}`} />
 
       {!questions && !loadError && (
@@ -118,6 +121,7 @@ export default function TopicQuiz() {
           </Button>
         </div>
       )}
+      </div>
     </Shell>
   );
 }

@@ -3,6 +3,7 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
 import QuizRunner from "../games/quiz/QuizRunner";
+import PageDecor from "../components/PageDecor";
 import { loadTopicByKey } from "../data/contentLoader";
 import { parseTopicId } from "../data/focusTopics";
 import { recordFocusRoundAttempt } from "../data/progressService";
@@ -99,10 +100,13 @@ export default function FocusRoundQuiz() {
   if (topicIds.length === 0) {
     return (
       <Shell>
+        <PageDecor seed="fokus-quiz-empty" />
+        <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
         <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Fokus Latihan" />
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
           <div style={{ color: "var(--ink-400)" }}>Belum ada topik dipilih.</div>
           <Button variant="primary" onClick={() => navigate(`/kelas/${grade}/fokus`)}>Pilih Topik</Button>
+        </div>
         </div>
       </Shell>
     );
@@ -110,6 +114,8 @@ export default function FocusRoundQuiz() {
 
   return (
     <Shell>
+      <PageDecor seed="fokus-quiz" />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
       <ScreenHeader onBack={() => navigate(`/kelas/${grade}/fokus`)} title="Fokus Latihan" subtitle={`${topicIds.length} topik campur`} />
 
       {!questions && !loadError && (
@@ -144,6 +150,7 @@ export default function FocusRoundQuiz() {
           </Button>
         </div>
       )}
+      </div>
     </Shell>
   );
 }

@@ -5,6 +5,7 @@ import Button from "../components/ds/Button";
 import Input from "../components/ds/Input";
 import { Badge } from "../components/ds/Badge";
 import TopicPicker from "../components/TopicPicker";
+import PageDecor from "../components/PageDecor";
 import { signInAsChild, getPlayerDoc, sendParentMessage } from "../data/authService";
 import { setAssignedTopics, computeWeakTopics, computeXpBySubject } from "../data/progressService";
 import { loadAllFocusTopics, topicId } from "../data/focusTopics";
@@ -124,7 +125,9 @@ export default function ParentPortal() {
   return (
     <Shell>
       {screen === "signin" && (
-        <div style={{ padding: "26px 24px 36px", display: "flex", flexDirection: "column", gap: 24 }}>
+        <>
+        <PageDecor seed="parent-signin" />
+        <div style={{ position: "relative", zIndex: 1, padding: "26px 24px 36px", display: "flex", flexDirection: "column", gap: 24 }}>
           <div style={{ textAlign: "center" }}>
             <Badge color="purple">👪 Parent Portal</Badge>
           </div>
@@ -155,10 +158,13 @@ export default function ParentPortal() {
             Lupa PIN-nya? Tanya anak kamu — sama yang dia pakai buat masuk & main.
           </div>
         </div>
+        </>
       )}
 
       {screen === "portal" && child && (
-        <div style={{ padding: "22px 18px", display: "flex", flexDirection: "column", gap: 20 }}>
+        <>
+        <PageDecor seed="parent-portal" />
+        <div style={{ position: "relative", zIndex: 1, padding: "22px 18px", display: "flex", flexDirection: "column", gap: 20 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <Avatar name={child.name} size={44} />
             <div>
@@ -284,6 +290,7 @@ export default function ParentPortal() {
             Keluar
           </Button>
         </div>
+        </>
       )}
     </Shell>
   );

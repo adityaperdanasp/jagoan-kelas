@@ -8,6 +8,7 @@ const ACCENTS = {
   focus: { bg: "var(--product-focus)", ink: "var(--product-focus-ink)", inkSoft: "var(--ink-on-purple-soft)" },
   wood: { bg: "var(--product-wood)", ink: "var(--product-wood-ink)", inkSoft: "var(--ink-on-wood-soft)" },
   mint: { bg: "var(--product-mint)", ink: "var(--product-mint-ink)", inkSoft: "var(--product-mint-ink)" },
+  race: { bg: "var(--product-race)", ink: "var(--product-race-ink)", inkSoft: "var(--ink-on-pink-soft)" },
 };
 
 export default function GameCard({ accent = "math", icon, title, subtitle, rotate, onClick, href }) {

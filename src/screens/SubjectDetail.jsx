@@ -10,6 +10,7 @@ import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import BoBridgeBanner from "../components/BoBridgeBanner";
+import PageDecor from "../components/PageDecor";
 
 export default function SubjectDetail() {
   const navigate = useNavigate();
@@ -48,10 +49,11 @@ export default function SubjectDetail() {
   const doneCount = topics ? topics.filter((t) => t.status === "done").length : 0;
   const stars = topics && topics.length ? Math.round((doneCount / topics.length) * 3) : 0;
   const topicXp = topics ? topics.reduce((sum, t) => sum + (t.xp || 0), 0) : 0;
-  const currentTopic = topics?.find((t) => t.status === "current");
 
   return (
     <Shell>
+      <PageDecor seed={"subject-" + subject} />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
       <ScreenHeader
         onBack={() => navigate(`/kelas/${grade}`)}
         title={subj.name}
@@ -134,30 +136,17 @@ export default function SubjectDetail() {
 
       <div style={{ padding: "0 18px 22px", display: "flex", flexDirection: "column", gap: 10 }}>
         {subject === "matematika" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            <div style={{ display: "flex", gap: 10 }}>
-              <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
-                🚗 Drive
-              </Button>
-              <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/plane`)}>
-                ✈️ Plane
-              </Button>
-            </div>
-            <Button variant="secondary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/mathrace`)}>
-              🏁 Math Race
+          <div style={{ display: "flex", gap: 10 }}>
+            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/drive`)}>
+              🚗 Drive
+            </Button>
+            <Button variant="secondary" size="lg" style={{ flex: 1, justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika/plane`)}>
+              ✈️ Plane
             </Button>
           </div>
         )}
         {(subject === "bindo" || subject === "binggris") && <BoBridgeBanner grade={grade} subject={subject} />}
-        <Button
-          variant="primary"
-          size="lg"
-          style={{ width: "100%", justifyContent: "center" }}
-          disabled={!currentTopic}
-          onClick={() => currentTopic && navigate(`/kelas/${grade}/${subject}/topik/${currentTopic.key}`)}
-        >
-          Lanjut Belajar
-        </Button>
+      </div>
       </div>
     </Shell>
   );

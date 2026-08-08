@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ref, onValue, set, update, get, runTransaction, onDisconnect, off } from "firebase/database";
 import Shell, { ScreenHeader } from "../../components/Shell";
 import Button from "../../components/ds/Button";
+import PageDecor from "../../components/PageDecor";
 import { rtdb } from "../../firebase";
 import { usePlayer } from "../../data/PlayerContext";
 import { generateQuickQuestion } from "../shared/quickQuestion";
@@ -223,7 +224,9 @@ export default function MathRace() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/matematika`)} title="🏁 Math Race" subtitle={`Kelas ${grade}`} />
+      <PageDecor seed="mathrace" />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="🏁 Math Race" subtitle={`Kelas ${grade}`} />
 
       {mode === "lobby" && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 14, padding: "10px 18px 22px" }}>
@@ -368,11 +371,12 @@ export default function MathRace() {
           <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={restart}>
             Main Lagi
           </Button>
-          <Button variant="secondary" size="md" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}/matematika`)}>
+          <Button variant="secondary" size="md" style={{ width: "100%", justifyContent: "center" }} onClick={() => navigate(`/kelas/${grade}`)}>
             Kembali
           </Button>
         </div>
       )}
+      </div>
     </Shell>
   );
 }

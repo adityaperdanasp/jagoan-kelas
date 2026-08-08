@@ -39,6 +39,9 @@
   /* Ninja Runner (2026-08-07) -- mint pastel, sama alasan BrainBox pilih
      mint buat card Ninja Runner-nya di hub ("card warna pastel yang gemes"). */
   --product-mint: #C1F0E8; --product-mint-ink: #2f7a6e;
+  /* Math Race (2026-08-08) -- pindah dari tombol di dalem Matematika ke
+     card sendiri di PickSubject, pastel pink biar beda dari card lain. */
+  --product-race: #F6C1C1; --product-race-ink: #8c2f6b;
 
   /* ---- mascot "Bo" palette ---- */
   --bo-pink-light: #FFC4D2; --bo-pink: #F281A0; --bo-pink-dark: #C74D6C; --bo-stroke: #B3435F; --bo-drool: #B9E4F3;

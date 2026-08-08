@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Shell, { ScreenHeader } from "../components/Shell";
 import Button from "../components/ds/Button";
 import TopicPicker from "../components/TopicPicker";
+import PageDecor from "../components/PageDecor";
 import { loadFocusTopicsForGrade, parseTopicId } from "../data/focusTopics";
 import { getAssignedTopics } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
@@ -51,6 +52,8 @@ export default function FocusRoundPicker() {
 
   return (
     <Shell>
+      <PageDecor seed="fokus-picker" />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
       <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Fokus Latihan" subtitle={`Kelas ${grade} · Pilih sampai ${MAX_TOPICS} topik`} />
 
       <div style={{ padding: "10px 18px 0", fontFamily: "var(--font-body)", fontSize: "0.8rem", fontWeight: 700, color: "var(--ink-500)" }}>
@@ -82,6 +85,7 @@ export default function FocusRoundPicker() {
         >
           Mulai Latihan ({selected.length})
         </Button>
+      </div>
       </div>
     </Shell>
   );

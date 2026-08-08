@@ -35,7 +35,7 @@ function AppRoutes() {
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/plane" element={<RequireAuth><PlaneMode /></RequireAuth>} />
-      <Route path="/kelas/:grade/matematika/mathrace" element={<RequireAuth><MathRace /></RequireAuth>} />
+      <Route path="/kelas/:grade/mathrace" element={<RequireAuth><MathRace /></RequireAuth>} />
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/bobridge" element={<RequireAuth><GlassBridge /></RequireAuth>} />
       <Route path="/parents" element={<ParentPortal />} />
