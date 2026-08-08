@@ -361,6 +361,12 @@ Pola sama kayak "Peta IPAS"/"Peta Matematika" di atas, tapi sumbernya `azkacraft
 
 Diverifikasi: `getComputedStyle` konfirmasi 2 animation-name numpuk jalan bareng di tombol Kiko, bubble punya `animationName: jkBindoBubbleCycle`, tap Kiko pas lagi mid-animasi tetep buka chat normal (gak ke-block), tap Multiplayer toast muncul lalu ilang sendiri abis ~1.8detik (dicek via `await sleep` di browser, bukan asumsi), tap Solo beneran scroll ke section timeline (dicek via screenshot, bukan cuma `scrollTop` container yang salah dicek awalnya).
 
+**Revisi susulan #2 (2026-08-08, sesi yang sama) — dipecah jadi 2 layar beneran**: user gak suka pola "scroll ke bawah" di atas ("jangan turun kebawah kaya sekarang jelek, ganti"), minta disamain PERSIS sama azkacraft yang punya 2 LAYAR terpisah (Landing vs Quest Map, pindah lewat tap, bukan scroll). Dikonfirmasi dulu ("betul, sama kaya di al idrisi, periksa aja") baru dikerjain:
+- **`BindoStorybookTrail.jsx`** sekarang CUMA "layar depan" — hero+Kiko+title-ribbon+mode-grid+trivia. Daftar bab (timeline) DICABUT TOTAL dari file ini.
+- **`BindoQuestMap.jsx`** (baru) — isinya CUMA daftar bab (Dino Bridge banner + timeline zig-zag Bab 1-N), `ScreenHeader` sendiri ("Jejak Ceritamu"), route `/kelas/:grade/bindo/bab`. Fetch topics/progress SENDIRI (duplikat logic dari `BindoStorybookTrail.jsx`, bukan di-share lewat hook — matching pola yang emang udah ada di codebase ini, belum ada shared-fetch-hook buat 2 titik kayak gini, jadi duplikasi kecil ini konsisten sama existing pattern, bukan bikin abstraksi baru buat kasus 1-off).
+- Tombol "Solo Adventure" di layar depan sekarang `navigate()` ke `/kelas/:grade/bindo/bab` (dulu `scrollIntoView`). Tombol back di `BindoQuestMap` balik ke `/kelas/:grade/bindo` (layar depan), BUKAN ke `/kelas/:grade` (PickSubject).
+- Diverifikasi: `location.pathname` dicek tiap langkah (landing → tap Solo → `/kelas/4/bindo/bab` → tap back → `/kelas/4/bindo` → tap Bab 1 → `/kelas/4/bindo/topik/bab-1`), gak ada console error, `/kelas/4/bindo` dan `/kelas/4/bindo/bab` dua-duanya 200 di production.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
