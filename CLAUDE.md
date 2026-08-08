@@ -320,6 +320,13 @@ User kirim screenshot BrainBox hub (`playalidrisi.fun`, penuh bintang/titik/blob
 
 Diverifikasi: screenshot Landing abis login (ornamen kebaca jelas, gak nutupin avatar/XP/tombol mute/Kiko/grid kelas/dino), klik salah satu kartu kelas TETEP navigate normal (`pointer-events:none` di layer dekorasi kebukti gak nge-block), `getComputedStyle` tombol dino nunjukin `animationDuration: "8.05s, 0.4s"` persis target, gak ada console error.
 
+**Fix susulan: sapaan harian Kiko (2026-08-08, sesi yang sama)** — user minta di bagian bawah Landing dikasih "maskot Kiko + tulisan 'Hai {nama} ayok main lagi', 50 template gonta-ganti tiap hari, kayak di playalidrisi".
+
+- **`src/data/kikoGreetings.js`** (baru) — 50 template Bahasa Indonesia (bukan translate 5 template BrainBox punya, ditulis dari nol biar sesuai suara app ini), token `{name}` di tiap template. `greetingTemplateForToday()` pilih 1 lewat `Math.floor(Date.now()/86400000) % 50` — ganti otomatis tiap pergantian hari kalender, BUKAN random tiap reload (port formula PERSIS punya BrainBox punya `SC_GREETINGS`).
+- **`src/components/KikoGreeting.jsx`** (baru) — avatar `<Kiko size={34}/>` yang wiggle pelan + teks sapaan yang "gelombang" kata-per-kata (tiap kata `<span>` sendiri, staggered `animationDelay`), nama di-highlight warna yang gonta-ganti per hari (`--ink-on-blue`/`--ink-on-pink`/`--ink-on-green` — token yang app ini emang udah punya, nilainya persis sama kayak 3 hex hardcoded BrainBox, bukan kebetulan karena token itu awalnya emang di-port dari situ). Badge "Tap Kiko!" nongol di atas avatar sampe di-tap sekali (localStorage `jk_kiko_greeting_hint_seen`, port `aig_bo_chat_hint_seen` punya BrainBox). Tap = manggil `onTap` yang dikasih dari `Landing.jsx` (`setChatOpen(true)`) — buka `KikoChatPanel` yang SAMA persis kayak tap Kiko gede di atas, bukan chat/trigger terpisah.
+- Ditaro di `Landing.jsx` antara `WalkingDino` dan link "Untuk orang tua" (BrainBox naronya setelah game-card list, sebelum footer link — posisi analog di layout Jagoan Kelas).
+- Diverifikasi: screenshot nunjukin "Kamu keren, Adit!" + hint "Tap Kiko!" muncul (animasinya pop-fade berulang, ke-capture di frame yang lagi visible), tap beneran buka `KikoChatPanel`, abis tap hint ilang dan `localStorage.getItem('jk_kiko_greeting_hint_seen')` jadi `"1"`, gak ada console error.
+
 ## Gaya kerja user (sama kayak BrainBox punya, disalin langsung)
 - Komunikasi campur Indonesia-Inggris.
 - **Diskusi dulu sebelum eksekusi** kalau ada keputusan arsitektur/scope — baru "gas"/"lanjut" abis sepakat. Tapi task yang udah dikasih instruksi detail (misal restrukturisasi soal dengan spec lengkap) boleh langsung dikerjain tanpa nanya ulang tiap step.
