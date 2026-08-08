@@ -8,6 +8,7 @@ import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import { dilemmaForIndex } from "../data/ppknDilemmas";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
+import { useT } from "../data/translations";
 
 // LIVE (2026-08-08) -- konsep ORISINIL "Kampung Pancasila" (kayak Bahasa
 // Inggris "World Tour", bukan porting al-idrisi -- referensinya udah abis
@@ -96,6 +97,7 @@ export default function PpknVillageMap() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t, subjectName } = useT();
   useBgmTrack(TRACK_BY_SUBJECT.ppkn);
 
   const [topics, setTopics] = useState(null);
@@ -216,8 +218,8 @@ export default function PpknVillageMap() {
             ←
           </button>
           <div>
-            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>PPKn</div>
-            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>Kelas {grade}</div>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>{subjectName("ppkn")}</div>
+            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>{t("common", "grade")} {grade}</div>
           </div>
         </div>
         <div
@@ -241,13 +243,13 @@ export default function PpknVillageMap() {
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
-          <div style={{ color: "var(--ink-400)" }}>Gagal muat peta. Coba cek koneksi internet kamu, ya!</div>
+          <div style={{ color: "var(--ink-400)" }}>{t("map", "loadError")}</div>
         </div>
       )}
 
       {!loadError && (!topics || !layout) && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>
-          Menyiapin kampung...
+          {t("map", "preparingVillage")}
         </div>
       )}
 
@@ -426,7 +428,7 @@ export default function PpknVillageMap() {
                       pointerEvents: "none",
                     }}
                   >
-                    Hai, ini Kiko!
+                    {t("map", "hiKiko")}
                   </span>
                 )}
               </button>
@@ -462,6 +464,7 @@ export default function PpknVillageMap() {
 
 function DilemmaModal({ index, picked, onPick, onContinue, onSkip }) {
   const d = dilemmaForIndex(index);
+  const { t } = useT();
   return (
     <div
       style={{
@@ -486,7 +489,7 @@ function DilemmaModal({ index, picked, onPick, onContinue, onSkip }) {
         }}
       >
         <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.78rem", color: RED_DARK, marginBottom: 6 }}>
-          🚩 Sebelum lanjut...
+          {t("dilemma", "before")}
         </div>
         <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.9rem", color: INK, lineHeight: 1.4, marginBottom: 14 }}>
           {d.scenario}
@@ -518,7 +521,7 @@ function DilemmaModal({ index, picked, onPick, onContinue, onSkip }) {
               onClick={onSkip}
               style={{ marginTop: 4, border: "none", background: "none", color: INK_SOFT, fontFamily: "var(--font-body)", fontSize: "0.72rem", cursor: "pointer", textDecoration: "underline" }}
             >
-              Lewati
+              {t("dilemma", "skip")}
             </button>
           </div>
         ) : (
@@ -552,7 +555,7 @@ function DilemmaModal({ index, picked, onPick, onContinue, onSkip }) {
                 cursor: "pointer",
               }}
             >
-              Lanjut ke Kuis →
+              {t("dilemma", "continueQuiz")}
             </button>
           </div>
         )}

@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import Button from "../../components/ds/Button";
 import KikoTutorChat from "./KikoTutorChat";
 import { answersMatch } from "./normalizeAnswer";
+import { useT } from "../../data/translations";
 
 // Komponen quiz reusable -- dipakai TopicQuiz (practice per-bab normal)
 // DAN FocusRoundQuiz (campur beberapa bab). Satu soal per layar, MC
@@ -16,6 +17,7 @@ import { answersMatch } from "./normalizeAnswer";
 // kayak v1), buka chat pakai wajah Kiko (KikoTutorChat.jsx, manggil
 // /api/kiko-chat). Percakapan direset tiap ganti soal (resetKey={q.id}).
 export default function QuizRunner({ questions, onFinish, subjectName, gradeLabel, topicTitle }) {
+  const { t } = useT();
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [textAnswer, setTextAnswer] = useState("");
@@ -60,7 +62,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
     <div style={{ display: "flex", flexDirection: "column", flex: 1, padding: "0 18px 18px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 8 }}>
         <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)" }}>
-          Soal {index + 1} / {questions.length}
+          {t("quiz", "question", { i: index + 1, n: questions.length })}
         </div>
         <KikoTutorChat
           resetKey={q.id}
@@ -126,7 +128,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
               value={textAnswer}
               onChange={(e) => setTextAnswer(e.target.value)}
               disabled={answered}
-              placeholder="Ketik jawaban kamu..."
+              placeholder={t("quiz", "typeAnswer")}
               style={{
                 border: `2px solid ${answered ? (isCorrect ? "var(--color-success)" : "var(--color-error)") : "var(--cream-300)"}`,
                 borderRadius: "var(--radius-lg)",
@@ -139,7 +141,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
             />
             {!answered && (
               <Button variant="secondary" disabled={!textAnswer} onClick={() => submit()}>
-                Jawab
+                {t("quiz", "answer")}
               </Button>
             )}
           </div>
@@ -148,7 +150,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
         {answered && (
           <div style={{ marginTop: 16, padding: 12, borderRadius: 12, background: isCorrect ? "var(--color-success-bg)" : "var(--color-error-bg)" }}>
             <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: isCorrect ? "var(--color-success)" : "var(--color-error)" }}>
-              {isCorrect ? "Bener! 🎉" : `Kurang tepat. Jawabannya: ${q.answer}`}
+              {isCorrect ? t("quiz", "correct") : t("quiz", "incorrect", { answer: q.answer })}
             </div>
             {q.explanation && (
               <div style={{ fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", marginTop: 4 }}>{q.explanation}</div>
@@ -159,7 +161,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
 
       {answered && (
         <Button variant="primary" size="lg" style={{ width: "100%", marginTop: 14 }} onClick={next}>
-          {index + 1 >= questions.length ? "Selesai" : "Lanjut"}
+          {index + 1 >= questions.length ? t("common", "done") : t("common", "continueLabel")}
         </Button>
       )}
     </div>

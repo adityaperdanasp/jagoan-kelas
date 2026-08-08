@@ -7,6 +7,7 @@ import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
+import { useT } from "../data/translations";
 
 // LIVE (2026-08-08) -- konsep ORISINIL "Kiko's World Tour", BUKAN porting
 // dari al-idrisi-games (semua desain BrainBox yang relevan udah kepake:
@@ -102,6 +103,7 @@ export default function BinggrisWorldMap() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t, subjectName } = useT();
   useBgmTrack(TRACK_BY_SUBJECT.binggris);
 
   const [topics, setTopics] = useState(null);
@@ -222,8 +224,8 @@ export default function BinggrisWorldMap() {
             ←
           </button>
           <div>
-            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>Bahasa Inggris</div>
-            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>Kelas {grade}</div>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>{subjectName("binggris")}</div>
+            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>{t("common", "grade")} {grade}</div>
           </div>
         </div>
         <div
@@ -247,13 +249,13 @@ export default function BinggrisWorldMap() {
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
-          <div style={{ color: "var(--ink-400)" }}>Gagal muat peta. Coba cek koneksi internet kamu, ya!</div>
+          <div style={{ color: "var(--ink-400)" }}>{t("map", "loadError")}</div>
         </div>
       )}
 
       {!loadError && (!topics || !layout) && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>
-          Menyiapin peta dunia...
+          {t("map", "preparingWorld")}
         </div>
       )}
 
@@ -470,7 +472,7 @@ export default function BinggrisWorldMap() {
                       pointerEvents: "none",
                     }}
                   >
-                    Hai, ini Kiko!
+                    {t("map", "hiKiko")}
                   </span>
                 )}
               </div>

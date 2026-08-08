@@ -12,6 +12,8 @@ import KikoGreeting from "../components/KikoGreeting";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { GRADES } from "../data/content";
 import { usePlayer } from "../data/PlayerContext";
+import { useLanguage } from "../data/LanguageContext";
+import { useT } from "../data/translations";
 import { useSecretTap } from "../games/dinorace/useSecretTap";
 import { getPlayerDoc, markParentMessageRead } from "../data/authService";
 import { TRACK_HUB, useBgmTrack, isBgmMuted, setBgmMuted } from "../data/bgm";
@@ -32,6 +34,8 @@ const GRADE_CARD_COLORS = ["#FF8FA8", "#5AB4E8", "#8FCB9B", "#FFC93D", "#B48CF0"
 export default function Landing() {
   const navigate = useNavigate();
   const { player, logout } = usePlayer();
+  const { lang, setLang } = useLanguage();
+  const { t } = useT();
   const [parentMessage, setParentMessage] = useState(null);
   const [muted, setMuted] = useState(isBgmMuted);
   const [chatOpen, setChatOpen] = useState(false);
@@ -77,7 +81,7 @@ export default function Landing() {
             <Avatar name={player.name} size={36} />
             <div>
               <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.85rem", color: "var(--ink-900)" }}>
-                Hai, {player.name}!
+                {t("landing", "hi", { name: player.name })}
               </div>
               <button
                 onClick={handleLogout}
@@ -92,12 +96,42 @@ export default function Landing() {
                   textDecoration: "underline",
                 }}
               >
-                Keluar
+                {t("landing", "logout")}
               </button>
             </div>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <ProgressXP xp={player.xp ?? 0} maxStars={0} />
+            {/* Toggle bahasa (2026-08-08) -- "togle kecil sederhana aja kaya
+                di website2 seperti google dll", jadi 2 tombol huruf kecil
+                bersebelahan (bukan dropdown/switch besar). */}
+            <div
+              role="group"
+              aria-label="Bahasa / Language"
+              style={{ display: "flex", alignItems: "center", background: "var(--cream-200)", borderRadius: 999, padding: 2, gap: 2 }}
+            >
+              {["id", "en"].map((code) => (
+                <button
+                  key={code}
+                  onClick={() => setLang(code)}
+                  style={{
+                    border: "none",
+                    cursor: "pointer",
+                    borderRadius: 999,
+                    padding: "4px 8px",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: 800,
+                    fontSize: "0.62rem",
+                    letterSpacing: 0.5,
+                    background: lang === code ? "#fff" : "transparent",
+                    color: lang === code ? "var(--ink-900)" : "var(--ink-400)",
+                    boxShadow: lang === code ? "var(--shadow-sticker-sm)" : "none",
+                  }}
+                >
+                  {code.toUpperCase()}
+                </button>
+              ))}
+            </div>
             <button
               onClick={toggleMute}
               aria-label={muted ? "Nyalain musik" : "Matiin musik"}
@@ -122,7 +156,7 @@ export default function Landing() {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "10px 0 4px" }}>
           <button
             onClick={() => setChatOpen(true)}
-            aria-label="Ngobrol sama Kiko"
+            aria-label={t("landing", "talkToKiko")}
             style={{
               position: "relative",
               border: "none",
@@ -152,7 +186,7 @@ export default function Landing() {
                 transform: "rotate(4deg)",
               }}
             >
-              Kiko disini
+              {t("landing", "kikoHere")}
               <span
                 style={{
                   position: "absolute",
@@ -207,7 +241,7 @@ export default function Landing() {
         </div>
 
         <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.8rem", color: "var(--ink-500)", textAlign: "center", margin: "2px 0 12px" }}>
-          Pilih kelas kamu!
+          {t("landing", "pickGrade")}
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, padding: "0 18px" }}>
@@ -234,7 +268,7 @@ export default function Landing() {
               onPointerLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
             >
               <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem", color: "#fff" }}>{g.n}</span>
-              <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.62rem", color: "rgba(255,255,255,.9)" }}>Kelas {g.n}</span>
+              <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.62rem", color: "rgba(255,255,255,.9)" }}>{t("landing", "gradeLabel", { n: g.n })}</span>
             </button>
           ))}
         </div>
@@ -258,20 +292,20 @@ export default function Landing() {
             marginTop: 6,
           }}
         >
-          Untuk orang tua →
+          {t("common", "forParents")}
         </Link>
       </div>
 
       <OverlayCard open={!!parentMessage} onClose={dismissMessage}>
         <div style={{ fontSize: 36, marginBottom: 8 }}>💌</div>
         <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-900)", marginBottom: 10 }}>
-          Pesan dari orang tua kamu
+          {t("landing", "messageFromParent")}
         </div>
         <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", marginBottom: 18 }}>
           "{parentMessage?.text}"
         </div>
         <Button variant="primary" style={{ width: "100%" }} onClick={dismissMessage}>
-          Makasih! 😊
+          {t("landing", "thanks")}
         </Button>
       </OverlayCard>
 

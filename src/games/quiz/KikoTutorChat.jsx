@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Kiko from "../../components/ds/Kiko";
 import Button from "../../components/ds/Button";
+import { useT } from "../../data/translations";
 
 // AI Tutor v2 (2026-08-06) -- upgrade dari tombol "🤖 Jelasin Lagi" yang
 // cuma muncul on-demand pas jawaban salah (lihat generate-hint.js), jadi
@@ -247,6 +248,7 @@ export function KikoChatPanel({
 
 export default function KikoTutorChat(props) {
   const [open, setOpen] = useState(false);
+  const { t } = useT();
   return (
     <>
       <button
@@ -265,7 +267,7 @@ export default function KikoTutorChat(props) {
       >
         <Kiko size={22} />
         <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.72rem", color: "var(--ink-700)" }}>
-          Tanya Kiko
+          {t("common", "askKiko")}
         </span>
       </button>
       <KikoChatPanel {...props} open={open} onClose={() => setOpen(false)} />

@@ -7,6 +7,7 @@ import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
+import { useT } from "../data/translations";
 
 // LIVE (2026-08-08, awalnya MOCKUP 2026-08-07) -- user: "untuk mathville
 // inget ga di play alidirisi jg? ... yang ada truck jalan? didalamnya ada
@@ -186,6 +187,7 @@ export default function MathTownMap() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t, subjectName } = useT();
   useBgmTrack(TRACK_BY_SUBJECT.matematika);
 
   const [topics, setTopics] = useState(null);
@@ -314,8 +316,8 @@ export default function MathTownMap() {
             ←
           </button>
           <div>
-            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>Matematika</div>
-            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>Kelas {grade}</div>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)" }}>{subjectName("matematika")}</div>
+            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-500)" }}>{t("common", "grade")} {grade}</div>
           </div>
         </div>
         {/* Drive/Plane jadi icon aja di header (2026-08-07, request user) --
@@ -343,13 +345,13 @@ export default function MathTownMap() {
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
-          <div style={{ color: "var(--ink-400)" }}>Gagal muat peta. Coba cek koneksi internet kamu, ya!</div>
+          <div style={{ color: "var(--ink-400)" }}>{t("map", "loadError")}</div>
         </div>
       )}
 
       {!loadError && (!topics || !layout) && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>
-          Menyiapin peta...
+          {t("map", "preparing")}
         </div>
       )}
 
@@ -546,7 +548,7 @@ export default function MathTownMap() {
                         pointerEvents: "none",
                       }}
                     >
-                      Hai, ini Kiko!
+                      {t("map", "hiKiko")}
                     </span>
                   )}
                 </div>

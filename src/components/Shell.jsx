@@ -1,3 +1,5 @@
+import { useT } from "../data/translations";
+
 export default function Shell({ children }) {
   return (
     <main
@@ -32,11 +34,12 @@ export default function Shell({ children }) {
 }
 
 export function ScreenHeader({ onBack, title, subtitle, leading }) {
+  const { t } = useT();
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "22px 18px 0" }}>
       <button
         onClick={onBack}
-        aria-label="Kembali"
+        aria-label={t("common", "back")}
         style={{
           border: "none",
           background: "none",

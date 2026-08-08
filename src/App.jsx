@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
 import { PlayerProvider, usePlayer } from "./data/PlayerContext";
+import { LanguageProvider } from "./data/LanguageContext";
 import { initBgmUnlock } from "./data/bgm";
 import Auth from "./screens/Auth";
 import Landing from "./screens/Landing";
@@ -88,8 +89,10 @@ export default function App() {
   }, []);
 
   return (
-    <PlayerProvider>
-      <AppRoutes />
-    </PlayerProvider>
+    <LanguageProvider>
+      <PlayerProvider>
+        <AppRoutes />
+      </PlayerProvider>
+    </LanguageProvider>
   );
 }

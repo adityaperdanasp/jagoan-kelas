@@ -8,7 +8,7 @@ import { loadTopicByKey } from "../data/contentLoader";
 import { recordTopicResult, starsFor } from "../data/progressService";
 import { pickEncouragement } from "../data/encouragement";
 import { usePlayer } from "../data/PlayerContext";
-import { SUBJECTS } from "../data/content";
+import { useT } from "../data/translations";
 
 const ROUND_SIZE = 8;
 const XP_PER_CORRECT = 10;
@@ -22,6 +22,7 @@ export default function TopicQuiz() {
   const { grade, subject, babKey } = useParams();
   const navigate = useNavigate();
   const { player, login } = usePlayer();
+  const { t, subjectName } = useT();
   const [topic, setTopic] = useState(null);
   const [questions, setQuestions] = useState(null);
   const [result, setResult] = useState(null);
@@ -71,17 +72,17 @@ export default function TopicQuiz() {
     <Shell>
       <PageDecor seed={"topic-" + subject + "-" + babKey} />
       <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flex: 1 }}>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title={topic?.title || "Topik"} subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/${subject}`)} title={topic?.title || t("common", "topic")} subtitle={`${t("common", "grade")} ${grade}`} />
 
       {!questions && !loadError && (
-        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Memuat soal...</div>
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>{t("quiz", "loadingQuestions")}</div>
       )}
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 12, padding: 24, textAlign: "center" }}>
-          <div style={{ color: "var(--ink-400)" }}>Gagal muat soal. Coba cek koneksi internet kamu, ya!</div>
+          <div style={{ color: "var(--ink-400)" }}>{t("quiz", "loadErrorQuestions")}</div>
           <Button variant="secondary" size="sm" onClick={() => setRetryTick((n) => n + 1)}>
-            Coba Lagi
+            {t("common", "retry")}
           </Button>
         </div>
       )}
@@ -90,8 +91,8 @@ export default function TopicQuiz() {
         <QuizRunner
           questions={questions}
           onFinish={handleFinish}
-          subjectName={SUBJECTS.find((s) => s.id === subject)?.name}
-          gradeLabel={`Kelas ${grade}`}
+          subjectName={subjectName(subject)}
+          gradeLabel={`${t("common", "grade")} ${grade}`}
           topicTitle={topic?.title}
         />
       )}
@@ -100,7 +101,7 @@ export default function TopicQuiz() {
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
           <div style={{ fontSize: 56 }}>{result.correct >= result.wrong ? "🎉" : "💪"}</div>
           <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem", color: "var(--ink-900)" }}>
-            {result.correct} / {result.correct + result.wrong} benar!
+            {t("quiz", "correctCount", { correct: result.correct, total: result.correct + result.wrong })}
           </div>
           <div style={{ fontSize: 28, letterSpacing: 4 }}>
             {[0, 1, 2].map((i) => (
@@ -108,16 +109,16 @@ export default function TopicQuiz() {
             ))}
           </div>
           <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-500)" }}>
-            {saving ? "Nyimpen progress..." : `+${result.xpEarned} XP`}
+            {saving ? t("quiz", "savingProgress") : `+${result.xpEarned} XP`}
           </div>
           <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-700)", maxWidth: 240 }}>
             {result.encouragement}
           </div>
           <Button variant="secondary" size="lg" onClick={handleRetry}>
-            Ulangi buat Naikin Bintang 🔁
+            {t("quiz", "retryForStars")}
           </Button>
           <Button variant="primary" size="lg" onClick={() => navigate(`/kelas/${grade}/${subject}`)}>
-            Kembali ke Topik
+            {t("quiz", "backToTopics")}
           </Button>
         </div>
       )}

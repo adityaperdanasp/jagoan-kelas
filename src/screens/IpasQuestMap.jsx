@@ -8,6 +8,7 @@ import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { DinoSvg } from "../games/drive/vehicleArt";
+import { useT } from "../data/translations";
 
 // LIVE (2026-08-08, awalnya MOCKUP v2 2026-08-07) -- user minta "plek2
 // ikutin SolarQuest" (port SEPRESISI mungkin, bukan reinterpretasi).
@@ -341,6 +342,7 @@ export default function IpasQuestMap() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t, subjectName } = useT();
   useBgmTrack(TRACK_BY_SUBJECT.ipas);
 
   const [topics, setTopics] = useState(null);
@@ -463,17 +465,17 @@ export default function IpasQuestMap() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="IPAS" subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title={subjectName("ipas")} subtitle={`${t("common", "grade")} ${grade}`} />
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24, textAlign: "center" }}>
-          <div style={{ color: "var(--ink-400)" }}>Gagal muat peta. Coba cek koneksi internet kamu, ya!</div>
+          <div style={{ color: "var(--ink-400)" }}>{t("map", "loadError")}</div>
         </div>
       )}
 
       {!loadError && (!topics || !layout) && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>
-          Menyiapin peta...
+          {t("map", "preparing")}
         </div>
       )}
 
@@ -699,7 +701,7 @@ export default function IpasQuestMap() {
                       marginBottom: 2,
                     }}
                   >
-                    Hai, ini Kiko! 👋
+                    {t("map", "hiKiko")} 👋
                   </span>
                 )}
               </button>

@@ -5,6 +5,7 @@ import BoBridgeBanner from "../components/BoBridgeBanner";
 import { loadRawTopics } from "../data/contentLoader";
 import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
+import { useT } from "../data/translations";
 
 // "Jejak Ceritamu" -- daftar bab Bahasa Indonesia, LAYAR TERPISAH dari
 // BindoStorybookTrail.jsx (2026-08-08, dipecah dari 1 halaman panjang
@@ -33,6 +34,7 @@ export default function BindoQuestMap() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t } = useT();
 
   const [topics, setTopics] = useState(null);
   const [loadError, setLoadError] = useState(false);
@@ -55,16 +57,16 @@ export default function BindoQuestMap() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/bindo`)} title="Jejak Ceritamu" subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}/bindo`)} title={t("bindo", "questTitle")} subtitle={`${t("common", "grade")} ${grade}`} />
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", padding: 24, textAlign: "center", color: "var(--ink-400)" }}>
-          Gagal muat bab. Coba cek koneksi internet kamu, ya!
+          {t("bindo", "loadErrorChapters")}
         </div>
       )}
 
       {!loadError && !topics && (
-        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Menyiapin bab...</div>
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>{t("bindo", "preparingChapters")}</div>
       )}
 
       {!loadError && topics && (
@@ -73,17 +75,17 @@ export default function BindoQuestMap() {
 
           <div style={{ position: "relative", padding: "6px 0" }}>
             <div style={{ position: "absolute", top: 0, bottom: 0, left: "50%", borderLeft: `4px dashed ${CARD_BORDER}`, transform: "translateX(-50%)", zIndex: 0 }} />
-            {topics.map((t, i) => {
-              const unlocked = t.status !== "locked";
+            {topics.map((topic, i) => {
+              const unlocked = topic.status !== "locked";
               const style = TOPIC_STYLE[i % TOPIC_STYLE.length];
               const justify = i % 2 === 0 ? "flex-start" : "flex-end";
               const iconSide = i % 2 === 0 ? "right" : "left";
               const iconRotate = (i % 3) * 12 - 12;
               const deco = CHAPTER_DECO[i % CHAPTER_DECO.length];
-              const stars = t.stars || 0;
+              const stars = topic.stars || 0;
               const starsDisplay = "★".repeat(stars) + "☆".repeat(3 - stars);
               return (
-                <div key={t.key} style={{ position: "relative", zIndex: 1, display: "flex", justifyContent: justify, marginBottom: 14 }}>
+                <div key={topic.key} style={{ position: "relative", zIndex: 1, display: "flex", justifyContent: justify, marginBottom: 14 }}>
                   <span
                     aria-hidden="true"
                     style={{
@@ -100,7 +102,7 @@ export default function BindoQuestMap() {
                   </span>
                   <button
                     disabled={!unlocked}
-                    onClick={() => unlocked && navigate(`/kelas/${grade}/bindo/topik/${t.key}`)}
+                    onClick={() => unlocked && navigate(`/kelas/${grade}/bindo/topik/${topic.key}`)}
                     style={{
                       border: `2px solid ${unlocked ? style.color : CARD_BORDER}`,
                       cursor: unlocked ? "pointer" : "not-allowed",
@@ -134,11 +136,11 @@ export default function BindoQuestMap() {
                     </div>
                     <div>
                       <div style={{ fontWeight: 600, fontSize: "0.84rem", color: INK, lineHeight: 1.25, marginBottom: 4 }}>
-                        Bab {i + 1}: {t.title}
+                        {t("bindo", "chapter", { n: i + 1 })}: {topic.title}
                       </div>
                       <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                         <span style={{ fontSize: "0.62rem", fontWeight: 800, padding: "2px 8px", borderRadius: 999, color: style.color, background: style.color + "22" }}>
-                          {t.status === "done" ? "Selesai" : t.status === "current" ? "Lanjut" : "Terkunci"}
+                          {topic.status === "done" ? t("common", "done") : topic.status === "current" ? t("common", "continueLabel") : t("common", "locked")}
                         </span>
                         <span style={{ fontSize: "0.75rem", letterSpacing: 1, color: style.color }}>{starsDisplay}</span>
                       </div>

@@ -9,6 +9,7 @@ import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
 import { PALETTES, SWATCH_COLORS, loadBindoTheme, saveBindoTheme } from "../data/bindoTheme";
+import { useT } from "../data/translations";
 
 // LIVE (2026-08-08) -- user minta "design dan visual serta ilustrasi
 // plek2 ikutin aja Language & Arts" (azkacraft) buat Bahasa Indonesia.
@@ -78,6 +79,7 @@ export default function BindoStorybookTrail() {
   const { grade } = useParams();
   const navigate = useNavigate();
   const { player } = usePlayer();
+  const { t, subjectName } = useT();
   useBgmTrack(TRACK_BY_SUBJECT.bindo);
 
   const [topics, setTopics] = useState(null);
@@ -130,16 +132,16 @@ export default function BindoStorybookTrail() {
 
   return (
     <Shell>
-      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title="Bahasa Indonesia" subtitle={`Kelas ${grade}`} />
+      <ScreenHeader onBack={() => navigate(`/kelas/${grade}`)} title={subjectName("bindo")} subtitle={`${t("common", "grade")} ${grade}`} />
 
       {loadError && (
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", padding: 24, textAlign: "center", color: "var(--ink-400)" }}>
-          Gagal muat peta. Coba cek koneksi internet kamu, ya!
+          {t("map", "loadError")}
         </div>
       )}
 
       {!loadError && !topics && (
-        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>Menyiapin peta...</div>
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ink-400)" }}>{t("map", "preparing")}</div>
       )}
 
       {!loadError && topics && (
@@ -207,7 +209,7 @@ export default function BindoStorybookTrail() {
                   animation: "jkBindoBubbleCycle 7s ease-in-out infinite",
                 }}
               >
-                Kiko disini
+                {t("landing", "kikoHere")}
               </span>
               <Kiko size={104} />
             </button>
@@ -229,7 +231,7 @@ export default function BindoStorybookTrail() {
               </h1>
             </div>
             <div style={{ textAlign: "center", fontSize: "0.85rem", color: INK_SOFT, margin: "12px 0 18px", fontWeight: 700 }}>
-              Petualangan Kata &amp; Cerita
+              {t("bindo", "tagline")}
             </div>
 
             <div style={{ position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 18 }}>
@@ -251,8 +253,8 @@ export default function BindoStorybookTrail() {
                 <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
                   📖
                 </span>
-                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: "#fff" }}>Solo Adventure</span>
-                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "rgba(255,255,255,.92)" }}>Main sendiri</span>
+                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: "#fff" }}>{t("bindo", "soloAdventure")}</span>
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "rgba(255,255,255,.92)" }}>{t("bindo", "soloSub")}</span>
               </button>
               <button
                 onClick={handleMultiplayerTap}
@@ -272,8 +274,8 @@ export default function BindoStorybookTrail() {
                 <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
                   🤝
                 </span>
-                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: INK }}>Multiplayer</span>
-                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "#5a4a30" }}>Lawan teman</span>
+                <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "1rem", color: INK }}>{t("bindo", "multiplayer")}</span>
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, textAlign: "center", color: "#5a4a30" }}>{t("bindo", "multiplayerSub")}</span>
               </button>
               {mpToast && (
                 <div
@@ -292,7 +294,7 @@ export default function BindoStorybookTrail() {
                     boxShadow: "0 4px 10px rgba(0,0,0,.18)",
                   }}
                 >
-                  Mode ini segera hadir! 🚧
+                  {t("bindo", "comingSoon")}
                 </div>
               )}
             </div>
@@ -317,14 +319,14 @@ export default function BindoStorybookTrail() {
               <div>
                 <div style={{ fontSize: 20 }}>🏅</div>
                 <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.72rem", color: INK, marginTop: 4 }}>
-                  {doneCount} Bab Selesai
+                  {t("bindo", "babDone", { n: doneCount })}
                 </div>
               </div>
               <div style={{ width: 2, height: 28, background: CARD_BORDER }} />
               <div>
                 <div style={{ fontSize: 20 }}>📖</div>
                 <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.72rem", color: INK, marginTop: 4 }}>
-                  {currentTopic ? currentTopic.title : "Selesai semua!"}
+                  {currentTopic ? currentTopic.title : t("bindo", "allDone")}
                 </div>
               </div>
             </div>
@@ -335,7 +337,7 @@ export default function BindoStorybookTrail() {
               </div>
               <div>
                 <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: pal.brand, textTransform: "uppercase", marginBottom: 2 }}>
-                  Kata Hari Ini
+                  {t("bindo", "wordOfDay")}
                 </div>
                 <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.95rem", color: INK }}>
                   {wordOfDay.word} <span style={{ fontSize: "0.75rem", fontWeight: 700, color: INK_SOFT }}>— {wordOfDay.meaning}</span>
@@ -348,7 +350,7 @@ export default function BindoStorybookTrail() {
               </div>
               <div>
                 <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: pal.brand, textTransform: "uppercase", marginBottom: 2 }}>
-                  Fakta Menarik
+                  {t("bindo", "funFact")}
                 </div>
                 <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.82rem", color: INK, lineHeight: 1.3 }}>{funFact}</div>
               </div>

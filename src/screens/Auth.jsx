@@ -9,10 +9,12 @@ import Input from "../components/ds/Input";
 import Button from "../components/ds/Button";
 import { usePlayer } from "../data/PlayerContext";
 import { signUp, signIn } from "../data/authService";
+import { useT } from "../data/translations";
 
 export default function Auth() {
   const navigate = useNavigate();
   const { login } = usePlayer();
+  const { t } = useT();
   const [mode, setMode] = useState("signup");
   const [name, setName] = useState("");
   const [pin, setPin] = useState("");
@@ -27,7 +29,7 @@ export default function Auth() {
       login(player);
       navigate("/");
     } catch (e) {
-      setError(e.message || "Ada yang salah, coba lagi.");
+      setError(e.message || t("auth", "errorDefault"));
     } finally {
       setLoading(false);
     }
@@ -46,17 +48,17 @@ export default function Auth() {
 
         <div style={{ textAlign: "center" }}>
           <div style={{ fontFamily: "var(--font-display)", fontSize: "1.875rem", fontWeight: 700, color: "var(--ink-900)" }}>
-            Selamat Datang!
+            {t("auth", "welcome")}
           </div>
           <div style={{ fontSize: "0.94rem", color: "var(--ink-400)", marginTop: 4 }}>
-            {mode === "signup" ? "Buat akun buat mulai belajar!" : "Masuk lagi yuk, isi nama & PIN kamu."}
+            {mode === "signup" ? t("auth", "taglineSignup") : t("auth", "taglineSignin")}
           </div>
         </div>
 
         <SegmentedToggle
           options={[
-            { value: "signup", label: "Daftar" },
-            { value: "signin", label: "Masuk" },
+            { value: "signup", label: t("auth", "register") },
+            { value: "signin", label: t("auth", "login") },
           ]}
           value={mode}
           onChange={(v) => {
@@ -66,9 +68,9 @@ export default function Auth() {
         />
 
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          <Input label="Nama kamu" placeholder="mis. Azka" value={name} onChange={(e) => setName(e.target.value)} />
+          <Input label={t("auth", "nameLabel")} placeholder={t("auth", "namePlaceholder")} value={name} onChange={(e) => setName(e.target.value)} />
           <Input
-            label="PIN 4 digit"
+            label={t("auth", "pinLabel")}
             pin
             placeholder="••••"
             value={pin}
@@ -77,7 +79,7 @@ export default function Auth() {
             error={error}
           />
           <Button variant="cta" size="lg" disabled={loading || !name || pin.length !== 4} onClick={handleSubmit}>
-            {loading ? "Tunggu bentar..." : mode === "signup" ? "Daftar & Main! 🚀" : "Masuk! 🚀"}
+            {loading ? t("auth", "submitting") : mode === "signup" ? t("auth", "registerCta") : t("auth", "loginCta")}
           </Button>
         </div>
       </div>
