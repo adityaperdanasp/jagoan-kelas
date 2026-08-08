@@ -17,7 +17,7 @@ export const GRADES = Array.from({ length: 6 }).map((_, i) => {
 // Diputuskan bareng user setelah nemu mismatch antara wireframe (7 card) dan
 // struktur kurikulum asli (IPA+IPS udah merger).
 export const SUBJECTS = [
-  { id: "matematika", name: "Matematika", sub: "Angka & hitung-hitungan", emoji: "🔢", accent: "math", rotate: -1 },
+  { id: "matematika", name: "Matematika", sub: "Angka & hitung-hitungan", emoji: "🔢", accent: "wood", rotate: -1 },
   { id: "ipas", name: "IPAS", sub: "Ilmu Pengetahuan Alam & Sosial", emoji: "🔬", accent: "science", rotate: 1 },
   { id: "ppkn", name: "PPKn", sub: "Pendidikan Pancasila", emoji: "🇮🇩", accent: "focus", rotate: -1 },
   { id: "pai", name: "Pendidikan Agama Islam", sub: "Belajar nilai & akhlak", emoji: "🕌", accent: "lang", rotate: 1 },
