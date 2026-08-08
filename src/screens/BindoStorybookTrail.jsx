@@ -8,6 +8,7 @@ import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
+import { PALETTES, SWATCH_COLORS, loadBindoTheme, saveBindoTheme } from "../data/bindoTheme";
 
 // LIVE (2026-08-08) -- user minta "design dan visual serta ilustrasi
 // plek2 ikutin aja Language & Arts" (azkacraft) buat Bahasa Indonesia.
@@ -58,19 +59,20 @@ import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
 // `/kelas/:grade/bindo/bab`), bukan scroll di tempat lagi -- file ini
 // jadi CUMA "layar depan" (hero+Kiko+mode-grid+trivia), daftar bab
 // timeline-nya pindah total ke file itu.
+//
+// Toggle warna Boy/Girl x 3 palet (2026-08-08) -- request eksplisit user
+// ("bisa bikin ada togle gonta ganti kombinasi warna juga? Samain kaya
+// di al idrisi, ambil reponya"). Definisi 6 kombinasi + persist
+// localStorage di `bindoTheme.js` (di-port PERSIS dari azkacraft's
+// `PALETTE_COLORS`/`THEME_KEY`), CUMA dipasang di layar ini (BUKAN
+// `BindoQuestMap.jsx` -- daftar bab warnanya dari `TOPIC_STYLE` fixed
+// per-kategori soal, independen dari brand/accent palette azkacraft
+// sendiri, jadi emang gak perlu ikut berubah).
 
-const BRAND = "#2F6FED";
-const BRAND_DARK = "#1E56C4";
-const ACCENT_1 = "#FFB35C";
-const ACCENT_1_DARK = "#E89A3F";
-const ACCENT_2 = "#FFD866";
-const ACCENT_3 = "#22B573";
-const ACCENT_3_DARK = "#158A54";
 const CARD_BORDER = "#F1E6D2";
 const PAPER = "#FFFBF2";
 const INK = "#4a3520";
 const INK_SOFT = "#8a7d6d";
-const SKY_GRADIENT = "linear-gradient(180deg,#BFE3FF 0%,#EAF6E9 100%)";
 
 export default function BindoStorybookTrail() {
   const { grade } = useParams();
@@ -82,10 +84,25 @@ export default function BindoStorybookTrail() {
   const [loadError, setLoadError] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [mpToast, setMpToast] = useState(false);
+  const [theme, setTheme] = useState(loadBindoTheme);
+  const pal = PALETTES[theme.gender][theme.palette];
 
   function handleMultiplayerTap() {
     setMpToast(true);
     setTimeout(() => setMpToast(false), 1800);
+  }
+
+  function setGender(gender) {
+    if (theme.gender === gender) return;
+    const next = { gender, palette: 0 };
+    setTheme(next);
+    saveBindoTheme(next);
+  }
+
+  function setPalette(i) {
+    const next = { ...theme, palette: i };
+    setTheme(next);
+    saveBindoTheme(next);
   }
 
   const wordOfDay = wordOfDayForToday();
@@ -128,8 +145,8 @@ export default function BindoStorybookTrail() {
       {!loadError && topics && (
         <div style={{ flex: 1, overflowY: "auto", background: PAPER }}>
           {/* ---- Hero scene (port dari .hero-scene) ---- */}
-          <div style={{ position: "relative", height: 210, background: SKY_GRADIENT, overflow: "hidden" }}>
-            <div style={{ position: "absolute", top: 22, left: 26, width: 56, height: 56, borderRadius: "50%", background: ACCENT_2, boxShadow: `0 0 30px ${ACCENT_2}` }} />
+          <div style={{ position: "relative", height: 210, background: pal.sky, overflow: "hidden" }}>
+            <div style={{ position: "absolute", top: 22, left: 26, width: 56, height: 56, borderRadius: "50%", background: pal.accent2, boxShadow: `0 0 30px ${pal.accent2}` }} />
             {[
               { top: 20, left: 120, size: 4, dur: 2.2 },
               { top: 60, left: 180, size: 3, dur: 2.8 },
@@ -152,8 +169,8 @@ export default function BindoStorybookTrail() {
                 }}
               />
             ))}
-            <div style={{ position: "absolute", bottom: -30, left: -20, width: 220, height: 120, borderRadius: "50%", background: ACCENT_3, opacity: 0.3 }} />
-            <div style={{ position: "absolute", bottom: -46, right: -40, width: 260, height: 140, borderRadius: "50%", background: BRAND, opacity: 0.18 }} />
+            <div style={{ position: "absolute", bottom: -30, left: -20, width: 220, height: 120, borderRadius: "50%", background: pal.accent3, opacity: 0.3 }} />
+            <div style={{ position: "absolute", bottom: -46, right: -40, width: 260, height: 140, borderRadius: "50%", background: pal.brand, opacity: 0.18 }} />
 
             <button
               onClick={() => setChatOpen(true)}
@@ -200,10 +217,10 @@ export default function BindoStorybookTrail() {
           <div style={{ padding: "0 22px 20px", marginTop: -6, position: "relative", zIndex: 3 }}>
             <div
               style={{
-                background: BRAND,
+                background: pal.brand,
                 borderRadius: 16,
                 padding: "14px 10px 10px",
-                boxShadow: `0 6px 0 ${BRAND_DARK}, 0 10px 20px rgba(0,0,0,.15)`,
+                boxShadow: `0 6px 0 ${pal.brandDark}, 0 10px 20px rgba(0,0,0,.15)`,
                 textAlign: "center",
               }}
             >
@@ -227,8 +244,8 @@ export default function BindoStorybookTrail() {
                   flexDirection: "column",
                   alignItems: "center",
                   gap: 8,
-                  background: ACCENT_3,
-                  boxShadow: `0 8px 0 ${ACCENT_3_DARK}`,
+                  background: pal.accent3,
+                  boxShadow: `0 8px 0 ${pal.accent3Dark}`,
                 }}
               >
                 <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
@@ -248,8 +265,8 @@ export default function BindoStorybookTrail() {
                   flexDirection: "column",
                   alignItems: "center",
                   gap: 8,
-                  background: ACCENT_1,
-                  boxShadow: `0 8px 0 ${ACCENT_1_DARK}`,
+                  background: pal.accent1,
+                  boxShadow: `0 8px 0 ${pal.accent1Dark}`,
                 }}
               >
                 <span style={{ width: 50, height: 50, borderRadius: "50%", background: "rgba(255,255,255,.28)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>
@@ -313,11 +330,11 @@ export default function BindoStorybookTrail() {
             </div>
 
             <div style={{ marginTop: 16, background: PAPER, border: `2px solid ${CARD_BORDER}`, borderRadius: 18, padding: 14, display: "flex", alignItems: "center", gap: 12 }}>
-              <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: ACCENT_1, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
+              <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: pal.accent1, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
                 💡
               </div>
               <div>
-                <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: BRAND, textTransform: "uppercase", marginBottom: 2 }}>
+                <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: pal.brand, textTransform: "uppercase", marginBottom: 2 }}>
                   Kata Hari Ini
                 </div>
                 <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.95rem", color: INK }}>
@@ -326,14 +343,72 @@ export default function BindoStorybookTrail() {
               </div>
             </div>
             <div style={{ marginTop: 10, background: PAPER, border: `2px solid ${CARD_BORDER}`, borderRadius: 18, padding: 14, display: "flex", alignItems: "center", gap: 12 }}>
-              <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: ACCENT_3, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
+              <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: pal.accent3, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
                 🌊
               </div>
               <div>
-                <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: BRAND, textTransform: "uppercase", marginBottom: 2 }}>
+                <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: pal.brand, textTransform: "uppercase", marginBottom: 2 }}>
                   Fakta Menarik
                 </div>
                 <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.82rem", color: INK, lineHeight: 1.3 }}>{funFact}</div>
+              </div>
+            </div>
+
+            <div style={{ marginTop: 13, display: "flex", flexWrap: "wrap", alignItems: "center", gap: 14 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 3, background: "#ffffffd0", padding: 3, borderRadius: 999, boxShadow: "0 4px 14px rgba(0,0,0,.08)", width: "fit-content" }}>
+                {[
+                  { key: "boy", label: "Boys", dot: "#2F6FED" },
+                  { key: "girl", label: "Girls", dot: "#FF6F91" },
+                ].map((g) => {
+                  const active = theme.gender === g.key;
+                  return (
+                    <button
+                      key={g.key}
+                      onClick={() => setGender(g.key)}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 4,
+                        border: "none",
+                        cursor: "pointer",
+                        padding: "5px 10px",
+                        borderRadius: 999,
+                        fontFamily: "var(--font-body)",
+                        fontWeight: 700,
+                        fontSize: "0.68rem",
+                        background: active ? g.dot : "transparent",
+                        color: active ? "#fff" : "#7a6f63",
+                      }}
+                    >
+                      <span style={{ width: 7, height: 7, borderRadius: "50%", background: g.dot, display: "inline-block" }} />
+                      {g.label}
+                    </button>
+                  );
+                })}
+              </div>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
+                {SWATCH_COLORS[theme.gender].map((colors, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setPalette(i)}
+                    aria-label={PALETTES[theme.gender][i].name}
+                    title={PALETTES[theme.gender][i].name}
+                    style={{
+                      border: `2px solid ${theme.palette === i ? pal.brand : "transparent"}`,
+                      cursor: "pointer",
+                      background: "#fff",
+                      padding: 4,
+                      borderRadius: 12,
+                      boxShadow: "0 2px 6px rgba(0,0,0,.08)",
+                    }}
+                  >
+                    <div style={{ display: "flex", width: 38, height: 20, borderRadius: 8, overflow: "hidden" }}>
+                      {colors.map((c, j) => (
+                        <span key={j} style={{ flex: 1, background: c }} />
+                      ))}
+                    </div>
+                  </button>
+                ))}
               </div>
             </div>
           </div>
