@@ -9,7 +9,6 @@ import { hasContent, loadRawTopics, statusDisplay } from "../data/contentLoader"
 import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
-import BoBridgeBanner from "../components/BoBridgeBanner";
 import PageDecor from "../components/PageDecor";
 
 export default function SubjectDetail() {
@@ -134,9 +133,6 @@ export default function SubjectDetail() {
         )}
       </div>
 
-      <div style={{ padding: "0 18px 22px", display: "flex", flexDirection: "column", gap: 10 }}>
-        {subject === "binggris" && <BoBridgeBanner grade={grade} subject={subject} />}
-      </div>
       </div>
     </Shell>
   );

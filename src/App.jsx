@@ -19,6 +19,7 @@ import IpasQuestMap from "./screens/IpasQuestMap";
 import MathTownMap from "./screens/MathTownMap";
 import BindoStorybookTrail from "./screens/BindoStorybookTrail";
 import BindoQuestMap from "./screens/BindoQuestMap";
+import BinggrisWorldMap from "./screens/BinggrisWorldMap";
 import NinjaRunner from "./games/ninja/NinjaRunner";
 
 function RequireAuth({ children }) {
@@ -49,6 +50,11 @@ function AppRoutes() {
           2026-08-08, awalnya mockup preview-only) -- pola sama kayak
           bindo/ipas di atas. */}
       <Route path="/kelas/:grade/matematika" element={<RequireAuth><MathTownMap /></RequireAuth>} />
+      {/* Bahasa Inggris punya halaman sendiri ("Kiko's World Tour",
+          2026-08-08, konsep ORISINIL -- bukan porting al-idrisi, sumber
+          referensinya udah abis kepake) -- pola sama kayak bindo/ipas/
+          matematika di atas. */}
+      <Route path="/kelas/:grade/binggris" element={<RequireAuth><BinggrisWorldMap /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject" element={<RequireAuth><SubjectDetail /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/topik/:babKey" element={<RequireAuth><TopicQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/matematika/drive" element={<RequireAuth><DriveMode /></RequireAuth>} />
