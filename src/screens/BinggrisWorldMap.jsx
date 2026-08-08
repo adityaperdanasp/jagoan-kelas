@@ -7,7 +7,6 @@ import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
-import BoBridgeBanner from "../components/BoBridgeBanner";
 
 // LIVE (2026-08-08) -- konsep ORISINIL "Kiko's World Tour", BUKAN porting
 // dari al-idrisi-games (semua desain BrainBox yang relevan udah kepake:
@@ -479,10 +478,6 @@ export default function BinggrisWorldMap() {
           </div>
         </div>
       )}
-
-      <div style={{ padding: "10px 18px 18px" }}>
-        <BoBridgeBanner grade={grade} subject="binggris" />
-      </div>
 
       <KikoChatPanel open={chatOpen} onClose={() => setChatOpen(false)} mode="general" resetKey={`binggris-map-${grade}`} />
 
