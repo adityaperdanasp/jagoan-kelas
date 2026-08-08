@@ -8,6 +8,7 @@ import OverlayCard from "../components/ds/OverlayCard";
 import Kiko from "../components/ds/Kiko";
 import WalkingDino from "../components/WalkingDino";
 import LandingDecor from "../components/LandingDecor";
+import KikoGreeting from "../components/KikoGreeting";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { GRADES } from "../data/content";
 import { usePlayer } from "../data/PlayerContext";
@@ -241,6 +242,8 @@ export default function Landing() {
         <div style={{ flex: 1, minHeight: 8 }} />
 
         <WalkingDino />
+
+        <KikoGreeting name={player.name} onTap={() => setChatOpen(true)} />
 
         <Link
           to="/parents"
