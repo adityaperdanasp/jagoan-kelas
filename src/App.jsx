@@ -24,6 +24,7 @@ import BinggrisWorldMap from "./screens/BinggrisWorldMap";
 import PpknVillageMap from "./screens/PpknVillageMap";
 import PaiGardenPath from "./screens/PaiGardenPath";
 import NinjaRunner from "./games/ninja/NinjaRunner";
+import WordScramble from "./games/scramble/WordScramble";
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -75,6 +76,10 @@ function AppRoutes() {
       <Route path="/kelas/:grade/mathrace" element={<RequireAuth><MathRace /></RequireAuth>} />
       <Route path="/rahasia/dinorace" element={<RequireAuth><DinoRaceUnlock /></RequireAuth>} />
       <Route path="/kelas/:grade/:subject/bobridge" element={<RequireAuth><GlassBridge /></RequireAuth>} />
+      {/* "Susun Kata" (2026-08-09) -- mini-game shared Bindo & Binggris,
+          1 komponen generic (route dinamis kayak /bobridge di atas, subject
+          dibaca dari param), gantiin harus bikin 2 komponen/route beda. */}
+      <Route path="/kelas/:grade/:subject/susun-kata" element={<RequireAuth><WordScramble /></RequireAuth>} />
       <Route path="/parents" element={<ParentPortal />} />
       <Route path="/kelas/:grade/fokus" element={<RequireAuth><FocusRoundPicker /></RequireAuth>} />
       <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />

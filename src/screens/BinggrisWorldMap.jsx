@@ -8,6 +8,7 @@ import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
 import Kiko from "../components/ds/Kiko";
 import { KikoChatPanel } from "../games/quiz/KikoTutorChat";
 import { useT } from "../data/translations";
+import { phraseForIndex } from "../data/binggrisPhrases";
 
 // LIVE (2026-08-08) -- konsep ORISINIL "Kiko's World Tour", BUKAN porting
 // dari al-idrisi-games (semua desain BrainBox yang relevan udah kepake:
@@ -480,6 +481,64 @@ export default function BinggrisWorldMap() {
           </div>
         </div>
       )}
+
+      {topics && (
+        <div style={{ padding: "10px 18px 0" }}>
+          <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.72rem", color: NAVY, marginBottom: 8 }}>
+            {t("binggris", "collection")}
+          </div>
+          <div style={{ display: "flex", gap: 10, overflowX: "auto", paddingBottom: 4 }}>
+            {topics.map((topic, i) => {
+              const done = topic.status === "done";
+              const p = phraseForIndex(i);
+              return (
+                <div
+                  key={topic.key}
+                  style={{
+                    flex: "none",
+                    width: 150,
+                    borderRadius: 14,
+                    padding: "10px 12px",
+                    background: done ? "#fff" : CREAM,
+                    border: `1.5px solid ${done ? GOLD : BORDER}`,
+                    opacity: done ? 1 : 0.6,
+                  }}
+                >
+                  {done ? (
+                    <>
+                      <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.72rem", color: INK }}>{p.phrase}</div>
+                      <div style={{ fontFamily: "var(--font-body)", fontSize: "0.66rem", color: INK_SOFT, marginTop: 2 }}>{p.meaning}</div>
+                    </>
+                  ) : (
+                    <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.68rem", color: INK_SOFT, textAlign: "center" }}>
+                      🔒<br />{t("binggris", "locked")}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      <div style={{ padding: "10px 18px 18px" }}>
+        <button
+          onClick={() => navigate(`/kelas/${grade}/binggris/susun-kata`)}
+          style={{
+            width: "100%",
+            border: "none",
+            cursor: "pointer",
+            borderRadius: 16,
+            padding: "12px 16px",
+            background: NAVY,
+            boxShadow: `0 6px 0 ${NAVY_DARK}`,
+            textAlign: "left",
+          }}
+        >
+          <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.85rem", color: "#fff" }}>{t("scramble", "entryCta")}</div>
+          <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.68rem", color: "rgba(255,255,255,.85)", marginTop: 2 }}>{t("scramble", "entrySubBinggris")}</div>
+        </button>
+      </div>
 
       <KikoChatPanel open={chatOpen} onClose={() => setChatOpen(false)} mode="general" resetKey={`binggris-map-${grade}`} />
 

@@ -7,9 +7,10 @@ import { loadRawTopics } from "../data/contentLoader";
 import { getSubjectProgress, computeStatuses } from "../data/progressService";
 import { usePlayer } from "../data/PlayerContext";
 import { TRACK_BY_SUBJECT, useBgmTrack } from "../data/bgm";
-import { wordOfDayForToday, funFactForToday } from "../data/bindoTrivia";
+import { wordOfDayForToday, funFactForToday, WORD_OF_DAY } from "../data/bindoTrivia";
 import { PALETTES, SWATCH_COLORS, loadBindoTheme, saveBindoTheme } from "../data/bindoTheme";
 import { useT } from "../data/translations";
+import { pickEncouragement } from "../data/encouragement";
 
 // LIVE (2026-08-08) -- user minta "design dan visual serta ilustrasi
 // plek2 ikutin aja Language & Arts" (azkacraft) buat Bahasa Indonesia.
@@ -88,6 +89,7 @@ export default function BindoStorybookTrail() {
   const [mpToast, setMpToast] = useState(false);
   const [theme, setTheme] = useState(loadBindoTheme);
   const pal = PALETTES[theme.gender][theme.palette];
+  const [guessOpen, setGuessOpen] = useState(false);
 
   function handleMultiplayerTap() {
     setMpToast(true);
@@ -331,11 +333,26 @@ export default function BindoStorybookTrail() {
               </div>
             </div>
 
-            <div style={{ marginTop: 16, background: PAPER, border: `2px solid ${CARD_BORDER}`, borderRadius: 18, padding: 14, display: "flex", alignItems: "center", gap: 12 }}>
+            <button
+              onClick={() => setGuessOpen(true)}
+              style={{
+                marginTop: 16,
+                width: "100%",
+                textAlign: "left",
+                cursor: "pointer",
+                background: PAPER,
+                border: `2px solid ${CARD_BORDER}`,
+                borderRadius: 18,
+                padding: 14,
+                display: "flex",
+                alignItems: "center",
+                gap: 12,
+              }}
+            >
               <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: pal.accent1, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
                 💡
               </div>
-              <div>
+              <div style={{ flex: 1 }}>
                 <div style={{ fontSize: "0.62rem", fontWeight: 800, letterSpacing: "0.04em", color: pal.brand, textTransform: "uppercase", marginBottom: 2 }}>
                   {t("bindo", "wordOfDay")}
                 </div>
@@ -343,7 +360,8 @@ export default function BindoStorybookTrail() {
                   {wordOfDay.word} <span style={{ fontSize: "0.75rem", fontWeight: 700, color: INK_SOFT }}>— {wordOfDay.meaning}</span>
                 </div>
               </div>
-            </div>
+              <span style={{ fontSize: "0.62rem", fontWeight: 800, color: pal.brand, whiteSpace: "nowrap" }}>{t("bindo", "guessCta")}</span>
+            </button>
             <div style={{ marginTop: 10, background: PAPER, border: `2px solid ${CARD_BORDER}`, borderRadius: 18, padding: 14, display: "flex", alignItems: "center", gap: 12 }}>
               <div style={{ flex: "none", width: 42, height: 42, borderRadius: 12, background: pal.accent3, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>
                 🌊
@@ -355,6 +373,24 @@ export default function BindoStorybookTrail() {
                 <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.82rem", color: INK, lineHeight: 1.3 }}>{funFact}</div>
               </div>
             </div>
+
+            <button
+              onClick={() => navigate(`/kelas/${grade}/bindo/susun-kata`)}
+              style={{
+                marginTop: 10,
+                width: "100%",
+                border: "none",
+                cursor: "pointer",
+                borderRadius: 16,
+                padding: "12px 16px",
+                background: pal.brand,
+                boxShadow: `0 6px 0 ${pal.brandDark}`,
+                textAlign: "left",
+              }}
+            >
+              <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.85rem", color: "#fff" }}>{t("scramble", "entryCta")}</div>
+              <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.68rem", color: "rgba(255,255,255,.85)", marginTop: 2 }}>{t("scramble", "entrySubBindo")}</div>
+            </button>
 
             <div style={{ marginTop: 13, display: "flex", flexWrap: "wrap", alignItems: "center", gap: 14 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 3, background: "#ffffffd0", padding: 3, borderRadius: 999, boxShadow: "0 4px 14px rgba(0,0,0,.08)", width: "fit-content" }}>
@@ -419,6 +455,8 @@ export default function BindoStorybookTrail() {
 
       <KikoChatPanel open={chatOpen} onClose={() => setChatOpen(false)} mode="general" resetKey={`bindo-map-${grade}`} />
 
+      {guessOpen && <GuessWordModal pal={pal} onClose={() => setGuessOpen(false)} />}
+
       <style>{`
         @keyframes jkBindoTwinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.9; } }
         @keyframes jkBindoKikoWalk {
@@ -441,5 +479,162 @@ export default function BindoStorybookTrail() {
         }
       `}</style>
     </Shell>
+  );
+}
+
+const GUESS_ROUNDS = 4;
+
+function buildGuessRounds() {
+  const shuffledPool = [...WORD_OF_DAY].sort(() => Math.random() - 0.5).slice(0, GUESS_ROUNDS);
+  return shuffledPool.map((entry) => {
+    const distractors = WORD_OF_DAY.filter((w) => w.word !== entry.word)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3);
+    const options = [entry.word, ...distractors.map((d) => d.word)].sort(() => Math.random() - 0.5);
+    return { ...entry, options };
+  });
+}
+
+// "Tebak Kata" (2026-08-09) -- ngubah kartu "Kata Hari Ini" yang tadinya
+// cuma info pasif jadi mini-quiz tap-able, reuse pool `WORD_OF_DAY` yang
+// udah ada (30 entri) -- gak nambah data baru, cukup di-acak jadi soal.
+function GuessWordModal({ pal, onClose }) {
+  const { t } = useT();
+  const [rounds] = useState(buildGuessRounds);
+  const [roundIndex, setRoundIndex] = useState(0);
+  const [picked, setPicked] = useState(null);
+  const [correctCount, setCorrectCount] = useState(0);
+  const [finished, setFinished] = useState(false);
+  const [encouragement, setEncouragement] = useState("");
+
+  const round = rounds[roundIndex];
+
+  function pick(word) {
+    if (picked) return;
+    setPicked(word);
+    if (word === round.word) setCorrectCount((c) => c + 1);
+  }
+
+  function next() {
+    if (roundIndex + 1 >= GUESS_ROUNDS) {
+      setEncouragement(pickEncouragement(correctCount / GUESS_ROUNDS));
+      setFinished(true);
+      return;
+    }
+    setRoundIndex((i) => i + 1);
+    setPicked(null);
+  }
+
+  return (
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        background: "rgba(58,42,32,0.45)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 20,
+        zIndex: 20,
+      }}
+    >
+      <div style={{ background: "#fff", borderRadius: 20, padding: "20px 18px", maxWidth: 360, width: "100%", boxShadow: "0 8px 24px rgba(58,42,32,0.3)" }}>
+        {!finished ? (
+          <>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.78rem", color: pal.brand, marginBottom: 6 }}>
+              💡 {t("bindo", "guessTitle")}
+            </div>
+            <div style={{ fontFamily: "var(--font-body)", fontSize: "0.7rem", color: INK_SOFT, marginBottom: 8 }}>
+              {t("bindo", "guessRound", { i: roundIndex + 1, n: GUESS_ROUNDS })}
+            </div>
+            <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.9rem", color: INK, lineHeight: 1.4, marginBottom: 14 }}>
+              {t("bindo", "guessPrompt")} "{round.meaning}"
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {round.options.map((opt) => {
+                const isCorrect = opt === round.word;
+                let bg = CARD_BORDER;
+                let border = CARD_BORDER;
+                if (picked) {
+                  if (isCorrect) {
+                    bg = "var(--pastel-green)";
+                    border = "var(--color-success)";
+                  } else if (opt === picked) {
+                    bg = "var(--pastel-pink)";
+                    border = "var(--color-error)";
+                  }
+                }
+                return (
+                  <button
+                    key={opt}
+                    disabled={!!picked}
+                    onClick={() => pick(opt)}
+                    style={{
+                      textAlign: "left",
+                      padding: "10px 12px",
+                      borderRadius: 12,
+                      border: `1.5px solid ${picked ? border : CARD_BORDER}`,
+                      background: picked ? bg : PAPER,
+                      fontFamily: "var(--font-body)",
+                      fontWeight: 700,
+                      fontSize: "0.8rem",
+                      color: INK,
+                      cursor: picked ? "default" : "pointer",
+                    }}
+                  >
+                    {opt}
+                  </button>
+                );
+              })}
+            </div>
+            {picked && (
+              <button
+                onClick={next}
+                style={{
+                  marginTop: 14,
+                  width: "100%",
+                  padding: "11px 12px",
+                  borderRadius: 999,
+                  border: "none",
+                  background: pal.brand,
+                  color: "#fff",
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 800,
+                  fontSize: "0.82rem",
+                  cursor: "pointer",
+                }}
+              >
+                {roundIndex + 1 >= GUESS_ROUNDS ? t("scramble", "finish") : t("scramble", "nextRound")}
+              </button>
+            )}
+          </>
+        ) : (
+          <div style={{ textAlign: "center" }}>
+            <div style={{ fontSize: 44, marginBottom: 8 }}>{correctCount >= GUESS_ROUNDS - 1 ? "🎉" : "💪"}</div>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1rem", color: INK, marginBottom: 8 }}>
+              {t("quiz", "correctCount", { correct: correctCount, total: GUESS_ROUNDS })}
+            </div>
+            <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: INK_SOFT, marginBottom: 16 }}>{encouragement}</div>
+            <button
+              onClick={onClose}
+              style={{
+                width: "100%",
+                padding: "11px 12px",
+                borderRadius: 999,
+                border: "none",
+                background: pal.brand,
+                color: "#fff",
+                fontFamily: "var(--font-display)",
+                fontWeight: 800,
+                fontSize: "0.82rem",
+                cursor: "pointer",
+              }}
+            >
+              {t("common", "back")}
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
