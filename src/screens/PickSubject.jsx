@@ -5,6 +5,26 @@ import RoamingCarDino from "../components/RoamingCarDino";
 import PageDecor from "../components/PageDecor";
 import { SUBJECTS } from "../data/content";
 import { useT } from "../data/translations";
+import {
+  MathRaceIcon,
+  MathNumbersIcon,
+  ScienceIcon,
+  CivicsFlagIcon,
+  MosqueIcon,
+  BookIcon,
+  EnglishBubbleIcon,
+  FocusTargetIcon,
+  NinjaStarIcon,
+} from "../components/ds/SubjectIcons";
+
+const SUBJECT_ICONS = {
+  matematika: MathNumbersIcon,
+  ipas: ScienceIcon,
+  ppkn: CivicsFlagIcon,
+  pai: MosqueIcon,
+  bindo: BookIcon,
+  binggris: EnglishBubbleIcon,
+};
 
 export default function PickSubject() {
   const navigate = useNavigate();
@@ -19,32 +39,35 @@ export default function PickSubject() {
         <RoamingCarDino grade={grade} />
         <GameCard
           accent="race"
-          icon="🏁"
+          icon={<MathRaceIcon />}
           title={t("pickSubject", "mathRaceTitle")}
           subtitle={t("pickSubject", "mathRaceSub")}
           onClick={() => navigate(`/kelas/${grade}/mathrace`)}
         />
-        {SUBJECTS.map((s) => (
-          <GameCard
-            key={s.id}
-            accent={s.accent}
-            icon={s.emoji}
-            title={subjectName(s.id)}
-            subtitle={subjectSub(s.id)}
-            rotate={s.rotate}
-            onClick={() => navigate(`/kelas/${grade}/${s.id}`)}
-          />
-        ))}
+        {SUBJECTS.map((s) => {
+          const Icon = SUBJECT_ICONS[s.id];
+          return (
+            <GameCard
+              key={s.id}
+              accent={s.accent}
+              icon={Icon ? <Icon /> : s.emoji}
+              title={subjectName(s.id)}
+              subtitle={subjectSub(s.id)}
+              rotate={s.rotate}
+              onClick={() => navigate(`/kelas/${grade}/${s.id}`)}
+            />
+          );
+        })}
         <GameCard
           accent="focus"
-          icon="🎯"
+          icon={<FocusTargetIcon />}
           title={t("pickSubject", "focusTitle")}
           subtitle={t("pickSubject", "focusSub")}
           onClick={() => navigate(`/kelas/${grade}/fokus`)}
         />
         <GameCard
           accent="mint"
-          icon="🥷"
+          icon={<NinjaStarIcon />}
           title={t("pickSubject", "ninjaTitle")}
           subtitle={t("pickSubject", "ninjaSub")}
           onClick={() => navigate(`/kelas/${grade}/ninja`)}
