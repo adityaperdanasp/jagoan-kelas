@@ -46,6 +46,14 @@ export const TRACK_HUB = DEFAULT_SRC;
 // dipake `TRACK_BY_SUBJECT.ppkn`, di luar scope perbaikan ini).
 export const TRACK_DRIVE = "/audio/bgm/matematika.mp3";
 export const TRACK_PLANE = "/audio/bgm/plane.mp3";
+// Math Race gak punya BGM sama sekali sebelumnya (2026-08-09, user lapor
+// bug) -- dicek dulu via md5 sebelum nyalin file baru: `multipleazka/
+// audio/bgm/bgm.mp3` (track BGM al-idrisi punya Math Race sendiri) itu
+// byte-identik sama `plane.mp3` yang UDAH ADA di repo ini (`59c758142e...`,
+// sama juga kayak `drive.mp3` -- lihat komentar TRACK_DRIVE di atas soal
+// history duplikat itu). Jadi cukup REUSE `plane.mp3`, gak perlu nambah
+// file audio baru.
+export const TRACK_MATHRACE = "/audio/bgm/plane.mp3";
 
 const track = new Audio(DEFAULT_SRC);
 track.loop = true;

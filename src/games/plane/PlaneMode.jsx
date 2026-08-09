@@ -181,8 +181,14 @@ export default function PlaneMode() {
     if (g.wingmen.length) return;
     [-11, 11].forEach((offsetX) => {
       const el = document.createElement("div");
-      el.textContent = "🛩️";
-      el.style.cssText = "position:absolute;font-size:15px;transform:translate(-50%,-50%);opacity:.92;";
+      // Bug 2026-08-09: emoji "🛩️" ORIENTASINYA GAK KONSISTEN antar
+      // platform (kayak masalah 🚀 yang udah di-fix buat pesawat utama --
+      // lihat planeArt.jsx), jadi wingmen keliatan "kebalik" sementara
+      // pesawat utama udah bener nose-up. Fix sama: SVG mini digambar
+      // nose-up dari awal (bukan emoji), gak pernah di-rotate -- konsisten
+      // sama pesawat utama yang juga gak pernah di-rotate.
+      el.innerHTML = '<svg viewBox="0 0 20 24" width="15" height="18"><path d="M10 1 L14 14 L10 11 L6 14 Z" fill="#BFD9F5" stroke="#4A7FC7" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+      el.style.cssText = "position:absolute;transform:translate(-50%,-50%);opacity:.92;line-height:0;";
       worldRef.current.appendChild(el);
       g.wingmen.push({ el, offsetX, lastFireAt: performance.now() });
     });

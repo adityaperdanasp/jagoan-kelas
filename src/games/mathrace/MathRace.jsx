@@ -7,6 +7,8 @@ import PageDecor from "../../components/PageDecor";
 import { rtdb } from "../../firebase";
 import { usePlayer } from "../../data/PlayerContext";
 import { generateQuickQuestion } from "../shared/quickQuestion";
+import { TRACK_MATHRACE, useBgmTrack } from "../../data/bgm";
+import { pickEncouragement } from "../../data/encouragement";
 
 // Math Race -- multiplayer 2-3 pemain, di-desain berdasarkan deskripsi
 // al-idrisi-games CLAUDE.md ("Racing kuis matematika, multiplayer 2-3
@@ -38,6 +40,7 @@ export default function MathRace() {
   const navigate = useNavigate();
   const { grade } = useParams();
   const { player } = usePlayer();
+  useBgmTrack(TRACK_MATHRACE);
 
   const [mode, setMode] = useState("lobby"); // lobby | waiting | solo | racing | finished
   const [maxPlayers, setMaxPlayers] = useState(2);
@@ -55,6 +58,7 @@ export default function MathRace() {
   const [place, setPlace] = useState(null);
   const [startTime, setStartTime] = useState(null);
   const [finishMs, setFinishMs] = useState(null);
+  const [encouragement, setEncouragement] = useState("");
 
   const roomPathRef = useRef(null);
 
@@ -189,14 +193,20 @@ export default function MathRace() {
 
   async function finishRace() {
     setFinishMs(Date.now() - (startTime || Date.now()));
+    let myPlace = 1;
     if (code) {
       const result = await runTransaction(ref(rtdb, `mathrace_games/${code}/finishCount`), (cur) => (cur || 0) + 1);
-      const myPlace = result.snapshot.val();
+      myPlace = result.snapshot.val();
       setPlace(myPlace);
       await update(ref(rtdb, `mathrace_games/${code}/players/${role}`), { finished: true, place: myPlace });
     } else {
       setPlace(1);
     }
+    // Reuse pesan semangat non-personalized yang udah ada (`encouragement.js`,
+    // dipake juga di TopicQuiz/FocusRoundQuiz) -- gak ada skor akurasi di
+    // Math Race, jadi tier-nya di-derive dari posisi finis: juara 1/solo =
+    // tier HIGH, juara 2 = MID, sisanya = LOW (tetep positif, bukan nge-judge).
+    setEncouragement(pickEncouragement(myPlace === 1 ? 1 : myPlace === 2 ? 0.6 : 0.3));
     setMode("finished");
   }
 
@@ -368,6 +378,9 @@ export default function MathRace() {
           {finishMs && (
             <div style={{ color: "var(--ink-500)" }}>Waktu: {(finishMs / 1000).toFixed(1)} detik</div>
           )}
+          {encouragement && (
+            <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-700)", maxWidth: 240 }}>{encouragement}</div>
+          )}
           <Button variant="primary" size="lg" style={{ width: "100%", justifyContent: "center" }} onClick={restart}>
             Main Lagi
           </Button>
@@ -387,7 +400,11 @@ function RaceLane({ avatar, name, progress }) {
       <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.72rem", color: "var(--ink-500)", marginBottom: 2 }}>{name}</div>
       <div style={{ position: "relative", height: 26, borderRadius: 13, background: "var(--cream-100)", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, right: `${100 - progress}%`, background: "var(--pastel-green)", transition: "right 0.3s ease" }} />
-        <div style={{ position: "absolute", left: `calc(${progress}% - 12px)`, top: "50%", transform: "translateY(-50%)", fontSize: "1.1rem", transition: "left 0.3s ease" }}>
+        {/* Mobil emoji ngadep KIRI secara default (kayak font emoji lain),
+            tapi track-nya jalan kiri->kanan (`left` naik) -- scaleX(-1)
+            biar keliatan ngadep arah jalannya, bukan mundur. Pola sama
+            kayak fix Dino Bridge walker (`BoBridgeBanner.jsx`). */}
+        <div style={{ position: "absolute", left: `calc(${progress}% - 12px)`, top: "50%", transform: "translateY(-50%) scaleX(-1)", fontSize: "1.1rem", transition: "left 0.3s ease" }}>
           {avatar}
         </div>
       </div>

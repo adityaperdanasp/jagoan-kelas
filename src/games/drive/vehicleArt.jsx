@@ -122,22 +122,21 @@ export function VehicleSkinSvg({ skinId, size = 23, glow }) {
 // `jk-dino-walking` di elemen PEMBUNGKUS (bukan svg ini sendiri) -- lihat
 // keyframes `jk-dino-leg-swing` di tokens.css.
 //
-// GAMBAR ULANG (2026-08-07) -- versi lama (SAMA PERSIS kayak al-idrisi
-// `#drive-dino` di index.html) punya 1 lingkaran kepala + 1 titik merah
-// DI TENGAH (posisi "mata" nyatu jadi satu, kayak wajah ngadep depan)
-// plus overlay biru transparan mirip kaca depan mobil -- di statis
-// keliatan oke, tapi user lapor "masih miring, belum tampak atas" karena
-// bahasa visualnya beda dari mobil (yang jelas top-down: 4 roda di
-// pojok + kaca depan kotak tengah). Fix: desain ulang biar SAMA JELAS
-// top-down kayak mobil -- 2 titik mata di SISI KIRI/KANAN kepala (bukan
-// 1 titik tengah, karena mata beneran ada di samping kepala kalau
-// dilihat dari atas), duri punggung (dorsal spike) di garis tengah
-// badan (petunjuk visual umum buat "ini dilihat dari atas"), dan 4 kaki
-// (2 pasang, depan+belakang) nempel di SAMPING badan alih-alih 2 kaki
-// doang. `jk-dino-leg-l`/`jk-dino-leg-r` dipake ulang di kedua pasang
-// kaki (kiri selalu -l, kanan selalu -r) biar animasi jalan tetep pakai
-// keyframes yang sama, gak perlu nambah CSS baru. Perubahan CUMA di
-// jagoan-kelas (al-idrisi read-only, gak disentuh).
+// GAMBAR ULANG #2 (2026-08-09) -- user lapor dino Drive Mode "culun
+// banget", minta desain diambil ulang dari al-idrisi-games. Ternyata
+// KEPALA versi redesign #1 (2026-08-07, komentar di bawah) -- lingkaran
+// polos + 2 titik mata -- BUKAN desain terbaik yang ada di al-idrisi:
+// `RoamingCarDino.jsx` (dino ngejar mobil di Landing, di-port PERSIS dari
+// `index.html` hub al-idrisi) udah lebih dulu pake bentuk kepala
+// TENGKORAK MELANCIP (moncong dino beneran, bukan lingkaran) dari al-
+// idrisi, tapi Drive Mode gak ikut kebagian pas redesign #1 kemarin.
+// Sekarang kepala di sini DIGANTI PERSIS sama bentuk kepala
+// `RoamingCarDino.jsx`/al-idrisi (`M15 2 Q9 2.5 8.5 9 Q8 15 15 17.5 Q22
+// 15 21.5 9 Q21 2.5 15 2 Z`) -- badan/ekor/4-kaki/duri punggung dari
+// redesign #1 DIPERTAHANIN (itu emang perbaikan top-down yang valid,
+// bukan bagian yang "culun"), duri digeser turun dikit (y 17->26,
+// sebelumnya 11->22) biar gak numpuk sama kepala yang sekarang lebih
+// panjang ke bawah (dulu kepala cuma sampe y=14.5, sekarang y=17.5).
 export function DinoSvg({ size = 27 }) {
   return (
     <svg viewBox="0 0 30 40" width={size} height={(size * 40) / 30}>
@@ -147,12 +146,12 @@ export function DinoSvg({ size = 27 }) {
       <rect className="jk-dino-leg jk-dino-leg-r" x="22" y="15" width="4" height="7" rx="2" fill="#3F7A3D" />
       <rect className="jk-dino-leg jk-dino-leg-l" x="5" y="27" width="4" height="7" rx="2" fill="#3F7A3D" />
       <rect className="jk-dino-leg jk-dino-leg-r" x="21" y="27" width="4" height="7" rx="2" fill="#3F7A3D" />
-      <path d="M15 11 L13 14 L17 14 Z" fill="#3F7A3D" />
-      <path d="M15 16.5 L12.5 20 L17.5 20 Z" fill="#3F7A3D" />
-      <path d="M15 22 L12.5 25.5 L17.5 25.5 Z" fill="#3F7A3D" />
-      <circle cx="15" cy="8" r="6.5" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
-      <circle cx="10.5" cy="6.8" r="1.4" fill="#2A2A2A" />
-      <circle cx="19.5" cy="6.8" r="1.4" fill="#2A2A2A" />
+      <path d="M15 17 L13 20 L17 20 Z" fill="#3F7A3D" />
+      <path d="M15 21.5 L12.5 24.5 L17.5 24.5 Z" fill="#3F7A3D" />
+      <path d="M15 26 L12.5 29 L17.5 29 Z" fill="#3F7A3D" />
+      <path d="M15 2 Q9 2.5 8.5 9 Q8 15 15 17.5 Q22 15 21.5 9 Q21 2.5 15 2 Z" fill="#5FA85A" stroke="#3F7A3D" strokeWidth="1.5" />
+      <circle cx="9.3" cy="9.5" r="1.5" fill="#1B2B1A" />
+      <circle cx="20.7" cy="9.5" r="1.5" fill="#1B2B1A" />
     </svg>
   );
 }
