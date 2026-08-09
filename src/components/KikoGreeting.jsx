@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Kiko from "./ds/Kiko";
 import { greetingTemplateForToday } from "../data/kikoGreetings";
+import { useT } from "../data/translations";
 
 // Sapaan harian + trigger AI chat, di bagian bawah Landing.jsx -- di-port
 // dari al-idrisi-games `sc-greeting` (avatar kecil + teks yang "gelombang"
@@ -16,6 +17,7 @@ const NAME_COLORS = ["var(--ink-on-blue)", "var(--ink-on-pink)", "var(--ink-on-g
 const HINT_KEY = "jk_kiko_greeting_hint_seen";
 
 export default function KikoGreeting({ name, onTap }) {
+  const { t, lang } = useT();
   const [hintSeen, setHintSeen] = useState(() => {
     try {
       return !!localStorage.getItem(HINT_KEY);
@@ -25,7 +27,7 @@ export default function KikoGreeting({ name, onTap }) {
   });
 
   const dayIndex = Math.floor(Date.now() / 86400000);
-  const template = greetingTemplateForToday();
+  const template = greetingTemplateForToday(lang);
   const nameColor = NAME_COLORS[dayIndex % NAME_COLORS.length];
   const words = template.split(" ");
 
@@ -45,7 +47,7 @@ export default function KikoGreeting({ name, onTap }) {
   return (
     <button
       onClick={handleTap}
-      aria-label="Ngobrol sama Kiko"
+      aria-label={t("landing", "talkToKiko")}
       style={{
         display: "flex",
         alignItems: "center",
@@ -81,7 +83,7 @@ export default function KikoGreeting({ name, onTap }) {
               animation: "jkGreetingHintPop 3.2s ease-out infinite",
             }}
           >
-            Tap Kiko!
+            {t("landing", "tapKiko")}
           </span>
         )}
         <span style={{ display: "block", animation: "jkGreetingWiggle 1.8s ease-in-out infinite" }}>

@@ -17,8 +17,8 @@ const STRINGS = {
     binggris: { id: "Bahasa Inggris", en: "English", subId: "English fun time", subEn: "English fun time" },
   },
   landing: {
-    id: { hi: "Hai, {name}!", logout: "Keluar", pickGrade: "Pilih kelas kamu!", gradeLabel: "Kelas {n}", talkToKiko: "Ngobrol sama Kiko", kikoHere: "Kiko disini", messageFromParent: "Pesan dari orang tua kamu", thanks: "Makasih! 😊" },
-    en: { hi: "Hi, {name}!", logout: "Log out", pickGrade: "Pick your grade!", gradeLabel: "Grade {n}", talkToKiko: "Chat with Kiko", kikoHere: "Kiko is here", messageFromParent: "A message from your parent", thanks: "Thanks! 😊" },
+    id: { hi: "Hai, {name}!", logout: "Keluar", pickGrade: "Pilih kelas kamu!", gradeLabel: "Kelas {n}", talkToKiko: "Ngobrol sama Kiko", kikoHere: "Kiko disini", messageFromParent: "Pesan dari orang tua kamu", thanks: "Makasih! 😊", tapKiko: "Tap Kiko!" },
+    en: { hi: "Hi, {name}!", logout: "Log out", pickGrade: "Pick your grade!", gradeLabel: "Grade {n}", talkToKiko: "Chat with Kiko", kikoHere: "Kiko is here", messageFromParent: "A message from your parent", thanks: "Thanks! 😊", tapKiko: "Tap Kiko!" },
   },
   pickSubject: {
     id: { title: "Kelas {n}", subtitle: "Pilih pelajaran", mathRaceTitle: "Math Race", mathRaceSub: "Balapan jawab soal matematika!", focusTitle: "Fokus Latihan", focusSub: "Campur soal dari pelajaran manapun", ninjaTitle: "Ninja Runner", ninjaSub: "Lari, lompat, jawab soal campur!" },

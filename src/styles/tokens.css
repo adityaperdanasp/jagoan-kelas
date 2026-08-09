@@ -90,6 +90,21 @@
 
 * { box-sizing: border-box; }
 
+/* 2026-08-09 -- user lapor Kiko chat panel "size lebih besar dari screen
+   jadi kepotong" di iPhone asli (screenshot: seluruh halaman keliatan
+   kegeser, bukan cuma panel-nya). html/body sebelumnya gak punya
+   overflow-x: hidden sama sekali, jadi kalau ADA elemen manapun (fixed
+   overlay pas keyboard kebuka, dll) sempet lebih lebar dikit dari
+   viewport, seluruh halaman jadi bisa di-scroll horizontal -- iOS Safari
+   kadang nge-shift posisi elemen `position: fixed` pas keyboard muncul
+   (soft-input mendorong visual viewport), kombinasi 2 hal ini yang bikin
+   panel keliatan "kepotong"/kegeser. Fix defensif: kunci html & body gak
+   pernah bisa scroll horizontal sama sekali. */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   margin: 0;
   background: linear-gradient(180deg, var(--bg-grad-top), var(--bg-grad-mid) 55%, var(--bg-grad-bottom));

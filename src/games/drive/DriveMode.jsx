@@ -99,6 +99,31 @@ function makeObstacles(n) {
   return out;
 }
 
+// Spawn 1 obstacle pengganti (2026-08-09, fix bug) -- SCORE_TARGET (12)
+// lebih gede dari jumlah obstacle awal per difficulty (6/8/9), padahal
+// obstacle yang udah ditabrak dulunya DIHAPUS PERMANEN (`filter`) tanpa
+// diganti -- begitu obstacle abis, gak ada lagi yang bisa ditabrak buat
+// munculin soal baru, skor mentok di bawah 12 selama-lamanya (mobil cuma
+// diem/goyang nunggu sesuatu yang gak akan pernah kejadian). User lapor:
+// "saat sudah selesai semua soal kepake, mobil masih goyang2, harusnya
+// soal muncul lagi sampai poin tercapai atau mati digigit dino." Fix:
+// tiap obstacle abis ditabrak, langsung di-spawn 1 obstacle baru di
+// posisi acak (avoid posisi mobil SEKARANG, bukan cuma CAR_START) biar
+// jumlah obstacle di layar tetep konstan sepanjang permainan.
+function spawnReplacementObstacle(existing, avoidX, avoidY) {
+  let guard = 0;
+  while (guard++ < 300) {
+    const x = rand(8, 92);
+    const y = rand(20, 78);
+    const tooCloseCar = Math.hypot(x - avoidX, y - avoidY) < 20;
+    const tooCloseOthers = existing.some((o) => Math.hypot(x - o.x, y - o.y) < 14);
+    if (!tooCloseCar && !tooCloseOthers) {
+      return { id: "obs" + Date.now() + "-" + Math.random().toString(36).slice(2, 7), x, y, icon: OBSTACLE_ICONS[rand(0, OBSTACLE_ICONS.length - 1)] };
+    }
+  }
+  return { id: "obs" + Date.now() + "-" + Math.random().toString(36).slice(2, 7), x: rand(8, 92), y: rand(20, 78), icon: OBSTACLE_ICONS[rand(0, OBSTACLE_ICONS.length - 1)] };
+}
+
 export default function DriveMode() {
   const { grade } = useParams();
   const navigate = useNavigate();
@@ -302,7 +327,9 @@ export default function DriveMode() {
         // obstacle collisions
         for (const o of obstaclesRef.current) {
           if (pxDist(o.x, o.y, g.x, g.y) < CAR_R_PX + OBSTACLE_R_PX) {
-            const next = obstaclesRef.current.filter((x) => x !== o);
+            const remaining = obstaclesRef.current.filter((x) => x !== o);
+            const replacement = spawnReplacementObstacle(remaining, g.x, g.y);
+            const next = [...remaining, replacement];
             obstaclesRef.current = next;
             setObstacles(next);
             setScore((s) => {

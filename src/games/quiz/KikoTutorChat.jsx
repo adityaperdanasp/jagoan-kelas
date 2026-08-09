@@ -113,12 +113,16 @@ export function KikoChatPanel({
       style={{
         position: "fixed",
         inset: 0,
+        width: "100vw",
+        maxWidth: "100vw",
         zIndex: 300,
         background: "rgba(59,42,26,.5)",
         display: "flex",
         alignItems: "flex-end",
         justifyContent: "center",
         padding: 0,
+        overflowX: "hidden",
+        boxSizing: "border-box",
       }}
     >
       <div
@@ -133,6 +137,7 @@ export function KikoChatPanel({
           display: "flex",
           flexDirection: "column",
           overflow: "hidden",
+          boxSizing: "border-box",
         }}
       >
         <div
@@ -166,20 +171,20 @@ export function KikoChatPanel({
           {messages.length === 0 && (
             <div style={{ display: "flex", gap: 8, alignItems: "flex-start" }}>
               <Kiko size={26} />
-              <div style={{ background: "var(--surface-card-alt)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", maxWidth: "78%" }}>
+              <div style={{ background: "var(--surface-card-alt)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", maxWidth: "78%", wordBreak: "break-word" }}>
                 {welcomeText}
               </div>
             </div>
           )}
           {messages.map((m, i) =>
             m.role === "user" ? (
-              <div key={i} style={{ alignSelf: "flex-end", background: "var(--pastel-blue)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-on-blue)", maxWidth: "78%" }}>
+              <div key={i} style={{ alignSelf: "flex-end", background: "var(--pastel-blue)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-on-blue)", maxWidth: "78%", wordBreak: "break-word" }}>
                 {m.text}
               </div>
             ) : (
               <div key={i} style={{ display: "flex", gap: 8, alignItems: "flex-start" }}>
                 <Kiko size={26} />
-                <div style={{ background: "var(--surface-card-alt)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", maxWidth: "78%" }}>
+                <div style={{ background: "var(--surface-card-alt)", borderRadius: 14, padding: "8px 12px", fontFamily: "var(--font-body)", fontSize: "0.82rem", color: "var(--ink-700)", maxWidth: "78%", wordBreak: "break-word" }}>
                   {m.text}
                 </div>
               </div>
@@ -230,6 +235,7 @@ export function KikoChatPanel({
             disabled={loading}
             style={{
               flex: 1,
+              minWidth: 0,
               border: "2px solid var(--cream-300)",
               borderRadius: "var(--radius-lg)",
               padding: "10px 12px",
