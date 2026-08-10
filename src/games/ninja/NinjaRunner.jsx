@@ -25,6 +25,14 @@ const SUBJECTS = { math: "MATH", lang: "LANG & ARTS", sci: "SCIENCE" };
 const DIFF_LABELS = { easy: "Twig Sprout", medium: "Star Ninja", hard: "Golden Sensei" };
 const OBSTACLE_MS = 1800;
 const ENEMY_MS = 1800;
+const JUMP_MS = 450;
+// Grace period buat obstacle PERTAMA doang (2026-08-10, port dari
+// al-idrisi `NINJA_FIRST_OBSTACLE_DELAY_MS`) -- begitu dodge butuh timing
+// presisi (lihat komentar `doJump` di bawah), batu pertama yang langsung
+// meluncur begitu layar kebuka jadi gak adil: anak belum pernah lihat
+// obstacle sama sekali tapi udah harus nge-time lompatan. Obstacle
+// SETELAHNYA gak perlu delay -- udah ada jeda alami dari soal sebelumnya.
+const FIRST_OBSTACLE_DELAY_MS = 700;
 const XP_PER_CORRECT = 8; // sama rate kayak Focus Round -- skor "poin" di layar tetep formula BrainBox (PTS+streak), XP profil pakai ekonomi kita sendiri biar konsisten sama mode lain
 
 function streakBonus(streak) {
@@ -45,7 +53,8 @@ export default function NinjaRunner() {
   const [streak, setStreak] = useState(0);
   const [jumping, setJumping] = useState(false);
   const [obstacleState, setObstacleState] = useState(null); // null | "approaching" | "dodged" | "bumped"
-  const [enemyApproaching, setEnemyApproaching] = useState(false);
+  const [enemyState, setEnemyState] = useState(null); // null | "approaching" | "standing" | "split"
+  const [runnerHit, setRunnerHit] = useState(false);
   const [gates, setGates] = useState([]);
   const [question, setQuestion] = useState(null); // {prompt, options, correctLabel, _topicId, subjectKey, difficulty}
   const [answeredOpt, setAnsweredOpt] = useState(null);
@@ -55,7 +64,9 @@ export default function NinjaRunner() {
   const [showReview, setShowReview] = useState(false);
   const [saving, setSaving] = useState(false);
 
-  const obstacleDodgedRef = useRef(false);
+  // Dibaca SINKRON pas batu "nyampe" -- state `jumping` gak bisa dipake buat
+  // itu (closure di dalem setTimeout bakal baca nilai lama).
+  const jumpingRef = useRef(false);
   const timerRef = useRef(null);
   const topicStatsRef = useRef({}); // { [topicId]: {correct, wrong} }
   const correctCountRef = useRef(0);
@@ -77,28 +88,42 @@ export default function NinjaRunner() {
   // ---- run-lane: obstacle (jump to dodge) -> enemy (reaching = trigger gates) ----
   useEffect(() => {
     if (phase !== "lane") return;
-    obstacleDodgedRef.current = false;
-    setObstacleState("approaching");
-    setEnemyApproaching(false);
+    setObstacleState(null);
+    setEnemyState(null);
     timerRef.current = setTimeout(() => {
-      setObstacleState(obstacleDodgedRef.current ? "dodged" : "bumped");
-      setTimeout(() => setObstacleState(null), 350);
-      setEnemyApproaching(true);
+      setObstacleState("approaching");
       timerRef.current = setTimeout(() => {
-        setEnemyApproaching(false);
-        rollGates();
-        setPhase("gates");
-      }, ENEMY_MS);
-    }, OBSTACLE_MS);
+        // Dodge PRESISI (2026-08-10): yang dicek APAKAH lagi di udara TEPAT
+        // pas batu nyampe, bukan lagi "pernah nge-tap kapan aja selama batu
+        // mendekat" kayak versi awal. Jadi lompat kepagian (udah mendarat
+        // duluan) atau kelamaan (belum lompat) dua-duanya nabrak.
+        const dodged = jumpingRef.current;
+        setObstacleState(dodged ? "dodged" : "bumped");
+        if (!dodged) {
+          setRunnerHit(true);
+          setTimeout(() => setRunnerHit(false), 320);
+        }
+        setTimeout(() => setObstacleState(null), 350);
+        setEnemyState("approaching");
+        timerRef.current = setTimeout(() => {
+          setEnemyState("standing"); // musuh TETEP berdiri selama kartu+soal, baru kebelah pas jawaban bener
+          rollGates();
+          setPhase("gates");
+        }, ENEMY_MS);
+      }, OBSTACLE_MS);
+    }, qnum === 1 ? FIRST_OBSTACLE_DELAY_MS : 0);
     return () => clearTimeout(timerRef.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, qnum]);
 
   function doJump() {
-    if (phase !== "lane" || jumping) return;
+    if (phase !== "lane" || jumpingRef.current) return;
+    jumpingRef.current = true;
     setJumping(true);
-    setTimeout(() => setJumping(false), 450);
-    if (obstacleState === "approaching") obstacleDodgedRef.current = true;
+    setTimeout(() => {
+      jumpingRef.current = false;
+      setJumping(false);
+    }, JUMP_MS);
   }
 
   function rollGates() {
@@ -143,6 +168,7 @@ export default function NinjaRunner() {
         setTimeout(() => setToast(null), 1600);
       }
       setSlicePrompt(q.prompt);
+      setEnemyState("split"); // musuh ikut kebelah 2 diagonal, bukan cuma kartu soalnya
       setPhase("slicing");
       setTimeout(() => advance(), 550);
     } else {
@@ -156,6 +182,7 @@ export default function NinjaRunner() {
     setQuestion(null);
     setSlicePrompt(null);
     setAnsweredOpt(null);
+    setEnemyState(null);
     // qnum dibaca dari closure (bukan functional updater) SENGAJA -- updater
     // yang manggil setPhase() sebagai side-effect di dalemnya bikin StrictMode
     // (double-invoke) ngerender frame antara question:null tapi phase masih
@@ -226,24 +253,32 @@ export default function NinjaRunner() {
         <div className="jk-nj-world">
           <div className="jk-nj-ground" />
 
-          <div className={`jk-nj-runner ${phase === "question" || phase === "slicing" ? "" : "running"} ${jumping ? "jumping" : ""}`}>
+          <div className={`jk-nj-runner ${phase === "question" || phase === "slicing" ? "" : "running"} ${jumping ? "jumping" : ""} ${runnerHit ? "hit" : ""}`}>
             <Kiko size={44} />
           </div>
 
-          {phase === "lane" && (
-            <div className="jk-nj-run-lane">
-              {obstacleState && (
-                <div className={`jk-nj-obstacle ${obstacleState === "approaching" ? "" : obstacleState}`} key={"obs" + qnum}>
-                  🪨
-                </div>
-              )}
-              {enemyApproaching && (
-                <div className="jk-nj-enemy" key={"enemy" + qnum}>
-                  👹
-                </div>
-              )}
-            </div>
-          )}
+          {/* Lane SELALU ke-render (bukan cuma pas phase "lane") -- musuh harus
+              tetep berdiri di tempat selama kartu subject + soal, biar ada yang
+              beneran kebelah pas jawabannya bener. */}
+          <div className="jk-nj-run-lane">
+            {phase === "lane" && obstacleState && (
+              <div className={`jk-nj-obstacle ${obstacleState === "approaching" ? "" : obstacleState}`} key={"obs" + qnum}>
+                🪨
+              </div>
+            )}
+            {enemyState && (
+              <div className={`jk-nj-enemy ${enemyState}`} key={"enemy" + qnum}>
+                {enemyState === "split" ? (
+                  <>
+                    <span className="jk-nj-enemy-half jk-nj-enemy-half-a">👹</span>
+                    <span className="jk-nj-enemy-half jk-nj-enemy-half-b">👹</span>
+                  </>
+                ) : (
+                  "👹"
+                )}
+              </div>
+            )}
+          </div>
           {phase === "lane" && (
             <button className="jk-nj-jump-btn" onClick={doJump}>
               ⬆ JUMP

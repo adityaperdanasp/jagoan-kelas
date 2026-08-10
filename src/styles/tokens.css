@@ -235,9 +235,47 @@ button { font: inherit; }
   filter: drop-shadow(0 3px 3px rgba(0,0,0,.2));
 }
 .jk-nj-obstacle { animation: jk-nj-obstacle-run 1.8s linear forwards; }
-.jk-nj-enemy { animation: jk-nj-enemy-run 1.8s linear forwards; }
+.jk-nj-enemy.approaching { animation: jk-nj-enemy-run 1.8s linear forwards; }
 @keyframes jk-nj-obstacle-run { from { right: -40px; } to { right: 80%; } }
-@keyframes jk-nj-enemy-run { from { right: -40px; } to { right: 84%; } }
+/* Berhenti di 70% (bukan 84% kayak versi lama) -- dulu musuh langsung
+   dilepas begitu "nyampe", jadi numpuk sama Kiko pun gak keliatan. Sekarang
+   dia BERDIRI di situ selama soal, jadi harus disisain jarak biar kebaca
+   sebagai dua karakter yang saling berhadapan, bukan numpuk jadi satu. */
+@keyframes jk-nj-enemy-run { from { right: -40px; } to { right: 70%; } }
+
+/* Musuh berdiri diem di ujung larinya selama kartu subject + soal muncul,
+   baru kebelah 2 diagonal pas jawaban bener (2026-08-10) -- teknik clip-path
+   sama persis kayak kartu soal (.jk-nj-qhalf), plus flash brightness di awal
+   biar kerasa "kena cahaya sebelum pecah". */
+.jk-nj-enemy.standing, .jk-nj-enemy.split { right: 70%; animation: none; }
+.jk-nj-enemy.split { width: 34px; height: 34px; }
+.jk-nj-enemy-half {
+  position: absolute; inset: 0; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.jk-nj-enemy-half-a { clip-path: polygon(0 0, 100% 0, 0 100%); animation: jk-nj-esplit-a .55s ease forwards; }
+.jk-nj-enemy-half-b { clip-path: polygon(100% 0, 100% 100%, 0 100%); animation: jk-nj-esplit-b .55s ease forwards; }
+@keyframes jk-nj-esplit-a {
+  0% { filter: brightness(2.6); }
+  25% { filter: brightness(1); }
+  to { transform: translate(-26px, -20px) rotate(-24deg); opacity: 0; }
+}
+@keyframes jk-nj-esplit-b {
+  0% { filter: brightness(2.6); }
+  25% { filter: brightness(1); }
+  to { transform: translate(26px, 20px) rotate(24deg); opacity: 0; }
+}
+
+/* Kena batu -- feedback visual doang. Sistem nyawa al-idrisi
+   (NINJA_START_LIVES=3) SENGAJA gak ikut di-port: di sini Ninja Runner
+   posisinya latihan santai lintas-subject, nambah "game over di tengah
+   jalan" ngubah keseimbangan kesulitannya buat anak SD kelas bawah. */
+.jk-nj-runner.hit { animation: jk-nj-runner-hit .32s ease; }
+@keyframes jk-nj-runner-hit {
+  0%, 100% { transform: translateX(0); filter: none; }
+  30% { transform: translateX(-7px); filter: brightness(1.6) saturate(2); }
+  70% { transform: translateX(7px); filter: brightness(1.6) saturate(2); }
+}
 .jk-nj-obstacle.dodged { animation: jk-nj-obstacle-dodged .35s ease forwards; }
 .jk-nj-obstacle.bumped { animation: jk-nj-obstacle-bumped .35s ease forwards; }
 @keyframes jk-nj-obstacle-dodged { to { transform: translateY(-30px) scale(1.3); opacity: 0; } }

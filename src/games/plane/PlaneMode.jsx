@@ -52,13 +52,29 @@ const ENEMY_SPEED = 0.35;
 const ENEMY_BULLET_SPEED = 0.9;
 const ENEMY_FIRE_MIN_MS = 1400;
 const ENEMY_FIRE_MAX_MS = 2600;
+// Peluru di-aim ke posisi kapal, tapi sengaja MELESET acak sekian derajat --
+// kalau akurat 100% jadi mustahil dihindarin. Boss lebih akurat (spread lebih
+// sempit) dari musuh biasa, biar berasa naik level.
+const ENEMY_AIM_SPREAD_DEG = 24;
+const BOSS_AIM_SPREAD_DEG = 12;
 const HIT_RADIUS_PX = 22;
 const MAX_LIVES = 3;
 const HIT_INVULN_MS = 1500;
 const QUESTION_INTERVAL_MS = 10000;
 const QUESTION_INTERVAL_MIN_MS = 7000; // makin cepet seiring endless ramp, tapi ada batas bawah
 const SHIP_START = { x: 50, y: 82 };
-const ENEMY_EMOJIS = ["👾", "👽", "🛸"];
+// 4 tipe musuh biasa, pola gerak BEDA-BEDA (2026-08-10, port konsep dari
+// al-idrisi v3) -- sebelumnya semua musuh gerak identik (sinus doang), jadi
+// walau emoji-nya 3 macem rasanya tetep monoton. `speed` = pengali
+// ENEMY_SPEED, `move` dipake di frame loop buat nentuin gerak horizontalnya.
+const ENEMY_TYPES = [
+  { emoji: "👾", move: "straight", speed: 1.0 }, // turun lurus, gampang dibaca
+  { emoji: "👽", move: "sine", speed: 0.9 },     // ayun kiri-kanan halus (pola lama)
+  { emoji: "🛸", move: "homing", speed: 0.8 },   // pelan tapi ngedeketin kapal
+  { emoji: "🦇", move: "zigzag", speed: 1.15 },  // cepet + belok patah-patah
+];
+const ENEMY_HOMING_STEP = 0.12;
+const ENEMY_ZIGZAG_STEP = 0.22;
 
 // --- Power-up (Fase 5, 5-way 2026-08-06) ---
 const POWERUP_DROP_CHANCE = 0.22; // per musuh biasa yang mati (bukan boss)
@@ -81,11 +97,19 @@ function getPlaneSkin() {
 // --- Boss (Fase 5-6) ---
 const BOSS_SCORE_THRESHOLD_START = 15;
 const BOSS_THRESHOLD_STEP = 15; // makin jauh tiap boss berikutnya
-const BOSS_HP_MAX = 8;
-const BOSS_SPEED = 0.28;
-const BOSS_FIRE_MIN_MS = 900;
-const BOSS_FIRE_MAX_MS = 1600;
+// 4 tipe boss, di-cycle per `bossesDefeated` (2026-08-10, port konsep dari
+// al-idrisi v3) -- tiap tipe punya HP/kecepatan/rate-nembak sendiri, dan
+// 🦑 gerak angka-8 (bukan cuma mantul kiri-kanan kayak tiga lainnya). HP
+// naik bertahap tiap tipe biar boss ke-4 kerasa beneran lebih berat dari
+// boss pertama, nyambung sama endless ramp yang udah ada.
+const BOSS_TYPES = [
+  { emoji: "🐉", hp: 8, speed: 0.28, fireMin: 900, fireMax: 1600, move: "sweep" },
+  { emoji: "🦂", hp: 10, speed: 0.36, fireMin: 780, fireMax: 1400, move: "sweep" },
+  { emoji: "👹", hp: 12, speed: 0.22, fireMin: 620, fireMax: 1150, move: "sweep" },
+  { emoji: "🦑", hp: 11, speed: 0.3, fireMin: 700, fireMax: 1300, move: "figure8" },
+];
 const BOSS_Y = 16;
+const BOSS_FIGURE8_AMP_Y = 5; // simpangan vertikal gerak angka-8 si 🦑
 const BOSS_QUESTION_DAMAGE = 3; // jawaban benar pas ada boss = damage, bukan cuma bom musuh biasa
 const BOSS_WIN_XP_BONUS = 3; // skor bonus tiap boss kalah
 
@@ -199,7 +223,7 @@ export default function PlaneMode() {
     g.wingmen = [];
   }
 
-  function spawnEnemyBullet(x, y) {
+  function spawnEnemyBullet(x, y, spreadDeg = ENEMY_AIM_SPREAD_DEG) {
     const g = gRef.current;
     const el = document.createElement("div");
     el.textContent = "🔺";
@@ -207,17 +231,26 @@ export default function PlaneMode() {
     worldRef.current.appendChild(el);
     const dx = g.x - x;
     const dy = g.y - (y + 3);
-    const angle = Math.atan2(dy, dx) + ((Math.random() * 2 - 1) * 20 * Math.PI) / 180;
+    const angle = Math.atan2(dy, dx) + ((Math.random() * 2 - 1) * spreadDeg * Math.PI) / 180;
     g.enemyBullets.push({ x, y: y + 3, vx: Math.cos(angle) * ENEMY_BULLET_SPEED, vy: Math.sin(angle) * ENEMY_BULLET_SPEED, el });
   }
 
   function spawnEnemy() {
     const g = gRef.current;
+    const type = ENEMY_TYPES[rand(0, ENEMY_TYPES.length - 1)];
     const el = document.createElement("div");
-    el.textContent = ENEMY_EMOJIS[rand(0, ENEMY_EMOJIS.length - 1)];
+    el.textContent = type.emoji;
     el.style.cssText = "position:absolute;font-size:26px;transform:translate(-50%,-50%);";
     worldRef.current.appendChild(el);
-    g.enemies.push({ x: rand(10, 90), y: -6, el, phase: Math.random() * Math.PI * 2, nextFireAt: performance.now() + rand(ENEMY_FIRE_MIN_MS, ENEMY_FIRE_MAX_MS) });
+    g.enemies.push({
+      x: rand(10, 90),
+      y: -6,
+      el,
+      move: type.move,
+      speed: type.speed,
+      phase: Math.random() * Math.PI * 2,
+      nextFireAt: performance.now() + rand(ENEMY_FIRE_MIN_MS, ENEMY_FIRE_MAX_MS),
+    });
   }
 
   function spawnPowerup(x, y) {
@@ -232,12 +265,23 @@ export default function PlaneMode() {
 
   function spawnBoss() {
     const g = gRef.current;
+    const type = BOSS_TYPES[g.bossesDefeated % BOSS_TYPES.length];
     const el = document.createElement("div");
-    el.textContent = "🐉";
+    el.textContent = type.emoji;
     el.style.cssText = "position:absolute;font-size:44px;transform:translate(-50%,-50%);";
     worldRef.current.appendChild(el);
-    g.boss = { x: 50, y: BOSS_Y, hp: BOSS_HP_MAX, el, dir: 1, nextFireAt: performance.now() + BOSS_FIRE_MIN_MS };
-    setBossHp({ hp: BOSS_HP_MAX, max: BOSS_HP_MAX });
+    g.boss = {
+      x: 50,
+      y: BOSS_Y,
+      hp: type.hp,
+      hpMax: type.hp,
+      el,
+      dir: 1,
+      type,
+      spawnedAt: performance.now(),
+      nextFireAt: performance.now() + type.fireMin,
+    };
+    setBossHp({ hp: type.hp, max: type.hp });
   }
 
   function explosion(x, y, big) {
@@ -266,7 +310,7 @@ export default function PlaneMode() {
     if (g.boss.hp <= 0) {
       handleBossDefeat();
     } else {
-      setBossHp({ hp: g.boss.hp, max: BOSS_HP_MAX });
+      setBossHp({ hp: g.boss.hp, max: g.boss.hpMax });
     }
   }
 
@@ -488,8 +532,8 @@ export default function PlaneMode() {
           }
         }
         if (g.boss && now > g.boss.nextFireAt) {
-          spawnEnemyBullet(g.boss.x, g.boss.y + 8);
-          g.boss.nextFireAt = now + rand(BOSS_FIRE_MIN_MS, BOSS_FIRE_MAX_MS);
+          spawnEnemyBullet(g.boss.x, g.boss.y + 8, BOSS_AIM_SPREAD_DEG);
+          g.boss.nextFireAt = now + rand(g.boss.type.fireMin, g.boss.type.fireMax);
         }
 
         g.bullets = g.bullets.filter((b) => {
@@ -515,8 +559,13 @@ export default function PlaneMode() {
           return true;
         });
         g.enemies = g.enemies.filter((e) => {
-          e.y += ENEMY_SPEED;
-          e.x += Math.sin(now / 300 + e.phase) * 0.3;
+          e.y += ENEMY_SPEED * (e.speed || 1);
+          // Gerak horizontal beda per tipe (lihat ENEMY_TYPES) -- "straight"
+          // sengaja gak geser sama sekali.
+          if (e.move === "sine") e.x += Math.sin(now / 300 + e.phase) * 0.3;
+          else if (e.move === "homing") e.x += Math.sign(g.x - e.x) * ENEMY_HOMING_STEP;
+          else if (e.move === "zigzag") e.x += (Math.sin(now / 140 + e.phase) > 0 ? 1 : -1) * ENEMY_ZIGZAG_STEP;
+          e.x = Math.max(2, Math.min(98, e.x));
           e.x = Math.max(4, Math.min(96, e.x));
           if (e.y > 106) {
             e.el.remove();
@@ -537,9 +586,16 @@ export default function PlaneMode() {
           return true;
         });
         if (g.boss) {
-          g.boss.x += g.boss.dir * BOSS_SPEED;
+          g.boss.x += g.boss.dir * g.boss.type.speed;
           if (g.boss.x < 12 || g.boss.x > 88) g.boss.dir *= -1;
           g.boss.x = Math.max(12, Math.min(88, g.boss.x));
+          // 🦑 gerak angka-8: sumbu X-nya tetep mantul kiri-kanan kayak boss
+          // lain, TAPI Y-nya ikut naik-turun 2x lebih cepet -- kombinasi itu
+          // yang bikin lintasannya kebaca sebagai angka 8, bukan cuma geser.
+          g.boss.y =
+            g.boss.type.move === "figure8"
+              ? BOSS_Y + Math.sin((now - g.boss.spawnedAt) / 420) * BOSS_FIGURE8_AMP_Y
+              : BOSS_Y;
           g.boss.el.style.left = g.boss.x + "%";
           g.boss.el.style.top = g.boss.y + "%";
         }
