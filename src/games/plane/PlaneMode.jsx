@@ -7,6 +7,8 @@ import { useJoystick } from "../shared/useJoystick";
 import { generateQuickQuestion } from "../shared/quickQuestion";
 import { TRACK_PLANE, useBgmTrack } from "../../data/bgm";
 import { PLANE_SKINS, PlaneSkinSvg } from "./planeArt";
+import { BOSS_SVGS, BOSS_TYPES, BOSS_PX, BOSS_HIT_MULT } from "./planeBossArt";
+import { PlaneP2P, P2P_SEND_INTERVAL_MS, P2P_LINK_TIMEOUT_MS } from "./planeP2P";
 
 // Core engine di-port dari pola BrainBox mathville Plane Mode (shmup
 // vertikal: joystick, auto-fire, musuh turun+nembak balik, quiz berkala =
@@ -94,22 +96,21 @@ function getPlaneSkin() {
   return PLANE_SKINS.find((s) => s.id === id) || PLANE_SKINS[0];
 }
 
-// --- Boss (Fase 5-6) ---
-const BOSS_SCORE_THRESHOLD_START = 15;
-const BOSS_THRESHOLD_STEP = 15; // makin jauh tiap boss berikutnya
-// 4 tipe boss, di-cycle per `bossesDefeated` (2026-08-10, port konsep dari
-// al-idrisi v3) -- tiap tipe punya HP/kecepatan/rate-nembak sendiri, dan
-// 🦑 gerak angka-8 (bukan cuma mantul kiri-kanan kayak tiga lainnya). HP
-// naik bertahap tiap tipe biar boss ke-4 kerasa beneran lebih berat dari
-// boss pertama, nyambung sama endless ramp yang udah ada.
-const BOSS_TYPES = [
-  { emoji: "🐉", hp: 8, speed: 0.28, fireMin: 900, fireMax: 1600, move: "sweep" },
-  { emoji: "🦂", hp: 10, speed: 0.36, fireMin: 780, fireMax: 1400, move: "sweep" },
-  { emoji: "👹", hp: 12, speed: 0.22, fireMin: 620, fireMax: 1150, move: "sweep" },
-  { emoji: "🦑", hp: 11, speed: 0.3, fireMin: 700, fireMax: 1300, move: "figure8" },
-];
+// --- Boss (Fase 5-6, boss jadi SVG pesawat 2026-08-10) ---
+// Threshold dinaikin dari 15/15/flat ke 40/40/x1.2 ngikutin al-idrisi:
+// dulu boss ketemu kekerapan, apalagi enemy density naik 1.2x tiap boss
+// kalah bikin skor manjat lebih cepet dari threshold-nya -- jarak antar
+// boss malah MENGECIL sepanjang run. Growth 1.2 yang sama bikin jaraknya
+// kira-kira tetep/melebar pelan.
+const BOSS_SCORE_THRESHOLD_START = 40;
+const BOSS_THRESHOLD_STEP = 40;
+const BOSS_THRESHOLD_GROWTH = 1.2;
+const BOSS_BASE_HP = 21;
+const BOSS_BASE_SPEED = 0.25;
+const BOSS_BASE_FIRE_MIN_MS = 560;
+const BOSS_BASE_FIRE_MAX_MS = 1040;
 const BOSS_Y = 16;
-const BOSS_FIGURE8_AMP_Y = 5; // simpangan vertikal gerak angka-8 si 🦑
+const BOSS_FIGURE8_AMP_Y = 5; // simpangan vertikal buat tipe yang move-nya "figure8"
 const BOSS_QUESTION_DAMAGE = 3; // jawaban benar pas ada boss = damage, bukan cuma bom musuh biasa
 const BOSS_WIN_XP_BONUS = 3; // skor bonus tiap boss kalah
 
@@ -122,6 +123,17 @@ const ENEMY_DENSITY_BOSS_MULT = 1.2; // compounding tiap boss kalah
 
 function rand(a, b) {
   return Math.floor(Math.random() * (b - a + 1)) + a;
+}
+
+// Id entitas buat sinkronisasi 2P -- host ngirim id, guest pake id itu
+// buat nyocokin elemen DOM yang udah ada (biar transisi CSS-nya mulus,
+// bukan bikin-hapus tiap paket). Di mode solo id-nya cuma nganggur.
+function nextId(g) {
+  g.idSeq = (g.idSeq || 0) + 1;
+  return g.idSeq;
+}
+function round1(n) {
+  return Math.round(n * 10) / 10;
 }
 
 function highScoreKey(grade) {
@@ -146,6 +158,20 @@ export default function PlaneMode() {
   const [activePowerups, setActivePowerups] = useState({ rapid: false, shield: false, wingmen: false, spread: false });
   const [planeSkin, setPlaneSkin] = useState(getPlaneSkin);
   const [pickingSkin, setPickingSkin] = useState(false);
+
+  // --- 2 pemain (2026-08-10) ---
+  const [coop, setCoop] = useState(null); // null = solo | "host" | "guest"
+  const [lobby, setLobby] = useState(null); // null | "menu" | "hosting" | "joining" | "connecting"
+  const [roomCode, setRoomCode] = useState("");
+  const [joinCode, setJoinCode] = useState("");
+  const [coopError, setCoopError] = useState("");
+  const [banner, setBanner] = useState("");
+  const [peerHud, setPeerHud] = useState(null); // {score, lives, down}
+  const [down, setDown] = useState(false); // nyawa habis TAPI ronde belum kelar (nonton partner)
+  const p2pRef = useRef(null);
+  const peerShipRef = useRef(null);
+  const peerBulletEls = useRef([]);
+  const peerWingmenEls = useRef([]);
 
   const worldRef = useRef(null);
   const shipRef = useRef(null);
@@ -232,7 +258,7 @@ export default function PlaneMode() {
     const dx = g.x - x;
     const dy = g.y - (y + 3);
     const angle = Math.atan2(dy, dx) + ((Math.random() * 2 - 1) * spreadDeg * Math.PI) / 180;
-    g.enemyBullets.push({ x, y: y + 3, vx: Math.cos(angle) * ENEMY_BULLET_SPEED, vy: Math.sin(angle) * ENEMY_BULLET_SPEED, el });
+    g.enemyBullets.push({ id: nextId(g), x, y: y + 3, vx: Math.cos(angle) * ENEMY_BULLET_SPEED, vy: Math.sin(angle) * ENEMY_BULLET_SPEED, el });
   }
 
   function spawnEnemy() {
@@ -243,6 +269,8 @@ export default function PlaneMode() {
     el.style.cssText = "position:absolute;font-size:26px;transform:translate(-50%,-50%);";
     worldRef.current.appendChild(el);
     g.enemies.push({
+      id: nextId(g),
+      emoji: type.emoji,
       x: rand(10, 90),
       y: -6,
       el,
@@ -260,28 +288,31 @@ export default function PlaneMode() {
     el.textContent = POWERUP_EMOJI[type];
     el.style.cssText = "position:absolute;font-size:22px;transform:translate(-50%,-50%);filter:drop-shadow(0 0 4px rgba(255,255,255,0.8));";
     worldRef.current.appendChild(el);
-    g.powerups.push({ x, y, type, el });
+    g.powerups.push({ id: nextId(g), x, y, type, el });
   }
 
   function spawnBoss() {
     const g = gRef.current;
-    const type = BOSS_TYPES[g.bossesDefeated % BOSS_TYPES.length];
+    const typeIdx = g.bossesDefeated % BOSS_TYPES.length;
+    const type = BOSS_TYPES[typeIdx];
+    const hp = Math.round(BOSS_BASE_HP * type.hpMult);
     const el = document.createElement("div");
-    el.textContent = type.emoji;
-    el.style.cssText = "position:absolute;font-size:44px;transform:translate(-50%,-50%);";
+    el.innerHTML = BOSS_SVGS[type.svg];
+    el.style.cssText = `position:absolute;width:${BOSS_PX}px;height:${BOSS_PX}px;transform:translate(-50%,-50%);line-height:0;filter:drop-shadow(0 3px 6px rgba(0,0,0,.45));`;
     worldRef.current.appendChild(el);
     g.boss = {
       x: 50,
       y: BOSS_Y,
-      hp: type.hp,
-      hpMax: type.hp,
+      hp,
+      hpMax: hp,
       el,
       dir: 1,
       type,
+      typeIdx,
       spawnedAt: performance.now(),
-      nextFireAt: performance.now() + type.fireMin,
+      nextFireAt: performance.now() + BOSS_BASE_FIRE_MIN_MS * type.fireMult,
     };
-    setBossHp({ hp: type.hp, max: type.hp });
+    setBossHp({ hp, max: hp });
   }
 
   function explosion(x, y, big) {
@@ -321,7 +352,11 @@ export default function PlaneMode() {
     g.boss = null;
     setBossHp(null);
     g.bossesDefeated += 1;
-    g.bossThreshold += BOSS_THRESHOLD_STEP;
+    // Step-nya ikut tumbuh (bukan flat) -- lihat komentar di konstanta:
+    // enemy density juga naik 1.2x tiap boss kalah, kalau step-nya flat
+    // jarak antar boss malah mengecil sepanjang run.
+    g.bossStep = (g.bossStep || BOSS_THRESHOLD_STEP) * BOSS_THRESHOLD_GROWTH;
+    g.bossThreshold += Math.round(g.bossStep);
     g.enemyDensity *= ENEMY_DENSITY_BOSS_MULT;
     bumpScore(BOSS_WIN_XP_BONUS);
   }
@@ -336,24 +371,326 @@ export default function PlaneMode() {
     setScore(g.score);
   }
 
+  // ---------- 2P: terapin dunia dari host / status partner ----------
+
+  // "Bikin list lokalku sama kayak punya mereka": update yang udah ada,
+  // bikin yang baru, buang yang ilang. Entitas MEMPERTAHANKAN elemen DOM-nya
+  // lintas update, biar transisi CSS punya sesuatu buat dianimasiin.
+  function syncList(current, incoming, makeEl, assign) {
+    const g = gRef.current;
+    const p2p = p2pRef.current;
+    const now = performance.now();
+    const byId = new Map(current.map((it) => [it.id, it]));
+    const next = [];
+    for (const row of incoming) {
+      const [id, x, y, extra] = row;
+      // Lewatin yang baru aja kita tembak -- host belum sempet mroses kill
+      // kita, nambahin lagi di sini bikin musuhnya "hidup lagi" sekejap.
+      if (p2p && p2p.wasRecentlyKilled(id, now)) continue;
+      let item = byId.get(id);
+      if (!item) {
+        const el = makeEl(extra);
+        el.style.left = x + "%";
+        el.style.top = y + "%";
+        worldRef.current.appendChild(el);
+        item = { id, x, y, el };
+        if (extra !== undefined) item.type = extra;
+      } else {
+        byId.delete(id);
+      }
+      item.x = x;
+      item.y = y;
+      item.el.style.left = x + "%";
+      item.el.style.top = y + "%";
+      next.push(item);
+    }
+    for (const stale of byId.values()) stale.el.remove();
+    assign(next);
+    return g;
+  }
+
+  function applyWorld(msg) {
+    const g = gRef.current;
+    if (!g) return;
+    applyPeerStatus(msg.st, msg.s, msg.sb);
+    syncList(
+      g.enemies,
+      msg.e || [],
+      (emoji) => {
+        const el = document.createElement("div");
+        el.textContent = emoji || "👾";
+        el.style.cssText = "position:absolute;font-size:26px;transform:translate(-50%,-50%);transition:left .05s linear,top .05s linear;";
+        return el;
+      },
+      (arr) => (g.enemies = arr)
+    );
+    syncList(
+      g.enemyBullets,
+      msg.b || [],
+      () => {
+        const el = document.createElement("div");
+        el.textContent = "🔺";
+        el.style.cssText = "position:absolute;font-size:14px;transform:translate(-50%,-50%);transition:left .05s linear,top .05s linear;";
+        return el;
+      },
+      (arr) => (g.enemyBullets = arr)
+    );
+    syncList(
+      g.powerups,
+      msg.pu || [],
+      (type) => {
+        const el = document.createElement("div");
+        el.textContent = POWERUP_EMOJI[type] || "⚡";
+        el.style.cssText = "position:absolute;font-size:22px;transform:translate(-50%,-50%);filter:drop-shadow(0 0 4px rgba(255,255,255,0.8));";
+        return el;
+      },
+      (arr) => (g.powerups = arr)
+    );
+    syncBoss(msg.bo);
+  }
+
+  function syncBoss(bo) {
+    const g = gRef.current;
+    if (!bo) {
+      if (g.boss) {
+        g.boss.el.remove();
+        g.boss = null;
+        setBossHp(null);
+      }
+      return;
+    }
+    const [x, y, hp, hpMax, typeIdx] = bo;
+    if (!g.boss) {
+      const type = BOSS_TYPES[typeIdx] || BOSS_TYPES[0];
+      const el = document.createElement("div");
+      el.innerHTML = BOSS_SVGS[type.svg];
+      el.style.cssText = `position:absolute;width:${BOSS_PX}px;height:${BOSS_PX}px;transform:translate(-50%,-50%);line-height:0;filter:drop-shadow(0 3px 6px rgba(0,0,0,.45));transition:left .05s linear,top .05s linear;`;
+      worldRef.current.appendChild(el);
+      g.boss = { x, y, hp, hpMax, el, type, typeIdx, dir: 1, spawnedAt: performance.now(), nextFireAt: Infinity };
+    }
+    g.boss.x = x;
+    g.boss.y = y;
+    g.boss.hp = hp;
+    g.boss.hpMax = hpMax;
+    g.boss.el.style.left = x + "%";
+    g.boss.el.style.top = y + "%";
+    setBossHp({ hp, max: hpMax });
+  }
+
+  // Kapal + peluru + HUD partner -- ditangani sama persis di kedua sisi.
+  function applyPeerStatus(st, ship, bullets) {
+    const p2p = p2pRef.current;
+    if (!p2p) return;
+    if (ship && peerShipRef.current) {
+      peerShipRef.current.style.display = "block";
+      peerShipRef.current.style.left = ship[0] + "%";
+      peerShipRef.current.style.top = ship[1] + "%";
+    }
+    if (st) {
+      p2p.peer.score = st[0];
+      p2p.peer.lives = st[1];
+      p2p.peer.down = !!st[2];
+      p2p.peer.wingmen = !!st[3];
+      if (peerShipRef.current) peerShipRef.current.style.opacity = p2p.peer.down ? "0.25" : "1";
+      setPeerHud({ score: st[0], lives: st[1], down: !!st[2] });
+    }
+    updatePeerWingmen(ship);
+    renderPeerBullets(bullets || []);
+  }
+
+  // Mirror `ensureWingmen`, tapi buat pesawat pengawal PARTNER -- buff
+  // wingmen dulunya state lokal doang, jadi layar pemain satunya gak
+  // pernah tau itu ada (salah satu bug yang al-idrisi temuin di 2 HP).
+  function updatePeerWingmen(ship) {
+    const p2p = p2pRef.current;
+    if (!p2p) return;
+    const active = !!p2p.peer.wingmen;
+    if (active && !peerWingmenEls.current.length) {
+      [-11, 11].forEach((offsetX) => {
+        const el = document.createElement("div");
+        el.innerHTML = '<svg viewBox="0 0 20 24" width="13" height="16"><path d="M10 1 L14 14 L10 11 L6 14 Z" fill="#D8C7F5" stroke="#7A5FC7" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+        el.style.cssText = "position:absolute;transform:translate(-50%,-50%);opacity:.85;line-height:0;";
+        worldRef.current.appendChild(el);
+        peerWingmenEls.current.push({ el, offsetX });
+      });
+    } else if (!active && peerWingmenEls.current.length) {
+      peerWingmenEls.current.forEach((w) => w.el.remove());
+      peerWingmenEls.current = [];
+    }
+    if (ship && peerWingmenEls.current.length) {
+      peerWingmenEls.current.forEach((w) => {
+        w.el.style.left = Math.max(4, Math.min(96, ship[0] + w.offsetX)) + "%";
+        w.el.style.top = ship[1] + 6 + "%";
+      });
+    }
+  }
+
+  function renderPeerBullets(list) {
+    const els = peerBulletEls.current;
+    while (els.length < list.length) {
+      const el = document.createElement("div");
+      el.style.cssText = "position:absolute;width:4px;height:12px;border-radius:2px;background:#C9A7F5;transform:translate(-50%,-50%);";
+      worldRef.current.appendChild(el);
+      els.push(el);
+    }
+    while (els.length > list.length) els.pop().remove();
+    list.forEach((b, i) => {
+      els[i].style.left = b[0] + "%";
+      els[i].style.top = b[1] + "%";
+    });
+  }
+
+  // Dipanggil tiap frame, di-throttle ke P2P_SEND_INTERVAL_MS (20x/detik).
+  function p2pTick(now) {
+    const p2p = p2pRef.current;
+    const g = gRef.current;
+    if (!p2p || !p2p.active() || !g) return;
+    // setBanner dipanggil tiap tick tanpa baca state `banner` -- `frame()`
+    // dibikin sekali (dep [phase]) jadi nilai state di closure-nya bakal
+    // basi. React sendiri bail-out kalau nilainya sama, jadi aman.
+    setBanner(now - p2p.lastRecvAt > P2P_LINK_TIMEOUT_MS ? (p2p.role === "guest" ? "Nunggu host…" : "Nunggu partner…") : "");
+    if (now - p2p.lastSendAt < P2P_SEND_INTERVAL_MS) return;
+    p2p.lastSendAt = now;
+
+    // Slot ke-4 = flag wingmen, biar layar partner ikut gambar pesawat
+    // pengawalnya (dulu state ini lokal doang -> pemain satunya gak liat).
+    const st = [g.score | 0, g.livesNow ?? MAX_LIVES, g.down ? 1 : 0, now < g.wingmenUntil ? 1 : 0];
+    const ship = [round1(g.x), round1(g.y)];
+    const myBullets = g.bullets.map((b) => [round1(b.x), round1(b.y)]);
+
+    if (p2p.role === "host") {
+      p2p.send({
+        t: "w",
+        st,
+        s: ship,
+        sb: myBullets,
+        e: g.enemies.map((e) => [e.id, round1(e.x), round1(e.y), e.emoji]),
+        b: g.enemyBullets.map((b) => [b.id, round1(b.x), round1(b.y)]),
+        // Kirim TIPE power-up, bukan emoji -- guest butuh tipenya buat
+        // nerapin buff yang bener pas mungut, emoji bisa dia cari sendiri.
+        pu: g.powerups.map((p) => [p.id, round1(p.x), round1(p.y), p.type]),
+        bo: g.boss ? [round1(g.boss.x), round1(g.boss.y), g.boss.hp, g.boss.hpMax, g.boss.typeIdx] : null,
+      });
+    } else {
+      p2p.send({
+        t: "g",
+        st,
+        s: ship,
+        sb: myBullets,
+        k: p2p.pendingKills.splice(0),
+        pk: p2p.pendingPickups.splice(0),
+        bh: (() => {
+          const n = p2p.pendingBossHits;
+          p2p.pendingBossHits = 0;
+          return n;
+        })(),
+      });
+    }
+  }
+
+  function handleP2PMessage(msg) {
+    const g = gRef.current;
+    if (!g) return;
+    const p2p = p2pRef.current;
+    switch (msg.t) {
+      case "w":
+        if (p2p.role === "guest") applyWorld(msg);
+        break;
+      case "g":
+        applyPeerStatus(msg.st, msg.s, msg.sb);
+        if (p2p.role !== "host") break;
+        // Klaim guest diterapin ke dunia otoritatif
+        (msg.k || []).forEach((id) => {
+          const e = g.enemies.find((x) => x.id === id);
+          if (e) {
+            e.el.remove();
+            g.enemies = g.enemies.filter((x) => x !== e);
+          }
+        });
+        (msg.pk || []).forEach((id) => {
+          const p = g.powerups.find((x) => x.id === id);
+          if (p) {
+            p.el.remove();
+            g.powerups = g.powerups.filter((x) => x !== p);
+          }
+        });
+        if (msg.bh && g.boss) damageBoss(msg.bh);
+        break;
+      case "q":
+        // Soal SELALU datang dari host biar dua pemain dapet soal yang sama
+        if (!g.questionActive) showCoopQuestion(msg.q);
+        break;
+      case "bomb":
+        // Partner jawab bener -- bom itu perubahan dunia, jadi cuma host
+        // yang nerapin; guest liat hasilnya di snapshot berikutnya.
+        if (p2p.role === "host") {
+          clearEnemies();
+          if (g.boss) damageBoss(BOSS_QUESTION_DAMAGE);
+        }
+        break;
+      case "over":
+        p2p.peer.down = true;
+        setPeerHud((h) => ({ ...(h || { score: 0, lives: 0 }), down: true }));
+        // Dua-duanya jatuh -> ronde beneran selesai
+        if (g.down) endRun();
+        break;
+      default:
+        break;
+    }
+  }
+
+  function showCoopQuestion(q) {
+    const g = gRef.current;
+    g.questionActive = true;
+    // DI 2P GAK BOLEH pause -- itu bakal ngebekuin dunia bersama punya host
+    // (atau macetin guest). Gantinya kasih invuln window panjang, jadi anak
+    // gak kena tembak selagi ngerjain soal.
+    g.invulnUntil = performance.now() + 6000;
+    setQuestion(q);
+  }
+
   const askQuestion = useCallback(() => {
-    gRef.current.paused = true;
-    setQuestion(generateQuickQuestion(Number(grade), difficulty));
+    const g = gRef.current;
+    // Guard `questionActive` (bug al-idrisi di 2P): tanpa pause, frame loop
+    // ngecek "udah waktunya soal?" TIAP FRAME, jadi begitu lewat jadwal
+    // fungsi ini kepanggil ~60x/detik selama kartu belum dijawab --
+    // soal ke-regenerate acak terus & DOM di-rebuild tiap frame (kartunya
+    // keliatan geter dan gak bisa dipencet).
+    if (g.questionActive) return;
+    const q = generateQuickQuestion(Number(grade), difficulty);
+    const p2p = p2pRef.current;
+    if (p2p && p2p.active()) {
+      if (p2p.role !== "host") return; // cuma host yang nentuin kapan soal muncul
+      p2p.send({ t: "q", q });
+      showCoopQuestion(q);
+      return;
+    }
+    g.questionActive = true;
+    g.paused = true;
+    setQuestion(q);
   }, [grade, difficulty]);
 
   function answerQuestion(opt) {
     if (!question) return;
     const correct = opt === question.correctLabel;
+    const p2p = p2pRef.current;
+    const isCoop = !!(p2p && p2p.active());
     setQuestion((q) => ({ ...q, answered: opt }));
     if (correct) {
-      clearEnemies();
       bumpScore(2);
-      if (gRef.current.boss) damageBoss(BOSS_QUESTION_DAMAGE);
+      if (isCoop && p2p.role === "guest") {
+        // Guest gak nyimulasiin dunia -- minta host yang ngebom & mukul boss
+        p2p.send({ t: "bomb" });
+      } else {
+        clearEnemies();
+        if (gRef.current.boss) damageBoss(BOSS_QUESTION_DAMAGE);
+      }
     }
     setTimeout(() => {
       setQuestion(null);
       if (gRef.current) {
-        gRef.current.paused = false;
+        gRef.current.questionActive = false;
+        if (!isCoop) gRef.current.paused = false;
         gRef.current.lastQuestionAt = performance.now();
       }
     }, 800);
@@ -368,10 +705,17 @@ export default function PlaneMode() {
   const respawnProgressRef = useRef(0);
 
   function startRespawnGauntlet() {
+    const g = gRef.current;
+    const isCoop = !!(p2pRef.current && p2pRef.current.active());
     respawnProgressRef.current = 0;
     setRespawning(true);
     setRespawnProgress(0);
-    gRef.current.paused = true;
+    g.questionActive = true;
+    // Di 2P gak boleh pause (bakal bekuin dunia bersama) -- pake invuln
+    // window panjang, trik yang sama kayak soal biasa. Ini yang bikin
+    // respawn gauntlet akhirnya bisa ada juga di mode 2 pemain.
+    if (isCoop) g.invulnUntil = performance.now() + 20000;
+    else g.paused = true;
     setQuestion(generateQuickQuestion(Number(grade), difficulty));
   }
 
@@ -390,6 +734,7 @@ export default function PlaneMode() {
           setLives(MAX_LIVES);
           const g = gRef.current;
           g.respawnsUsed += 1;
+          g.questionActive = false;
           g.invulnUntil = performance.now() + HIT_INVULN_MS;
           g.paused = false;
         } else {
@@ -424,6 +769,80 @@ export default function PlaneMode() {
     }
   }
 
+  // ---------- 2P: lobby ----------
+
+  // Callback P2P dibikin SEKALI pas connect, jadi kalau `handleP2PMessage`
+  // di-pass langsung dia bakal ngunci versi render saat itu. Semua state
+  // penting emang lewat ref, TAPI dilewatin via ref ini biar gak ada jebakan
+  // stale-closure yang susah dilacak di jalur networking.
+  const msgHandlerRef = useRef(null);
+  msgHandlerRef.current = handleP2PMessage;
+
+  function makeP2P() {
+    return new PlaneP2P({
+      onOpen: () => {
+        setLobby(null);
+        setCoopError("");
+        setCoop(p2pRef.current.role);
+        // Dua-duanya mulai ronde sendiri; simulasi host yang jadi acuan
+        // dunia bersama dari sini.
+        startRun("medium");
+      },
+      onMessage: (msg) => msgHandlerRef.current?.(msg),
+      onFail: (reason) => {
+        p2pRef.current = null;
+        setLobby(null);
+        setCoop(null);
+        setCoopError(reason);
+      },
+      onBanner: (text) => setBanner(text),
+    });
+  }
+
+  async function hostRoom() {
+    setCoopError("");
+    try {
+      p2pRef.current = makeP2P();
+      const code = await p2pRef.current.createRoom();
+      setRoomCode(code);
+      setLobby("hosting");
+    } catch {
+      p2pRef.current = null;
+      setLobby(null);
+      setCoopError("Gagal bikin room. Cek koneksi internet, ya.");
+    }
+  }
+
+  async function joinRoom(code) {
+    setCoopError("");
+    setLobby("connecting");
+    try {
+      p2pRef.current = makeP2P();
+      await p2pRef.current.joinRoom(code);
+    } catch (e) {
+      p2pRef.current?.close();
+      p2pRef.current = null;
+      setLobby("joining");
+      setCoopError(e.message || "Gagal gabung room.");
+    }
+  }
+
+  function cancelCoop() {
+    p2pRef.current?.close();
+    p2pRef.current = null;
+    setLobby(null);
+    setCoopError("");
+    setJoinCode("");
+  }
+
+  // Tutup koneksi pas keluar dari layar Plane Mode
+  useEffect(() => {
+    return () => {
+      p2pRef.current?.close();
+      p2pRef.current = null;
+    };
+  }, []);
+
   function startRun(diff) {
     cleanupWorld();
     setDifficulty(diff);
@@ -437,6 +856,7 @@ export default function PlaneMode() {
       powerups: [],
       boss: null,
       bossThreshold: BOSS_SCORE_THRESHOLD_START,
+      bossStep: BOSS_THRESHOLD_STEP,
       bossesDefeated: 0,
       enemyDensity: 1,
       respawnsUsed: 0,
@@ -451,9 +871,14 @@ export default function PlaneMode() {
       invulnUntil: 0,
       paused: false,
       ended: false,
+      questionActive: false,
+      idSeq: 0,
+      livesNow: MAX_LIVES, // mirror `lives` yang kebaca sinkron di p2pTick
+      down: false,
     };
     setScore(0);
     setLives(MAX_LIVES);
+    setDown(false);
     setQuestion(null);
     setBossHp(null);
     setRespawning(false);
@@ -467,8 +892,14 @@ export default function PlaneMode() {
     function frame() {
       const g = gRef.current;
       if (!g || g.ended) return;
+      // `now` WAJIB di luar `if (!g.paused)` -- `p2pTick(now)` di bawah
+      // (di luar blok itu) kepanggil TIAP frame gak peduli pause,
+      // sebelumnya `const now` ke-declare di dalem blok jadi out-of-scope
+      // pas dipanggil, `ReferenceError: now is not defined` bahkan di
+      // mode solo (`p2pTick` sendiri no-op kalau `p2pRef.current` null,
+      // tapi baris pemanggilnya tetep jalan apapun mode-nya).
+      const now = performance.now();
       if (!g.paused) {
-        const now = performance.now();
         const rapidActive = now < g.rapidUntil;
         const shieldActive = now < g.shieldUntil;
         const wingmenActive = now < g.wingmenUntil;
@@ -479,18 +910,24 @@ export default function PlaneMode() {
           setActivePowerups(activePowerupsRef.current);
         }
 
-        const vec = joystick.vecRef.current;
-        g.x = Math.max(6, Math.min(94, g.x + vec.x * SHIP_SPEED));
-        g.y = Math.max(10, Math.min(94, g.y + vec.y * SHIP_SPEED));
-        if (shipRef.current) {
-          shipRef.current.style.left = g.x + "%";
-          shipRef.current.style.top = g.y + "%";
-        }
+        // Kalau udah jatuh (mode 2P), kapal sendiri ilang & berhenti nembak --
+        // tinggal nonton layar partner sampai dia juga jatuh.
+        if (!g.down) {
+          const vec = joystick.vecRef.current;
+          g.x = Math.max(6, Math.min(94, g.x + vec.x * SHIP_SPEED));
+          g.y = Math.max(10, Math.min(94, g.y + vec.y * SHIP_SPEED));
+          if (shipRef.current) {
+            shipRef.current.style.left = g.x + "%";
+            shipRef.current.style.top = g.y + "%";
+          }
 
-        const fireInterval = rapidActive ? RAPID_FIRE_INTERVAL_MS : FIRE_INTERVAL_MS;
-        if (now - g.lastFireAt > fireInterval) {
-          g.lastFireAt = now;
-          fireShip();
+          const fireInterval = rapidActive ? RAPID_FIRE_INTERVAL_MS : FIRE_INTERVAL_MS;
+          if (now - g.lastFireAt > fireInterval) {
+            g.lastFireAt = now;
+            fireShip();
+          }
+        } else if (shipRef.current) {
+          shipRef.current.style.display = "none";
         }
 
         // Wingmen -- 2 pesawat kecil ngikutin posisi ship (offset kiri-
@@ -510,30 +947,38 @@ export default function PlaneMode() {
         } else if (g.wingmen.length) {
           removeWingmen();
         }
-        // musuh biasa berhenti spawn total pas boss lagi aktif
-        const spawnMs = Math.max(ENEMY_SPAWN_MS_MIN, ENEMY_SPAWN_MS / g.enemyDensity);
-        if (!g.boss && now - g.lastSpawnAt > spawnMs) {
-          g.lastSpawnAt = now;
-          spawnEnemy();
-        }
-        const questionInterval = Math.max(QUESTION_INTERVAL_MIN_MS, QUESTION_INTERVAL_MS - g.bossesDefeated * 500);
-        if (now - g.lastQuestionAt > questionInterval) {
-          askQuestion();
-        }
-        // boss muncul begitu skor nyampe threshold & belum ada boss aktif
-        if (!g.boss && g.score >= g.bossThreshold) {
-          spawnBoss();
-        }
+        // Guest GAK nyimulasiin dunia bersama sama sekali -- dia cuma
+        // ngerender snapshot host (lihat applyWorld). Semua yang di blok
+        // ini nge-spawn/nggerakin entitas milik dunia, jadi khusus host.
+        const isGuest = p2pRef.current && p2pRef.current.active() && p2pRef.current.role === "guest";
 
-        for (const e of g.enemies) {
-          if (now > e.nextFireAt) {
-            spawnEnemyBullet(e.x, e.y + 3);
-            e.nextFireAt = now + rand(ENEMY_FIRE_MIN_MS, ENEMY_FIRE_MAX_MS);
+        if (!isGuest) {
+          // musuh biasa berhenti spawn total pas boss lagi aktif
+          const spawnMs = Math.max(ENEMY_SPAWN_MS_MIN, ENEMY_SPAWN_MS / g.enemyDensity);
+          if (!g.boss && now - g.lastSpawnAt > spawnMs) {
+            g.lastSpawnAt = now;
+            spawnEnemy();
           }
-        }
-        if (g.boss && now > g.boss.nextFireAt) {
-          spawnEnemyBullet(g.boss.x, g.boss.y + 8, BOSS_AIM_SPREAD_DEG);
-          g.boss.nextFireAt = now + rand(g.boss.type.fireMin, g.boss.type.fireMax);
+          const questionInterval = Math.max(QUESTION_INTERVAL_MIN_MS, QUESTION_INTERVAL_MS - g.bossesDefeated * 500);
+          if (now - g.lastQuestionAt > questionInterval) {
+            askQuestion();
+          }
+          // boss muncul begitu skor nyampe threshold & belum ada boss aktif
+          if (!g.boss && g.score >= g.bossThreshold) {
+            spawnBoss();
+          }
+
+          for (const e of g.enemies) {
+            if (now > e.nextFireAt) {
+              spawnEnemyBullet(e.x, e.y + 3);
+              e.nextFireAt = now + rand(ENEMY_FIRE_MIN_MS, ENEMY_FIRE_MAX_MS);
+            }
+          }
+          if (g.boss && now > g.boss.nextFireAt) {
+            spawnEnemyBullet(g.boss.x, g.boss.y + 8, BOSS_AIM_SPREAD_DEG);
+            g.boss.nextFireAt =
+              now + rand(BOSS_BASE_FIRE_MIN_MS, BOSS_BASE_FIRE_MAX_MS) * g.boss.type.fireMult;
+          }
         }
 
         g.bullets = g.bullets.filter((b) => {
@@ -547,6 +992,10 @@ export default function PlaneMode() {
           b.el.style.top = b.y + "%";
           return true;
         });
+        // Entitas dunia digerakin CUMA sama host -- di guest posisinya udah
+        // ditentuin snapshot yang masuk, nggerakin lagi di sini bakal bikin
+        // dobel-gerak lalu ke-snap balik tiap paket (keliatan patah-patah).
+        if (!isGuest) {
         g.enemyBullets = g.enemyBullets.filter((b) => {
           b.x += b.vx;
           b.y += b.vy;
@@ -565,7 +1014,6 @@ export default function PlaneMode() {
           if (e.move === "sine") e.x += Math.sin(now / 300 + e.phase) * 0.3;
           else if (e.move === "homing") e.x += Math.sign(g.x - e.x) * ENEMY_HOMING_STEP;
           else if (e.move === "zigzag") e.x += (Math.sin(now / 140 + e.phase) > 0 ? 1 : -1) * ENEMY_ZIGZAG_STEP;
-          e.x = Math.max(2, Math.min(98, e.x));
           e.x = Math.max(4, Math.min(96, e.x));
           if (e.y > 106) {
             e.el.remove();
@@ -586,12 +1034,12 @@ export default function PlaneMode() {
           return true;
         });
         if (g.boss) {
-          g.boss.x += g.boss.dir * g.boss.type.speed;
+          g.boss.x += g.boss.dir * BOSS_BASE_SPEED * g.boss.type.speedMult;
           if (g.boss.x < 12 || g.boss.x > 88) g.boss.dir *= -1;
           g.boss.x = Math.max(12, Math.min(88, g.boss.x));
-          // 🦑 gerak angka-8: sumbu X-nya tetep mantul kiri-kanan kayak boss
-          // lain, TAPI Y-nya ikut naik-turun 2x lebih cepet -- kombinasi itu
-          // yang bikin lintasannya kebaca sebagai angka 8, bukan cuma geser.
+          // Tipe "figure8": sumbu X tetep mantul kiri-kanan kayak boss lain,
+          // TAPI Y-nya ikut naik-turun -- kombinasi itu yang bikin
+          // lintasannya kebaca sebagai angka 8, bukan cuma geser doang.
           g.boss.y =
             g.boss.type.move === "figure8"
               ? BOSS_Y + Math.sin((now - g.boss.spawnedAt) / 420) * BOSS_FIGURE8_AMP_Y
@@ -599,7 +1047,11 @@ export default function PlaneMode() {
           g.boss.el.style.left = g.boss.x + "%";
           g.boss.el.style.top = g.boss.y + "%";
         }
+        } // end !isGuest (gerak entitas dunia)
 
+        // Collision SELALU dicek LOKAL di kedua sisi, lawan persis apa yang
+        // kegambar di layar sendiri -- lihat komentar panjang di planeP2P.js
+        // soal kenapa bukan host yang ngadili.
         // bullet vs enemy biasa (drop power-up chance)
         outer: for (const e of g.enemies.slice()) {
           for (const b of g.bullets.slice()) {
@@ -609,7 +1061,8 @@ export default function PlaneMode() {
               b.el.remove();
               g.enemies = g.enemies.filter((x) => x !== e);
               g.bullets = g.bullets.filter((x) => x !== b);
-              if (Math.random() < POWERUP_DROP_CHANCE) spawnPowerup(e.x, e.y);
+              if (p2pRef.current) p2pRef.current.markKill(e.id);
+              if (!isGuest && Math.random() < POWERUP_DROP_CHANCE) spawnPowerup(e.x, e.y);
               bumpScore(1);
               break outer;
             }
@@ -618,10 +1071,13 @@ export default function PlaneMode() {
         // bullet vs boss
         if (g.boss) {
           for (const b of g.bullets.slice()) {
-            if (pxDist(g.boss.x, g.boss.y, b.x, b.y) < HIT_RADIUS_PX + 8) {
+            if (pxDist(g.boss.x, g.boss.y, b.x, b.y) < HIT_RADIUS_PX * BOSS_HIT_MULT) {
               b.el.remove();
               g.bullets = g.bullets.filter((x) => x !== b);
-              damageBoss(1);
+              // Guest gak megang HP boss otoritatif -- dia lapor ke host,
+              // host yang ngurangin & nyiarin HP barunya.
+              if (isGuest) p2pRef.current.markBossHit(1);
+              else damageBoss(1);
               break;
             }
           }
@@ -631,6 +1087,7 @@ export default function PlaneMode() {
         g.powerups = g.powerups.filter((p) => {
           if (pxDist(p.x, p.y, g.x, g.y) < POWERUP_PICKUP_RADIUS_PX) {
             p.el.remove();
+            if (p2pRef.current) p2pRef.current.markPickup(p.id);
             if (p.type === "rapid") g.rapidUntil = now + RAPID_DURATION_MS;
             else if (p.type === "shield") g.shieldUntil = now + SHIELD_DURATION_MS;
             else if (p.type === "heal") setLives((l) => Math.min(MAX_LIVES, l + 1));
@@ -643,8 +1100,8 @@ export default function PlaneMode() {
           return true;
         });
 
-        // ship hit
-        if (now >= g.invulnUntil) {
+        // ship hit -- yang udah jatuh (2P) gak bisa kena lagi
+        if (now >= g.invulnUntil && !g.down) {
           let hit = false;
           for (const e of g.enemies) {
             if (pxDist(e.x, e.y, g.x, g.y) < HIT_RADIUS_PX) hit = true;
@@ -652,7 +1109,7 @@ export default function PlaneMode() {
           for (const b of g.enemyBullets) {
             if (pxDist(b.x, b.y, g.x, g.y) < HIT_RADIUS_PX) hit = true;
           }
-          if (g.boss && pxDist(g.boss.x, g.boss.y, g.x, g.y) < HIT_RADIUS_PX + 10) hit = true;
+          if (g.boss && pxDist(g.boss.x, g.boss.y, g.x, g.y) < HIT_RADIUS_PX * BOSS_HIT_MULT) hit = true;
           if (hit) {
             if (now < g.shieldUntil) {
               // shield nyerap 1 hit, gak kurangin nyawa
@@ -666,9 +1123,18 @@ export default function PlaneMode() {
               }
               setLives((l) => {
                 const nl = l - 1;
+                g.livesNow = nl;
                 if (nl <= 0) {
                   if (g.respawnsUsed < MAX_RESPAWNS) {
                     startRespawnGauntlet();
+                  } else if (p2pRef.current && p2pRef.current.active()) {
+                    // Di 2P nyawa habis GAK ngakhirin ronde -- kamu jadi
+                    // penonton, tetep liat layar partner sampe dia juga
+                    // jatuh, baru layar akhir muncul buat berdua.
+                    g.down = true;
+                    setDown(true);
+                    p2pRef.current.send({ t: "over" });
+                    if (p2pRef.current.peer.down) endRun();
                   } else {
                     endRun();
                   }
@@ -679,6 +1145,7 @@ export default function PlaneMode() {
           }
         }
       }
+      p2pTick(now);
       rafRef.current = requestAnimationFrame(frame);
     }
     rafRef.current = requestAnimationFrame(frame);
@@ -722,6 +1189,66 @@ export default function PlaneMode() {
                 </Button>
               ))}
             </div>
+
+            <div style={{ width: "100%", borderTop: "2px dashed var(--cream-300)", paddingTop: 14, marginTop: 4 }}>
+              <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.85rem", color: "var(--ink-700)", textAlign: "center", marginBottom: 8 }}>
+                👥 Main Berdua
+              </div>
+              {!lobby && (
+                <div style={{ display: "flex", gap: 10 }}>
+                  <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={hostRoom}>
+                    Bikin Room
+                  </Button>
+                  <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={() => { setLobby("joining"); setCoopError(""); }}>
+                    Gabung
+                  </Button>
+                </div>
+              )}
+              {lobby === "hosting" && (
+                <div style={{ textAlign: "center" }}>
+                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.78rem", color: "var(--ink-500)" }}>Kasih kode ini ke temanmu:</div>
+                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "2rem", letterSpacing: 6, color: "var(--ink-900)", margin: "6px 0" }}>
+                    {roomCode}
+                  </div>
+                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)" }}>Nunggu pemain kedua…</div>
+                  <Button variant="secondary" size="sm" style={{ marginTop: 8 }} onClick={cancelCoop}>
+                    Batal
+                  </Button>
+                </div>
+              )}
+              {lobby === "joining" && (
+                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  <input
+                    value={joinCode}
+                    onChange={(e) => setJoinCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
+                    placeholder="KODE 6 DIGIT"
+                    inputMode="numeric"
+                    style={{
+                      border: "2px solid var(--cream-300)", borderRadius: "var(--radius-lg)", padding: "10px 12px",
+                      fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.1rem", letterSpacing: 4, textAlign: "center",
+                    }}
+                  />
+                  <div style={{ display: "flex", gap: 8 }}>
+                    <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={cancelCoop}>
+                      Batal
+                    </Button>
+                    <Button variant="primary" size="md" style={{ flex: 1 }} disabled={joinCode.length !== 6} onClick={() => joinRoom(joinCode)}>
+                      Gabung
+                    </Button>
+                  </div>
+                </div>
+              )}
+              {lobby === "connecting" && (
+                <div style={{ textAlign: "center", fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>
+                  Nyambungin ke pemain satunya…
+                </div>
+              )}
+              {coopError && (
+                <div style={{ marginTop: 8, textAlign: "center", fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--color-error)", fontWeight: 700 }}>
+                  {coopError}
+                </div>
+              )}
+            </div>
           </div>
         )}
 
@@ -763,6 +1290,19 @@ export default function PlaneMode() {
               </div>
               <div>{"❤️".repeat(Math.max(0, lives))}{"🖤".repeat(MAX_LIVES - Math.max(0, lives))}</div>
             </div>
+            {coop && (
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 18px 6px", fontFamily: "var(--font-body)", fontSize: "0.74rem", fontWeight: 700 }}>
+                <span style={{ color: "#8E6FD0" }}>
+                  👥 Partner: {peerHud ? `⭐ ${peerHud.score} ${peerHud.down ? "💀" : "❤️".repeat(Math.max(0, peerHud.lives))}` : "…"}
+                </span>
+                {banner && <span style={{ color: "var(--color-error)" }}>{banner}</span>}
+              </div>
+            )}
+            {down && (
+              <div style={{ padding: "0 18px 6px", fontFamily: "var(--font-body)", fontWeight: 700, fontSize: "0.78rem", color: "var(--color-error)", textAlign: "center" }}>
+                💀 Kamu jatuh — nonton partner dulu ya…
+              </div>
+            )}
             {bossHp && (
               <div style={{ padding: "0 18px 8px" }}>
                 <div style={{ fontSize: "0.72rem", fontFamily: "var(--font-body)", color: "var(--ink-500)", marginBottom: 2 }}>🐉 Boss</div>
@@ -782,6 +1322,26 @@ export default function PlaneMode() {
                 overflow: "hidden",
               }}
             >
+              {/* Kapal partner -- posisinya di-update lewat DOM langsung dari
+                  paket status, transisi CSS ngehalusin jeda antar paket
+                  (20x/detik, bukan tiap frame). */}
+              {coop && (
+                <div
+                  ref={peerShipRef}
+                  style={{
+                    position: "absolute",
+                    left: "50%",
+                    top: "50%",
+                    transform: "translate(-50%,-50%)",
+                    lineHeight: 0,
+                    display: "none",
+                    transition: "left .05s linear, top .05s linear",
+                    filter: "hue-rotate(120deg)",
+                  }}
+                >
+                  <PlaneSkinSvg skinId={planeSkin.id} size={24} glow="#B98CF0" />
+                </div>
+              )}
               <div ref={shipRef} style={{ position: "absolute", left: SHIP_START.x + "%", top: SHIP_START.y + "%", transform: "translate(-50%,-50%)", lineHeight: 0 }}>
                 <PlaneSkinSvg skinId={planeSkin.id} size={26} glow={planeSkin.glow} />
               </div>

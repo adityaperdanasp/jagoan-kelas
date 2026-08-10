@@ -25,6 +25,10 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const logRef = useRef([]);
+  // Detail LENGKAP tiap soal yang salah (bukan cuma {id,correct} kayak
+  // `logRef`) -- dipake buat rekap "yang masih perlu dilatih" abis quiz
+  // + jadi konteks buat Kiko pas anak tanya kenapa salah.
+  const wrongLogRef = useRef([]);
 
   const q = questions[index];
   const isMc = q.type === "multiple_choice";
@@ -39,7 +43,17 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
     setAnswered(true);
     logRef.current.push({ id: q.id, correct });
     if (correct) setCorrectCount((c) => c + 1);
-    else setWrongCount((w) => w + 1);
+    else {
+      setWrongCount((w) => w + 1);
+      wrongLogRef.current.push({
+        id: q.id,
+        prompt: q.question,
+        options: q.options,
+        correctAnswer: q.answer,
+        kidAnswer: val,
+        explanation: q.explanation,
+      });
+    }
   }
 
   function next() {
@@ -49,6 +63,7 @@ export default function QuizRunner({ questions, onFinish, subjectName, gradeLabe
         wrong: wrongCount,
         total: questions.length,
         results: logRef.current,
+        wrongLog: wrongLogRef.current,
       });
       return;
     }

@@ -328,12 +328,6 @@ export default function NinjaRunner() {
             </div>
           )}
 
-          <div className="jk-nj-hint">
-            {phase === "lane" && "Batu di depan! Tap JUMP buat lompatin 🪨"}
-            {phase === "gates" && "Pilih subject (kesulitan tiap kartu acak):"}
-            {phase === "question" && `Jawab soal ${SUBJECTS[question.subjectKey]} (${question.difficulty.toUpperCase()}):`}
-          </div>
-
           {toast && (
             <div
               style={{
@@ -345,6 +339,23 @@ export default function NinjaRunner() {
               {toast}
             </div>
           )}
+        </div>
+
+        {/* Fix bug user "box soal nutupin jawab soal" (2026-08-10) -- di
+            al-idrisi, `.ninja-hint` itu SIBLING DI LUAR `#ninja-world`
+            (index.html: `</div>` nutup ninja-world duluan, BARU
+            `<div class="ninja-hint">` nongol). Sebelumnya di sini
+            `.jk-nj-hint` numpang JADI CHILD `.jk-nj-world`, di normal
+            flow SETELAH `.jk-nj-run-lane` yang absolute -- karena semua
+            sibling sebelumnya absolute (keluar dari flow), hint jadi
+            "anak flow pertama" yang collapse ke PALING ATAS wrapper,
+            numpuk sama card/soal yang emang sengaja `top:20px` absolute
+            di situ. Pindah ke luar `.jk-nj-world` (row sendiri di bawah
+            kotak game) = match posisi asli, gak nabrak lagi. */}
+        <div className="jk-nj-hint">
+          {phase === "lane" && "Batu di depan! Tap JUMP buat lompatin 🪨"}
+          {phase === "gates" && "Pilih subject (kesulitan tiap kartu acak):"}
+          {phase === "question" && question && `Jawab soal ${SUBJECTS[question.subjectKey]} (${question.difficulty.toUpperCase()}):`}
         </div>
       </div>
 

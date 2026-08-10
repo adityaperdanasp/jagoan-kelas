@@ -27,7 +27,30 @@ import { pickEncouragement } from "../../data/encouragement";
 const TOTAL_QUESTIONS = 10;
 const STEP_PCT = 100 / TOTAL_QUESTIONS;
 const ROLES = ["p1", "p2", "p3"];
-const AVATARS = { p1: "🚗", p2: "🚕", p3: "🚙" };
+
+// 4 fitur yang tadinya belum ke-port dari al-idrisi `multipleazka`
+// (2026-08-10, bug report user "tidak ada ai lawan, tidak ada opsi
+// jawaban isian atau easy medium hard..., tidak ada pilihan mobil"):
+// difficulty (ngatur rentang angka, `generateQuickQuestion` UDAH nerima
+// param ini dari awal -- cuma dulu di-hardcode "medium" di sini, gak
+// ada UI buat milih), 6 kendaraan (`VEHICLE_EMOJI` al-idrisi), mode
+// jawaban pilihan-ganda vs isian (ketik angka), dan AI lawan buat Solo
+// Play (progress jalan konstan, ngejar garis finis dalem `opponentSeconds`
+// -- nilai DIFFICULTY di bawah disalin PERSIS dari `multipleazka/script.js`).
+const DIFFICULTY = {
+  easy: { label: "Gampang 🙂", opponentSeconds: 90 },
+  medium: { label: "Sedang 😎", opponentSeconds: 55 },
+  hard: { label: "Susah 🔥", opponentSeconds: 40 },
+};
+const VEHICLES = [
+  { id: "car", emoji: "🏎️", label: "Mobil" },
+  { id: "plane", emoji: "🛩️", label: "Pesawat" },
+  { id: "ship", emoji: "🚢", label: "Kapal" },
+  { id: "bus", emoji: "🚌", label: "Bus" },
+  { id: "truck", emoji: "🚚", label: "Truk" },
+  { id: "train", emoji: "🚂", label: "Kereta" },
+];
+const VEHICLE_EMOJI = Object.fromEntries(VEHICLES.map((v) => [v.id, v.emoji]));
 
 function genCode() {
   const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
@@ -51,14 +74,27 @@ export default function MathRace() {
   const [error, setError] = useState(null);
   const [busy, setBusy] = useState(false);
 
+  const [difficulty, setDifficulty] = useState("medium");
+  const [answerMode, setAnswerMode] = useState("choice"); // "choice" | "type"
+  const [vehicle, setVehicle] = useState("car");
+  const [typedValue, setTypedValue] = useState("");
+
   const [question, setQuestion] = useState(null);
   const [answered, setAnswered] = useState(false);
+  const [lastCorrect, setLastCorrect] = useState(null);
   const [progress, setProgress] = useState(0);
   const [qIndex, setQIndex] = useState(0);
   const [place, setPlace] = useState(null);
   const [startTime, setStartTime] = useState(null);
   const [finishMs, setFinishMs] = useState(null);
   const [encouragement, setEncouragement] = useState("");
+
+  // AI lawan (Solo Play doang) -- progress jalan konstan lewat setInterval,
+  // BUKAN React state per-tick (biar gak re-render tiap 100ms), cuma
+  // di-flush ke state pas race selesai/dibandingin buat nentuin placement.
+  const [aiProgress, setAiProgress] = useState(0);
+  const aiProgressRef = useRef(0);
+  const aiTimerRef = useRef(null);
 
   const roomPathRef = useRef(null);
 
@@ -81,9 +117,36 @@ export default function MathRace() {
   }, [code]);
 
   function rollQuestion() {
-    setQuestion(generateQuickQuestion(grade, "medium"));
+    setQuestion(generateQuickQuestion(grade, difficulty));
     setAnswered(false);
+    setLastCorrect(null);
+    setTypedValue("");
   }
+
+  function stopAiOpponent() {
+    if (aiTimerRef.current) {
+      clearInterval(aiTimerRef.current);
+      aiTimerRef.current = null;
+    }
+  }
+
+  // Progress konstan (gak reaktif ke performa anak, PERSIS filosofi
+  // al-idrisi punya) -- ngejar 100% dalem `opponentSeconds` detik, di-tick
+  // tiap 100ms biar progress bar-nya keliatan mulus.
+  function startAiOpponent() {
+    stopAiOpponent();
+    aiProgressRef.current = 0;
+    setAiProgress(0);
+    const seconds = DIFFICULTY[difficulty].opponentSeconds;
+    const stepPct = 100 / (seconds * 10);
+    aiTimerRef.current = setInterval(() => {
+      aiProgressRef.current = Math.min(100, aiProgressRef.current + stepPct);
+      setAiProgress(aiProgressRef.current);
+      if (aiProgressRef.current >= 100) stopAiOpponent();
+    }, 100);
+  }
+
+  useEffect(() => stopAiOpponent, []);
 
   async function createRoom(n) {
     setBusy(true);
@@ -97,7 +160,7 @@ export default function MathRace() {
         status: "waiting",
         createdAt: Date.now(),
         finishCount: 0,
-        players: { [myRole]: { name: player.name, progress: 0, connected: true } },
+        players: { [myRole]: { name: player.name, progress: 0, connected: true, vehicle } },
       });
       onDisconnect(ref(rtdb, `mathrace_games/${newCode}/players/${myRole}/connected`)).set(false);
       setCode(newCode);
@@ -140,6 +203,7 @@ export default function MathRace() {
         name: player.name,
         progress: 0,
         connected: true,
+        vehicle,
       });
       onDisconnect(ref(rtdb, `mathrace_games/${c}/players/${openRole}/connected`)).set(false);
       setCode(c);
@@ -161,13 +225,25 @@ export default function MathRace() {
   function startSolo() {
     setMode("racing");
     setStartTime(Date.now());
+    startAiOpponent();
     rollQuestion();
   }
 
-  async function handleAnswer(choiceLabel) {
+  function submitTyped() {
+    if (!typedValue) return;
+    handleAnswer(typedValue);
+  }
+
+  // `given` -- label tombol MC (udah persis format `fmt()`, misal "1,234")
+  // ATAU angka ketikan mode isian (digit polos, misal "1234") -- normalize
+  // dua-duanya (buang koma/spasi) sebelum dibandingin biar isian tetep
+  // dianggap bener walau anak gak ngetik pemisah ribuan.
+  async function handleAnswer(given) {
     if (answered || !question) return;
     setAnswered(true);
-    const isCorrect = choiceLabel === question.correctLabel;
+    const norm = (s) => String(s).replace(/[,.\s]/g, "");
+    const isCorrect = norm(given) === norm(question.correctLabel);
+    setLastCorrect(isCorrect);
     if (!isCorrect) {
       setTimeout(() => {
         if (qIndex + 1 >= TOTAL_QUESTIONS) return endRace();
@@ -200,7 +276,12 @@ export default function MathRace() {
       setPlace(myPlace);
       await update(ref(rtdb, `mathrace_games/${code}/players/${role}`), { finished: true, place: myPlace });
     } else {
-      setPlace(1);
+      // Solo -- placement ditentuin ngelawan AI: kalau AI udah nyampe 100%
+      // duluan (progress-nya jalan konstan dari `startAiOpponent()`, gak
+      // nunggu anak selesai), anak finis ke-2, kalau enggak ya ke-1.
+      stopAiOpponent();
+      myPlace = aiProgressRef.current >= 100 ? 2 : 1;
+      setPlace(myPlace);
     }
     // Reuse pesan semangat non-personalized yang udah ada (`encouragement.js`,
     // dipake juga di TopicQuiz/FocusRoundQuiz) -- gak ada skor akurasi di
@@ -215,6 +296,7 @@ export default function MathRace() {
   }
 
   function restart() {
+    stopAiOpponent();
     setMode("lobby");
     setCode(null);
     setRole(null);
@@ -223,11 +305,15 @@ export default function MathRace() {
     setQIndex(0);
     setQuestion(null);
     setAnswered(false);
+    setLastCorrect(null);
     setPlace(null);
     setStartTime(null);
     setFinishMs(null);
     setError(null);
     setJoinCode("");
+    setTypedValue("");
+    setAiProgress(0);
+    aiProgressRef.current = 0;
   }
 
   const playersInRoom = room?.players ? Object.entries(room.players) : [];
@@ -243,6 +329,50 @@ export default function MathRace() {
           <div style={{ textAlign: "center", fontSize: 40 }}>🏎️💨🏎️</div>
           <div style={{ textAlign: "center", color: "var(--ink-500)", fontFamily: "var(--font-body)" }}>
             Jawab soal matematika secepat mungkin, siapa duluan nyampe garis finis menang!
+          </div>
+
+          <div style={{ background: "var(--cream-100)", borderRadius: 16, padding: 16 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, marginBottom: 10 }}>🎚️ Tingkat Kesulitan</div>
+            <div style={{ display: "flex", gap: 8 }}>
+              {Object.entries(DIFFICULTY).map(([key, d]) => (
+                <Button key={key} variant={difficulty === key ? "primary" : "secondary"} size="sm" style={{ flex: 1, justifyContent: "center" }} onClick={() => setDifficulty(key)}>
+                  {d.label}
+                </Button>
+              ))}
+            </div>
+          </div>
+
+          <div style={{ background: "var(--cream-100)", borderRadius: 16, padding: 16 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, marginBottom: 10 }}>✍️ Cara Jawab</div>
+            <div style={{ display: "flex", gap: 8 }}>
+              <Button variant={answerMode === "choice" ? "primary" : "secondary"} size="sm" style={{ flex: 1, justifyContent: "center" }} onClick={() => setAnswerMode("choice")}>
+                Pilihan Ganda
+              </Button>
+              <Button variant={answerMode === "type" ? "primary" : "secondary"} size="sm" style={{ flex: 1, justifyContent: "center" }} onClick={() => setAnswerMode("type")}>
+                Isian (Ketik)
+              </Button>
+            </div>
+          </div>
+
+          <div style={{ background: "var(--cream-100)", borderRadius: 16, padding: 16 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, marginBottom: 10 }}>🚦 Pilih Kendaraan</div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
+              {VEHICLES.map((v) => (
+                <button
+                  key={v.id}
+                  onClick={() => setVehicle(v.id)}
+                  style={{
+                    display: "flex", flexDirection: "column", alignItems: "center", gap: 4,
+                    padding: "10px 4px", borderRadius: 12, cursor: "pointer",
+                    border: vehicle === v.id ? "3px solid var(--pastel-green)" : "2px solid var(--cream-300)",
+                    background: vehicle === v.id ? "var(--pastel-green)" : "var(--surface-card-alt)",
+                  }}
+                >
+                  <span style={{ fontSize: "1.4rem" }}>{v.emoji}</span>
+                  <span style={{ fontFamily: "var(--font-body)", fontSize: "0.68rem", fontWeight: 700 }}>{v.label}</span>
+                </button>
+              ))}
+            </div>
           </div>
 
           <div style={{ background: "var(--cream-100)", borderRadius: 16, padding: 16 }}>
@@ -308,7 +438,7 @@ export default function MathRace() {
               const p = room?.players?.[r];
               return (
                 <div key={r} style={{ display: "flex", alignItems: "center", gap: 10, padding: 10, borderRadius: 12, background: "var(--cream-100)" }}>
-                  <span style={{ fontSize: "1.3rem" }}>{AVATARS[r]}</span>
+                  <span style={{ fontSize: "1.3rem" }}>{VEHICLE_EMOJI[p?.vehicle] || "🚗"}</span>
                   <span style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: p ? "var(--ink-900)" : "var(--ink-300)" }}>
                     {p ? p.name : "Menunggu..."}
                   </span>
@@ -330,9 +460,14 @@ export default function MathRace() {
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             {code && playersInRoom.length > 0
               ? playersInRoom.map(([r, p]) => (
-                  <RaceLane key={r} avatar={AVATARS[r]} name={r === role ? `${p.name} (kamu)` : p.name} progress={r === role ? progress : p.progress || 0} />
+                  <RaceLane key={r} avatar={VEHICLE_EMOJI[p.vehicle] || "🚗"} name={r === role ? `${p.name} (kamu)` : p.name} progress={r === role ? progress : p.progress || 0} />
                 ))
-              : <RaceLane avatar="🚗" name={`${player.name} (kamu)`} progress={progress} />}
+              : (
+                <>
+                  <RaceLane avatar={VEHICLE_EMOJI[vehicle]} name={`${player.name} (kamu)`} progress={progress} />
+                  <RaceLane avatar="🤖" name="Lawan AI" progress={aiProgress} />
+                </>
+              )}
           </div>
 
           <div style={{ textAlign: "center", fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)", fontSize: "0.8rem" }}>
@@ -343,29 +478,58 @@ export default function MathRace() {
             <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.4rem", color: "var(--ink-900)" }}>{question.prompt}</div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
-            {question.options.map((opt, i) => (
-              <button
-                key={i}
+          {answerMode === "choice" ? (
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+              {question.options.map((opt, i) => (
+                <button
+                  key={i}
+                  disabled={answered}
+                  onClick={() => handleAnswer(opt)}
+                  style={{
+                    border: "none",
+                    borderRadius: 14,
+                    padding: "16px 10px",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: 800,
+                    fontSize: "1.1rem",
+                    cursor: answered ? "default" : "pointer",
+                    background: answered ? (opt === question.correctLabel ? "var(--pastel-green)" : "var(--cream-100)") : "var(--surface-card-alt)",
+                    color: "var(--ink-900)",
+                    boxShadow: "var(--shadow-sticker-sm)",
+                  }}
+                >
+                  {opt}
+                </button>
+              ))}
+            </div>
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              <input
+                value={typedValue}
+                onChange={(e) => setTypedValue(e.target.value.replace(/[^0-9]/g, ""))}
                 disabled={answered}
-                onClick={() => handleAnswer(opt)}
+                inputMode="numeric"
+                placeholder="Ketik jawaban..."
+                autoFocus
+                onKeyDown={(e) => e.key === "Enter" && !answered && typedValue && submitTyped()}
                 style={{
-                  border: "none",
-                  borderRadius: 14,
-                  padding: "16px 10px",
+                  border: `2px solid ${answered ? (lastCorrect ? "var(--color-success)" : "var(--color-error)") : "var(--cream-300)"}`,
+                  borderRadius: "var(--radius-lg)",
+                  padding: "14px 16px",
                   fontFamily: "var(--font-display)",
+                  fontSize: "1.2rem",
                   fontWeight: 800,
-                  fontSize: "1.1rem",
-                  cursor: answered ? "default" : "pointer",
-                  background: answered ? (opt === question.correctLabel ? "var(--pastel-green)" : "var(--cream-100)") : "var(--surface-card-alt)",
-                  color: "var(--ink-900)",
-                  boxShadow: "var(--shadow-sticker-sm)",
+                  textAlign: "center",
+                  boxSizing: "border-box",
                 }}
-              >
-                {opt}
-              </button>
-            ))}
-          </div>
+              />
+              {!answered && (
+                <Button variant="primary" size="lg" disabled={!typedValue} onClick={submitTyped}>
+                  Jawab
+                </Button>
+              )}
+            </div>
+          )}
         </div>
       )}
 

@@ -1,30 +1,61 @@
-import { useEffect } from "react";
-import { Navigate, Routes, Route } from "react-router-dom";
+import { useEffect, lazy, Suspense } from "react";
+import { Navigate, Routes, Route, useLocation } from "react-router-dom";
 import { PlayerProvider, usePlayer } from "./data/PlayerContext";
 import { LanguageProvider } from "./data/LanguageContext";
 import { initBgmUnlock } from "./data/bgm";
-import Auth from "./screens/Auth";
-import Landing from "./screens/Landing";
-import PickSubject from "./screens/PickSubject";
-import SubjectDetail from "./screens/SubjectDetail";
-import DriveMode from "./games/drive/DriveMode";
-import PlaneMode from "./games/plane/PlaneMode";
-import DinoRaceUnlock from "./games/dinorace/DinoRaceUnlock";
-import GlassBridge from "./games/bobridge/GlassBridge";
-import MathRace from "./games/mathrace/MathRace";
-import ParentPortal from "./screens/ParentPortal";
-import TopicQuiz from "./screens/TopicQuiz";
-import FocusRoundPicker from "./screens/FocusRoundPicker";
-import FocusRoundQuiz from "./screens/FocusRoundQuiz";
-import IpasQuestMap from "./screens/IpasQuestMap";
-import MathTownMap from "./screens/MathTownMap";
-import BindoStorybookTrail from "./screens/BindoStorybookTrail";
-import BindoQuestMap from "./screens/BindoQuestMap";
-import BinggrisWorldMap from "./screens/BinggrisWorldMap";
-import PpknVillageMap from "./screens/PpknVillageMap";
-import PaiGardenPath from "./screens/PaiGardenPath";
-import NinjaRunner from "./games/ninja/NinjaRunner";
-import WordScramble from "./games/scramble/WordScramble";
+import Kiko from "./components/ds/Kiko";
+
+// Bug #7 (2026-08-10) -- user: "saat sudah masuk page kelas dan memilih
+// pelajaran kenapa load lama banget?... Apa ada kurang di arsitektur
+// saya?" JAWABANNYA IYA: sebelumnya SEMUA screen + game (Drive/Plane/
+// NinjaRunner/6 peta subject/dst) di-`import` EAGER di sini, jadi build
+// production nge-bundle SEMUANYA jadi 1 file JS gede (>1.1MB, warning
+// "chunk lebih dari 500kB" pas build) -- anak HARUS download+parse+
+// eksekusi KODE SELURUH APP (termasuk game yang belum tentu dia mainin)
+// SEBELUM layar pertama kebuka sama sekali, apalagi di jaringan seluler
+// yang lebih lambat dari WiFi kantor/rumah tempat testing biasa. Fix:
+// `lazy()` per screen/game -- Vite otomatis code-split tiap komponen
+// jadi chunk-nya sendiri (udah kebukti di output build sebelumnya, file
+// `kelas_N-*.js` per konten JSON udah lazy dari awal lewat
+// `import.meta.glob`, screen/game-nya doang yang belum). Sekarang cuma
+// screen yang lagi dibuka yang di-download, "menyiapkan taman"/"loading"
+// generic muncul SEBENTAR pas nunggu 1 chunk itu doang (biasanya cuma
+// beberapa KB), bukan nunggu >1MB kayak sebelumnya.
+const Auth = lazy(() => import("./screens/Auth"));
+const Landing = lazy(() => import("./screens/Landing"));
+const PickSubject = lazy(() => import("./screens/PickSubject"));
+const SubjectDetail = lazy(() => import("./screens/SubjectDetail"));
+const DriveMode = lazy(() => import("./games/drive/DriveMode"));
+const PlaneMode = lazy(() => import("./games/plane/PlaneMode"));
+const DinoRaceUnlock = lazy(() => import("./games/dinorace/DinoRaceUnlock"));
+const GlassBridge = lazy(() => import("./games/bobridge/GlassBridge"));
+const MathRace = lazy(() => import("./games/mathrace/MathRace"));
+const ParentPortal = lazy(() => import("./screens/ParentPortal"));
+const TopicQuiz = lazy(() => import("./screens/TopicQuiz"));
+const FocusRoundPicker = lazy(() => import("./screens/FocusRoundPicker"));
+const FocusRoundQuiz = lazy(() => import("./screens/FocusRoundQuiz"));
+const IpasQuestMap = lazy(() => import("./screens/IpasQuestMap"));
+const MathTownMap = lazy(() => import("./screens/MathTownMap"));
+const BindoStorybookTrail = lazy(() => import("./screens/BindoStorybookTrail"));
+const BindoQuestMap = lazy(() => import("./screens/BindoQuestMap"));
+const BinggrisWorldMap = lazy(() => import("./screens/BinggrisWorldMap"));
+const PpknVillageMap = lazy(() => import("./screens/PpknVillageMap"));
+const PaiGardenPath = lazy(() => import("./screens/PaiGardenPath"));
+const NinjaRunner = lazy(() => import("./games/ninja/NinjaRunner"));
+const WordScramble = lazy(() => import("./games/scramble/WordScramble"));
+
+// Fallback generic (bukan per-screen) -- Suspense di App level cuma
+// nunggu DOWNLOAD chunk-nya, bukan fetch data (tiap screen udah punya
+// loading state sendiri buat itu, gak diubah). Muncul SEBENTAR doang,
+// cuma pas chunk itu beneran belum ke-cache browser.
+function RouteLoadingFallback() {
+  return (
+    <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "var(--surface-card)" }}>
+      <Kiko size={64} style={{ animation: "jkRouteLoadingBob 1s ease-in-out infinite" }} />
+      <style>{`@keyframes jkRouteLoadingBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }`}</style>
+    </div>
+  );
+}
 
 function RequireAuth({ children }) {
   const { player } = usePlayer();
@@ -32,8 +63,29 @@ function RequireAuth({ children }) {
   return children;
 }
 
+// Bug #12 (2026-08-10) -- user: "sudah milih latihan dan mulai latihan.
+// Muncuk page putih, harus scroll keats baru soal ke refresh." Root
+// cause: React Router SPA nav TIDAK reset scroll position (beda dari
+// full page load browser biasa) -- pindah dari layar panjang (misal
+// FocusRoundPicker yang di-scroll jauh ke bawah buat centang topik) ke
+// layar baru yang lebih pendek bikin browser nyangkut di scrollY lama,
+// konten baru ke-render di ATAS titik itu jadi keliatan putih kosong
+// sampe di-scroll manual. Fix generic di App level (bukan cuma Focus
+// Round) -- reset ke atas SETIAP route berubah, biar kelas bug yang
+// sama gak muncul lagi di layar lain manapun.
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 function AppRoutes() {
   return (
+    <>
+    <ScrollToTop />
+    <Suspense fallback={<RouteLoadingFallback />}>
     <Routes>
       <Route path="/masuk" element={<Auth />} />
       <Route path="/" element={<RequireAuth><Landing /></RequireAuth>} />
@@ -85,6 +137,8 @@ function AppRoutes() {
       <Route path="/kelas/:grade/fokus/main" element={<RequireAuth><FocusRoundQuiz /></RequireAuth>} />
       <Route path="/kelas/:grade/ninja" element={<RequireAuth><NinjaRunner /></RequireAuth>} />
     </Routes>
+    </Suspense>
+    </>
   );
 }
 

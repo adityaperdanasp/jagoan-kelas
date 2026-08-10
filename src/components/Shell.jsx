@@ -1,34 +1,33 @@
 import { useT } from "../data/translations";
 
+// Full-bleed (2026-08-10, request user "kok kaya ada card besar sendiri...
+// samain kayak playalidrisi... layar full ga ada lagi card besarnya") --
+// SEBELUMNYA `<main>` dikasih padding 28px/16px + card dalem dikasih
+// border-radius 32px + shadow gede, jadi keliatan kayak card ngambang di
+// atas background gradient body. Al-idrisi punya pola yang MIRIP struktur
+// (`#app { max-width:480px; margin:0 auto; min-height:100vh; ...}`,
+// mathville/style.css) TAPI TANPA padding luar/border-radius/shadow gede
+// -- di layar HP asli (viewport < 480px) itu artinya app-nya ngisi
+// PERSIS tepi-ke-tepi, gak ada gutter buat shadow "ngambang" muncul.
+// Shadow lembut (`0 0 40px`, port persis nilai al-idrisi) cuma keliatan
+// kalau browser LEBIH LEBAR dari 480px (preview desktop doang) -- itu
+// disengaja sama sumber aslinya juga, bukan approximation.
 export default function Shell({ children }) {
   return (
     <main
       style={{
-        maxWidth: 430,
+        maxWidth: 480,
         margin: "0 auto",
         minHeight: "100vh",
+        background: "var(--surface-card)",
+        boxShadow: "0 0 40px rgba(0,0,0,0.08)",
         position: "relative",
         overflow: "hidden",
         display: "flex",
-        alignItems: "center",
-        padding: "28px 16px",
+        flexDirection: "column",
       }}
     >
-      <div
-        style={{
-          width: "100%",
-          background: "var(--surface-card)",
-          borderRadius: "var(--radius-3xl)",
-          boxShadow: "var(--shadow-card)",
-          position: "relative",
-          overflow: "hidden",
-          minHeight: 700,
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        {children}
-      </div>
+      {children}
     </main>
   );
 }

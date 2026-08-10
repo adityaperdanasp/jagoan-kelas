@@ -130,7 +130,11 @@ export function KikoChatPanel({
         style={{
           width: "100%",
           maxWidth: 430,
-          maxHeight: "80vh",
+          // 80vh dulu (2026-08-10) kegedean di iPhone 13 Pro -- apalagi pas
+          // keyboard aktif, panelnya nutup hampir seluruh layar termasuk
+          // konten di belakangnya. min() biar gak kepotong juga di layar
+          // pendek (landscape/tablet kecil).
+          maxHeight: "min(58vh, 460px)",
           background: "var(--cream-50)",
           borderRadius: "var(--radius-2xl) var(--radius-2xl) 0 0",
           boxShadow: "var(--shadow-overlay)",
