@@ -484,7 +484,11 @@ export default function MathTownMap() {
               })}
 
               {travelerPos && (
-                <div
+                <button
+                  onClick={() => {
+                    setHintShown(false);
+                    setChatOpen(true);
+                  }}
                   style={{
                     position: "absolute",
                     left: travelerPos.x,
@@ -497,17 +501,22 @@ export default function MathTownMap() {
                     justifyContent: "center",
                     filter: "drop-shadow(0 3px 4px rgba(59,42,26,0.35))",
                     zIndex: 2,
-                    pointerEvents: "none",
+                    border: "none",
+                    background: "none",
+                    padding: 0,
+                    cursor: "pointer",
+                    // Badge Kiko sebelumnya tombol TERPISAH 18x18px nempel
+                    // di ujung truck -- kekecilan buat jari beneran di HP
+                    // (user lapor "gak bisa dipencet" versi sama di
+                    // BinggrisWorldMap). Sekarang SELURUH truck (40x40)
+                    // jadi tombolnya, sama pola kayak `ShipSvg` IPAS yang
+                    // udah kebukti gampang dipencet -- badge Kiko di bawah
+                    // ini murni dekoratif (gak ada onClick sendiri lagi).
                     animation: walking ? "jkMvWalkBounce 0.3s ease-in-out infinite" : "jkMvIdleBob 1.6s ease-in-out infinite",
                   }}
                 >
                   <span style={{ fontSize: 30, display: "block", transform: facingLeft ? "scaleX(-1)" : "none" }}>🚚</span>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setHintShown(false);
-                      setChatOpen(true);
-                    }}
+                  <span
                     style={{
                       position: "absolute",
                       top: -6,
@@ -516,10 +525,7 @@ export default function MathTownMap() {
                       width: 18,
                       height: 18,
                       borderRadius: "50%",
-                      pointerEvents: "auto",
-                      cursor: "pointer",
                       border: "none",
-                      padding: 0,
                       background: "#fff",
                       display: "flex",
                       alignItems: "center",
@@ -528,7 +534,7 @@ export default function MathTownMap() {
                     }}
                   >
                     <Kiko size={14} />
-                  </button>
+                  </span>
                   {hintShown && !walking && (
                     <span
                       style={{
@@ -551,7 +557,7 @@ export default function MathTownMap() {
                       {t("map", "hiKiko")}
                     </span>
                   )}
-                </div>
+                </button>
               )}
             </div>
           </div>

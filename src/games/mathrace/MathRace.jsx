@@ -4,6 +4,8 @@ import { ref, onValue, set, update, get, runTransaction, onDisconnect, off } fro
 import Shell, { ScreenHeader } from "../../components/Shell";
 import Button from "../../components/ds/Button";
 import PageDecor from "../../components/PageDecor";
+import Kiko from "../../components/ds/Kiko";
+import { KikoChatPanel } from "../quiz/KikoTutorChat";
 import { rtdb } from "../../firebase";
 import { usePlayer } from "../../data/PlayerContext";
 import { generateQuickQuestion } from "../shared/quickQuestion";
@@ -88,6 +90,7 @@ export default function MathRace() {
   const [startTime, setStartTime] = useState(null);
   const [finishMs, setFinishMs] = useState(null);
   const [encouragement, setEncouragement] = useState("");
+  const [chatOpen, setChatOpen] = useState(false);
 
   // AI lawan (Solo Play doang) -- progress jalan konstan lewat setInterval,
   // BUKAN React state per-tick (biar gak re-render tiap 100ms), cuma
@@ -553,6 +556,48 @@ export default function MathRace() {
           </Button>
         </div>
       )}
+
+      {/* "AI box" (2026-08-10, bug report user "tidak ada AI box") --
+          al-idrisi `multipleazka` punya `.game-bo` PERSISTEN (fixed
+          bottom-right, selalu ada selama race+abis race) buat ngobrol
+          bebas, TERPISAH dari `ai-hint-card` yang otomatis ngejelasin
+          soal terakhir yang salah di layar reward. Kita port bagian
+          PERSISTEN-nya doang (chat umum, KikoChatPanel mode "general"
+          yang emang udah ada) -- MathRace gak punya konsep "1 soal
+          terakhir yang salah" sejelas TopicQuiz (jawaban salah LANGSUNG
+          ganti soal, gak ada state buat direnungin), jadi versi
+          auto-explain-miss-nya gak di-port, cukup entry point chat aja. */}
+      {(mode === "racing" || mode === "finished") && (
+        <button
+          onClick={() => setChatOpen(true)}
+          style={{
+            position: "fixed",
+            bottom: "calc(22px + env(safe-area-inset-bottom, 0px))",
+            right: 14,
+            zIndex: 50,
+            width: 44,
+            height: 44,
+            borderRadius: "50%",
+            border: "none",
+            padding: 0,
+            background: "#fff",
+            boxShadow: "0 3px 10px rgba(0,0,0,.18)",
+            cursor: "pointer",
+            animation: "jkMathRaceKikoWiggle 1.8s ease-in-out infinite",
+          }}
+          aria-label="Ngobrol sama Kiko"
+        >
+          <Kiko size={40} />
+        </button>
+      )}
+      <KikoChatPanel open={chatOpen} onClose={() => setChatOpen(false)} mode="general" resetKey="mathrace" />
+
+      <style>{`
+        @keyframes jkMathRaceKikoWiggle {
+          0%, 100% { transform: rotate(-8deg); }
+          50% { transform: rotate(8deg); }
+        }
+      `}</style>
       </div>
     </Shell>
   );

@@ -409,7 +409,11 @@ export default function BinggrisWorldMap() {
             })}
 
             {travelerPos && (
-              <div
+              <button
+                onClick={() => {
+                  setHintShown(false);
+                  setChatOpen(true);
+                }}
                 style={{
                   position: "absolute",
                   left: travelerPos.x,
@@ -422,17 +426,23 @@ export default function BinggrisWorldMap() {
                   justifyContent: "center",
                   filter: "drop-shadow(0 3px 4px rgba(44,75,107,0.35))",
                   zIndex: 2,
-                  pointerEvents: "none",
+                  border: "none",
+                  background: "none",
+                  padding: 0,
+                  cursor: "pointer",
+                  // Sebelumnya cuma badge Kiko 18x18px yang jadi tombol
+                  // terpisah, nempel di ujung pesawat -- user lapor "gak
+                  // bisa dipencet" (kodenya beneran jalan pas dites klik
+                  // presisi, tapi target sekecil itu gak kepencet jari
+                  // beneran di HP). Sekarang SELURUH pesawat (40x40) jadi
+                  // tombolnya, sama pola kayak `ShipSvg` IPAS yang udah
+                  // kebukti gampang dipencet -- badge di bawah ini murni
+                  // dekoratif (gak ada onClick sendiri lagi).
                   animation: walking ? "jkBgFlyBounce 0.3s ease-in-out infinite" : "jkBgIdleBob 1.8s ease-in-out infinite",
                 }}
               >
                 <span style={{ fontSize: 30, display: "block", transform: facingLeft ? "scaleX(-1)" : "none" }}>✈️</span>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setHintShown(false);
-                    setChatOpen(true);
-                  }}
+                <span
                   style={{
                     position: "absolute",
                     top: -6,
@@ -441,10 +451,7 @@ export default function BinggrisWorldMap() {
                     width: 18,
                     height: 18,
                     borderRadius: "50%",
-                    pointerEvents: "auto",
-                    cursor: "pointer",
                     border: "none",
-                    padding: 0,
                     background: "#fff",
                     display: "flex",
                     alignItems: "center",
@@ -453,7 +460,7 @@ export default function BinggrisWorldMap() {
                   }}
                 >
                   <Kiko size={14} />
-                </button>
+                </span>
                 {hintShown && !walking && (
                   <span
                     style={{
@@ -476,7 +483,7 @@ export default function BinggrisWorldMap() {
                     {t("map", "hiKiko")}
                   </span>
                 )}
-              </div>
+              </button>
             )}
           </div>
         </div>
