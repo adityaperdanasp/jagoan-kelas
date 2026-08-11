@@ -60,13 +60,19 @@
             {
               "id": "pai6-d004",
               "topic": "Kisah Dakwah Nabi Muhammad ﷺ",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Perjalanan malam Nabi Muhammad ﷺ dari Masjidil Haram ke Masjidil Aqsa lalu ke langit disebut ...",
               "answer": "Isra Mi'raj",
               "explanation": "Isra Mi'raj",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Gua Hira",
+                "Hijrah",
+                "Madinah",
+                "Isra Mi'raj"
+              ]
             }
           ]
         },

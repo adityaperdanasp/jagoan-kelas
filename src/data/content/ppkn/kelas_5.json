@@ -11,27 +11,45 @@
           "soal": [
             {
               "id": "pp5-001",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pancasila dirumuskan oleh para tokoh bangsa dalam sidang ...",
               "answer": "BPUPKI",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "18 Agustus 1945",
+                "Bangsa Indonesia",
+                "BPUPKI",
+                "Ir. Soekarno"
+              ]
             },
             {
               "id": "pp5-002",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pancasila resmi disahkan sebagai dasar negara pada tanggal ...",
               "answer": "18 Agustus 1945",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bangsa Indonesia",
+                "1 Juni",
+                "BPUPKI",
+                "18 Agustus 1945"
+              ]
             },
             {
               "id": "pp5-003",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tokoh yang mengusulkan istilah Pancasila adalah ...",
               "answer": "Ir. Soekarno",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "BPUPKI",
+                "Bangsa Indonesia",
+                "Ir. Soekarno",
+                "18 Agustus 1945"
+              ]
             },
             {
               "id": "pp5-004",
@@ -49,67 +67,115 @@
             },
             {
               "id": "pp5-005",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Meneladani nilai-nilai Pancasila berarti kita ...",
               "answer": "Menerapkannya dalam kehidupan sehari-hari",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Para pahlawan dan perumus Pancasila",
+                "Keluarga dan sekolah",
+                "Bersikap adil kepada semua orang",
+                "Menerapkannya dalam kehidupan sehari-hari"
+              ]
             },
             {
               "id": "pp5-006",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebelum menjadi Pancasila seperti sekarang, rumusan dasar negara mengalami proses ...",
               "answer": "Perumusan dan penyempurnaan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Para pahlawan dan perumus Pancasila",
+                "Menerapkannya dalam kehidupan sehari-hari",
+                "Perumusan dan penyempurnaan",
+                "Bersikap adil kepada semua orang"
+              ]
             },
             {
               "id": "pp5-007",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Pancasila berfungsi sebagai pandangan hidup bagi ...",
               "answer": "Bangsa Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Ir. Soekarno",
+                "Bangsa Indonesia",
+                "1 Juni",
+                "18 Agustus 1945"
+              ]
             },
             {
               "id": "pp5-008",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh membiasakan sila kelima Pancasila adalah ...",
               "answer": "Bersikap adil kepada semua orang",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bersikap adil kepada semua orang",
+                "Perumusan dan penyempurnaan",
+                "Para pahlawan dan perumus Pancasila",
+                "Berdoa sebelum belajar dan bergotong royong membersihkan kelas"
+              ]
             },
             {
               "id": "pp5-009",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hari lahir Pancasila diperingati setiap tanggal ...",
               "answer": "1 Juni",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bangsa Indonesia",
+                "BPUPKI",
+                "1 Juni",
+                "Ir. Soekarno"
+              ]
             },
             {
               "id": "pp5-010",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Pancasila menjadi dasar dalam pembuatan ...",
               "answer": "Peraturan dan undang-undang di Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berdoa sebelum belajar dan bergotong royong membersihkan kelas",
+                "Peraturan dan undang-undang di Indonesia",
+                "Perumusan dan penyempurnaan",
+                "Para pahlawan dan perumus Pancasila"
+              ]
             },
             {
               "id": "pp5-011",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap rela berkorban demi bangsa dapat kita teladani dari ...",
               "answer": "Para pahlawan dan perumus Pancasila",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berdoa sebelum belajar dan bergotong royong membersihkan kelas",
+                "Para pahlawan dan perumus Pancasila",
+                "Menerapkannya dalam kehidupan sehari-hari",
+                "Peraturan dan undang-undang di Indonesia"
+              ]
             },
             {
               "id": "pp5-012",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Membiasakan diri bersikap sesuai Pancasila sebaiknya dimulai dari lingkungan ...",
               "answer": "Keluarga dan sekolah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Keluarga dan sekolah",
+                "Peraturan dan undang-undang di Indonesia",
+                "Bersikap adil kepada semua orang",
+                "Para pahlawan dan perumus Pancasila"
+              ]
             }
           ]
         },
@@ -119,35 +185,59 @@
           "soal": [
             {
               "id": "pp5-013",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan yang bersumber dari ajaran agama disebut norma ...",
               "answer": "Agama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kesusilaan",
+                "Hukum",
+                "Agama",
+                "Kesopanan"
+              ]
             },
             {
               "id": "pp5-014",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan yang bersumber dari hati nurani manusia disebut norma ...",
               "answer": "Kesusilaan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mufakat",
+                "Agama",
+                "Kesusilaan",
+                "Hukum"
+              ]
             },
             {
               "id": "pp5-015",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan pergaulan dalam masyarakat yang tidak tertulis disebut norma ...",
               "answer": "Kesopanan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Agama",
+                "Mufakat",
+                "Kesopanan",
+                "Hukum"
+              ]
             },
             {
               "id": "pp5-016",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Aturan yang dibuat oleh negara dan memiliki sanksi tegas disebut norma ...",
               "answer": "Hukum",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mufakat",
+                "Hukum",
+                "Agama",
+                "Kesusilaan"
+              ]
             },
             {
               "id": "pp5-017",
@@ -165,59 +255,101 @@
             },
             {
               "id": "pp5-018",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kegiatan berdiskusi untuk mencapai mufakat bersama disebut ...",
               "answer": "Musyawarah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Hukum",
+                "Kesopanan",
+                "Musyawarah",
+                "Agama"
+              ]
             },
             {
               "id": "pp5-019",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tujuan utama musyawarah adalah mencapai ...",
-              "answer": "Mufakat/keputusan bersama",
-              "explanation": ""
+              "answer": "Mufakat",
+              "explanation": "",
+              "options": [
+                "Kesopanan",
+                "Mufakat",
+                "Hukum",
+                "Agama"
+              ]
             },
             {
               "id": "pp5-020",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap yang harus dimiliki saat bermusyawarah adalah ...",
               "answer": "Menghargai pendapat orang lain",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menghargai pendapat orang lain",
+                "Kehidupan bermasyarakat agar tertib",
+                "Berbicara kasar kepada orang yang lebih tua",
+                "Peraturan lalu lintas"
+              ]
             },
             {
               "id": "pp5-021",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Norma sangat penting karena berfungsi untuk mengatur ...",
               "answer": "Kehidupan bermasyarakat agar tertib",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kehidupan bermasyarakat agar tertib",
+                "Menerima dan menghormati keputusan bersama",
+                "Peraturan lalu lintas",
+                "Menghargai pendapat orang lain"
+              ]
             },
             {
               "id": "pp5-022",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika hasil musyawarah tidak sesuai keinginan kita, sikap yang tepat adalah ...",
               "answer": "Menerima dan menghormati keputusan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kehidupan bermasyarakat agar tertib",
+                "Menghargai pendapat orang lain",
+                "Berbicara kasar kepada orang yang lebih tua",
+                "Menerima dan menghormati keputusan bersama"
+              ]
             },
             {
               "id": "pp5-023",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Contoh penerapan norma hukum adalah mematuhi ...",
-              "answer": "Peraturan lalu lintas/undang-undang",
-              "explanation": ""
+              "answer": "Peraturan lalu lintas",
+              "explanation": "",
+              "options": [
+                "Menghargai pendapat orang lain",
+                "Berbicara kasar kepada orang yang lebih tua",
+                "Peraturan lalu lintas",
+                "Kehidupan bermasyarakat agar tertib"
+              ]
             },
             {
               "id": "pp5-024",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menghormati orang yang lebih tua adalah contoh penerapan norma ...",
               "answer": "Kesopanan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kesopanan",
+                "Hukum",
+                "Kesusilaan",
+                "Musyawarah"
+              ]
             }
           ]
         }
@@ -232,19 +364,31 @@
           "soal": [
             {
               "id": "pp5-025",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kesenian, pakaian adat, dan bahasa daerah termasuk contoh ...",
               "answer": "Budaya daerah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bali",
+                "Budaya daerah",
+                "Kekayaan bangsa",
+                "Indonesia"
+              ]
             },
             {
               "id": "pp5-026",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kegiatan melestarikan budaya daerah dapat dilakukan dengan cara ...",
               "answer": "Mempelajari dan mempraktikkannya",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mempelajari dan mempraktikkannya",
+                "Menghargai keberagaman budaya",
+                "Budaya tersebut bisa hilang",
+                "Persatuan dan kesatuan bangsa"
+              ]
             },
             {
               "id": "pp5-027",
@@ -262,75 +406,129 @@
             },
             {
               "id": "pp5-028",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tari Kecak berasal dari daerah ...",
               "answer": "Bali",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Indonesia",
+                "Bali",
+                "Budaya daerah",
+                "Sumatera Barat"
+              ]
             },
             {
               "id": "pp5-029",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rumah adat Gadang berasal dari daerah ...",
               "answer": "Sumatera Barat",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Sumatera Barat",
+                "Budaya daerah",
+                "Kekayaan bangsa",
+                "Indonesia"
+              ]
             },
             {
               "id": "pp5-030",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika budaya daerah tidak dilestarikan, yang dapat terjadi adalah ...",
-              "answer": "Budaya tersebut bisa hilang/dilupakan",
-              "explanation": ""
+              "answer": "Budaya tersebut bisa hilang",
+              "explanation": "",
+              "options": [
+                "Melestarikan budaya",
+                "Menghargai dan mempelajarinya",
+                "Budaya tersebut bisa hilang",
+                "Menghargai keberagaman budaya"
+              ]
             },
             {
               "id": "pp5-031",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Mengikuti kegiatan pentas seni budaya daerah adalah salah satu cara ...",
               "answer": "Melestarikan budaya",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Persatuan dan kesatuan bangsa",
+                "Budaya tersebut bisa hilang",
+                "Melestarikan budaya",
+                "Menghargai dan mempelajarinya"
+              ]
             },
             {
               "id": "pp5-032",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Keragaman budaya Indonesia merupakan salah satu bentuk ...",
               "answer": "Kekayaan bangsa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bali",
+                "Budaya daerah",
+                "Kekayaan bangsa",
+                "Indonesia"
+              ]
             },
             {
               "id": "pp5-033",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Batik merupakan salah satu warisan budaya asli ...",
               "answer": "Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bali",
+                "Kekayaan bangsa",
+                "Indonesia",
+                "Melestarikan"
+              ]
             },
             {
               "id": "pp5-034",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menghargai budaya daerah lain dapat mempererat ...",
               "answer": "Persatuan dan kesatuan bangsa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Persatuan dan kesatuan bangsa",
+                "Budaya tersebut bisa hilang",
+                "Menghargai dan mempelajarinya",
+                "Menghargai keberagaman budaya"
+              ]
             },
             {
               "id": "pp5-035",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Mempelajari bahasa daerah lain adalah salah satu cara ...",
               "answer": "Menghargai keberagaman budaya",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menghargai keberagaman budaya",
+                "Budaya tersebut bisa hilang",
+                "Menghargai dan mempelajarinya",
+                "Mempelajari dan mempraktikkannya"
+              ]
             },
             {
               "id": "pp5-036",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Generasi muda memiliki peran penting dalam ... budaya daerah",
               "answer": "Melestarikan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Melestarikan",
+                "Bali",
+                "Kekayaan bangsa",
+                "Sumatera Barat"
+              ]
             }
           ]
         },
@@ -340,27 +538,45 @@
           "soal": [
             {
               "id": "pp5-037",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bentuk permukaan bumi seperti gunung, dataran, dan pantai disebut ...",
-              "answer": "Karakteristik/kenampakan wilayah",
-              "explanation": ""
+              "answer": "Karakteristik",
+              "explanation": "",
+              "options": [
+                "Nelayan",
+                "Karakteristik",
+                "Petani sayur",
+                "Sejuk"
+              ]
             },
             {
               "id": "pp5-038",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Wilayah yang berada di dekat pantai biasanya penduduknya bekerja sebagai ...",
               "answer": "Nelayan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Karakteristik",
+                "Sejuk",
+                "Nelayan",
+                "Petani sayur"
+              ]
             },
             {
               "id": "pp5-039",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Wilayah dataran tinggi biasanya penduduknya bekerja sebagai ...",
-              "answer": "Petani sayur/buah dataran tinggi",
-              "explanation": ""
+              "answer": "Petani sayur",
+              "explanation": "",
+              "options": [
+                "Sejuk",
+                "Petani sayur",
+                "Karakteristik",
+                "Nelayan"
+              ]
             },
             {
               "id": "pp5-040",
@@ -378,67 +594,115 @@
             },
             {
               "id": "pp5-041",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kegiatan gotong royong di lingkungan sekitar dapat mempererat ...",
               "answer": "Kebersamaan dan persaudaraan warga",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menjaga kebersihan dan kelestarian alam",
+                "Pekerjaan menjadi ringan dan hubungan warga makin erat",
+                "Kebersamaan dan persaudaraan warga",
+                "Memahami dan mencintai daerah sendiri"
+              ]
             },
             {
               "id": "pp5-042",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh gotong royong di lingkungan sekitar adalah ...",
               "answer": "Kerja bakti membersihkan lingkungan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pekerjaan menjadi ringan dan hubungan warga makin erat",
+                "Kerja bakti membersihkan lingkungan bersama",
+                "Mata pencaharian penduduk",
+                "Memahami dan mencintai daerah sendiri"
+              ]
             },
             {
               "id": "pp5-043",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Mengenal karakteristik wilayah tempat tinggal membuat kita lebih ...",
               "answer": "Memahami dan mencintai daerah sendiri",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Beradaptasi dan menjaga lingkungan dengan baik",
+                "Memahami dan mencintai daerah sendiri",
+                "Kerja bakti membersihkan lingkungan bersama",
+                "Pekerjaan menjadi ringan dan hubungan warga makin erat"
+              ]
             },
             {
               "id": "pp5-044",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat gotong royong bagi warga sekitar adalah ...",
               "answer": "Pekerjaan menjadi ringan dan hubungan warga makin erat",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Memahami dan mencintai daerah sendiri",
+                "Beradaptasi dan menjaga lingkungan dengan baik",
+                "Pekerjaan menjadi ringan dan hubungan warga makin erat",
+                "Menjaga kebersihan dan kelestarian alam"
+              ]
             },
             {
               "id": "pp5-045",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap peduli terhadap lingkungan sekitar dapat ditunjukkan dengan ...",
               "answer": "Menjaga kebersihan dan kelestarian alam",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menjaga kebersihan dan kelestarian alam",
+                "Memahami dan mencintai daerah sendiri",
+                "Pekerjaan menjadi ringan dan hubungan warga makin erat",
+                "Beradaptasi dan menjaga lingkungan dengan baik"
+              ]
             },
             {
               "id": "pp5-046",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kerja sama antarwarga dalam menjaga lingkungan mencerminkan nilai Pancasila sila ke-...",
               "answer": "3",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "4",
+                "5",
+                "13",
+                "3"
+              ]
             },
             {
               "id": "pp5-047",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Wilayah pegunungan biasanya memiliki suhu udara yang ...",
-              "answer": "Sejuk/dingin",
-              "explanation": ""
+              "answer": "Sejuk",
+              "explanation": "",
+              "options": [
+                "Sejuk",
+                "Petani sayur",
+                "Karakteristik",
+                "Nelayan"
+              ]
             },
             {
               "id": "pp5-048",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Mengenal karakteristik wilayah sekitar penting untuk membantu kita ...",
               "answer": "Beradaptasi dan menjaga lingkungan dengan baik",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kerja bakti membersihkan lingkungan bersama",
+                "Menjaga kebersihan dan kelestarian alam",
+                "Beradaptasi dan menjaga lingkungan dengan baik",
+                "Kebersamaan dan persaudaraan warga"
+              ]
             }
           ]
         }

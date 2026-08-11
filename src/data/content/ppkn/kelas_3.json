@@ -11,27 +11,45 @@
           "soal": [
             {
               "id": "pp3-001",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Negara kita yang terdiri dari ribuan pulau disebut Negara Kesatuan Republik ...",
               "answer": "Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tanah air",
+                "Bangsa",
+                "Jakarta",
+                "Indonesia"
+              ]
             },
             {
               "id": "pp3-002",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Setiap warga negara Indonesia, di manapun tinggal, adalah bagian dari ...",
               "answer": "NKRI (Negara Kesatuan Republik Indonesia)",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Aturan, kasih sayang, dan nilai kehidupan",
+                "Mencintai budaya dan menjaga persatuan",
+                "NKRI (Negara Kesatuan Republik Indonesia)",
+                "Identitas dan tanah air kita"
+              ]
             },
             {
               "id": "pp3-003",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Keluarga adalah lingkungan pertama tempat kita belajar tentang ...",
               "answer": "Aturan, kasih sayang, dan nilai kehidupan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pribadi yang baik",
+                "Identitas dan tanah air kita",
+                "Mencintai budaya dan menjaga persatuan",
+                "Aturan, kasih sayang, dan nilai kehidupan"
+              ]
             },
             {
               "id": "pp3-004",
@@ -49,67 +67,115 @@
             },
             {
               "id": "pp3-005",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tempat kita dilahirkan dan dibesarkan disebut ...",
-              "answer": "Tanah air/kampung halaman",
-              "explanation": ""
+              "answer": "Tanah air",
+              "explanation": "",
+              "options": [
+                "Berbakti",
+                "Tanah air",
+                "Jakarta",
+                "Sosial"
+              ]
             },
             {
               "id": "pp3-006",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Meski tinggal di daerah berbeda-beda, semua warga Indonesia tetap satu ...",
               "answer": "Bangsa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berbakti",
+                "Bangsa",
+                "Cinta tanah air",
+                "Tanah air"
+              ]
             },
             {
               "id": "pp3-007",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Keluarga, teman, dan tetangga adalah bagian dari lingkungan ...",
-              "answer": "Sosial/sekitar kita",
-              "explanation": ""
+              "answer": "Sosial",
+              "explanation": "",
+              "options": [
+                "Indonesia",
+                "Cinta tanah air",
+                "Bangsa",
+                "Sosial"
+              ]
             },
             {
               "id": "pp3-008",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap bangga menjadi anak Indonesia dapat ditunjukkan dengan cara ...",
               "answer": "Mencintai budaya dan menjaga persatuan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mencintai budaya dan menjaga persatuan",
+                "Pribadi yang baik",
+                "NKRI (Negara Kesatuan Republik Indonesia)",
+                "Aturan, kasih sayang, dan nilai kehidupan"
+              ]
             },
             {
               "id": "pp3-009",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ibu kota negara Indonesia adalah ...",
               "answer": "Jakarta",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Jakarta",
+                "Tanah air",
+                "Bangsa",
+                "Berbakti"
+              ]
             },
             {
               "id": "pp3-010",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebagai anak Indonesia, kita perlu mengenal daerah tempat tinggal karena itu bagian dari ...",
               "answer": "Identitas dan tanah air kita",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pribadi yang baik",
+                "Aturan, kasih sayang, dan nilai kehidupan",
+                "Identitas dan tanah air kita",
+                "NKRI (Negara Kesatuan Republik Indonesia)"
+              ]
             },
             {
               "id": "pp3-011",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Keluarga yang harmonis dapat mendukung tumbuh kembang anak menjadi ...",
               "answer": "Pribadi yang baik",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Aturan, kasih sayang, dan nilai kehidupan",
+                "NKRI (Negara Kesatuan Republik Indonesia)",
+                "Pribadi yang baik",
+                "Mencintai budaya dan menjaga persatuan"
+              ]
             },
             {
               "id": "pp3-012",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menghormati orang tua dan keluarga adalah wujud dari sikap ...",
               "answer": "Berbakti",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bangsa",
+                "Tanah air",
+                "Berbakti",
+                "Jakarta"
+              ]
             }
           ]
         },
@@ -119,27 +185,45 @@
           "soal": [
             {
               "id": "pp3-013",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kesepakatan yang dibuat bersama warga kelas disebut ...",
-              "answer": "Aturan/tata tertib kelas",
-              "explanation": ""
+              "answer": "Aturan",
+              "explanation": "",
+              "options": [
+                "Kewajiban",
+                "Aturan",
+                "Hak tertentu",
+                "Kewajiban siswa"
+              ]
             },
             {
               "id": "pp3-014",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sesuatu yang kita terima dan dapat kita gunakan disebut ...",
               "answer": "Hak",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Adil dan tertib",
+                "Hak tertentu",
+                "Guru dan siswa",
+                "Hak"
+              ]
             },
             {
               "id": "pp3-015",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sesuatu yang harus kita lakukan atau penuhi disebut ...",
               "answer": "Kewajiban",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kewajiban siswa",
+                "Orang tua",
+                "Anak",
+                "Kewajiban"
+              ]
             },
             {
               "id": "pp3-016",
@@ -171,59 +255,101 @@
             },
             {
               "id": "pp3-018",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hak untuk belajar di sekolah dimiliki oleh setiap ...",
-              "answer": "Anak/siswa",
-              "explanation": ""
+              "answer": "Anak",
+              "explanation": "",
+              "options": [
+                "Hak",
+                "Guru dan siswa",
+                "Anak",
+                "Kewajiban"
+              ]
             },
             {
               "id": "pp3-019",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika hak dan kewajiban seimbang, kehidupan akan menjadi ...",
               "answer": "Adil dan tertib",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Adil dan tertib",
+                "Anak",
+                "Kewajiban",
+                "Hak"
+              ]
             },
             {
               "id": "pp3-020",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kesepakatan kelas biasanya dibuat bersama antara ...",
               "answer": "Guru dan siswa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kewajiban",
+                "Guru dan siswa",
+                "Aturan",
+                "Anak"
+              ]
             },
             {
               "id": "pp3-021",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh kewajiban di rumah adalah membantu ... pekerjaan rumah",
               "answer": "Orang tua",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Hak tertentu",
+                "Kewajiban",
+                "Aturan",
+                "Orang tua"
+              ]
             },
             {
               "id": "pp3-022",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hak untuk beristirahat dan bermain dimiliki oleh setiap ...",
               "answer": "Anak",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kewajiban",
+                "Kewajiban siswa",
+                "Aturan",
+                "Anak"
+              ]
             },
             {
               "id": "pp3-023",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika kita tidak melaksanakan kewajiban, biasanya kita akan kehilangan ...",
               "answer": "Hak tertentu",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Orang tua",
+                "Guru dan siswa",
+                "Hak tertentu",
+                "Hak"
+              ]
             },
             {
               "id": "pp3-024",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menaati tata tertib sekolah adalah salah satu bentuk ...",
               "answer": "Kewajiban siswa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Adil dan tertib",
+                "Orang tua",
+                "Guru dan siswa",
+                "Kewajiban siswa"
+              ]
             }
           ]
         }
@@ -238,19 +364,31 @@
           "soal": [
             {
               "id": "pp3-025",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Indonesia memiliki banyak suku bangsa, budaya, dan bahasa yang disebut ...",
-              "answer": "Keberagaman/kekayaan budaya",
-              "explanation": ""
+              "answer": "Keberagaman",
+              "explanation": "",
+              "options": [
+                "Bahasa Indonesia",
+                "Angklung",
+                "Bersatu",
+                "Keberagaman"
+              ]
             },
             {
               "id": "pp3-026",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bahasa yang digunakan sebagai bahasa pemersatu seluruh suku di Indonesia adalah ...",
               "answer": "Bahasa Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bahasa Indonesia",
+                "Bersatu",
+                "Keberagaman",
+                "Angklung"
+              ]
             },
             {
               "id": "pp3-027",
@@ -268,75 +406,129 @@
             },
             {
               "id": "pp3-028",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rumah adat, pakaian adat, dan tarian daerah adalah contoh ...",
               "answer": "Kebudayaan daerah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bhinneka Tunggal Ika",
+                "Kebudayaan daerah",
+                "Menghargai dan bangga",
+                "Lestarikan dan banggakan"
+              ]
             },
             {
               "id": "pp3-029",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Semboyan bangsa Indonesia yang berarti berbeda-beda tetapi tetap satu adalah ...",
               "answer": "Bhinneka Tunggal Ika",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bhinneka Tunggal Ika",
+                "Menghargai dan bangga",
+                "Lestarikan dan banggakan",
+                "Kebudayaan daerah"
+              ]
             },
             {
               "id": "pp3-030",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kita perlu mempelajari budaya daerah lain agar dapat saling ...",
-              "answer": "Menghargai/memahami",
-              "explanation": ""
+              "answer": "Menghargai",
+              "explanation": "",
+              "options": [
+                "Bersatu",
+                "Keberagaman",
+                "Bahasa Indonesia",
+                "Menghargai"
+              ]
             },
             {
               "id": "pp3-031",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Meskipun berbeda suku, semua warga Indonesia tetap satu ...",
               "answer": "Bangsa dan negara",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bangsa dan negara",
+                "Kebudayaan daerah",
+                "Mengenal dan menghargai budaya bangsa",
+                "Menghargai keberagaman"
+              ]
             },
             {
               "id": "pp3-032",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Contoh alat musik tradisional Indonesia adalah ...",
-              "answer": "Angklung/gamelan",
-              "explanation": ""
+              "answer": "Angklung",
+              "explanation": "",
+              "options": [
+                "Menghargai",
+                "Angklung",
+                "Bersatu",
+                "Bahasa Indonesia"
+              ]
             },
             {
               "id": "pp3-033",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menonton pertunjukan budaya daerah lain dapat menumbuhkan sikap ...",
               "answer": "Menghargai keberagaman",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menghargai keberagaman",
+                "Mengenal dan menghargai budaya bangsa",
+                "Bhinneka Tunggal Ika",
+                "Kebudayaan daerah"
+              ]
             },
             {
               "id": "pp3-034",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Perbedaan bahasa daerah tidak menghalangi kita untuk tetap ...",
               "answer": "Bersatu",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bersatu",
+                "Keberagaman",
+                "Menghargai",
+                "Bahasa Indonesia"
+              ]
             },
             {
               "id": "pp3-035",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Keberagaman budaya Indonesia sebaiknya kita ...",
               "answer": "Lestarikan dan banggakan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bangsa dan negara",
+                "Kebudayaan daerah",
+                "Lestarikan dan banggakan",
+                "Bhinneka Tunggal Ika"
+              ]
             },
             {
               "id": "pp3-036",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Belajar tarian daerah lain adalah salah satu cara ...",
               "answer": "Mengenal dan menghargai budaya bangsa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mengenal dan menghargai budaya bangsa",
+                "Menghargai dan bangga",
+                "Bhinneka Tunggal Ika",
+                "Bangsa dan negara"
+              ]
             }
           ]
         },
@@ -346,19 +538,31 @@
           "soal": [
             {
               "id": "pp3-037",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Siswa yang mengamalkan nilai-nilai Pancasila dalam kehidupan sehari-hari disebut ...",
               "answer": "Pelajar Pancasila",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pelajar Pancasila",
+                "Kemerdekaan Indonesia",
+                "Membantu teman yang kesulitan",
+                "Bersikap adil kepada semua teman"
+              ]
             },
             {
               "id": "pp3-038",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh pengamalan sila kelima Pancasila adalah ...",
               "answer": "Bersikap adil kepada semua teman",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Membantu teman yang kesulitan",
+                "Semangat persatuan dan rela berkorban",
+                "Kemerdekaan Indonesia",
+                "Bersikap adil kepada semua teman"
+              ]
             },
             {
               "id": "pp3-039",
@@ -384,11 +588,17 @@
             },
             {
               "id": "pp3-041",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap yang bisa kita teladani dari para perumus Pancasila adalah ...",
               "answer": "Semangat persatuan dan rela berkorban",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bersikap adil kepada semua teman",
+                "Kehidupan sehari-hari",
+                "Semangat persatuan dan rela berkorban",
+                "Bermain dengan semua teman tanpa membeda-bedakan"
+              ]
             },
             {
               "id": "pp3-042",
@@ -400,51 +610,87 @@
             },
             {
               "id": "pp3-043",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh pengamalan sila pertama Pancasila di sekolah adalah ...",
               "answer": "Berdoa sebelum belajar",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berdoa sebelum belajar",
+                "Kemerdekaan Indonesia",
+                "Membantu teman yang kesulitan",
+                "Pelajar Pancasila"
+              ]
             },
             {
               "id": "pp3-044",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh pengamalan sila kedua Pancasila adalah ...",
               "answer": "Membantu teman yang kesulitan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Semangat persatuan dan rela berkorban",
+                "Membantu teman yang kesulitan",
+                "Kemerdekaan Indonesia",
+                "Berdoa sebelum belajar"
+              ]
             },
             {
               "id": "pp3-045",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh pengamalan sila ketiga Pancasila adalah ...",
               "answer": "Bermain dengan semua teman tanpa membeda-bedakan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kehidupan sehari-hari",
+                "Bermain dengan semua teman tanpa membeda-bedakan",
+                "Berdoa sebelum belajar",
+                "Semangat persatuan dan rela berkorban"
+              ]
             },
             {
               "id": "pp3-046",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menjadi pelajar Pancasila berarti kita menerapkan nilai Pancasila dalam ...",
               "answer": "Kehidupan sehari-hari",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermusyawarah memilih ketua kelas",
+                "Kehidupan sehari-hari",
+                "Semangat persatuan dan rela berkorban",
+                "Kemerdekaan Indonesia"
+              ]
             },
             {
               "id": "pp3-047",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pancasila dirumuskan oleh para tokoh bangsa menjelang peristiwa ...",
               "answer": "Kemerdekaan Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Semangat persatuan dan rela berkorban",
+                "Bermain dengan semua teman tanpa membeda-bedakan",
+                "Kemerdekaan Indonesia",
+                "Kehidupan sehari-hari"
+              ]
             },
             {
               "id": "pp3-048",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap saling menghormati antarteman mencerminkan pengamalan Pancasila, khususnya sila ke-...",
               "answer": "2",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "2",
+                "1",
+                "4",
+                "5"
+              ]
             }
           ]
         }

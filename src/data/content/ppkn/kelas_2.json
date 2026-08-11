@@ -11,19 +11,31 @@
           "soal": [
             {
               "id": "pp2-001",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan yang berlaku di keluarga bertujuan untuk ...",
               "answer": "Menjaga ketertiban dan kenyamanan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bertanggung jawab",
+                "Kedisiplinan dan tanggung jawab",
+                "Meminta maaf dan memperbaiki kesalahan",
+                "Menjaga ketertiban dan kenyamanan bersama"
+              ]
             },
             {
               "id": "pp2-002",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Membantu ibu merapikan rumah adalah contoh sikap ...",
-              "answer": "Patuh/bertanggung jawab",
-              "explanation": ""
+              "answer": "Patuh",
+              "explanation": "",
+              "options": [
+                "Rukun dan damai",
+                "Disiplin",
+                "Patuh",
+                "Sehat dan bugar"
+              ]
             },
             {
               "id": "pp2-003",
@@ -41,75 +53,129 @@
             },
             {
               "id": "pp2-004",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh aturan waktu belajar di rumah adalah ...",
               "answer": "Belajar setiap malam pada jam tertentu",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bertanggung jawab",
+                "Meminta maaf dan memperbaiki kesalahan",
+                "Tertib dan harmonis",
+                "Belajar setiap malam pada jam tertentu"
+              ]
             },
             {
               "id": "pp2-005",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Anak yang patuh aturan akan menjadi anak yang ...",
               "answer": "Disiplin",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Disiplin",
+                "Patuh",
+                "Rukun dan damai",
+                "Orang tua"
+              ]
             },
             {
               "id": "pp2-006",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ketika melanggar aturan, sebaiknya kita ...",
               "answer": "Meminta maaf dan memperbaiki kesalahan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tertib dan harmonis",
+                "Bertanggung jawab",
+                "Meminta maaf dan memperbaiki kesalahan",
+                "Menjaga ketertiban dan kenyamanan bersama"
+              ]
             },
             {
               "id": "pp2-007",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan tentang jam tidur bertujuan agar tubuh kita ...",
               "answer": "Sehat dan bugar",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Patuh",
+                "Sehat dan bugar",
+                "Orang tua",
+                "Rukun dan damai"
+              ]
             },
             {
               "id": "pp2-008",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kisah tentang anak yang patuh aturan biasanya mengajarkan nilai ...",
               "answer": "Kedisiplinan dan tanggung jawab",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mengingatkan dengan lembut",
+                "Menjaga ketertiban dan kenyamanan bersama",
+                "Kedisiplinan dan tanggung jawab",
+                "Bertanggung jawab"
+              ]
             },
             {
               "id": "pp2-009",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sebelum bepergian, sebaiknya kita berpamitan kepada ...",
               "answer": "Orang tua",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Orang tua",
+                "Patuh",
+                "Sehat dan bugar",
+                "Disiplin"
+              ]
             },
             {
               "id": "pp2-010",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat mematuhi aturan keluarga adalah kehidupan menjadi lebih ...",
               "answer": "Tertib dan harmonis",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tertib dan harmonis",
+                "Belajar setiap malam pada jam tertentu",
+                "Menjaga ketertiban dan kenyamanan bersama",
+                "Kedisiplinan dan tanggung jawab"
+              ]
             },
             {
               "id": "pp2-011",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menggunakan barang milik keluarga dengan hati-hati adalah contoh sikap ...",
               "answer": "Bertanggung jawab",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mengingatkan dengan lembut",
+                "Menjaga ketertiban dan kenyamanan bersama",
+                "Kedisiplinan dan tanggung jawab",
+                "Bertanggung jawab"
+              ]
             },
             {
               "id": "pp2-012",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika semua anggota keluarga patuh aturan, suasana rumah menjadi ...",
               "answer": "Rukun dan damai",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Rukun dan damai",
+                "Orang tua",
+                "Sehat dan bugar",
+                "Disiplin"
+              ]
             }
           ]
         },
@@ -119,59 +185,101 @@
           "soal": [
             {
               "id": "pp2-013",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Dasar negara Indonesia adalah ...",
               "answer": "Pancasila",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pancasila",
+                "Pohon beringin",
+                "Cinta tanah air",
+                "Padi dan kapas"
+              ]
             },
             {
               "id": "pp2-014",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Pancasila memiliki jumlah sila sebanyak ...",
               "answer": "5",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "5",
+                "0",
+                "8",
+                "2"
+              ]
             },
             {
               "id": "pp2-015",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lambang sila pertama Pancasila adalah ...",
               "answer": "Bintang",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pancasila",
+                "Rantai",
+                "Kepala banteng",
+                "Bintang"
+              ]
             },
             {
               "id": "pp2-016",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lambang sila kedua Pancasila adalah ...",
               "answer": "Rantai",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Rantai",
+                "Padi dan kapas",
+                "Bintang",
+                "Soekarno"
+              ]
             },
             {
               "id": "pp2-017",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lambang sila ketiga Pancasila adalah ...",
               "answer": "Pohon beringin",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pancasila",
+                "Cinta tanah air",
+                "Bintang",
+                "Pohon beringin"
+              ]
             },
             {
               "id": "pp2-018",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lambang sila keempat Pancasila adalah ...",
               "answer": "Kepala banteng",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bintang",
+                "Rantai",
+                "Kepala banteng",
+                "Pohon beringin"
+              ]
             },
             {
               "id": "pp2-019",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lambang sila kelima Pancasila adalah ...",
               "answer": "Padi dan kapas",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Pancasila",
+                "Soekarno",
+                "Padi dan kapas",
+                "Bintang"
+              ]
             },
             {
               "id": "pp2-020",
@@ -189,35 +297,59 @@
             },
             {
               "id": "pp2-021",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Salah satu tokoh perumus dasar negara Indonesia adalah ...",
-              "answer": "Soekarno/Mohammad Hatta/Mohammad Yamin",
-              "explanation": ""
+              "answer": "Soekarno",
+              "explanation": "",
+              "options": [
+                "Perisai dada",
+                "Rantai",
+                "Pancasila",
+                "Soekarno"
+              ]
             },
             {
               "id": "pp2-022",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pancasila dirumuskan menjelang kemerdekaan Indonesia pada tahun ...",
               "answer": "1945",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "1945",
+                "1556",
+                "1751",
+                "2139"
+              ]
             },
             {
               "id": "pp2-023",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap meneladani perumus Pancasila, contohnya adalah ...",
-              "answer": "Cinta tanah air/rela berkorban",
-              "explanation": ""
+              "answer": "Cinta tanah air",
+              "explanation": "",
+              "options": [
+                "Soekarno",
+                "Pohon beringin",
+                "Cinta tanah air",
+                "Bintang"
+              ]
             },
             {
               "id": "pp2-024",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kelima sila Pancasila terdapat pada bagian ... burung Garuda",
               "answer": "Perisai dada",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kepala banteng",
+                "Padi dan kapas",
+                "Perisai dada",
+                "Soekarno"
+              ]
             }
           ]
         }
@@ -232,19 +364,31 @@
           "soal": [
             {
               "id": "pp2-025",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kegiatan yang disukai seseorang di waktu luang disebut ...",
               "answer": "Hobi",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Masjid",
+                "Hobi",
+                "Wihara",
+                "Pura"
+              ]
             },
             {
               "id": "pp2-026",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Meskipun hobi kita berbeda dengan teman, kita tetap harus ...",
               "answer": "Saling menghargai",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tidak diskriminatif",
+                "Islam, Kristen, Katolik, Hindu, Buddha, Konghucu",
+                "Bersatu (Bhinneka Tunggal Ika)",
+                "Saling menghargai"
+              ]
             },
             {
               "id": "pp2-027",
@@ -262,75 +406,129 @@
             },
             {
               "id": "pp2-028",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Indonesia memiliki beberapa agama yang diakui, contohnya adalah ...",
               "answer": "Islam, Kristen, Katolik, Hindu, Buddha, Konghucu",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tidak diskriminatif",
+                "Islam, Kristen, Katolik, Hindu, Buddha, Konghucu",
+                "Saling menghargai",
+                "Menghormati dan tetap berteman baik"
+              ]
             },
             {
               "id": "pp2-029",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Simbol tempat ibadah umat Islam adalah ...",
               "answer": "Masjid",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Masjid",
+                "Pura",
+                "Gereja",
+                "Toleransi"
+              ]
             },
             {
               "id": "pp2-030",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Simbol tempat ibadah umat Kristen/Katolik adalah ...",
               "answer": "Gereja",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Masjid",
+                "Wihara",
+                "Gereja",
+                "Toleransi"
+              ]
             },
             {
               "id": "pp2-031",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Simbol tempat ibadah umat Hindu adalah ...",
               "answer": "Pura",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Masjid",
+                "Pura",
+                "Wihara",
+                "Toleransi"
+              ]
             },
             {
               "id": "pp2-032",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Simbol tempat ibadah umat Buddha adalah ...",
               "answer": "Wihara",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Wihara",
+                "Gereja",
+                "Toleransi",
+                "Pura"
+              ]
             },
             {
               "id": "pp2-033",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Meskipun berbeda hobi dan agama, semboyan bangsa mengajarkan kita untuk tetap ...",
               "answer": "Bersatu (Bhinneka Tunggal Ika)",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Saling menghargai",
+                "Bersatu (Bhinneka Tunggal Ika)",
+                "Islam, Kristen, Katolik, Hindu, Buddha, Konghucu",
+                "Tidak diskriminatif"
+              ]
             },
             {
               "id": "pp2-034",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bermain bersama teman yang berbeda suku mengajarkan kita nilai ...",
               "answer": "Toleransi",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Toleransi",
+                "Pura",
+                "Masjid",
+                "Gereja"
+              ]
             },
             {
               "id": "pp2-035",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap menghargai perbedaan disebut ...",
               "answer": "Toleransi",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Masjid",
+                "Gereja",
+                "Hobi",
+                "Toleransi"
+              ]
             },
             {
               "id": "pp2-036",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Berteman dengan siapa saja tanpa membeda-bedakan disebut sikap ...",
-              "answer": "Tidak diskriminatif/menghargai keberagaman",
-              "explanation": ""
+              "answer": "Tidak diskriminatif",
+              "explanation": "",
+              "options": [
+                "Tidak diskriminatif",
+                "Menghormati dan tetap berteman baik",
+                "Bersatu (Bhinneka Tunggal Ika)",
+                "Islam, Kristen, Katolik, Hindu, Buddha, Konghucu"
+              ]
             }
           ]
         },
@@ -340,19 +538,31 @@
           "soal": [
             {
               "id": "pp2-037",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap peduli terhadap lingkungan, contohnya adalah ...",
               "answer": "Membuang sampah pada tempatnya",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Memungut dan membuangnya ke tempat sampah",
+                "Seluruh warga sekolah",
+                "Minum, mandi, dan mencuci",
+                "Membuang sampah pada tempatnya"
+              ]
             },
             {
               "id": "pp2-038",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menanam pohon di sekitar rumah bermanfaat untuk ...",
-              "answer": "Menjaga udara tetap bersih/sejuk",
-              "explanation": ""
+              "answer": "Menjaga udara tetap bersih",
+              "explanation": "",
+              "options": [
+                "Menjaga udara tetap bersih",
+                "Kelestarian lingkungan",
+                "Membuang sampah pada tempatnya",
+                "Piket kelas membersihkan ruangan"
+              ]
             },
             {
               "id": "pp2-039",
@@ -370,75 +580,129 @@
             },
             {
               "id": "pp2-040",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kerja bakti membersihkan lingkungan sebaiknya dilakukan secara ...",
-              "answer": "Bersama-sama/gotong royong",
-              "explanation": ""
+              "answer": "Bersama-sama",
+              "explanation": "",
+              "options": [
+                "Penyakit",
+                "Bersih dan sehat",
+                "Tanggung jawab",
+                "Bersama-sama"
+              ]
             },
             {
               "id": "pp2-041",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat menjaga kebersihan lingkungan adalah mencegah terjadinya ...",
-              "answer": "Penyakit/banjir",
-              "explanation": ""
+              "answer": "Penyakit",
+              "explanation": "",
+              "options": [
+                "Bersih dan sehat",
+                "Penyakit",
+                "Tanggung jawab",
+                "Bersama-sama"
+              ]
             },
             {
               "id": "pp2-042",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Air yang bersih penting kita jaga karena digunakan untuk ...",
               "answer": "Minum, mandi, dan mencuci",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kelestarian lingkungan",
+                "Membuang sampah pada tempatnya",
+                "Persatuan Indonesia",
+                "Minum, mandi, dan mencuci"
+              ]
             },
             {
               "id": "pp2-043",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh kerja sama menjaga lingkungan sekolah adalah ...",
               "answer": "Piket kelas membersihkan ruangan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menjaga udara tetap bersih",
+                "Minum, mandi, dan mencuci",
+                "Piket kelas membersihkan ruangan",
+                "Kelestarian lingkungan"
+              ]
             },
             {
               "id": "pp2-044",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika semua warga peduli lingkungan, lingkungan akan menjadi ...",
               "answer": "Bersih dan sehat",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Penyakit",
+                "Bersih dan sehat",
+                "Tanggung jawab",
+                "Bersama-sama"
+              ]
             },
             {
               "id": "pp2-045",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap tidak membuang sampah sembarangan mencerminkan nilai ...",
-              "answer": "Tanggung jawab/kepedulian",
-              "explanation": ""
+              "answer": "Tanggung jawab",
+              "explanation": "",
+              "options": [
+                "Bersama-sama",
+                "Tanggung jawab",
+                "Penyakit",
+                "Bersih dan sehat"
+              ]
             },
             {
               "id": "pp2-046",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menghemat air adalah salah satu cara menjaga ...",
               "answer": "Kelestarian lingkungan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Persatuan Indonesia",
+                "Piket kelas membersihkan ruangan",
+                "Seluruh warga sekolah",
+                "Kelestarian lingkungan"
+              ]
             },
             {
               "id": "pp2-047",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bekerja sama menjaga lingkungan sekitar mencerminkan sila Pancasila yang berbunyi ...",
               "answer": "Persatuan Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kelestarian lingkungan",
+                "Menjaga udara tetap bersih",
+                "Minum, mandi, dan mencuci",
+                "Persatuan Indonesia"
+              ]
             },
             {
               "id": "pp2-048",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Merawat tanaman di sekolah adalah tanggung jawab ...",
               "answer": "Seluruh warga sekolah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Piket kelas membersihkan ruangan",
+                "Persatuan Indonesia",
+                "Seluruh warga sekolah",
+                "Membuang sampah pada tempatnya"
+              ]
             }
           ]
         }

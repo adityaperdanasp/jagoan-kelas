@@ -60,13 +60,19 @@
             {
               "id": "pai4-d004",
               "topic": "Kisah Nabi Musa & Nabi Isa",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kitab yang diturunkan kepada Nabi Musa a.s. bernama ...",
               "answer": "Taurat",
               "explanation": "Taurat",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Fir'aun",
+                "Membelah lautan",
+                "Taurat",
+                "Siti Maryam"
+              ]
             }
           ]
         },
@@ -141,13 +147,19 @@
             {
               "id": "pai4-d009",
               "topic": "Kitab-Kitab Allah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kitab yang diturunkan kepada Nabi Musa a.s. bernama ...",
               "answer": "Taurat",
               "explanation": "Taurat",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Isa a.s.",
+                "Al-Qur'an",
+                "Daud a.s.",
+                "Taurat"
+              ]
             }
           ]
         },
@@ -438,13 +450,19 @@
             {
               "id": "pai4-d027",
               "topic": "Mengenal Puasa Ramadhan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hari raya setelah selesai bulan Ramadhan disebut ...",
               "answer": "Idul Fitri",
               "explanation": "Idul Fitri",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Berbuka puasa",
+                "Sahur",
+                "Idul Fitri",
+                "Terbit fajar"
+              ]
             }
           ]
         }

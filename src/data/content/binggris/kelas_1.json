@@ -300,13 +300,19 @@
             {
               "id": "ing1-d019",
               "topic": "Greetings & Introductions",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lengkapi: 'Hello, my ___ is Azka.' (nama)",
               "answer": "name",
               "explanation": "name",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "tolong",
+                "Please",
+                "name",
+                "Yes"
+              ]
             },
             {
               "id": "ing1-d020",
@@ -653,13 +659,19 @@
             {
               "id": "ing1-d041",
               "topic": "Numbers 1-10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tulis dalam Bahasa Inggris: 5 + 2 = ... (tujuh)",
               "answer": "seven",
               "explanation": "seven",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "seven",
+                "delapan",
+                "enam",
+                "empat"
+              ]
             }
           ]
         },

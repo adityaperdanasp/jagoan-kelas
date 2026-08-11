@@ -226,13 +226,19 @@
             {
               "id": "bindo4-d014",
               "topic": "Tanda Baca & Ejaan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda baca yang dipakai untuk kalimat langsung (kutipan) adalah tanda ...",
               "answer": "Petik (\")",
               "explanation": "Petik (\")",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Praktik",
+                "Aktivitas",
+                "Petik (\")",
+                "Titik koma (;)"
+              ]
             },
             {
               "id": "bindo4-d015",
@@ -355,13 +361,19 @@
             {
               "id": "bindo4-d022",
               "topic": "Mencari Arti Kata (Kamus & KBBI)",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "KBBI daring bisa diakses lewat ...",
-              "answer": "Internet/website kbbi.kemdikbud.go.id",
+              "answer": "Internet",
               "explanation": "Internet/website kbbi.kemdikbud.go.id",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "M",
+                "Internet",
+                "Ikan",
+                "Duduk"
+              ]
             },
             {
               "id": "bindo4-d023",
@@ -457,13 +469,19 @@
             {
               "id": "bindo4-d028",
               "topic": "Teks Prosedur",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata hubung yang menunjukkan langkah terakhir adalah ...",
-              "answer": "Terakhir/akhirnya",
+              "answer": "Terakhir",
               "explanation": "Terakhir/akhirnya",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kemudian",
+                "Perintah",
+                "Prosedur",
+                "Terakhir"
+              ]
             },
             {
               "id": "bindo4-d029",
@@ -586,13 +604,19 @@
             {
               "id": "bindo4-d036",
               "topic": "Teks Persuasi (Menabung & Uang)",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat menabung sejak kecil adalah melatih sikap ...",
-              "answer": "Hemat/bertanggung jawab",
+              "answer": "Hemat",
               "explanation": "Hemat/bertanggung jawab",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Bank",
+                "Hemat",
+                "Menabung",
+                "Ayo"
+              ]
             },
             {
               "id": "bindo4-d037",
@@ -699,13 +723,19 @@
             {
               "id": "bindo4-d043",
               "topic": "Puisi & Pantun",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jumlah suku kata tiap baris pantun biasanya sekitar ... suku kata",
               "answer": "8-12",
               "explanation": "8-12",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Sampiran",
+                "8-12",
+                "Isi",
+                "a-b-a-b"
+              ]
             },
             {
               "id": "bindo4-d044",

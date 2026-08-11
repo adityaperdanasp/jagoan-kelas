@@ -124,24 +124,36 @@
             {
               "id": "bindo2-d008",
               "topic": "Kalimat Tanya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata tanya yang tepat: '... rumahmu?' (menanyakan tempat)",
               "answer": "Di mana",
               "explanation": "Di mana",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Mengapa",
+                "Berapa",
+                "Di mana",
+                "Tanda tanya (?)"
+              ]
             },
             {
               "id": "bindo2-d009",
               "topic": "Kalimat Tanya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata tanya yang tepat: '... namamu?' (menanyakan nama)",
               "answer": "Siapa",
               "explanation": "Siapa",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Di mana",
+                "Kapan",
+                "Apa",
+                "Siapa"
+              ]
             },
             {
               "id": "bindo2-d010",
@@ -248,13 +260,19 @@
             {
               "id": "bindo2-d016",
               "topic": "Huruf Kapital & Tanda Titik",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Perbaiki penulisan: 'budi pergi ke pasar' -> huruf pertama seharusnya ...",
               "answer": "B (kapital)",
               "explanation": "B (kapital)",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Januari",
+                "B (kapital)",
+                "Berita",
+                "Nama orang"
+              ]
             },
             {
               "id": "bindo2-d017",
@@ -377,13 +395,19 @@
             {
               "id": "bindo2-d024",
               "topic": "Cerita Pendek",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tokoh utama dalam sebuah cerita disebut tokoh ...",
               "answer": "Utama",
               "explanation": "Utama",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Amanat",
+                "Gajah",
+                "Utama",
+                "Pembuka"
+              ]
             },
             {
               "id": "bindo2-d025",
@@ -661,13 +685,19 @@
             {
               "id": "bindo2-d041",
               "topic": "Puisi Anak Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata yang berima dengan 'bunga' adalah ... (contoh: harum semerbak ...)",
-              "answer": "Bahagia/gembira/ceria (jawaban terbuka)",
+              "answer": "Bahagia",
               "explanation": "Contoh: 'bunga - gembira' -- jawaban bisa bervariasi, cek rima akhirnya",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Bahagia",
+                "Bagian atas",
+                "Larik",
+                "Bait"
+              ]
             },
             {
               "id": "bindo2-d042",
@@ -790,13 +820,19 @@
             {
               "id": "bindo2-d049",
               "topic": "Menulis Pengalaman",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata hubung waktu yang menunjukkan urutan pertama adalah ...",
-              "answer": "Pertama/mula-mula",
+              "answer": "Pertama",
               "explanation": "Pertama/mula-mula",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pertama",
+                "Senang",
+                "Pengalaman",
+                "Kemarin"
+              ]
             },
             {
               "id": "bindo2-d050",

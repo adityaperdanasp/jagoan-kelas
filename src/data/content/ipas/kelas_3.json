@@ -12,35 +12,53 @@
             {
               "id": "ipas3-d001",
               "topic": "Mari Kenali Hewan di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hewan yang hanya memakan tumbuhan disebut ...",
               "answer": "Herbivora",
               "explanation": "Herbivora",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Bertelur",
+                "Herbivora",
+                "Sayap",
+                "Karnivora"
+              ]
             },
             {
               "id": "ipas3-d002",
               "topic": "Mari Kenali Hewan di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hewan yang hanya memakan daging/hewan lain disebut ...",
               "answer": "Karnivora",
               "explanation": "Karnivora",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Amfibi",
+                "Insang",
+                "Karnivora",
+                "Sayap"
+              ]
             },
             {
               "id": "ipas3-d003",
               "topic": "Mari Kenali Hewan di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hewan yang memakan tumbuhan dan daging disebut ...",
               "answer": "Omnivora",
               "explanation": "Omnivora",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Karnivora",
+                "Bertelur",
+                "Amfibi",
+                "Omnivora"
+              ]
             },
             {
               "id": "ipas3-d004",
@@ -77,13 +95,19 @@
             {
               "id": "ipas3-d006",
               "topic": "Mari Kenali Hewan di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hewan yang hidup di dua alam (air dan darat), seperti katak, disebut hewan ...",
               "answer": "Amfibi",
               "explanation": "Amfibi",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Amfibi",
+                "Melahirkan",
+                "Sayap",
+                "Karnivora"
+              ]
             },
             {
               "id": "ipas3-d007",
@@ -104,13 +128,19 @@
             {
               "id": "ipas3-d008",
               "topic": "Mari Kenali Hewan di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bagian tubuh yang digunakan burung untuk terbang adalah ...",
               "answer": "Sayap",
               "explanation": "Sayap",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Sayap",
+                "Insang",
+                "Karnivora",
+                "Omnivora"
+              ]
             },
             {
               "id": "ipas3-d009",
@@ -216,22 +246,34 @@
             {
               "id": "ipas4-035-mv4to3",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat pernapasan pada ikan adalah ...",
               "answer": "Insang",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Insang",
+                "Kepompong",
+                "Ayam",
+                "Trakea"
+              ]
             },
             {
               "id": "ipas4-036-mv4to3",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Alat pernapasan pada serangga adalah ...",
               "answer": "Trakea",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Ayam",
+                "Kepompong",
+                "Trakea",
+                "Insang"
+              ]
             },
             {
               "id": "ipas4-037-mv4to3",
@@ -252,24 +294,36 @@
             {
               "id": "ipas3-d011",
               "topic": "Hidup Bersama Alam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hubungan saling membutuhkan antara makhluk hidup dengan lingkungannya disebut ...",
               "answer": "Ekosistem",
               "explanation": "Ekosistem",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Mutualisme",
+                "Ekosistem",
+                "Rantai makanan",
+                "Lebah dan bunga"
+              ]
             },
             {
               "id": "ipas3-d012",
               "topic": "Hidup Bersama Alam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Urutan makan dan dimakan antar makhluk hidup disebut ...",
               "answer": "Rantai makanan",
               "explanation": "Rantai makanan",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Ekosistem",
+                "Rantai makanan",
+                "Buatan",
+                "Produsen"
+              ]
             },
             {
               "id": "ipas3-d013",
@@ -306,13 +360,19 @@
             {
               "id": "ipas3-d015",
               "topic": "Hidup Bersama Alam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Makhluk hidup yang menguraikan sisa makhluk hidup yang telah mati disebut ...",
               "answer": "Pengurai",
               "explanation": "Pengurai",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pengurai",
+                "Alami",
+                "Lebah dan bunga",
+                "Terganggu"
+              ]
             },
             {
               "id": "ipas3-d016",
@@ -332,13 +392,19 @@
             {
               "id": "ipas3-d017",
               "topic": "Hidup Bersama Alam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hubungan yang saling menguntungkan antara dua makhluk hidup disebut simbiosis ...",
               "answer": "Mutualisme",
               "explanation": "Mutualisme",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Alami",
+                "Mutualisme",
+                "Rantai makanan",
+                "Buatan"
+              ]
             },
             {
               "id": "ipas3-d018",
@@ -359,13 +425,19 @@
             {
               "id": "ipas3-d019",
               "topic": "Hidup Bersama Alam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ekosistem yang terbentuk secara alami tanpa campur tangan manusia disebut ekosistem ...",
               "answer": "Alami",
               "explanation": "Alami",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Alami",
+                "Buatan",
+                "Rantai makanan",
+                "Mutualisme"
+              ]
             },
             {
               "id": "ipas3-d020",
@@ -392,57 +464,87 @@
             {
               "id": "ipas3-005",
               "topic": "Sumber Energi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sumber energi utama bagi kehidupan di bumi adalah ...",
               "answer": "Matahari",
               "explanation": "Pengenalan sumber dan bentuk energi",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Matahari",
+                "Lampu",
+                "Minyak bumi",
+                "Listrik"
+              ]
             },
             {
               "id": "ipas3-006",
               "topic": "Sumber Energi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Energi yang dihasilkan dari aliran listrik disebut energi ...",
               "answer": "Listrik",
               "explanation": "Pengenalan sumber dan bentuk energi",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Listrik",
+                "Matahari",
+                "Minyak bumi",
+                "Lampu"
+              ]
             },
             {
               "id": "ipas3-007",
               "topic": "Sumber Energi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bahan bakar yang berasal dari fosil, contohnya adalah ...",
-              "answer": "Minyak bumi/bensin",
+              "answer": "Minyak bumi",
               "explanation": "Pengenalan sumber dan bentuk energi",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Listrik",
+                "Minyak bumi",
+                "Lampu",
+                "Matahari"
+              ]
             },
             {
               "id": "ipas3-008",
               "topic": "Sumber Energi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sumber energi yang dapat diperbarui, contohnya adalah ...",
-              "answer": "Matahari/angin/air",
+              "answer": "Matahari",
               "explanation": "Pengenalan sumber dan bentuk energi",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lampu",
+                "Listrik",
+                "Matahari",
+                "Minyak bumi"
+              ]
             },
             {
               "id": "ipas3-009",
               "topic": "Sumber Energi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat yang mengubah energi listrik menjadi cahaya adalah ...",
               "answer": "Lampu",
               "explanation": "Pengenalan sumber dan bentuk energi",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Minyak bumi",
+                "Lampu",
+                "Listrik",
+                "Matahari"
+              ]
             }
           ]
         }
@@ -458,46 +560,70 @@
             {
               "id": "ipas3-024",
               "topic": "Peta & Arah Mata Angin",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Gambar yang menunjukkan letak suatu tempat dari atas disebut ...",
-              "answer": "Denah/peta",
+              "answer": "Denah",
               "explanation": "Pengenalan denah dan arah mata angin",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Denah",
+                "Timur",
+                "Kompas",
+                "Barat"
+              ]
             },
             {
               "id": "ipas3-025",
               "topic": "Peta & Arah Mata Angin",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Alat yang digunakan untuk menunjukkan arah mata angin disebut ...",
               "answer": "Kompas",
               "explanation": "Pengenalan denah dan arah mata angin",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Denah",
+                "Timur",
+                "Barat",
+                "Kompas"
+              ]
             },
             {
               "id": "ipas3-026",
               "topic": "Peta & Arah Mata Angin",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Arah tempat matahari terbit adalah ...",
               "answer": "Timur",
               "explanation": "Pengenalan denah dan arah mata angin",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Denah",
+                "Barat",
+                "Kompas",
+                "Timur"
+              ]
             },
             {
               "id": "ipas3-027",
               "topic": "Peta & Arah Mata Angin",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Arah tempat matahari terbenam adalah ...",
               "answer": "Barat",
               "explanation": "Pengenalan denah dan arah mata angin",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Timur",
+                "Kompas",
+                "Barat",
+                "Denah"
+              ]
             }
           ]
         },
@@ -508,35 +634,53 @@
             {
               "id": "ipas3-d021",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kepala pemerintahan di tingkat kabupaten disebut ...",
               "answer": "Bupati",
               "explanation": "Bupati",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Saling membantu",
+                "Bupati",
+                "Gotong royong",
+                "Ketua RT"
+              ]
             },
             {
               "id": "ipas3-d022",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kepala pemerintahan di tingkat kota disebut ...",
               "answer": "Wali kota",
               "explanation": "Wali kota",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Desa",
+                "Provinsi",
+                "Gotong royong",
+                "Wali kota"
+              ]
             },
             {
               "id": "ipas3-d023",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kepala pemerintahan paling kecil di lingkungan tempat tinggal disebut ...",
               "answer": "Ketua RT",
               "explanation": "Ketua RT",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Gubernur",
+                "Provinsi",
+                "Ketua RT",
+                "Ketua RW"
+              ]
             },
             {
               "id": "ipas3-d024",
@@ -557,13 +701,19 @@
             {
               "id": "ipas3-d025",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kumpulan beberapa RT dipimpin oleh seorang ...",
               "answer": "Ketua RW",
               "explanation": "Ketua RW",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Desa",
+                "Provinsi",
+                "Ketua RT",
+                "Ketua RW"
+              ]
             },
             {
               "id": "ipas3-d026",
@@ -584,13 +734,19 @@
             {
               "id": "ipas3-d027",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kantor tempat warga mengurus surat-surat di tingkat desa/kelurahan disebut kantor ...",
-              "answer": "Desa/Kelurahan",
+              "answer": "Desa",
               "explanation": "Desa/Kelurahan",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Wali kota",
+                "Mufakat",
+                "Desa",
+                "Provinsi"
+              ]
             },
             {
               "id": "ipas3-d028",
@@ -611,24 +767,36 @@
             {
               "id": "ipas3-d029",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Wilayah yang lebih besar dari kabupaten dan dipimpin oleh gubernur disebut ...",
               "answer": "Provinsi",
               "explanation": "Provinsi",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Mufakat",
+                "Bupati",
+                "Provinsi",
+                "Saling membantu"
+              ]
             },
             {
               "id": "ipas3-d030",
               "topic": "Aku Bagian dari Masyarakat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kepala pemerintahan tingkat provinsi disebut ...",
               "answer": "Gubernur",
               "explanation": "Gubernur",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Saling membantu",
+                "Gubernur",
+                "Wali kota",
+                "Mufakat"
+              ]
             }
           ]
         },
@@ -639,101 +807,155 @@
             {
               "id": "ipas3-014",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rumah adat Gadang berasal dari daerah ...",
               "answer": "Sumatera Barat",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sumatera Barat",
+                "Yogyakarta",
+                "Jawa",
+                "Jawa Tengah"
+              ]
             },
             {
               "id": "ipas3-015",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rumah adat Joglo berasal dari daerah ...",
-              "answer": "Jawa Tengah/Yogyakarta",
+              "answer": "Jawa Tengah",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bali",
+                "Gas",
+                "Jawa",
+                "Jawa Tengah"
+              ]
             },
             {
               "id": "ipas3-016",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tari Kecak berasal dari daerah ...",
               "answer": "Bali",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sumatera Barat",
+                "Bali",
+                "Jawa",
+                "Yogyakarta"
+              ]
             },
             {
               "id": "ipas3-017",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tari Saman berasal dari daerah ...",
               "answer": "Aceh",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sumatera Barat",
+                "Aceh",
+                "Indonesia",
+                "Yogyakarta"
+              ]
             },
             {
               "id": "ipas3-018",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Angklung adalah alat musik tradisional yang berasal dari ...",
               "answer": "Jawa Barat",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jawa Barat",
+                "Gas",
+                "Jawa Tengah",
+                "Sumatera Barat"
+              ]
             },
             {
               "id": "ipas3-019",
               "topic": "Keragaman Budaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat musik tradisional Gamelan banyak digunakan di daerah ...",
               "answer": "Jawa",
               "explanation": "Pengenalan budaya daerah di Indonesia",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jawa Barat",
+                "Aceh",
+                "Bali",
+                "Jawa"
+              ]
             },
             {
               "id": "ipas3-033",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pakaian adat Kebaya banyak dikenakan di pulau ...",
-              "answer": "Jawa/Bali",
+              "answer": "Jawa",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jawa",
+                "Yogyakarta",
+                "Jawa Barat",
+                "Bali"
+              ]
             },
             {
               "id": "ipas3-034",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Upacara adat Ngaben berasal dari daerah ...",
               "answer": "Bali",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sumatera Barat",
+                "Aceh",
+                "Yogyakarta",
+                "Bali"
+              ]
             },
             {
               "id": "ipas3-035",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Batik merupakan salah satu warisan budaya asli dari ...",
               "answer": "Indonesia",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Indonesia",
+                "Sumatera Barat",
+                "Bali",
+                "Jawa Tengah"
+              ]
             },
             {
               "id": "ipas3-036",
@@ -749,75 +971,117 @@
             {
               "id": "ipas3-039",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Senjata tradisional Keris banyak digunakan oleh suku ...",
               "answer": "Jawa",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jawa",
+                "Sumatera Barat",
+                "Yogyakarta",
+                "Jawa Barat"
+              ]
             },
             {
               "id": "ipas3-040",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Senjata tradisional Rencong berasal dari daerah ...",
               "answer": "Aceh",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Aceh",
+                "Jawa",
+                "Jawa Tengah",
+                "Yogyakarta"
+              ]
             },
             {
               "id": "ipas3-047",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bunyi dapat merambat melalui benda padat, cair, dan ...",
-              "answer": "Gas/udara",
+              "answer": "Gas",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Aceh",
+                "Gas",
+                "Jawa Tengah",
+                "Jawa"
+              ]
             },
             {
               "id": "ipas3-037",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tari Pendet berasal dari daerah ...",
               "answer": "Bali",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Bali",
+                "Gas",
+                "Indonesia",
+                "Sumatera Barat"
+              ]
             },
             {
               "id": "ipas3-038",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tari Piring berasal dari daerah ...",
               "answer": "Sumatera Barat",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Yogyakarta",
+                "Bali",
+                "Sumatera Barat",
+                "Jawa Tengah"
+              ]
             },
             {
               "id": "ipas3-041",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Makanan khas Rendang berasal dari daerah ...",
               "answer": "Sumatera Barat",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Yogyakarta",
+                "Sumatera Barat",
+                "Aceh",
+                "Gas"
+              ]
             },
             {
               "id": "ipas3-042",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Makanan khas Gudeg berasal dari daerah ...",
               "answer": "Yogyakarta",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "Yogyakarta",
+                "Gas",
+                "Jawa",
+                "Aceh"
+              ]
             }
           ]
         },
@@ -896,35 +1160,53 @@
             {
               "id": "ipas3-043",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Danau terbesar di Indonesia adalah ...",
               "answer": "Danau Toba",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Danau Toba",
+                "Sungai",
+                "Danau",
+                "Hidrosfer"
+              ]
             },
             {
               "id": "ipas3-044",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Gunung tertinggi di pulau Jawa adalah ...",
               "answer": "Gunung Semeru",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Danau",
+                "Gunung Semeru",
+                "Hidrosfer",
+                "Danau Toba"
+              ]
             },
             {
               "id": "ipas3-045",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bagian bumi yang berisi air seperti laut, sungai, dan danau disebut ...",
               "answer": "Hidrosfer",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 3,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Danau",
+                "Semenanjung",
+                "Plateau",
+                "Hidrosfer"
+              ]
             }
           ]
         }

@@ -204,13 +204,19 @@
             {
               "id": "ing6-d013",
               "topic": "My Future Dreams (Jobs)",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lengkapi: 'I want to ___ a doctor.' (menjadi)",
               "answer": "become",
               "explanation": "become",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Dream",
+                "cita-cita",
+                "Future",
+                "become"
+              ]
             }
           ]
         },
@@ -862,13 +868,19 @@
             {
               "id": "ing6-d053",
               "topic": "Yesterday & Today",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi: 'Yesterday, I ___ to my grandmother's house.' (pergi, bentuk lampau)",
               "answer": "went",
               "explanation": "went",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "bermain (lampau)",
+                "went",
+                "besok",
+                "kemarin"
+              ]
             }
           ]
         },

@@ -92,13 +92,19 @@
             {
               "id": "bindo1-d006",
               "topic": "Mengenal Huruf & Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jumlah huruf vokal dalam abjad Indonesia ada ... (a, i, u, e, o)",
               "answer": "5",
               "explanation": "5",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "4",
+                "2",
+                "15",
+                "5"
+              ]
             },
             {
               "id": "bindo1-d007",
@@ -269,13 +275,19 @@
             {
               "id": "bindo1-d017",
               "topic": "Membaca Suku Kata",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Suku kata pertama dari kata 'kaki' adalah ...",
               "answer": "ka",
               "explanation": "ka",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "me",
+                "ku",
+                "ba",
+                "ka"
+              ]
             },
             {
               "id": "bindo1-d018",
@@ -382,13 +394,19 @@
             {
               "id": "bindo1-d024",
               "topic": "Kata dan Kalimat Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kalimat diawali dengan huruf ... (besar/kecil)",
               "answer": "Besar",
               "explanation": "Besar",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Berlari",
+                "Meja",
+                "Kalimat",
+                "Besar"
+              ]
             },
             {
               "id": "bindo1-d025",
@@ -532,13 +550,19 @@
             {
               "id": "bindo1-d033",
               "topic": "Ungkapan Santun",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kata yang diucapkan saat meminjam barang teman: '... aku pinjam pensilmu'",
               "answer": "Tolong",
               "explanation": "Tolong",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tolong",
+                "Terima kasih",
+                "Selamat pagi",
+                "Maaf"
+              ]
             },
             {
               "id": "bindo1-d034",
@@ -795,13 +819,19 @@
             {
               "id": "bindo1-d049",
               "topic": "Menulis Namaku",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nama diri termasuk kata benda khusus, ditulis pakai huruf ... di awal",
               "answer": "Kapital",
               "explanation": "Kapital",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Jakarta",
+                "Kapital",
+                "Ahmad",
+                "Azka"
+              ]
             },
             {
               "id": "bindo1-d050",
@@ -854,13 +884,19 @@
             {
               "id": "bindo1-d053",
               "topic": "Menulis Namaku",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nama negara kita ditulis dengan huruf kapital di awal, yaitu ...",
               "answer": "Indonesia",
               "explanation": "Indonesia",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Jakarta",
+                "Ahmad",
+                "Azka",
+                "Indonesia"
+              ]
             }
           ]
         }

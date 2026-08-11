@@ -12,167 +12,247 @@
             {
               "id": "mtk2-g001",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Angka puluhan pada bilangan 40 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "6",
+                "1",
+                "5",
+                "4"
+              ]
             },
             {
               "id": "mtk2-g002",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Angka puluhan pada bilangan 46 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "14",
+                "4",
+                "5",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g003",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 5 ... 48 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk2-g004",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 26 ... 31 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk2-g005",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 25 ... 3 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g006",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Angka satuan pada bilangan 11 adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "6",
+                "1",
+                "2",
+                "11"
+              ]
             },
             {
               "id": "mtk2-g007",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Angka satuan pada bilangan 29 adalah ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "9",
+                "12",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g008",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Angka puluhan pada bilangan 20 adalah ...",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "0",
+                "2",
+                "1",
+                "4"
+              ]
             },
             {
               "id": "mtk2-g009",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 3 ... 37 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk2-g010",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 47 ... 20 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk2-g011",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 37 ... 30 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g012",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 3 ... 32 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g013",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 4 ... 38 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g014",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 25 ... 7 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk2-g015",
               "topic": "Ayo Membilang sampai dengan 50",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 37 ... 38 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             }
           ]
         },
@@ -200,24 +280,36 @@
             {
               "id": "mtk2-0005",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 272 - 64 adalah ...",
               "answer": "208",
               "explanation": "Jawaban dihitung: 208",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "208",
+                "207",
+                "206",
+                "210"
+              ]
             },
             {
               "id": "mtk2-0009",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 714 + 808 adalah ...",
               "answer": "1522",
               "explanation": "Jawaban dihitung: 1522",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1519",
+                "1522",
+                "1370",
+                "1520"
+              ]
             },
             {
               "id": "mtk2-0013",
@@ -273,24 +365,36 @@
             {
               "id": "mtk2-0025",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 46 - 39 adalah ...",
               "answer": "7",
               "explanation": "Jawaban dihitung: 7",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "10",
+                "7",
+                "6",
+                "4"
+              ]
             },
             {
               "id": "mtk2-0029",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 306 - 239 adalah ...",
               "answer": "67",
               "explanation": "Jawaban dihitung: 67",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "77",
+                "66",
+                "70",
+                "67"
+              ]
             },
             {
               "id": "mtk2-0033",
@@ -346,24 +450,36 @@
             {
               "id": "mtk2-0045",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 767 + 664 adalah ...",
               "answer": "1431",
               "explanation": "Jawaban dihitung: 1431",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1431",
+                "1441",
+                "1434",
+                "1430"
+              ]
             },
             {
               "id": "mtk2-0049",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 39 + 62 adalah ...",
               "answer": "101",
               "explanation": "Jawaban dihitung: 101",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "81",
+                "100",
+                "101",
+                "98"
+              ]
             },
             {
               "id": "mtk2-0053",
@@ -419,24 +535,36 @@
             {
               "id": "mtk2-0065",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 453 - 178 adalah ...",
               "answer": "275",
               "explanation": "Jawaban dihitung: 275",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "248",
+                "275",
+                "276",
+                "272"
+              ]
             },
             {
               "id": "mtk2-0069",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 935 + 356 adalah ...",
               "answer": "1291",
               "explanation": "Jawaban dihitung: 1291",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1291",
+                "1289",
+                "1290",
+                "1281"
+              ]
             },
             {
               "id": "mtk2-0073",
@@ -492,24 +620,36 @@
             {
               "id": "mtk2-0085",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 56 - 22 adalah ...",
               "answer": "34",
               "explanation": "Jawaban dihitung: 34",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "37",
+                "40",
+                "34",
+                "44"
+              ]
             },
             {
               "id": "mtk2-0089",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 241 + 124 adalah ...",
               "answer": "365",
               "explanation": "Jawaban dihitung: 365",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "365",
+                "375",
+                "370",
+                "366"
+              ]
             },
             {
               "id": "mtk2-0093",
@@ -565,24 +705,36 @@
             {
               "id": "mtk2-0105",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 875 + 437 adalah ...",
               "answer": "1312",
               "explanation": "Jawaban dihitung: 1312",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1314",
+                "1312",
+                "1310",
+                "1181"
+              ]
             },
             {
               "id": "mtk2-0109",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 33 - 13 adalah ...",
               "answer": "20",
               "explanation": "Jawaban dihitung: 20",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "20",
+                "25",
+                "21",
+                "16"
+              ]
             },
             {
               "id": "mtk2-0113",
@@ -638,24 +790,36 @@
             {
               "id": "mtk2-0125",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 453 + 235 adalah ...",
               "answer": "688",
               "explanation": "Jawaban dihitung: 688",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "691",
+                "688",
+                "698",
+                "686"
+              ]
             },
             {
               "id": "mtk2-0129",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 971 + 177 adalah ...",
               "answer": "1148",
               "explanation": "Jawaban dihitung: 1148",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1153",
+                "1143",
+                "1148",
+                "1150"
+              ]
             },
             {
               "id": "mtk2-0133",
@@ -711,24 +875,36 @@
             {
               "id": "mtk2-0145",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 56 - 12 adalah ...",
               "answer": "44",
               "explanation": "Jawaban dihitung: 44",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "44",
+                "49",
+                "45",
+                "47"
+              ]
             },
             {
               "id": "mtk2-0149",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 238 - 199 adalah ...",
               "answer": "39",
               "explanation": "Jawaban dihitung: 39",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "49",
+                "39",
+                "29",
+                "32"
+              ]
             },
             {
               "id": "mtk2-0153",
@@ -784,13 +960,19 @@
             {
               "id": "mtk2-0165",
               "topic": "Operasi Bilangan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 316 + 465 adalah ...",
               "answer": "781",
               "explanation": "Jawaban dihitung: 781",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "778",
+                "771",
+                "781",
+                "784"
+              ]
             }
           ]
         },
@@ -801,167 +983,257 @@
             {
               "id": "mtk2-g016",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar lingkaran memiliki ... sisi",
               "answer": "0",
               "explanation": "Jawaban dihitung: 0",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "3",
+                "5",
+                "0"
+              ]
             },
             {
               "id": "mtk2-g017",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun ruang balok memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ]
             },
             {
               "id": "mtk2-g018",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi panjang memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "14",
+                "1",
+                "4",
+                "2"
+              ]
             },
             {
               "id": "mtk2-g019",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi panjang memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "5",
+                "4",
+                "3"
+              ]
             },
             {
               "id": "mtk2-g020",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun ruang kubus memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "6",
+                "8",
+                "9",
+                "5"
+              ]
             },
             {
               "id": "mtk2-g021",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun ruang kerucut memiliki ... sisi/permukaan",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "0",
+                "12",
+                "5"
+              ]
             },
             {
               "id": "mtk2-g022",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar segi lima memiliki ... sisi",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "5",
+                "6",
+                "4"
+              ]
             },
             {
               "id": "mtk2-g023",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun ruang balok memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "9",
+                "8",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g024",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1",
+                "4",
+                "2",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g025",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun ruang balok memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "11",
+                "1",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g026",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun ruang kerucut memiliki ... sisi/permukaan",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "3",
+                "5",
+                "12"
+              ]
             },
             {
               "id": "mtk2-g027",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun ruang kubus memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "16",
+                "6",
+                "7"
+              ]
             },
             {
               "id": "mtk2-g028",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun ruang kubus memiliki ... sisi/permukaan",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1",
+                "3",
+                "5",
+                "6"
+              ]
             },
             {
               "id": "mtk2-g029",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi panjang memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "4",
+                "1",
+                "2"
+              ]
             },
             {
               "id": "mtk2-g030",
               "topic": "Bentuk di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi panjang memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "4",
+                "2",
+                "14"
+              ]
             }
           ]
         },
@@ -972,167 +1244,257 @@
             {
               "id": "mtk2-g031",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'depan' adalah ...",
               "answer": "belakang",
               "explanation": "Jawaban dihitung: belakang",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "atas",
+                "belakang",
+                "kanan",
+                "bawah"
+              ]
             },
             {
               "id": "mtk2-g032",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lawan dari posisi 'atas' adalah ...",
               "answer": "bawah",
               "explanation": "Jawaban dihitung: bawah",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "bawah",
+                "kiri",
+                "kanan",
+                "atas"
+              ]
             },
             {
               "id": "mtk2-g033",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'kiri' adalah ...",
               "answer": "kanan",
               "explanation": "Jawaban dihitung: kanan",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kiri",
+                "atas",
+                "kanan",
+                "bawah"
+              ]
             },
             {
               "id": "mtk2-g034",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lanjutkan pola: 11, 8, 5, ...",
               "answer": "2",
               "explanation": "Pola turun 3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1",
+                "12",
+                "0",
+                "2"
+              ]
             },
             {
               "id": "mtk2-g035",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'depan' adalah ...",
               "answer": "belakang",
               "explanation": "Jawaban dihitung: belakang",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kanan",
+                "kiri",
+                "atas",
+                "belakang"
+              ]
             },
             {
               "id": "mtk2-g036",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lanjutkan pola: 4, 6, 8, ...",
               "answer": "10",
               "explanation": "Pola naik 2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "13",
+                "0",
+                "10",
+                "7"
+              ]
             },
             {
               "id": "mtk2-g037",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'depan' adalah ...",
               "answer": "belakang",
               "explanation": "Jawaban dihitung: belakang",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "atas",
+                "bawah",
+                "belakang",
+                "kanan"
+              ]
             },
             {
               "id": "mtk2-g038",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'bawah' adalah ...",
               "answer": "atas",
               "explanation": "Jawaban dihitung: atas",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kiri",
+                "kanan",
+                "belakang",
+                "atas"
+              ]
             },
             {
               "id": "mtk2-g039",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'kiri' adalah ...",
               "answer": "kanan",
               "explanation": "Jawaban dihitung: kanan",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kanan",
+                "atas",
+                "kiri",
+                "bawah"
+              ]
             },
             {
               "id": "mtk2-g040",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'bawah' adalah ...",
               "answer": "atas",
               "explanation": "Jawaban dihitung: atas",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "belakang",
+                "kiri",
+                "atas",
+                "kanan"
+              ]
             },
             {
               "id": "mtk2-g041",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lanjutkan pola: 12, 17, 22, ...",
               "answer": "27",
               "explanation": "Pola naik 5",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "28",
+                "24",
+                "26",
+                "27"
+              ]
             },
             {
               "id": "mtk2-g042",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lanjutkan pola: 6, 11, 16, ...",
               "answer": "21",
               "explanation": "Pola naik 5",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "26",
+                "20",
+                "24",
+                "21"
+              ]
             },
             {
               "id": "mtk2-g043",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'kanan' adalah ...",
               "answer": "kiri",
               "explanation": "Jawaban dihitung: kiri",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kiri",
+                "atas",
+                "kanan",
+                "belakang"
+              ]
             },
             {
               "id": "mtk2-g044",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'bawah' adalah ...",
               "answer": "atas",
               "explanation": "Jawaban dihitung: atas",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kiri",
+                "bawah",
+                "kanan",
+                "atas"
+              ]
             },
             {
               "id": "mtk2-g045",
               "topic": "Posisi Benda dan Pola di Sekitar Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lawan dari posisi 'atas' adalah ...",
               "answer": "bawah",
               "explanation": "Jawaban dihitung: bawah",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "kiri",
+                "bawah",
+                "atas",
+                "kanan"
+              ]
             }
           ]
         }
@@ -1148,90 +1510,138 @@
             {
               "id": "mtk2-g046",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'setengah' adalah ...",
               "answer": "1/2",
               "explanation": "Jawaban dihitung: 1/2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/2",
+                "3/2",
+                "1/3",
+                "1/4"
+              ]
             },
             {
               "id": "mtk2-g047",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebuah apel dibagi menjadi 2 bagian sama besar. Satu bagian bernilai pecahan ...",
               "answer": "1/2",
               "explanation": "Jawaban dihitung: 1/2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/3",
+                "2/2",
+                "1/2",
+                "1/4"
+              ]
             },
             {
               "id": "mtk2-g048",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bentuk pecahan dari 'seperempat' adalah ...",
               "answer": "1/4",
               "explanation": "Jawaban dihitung: 1/4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/2",
+                "2/4",
+                "1/4",
+                "1/3"
+              ]
             },
             {
               "id": "mtk2-g049",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'seperempat' adalah ...",
               "answer": "1/4",
               "explanation": "Jawaban dihitung: 1/4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3/4",
+                "1/6",
+                "1/4",
+                "1/5"
+              ]
             },
             {
               "id": "mtk2-g050",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebuah kue dibagi menjadi 2 bagian sama besar. Satu bagian bernilai pecahan ...",
               "answer": "1/2",
               "explanation": "Jawaban dihitung: 1/2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2/2",
+                "1/2",
+                "1/3",
+                "3/2"
+              ]
             },
             {
               "id": "mtk2-g051",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'sepertiga' adalah ...",
               "answer": "1/3",
               "explanation": "Jawaban dihitung: 1/3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/2",
+                "1/1",
+                "1/4",
+                "1/3"
+              ]
             },
             {
               "id": "mtk2-g052",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bentuk pecahan dari 'sepertiga' adalah ...",
               "answer": "1/3",
               "explanation": "Jawaban dihitung: 1/3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3/3",
+                "1/3",
+                "1/2",
+                "1/1"
+              ]
             },
             {
               "id": "mtk2-g053",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebuah kue dibagi menjadi 4 bagian sama besar. Satu bagian bernilai pecahan ...",
               "answer": "1/4",
               "explanation": "Jawaban dihitung: 1/4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/5",
+                "2/4",
+                "1/4",
+                "3/4"
+              ]
             },
             {
               "id": "mtk2-g054",
@@ -1258,57 +1668,87 @@
             {
               "id": "mtk2-g056",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebuah roti dibagi menjadi 2 bagian sama besar. Satu bagian bernilai pecahan ...",
               "answer": "1/2",
               "explanation": "Jawaban dihitung: 1/2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2/2",
+                "1/3",
+                "1/2",
+                "1/1"
+              ]
             },
             {
               "id": "mtk2-g057",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'sepertiga' adalah ...",
               "answer": "1/3",
               "explanation": "Jawaban dihitung: 1/3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2/3",
+                "3/3",
+                "1/3",
+                "1/1"
+              ]
             },
             {
               "id": "mtk2-g058",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebuah semangka dibagi menjadi 4 bagian sama besar. Satu bagian bernilai pecahan ...",
               "answer": "1/4",
               "explanation": "Jawaban dihitung: 1/4",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/6",
+                "1/2",
+                "1/4",
+                "1/5"
+              ]
             },
             {
               "id": "mtk2-g059",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'setengah' adalah ...",
               "answer": "1/2",
               "explanation": "Jawaban dihitung: 1/2",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/1",
+                "1/3",
+                "1/2",
+                "1/4"
+              ]
             },
             {
               "id": "mtk2-g060",
               "topic": "Pecahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bentuk pecahan dari 'sepertiga' adalah ...",
               "answer": "1/3",
               "explanation": "Jawaban dihitung: 1/3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1/4",
+                "1/1",
+                "1/3",
+                "2/3"
+              ]
             }
           ]
         },
@@ -1319,13 +1759,19 @@
             {
               "id": "mtk2-0004",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "7 liter sama dengan ... ml",
               "answer": "7000",
               "explanation": "Jawaban dihitung: 7000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "6997",
+                "6998",
+                "7000",
+                "7003"
+              ]
             },
             {
               "id": "mtk2-0008",
@@ -1381,24 +1827,36 @@
             {
               "id": "mtk2-0020",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "9 m sama dengan ... cm",
               "answer": "900",
               "explanation": "Jawaban dihitung: 900",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "901",
+                "899",
+                "900",
+                "990"
+              ]
             },
             {
               "id": "mtk2-0024",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "1 kg sama dengan ... gram",
               "answer": "1000",
               "explanation": "Jawaban dihitung: 1000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1000",
+                "1010",
+                "800",
+                "999"
+              ]
             },
             {
               "id": "mtk2-0028",
@@ -1454,24 +1912,36 @@
             {
               "id": "mtk2-0040",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "8 kg sama dengan ... gram",
               "answer": "8000",
               "explanation": "Jawaban dihitung: 8000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "6400",
+                "9600",
+                "8000",
+                "7998"
+              ]
             },
             {
               "id": "mtk2-0044",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "4 kg sama dengan ... gram",
               "answer": "4000",
               "explanation": "Jawaban dihitung: 4000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "3200",
+                "4000",
+                "3600",
+                "3997"
+              ]
             },
             {
               "id": "mtk2-0048",
@@ -1527,24 +1997,36 @@
             {
               "id": "mtk2-0060",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "3 m sama dengan ... cm",
               "answer": "300",
               "explanation": "Jawaban dihitung: 300",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "300",
+                "297",
+                "301",
+                "295"
+              ]
             },
             {
               "id": "mtk2-0064",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "7 liter sama dengan ... ml",
               "answer": "7000",
               "explanation": "Jawaban dihitung: 7000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "7002",
+                "7000",
+                "6995",
+                "8400"
+              ]
             },
             {
               "id": "mtk2-0068",
@@ -1600,24 +2082,36 @@
             {
               "id": "mtk2-0080",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "3 m sama dengan ... cm",
               "answer": "300",
               "explanation": "Jawaban dihitung: 300",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "295",
+                "303",
+                "300",
+                "270"
+              ]
             },
             {
               "id": "mtk2-0084",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "4 kg sama dengan ... gram",
               "answer": "4000",
               "explanation": "Jawaban dihitung: 4000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "3200",
+                "3995",
+                "4000",
+                "4010"
+              ]
             },
             {
               "id": "mtk2-0088",
@@ -1673,24 +2167,36 @@
             {
               "id": "mtk2-0100",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "2 m sama dengan ... cm",
               "answer": "200",
               "explanation": "Jawaban dihitung: 200",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "200",
+                "202",
+                "197",
+                "203"
+              ]
             },
             {
               "id": "mtk2-0104",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "9 liter sama dengan ... ml",
               "answer": "9000",
               "explanation": "Jawaban dihitung: 9000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "9010",
+                "9005",
+                "9000",
+                "8995"
+              ]
             },
             {
               "id": "mtk2-0108",
@@ -1746,24 +2252,36 @@
             {
               "id": "mtk2-0120",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "1 m sama dengan ... cm",
               "answer": "100",
               "explanation": "Jawaban dihitung: 100",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "110",
+                "100",
+                "102",
+                "97"
+              ]
             },
             {
               "id": "mtk2-0124",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "8 m sama dengan ... cm",
               "answer": "800",
               "explanation": "Jawaban dihitung: 800",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "960",
+                "810",
+                "720",
+                "800"
+              ]
             },
             {
               "id": "mtk2-0128",
@@ -1819,24 +2337,36 @@
             {
               "id": "mtk2-0140",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "9 m sama dengan ... cm",
               "answer": "900",
               "explanation": "Jawaban dihitung: 900",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "890",
+                "910",
+                "720",
+                "900"
+              ]
             },
             {
               "id": "mtk2-0144",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "6 liter sama dengan ... ml",
               "answer": "6000",
               "explanation": "Jawaban dihitung: 6000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "5998",
+                "6003",
+                "6000",
+                "6001"
+              ]
             },
             {
               "id": "mtk2-0148",
@@ -1892,354 +2422,564 @@
             {
               "id": "mtk2-0160",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "1 m sama dengan ... cm",
               "answer": "100",
               "explanation": "Jawaban dihitung: 100",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "120",
+                "100",
+                "80",
+                "97"
+              ]
             },
             {
               "id": "mtk2-0164",
               "topic": "Pengukuran",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "5 kg sama dengan ... gram",
               "answer": "5000",
               "explanation": "Jawaban dihitung: 5000",
               "grade": 2,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "4500",
+                "5000",
+                "4990",
+                "5005"
+              ]
             },
             {
               "id": "mtk3-0004-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 01.30 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "02.00",
               "explanation": "Jawaban dihitung: 02.00",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "07.45",
+                "04.15",
+                "700",
+                "02.00"
+              ]
             },
             {
               "id": "mtk3-0009-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 02.30 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.30",
               "explanation": "Jawaban dihitung: 03.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "10.30",
+                "03.30",
+                "08.45",
+                "6000"
+              ]
             },
             {
               "id": "mtk3-0014-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 01.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "01.45",
               "explanation": "Jawaban dihitung: 01.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "05.30",
+                "04.15",
+                "01.45",
+                "5000"
+              ]
             },
             {
               "id": "mtk3-0019-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 01.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "01.45",
               "explanation": "Jawaban dihitung: 01.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "700",
+                "02.00",
+                "4000",
+                "01.45"
+              ]
             },
             {
               "id": "mtk3-0024-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 09.30 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "10.30",
               "explanation": "Jawaban dihitung: 10.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "04.45",
+                "02.00",
+                "10.30",
+                "08.15"
+              ]
             },
             {
               "id": "mtk3-0029-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 05.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.15",
               "explanation": "Jawaban dihitung: 07.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "07.15",
+                "05.30",
+                "04.30",
+                "8000"
+              ]
             },
             {
               "id": "mtk3-0034-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 03.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "04.15",
               "explanation": "Jawaban dihitung: 04.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "10.30",
+                "900",
+                "04.15",
+                "04.45"
+              ]
             },
             {
               "id": "mtk3-0039-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 05.15 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.15",
               "explanation": "Jawaban dihitung: 07.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "4000",
+                "500",
+                "07.15",
+                "08.15"
+              ]
             },
             {
               "id": "mtk3-0044-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 07.15 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "08.15",
               "explanation": "Jawaban dihitung: 08.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "800",
+                "08.15",
+                "10.30",
+                "7000"
+              ]
             },
             {
               "id": "mtk3-0049-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 03.45 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "04.30",
               "explanation": "Jawaban dihitung: 04.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "04.30",
+                "07.15",
+                "04.45",
+                "05.30"
+              ]
             },
             {
               "id": "mtk3-0054-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 06.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.45",
               "explanation": "Jawaban dihitung: 07.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "07.45",
+                "09.45",
+                "03.30",
+                "500"
+              ]
             },
             {
               "id": "mtk3-0059-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 09.00 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "09.30",
               "explanation": "Jawaban dihitung: 09.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "8000",
+                "1000",
+                "10.15",
+                "09.30"
+              ]
             },
             {
               "id": "mtk3-0064-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 07.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "08.15",
               "explanation": "Jawaban dihitung: 08.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "9000",
+                "06.45",
+                "08.15",
+                "05.30"
+              ]
             },
             {
               "id": "mtk3-0069-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 07.45 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "08.15",
               "explanation": "Jawaban dihitung: 08.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "08.45",
+                "05.45",
+                "09.30",
+                "08.15"
+              ]
             },
             {
               "id": "mtk3-0074-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 04.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "05.45",
               "explanation": "Jawaban dihitung: 05.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "07.15",
+                "05.45",
+                "700",
+                "08.45"
+              ]
             },
             {
               "id": "mtk3-0079-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 09.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "10.15",
               "explanation": "Jawaban dihitung: 10.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "10.15",
+                "5000",
+                "04.30",
+                "500"
+              ]
             },
             {
               "id": "mtk3-0084-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 05.00 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "05.30",
               "explanation": "Jawaban dihitung: 05.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "01.45",
+                "6000",
+                "05.30",
+                "05.45"
+              ]
             },
             {
               "id": "mtk3-0089-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 09.45 dan berlalu 60 menit, maka waktu menunjukkan pukul ...",
               "answer": "10.45",
               "explanation": "Jawaban dihitung: 10.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "10.45",
+                "100",
+                "04.45",
+                "300"
+              ]
             },
             {
               "id": "mtk3-0094-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 08.30 dan berlalu 15 menit, maka waktu menunjukkan pukul ...",
               "answer": "08.45",
               "explanation": "Jawaban dihitung: 08.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "08.45",
+                "8000",
+                "03.15",
+                "900"
+              ]
             },
             {
               "id": "mtk3-0099-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 08.15 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "09.45",
               "explanation": "Jawaban dihitung: 09.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "5000",
+                "09.45",
+                "06.45",
+                "03.15"
+              ]
             },
             {
               "id": "mtk3-0104-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 02.45 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.15",
               "explanation": "Jawaban dihitung: 03.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "10.45",
+                "04.15",
+                "03.15",
+                "8000"
+              ]
             },
             {
               "id": "mtk3-0109-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 01.30 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "02.00",
               "explanation": "Jawaban dihitung: 02.00",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "1000",
+                "10.45",
+                "900",
+                "02.00"
+              ]
             },
             {
               "id": "mtk3-0114-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 11.45 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
               "answer": "01.45",
               "explanation": "Jawaban dihitung: 01.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "01.45",
+                "1000",
+                "200",
+                "7000"
+              ]
             },
             {
               "id": "mtk3-0119-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 01.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.15",
               "explanation": "Jawaban dihitung: 03.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "03.15",
+                "08.45",
+                "7000",
+                "04.45"
+              ]
             },
             {
               "id": "mtk3-0124-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 07.15 dan berlalu 30 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.45",
               "explanation": "Jawaban dihitung: 07.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "03.30",
+                "9000",
+                "07.45",
+                "4000"
+              ]
             },
             {
               "id": "mtk3-0129-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 05.45 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.45",
               "explanation": "Jawaban dihitung: 07.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "9000",
+                "5000",
+                "05.45",
+                "07.45"
+              ]
             },
             {
               "id": "mtk3-0134-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 05.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "07.15",
               "explanation": "Jawaban dihitung: 07.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "03.30",
+                "10.15",
+                "08.45",
+                "07.15"
+              ]
             },
             {
               "id": "mtk3-0139-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 04.30 dan berlalu 15 menit, maka waktu menunjukkan pukul ...",
               "answer": "04.45",
               "explanation": "Jawaban dihitung: 04.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "04.45",
+                "10.45",
+                "4000",
+                "08.45"
+              ]
             },
             {
               "id": "mtk3-0144-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 01.15 dan berlalu 120 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.15",
               "explanation": "Jawaban dihitung: 03.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "03.15",
+                "10.15",
+                "05.45",
+                "02.00"
+              ]
             },
             {
               "id": "mtk3-0149-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 06.45 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "08.15",
               "explanation": "Jawaban dihitung: 08.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "300",
+                "07.45",
+                "08.15",
+                "8000"
+              ]
             },
             {
               "id": "mtk3-0154-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika sekarang pukul 02.30 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.15",
               "explanation": "Jawaban dihitung: 03.15",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "04.45",
+                "100",
+                "03.15",
+                "02.00"
+              ]
             },
             {
               "id": "mtk3-0159-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jika sekarang pukul 02.45 dan berlalu 45 menit, maka waktu menunjukkan pukul ...",
               "answer": "03.30",
               "explanation": "Jawaban dihitung: 03.30",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "09.30",
+                "03.30",
+                "09.45",
+                "10.45"
+              ]
             },
             {
               "id": "mtk3-0164-mv3to2",
               "topic": "Pengukuran Waktu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika sekarang pukul 05.15 dan berlalu 90 menit, maka waktu menunjukkan pukul ...",
               "answer": "06.45",
               "explanation": "Jawaban dihitung: 06.45",
-              "grade": 2
+              "grade": 2,
+              "options": [
+                "05.45",
+                "06.45",
+                "8000",
+                "01.45"
+              ]
             }
           ]
         },
@@ -2265,13 +3005,18 @@
             {
               "id": "mtk2-g062",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 55 ... 100 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g063",
@@ -2291,24 +3036,36 @@
             {
               "id": "mtk2-g064",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Angka puluhan pada bilangan 66 adalah ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "5",
+                "6",
+                "9",
+                "4"
+              ]
             },
             {
               "id": "mtk2-g065",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Angka puluhan pada bilangan 31 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "1",
+                "5",
+                "0"
+              ]
             },
             {
               "id": "mtk2-g066",
@@ -2328,46 +3085,67 @@
             {
               "id": "mtk2-g067",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 86 ... 39 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g068",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 18 ... 3 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Jawaban dihitung: >",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk2-g069",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 60 ... 78 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk2-g070",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Angka puluhan pada bilangan 63 adalah ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "4",
+                "7",
+                "6",
+                "5"
+              ]
             },
             {
               "id": "mtk2-g071",
@@ -2387,35 +3165,51 @@
             {
               "id": "mtk2-g072",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 18 ... 83 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk2-g073",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 96 ... 98 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Jawaban dihitung: <",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk2-g074",
               "topic": "Ayo Membilang sampai dengan 100",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Angka puluhan pada bilangan 38 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "8",
+                "13",
+                "4",
+                "3"
+              ]
             },
             {
               "id": "mtk2-g075",
@@ -2441,13 +3235,19 @@
             {
               "id": "mtk2-g076",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data turus jumlah mobil yang lewat: ||||||||||. Jumlah mobil yang lewat ada ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "8",
+                "10",
+                "11",
+                "12"
+              ]
             },
             {
               "id": "mtk2-g077",
@@ -2497,24 +3297,36 @@
             {
               "id": "mtk2-g080",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data turus jumlah sepeda yang lewat: |||||. Jumlah sepeda yang lewat ada ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "6",
+                "5",
+                "7",
+                "3"
+              ]
             },
             {
               "id": "mtk2-g081",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data turus jumlah sepeda yang lewat: ||||||. Jumlah sepeda yang lewat ada ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "6",
+                "9",
+                "4",
+                "8"
+              ]
             },
             {
               "id": "mtk2-g082",
@@ -2549,13 +3361,19 @@
             {
               "id": "mtk2-g084",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data turus jumlah bus yang lewat: |||||||||||. Jumlah bus yang lewat ada ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "21",
+                "8",
+                "10",
+                "11"
+              ]
             },
             {
               "id": "mtk2-g085",
@@ -2575,24 +3393,36 @@
             {
               "id": "mtk2-g086",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data turus jumlah sepeda yang lewat: ||||||||||. Jumlah sepeda yang lewat ada ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "10",
+                "13",
+                "8",
+                "7"
+              ]
             },
             {
               "id": "mtk2-g087",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data turus jumlah bus yang lewat: ||||||||||||. Jumlah bus yang lewat ada ...",
               "answer": "12",
               "explanation": "Jawaban dihitung: 12",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "11",
+                "12",
+                "9",
+                "7"
+              ]
             },
             {
               "id": "mtk2-g088",
@@ -2627,13 +3457,19 @@
             {
               "id": "mtk2-g090",
               "topic": "Berbagai Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data turus jumlah mobil yang lewat: ||||||||||. Jumlah mobil yang lewat ada ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
               "grade": 2,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "12",
+                "10",
+                "5"
+              ]
             }
           ]
         }

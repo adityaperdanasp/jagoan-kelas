@@ -12,13 +12,19 @@
             {
               "id": "pai1-d001",
               "topic": "Rukun Iman",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rukun Iman ada ... perkara",
               "answer": "6 (enam)",
               "explanation": "6 (enam)",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Qada dan Qadar",
+                "Malaikat Allah",
+                "3 (tiga)",
+                "6 (enam)"
+              ]
             },
             {
               "id": "pai1-d002",
@@ -71,13 +77,19 @@
             {
               "id": "pai1-d005",
               "topic": "Rukun Iman",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Percaya bahwa Allah itu Esa (satu) disebut iman kepada ...",
               "answer": "Allah",
               "explanation": "Allah",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Allah",
+                "Qada dan Qadar",
+                "3 (tiga)",
+                "6 (enam)"
+              ]
             },
             {
               "id": "pai1-d006",
@@ -120,13 +132,19 @@
             {
               "id": "pai1-d008",
               "topic": "Rukun Islam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rukun Islam ada ... perkara",
               "answer": "5 (lima)",
               "explanation": "5 (lima)",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "4 (empat)",
+                "1 (satu)",
+                "Syahadat",
+                "5 (lima)"
+              ]
             },
             {
               "id": "pai1-d009",
@@ -195,13 +213,19 @@
             {
               "id": "pai1-d013",
               "topic": "Rukun Islam",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Mengucap dua kalimat syahadat adalah rukun Islam ke ...",
               "answer": "1 (satu)",
               "explanation": "1 (satu)",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "2 (dua)",
+                "1 (satu)",
+                "Syahadat",
+                "4 (empat)"
+              ]
             }
           ]
         },
@@ -212,13 +236,19 @@
             {
               "id": "pai1-d014",
               "topic": "Mengenal Nabi & Rasul",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nabi dan Rasul yang wajib diketahui umat Islam jumlahnya ... orang",
               "answer": "25",
               "explanation": "25",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "30",
+                "27",
+                "25",
+                "26"
+              ]
             },
             {
               "id": "pai1-d015",
@@ -357,13 +387,19 @@
             {
               "id": "pai1-d023",
               "topic": "Akhlak Terpuji",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap rendah hati, tidak sombong, disebut ...",
               "answer": "Tawadhu",
               "explanation": "Tawadhu",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Suka menolong",
+                "Tawadhu",
+                "Jujur",
+                "Sabar"
+              ]
             },
             {
               "id": "pai1-d024",
@@ -438,13 +474,19 @@
             {
               "id": "pai1-d028",
               "topic": "Bersuci & Kebersihan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kebersihan adalah sebagian dari ...",
               "answer": "Iman",
               "explanation": "Iman",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Bersuci",
+                "Mulut dan gigi",
+                "Bersih dan sehat",
+                "Iman"
+              ]
             },
             {
               "id": "pai1-d029",
@@ -535,13 +577,19 @@
             {
               "id": "pai1-d034",
               "topic": "Doa Sehari-hari",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kalimat 'Bismillahirrahmanirrahim' diucapkan sebelum memulai ...",
-              "answer": "Suatu pekerjaan/kegiatan",
+              "answer": "Suatu pekerjaan",
               "explanation": "Suatu pekerjaan/kegiatan",
               "grade": 1,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Assalamu'alaikum",
+                "Basmalah",
+                "Hamdalah",
+                "Suatu pekerjaan"
+              ]
             }
           ]
         }

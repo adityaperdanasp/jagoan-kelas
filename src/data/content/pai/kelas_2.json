@@ -178,13 +178,19 @@
             {
               "id": "pai2-d011",
               "topic": "Kalimat Thayyibah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kalimat pujian 'Subhanallah' diucapkan saat kita melihat sesuatu yang ...",
-              "answer": "Menakjubkan/indah",
+              "answer": "Menakjubkan",
               "explanation": "Menakjubkan/indah",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Menakjubkan",
+                "Besar",
+                "Memohon ampun",
+                "Bersyukur"
+              ]
             }
           ]
         },
@@ -259,13 +265,19 @@
             {
               "id": "pai2-d016",
               "topic": "Kisah Nabi Adam & Nabi Nuh",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nabi Adam a.s. tinggal di ... sebelum diturunkan ke bumi",
               "answer": "Surga",
               "explanation": "Surga",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tanah",
+                "Banjir besar",
+                "Surga",
+                "Siti Hawa"
+              ]
             }
           ]
         }
@@ -491,13 +503,19 @@
             {
               "id": "pai2-d030",
               "topic": "Mengenal Surat-Surat Pendek",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kitab suci umat Islam bernama ...",
               "answer": "Al-Qur'an",
               "explanation": "Al-Qur'an",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "An-Nas",
+                "Al-Qur'an",
+                "Al-Fatihah",
+                "Juz 'Amma"
+              ]
             },
             {
               "id": "pai2-d031",

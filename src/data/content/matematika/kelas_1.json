@@ -12,68 +12,99 @@
             {
               "id": "mtk1-0002",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 5 ... 4 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-g001",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 4 ... 3 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-g002",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bilangan setelah 1 adalah ...",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "5",
+                "7",
+                "12",
+                "2"
+              ]
             },
             {
               "id": "mtk1-g003",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 6 ... 0 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-g004",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 3 ... 8 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-g005",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 3 ... 10 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-g006",
@@ -93,35 +124,52 @@
             {
               "id": "mtk1-g007",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 6 ... 5 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-g008",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bilangan sebelum 4 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "0",
+                "8",
+                "5"
+              ]
             },
             {
               "id": "mtk1-g009",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bilangan sebelum 2 adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "0",
+                "3",
+                "1",
+                "6"
+              ]
             },
             {
               "id": "mtk1-g010",
@@ -141,46 +189,68 @@
             {
               "id": "mtk1-g011",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 7 ... 8 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-g012",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 1 ... 8 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk1-g013",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bilangan sebelum 10 adalah ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "10",
+                "9",
+                "11",
+                "12"
+              ]
             },
             {
               "id": "mtk1-g014",
               "topic": "Ayo Membilang sampai dengan 10",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bilangan sebelum 4 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1",
+                "0",
+                "5",
+                "3"
+              ]
             }
           ]
         },
@@ -191,24 +261,36 @@
             {
               "id": "mtk1-0016",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Dika punya 3 pensil. Ia mendapat tambahan 6 pensil dari ibunya. Sekarang pensil Dika ada ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "11",
+                "9",
+                "19",
+                "8"
+              ]
             },
             {
               "id": "mtk1-0028",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 3 apel. Ia mendapat tambahan 7 apel dari ibunya. Sekarang apel Sari ada ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "8",
+                "10",
+                "13",
+                "9"
+              ]
             },
             {
               "id": "mtk1-0037",
@@ -230,13 +312,19 @@
             {
               "id": "mtk1-0040",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tono punya 3 apel. Ia mendapat tambahan 3 apel dari ibunya. Sekarang apel Tono ada ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "9",
+                "8",
+                "4",
+                "6"
+              ]
             },
             {
               "id": "mtk1-0061",
@@ -258,24 +346,36 @@
             {
               "id": "mtk1-0064",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 5 mainan. Ia mendapat tambahan 4 mainan dari ibunya. Sekarang mainan Sari ada ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "9",
+                "6",
+                "10",
+                "7"
+              ]
             },
             {
               "id": "mtk1-0088",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 5 buku. Ia mendapat tambahan 3 buku dari ibunya. Sekarang buku Sari ada ...",
               "answer": "8",
               "explanation": "Jawaban dihitung: 8",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "10",
+                "5",
+                "8",
+                "11"
+              ]
             },
             {
               "id": "mtk1-0097",
@@ -297,35 +397,53 @@
             {
               "id": "mtk1-0112",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rani punya 2 buku. Ia mendapat tambahan 6 buku dari ibunya. Sekarang buku Rani ada ...",
               "answer": "8",
               "explanation": "Jawaban dihitung: 8",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "8",
+                "11",
+                "5",
+                "7"
+              ]
             },
             {
               "id": "mtk1-0136",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rani punya 4 kelereng. Ia mendapat tambahan 5 kelereng dari ibunya. Sekarang kelereng Rani ada ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "9",
+                "6",
+                "10",
+                "11"
+              ]
             },
             {
               "id": "mtk1-0148",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rani punya 3 mainan. Ia mendapat tambahan 1 mainan dari ibunya. Sekarang mainan Rani ada ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "14",
+                "4",
+                "7",
+                "1"
+              ]
             }
           ]
         },
@@ -353,24 +471,36 @@
             {
               "id": "mtk1-0004",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 9 kelereng. Ia memberikan 7 kelereng kepada temannya. Sisa kelereng Sari adalah ...",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "7",
+                "5",
+                "2",
+                "12"
+              ]
             },
             {
               "id": "mtk1-0025",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 10 - 7 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "8",
+                "3",
+                "13",
+                "0"
+              ]
             },
             {
               "id": "mtk1-0073",
@@ -392,57 +522,87 @@
             {
               "id": "mtk1-0076",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Dika punya 2 pensil. Ia memberikan 1 pensil kepada temannya. Sisa pensil Dika adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "4",
+                "11",
+                "1",
+                "0"
+              ]
             },
             {
               "id": "mtk1-0085",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 9 - 8 adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "1",
+                "11",
+                "2",
+                "6"
+              ]
             },
             {
               "id": "mtk1-0100",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Budi punya 8 pensil. Ia memberikan 4 pensil kepada temannya. Sisa pensil Budi adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "5",
+                "3",
+                "1",
+                "4"
+              ]
             },
             {
               "id": "mtk1-0109",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 10 - 4 adalah ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "3",
+                "11",
+                "1",
+                "6"
+              ]
             },
             {
               "id": "mtk1-0124",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 8 apel. Ia memberikan 2 apel kepada temannya. Sisa apel Sari adalah ...",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "7",
+                "5",
+                "6",
+                "3"
+              ]
             },
             {
               "id": "mtk1-0133",
@@ -464,13 +624,19 @@
             {
               "id": "mtk1-0145",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 8 - 4 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "3",
+                "4",
+                "9",
+                "5"
+              ]
             }
           ]
         },
@@ -532,24 +698,36 @@
             {
               "id": "mtk1-0015",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0019",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku disebut ...",
               "answer": "Persegi",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Persegi",
+                "Persegi panjang",
+                "Segitiga",
+                "Lingkaran"
+              ]
             },
             {
               "id": "mtk1-0023",
@@ -605,24 +783,36 @@
             {
               "id": "mtk1-0035",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku disebut ...",
               "answer": "Persegi",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Segitiga",
+                "Persegi",
+                "Lingkaran",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0039",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki 4 sisi, sisi berhadapan sama panjang disebut ...",
               "answer": "Persegi panjang",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0043",
@@ -678,24 +868,36 @@
             {
               "id": "mtk1-0055",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar yang memiliki 3 sisi dan 3 sudut disebut ...",
               "answer": "Segitiga",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Segitiga",
+                "Persegi panjang",
+                "Lingkaran",
+                "Persegi"
+              ]
             },
             {
               "id": "mtk1-0059",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku disebut ...",
               "answer": "Persegi",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Persegi panjang",
+                "Persegi",
+                "Segitiga",
+                "Lingkaran"
+              ]
             },
             {
               "id": "mtk1-0063",
@@ -751,24 +953,36 @@
             {
               "id": "mtk1-0075",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Persegi",
+                "Persegi panjang",
+                "Segitiga"
+              ]
             },
             {
               "id": "mtk1-0079",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Persegi panjang",
+                "Segitiga",
+                "Lingkaran",
+                "Persegi"
+              ]
             },
             {
               "id": "mtk1-0083",
@@ -824,24 +1038,36 @@
             {
               "id": "mtk1-0095",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar yang memiliki 4 sisi, sisi berhadapan sama panjang disebut ...",
               "answer": "Persegi panjang",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0099",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki 3 sisi dan 3 sudut disebut ...",
               "answer": "Segitiga",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Persegi panjang",
+                "Lingkaran",
+                "Persegi",
+                "Segitiga"
+              ]
             },
             {
               "id": "mtk1-0103",
@@ -897,24 +1123,36 @@
             {
               "id": "mtk1-0115",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku disebut ...",
               "answer": "Persegi",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Segitiga",
+                "Lingkaran",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0119",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0123",
@@ -970,24 +1208,36 @@
             {
               "id": "mtk1-0135",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Persegi",
+                "Segitiga",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0139",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku disebut ...",
               "answer": "Persegi",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Segitiga",
+                "Persegi",
+                "Persegi panjang"
+              ]
             },
             {
               "id": "mtk1-0143",
@@ -1043,24 +1293,36 @@
             {
               "id": "mtk1-0155",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar yang memiliki 3 sisi dan 3 sudut disebut ...",
               "answer": "Segitiga",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Segitiga",
+                "Persegi panjang",
+                "Lingkaran",
+                "Persegi"
+              ]
             },
             {
               "id": "mtk1-0159",
               "topic": "Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Bangun datar yang memiliki tidak memiliki sudut dan berbentuk bulat disebut ...",
               "answer": "Lingkaran",
               "explanation": "Kenali ciri-ciri bangun datar",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Lingkaran",
+                "Persegi panjang",
+                "Segitiga",
+                "Persegi"
+              ]
             },
             {
               "id": "mtk1-0163",
@@ -1110,453 +1372,658 @@
             {
               "id": "mtk1-0006",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 98 ... 21 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0010",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 6 ... 94 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0014",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 13 ... 49 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0018",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 49 ... 35 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0022",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 51 ... 83 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0026",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 47 ... 29 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0030",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 68 ... 33 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0034",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 20 ... 48 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0038",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 11 ... 94 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0042",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 52 ... 86 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0046",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 76 ... 29 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0050",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 36 ... 86 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0054",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 60 ... 94 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0058",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 36 ... 60 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0062",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 50 ... 34 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0066",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 96 ... 41 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0070",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 77 ... 9 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0074",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 51 ... 17 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0078",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 32 ... 48 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0082",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 15 ... 14 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0086",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 7 ... 12 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0090",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 72 ... 2 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0094",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 46 ... 100 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0098",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 35 ... 21 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0102",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 36 ... 9 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0106",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 5 ... 14 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0110",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 6 ... 91 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "=",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0114",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 90 ... 38 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0118",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 75 ... 78 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0122",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 87 ... 40 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0126",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 92 ... 90 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0130",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 7 ... 72 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0134",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 97 ... 32 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                ">",
+                "="
+              ]
             },
             {
               "id": "mtk1-0138",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 50 ... 89 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0142",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 62 ... 1 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0146",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 56 ... 63 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0150",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 11 ... 83 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "<",
+                "=",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0154",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 45 ... 29 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             },
             {
               "id": "mtk1-0158",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tanda yang tepat untuk 60 ... 90 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                ">",
+                "<",
+                "="
+              ]
             },
             {
               "id": "mtk1-0162",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tanda yang tepat untuk 10 ... 76 adalah (isi dengan < atau >)",
               "answer": "<",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                "<",
+                ">"
+              ]
             },
             {
               "id": "mtk1-0166",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tanda yang tepat untuk 85 ... 48 adalah (isi dengan < atau >)",
               "answer": ">",
               "explanation": "Bandingkan nilai kedua bilangan",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ]
             }
           ]
         },
@@ -1567,46 +2034,70 @@
             {
               "id": "mtk1-0005",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 47 + 9 adalah ...",
               "answer": "56",
               "explanation": "Jawaban dihitung: 56",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "46",
+                "66",
+                "56",
+                "57"
+              ]
             },
             {
               "id": "mtk1-0008",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Dika punya 13 mainan. Ia memberikan 3 mainan kepada temannya. Sisa mainan Dika adalah ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "10",
+                "11",
+                "8",
+                "12"
+              ]
             },
             {
               "id": "mtk1-0009",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 65 - 54 adalah ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "11",
+                "1",
+                "13",
+                "16"
+              ]
             },
             {
               "id": "mtk1-0012",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Dika punya 83 kelereng. Ia mendapat tambahan 50 kelereng dari ibunya. Sekarang kelereng Dika ada ...",
               "answer": "133",
               "explanation": "Jawaban dihitung: 133",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "134",
+                "107",
+                "133",
+                "135"
+              ]
             },
             {
               "id": "mtk1-0013",
@@ -1645,13 +2136,19 @@
             {
               "id": "mtk1-0020",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 17 buku. Ia mendapat tambahan 2 buku dari ibunya. Sekarang buku Budi ada ...",
               "answer": "19",
               "explanation": "Jawaban dihitung: 19",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "19",
+                "21",
+                "9",
+                "29"
+              ]
             },
             {
               "id": "mtk1-0021",
@@ -1673,35 +2170,53 @@
             {
               "id": "mtk1-0024",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 64 mainan. Ia mendapat tambahan 26 mainan dari ibunya. Sekarang mainan Tono ada ...",
               "answer": "90",
               "explanation": "Jawaban dihitung: 90",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "88",
+                "90",
+                "81",
+                "89"
+              ]
             },
             {
               "id": "mtk1-0029",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 34 - 13 adalah ...",
               "answer": "21",
               "explanation": "Jawaban dihitung: 21",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "21",
+                "22",
+                "19",
+                "18"
+              ]
             },
             {
               "id": "mtk1-0032",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 19 buku. Ia memberikan 14 buku kepada temannya. Sisa buku Budi adalah ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "8",
+                "5",
+                "10",
+                "15"
+              ]
             },
             {
               "id": "mtk1-0033",
@@ -1723,13 +2238,19 @@
             {
               "id": "mtk1-0036",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 88 kelereng. Ia mendapat tambahan 10 kelereng dari ibunya. Sekarang kelereng Tono ada ...",
               "answer": "98",
               "explanation": "Jawaban dihitung: 98",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "103",
+                "93",
+                "98",
+                "99"
+              ]
             },
             {
               "id": "mtk1-0041",
@@ -1751,57 +2272,87 @@
             {
               "id": "mtk1-0044",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sari punya 17 apel. Ia memberikan 3 apel kepada temannya. Sisa apel Sari adalah ...",
               "answer": "14",
               "explanation": "Jawaban dihitung: 14",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "14",
+                "17",
+                "13",
+                "24"
+              ]
             },
             {
               "id": "mtk1-0045",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 95 + 80 adalah ...",
               "answer": "175",
               "explanation": "Jawaban dihitung: 175",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "185",
+                "174",
+                "175",
+                "165"
+              ]
             },
             {
               "id": "mtk1-0048",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Budi punya 87 mainan. Ia mendapat tambahan 12 mainan dari ibunya. Sekarang mainan Budi ada ...",
               "answer": "99",
               "explanation": "Jawaban dihitung: 99",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "99",
+                "102",
+                "118",
+                "104"
+              ]
             },
             {
               "id": "mtk1-0049",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 2 + 9 adalah ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "11",
+                "16",
+                "8",
+                "9"
+              ]
             },
             {
               "id": "mtk1-0052",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tono punya 8 kelereng. Ia mendapat tambahan 4 kelereng dari ibunya. Sekarang kelereng Tono ada ...",
               "answer": "12",
               "explanation": "Jawaban dihitung: 12",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "9",
+                "12",
+                "13",
+                "7"
+              ]
             },
             {
               "id": "mtk1-0053",
@@ -1823,13 +2374,19 @@
             {
               "id": "mtk1-0056",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 22 apel. Ia mendapat tambahan 11 apel dari ibunya. Sekarang apel Budi ada ...",
               "answer": "33",
               "explanation": "Jawaban dihitung: 33",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "33",
+                "27",
+                "32",
+                "39"
+              ]
             },
             {
               "id": "mtk1-0057",
@@ -1851,57 +2408,87 @@
             {
               "id": "mtk1-0060",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Rani punya 81 apel. Ia memberikan 45 apel kepada temannya. Sisa apel Rani adalah ...",
               "answer": "36",
               "explanation": "Jawaban dihitung: 36",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "43",
+                "36",
+                "26",
+                "38"
+              ]
             },
             {
               "id": "mtk1-0065",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 47 + 24 adalah ...",
               "answer": "71",
               "explanation": "Jawaban dihitung: 71",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "64",
+                "71",
+                "81",
+                "69"
+              ]
             },
             {
               "id": "mtk1-0068",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tono punya 15 kelereng. Ia mendapat tambahan 2 kelereng dari ibunya. Sekarang kelereng Tono ada ...",
               "answer": "17",
               "explanation": "Jawaban dihitung: 17",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "16",
+                "17",
+                "20",
+                "15"
+              ]
             },
             {
               "id": "mtk1-0069",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 30 + 33 adalah ...",
               "answer": "63",
               "explanation": "Jawaban dihitung: 63",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "66",
+                "62",
+                "63",
+                "61"
+              ]
             },
             {
               "id": "mtk1-0072",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 32 kelereng. Ia mendapat tambahan 49 kelereng dari ibunya. Sekarang kelereng Tono ada ...",
               "answer": "81",
               "explanation": "Jawaban dihitung: 81",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "80",
+                "91",
+                "81",
+                "73"
+              ]
             },
             {
               "id": "mtk1-0077",
@@ -1923,13 +2510,19 @@
             {
               "id": "mtk1-0080",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rani punya 36 mainan. Ia mendapat tambahan 18 mainan dari ibunya. Sekarang mainan Rani ada ...",
               "answer": "54",
               "explanation": "Jawaban dihitung: 54",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "49",
+                "59",
+                "57",
+                "54"
+              ]
             },
             {
               "id": "mtk1-0081",
@@ -1951,35 +2544,53 @@
             {
               "id": "mtk1-0084",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Sari punya 73 buku. Ia mendapat tambahan 50 buku dari ibunya. Sekarang buku Sari ada ...",
               "answer": "123",
               "explanation": "Jawaban dihitung: 123",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "123",
+                "128",
+                "99",
+                "147"
+              ]
             },
             {
               "id": "mtk1-0089",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 45 - 23 adalah ...",
               "answer": "22",
               "explanation": "Jawaban dihitung: 22",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "22",
+                "17",
+                "12",
+                "23"
+              ]
             },
             {
               "id": "mtk1-0092",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 36 kelereng. Ia mendapat tambahan 12 kelereng dari ibunya. Sekarang kelereng Budi ada ...",
               "answer": "48",
               "explanation": "Jawaban dihitung: 48",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "43",
+                "45",
+                "51",
+                "48"
+              ]
             },
             {
               "id": "mtk1-0093",
@@ -2001,13 +2612,19 @@
             {
               "id": "mtk1-0096",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Sari punya 89 kelereng. Ia mendapat tambahan 25 kelereng dari ibunya. Sekarang kelereng Sari ada ...",
               "answer": "114",
               "explanation": "Jawaban dihitung: 114",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "125",
+                "92",
+                "114",
+                "113"
+              ]
             },
             {
               "id": "mtk1-0101",
@@ -2029,35 +2646,53 @@
             {
               "id": "mtk1-0104",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Dika punya 40 kelereng. Ia memberikan 1 kelereng kepada temannya. Sisa kelereng Dika adalah ...",
               "answer": "39",
               "explanation": "Jawaban dihitung: 39",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "39",
+                "49",
+                "40",
+                "46"
+              ]
             },
             {
               "id": "mtk1-0105",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 53 - 32 adalah ...",
               "answer": "21",
               "explanation": "Jawaban dihitung: 21",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "21",
+                "19",
+                "20",
+                "18"
+              ]
             },
             {
               "id": "mtk1-0108",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 62 pensil. Ia memberikan 17 pensil kepada temannya. Sisa pensil Tono adalah ...",
               "answer": "45",
               "explanation": "Jawaban dihitung: 45",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "45",
+                "54",
+                "43",
+                "40"
+              ]
             },
             {
               "id": "mtk1-0113",
@@ -2079,13 +2714,19 @@
             {
               "id": "mtk1-0116",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rani punya 31 mainan. Ia mendapat tambahan 13 mainan dari ibunya. Sekarang mainan Rani ada ...",
               "answer": "44",
               "explanation": "Jawaban dihitung: 44",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "44",
+                "46",
+                "42",
+                "48"
+              ]
             },
             {
               "id": "mtk1-0117",
@@ -2107,13 +2748,19 @@
             {
               "id": "mtk1-0120",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Rani punya 58 pensil. Ia memberikan 53 pensil kepada temannya. Sisa pensil Rani adalah ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "5",
+                "4",
+                "10",
+                "6"
+              ]
             },
             {
               "id": "mtk1-0121",
@@ -2135,46 +2782,70 @@
             {
               "id": "mtk1-0125",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 50 + 19 adalah ...",
               "answer": "69",
               "explanation": "Jawaban dihitung: 69",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "69",
+                "68",
+                "71",
+                "82"
+              ]
             },
             {
               "id": "mtk1-0128",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 38 mainan. Ia mendapat tambahan 4 mainan dari ibunya. Sekarang mainan Budi ada ...",
               "answer": "42",
               "explanation": "Jawaban dihitung: 42",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "42",
+                "37",
+                "39",
+                "46"
+              ]
             },
             {
               "id": "mtk1-0129",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 48 - 32 adalah ...",
               "answer": "16",
               "explanation": "Jawaban dihitung: 16",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "19",
+                "13",
+                "11",
+                "16"
+              ]
             },
             {
               "id": "mtk1-0132",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 65 pensil. Ia memberikan 48 pensil kepada temannya. Sisa pensil Tono adalah ...",
               "answer": "17",
               "explanation": "Jawaban dihitung: 17",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "19",
+                "15",
+                "16",
+                "17"
+              ]
             },
             {
               "id": "mtk1-0137",
@@ -2196,13 +2867,19 @@
             {
               "id": "mtk1-0140",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 23 mainan. Ia memberikan 14 mainan kepada temannya. Sisa mainan Budi adalah ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "7",
+                "4",
+                "9",
+                "19"
+              ]
             },
             {
               "id": "mtk1-0141",
@@ -2224,35 +2901,53 @@
             {
               "id": "mtk1-0144",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tono punya 81 kelereng. Ia mendapat tambahan 48 kelereng dari ibunya. Sekarang kelereng Tono ada ...",
               "answer": "129",
               "explanation": "Jawaban dihitung: 129",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "119",
+                "131",
+                "117",
+                "129"
+              ]
             },
             {
               "id": "mtk1-0149",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 47 + 19 adalah ...",
               "answer": "66",
               "explanation": "Jawaban dihitung: 66",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "65",
+                "66",
+                "71",
+                "64"
+              ]
             },
             {
               "id": "mtk1-0152",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Dika punya 22 apel. Ia memberikan 11 apel kepada temannya. Sisa apel Dika adalah ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "6",
+                "13",
+                "11",
+                "12"
+              ]
             },
             {
               "id": "mtk1-0153",
@@ -2274,13 +2969,19 @@
             {
               "id": "mtk1-0156",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Budi punya 90 apel. Ia memberikan 25 apel kepada temannya. Sisa apel Budi adalah ...",
               "answer": "65",
               "explanation": "Jawaban dihitung: 65",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "65",
+                "60",
+                "52",
+                "78"
+              ]
             },
             {
               "id": "mtk1-0157",
@@ -2302,13 +3003,19 @@
             {
               "id": "mtk1-0160",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sari punya 10 buku. Ia mendapat tambahan 2 buku dari ibunya. Sekarang buku Sari ada ...",
               "answer": "12",
               "explanation": "Jawaban dihitung: 12",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "15",
+                "12",
+                "14",
+                "13"
+              ]
             },
             {
               "id": "mtk1-0161",
@@ -2330,24 +3037,36 @@
             {
               "id": "mtk1-0164",
               "topic": "Soal Cerita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Budi punya 35 kelereng. Ia mendapat tambahan 19 kelereng dari ibunya. Sekarang kelereng Budi ada ...",
               "answer": "54",
               "explanation": "Jawaban dihitung: 54",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "55",
+                "57",
+                "51",
+                "54"
+              ]
             },
             {
               "id": "mtk1-0165",
               "topic": "Bilangan & Operasi Dasar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 78 - 64 adalah ...",
               "answer": "14",
               "explanation": "Jawaban dihitung: 14",
               "grade": 1,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "14",
+                "16",
+                "24",
+                "12"
+              ]
             }
           ]
         },
@@ -2589,24 +3308,36 @@
             {
               "id": "mtk1-g030",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ada 5 kelereng merah dan 4 kelereng biru. Jumlah semuanya ada ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "12",
+                "10",
+                "9",
+                "11"
+              ]
             },
             {
               "id": "mtk1-g031",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ada 2 kelereng merah dan 7 kelereng biru. Jumlah semuanya ada ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "9",
+                "4",
+                "8"
+              ]
             },
             {
               "id": "mtk1-g032",
@@ -2641,24 +3372,36 @@
             {
               "id": "mtk1-g034",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ada 9 kelereng merah dan 4 kelereng biru. Jumlah semuanya ada ...",
               "answer": "13",
               "explanation": "Jawaban dihitung: 13",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "13",
+                "12",
+                "10",
+                "11"
+              ]
             },
             {
               "id": "mtk1-g035",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ada 5 apel dan 6 jeruk. Jumlah semuanya ada ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "21",
+                "11",
+                "8",
+                "14"
+              ]
             },
             {
               "id": "mtk1-g036",
@@ -2708,13 +3451,19 @@
             {
               "id": "mtk1-g039",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ada 5 apel dan 6 jeruk. Jumlah semuanya ada ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "10",
+                "13",
+                "1",
+                "11"
+              ]
             },
             {
               "id": "mtk1-g040",
@@ -2734,13 +3483,19 @@
             {
               "id": "mtk1-g041",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ada 3 apel dan 8 jeruk. Jumlah semuanya ada ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "13",
+                "21",
+                "10",
+                "11"
+              ]
             },
             {
               "id": "mtk1-g042",
@@ -2775,13 +3530,19 @@
             {
               "id": "mtk1-g044",
               "topic": "Mengenal Diagram",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ada 9 kelereng merah dan 4 kelereng biru. Jumlah semuanya ada ...",
               "answer": "13",
               "explanation": "Jawaban dihitung: 13",
               "grade": 1,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "16",
+                "13",
+                "8",
+                "18"
+              ]
             }
           ]
         }

@@ -1232,12 +1232,18 @@
             {
               "id": "mtk2-0010-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 3 x 5 adalah ...",
               "answer": "15",
               "explanation": "Jawaban dihitung: 15",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "18",
+                "14",
+                "15",
+                "20"
+              ]
             },
             {
               "id": "mtk2-0011-mv2to3",
@@ -1258,22 +1264,34 @@
             {
               "id": "mtk2-0014-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 2 x 6 adalah ...",
               "answer": "12",
               "explanation": "Jawaban dihitung: 12",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "13",
+                "10",
+                "12",
+                "7"
+              ]
             },
             {
               "id": "mtk2-0015-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 42 : 6 adalah ...",
               "answer": "7",
               "explanation": "Jawaban dihitung: 7",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "7",
+                "8",
+                "5",
+                "2"
+              ]
             },
             {
               "id": "mtk2-0018-mv2to3",
@@ -1294,12 +1312,18 @@
             {
               "id": "mtk2-0019-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 2 : 1 adalah ...",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "5",
+                "2",
+                "3",
+                "4"
+              ]
             },
             {
               "id": "mtk2-0022-mv2to3",
@@ -1368,12 +1392,18 @@
             {
               "id": "mtk2-0030-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 8 x 5 adalah ...",
               "answer": "40",
               "explanation": "Jawaban dihitung: 40",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "45",
+                "35",
+                "40",
+                "32"
+              ]
             },
             {
               "id": "mtk2-0031-mv2to3",
@@ -1394,22 +1424,34 @@
             {
               "id": "mtk2-0034-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 1 x 2 adalah ...",
               "answer": "2",
               "explanation": "Jawaban dihitung: 2",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "2",
+                "7",
+                "12",
+                "0"
+              ]
             },
             {
               "id": "mtk2-0035-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 32 : 4 adalah ...",
               "answer": "8",
               "explanation": "Jawaban dihitung: 8",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "5",
+                "3",
+                "10",
+                "8"
+              ]
             },
             {
               "id": "mtk2-0038-mv2to3",
@@ -1430,12 +1472,18 @@
             {
               "id": "mtk2-0039-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 42 : 6 adalah ...",
               "answer": "7",
               "explanation": "Jawaban dihitung: 7",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "6",
+                "8",
+                "7",
+                "17"
+              ]
             },
             {
               "id": "mtk2-0042-mv2to3",
@@ -1504,12 +1552,18 @@
             {
               "id": "mtk2-0050-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 4 x 7 adalah ...",
               "answer": "28",
               "explanation": "Jawaban dihitung: 28",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "38",
+                "28",
+                "33",
+                "29"
+              ]
             },
             {
               "id": "mtk2-0051-mv2to3",
@@ -1530,22 +1584,34 @@
             {
               "id": "mtk2-0054-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 10 x 5 adalah ...",
               "answer": "50",
               "explanation": "Jawaban dihitung: 50",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "49",
+                "50",
+                "55",
+                "47"
+              ]
             },
             {
               "id": "mtk2-0055-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 15 : 3 adalah ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "10",
+                "5",
+                "0",
+                "2"
+              ]
             },
             {
               "id": "mtk2-0058-mv2to3",
@@ -1566,12 +1632,18 @@
             {
               "id": "mtk2-0059-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 24 : 6 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "2",
+                "9",
+                "4",
+                "6"
+              ]
             },
             {
               "id": "mtk2-0062-mv2to3",
@@ -1640,12 +1712,18 @@
             {
               "id": "mtk2-0070-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 1 x 1 adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "1",
+                "4",
+                "3",
+                "2"
+              ]
             },
             {
               "id": "mtk2-0071-mv2to3",
@@ -1666,22 +1744,34 @@
             {
               "id": "mtk2-0074-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 8 x 8 adalah ...",
               "answer": "64",
               "explanation": "Jawaban dihitung: 64",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "69",
+                "61",
+                "74",
+                "64"
+              ]
             },
             {
               "id": "mtk2-0075-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 100 : 10 adalah ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "13",
+                "10",
+                "8",
+                "7"
+              ]
             },
             {
               "id": "mtk2-0078-mv2to3",
@@ -1702,12 +1792,18 @@
             {
               "id": "mtk2-0079-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 12 : 3 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "4",
+                "14",
+                "9",
+                "5"
+              ]
             },
             {
               "id": "mtk2-0082-mv2to3",
@@ -1776,12 +1872,18 @@
             {
               "id": "mtk2-0090-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 9 x 7 adalah ...",
               "answer": "63",
               "explanation": "Jawaban dihitung: 63",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "63",
+                "60",
+                "53",
+                "62"
+              ]
             },
             {
               "id": "mtk2-0091-mv2to3",
@@ -1802,22 +1904,34 @@
             {
               "id": "mtk2-0094-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 5 x 1 adalah ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "4",
+                "10",
+                "3",
+                "5"
+              ]
             },
             {
               "id": "mtk2-0095-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 70 : 7 adalah ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "10",
+                "15",
+                "13",
+                "0"
+              ]
             },
             {
               "id": "mtk2-0098-mv2to3",
@@ -1838,12 +1952,18 @@
             {
               "id": "mtk2-0099-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 99 : 9 adalah ...",
               "answer": "11",
               "explanation": "Jawaban dihitung: 11",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "16",
+                "9",
+                "11",
+                "13"
+              ]
             },
             {
               "id": "mtk2-0102-mv2to3",
@@ -1912,12 +2032,18 @@
             {
               "id": "mtk2-0110-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 7 x 8 adalah ...",
               "answer": "56",
               "explanation": "Jawaban dihitung: 56",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "53",
+                "46",
+                "56",
+                "66"
+              ]
             },
             {
               "id": "mtk2-0111-mv2to3",
@@ -1938,22 +2064,34 @@
             {
               "id": "mtk2-0114-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 6 x 9 adalah ...",
               "answer": "54",
               "explanation": "Jawaban dihitung: 54",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "49",
+                "53",
+                "59",
+                "54"
+              ]
             },
             {
               "id": "mtk2-0115-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 1 : 1 adalah ...",
               "answer": "1",
               "explanation": "Jawaban dihitung: 1",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "4",
+                "1",
+                "3",
+                "0"
+              ]
             },
             {
               "id": "mtk2-0118-mv2to3",
@@ -1974,12 +2112,18 @@
             {
               "id": "mtk2-0119-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 28 : 4 adalah ...",
               "answer": "7",
               "explanation": "Jawaban dihitung: 7",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "10",
+                "17",
+                "2",
+                "7"
+              ]
             },
             {
               "id": "mtk2-0122-mv2to3",
@@ -2048,12 +2192,18 @@
             {
               "id": "mtk2-0130-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 4 x 4 adalah ...",
               "answer": "16",
               "explanation": "Jawaban dihitung: 16",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "16",
+                "14",
+                "11",
+                "18"
+              ]
             },
             {
               "id": "mtk2-0131-mv2to3",
@@ -2074,22 +2224,34 @@
             {
               "id": "mtk2-0134-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 5 x 6 adalah ...",
               "answer": "30",
               "explanation": "Jawaban dihitung: 30",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "25",
+                "33",
+                "30",
+                "35"
+              ]
             },
             {
               "id": "mtk2-0135-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 50 : 10 adalah ...",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "0",
+                "2",
+                "5",
+                "15"
+              ]
             },
             {
               "id": "mtk2-0138-mv2to3",
@@ -2110,12 +2272,18 @@
             {
               "id": "mtk2-0139-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 3 : 1 adalah ...",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "0",
+                "3",
+                "13",
+                "4"
+              ]
             },
             {
               "id": "mtk2-0142-mv2to3",
@@ -2184,12 +2352,18 @@
             {
               "id": "mtk2-0150-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 8 x 7 adalah ...",
               "answer": "56",
               "explanation": "Jawaban dihitung: 56",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "51",
+                "56",
+                "61",
+                "55"
+              ]
             },
             {
               "id": "mtk2-0151-mv2to3",
@@ -2210,22 +2384,34 @@
             {
               "id": "mtk2-0154-mv2to3",
               "topic": "Perkalian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil dari 4 x 1 adalah ...",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "9",
+                "4",
+                "14",
+                "6"
+              ]
             },
             {
               "id": "mtk2-0155-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hasil dari 50 : 5 adalah ...",
               "answer": "10",
               "explanation": "Jawaban dihitung: 10",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "10",
+                "7",
+                "12",
+                "9"
+              ]
             },
             {
               "id": "mtk2-0158-mv2to3",
@@ -2246,12 +2432,18 @@
             {
               "id": "mtk2-0159-mv2to3",
               "topic": "Pembagian",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Hasil dari 45 : 5 adalah ...",
               "answer": "9",
               "explanation": "Jawaban dihitung: 9",
-              "grade": 3
+              "grade": 3,
+              "options": [
+                "10",
+                "8",
+                "9",
+                "11"
+              ]
             },
             {
               "id": "mtk2-0162-mv2to3",
@@ -2326,167 +2518,257 @@
             {
               "id": "mtk3-g001",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 99 + 67 = ...",
               "answer": "166",
               "explanation": "Jawaban dihitung: 166",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "166",
+                "165",
+                "169",
+                "163"
+              ]
             },
             {
               "id": "mtk3-g002",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lengkapi kalimat matematika: ... + 73 = 90",
               "answer": "17",
               "explanation": "Jawaban dihitung: 17",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "17",
+                "12",
+                "22",
+                "14"
+              ]
             },
             {
               "id": "mtk3-g003",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lengkapi kalimat matematika: 71 + ... = 113",
               "answer": "42",
               "explanation": "Jawaban dihitung: 42",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "41",
+                "38",
+                "42",
+                "39"
+              ]
             },
             {
               "id": "mtk3-g004",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 154 + ... = 219",
               "answer": "65",
               "explanation": "Jawaban dihitung: 65",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "60",
+                "55",
+                "65",
+                "71"
+              ]
             },
             {
               "id": "mtk3-g005",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 104 - 52 = ...",
               "answer": "52",
               "explanation": "Jawaban dihitung: 52",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "57",
+                "52",
+                "53",
+                "47"
+              ]
             },
             {
               "id": "mtk3-g006",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: ... + 89 = 140",
               "answer": "51",
               "explanation": "Jawaban dihitung: 51",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "53",
+                "41",
+                "51",
+                "61"
+              ]
             },
             {
               "id": "mtk3-g007",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 89 + 157 = ...",
               "answer": "246",
               "explanation": "Jawaban dihitung: 246",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "247",
+                "245",
+                "236",
+                "246"
+              ]
             },
             {
               "id": "mtk3-g008",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lengkapi kalimat matematika: ... - 60 = 133",
               "answer": "193",
               "explanation": "Jawaban dihitung: 193",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "231",
+                "190",
+                "193",
+                "195"
+              ]
             },
             {
               "id": "mtk3-g009",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 36 + ... = 224",
               "answer": "188",
               "explanation": "Jawaban dihitung: 188",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "188",
+                "151",
+                "198",
+                "190"
+              ]
             },
             {
               "id": "mtk3-g010",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 154 + ... = 174",
               "answer": "20",
               "explanation": "Jawaban dihitung: 20",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "18",
+                "16",
+                "20",
+                "22"
+              ]
             },
             {
               "id": "mtk3-g011",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: ... - 104 = 75",
               "answer": "179",
               "explanation": "Jawaban dihitung: 179",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "178",
+                "179",
+                "189",
+                "180"
+              ]
             },
             {
               "id": "mtk3-g012",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 117 - ... = 104",
               "answer": "13",
               "explanation": "Jawaban dihitung: 13",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "16",
+                "13",
+                "11",
+                "3"
+              ]
             },
             {
               "id": "mtk3-g013",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lengkapi kalimat matematika: 172 - ... = 70",
               "answer": "102",
               "explanation": "Jawaban dihitung: 102",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "122",
+                "102",
+                "82",
+                "101"
+              ]
             },
             {
               "id": "mtk3-g014",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 121 + 55 = ...",
               "answer": "176",
               "explanation": "Jawaban dihitung: 176",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "176",
+                "181",
+                "211",
+                "159"
+              ]
             },
             {
               "id": "mtk3-g015",
               "topic": "Kalimat Matematika",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lengkapi kalimat matematika: 167 - ... = 20",
               "answer": "147",
               "explanation": "Jawaban dihitung: 147",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "142",
+                "144",
+                "147",
+                "133"
+              ]
             }
           ]
         },
@@ -2497,167 +2779,257 @@
             {
               "id": "mtk3-g016",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "11 kg sama dengan ... ons",
               "answer": "110",
               "explanation": "Jawaban dihitung: 110",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "110",
+                "105",
+                "107",
+                "121"
+              ]
             },
             {
               "id": "mtk3-g017",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "15 m sama dengan ... cm",
               "answer": "1500",
               "explanation": "Jawaban dihitung: 1500",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1200",
+                "1650",
+                "1510",
+                "1500"
+              ]
             },
             {
               "id": "mtk3-g018",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "11 kg sama dengan ... ons",
               "answer": "110",
               "explanation": "Jawaban dihitung: 110",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "105",
+                "110",
+                "100",
+                "108"
+              ]
             },
             {
               "id": "mtk3-g019",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "6 kg sama dengan ... ons",
               "answer": "60",
               "explanation": "Jawaban dihitung: 60",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "60",
+                "61",
+                "50",
+                "63"
+              ]
             },
             {
               "id": "mtk3-g020",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "9 m sama dengan ... cm",
               "answer": "900",
               "explanation": "Jawaban dihitung: 900",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "720",
+                "900",
+                "902",
+                "905"
+              ]
             },
             {
               "id": "mtk3-g021",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "18 kg sama dengan ... ons",
               "answer": "180",
               "explanation": "Jawaban dihitung: 180",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "175",
+                "190",
+                "180",
+                "170"
+              ]
             },
             {
               "id": "mtk3-g022",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "8 km sama dengan ... m",
               "answer": "8000",
               "explanation": "Jawaban dihitung: 8000",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7997",
+                "8003",
+                "7995",
+                "8000"
+              ]
             },
             {
               "id": "mtk3-g023",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "18 kg sama dengan ... ons",
               "answer": "180",
               "explanation": "Jawaban dihitung: 180",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "183",
+                "185",
+                "180",
+                "177"
+              ]
             },
             {
               "id": "mtk3-g024",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "15 kg sama dengan ... ons",
               "answer": "150",
               "explanation": "Jawaban dihitung: 150",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "155",
+                "150",
+                "180",
+                "153"
+              ]
             },
             {
               "id": "mtk3-g025",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "8 m sama dengan ... cm",
               "answer": "800",
               "explanation": "Jawaban dihitung: 800",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "800",
+                "795",
+                "798",
+                "720"
+              ]
             },
             {
               "id": "mtk3-g026",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "19 m sama dengan ... cm",
               "answer": "1900",
               "explanation": "Jawaban dihitung: 1900",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2090",
+                "1900",
+                "1895",
+                "1910"
+              ]
             },
             {
               "id": "mtk3-g027",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "14 kg sama dengan ... ons",
               "answer": "140",
               "explanation": "Jawaban dihitung: 140",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "139",
+                "143",
+                "137",
+                "140"
+              ]
             },
             {
               "id": "mtk3-g028",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "15 kg sama dengan ... ons",
               "answer": "150",
               "explanation": "Jawaban dihitung: 150",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "135",
+                "150",
+                "152",
+                "147"
+              ]
             },
             {
               "id": "mtk3-g029",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "8 kg sama dengan ... ons",
               "answer": "80",
               "explanation": "Jawaban dihitung: 80",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "70",
+                "72",
+                "79",
+                "80"
+              ]
             },
             {
               "id": "mtk3-g030",
               "topic": "Pengukuran Panjang dan Berat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "4 m sama dengan ... cm",
               "answer": "400",
               "explanation": "Jawaban dihitung: 400",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "400",
+                "405",
+                "401",
+                "397"
+              ]
             }
           ]
         }
@@ -2673,167 +3045,257 @@
             {
               "id": "mtk3-g031",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "5",
+                "3",
+                "4",
+                "1"
+              ]
             },
             {
               "id": "mtk3-g032",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi panjang memiliki ... sudut",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "9",
+                "14",
+                "4",
+                "1"
+              ]
             },
             {
               "id": "mtk3-g033",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi memiliki ... sudut",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "14",
+                "7",
+                "6",
+                "4"
+              ]
             },
             {
               "id": "mtk3-g034",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi panjang memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "9",
+                "4",
+                "7",
+                "3"
+              ]
             },
             {
               "id": "mtk3-g035",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar segitiga memiliki ... sisi",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "4",
+                "5",
+                "3",
+                "0"
+              ]
             },
             {
               "id": "mtk3-g036",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar segitiga memiliki ... sisi",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "2",
+                "13",
+                "4",
+                "3"
+              ]
             },
             {
               "id": "mtk3-g037",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi memiliki ... sudut",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "9",
+                "1",
+                "2",
+                "4"
+              ]
             },
             {
               "id": "mtk3-g038",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar segitiga memiliki ... sudut",
               "answer": "3",
               "explanation": "Jawaban dihitung: 3",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+              ]
             },
             {
               "id": "mtk3-g039",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar segi lima memiliki ... sudut",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "10",
+                "5",
+                "2",
+                "4"
+              ]
             },
             {
               "id": "mtk3-g040",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar persegi memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "7",
+                "3",
+                "4",
+                "6"
+              ]
             },
             {
               "id": "mtk3-g041",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bangun datar segi lima memiliki ... sisi",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "3",
+                "8",
+                "0",
+                "5"
+              ]
             },
             {
               "id": "mtk3-g042",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar segi lima memiliki ... sudut",
               "answer": "5",
               "explanation": "Jawaban dihitung: 5",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "0",
+                "5",
+                "2",
+                "15"
+              ]
             },
             {
               "id": "mtk3-g043",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar segi enam memiliki ... sisi",
               "answer": "6",
               "explanation": "Jawaban dihitung: 6",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "4",
+                "9",
+                "6",
+                "1"
+              ]
             },
             {
               "id": "mtk3-g044",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi memiliki ... sudut",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "9",
+                "2",
+                "4",
+                "3"
+              ]
             },
             {
               "id": "mtk3-g045",
               "topic": "Unsur-Unsur Bangun Datar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bangun datar persegi memiliki ... sisi",
               "answer": "4",
               "explanation": "Jawaban dihitung: 4",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "1",
+                "9",
+                "7",
+                "4"
+              ]
             }
           ]
         },
@@ -2844,167 +3306,257 @@
             {
               "id": "mtk3-g046",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Eka=8, Budi=8, Citra=5, Dedi=10. Siapa yang membaca buku paling sedikit?",
               "answer": "Citra",
               "explanation": "Jawaban dihitung: Citra",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Citra",
+                "Eka",
+                "Ani",
+                "Budi"
+              ]
             },
             {
               "id": "mtk3-g047",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data jumlah buku yang dibaca: Eka=4, Ani=5, Citra=2, Dedi=3, Budi=4. Siapa yang membaca buku paling banyak?",
               "answer": "Ani",
               "explanation": "Jawaban dihitung: Ani",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Ani",
+                "Citra",
+                "Budi",
+                "Eka"
+              ]
             },
             {
               "id": "mtk3-g048",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Budi=8, Ani=10, Eka=8. Siapa yang membaca buku paling sedikit?",
               "answer": "Budi",
               "explanation": "Jawaban dihitung: Budi",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Eka",
+                "Dedi",
+                "Budi",
+                "Citra"
+              ]
             },
             {
               "id": "mtk3-g049",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data jumlah buku yang dibaca: Citra=8, Eka=2, Dedi=4. Siapa yang membaca buku paling sedikit?",
               "answer": "Eka",
               "explanation": "Jawaban dihitung: Eka",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Eka",
+                "Ani",
+                "Dedi",
+                "Budi"
+              ]
             },
             {
               "id": "mtk3-g050",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Budi=5, Dedi=3, Ani=2, Citra=1, Eka=3. Siapa yang membaca buku paling sedikit?",
               "answer": "Citra",
               "explanation": "Jawaban dihitung: Citra",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Budi",
+                "Citra",
+                "Eka",
+                "Dedi"
+              ]
             },
             {
               "id": "mtk3-g051",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Eka=5, Citra=7, Budi=5, Ani=9, Dedi=9. Siapa yang membaca buku paling sedikit?",
               "answer": "Eka",
               "explanation": "Jawaban dihitung: Eka",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Dedi",
+                "Budi",
+                "Ani",
+                "Eka"
+              ]
             },
             {
               "id": "mtk3-g052",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data jumlah buku yang dibaca: Eka=6, Ani=10, Budi=5. Siapa yang membaca buku paling banyak?",
               "answer": "Ani",
               "explanation": "Jawaban dihitung: Ani",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Eka",
+                "Ani",
+                "Budi",
+                "Dedi"
+              ]
             },
             {
               "id": "mtk3-g053",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data jumlah buku yang dibaca: Eka=5, Ani=10, Citra=1. Siapa yang membaca buku paling banyak?",
               "answer": "Ani",
               "explanation": "Jawaban dihitung: Ani",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Budi",
+                "Eka",
+                "Ani",
+                "Citra"
+              ]
             },
             {
               "id": "mtk3-g054",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data jumlah buku yang dibaca: Dedi=2, Citra=8, Ani=6, Budi=7, Eka=6. Siapa yang membaca buku paling sedikit?",
               "answer": "Dedi",
               "explanation": "Jawaban dihitung: Dedi",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Citra",
+                "Budi",
+                "Ani",
+                "Dedi"
+              ]
             },
             {
               "id": "mtk3-g055",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Budi=8, Citra=5, Eka=7. Jumlah semua buku yang dibaca ada ...",
               "answer": "20",
               "explanation": "Jawaban dihitung: 20",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "23",
+                "20",
+                "15",
+                "17"
+              ]
             },
             {
               "id": "mtk3-g056",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data jumlah buku yang dibaca: Ani=2, Citra=7, Budi=9, Dedi=1. Jumlah semua buku yang dibaca ada ...",
               "answer": "19",
               "explanation": "Jawaban dihitung: 19",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "20",
+                "14",
+                "18",
+                "19"
+              ]
             },
             {
               "id": "mtk3-g057",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Data jumlah buku yang dibaca: Dedi=10, Ani=8, Eka=8, Budi=1. Siapa yang membaca buku paling banyak?",
               "answer": "Dedi",
               "explanation": "Jawaban dihitung: Dedi",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "Dedi",
+                "Citra",
+                "Ani",
+                "Eka"
+              ]
             },
             {
               "id": "mtk3-g058",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data jumlah buku yang dibaca: Budi=1, Citra=10, Eka=4, Dedi=3, Ani=5. Jumlah semua buku yang dibaca ada ...",
               "answer": "23",
               "explanation": "Jawaban dihitung: 23",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "25",
+                "18",
+                "26",
+                "23"
+              ]
             },
             {
               "id": "mtk3-g059",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Data jumlah buku yang dibaca: Dedi=2, Ani=3, Eka=8, Citra=5, Budi=9. Jumlah semua buku yang dibaca ada ...",
               "answer": "27",
               "explanation": "Jawaban dihitung: 27",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "28",
+                "27",
+                "26",
+                "24"
+              ]
             },
             {
               "id": "mtk3-g060",
               "topic": "Penyajian Data dalam Tabel",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Data jumlah buku yang dibaca: Dedi=9, Eka=3, Ani=7, Budi=4. Jumlah semua buku yang dibaca ada ...",
               "answer": "23",
               "explanation": "Jawaban dihitung: 23",
               "grade": 3,
-              "sumber": "generated"
+              "sumber": "generated",
+              "options": [
+                "19",
+                "18",
+                "23",
+                "24"
+              ]
             }
           ]
         }

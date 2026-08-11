@@ -450,13 +450,19 @@
             {
               "id": "ing5-d028",
               "topic": "Describing People",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lengkapi: 'My friend is very ___.' (baik hati)",
               "answer": "kind",
               "explanation": "kind",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "pintar",
+                "Smart",
+                "kind",
+                "Short"
+              ]
             }
           ]
         },

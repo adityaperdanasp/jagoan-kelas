@@ -12,46 +12,70 @@
             {
               "id": "ipas6-d001",
               "topic": "Bagaimana Tubuh Kita Bergerak?",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rangka yang berfungsi melindungi otak manusia adalah ...",
               "answer": "Tengkorak",
               "explanation": "Tengkorak",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tak sadar",
+                "Skoliosis",
+                "Otot",
+                "Tengkorak"
+              ]
             },
             {
               "id": "ipas6-d002",
               "topic": "Bagaimana Tubuh Kita Bergerak?",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rangka yang berfungsi melindungi jantung dan paru-paru adalah ...",
               "answer": "Tulang rusuk",
               "explanation": "Tulang rusuk",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tulang rusuk",
+                "Engsel",
+                "Rapuh",
+                "Tidak sadar"
+              ]
             },
             {
               "id": "ipas6-d003",
               "topic": "Bagaimana Tubuh Kita Bergerak?",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat gerak aktif pada manusia adalah ...",
               "answer": "Otot",
               "explanation": "Otot",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Rapuh",
+                "Tulang rusuk",
+                "Otot",
+                "Engsel"
+              ]
             },
             {
               "id": "ipas6-d004",
               "topic": "Bagaimana Tubuh Kita Bergerak?",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat gerak pasif pada manusia adalah ...",
-              "answer": "Tulang/rangka",
+              "answer": "Tulang",
               "explanation": "Tulang/rangka",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tulang",
+                "Engsel",
+                "Putar",
+                "Otot"
+              ]
             },
             {
               "id": "ipas6-d005",
@@ -115,13 +139,19 @@
             {
               "id": "ipas6-d009",
               "topic": "Bagaimana Tubuh Kita Bergerak?",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Otot yang bekerja di luar kesadaran kita, contohnya otot jantung, disebut otot ...",
-              "answer": "Tidak sadar/involunter",
+              "answer": "Tidak sadar",
               "explanation": "Tidak sadar/involunter",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Tidak sadar",
+                "Tulang rusuk",
+                "Tulang",
+                "Putar"
+              ]
             },
             {
               "id": "ipas6-d010",
@@ -142,42 +172,66 @@
             {
               "id": "ipas4-038-mv4to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tulang yang melindungi otak manusia disebut ...",
               "answer": "Tengkorak",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Tulang",
+                "Tidak sadar",
+                "Tak sadar",
+                "Tengkorak"
+              ]
             },
             {
               "id": "ipas4-039-mv4to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tulang yang melindungi jantung dan paru-paru disebut ...",
               "answer": "Tulang rusuk",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Tulang rusuk",
+                "Tak sadar",
+                "Otot",
+                "Engsel"
+              ]
             },
             {
               "id": "ipas4-040-mv4to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jumlah tulang rangka pada tubuh manusia dewasa sekitar ...",
               "answer": "206",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "204",
+                "211",
+                "206",
+                "209"
+              ]
             },
             {
               "id": "ipas4-041-mv4to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Otot yang bekerja tanpa kita sadari, contohnya otot jantung, disebut otot ...",
-              "answer": "Tak sadar/involunter",
+              "answer": "Tak sadar",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Skoliosis",
+                "Tengkorak",
+                "Tak sadar",
+                "Tidak sadar"
+              ]
             }
           ]
         },
@@ -188,68 +242,104 @@
             {
               "id": "ipas6-014",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Indonesia memproklamasikan kemerdekaan pada tanggal ...",
               "answer": "17 Agustus 1945",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Laksamana Maeda",
+                "Presiden",
+                "17 Agustus 1945",
+                "W.R. Supratman"
+              ]
             },
             {
               "id": "ipas6-015",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Proklamator kemerdekaan Indonesia adalah Soekarno dan ...",
               "answer": "Mohammad Hatta",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bahasa",
+                "Mohammad Hatta",
+                "Ibu Fatmawati",
+                "21 April"
+              ]
             },
             {
               "id": "ipas6-016",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Naskah proklamasi disusun di rumah ...",
               "answer": "Laksamana Maeda",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "21 April",
+                "Republik",
+                "Bahasa",
+                "Laksamana Maeda"
+              ]
             },
             {
               "id": "ipas6-017",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebelum Indonesia merdeka, Indonesia dijajah oleh Belanda dan ...",
               "answer": "Jepang",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "W.R. Supratman",
+                "Pahlawan",
+                "Republik",
+                "Jepang"
+              ]
             },
             {
               "id": "ipas6-018",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Organisasi pemuda yang mengikrarkan Sumpah Pemuda pada tahun 1928 menghasilkan ikrar tentang satu tanah air, satu bangsa, dan satu ...",
               "answer": "Bahasa",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Republik",
+                "Pancasila",
+                "Bahasa",
+                "21 April"
+              ]
             },
             {
               "id": "ipas6-019",
               "topic": "Sejarah Kemerdekaan Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bendera merah putih pertama kali dikibarkan saat proklamasi dijahit oleh ...",
               "answer": "Ibu Fatmawati",
               "explanation": "Sejarah perjuangan kemerdekaan Indonesia",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Ibu Fatmawati",
+                "Pancasila",
+                "R.A. Kartini",
+                "21 April"
+              ]
             },
             {
               "id": "ipas6-041",
@@ -265,52 +355,82 @@
             {
               "id": "ipas5-043-mv5to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pahlawan wanita yang memperjuangkan pendidikan bagi kaum perempuan Indonesia adalah ...",
               "answer": "R.A. Kartini",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "R.A. Kartini",
+                "Jepang",
+                "Indonesia Raya",
+                "10 November"
+              ]
             },
             {
               "id": "ipas5-044-mv5to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hari Kartini diperingati setiap tanggal ...",
               "answer": "21 April",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Mohammad Hatta",
+                "21 April",
+                "R.A. Kartini",
+                "Republik"
+              ]
             },
             {
               "id": "ipas5-045-mv5to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lagu kebangsaan Indonesia berjudul ...",
               "answer": "Indonesia Raya",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Indonesia Raya",
+                "Republik",
+                "Mohammad Hatta",
+                "Ibu Fatmawati"
+              ]
             },
             {
               "id": "ipas5-046-mv5to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pencipta lagu Indonesia Raya adalah ...",
               "answer": "W.R. Supratman",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "W.R. Supratman",
+                "Laksamana Maeda",
+                "R.A. Kartini",
+                "Ibu Fatmawati"
+              ]
             },
             {
               "id": "ipas5-047-mv5to6",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Dasar negara Indonesia yang memuat lima sila disebut ...",
               "answer": "Pancasila",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Bahasa",
+                "Pancasila",
+                "Pahlawan",
+                "21 April"
+              ]
             },
             {
               "id": "ipas5-050-mv5to6",
@@ -325,52 +445,82 @@
             {
               "id": "ipas6-042",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Tokoh yang dikenal sebagai Bapak Koperasi Indonesia adalah ...",
               "answer": "Mohammad Hatta",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Presiden",
+                "Indonesia Raya",
+                "Laksamana Maeda",
+                "Mohammad Hatta"
+              ]
             },
             {
               "id": "ipas6-043",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pertempuran besar yang terjadi di Surabaya melawan sekutu dikenang sebagai Hari ...",
               "answer": "Pahlawan",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "21 April",
+                "Pahlawan",
+                "Ibu Fatmawati",
+                "17 Agustus 1945"
+              ]
             },
             {
               "id": "ipas6-044",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hari Pahlawan diperingati setiap tanggal ...",
               "answer": "10 November",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "10 November",
+                "Laksamana Maeda",
+                "21 April",
+                "W.R. Supratman"
+              ]
             },
             {
               "id": "ipas6-046",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kepala pemerintahan di Indonesia dijabat oleh ...",
               "answer": "Presiden",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Presiden",
+                "10 November",
+                "Jepang",
+                "W.R. Supratman"
+              ]
             },
             {
               "id": "ipas6-047",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sistem pemerintahan Indonesia berbentuk ...",
               "answer": "Republik",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "Bahasa",
+                "17 Agustus 1945",
+                "Republik",
+                "Jepang"
+              ]
             }
           ]
         },
@@ -420,24 +570,36 @@
             {
               "id": "ipas6-020",
               "topic": "Globalisasi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Proses mendunia yang membuat batas antarnegara semakin tidak terasa disebut ...",
               "answer": "Globalisasi",
               "explanation": "Globalisasi membawa dampak positif dan negatif",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Malaysia",
+                "8 Agustus 1967",
+                "Globalisasi",
+                "ASEAN"
+              ]
             },
             {
               "id": "ipas6-021",
               "topic": "Globalisasi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Contoh dampak positif globalisasi adalah kemudahan dalam ...",
-              "answer": "Komunikasi/informasi",
+              "answer": "Komunikasi",
               "explanation": "Globalisasi membawa dampak positif dan negatif",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Digitalisasi",
+                "Komunikasi",
+                "ASEAN",
+                "APEC"
+              ]
             },
             {
               "id": "ipas6-022",
@@ -453,66 +615,102 @@
             {
               "id": "ipas6-023",
               "topic": "Globalisasi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Organisasi kerja sama negara-negara Asia Tenggara disebut ...",
               "answer": "ASEAN",
               "explanation": "Globalisasi membawa dampak positif dan negatif",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Malaysia",
+                "Digitalisasi",
+                "ASEAN",
+                "8 Agustus 1967"
+              ]
             },
             {
               "id": "ipas6-024",
               "topic": "Kerja Sama ASEAN",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "ASEAN didirikan pada tanggal ...",
               "answer": "8 Agustus 1967",
               "explanation": "ASEAN adalah organisasi kerja sama regional Asia Tenggara",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "APEC",
+                "ASEAN",
+                "8 Agustus 1967",
+                "Digitalisasi"
+              ]
             },
             {
               "id": "ipas6-025",
               "topic": "Kerja Sama ASEAN",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Jumlah negara pendiri ASEAN adalah ...",
               "answer": "5",
               "explanation": "ASEAN adalah organisasi kerja sama regional Asia Tenggara",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "2",
+                "5",
+                "15",
+                "8"
+              ]
             },
             {
               "id": "ipas6-026",
               "topic": "Kerja Sama ASEAN",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Salah satu negara pendiri ASEAN selain Indonesia adalah ...",
-              "answer": "Malaysia/Singapura/Filipina/Thailand",
+              "answer": "Malaysia",
               "explanation": "ASEAN adalah organisasi kerja sama regional Asia Tenggara",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Malaysia",
+                "Globalisasi",
+                "APEC",
+                "Komunikasi"
+              ]
             },
             {
               "id": "ipas6-040",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Kerja sama ekonomi negara-negara di kawasan Asia Pasifik disebut ...",
               "answer": "APEC",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "APEC",
+                "Digitalisasi",
+                "Komunikasi",
+                "8 Agustus 1967"
+              ]
             },
             {
               "id": "ipas6-048",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Perubahan sosial akibat masuknya teknologi digital ke berbagai bidang kehidupan disebut ...",
               "answer": "Digitalisasi",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 6
+              "grade": 6,
+              "options": [
+                "APEC",
+                "ASEAN",
+                "8 Agustus 1967",
+                "Digitalisasi"
+              ]
             },
             {
               "id": "ipas6-049",
@@ -538,145 +736,223 @@
             {
               "id": "ipas6-005",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Planet terdekat dengan matahari adalah ...",
               "answer": "Merkurius",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Merkurius",
+                "Rotasi bumi",
+                "Revolusi bumi",
+                "Bulan"
+              ]
             },
             {
               "id": "ipas6-006",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Planet yang kita tinggali disebut ...",
               "answer": "Bumi",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Pergantian musim",
+                "Revolusi bumi",
+                "Bulan",
+                "Bumi"
+              ]
             },
             {
               "id": "ipas6-007",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Planet terbesar dalam tata surya adalah ...",
               "answer": "Jupiter",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Siang dan malam",
+                "Pergantian musim",
+                "Bumi",
+                "Jupiter"
+              ]
             },
             {
               "id": "ipas6-008",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Planet yang dikenal sebagai planet merah adalah ...",
               "answer": "Mars",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jupiter",
+                "Mars",
+                "Rotasi bumi",
+                "Pergantian musim"
+              ]
             },
             {
               "id": "ipas6-009",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Benda langit yang mengelilingi bumi disebut ...",
-              "answer": "Bulan/satelit",
+              "answer": "Bulan",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jupiter",
+                "Kawah",
+                "Bulan",
+                "Pergantian musim"
+              ]
             },
             {
               "id": "ipas6-010",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Peristiwa bumi berputar pada porosnya disebut ...",
               "answer": "Rotasi bumi",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bulan",
+                "Pergantian musim",
+                "Rotasi bumi",
+                "Kawah"
+              ]
             },
             {
               "id": "ipas6-011",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Peristiwa bumi mengelilingi matahari disebut ...",
               "answer": "Revolusi bumi",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Pergantian musim",
+                "Revolusi bumi",
+                "Mars",
+                "Rotasi bumi"
+              ]
             },
             {
               "id": "ipas6-012",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rotasi bumi menyebabkan terjadinya ...",
               "answer": "Siang dan malam",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jupiter",
+                "Kawah",
+                "Mars",
+                "Siang dan malam"
+              ]
             },
             {
               "id": "ipas6-013",
               "topic": "Tata Surya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Revolusi bumi menyebabkan terjadinya ...",
               "answer": "Pergantian musim",
               "explanation": "Tata surya terdiri dari matahari dan benda langit yang mengelilinginya",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Pergantian musim",
+                "Revolusi bumi",
+                "Mars",
+                "Bumi"
+              ]
             },
             {
               "id": "ipas6-035",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Peristiwa gerhana matahari terjadi ketika ... berada di antara matahari dan bumi",
               "answer": "Bulan",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bulan",
+                "Revolusi bumi",
+                "Kawah",
+                "Rotasi bumi"
+              ]
             },
             {
               "id": "ipas6-036",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Peristiwa gerhana bulan terjadi ketika ... berada di antara matahari dan bulan",
               "answer": "Bumi",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Revolusi bumi",
+                "Pergantian musim",
+                "Merkurius",
+                "Bumi"
+              ]
             },
             {
               "id": "ipas6-037",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Satelit alami bumi yang memengaruhi terjadinya pasang surut air laut adalah ...",
               "answer": "Bulan",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bulan",
+                "Merkurius",
+                "Revolusi bumi",
+                "Jupiter"
+              ]
             },
             {
               "id": "ipas6-038",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lubang di permukaan bulan akibat tumbukan meteor disebut ...",
               "answer": "Kawah",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Kawah",
+                "Pergantian musim",
+                "Bulan",
+                "Bumi"
+              ]
             }
           ]
         },
@@ -687,57 +963,87 @@
             {
               "id": "ipas6-030",
               "topic": "Energi & Perubahan Bentuknya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Gaya gesek antara dua permukaan dapat dikurangi dengan memberi ...",
-              "answer": "Pelumas/oli",
+              "answer": "Pelumas",
               "explanation": "Energi dapat berubah bentuk",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Pelumas",
+                "Surya",
+                "Kipas angin",
+                "Setrika"
+              ]
             },
             {
               "id": "ipas6-031",
               "topic": "Energi & Perubahan Bentuknya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Perubahan energi listrik menjadi energi gerak terjadi pada alat ...",
-              "answer": "Kipas angin/motor listrik",
+              "answer": "Kipas angin",
               "explanation": "Energi dapat berubah bentuk",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Kipas angin",
+                "Setrika",
+                "Angin",
+                "Pelumas"
+              ]
             },
             {
               "id": "ipas6-032",
               "topic": "Energi & Perubahan Bentuknya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Perubahan energi listrik menjadi energi panas terjadi pada alat ...",
-              "answer": "Setrika/pemanas",
+              "answer": "Setrika",
               "explanation": "Energi dapat berubah bentuk",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Angin",
+                "Pelumas",
+                "Surya",
+                "Setrika"
+              ]
             },
             {
               "id": "ipas6-033",
               "topic": "Energi & Perubahan Bentuknya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Sumber energi alternatif yang memanfaatkan sinar matahari disebut energi ...",
               "answer": "Surya",
               "explanation": "Energi dapat berubah bentuk",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Setrika",
+                "Pelumas",
+                "Angin",
+                "Surya"
+              ]
             },
             {
               "id": "ipas6-034",
               "topic": "Energi & Perubahan Bentuknya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Sumber energi alternatif yang memanfaatkan angin disebut energi ...",
-              "answer": "Angin/bayu",
+              "answer": "Angin",
               "explanation": "Energi dapat berubah bentuk",
               "grade": 6,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Angin",
+                "Setrika",
+                "Surya",
+                "Kipas angin"
+              ]
             }
           ]
         },
@@ -748,13 +1054,19 @@
             {
               "id": "ipas6-d011",
               "topic": "Bumi Kita Terancam Bahaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Peningkatan suhu rata-rata permukaan bumi akibat efek rumah kaca disebut ...",
               "answer": "Pemanasan global",
               "explanation": "Pemanasan global",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Menanam pohon",
+                "Karbon dioksida",
+                "Penebangan liar",
+                "Pemanasan global"
+              ]
             },
             {
               "id": "ipas6-d012",
@@ -775,13 +1087,19 @@
             {
               "id": "ipas6-d013",
               "topic": "Bumi Kita Terancam Bahaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kegiatan menebang hutan secara besar-besaran dan tidak terkendali disebut ...",
-              "answer": "Penebangan liar/deforestasi",
+              "answer": "Penebangan liar",
               "explanation": "Penebangan liar/deforestasi",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Recycle",
+                "Menanam pohon",
+                "Penebangan liar",
+                "Banjir rob"
+              ]
             },
             {
               "id": "ipas6-d014",
@@ -802,13 +1120,19 @@
             {
               "id": "ipas6-d015",
               "topic": "Bumi Kita Terancam Bahaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pencemaran yang disebabkan limbah pabrik yang dibuang ke sungai disebut pencemaran ...",
               "answer": "Air",
               "explanation": "Air",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Air",
+                "Udara",
+                "Karbon dioksida",
+                "Pemanasan global"
+              ]
             },
             {
               "id": "ipas6-d016",
@@ -829,13 +1153,19 @@
             {
               "id": "ipas6-d017",
               "topic": "Bumi Kita Terancam Bahaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sampah yang sulit terurai oleh alam, seperti plastik, disebut sampah ...",
               "answer": "Anorganik",
               "explanation": "Anorganik",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Anorganik",
+                "Banjir rob",
+                "Air",
+                "Karbon dioksida"
+              ]
             },
             {
               "id": "ipas6-d018",
@@ -856,13 +1186,19 @@
             {
               "id": "ipas6-d019",
               "topic": "Bumi Kita Terancam Bahaya",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Naiknya permukaan air laut akibat mencairnya es dapat menyebabkan ...",
-              "answer": "Banjir rob/tenggelamnya daratan pesisir",
+              "answer": "Banjir rob",
               "explanation": "Banjir rob/tenggelamnya daratan pesisir",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Banjir rob",
+                "Udara",
+                "Es di kutub",
+                "Anorganik"
+              ]
             },
             {
               "id": "ipas6-d020",

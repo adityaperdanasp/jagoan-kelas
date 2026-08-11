@@ -60,13 +60,19 @@
             {
               "id": "pai5-d004",
               "topic": "Kisah Nabi Muhammad ﷺ (Masa Kecil)",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nabi Muhammad ﷺ bekerja sebagai pedagang sebelum diangkat menjadi ...",
               "answer": "Nabi dan Rasul",
               "explanation": "Nabi dan Rasul",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Makkah",
+                "Abu Thalib",
+                "Al-Amin",
+                "Nabi dan Rasul"
+              ]
             }
           ]
         },
@@ -125,13 +131,19 @@
             {
               "id": "pai5-d008",
               "topic": "Qada & Qadar",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Qada dan Qadar termasuk rukun Iman yang ke ...",
               "answer": "6 (enam)",
               "explanation": "6 (enam)",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Ikhtiar",
+                "Qada",
+                "Tawakal",
+                "6 (enam)"
+              ]
             }
           ]
         },
@@ -260,13 +272,19 @@
             {
               "id": "pai5-d016",
               "topic": "Menghindari Sifat Tercela",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sifat sombong dan merasa paling hebat disebut ...",
               "answer": "Takabur",
               "explanation": "Takabur",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pemarah",
+                "Dengki",
+                "Takabur",
+                "Kikir"
+              ]
             }
           ]
         },

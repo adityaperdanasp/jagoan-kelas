@@ -76,13 +76,19 @@
             {
               "id": "pai3-d005",
               "topic": "Wudhu",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Wudhu bertujuan untuk ... sebelum beribadah",
               "answer": "Bersuci",
               "explanation": "Bersuci",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Wudhu",
+                "Bersuci",
+                "Basmalah",
+                "Tangan"
+              ]
             }
           ]
         },
@@ -157,13 +163,19 @@
             {
               "id": "pai3-d010",
               "topic": "Mengenal Sholat",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tempat sholat berjamaah umat Islam disebut ...",
-              "answer": "Masjid/mushola",
+              "answer": "Masjid",
               "explanation": "Masjid/mushola",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Masjid",
+                "Isya",
+                "Subuh",
+                "5 (lima)"
+              ]
             }
           ]
         },
@@ -206,13 +218,19 @@
             {
               "id": "pai3-d013",
               "topic": "Kisah Nabi Ibrahim & Nabi Ismail",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ibadah kurban yang dilakukan umat Islam mengenang kisah Nabi Ibrahim a.s. dan Nabi ...",
               "answer": "Ismail a.s.",
               "explanation": "Ismail a.s.",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Allah",
+                "Ismail a.s.",
+                "Taat dan sabar",
+                "Ka'bah"
+              ]
             },
             {
               "id": "pai3-d014",
@@ -438,13 +456,19 @@
             {
               "id": "pai3-d027",
               "topic": "Malaikat Allah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Malaikat diciptakan Allah dari ...",
-              "answer": "Cahaya/nur",
+              "answer": "Cahaya",
               "explanation": "Cahaya/nur",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Israfil",
+                "Jibril",
+                "Cahaya",
+                "Mikail"
+              ]
             }
           ]
         }

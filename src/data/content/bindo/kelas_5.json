@@ -92,13 +92,19 @@
             {
               "id": "bindo5-d006",
               "topic": "Teks Narasi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Urutan waktu kejadian dalam cerita disebut ...",
               "answer": "Alur",
               "explanation": "Alur",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Komplikasi",
+                "Resolusi",
+                "Alur",
+                "Cerita dongeng"
+              ]
             },
             {
               "id": "bindo5-d007",
@@ -462,13 +468,19 @@
             {
               "id": "bindo5-d028",
               "topic": "Iklan & Poster",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kalimat pendek yang mudah diingat dalam iklan disebut ...",
               "answer": "Slogan",
               "explanation": "Slogan",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kampanye",
+                "Mempromosikan",
+                "Elektronik",
+                "Slogan"
+              ]
             },
             {
               "id": "bindo5-d029",
@@ -575,13 +587,19 @@
             {
               "id": "bindo5-d035",
               "topic": "Puisi & Pantun Lanjutan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pengulangan bunyi dalam puisi untuk keindahan disebut ...",
               "answer": "Rima",
               "explanation": "Rima",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Makna",
+                "Nasihat",
+                "Lama",
+                "Rima"
+              ]
             },
             {
               "id": "bindo5-d036",
@@ -688,13 +706,19 @@
             {
               "id": "bindo5-d042",
               "topic": "Wawancara Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sebelum wawancara, sebaiknya kita menyiapkan daftar ...",
               "answer": "Pertanyaan",
               "explanation": "Pertanyaan",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Wawancara",
+                "Pewawancara",
+                "Pertanyaan",
+                "Narasumber"
+              ]
             },
             {
               "id": "bindo5-d043",

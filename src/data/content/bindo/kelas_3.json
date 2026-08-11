@@ -226,13 +226,19 @@
             {
               "id": "bindo3-d014",
               "topic": "Paragraf & Ide Pokok",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kalimat pertama dalam sebuah paragraf sering disebut kalimat ...",
               "answer": "Utama",
               "explanation": "Utama",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Penjelas",
+                "Utama (awal",
+                "Utama",
+                "Ide pokok"
+              ]
             },
             {
               "id": "bindo3-d015",
@@ -478,13 +484,19 @@
             {
               "id": "bindo3-d029",
               "topic": "Teks Deskripsi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kata sifat dari kalimat 'Bunga itu berwarna merah dan harum' adalah ... dan ...",
               "answer": "Merah, harum",
               "explanation": "Merah, harum",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Merah, harum",
+                "Sifat",
+                "Indah",
+                "Rumah"
+              ]
             },
             {
               "id": "bindo3-d030",
@@ -741,24 +753,36 @@
             {
               "id": "bindo3-d045",
               "topic": "Menulis Surat Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nama orang yang mengirim surat disebut ...",
               "answer": "Pengirim",
               "explanation": "Pengirim",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pengirim",
+                "Salam penutup",
+                "Atas",
+                "Dengan hormat,"
+              ]
             },
             {
               "id": "bindo3-d046",
               "topic": "Menulis Surat Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nama orang yang menerima surat disebut ...",
               "answer": "Penerima",
               "explanation": "Penerima",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Penerima",
+                "Isi surat",
+                "Dengan hormat,",
+                "Atas"
+              ]
             },
             {
               "id": "bindo3-d047",

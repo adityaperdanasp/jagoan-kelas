@@ -236,13 +236,19 @@
             {
               "id": "ing2-d015",
               "topic": "Days of the Week",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Hari sebelum 'Sunday' adalah ...",
               "answer": "Saturday",
               "explanation": "Saturday",
               "grade": 2,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Thursday",
+                "selasa",
+                "Monday",
+                "Saturday"
+              ]
             }
           ]
         },

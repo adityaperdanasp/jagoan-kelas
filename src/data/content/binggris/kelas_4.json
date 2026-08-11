@@ -204,13 +204,19 @@
             {
               "id": "ing4-d013",
               "topic": "Daily Activities",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lengkapi: 'I ___ up at six every morning.' (bangun)",
               "answer": "wake",
               "explanation": "wake",
               "grade": 4,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "wake",
+                "Eat breakfast",
+                "Sleep",
+                "pergi ke sekolah"
+              ]
             }
           ]
         },

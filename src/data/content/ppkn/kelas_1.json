@@ -11,27 +11,45 @@
           "soal": [
             {
               "id": "pp1-001",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sebelum bermain bersama teman, sebaiknya kita membuat ... terlebih dahulu",
-              "answer": "Aturan/kesepakatan",
-              "explanation": "Aturan bermain membuat permainan jadi adil"
+              "answer": "Aturan",
+              "explanation": "Aturan bermain membuat permainan jadi adil",
+              "options": [
+                "Akrab",
+                "Aturan",
+                "Rendah hati",
+                "Menyapa"
+              ]
             },
             {
               "id": "pp1-002",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ketika bermain bersama, jika kita menang sebaiknya kita bersikap ...",
-              "answer": "Rendah hati/tidak sombong",
-              "explanation": ""
+              "answer": "Rendah hati",
+              "explanation": "",
+              "options": [
+                "Aturan",
+                "Menyapa",
+                "Perbedaan",
+                "Rendah hati"
+              ]
             },
             {
               "id": "pp1-003",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ketika bermain bersama, jika kita kalah sebaiknya kita bersikap ...",
-              "answer": "Sportif/menerima dengan lapang dada",
-              "explanation": ""
+              "answer": "Sportif",
+              "explanation": "",
+              "options": [
+                "Menyapa",
+                "Sportif",
+                "Akrab",
+                "Rendah hati"
+              ]
             },
             {
               "id": "pp1-004",
@@ -49,19 +67,31 @@
             },
             {
               "id": "pp1-005",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nama panggilan, warna kesukaan, dan hobi adalah bagian dari ... kita",
               "answer": "Identitas diri",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menyapa",
+                "Rendah hati",
+                "Identitas diri",
+                "Perbedaan"
+              ]
             },
             {
               "id": "pp1-006",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika kita berbeda pendapat dengan teman saat bermain, sebaiknya kita ...",
               "answer": "Membicarakannya baik-baik",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tetap menghormati dan bermain bersama",
+                "Membicarakannya baik-baik",
+                "Mengingatkan dengan baik",
+                "Adil dan menyenangkan"
+              ]
             },
             {
               "id": "pp1-007",
@@ -79,43 +109,73 @@
             },
             {
               "id": "pp1-008",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Mengenal nama dan kesukaan teman membuat kita menjadi lebih ...",
-              "answer": "Akrab/dekat",
-              "explanation": ""
+              "answer": "Akrab",
+              "explanation": "",
+              "options": [
+                "Akrab",
+                "Menyapa",
+                "Sportif",
+                "Rendah hati"
+              ]
             },
             {
               "id": "pp1-009",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Aturan dalam permainan dibuat agar permainan menjadi ...",
               "answer": "Adil dan menyenangkan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mengingatkan dengan baik",
+                "Membicarakannya baik-baik",
+                "Adil dan menyenangkan",
+                "Tetap menghormati dan bermain bersama"
+              ]
             },
             {
               "id": "pp1-010",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Saat bertemu teman baru, sebaiknya kita ...",
-              "answer": "Menyapa/berkenalan dengan ramah",
-              "explanation": ""
+              "answer": "Menyapa",
+              "explanation": "",
+              "options": [
+                "Perbedaan",
+                "Menyapa",
+                "Aturan",
+                "Identitas diri"
+              ]
             },
             {
               "id": "pp1-011",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Ciri fisik seperti tinggi badan dan warna kulit termasuk contoh ...",
-              "answer": "Perbedaan/keberagaman fisik",
-              "explanation": ""
+              "answer": "Perbedaan",
+              "explanation": "",
+              "options": [
+                "Perbedaan",
+                "Identitas diri",
+                "Aturan",
+                "Menyapa"
+              ]
             },
             {
               "id": "pp1-012",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Meskipun berbeda-beda, teman-teman di kelas tetap harus saling ...",
               "answer": "Menghormati dan menyayangi",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Adil dan menyenangkan",
+                "Mengingatkan dengan baik",
+                "Tetap menghormati dan bermain bersama",
+                "Menghormati dan menyayangi"
+              ]
             }
           ]
         },
@@ -125,19 +185,31 @@
           "soal": [
             {
               "id": "pp1-013",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Aturan makan bersama di rumah, contohnya adalah ...",
-              "answer": "Berdoa sebelum makan/mencuci tangan",
-              "explanation": ""
+              "answer": "Berdoa sebelum makan",
+              "explanation": "",
+              "options": [
+                "Mematuhi aturan keluarga",
+                "Berdoa sebelum makan",
+                "Membuang sampah pada tempatnya",
+                "Mengingatkan dengan sopan"
+              ]
             },
             {
               "id": "pp1-014",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sebelum tidur malam, aturan yang biasa berlaku di rumah adalah ...",
-              "answer": "Merapikan mainan/menggosok gigi",
-              "explanation": ""
+              "answer": "Merapikan mainan",
+              "explanation": "",
+              "options": [
+                "Merapikan mainan",
+                "Orang tua",
+                "Peduli",
+                "Rapi"
+              ]
             },
             {
               "id": "pp1-015",
@@ -155,27 +227,45 @@
             },
             {
               "id": "pp1-016",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika ada anggota keluarga yang melanggar aturan rumah, sebaiknya kita ...",
               "answer": "Mengingatkan dengan sopan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mengingatkan dengan sopan",
+                "Rumah menjadi tidak nyaman",
+                "Mematuhi aturan keluarga",
+                "Seluruh anggota keluarga"
+              ]
             },
             {
               "id": "pp1-017",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Merapikan mainan setelah selesai bermain adalah contoh sikap ...",
-              "answer": "Bertanggung jawab/disiplin",
-              "explanation": ""
+              "answer": "Bertanggung jawab",
+              "explanation": "",
+              "options": [
+                "Membuang sampah pada tempatnya",
+                "Mematuhi aturan keluarga",
+                "Mengingatkan dengan sopan",
+                "Bertanggung jawab"
+              ]
             },
             {
               "id": "pp1-018",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Rumah yang bersih dan rapi adalah tanggung jawab ...",
               "answer": "Seluruh anggota keluarga",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berdoa sebelum makan",
+                "Seluruh anggota keluarga",
+                "Bertanggung jawab",
+                "Membuang sampah pada tempatnya"
+              ]
             },
             {
               "id": "pp1-019",
@@ -193,43 +283,73 @@
             },
             {
               "id": "pp1-020",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Meminta izin kepada orang tua sebelum keluar rumah adalah contoh ...",
               "answer": "Mematuhi aturan keluarga",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mematuhi aturan keluarga",
+                "Rumah menjadi tidak nyaman",
+                "Bertanggung jawab",
+                "Mengingatkan dengan sopan"
+              ]
             },
             {
               "id": "pp1-021",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Aturan di rumah dibuat oleh ...",
-              "answer": "Orang tua/anggota keluarga",
-              "explanation": ""
+              "answer": "Orang tua",
+              "explanation": "",
+              "options": [
+                "Rapi",
+                "Peduli",
+                "Orang tua",
+                "Merapikan mainan"
+              ]
             },
             {
               "id": "pp1-022",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menyimpan sepatu di rak setelah dipakai adalah contoh sikap ...",
-              "answer": "Rapi/disiplin",
-              "explanation": ""
+              "answer": "Rapi",
+              "explanation": "",
+              "options": [
+                "Orang tua",
+                "Peduli",
+                "Rapi",
+                "Merapikan mainan"
+              ]
             },
             {
               "id": "pp1-023",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika kita tidak mematuhi aturan di rumah, yang bisa terjadi adalah ...",
-              "answer": "Rumah menjadi tidak nyaman/berantakan",
-              "explanation": ""
+              "answer": "Rumah menjadi tidak nyaman",
+              "explanation": "",
+              "options": [
+                "Rumah menjadi tidak nyaman",
+                "Membuang sampah pada tempatnya",
+                "Mematuhi aturan keluarga",
+                "Bertanggung jawab"
+              ]
             },
             {
               "id": "pp1-024",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Membantu orang tua membereskan rumah adalah bentuk ... kepada keluarga",
-              "answer": "Peduli/tanggung jawab",
-              "explanation": ""
+              "answer": "Peduli",
+              "explanation": "",
+              "options": [
+                "Rapi",
+                "Peduli",
+                "Orang tua",
+                "Merapikan mainan"
+              ]
             }
           ]
         }
@@ -244,27 +364,45 @@
           "soal": [
             {
               "id": "pp1-025",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bendera negara Indonesia berwarna ...",
               "answer": "Merah putih",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Cinta tanah air",
+                "Merah putih",
+                "Kesucian",
+                "Garuda Pancasila"
+              ]
             },
             {
               "id": "pp1-026",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lagu kebangsaan negara Indonesia berjudul ...",
               "answer": "Indonesia Raya",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Merah putih",
+                "Indonesia Raya",
+                "17 Agustus",
+                "Cinta tanah air"
+              ]
             },
             {
               "id": "pp1-027",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Lambang negara Indonesia adalah burung ...",
               "answer": "Garuda Pancasila",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "17 Agustus",
+                "Garuda Pancasila",
+                "Kesucian",
+                "Cinta tanah air"
+              ]
             },
             {
               "id": "pp1-028",
@@ -282,11 +420,17 @@
             },
             {
               "id": "pp1-029",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jumlah bulu pada sayap burung Garuda Pancasila melambangkan tanggal kemerdekaan, yaitu ...",
               "answer": "17",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "17",
+                "22",
+                "15",
+                "16"
+              ]
             },
             {
               "id": "pp1-030",
@@ -306,43 +450,73 @@
             },
             {
               "id": "pp1-032",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Bendera merah putih biasa dikibarkan setiap tanggal ...",
               "answer": "17 Agustus",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Merah putih",
+                "Cinta tanah air",
+                "17 Agustus",
+                "Kesucian"
+              ]
             },
             {
               "id": "pp1-033",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Warna merah pada bendera Indonesia melambangkan ...",
               "answer": "Keberanian",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Keberanian",
+                "Indonesia",
+                "Cinta tanah air",
+                "Indonesia Raya"
+              ]
             },
             {
               "id": "pp1-034",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Warna putih pada bendera Indonesia melambangkan ...",
               "answer": "Kesucian",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kesucian",
+                "17 Agustus",
+                "Cinta tanah air",
+                "Keberanian"
+              ]
             },
             {
               "id": "pp1-035",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nama negara kita adalah ...",
               "answer": "Indonesia",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Cinta tanah air",
+                "Garuda Pancasila",
+                "Indonesia",
+                "Merah putih"
+              ]
             },
             {
               "id": "pp1-036",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kita perlu mengenal lambang negara agar tumbuh rasa ...",
               "answer": "Cinta tanah air",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Merah putih",
+                "Garuda Pancasila",
+                "Cinta tanah air",
+                "Keberanian"
+              ]
             }
           ]
         },
@@ -352,19 +526,31 @@
           "soal": [
             {
               "id": "pp1-037",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Orang yang tinggal di sekitar rumah kita disebut ...",
               "answer": "Tetangga",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tetangga",
+                "Gotong royong",
+                "Sekolah",
+                "Nyaman"
+              ]
             },
             {
               "id": "pp1-038",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kegiatan membersihkan lingkungan bersama-sama disebut ...",
-              "answer": "Gotong royong/kerja bakti",
-              "explanation": ""
+              "answer": "Gotong royong",
+              "explanation": "",
+              "options": [
+                "Gotong royong",
+                "Tetangga",
+                "Seluruh siswa",
+                "Nyaman"
+              ]
             },
             {
               "id": "pp1-039",
@@ -382,27 +568,45 @@
             },
             {
               "id": "pp1-040",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Tempat kita belajar bersama teman dan guru disebut ...",
               "answer": "Sekolah",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Sekolah",
+                "Kebersamaan",
+                "Menyiram tanaman",
+                "Seluruh siswa"
+              ]
             },
             {
               "id": "pp1-041",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menjaga kebersihan kelas adalah tanggung jawab ...",
-              "answer": "Seluruh siswa/warga kelas",
-              "explanation": ""
+              "answer": "Seluruh siswa",
+              "explanation": "",
+              "options": [
+                "Nyaman",
+                "Menyiram tanaman",
+                "Tetangga",
+                "Seluruh siswa"
+              ]
             },
             {
               "id": "pp1-042",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika bertemu tetangga, sebaiknya kita ...",
               "answer": "Menyapa dengan sopan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tidak merusak dan ikut merawat",
+                "Petugas kebersihan",
+                "Menyapa dengan sopan",
+                "Membersihkan kelas bersama"
+              ]
             },
             {
               "id": "pp1-043",
@@ -420,43 +624,73 @@
             },
             {
               "id": "pp1-044",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Petugas kebersihan yang membantu menjaga kebersihan sekolah disebut ...",
-              "answer": "Petugas kebersihan/penjaga sekolah",
-              "explanation": ""
+              "answer": "Petugas kebersihan",
+              "explanation": "",
+              "options": [
+                "Membersihkan kelas bersama",
+                "Petugas kebersihan",
+                "Tidak merusak dan ikut merawat",
+                "Menyapa dengan sopan"
+              ]
             },
             {
               "id": "pp1-045",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat gotong royong adalah pekerjaan menjadi lebih ...",
               "answer": "Ringan dan cepat selesai",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Ringan dan cepat selesai",
+                "Menyapa dengan sopan",
+                "Membersihkan kelas bersama",
+                "Tidak merusak dan ikut merawat"
+              ]
             },
             {
               "id": "pp1-046",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Taman di sekitar rumah sebaiknya kita jaga dengan cara ...",
               "answer": "Tidak merusak dan ikut merawat",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tidak merusak dan ikut merawat",
+                "Menyapa dengan sopan",
+                "Petugas kebersihan",
+                "Membersihkan kelas bersama"
+              ]
             },
             {
               "id": "pp1-047",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap saling membantu antartetangga mencerminkan nilai ...",
-              "answer": "Kebersamaan/gotong royong",
-              "explanation": ""
+              "answer": "Kebersamaan",
+              "explanation": "",
+              "options": [
+                "Kebersamaan",
+                "Tetangga",
+                "Sekolah",
+                "Seluruh siswa"
+              ]
             },
             {
               "id": "pp1-048",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Menjaga kebersihan sekolah membuat suasana belajar menjadi ...",
               "answer": "Nyaman",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Sekolah",
+                "Menyiram tanaman",
+                "Nyaman",
+                "Seluruh siswa"
+              ]
             }
           ]
         }

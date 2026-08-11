@@ -236,13 +236,19 @@
             {
               "id": "ing3-d015",
               "topic": "All About Me",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lengkapi: 'I am ten years ___.' (umur)",
               "answer": "old",
               "explanation": "old",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Name",
+                "guru",
+                "old",
+                "kelas"
+              ]
             },
             {
               "id": "ing3-d016",
@@ -723,13 +729,19 @@
             {
               "id": "ing3-d045",
               "topic": "Numbers 11-100 & Time",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tulis dalam Bahasa Inggris: pukul 7 tepat -> seven ...",
               "answer": "o'clock",
               "explanation": "o'clock",
               "grade": 3,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Eleven",
+                "tiga puluh",
+                "Thirty",
+                "o'clock"
+              ]
             },
             {
               "id": "ing3-d046",

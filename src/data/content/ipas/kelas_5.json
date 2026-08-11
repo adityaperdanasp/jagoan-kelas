@@ -12,24 +12,36 @@
             {
               "id": "ipas5-d001",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Benda yang dapat ditembus cahaya disebut benda ...",
-              "answer": "Bening/transparan",
+              "answer": "Bening",
               "explanation": "Bening/transparan",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Gelap",
+                "Patah",
+                "Pembiasan",
+                "Bening"
+              ]
             },
             {
               "id": "ipas5-d002",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Benda yang tidak dapat ditembus cahaya sama sekali disebut benda ...",
-              "answer": "Gelap/opak",
+              "answer": "Gelap",
               "explanation": "Gelap/opak",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Telinga",
+                "Patah",
+                "Benda padat",
+                "Gelap"
+              ]
             },
             {
               "id": "ipas5-d003",
@@ -50,24 +62,36 @@
             {
               "id": "ipas5-d004",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Cermin yang permukaannya datar disebut cermin ...",
               "answer": "Datar",
               "explanation": "Datar",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Patah",
+                "Bening",
+                "Datar",
+                "Sumber bunyi"
+              ]
             },
             {
               "id": "ipas5-d005",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Benda yang menghasilkan bunyi karena bergetar disebut ...",
               "answer": "Sumber bunyi",
               "explanation": "Sumber bunyi",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pembiasan",
+                "Sumber bunyi",
+                "Patah",
+                "Kaca pembesar"
+              ]
             },
             {
               "id": "ipas5-d006",
@@ -88,13 +112,19 @@
             {
               "id": "ipas5-d007",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Alat indra yang digunakan untuk mendengar bunyi adalah ...",
               "answer": "Telinga",
               "explanation": "Telinga",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Gelap",
+                "Benda padat",
+                "Datar",
+                "Telinga"
+              ]
             },
             {
               "id": "ipas5-d008",
@@ -115,13 +145,19 @@
             {
               "id": "ipas5-d009",
               "topic": "Melihat karena Cahaya, Mendengar karena Bunyi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Peristiwa pembelokan arah rambat cahaya karena melewati dua medium berbeda disebut ...",
               "answer": "Pembiasan",
               "explanation": "Pembiasan",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pembiasan",
+                "Datar",
+                "Telinga",
+                "Benda padat"
+              ]
             },
             {
               "id": "ipas5-d010",
@@ -142,52 +178,82 @@
             {
               "id": "ipas3-028-mv3to5",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Benda yang dapat ditembus cahaya disebut benda ...",
-              "answer": "Bening/transparan",
+              "answer": "Bening",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Bening",
+                "Gelap",
+                "Sumber bunyi",
+                "Datar"
+              ]
             },
             {
               "id": "ipas3-029-mv3to5",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Benda yang tidak dapat ditembus cahaya sama sekali disebut benda ...",
-              "answer": "Gelap/opak",
+              "answer": "Gelap",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Gelap",
+                "Datar",
+                "Kaca pembesar",
+                "Telinga"
+              ]
             },
             {
               "id": "ipas3-048-mv3to5",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat yang digunakan untuk melihat benda kecil agar tampak besar adalah ...",
-              "answer": "Kaca pembesar/lup",
+              "answer": "Kaca pembesar",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Gelap",
+                "Benda padat",
+                "Kaca pembesar",
+                "Bening"
+              ]
             },
             {
               "id": "ipas3-049-mv3to5",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Cermin yang permukaannya datar disebut cermin ...",
               "answer": "Datar",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Benda padat",
+                "Kaca pembesar",
+                "Pembiasan",
+                "Datar"
+              ]
             },
             {
               "id": "ipas3-050-mv3to5",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Peristiwa pembiasan cahaya membuat pensil dalam gelas berisi air terlihat ...",
-              "answer": "Patah/bengkok",
+              "answer": "Patah",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Patah",
+                "Telinga",
+                "Pembiasan",
+                "Datar"
+              ]
             }
           ]
         },
@@ -266,13 +332,19 @@
             {
               "id": "ipas5-048",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Rantai makanan di ekosistem laut biasanya diawali oleh ...",
-              "answer": "Fitoplankton/plankton",
+              "answer": "Fitoplankton",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Ekosistem",
+                "Fitoplankton",
+                "Alami",
+                "Produsen"
+              ]
             },
             {
               "id": "ipas4-009-mv4to5",
@@ -347,24 +419,36 @@
             {
               "id": "ipas5-d011",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Benda yang dapat ditarik oleh magnet disebut benda ...",
               "answer": "Magnetis",
               "explanation": "Magnetis",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kutub magnet",
+                "Magnetis",
+                "Seri",
+                "Tolak-menolak"
+              ]
             },
             {
               "id": "ipas5-d012",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Ujung magnet yang memiliki gaya tarik paling kuat disebut ...",
               "answer": "Kutub magnet",
               "explanation": "Kutub magnet",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Saklar",
+                "Kipas angin",
+                "Paralel",
+                "Kutub magnet"
+              ]
             },
             {
               "id": "ipas5-d013",
@@ -385,24 +469,36 @@
             {
               "id": "ipas5-d014",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rangkaian listrik yang disusun berurutan tanpa cabang disebut rangkaian ...",
               "answer": "Seri",
               "explanation": "Seri",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Baterai",
+                "Kipas angin",
+                "Paralel",
+                "Seri"
+              ]
             },
             {
               "id": "ipas5-d015",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rangkaian listrik yang disusun bercabang disebut rangkaian ...",
               "answer": "Paralel",
               "explanation": "Paralel",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Paralel",
+                "Ikut mati",
+                "Seri",
+                "Magnetis"
+              ]
             },
             {
               "id": "ipas5-d016",
@@ -423,13 +519,19 @@
             {
               "id": "ipas5-d017",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Alat yang menghasilkan medan magnet menggunakan arus listrik disebut ...",
               "answer": "Elektromagnet",
               "explanation": "Elektromagnet",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Paralel",
+                "Kayu",
+                "Tolak-menolak",
+                "Elektromagnet"
+              ]
             },
             {
               "id": "ipas5-d018",
@@ -450,13 +552,19 @@
             {
               "id": "ipas5-d019",
               "topic": "Magnet, Listrik, dan Teknologi untuk Kehidupan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Alat rumah tangga yang mengubah energi listrik menjadi gerak, contohnya ...",
-              "answer": "Kipas angin/blender",
+              "answer": "Kipas angin",
               "explanation": "Kipas angin/blender",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kipas angin",
+                "Baterai",
+                "Magnetis",
+                "Kutub magnet"
+              ]
             },
             {
               "id": "ipas5-d020",
@@ -547,35 +655,53 @@
             {
               "id": "ipas5-d021",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lapisan bumi paling luar tempat kita tinggal disebut ...",
               "answer": "Kerak bumi",
               "explanation": "Kerak bumi",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kerak bumi",
+                "Gempa bumi",
+                "Atmosfer",
+                "Inti bumi"
+              ]
             },
             {
               "id": "ipas5-d022",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lapisan bumi di bawah kerak bumi yang berbentuk cair kental disebut ...",
               "answer": "Mantel bumi",
               "explanation": "Mantel bumi",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Kerak bumi",
+                "Berapi",
+                "Mantel bumi",
+                "Atmosfer"
+              ]
             },
             {
               "id": "ipas5-d023",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Lapisan paling dalam bumi disebut ...",
               "answer": "Inti bumi",
               "explanation": "Inti bumi",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Gempa bumi",
+                "Beku",
+                "Kerak bumi",
+                "Inti bumi"
+              ]
             },
             {
               "id": "ipas5-d024",
@@ -596,13 +722,19 @@
             {
               "id": "ipas5-d025",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Gunung yang dapat mengeluarkan magma dari dalam bumi disebut gunung ...",
               "answer": "Berapi",
               "explanation": "Berapi",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Litosfer",
+                "Gempa bumi",
+                "Berapi",
+                "Hidrosfer"
+              ]
             },
             {
               "id": "ipas5-d026",
@@ -623,13 +755,19 @@
             {
               "id": "ipas5-d027",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bagian bumi berupa air seperti laut, sungai, dan danau disebut ...",
               "answer": "Hidrosfer",
               "explanation": "Hidrosfer",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Berapi",
+                "Hidrosfer",
+                "Siklus air",
+                "Gempa bumi"
+              ]
             },
             {
               "id": "ipas5-d028",
@@ -650,13 +788,19 @@
             {
               "id": "ipas5-d029",
               "topic": "Ayo Berkenalan dengan Bumi Kita",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Batuan yang terbentuk dari pembekuan magma disebut batuan ...",
               "answer": "Beku",
               "explanation": "Beku",
               "grade": 5,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Inti bumi",
+                "Berapi",
+                "Beku",
+                "Gempa bumi"
+              ]
             },
             {
               "id": "ipas5-d030",
@@ -677,12 +821,18 @@
             {
               "id": "ipas3-046-mv3to5",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Lapisan udara yang menyelimuti bumi disebut ...",
               "answer": "Atmosfer",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Siklus air",
+                "Beku",
+                "Atmosfer",
+                "Gempa bumi"
+              ]
             }
           ]
         }
@@ -698,144 +848,222 @@
             {
               "id": "ipas5-001",
               "topic": "Sistem Peredaran Darah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Organ yang berfungsi memompa darah ke seluruh tubuh adalah ...",
               "answer": "Jantung",
               "explanation": "Sistem peredaran darah mengalirkan darah ke seluruh tubuh",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Ginjal",
+                "A",
+                "Karbohidrat",
+                "Jantung"
+              ]
             },
             {
               "id": "ipas5-002",
               "topic": "Sistem Peredaran Darah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pembuluh darah yang membawa darah kaya oksigen dari jantung ke seluruh tubuh disebut ...",
-              "answer": "Arteri/pembuluh nadi",
+              "answer": "Arteri",
               "explanation": "Sistem peredaran darah mengalirkan darah ke seluruh tubuh",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Arteri",
+                "Ekskresi",
+                "Sel darah putih",
+                "Anemia"
+              ]
             },
             {
               "id": "ipas5-003",
               "topic": "Sistem Peredaran Darah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pembuluh darah yang membawa darah kembali ke jantung disebut ...",
-              "answer": "Vena/pembuluh balik",
+              "answer": "Vena",
               "explanation": "Sistem peredaran darah mengalirkan darah ke seluruh tubuh",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sel darah merah",
+                "Vena",
+                "Seri",
+                "Arteri"
+              ]
             },
             {
               "id": "ipas5-004",
               "topic": "Sistem Peredaran Darah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sel darah yang berfungsi mengangkut oksigen adalah ...",
               "answer": "Sel darah merah",
               "explanation": "Sistem peredaran darah mengalirkan darah ke seluruh tubuh",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Sel darah putih",
+                "Sel darah merah",
+                "Usus halus",
+                "Air dan garam"
+              ]
             },
             {
               "id": "ipas5-005",
               "topic": "Sistem Peredaran Darah",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sel darah yang berfungsi melawan infeksi/penyakit adalah ...",
               "answer": "Sel darah putih",
               "explanation": "Sistem peredaran darah mengalirkan darah ke seluruh tubuh",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Air dan garam",
+                "Sel darah putih",
+                "Protein",
+                "Oksigen"
+              ]
             },
             {
               "id": "ipas5-028",
               "topic": "Pengetahuan Alam & Sosial Lanjutan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Sistem organ yang berfungsi menyaring darah dan membuang zat sisa disebut sistem ...",
               "answer": "Ekskresi",
               "explanation": "Pengetahuan lanjutan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Protein",
+                "Anemia",
+                "Sel darah merah",
+                "Ekskresi"
+              ]
             },
             {
               "id": "ipas5-029",
               "topic": "Pengetahuan Alam & Sosial Lanjutan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Organ utama dalam sistem ekskresi yang menyaring darah adalah ...",
               "answer": "Ginjal",
               "explanation": "Pengetahuan lanjutan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Ginjal",
+                "Karbohidrat",
+                "Anemia",
+                "Ekskresi"
+              ]
             },
             {
               "id": "ipas5-030",
               "topic": "Pengetahuan Alam & Sosial Lanjutan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Zat sisa metabolisme tubuh yang dikeluarkan melalui keringat adalah ...",
               "answer": "Air dan garam",
               "explanation": "Pengetahuan lanjutan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Protein",
+                "Paru-paru",
+                "Sel darah putih",
+                "Air dan garam"
+              ]
             },
             {
               "id": "ipas5-031",
               "topic": "Pengetahuan Alam & Sosial Lanjutan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Penyakit yang menyerang sistem pernapasan akibat asap rokok, contohnya adalah ...",
-              "answer": "Kanker paru-paru/bronkitis",
+              "answer": "Kanker paru-paru",
               "explanation": "Pengetahuan lanjutan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Seri",
+                "Kanker paru-paru",
+                "Vena",
+                "Jantung"
+              ]
             },
             {
               "id": "ipas5-033",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Organ yang berfungsi menghasilkan hormon insulin untuk mengatur gula darah adalah ...",
               "answer": "Pankreas",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Karbon dioksida",
+                "Pankreas",
+                "Paru-paru",
+                "Protein"
+              ]
             },
             {
               "id": "ipas5-037",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Zat makanan yang menjadi sumber utama energi tubuh adalah ...",
               "answer": "Karbohidrat",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Vena",
+                "Karbohidrat",
+                "Lambung",
+                "Paru-paru"
+              ]
             },
             {
               "id": "ipas5-038",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Zat makanan yang berfungsi membangun dan memperbaiki sel tubuh adalah ...",
               "answer": "Protein",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Anemia",
+                "Sel darah merah",
+                "Usus halus",
+                "Protein"
+              ]
             },
             {
               "id": "ipas3-032-mv3to5",
               "topic": "Pengetahuan Alam & Sosial",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Alat yang digunakan untuk mengukur suhu tubuh disebut ...",
               "answer": "Termometer",
               "explanation": "Pengetahuan gabungan IPA dan IPS dasar",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Ekskresi",
+                "Arteri",
+                "Lambung",
+                "Termometer"
+              ]
             },
             {
               "id": "ipas4-001-mv4to5",
@@ -914,62 +1142,98 @@
             {
               "id": "ipas4-006-mv4to5",
               "topic": "Sistem Pernapasan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Organ utama tempat pertukaran oksigen dan karbon dioksida terjadi adalah ...",
               "answer": "Paru-paru",
               "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Arteri",
+                "Paru-paru",
+                "Pankreas",
+                "Lambung"
+              ]
             },
             {
               "id": "ipas4-007-mv4to5",
               "topic": "Sistem Pernapasan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Udara yang kita hirup mengandung gas yang dibutuhkan tubuh, yaitu ...",
               "answer": "Oksigen",
               "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Karbohidrat",
+                "Vena",
+                "Oksigen",
+                "Usus halus"
+              ]
             },
             {
               "id": "ipas4-008-mv4to5",
               "topic": "Sistem Pernapasan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Gas yang kita keluarkan saat bernapas adalah ...",
               "answer": "Karbon dioksida",
               "explanation": "Sistem pernapasan bertugas mengambil oksigen dan mengeluarkan karbon dioksida",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "K",
+                "Sel darah merah",
+                "Ekskresi",
+                "Karbon dioksida"
+              ]
             },
             {
               "id": "ipas5-034",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Penyakit yang disebabkan kekurangan sel darah merah disebut ...",
               "answer": "Anemia",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Karbohidrat",
+                "Anemia",
+                "Termometer",
+                "Ekskresi"
+              ]
             },
             {
               "id": "ipas5-035",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Vitamin yang penting untuk kesehatan mata adalah vitamin ...",
               "answer": "A",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "A",
+                "Karbohidrat",
+                "Air dan garam",
+                "Usus halus"
+              ]
             },
             {
               "id": "ipas5-036",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Vitamin yang berperan dalam pembekuan darah adalah vitamin ...",
               "answer": "K",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Oksigen",
+                "A",
+                "K",
+                "Lambung"
+              ]
             }
           ]
         },
@@ -980,35 +1244,53 @@
             {
               "id": "ipas5-020",
               "topic": "Letak Geografis Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Indonesia terletak di antara dua benua, yaitu benua Asia dan ...",
               "answer": "Australia",
               "explanation": "Indonesia memiliki letak geografis yang strategis",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bujur",
+                "Tropis",
+                "Kepulauan",
+                "Australia"
+              ]
             },
             {
               "id": "ipas5-021",
               "topic": "Letak Geografis Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Indonesia terletak di antara dua samudra, yaitu Samudra Hindia dan ...",
               "answer": "Samudra Pasifik",
               "explanation": "Indonesia memiliki letak geografis yang strategis",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Selat Sunda",
+                "Papua Nugini",
+                "Samudra Pasifik",
+                "Tropis"
+              ]
             },
             {
               "id": "ipas5-022",
               "topic": "Letak Geografis Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Julukan Indonesia sebagai negara dengan banyak pulau disebut negara ...",
-              "answer": "Kepulauan/maritim",
+              "answer": "Kepulauan",
               "explanation": "Indonesia memiliki letak geografis yang strategis",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Papua Nugini",
+                "Selat Sunda",
+                "Tropis",
+                "Kepulauan"
+              ]
             },
             {
               "id": "ipas5-023",
@@ -1034,52 +1316,82 @@
             {
               "id": "ipas5-040",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Selat yang memisahkan pulau Sumatera dan Jawa adalah ...",
               "answer": "Selat Sunda",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Australia",
+                "Samudra Pasifik",
+                "Bujur",
+                "Selat Sunda"
+              ]
             },
             {
               "id": "ipas5-041",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Selat yang memisahkan pulau Jawa dan Bali adalah ...",
               "answer": "Selat Bali",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Selat Bali",
+                "Papua Nugini",
+                "Selat Sunda",
+                "Tropis"
+              ]
             },
             {
               "id": "ipas6-027-mv6to5",
               "topic": "Letak Astronomis & Geografis",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Secara astronomis, Indonesia terletak di antara garis lintang dan garis ...",
               "answer": "Bujur",
               "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Australia",
+                "Bujur",
+                "Kepulauan",
+                "Selat Bali"
+              ]
             },
             {
               "id": "ipas6-028-mv6to5",
               "topic": "Letak Astronomis & Geografis",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Karena dilewati garis khatulistiwa, Indonesia beriklim ...",
               "answer": "Tropis",
               "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Tropis",
+                "Kepulauan",
+                "Selat Bali",
+                "Samudra Pasifik"
+              ]
             },
             {
               "id": "ipas6-029-mv6to5",
               "topic": "Letak Astronomis & Geografis",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Wilayah Indonesia bagian timur berbatasan dengan negara ...",
               "answer": "Papua Nugini",
               "explanation": "Letak Indonesia memengaruhi iklim dan kondisi alamnya",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Australia",
+                "Bujur",
+                "Samudra Pasifik",
+                "Papua Nugini"
+              ]
             }
           ]
         },
@@ -1090,13 +1402,19 @@
             {
               "id": "ipas5-024",
               "topic": "Keragaman Budaya & Bahasa",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bahasa yang digunakan sebagai bahasa pemersatu bangsa Indonesia adalah ...",
               "answer": "Bahasa Indonesia",
               "explanation": "Keragaman budaya memperkaya bangsa Indonesia",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Bahasa Indonesia",
+                "Kutai",
+                "Samudera Pasai",
+                "Mataram Kuno"
+              ]
             },
             {
               "id": "ipas5-025",
@@ -1112,104 +1430,164 @@
             {
               "id": "ipas5-026",
               "topic": "Keragaman Budaya & Bahasa",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Rumah adat Tongkonan berasal dari suku ...",
               "answer": "Toraja",
               "explanation": "Keragaman budaya memperkaya bangsa Indonesia",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Jawa",
+                "Bahasa Indonesia",
+                "Toraja",
+                "Soekarno-Hatta"
+              ]
             },
             {
               "id": "ipas5-027",
               "topic": "Keragaman Budaya & Bahasa",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Upacara adat Kasada dilakukan oleh suku ...",
               "answer": "Tengger",
               "explanation": "Keragaman budaya memperkaya bangsa Indonesia",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Kutai",
+                "Sembilan wali",
+                "Tengger",
+                "Sumatera"
+              ]
             },
             {
               "id": "ipas5-014",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kerajaan Hindu tertua di Indonesia adalah ...",
               "answer": "Kutai",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Soekarno-Hatta",
+                "Bahasa Indonesia",
+                "Kutai",
+                "Toraja"
+              ]
             },
             {
               "id": "ipas5-015",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kerajaan Sriwijaya berpusat di pulau ...",
               "answer": "Sumatera",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Sembilan wali",
+                "Sumatera",
+                "Toraja",
+                "Tengger"
+              ]
             },
             {
               "id": "ipas5-016",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kerajaan Majapahit berpusat di pulau ...",
               "answer": "Jawa",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Jawa",
+                "Sembilan wali",
+                "Bahasa Indonesia",
+                "Soekarno-Hatta"
+              ]
             },
             {
               "id": "ipas5-017",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kerajaan Islam pertama di Indonesia adalah ...",
               "answer": "Samudera Pasai",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Jawa",
+                "Sembilan wali",
+                "Soekarno-Hatta",
+                "Samudera Pasai"
+              ]
             },
             {
               "id": "ipas5-018",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Wali Songo adalah sebutan untuk ... penyebar agama Islam di Jawa",
               "answer": "Sembilan wali",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Sembilan wali",
+                "Soekarno-Hatta",
+                "Toraja",
+                "Jawa"
+              ]
             },
             {
               "id": "ipas5-019",
               "topic": "Sejarah Kerajaan di Indonesia",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Candi Borobudur merupakan peninggalan kerajaan ...",
-              "answer": "Mataram Kuno/Syailendra",
+              "answer": "Mataram Kuno",
               "explanation": "Sejarah kerajaan Hindu-Buddha-Islam di Nusantara",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Kutai",
+                "Kesultanan Aceh",
+                "Sembilan wali",
+                "Mataram Kuno"
+              ]
             },
             {
               "id": "ipas5-039",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Bandar udara internasional yang terletak di Jakarta bernama ...",
               "answer": "Soekarno-Hatta",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Kutai",
+                "Soekarno-Hatta",
+                "Tengger",
+                "Toraja"
+              ]
             },
             {
               "id": "ipas5-042",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Kerajaan Islam yang berpusat di Aceh dan terkenal pada masa Sultan Iskandar Muda adalah ...",
               "answer": "Kesultanan Aceh",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Mataram Kuno",
+                "Kutai",
+                "Kesultanan Aceh",
+                "Jawa"
+              ]
             }
           ]
         },
@@ -1220,35 +1598,53 @@
             {
               "id": "ipas5-010",
               "topic": "Pelestarian Lingkungan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Kegiatan menanam kembali hutan yang gundul disebut ...",
               "answer": "Reboisasi",
               "explanation": "Menjaga kelestarian alam penting untuk kehidupan",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Reboisasi",
+                "Limbah",
+                "Suaka margasatwa",
+                "Pengeboman ikan"
+              ]
             },
             {
               "id": "ipas5-011",
               "topic": "Pelestarian Lingkungan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Tempat perlindungan hewan langka agar tidak punah disebut ...",
-              "answer": "Suaka margasatwa/cagar alam",
+              "answer": "Suaka margasatwa",
               "explanation": "Menjaga kelestarian alam penting untuk kehidupan",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Suaka margasatwa",
+                "Terumbu karang",
+                "Pengeboman ikan",
+                "Reboisasi"
+              ]
             },
             {
               "id": "ipas5-012",
               "topic": "Pelestarian Lingkungan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Salah satu penyebab pencemaran air adalah ...",
-              "answer": "Limbah/sampah",
+              "answer": "Limbah",
               "explanation": "Menjaga kelestarian alam penting untuk kehidupan",
               "grade": 5,
-              "sumber": "bank"
+              "sumber": "bank",
+              "options": [
+                "Limbah",
+                "Terumbu karang",
+                "Reboisasi",
+                "Pengeboman ikan"
+              ]
             },
             {
               "id": "ipas5-013",
@@ -1264,22 +1660,34 @@
             {
               "id": "ipas4-046-mv4to5",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Kegiatan menangkap ikan menggunakan bahan peledak dapat merusak ...",
-              "answer": "Terumbu karang/ekosistem laut",
+              "answer": "Terumbu karang",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Reboisasi",
+                "Terumbu karang",
+                "Limbah",
+                "Suaka margasatwa"
+              ]
             },
             {
               "id": "ipas5-049",
               "topic": "Pengetahuan Alam & Sosial Tambahan",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "hard",
               "question": "Salah satu upaya menjaga kelestarian terumbu karang adalah tidak melakukan ...",
-              "answer": "Pengeboman ikan/perusakan karang",
+              "answer": "Pengeboman ikan",
               "explanation": "Pengetahuan tambahan IPA dan IPS",
-              "grade": 5
+              "grade": 5,
+              "options": [
+                "Reboisasi",
+                "Suaka margasatwa",
+                "Terumbu karang",
+                "Pengeboman ikan"
+              ]
             }
           ]
         }

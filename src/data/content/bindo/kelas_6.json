@@ -307,13 +307,19 @@
             {
               "id": "bindo6-d019",
               "topic": "Pidato Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Naskah tertulis yang dipakai sebagai panduan berpidato disebut ...",
               "answer": "Teks pidato",
               "explanation": "Teks pidato",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Pembukaan",
+                "Penutup",
+                "Isi",
+                "Teks pidato"
+              ]
             },
             {
               "id": "bindo6-d020",
@@ -425,13 +431,19 @@
             {
               "id": "bindo6-d026",
               "topic": "Cerita Fiksi & Non-fiksi",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Cerita rakyat yang diwariskan turun-temurun termasuk cerita ...",
-              "answer": "Fiksi (legenda/mitos/dongeng)",
+              "answer": "Fiksi (legenda",
               "explanation": "Fiksi (legenda/mitos/dongeng)",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Biografi",
+                "Fiksi (legenda",
+                "Dongeng",
+                "Fiksi"
+              ]
             },
             {
               "id": "bindo6-d027",
@@ -666,13 +678,19 @@
             {
               "id": "bindo6-d041",
               "topic": "Menulis Cerpen Sederhana",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Cerita pendek disingkat dengan istilah ...",
               "answer": "Cerpen",
               "explanation": "Cerpen",
               "grade": 6,
-              "sumber": "draft_ai_perlu_review"
+              "sumber": "draft_ai_perlu_review",
+              "options": [
+                "Protagonis",
+                "Tema",
+                "Cerpen",
+                "Antagonis"
+              ]
             },
             {
               "id": "bindo6-d042",

@@ -11,11 +11,17 @@
           "soal": [
             {
               "id": "pp6-001",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Menerapkan nilai-nilai Pancasila dalam kehidupan sehari-hari dapat dilakukan dengan cara ...",
               "answer": "Mempraktikkan langsung dalam sikap dan perilaku",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mempraktikkan langsung dalam sikap dan perilaku",
+                "Bermusyawarah menentukan aturan kelas",
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman",
+                "Bermain peran tentang nilai kejujuran"
+              ]
             },
             {
               "id": "pp6-002",
@@ -41,51 +47,87 @@
             },
             {
               "id": "pp6-004",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nilai kejujuran termasuk pengamalan dari sila Pancasila yang ke-...",
               "answer": "2",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+              ]
             },
             {
               "id": "pp6-005",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Praktik sehari-hari yang mencerminkan sila pertama Pancasila adalah ...",
               "answer": "Menjalankan ibadah sesuai kepercayaan masing-masing",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menjalankan ibadah sesuai kepercayaan masing-masing",
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman",
+                "Terdekat (keluarga dan sekolah)",
+                "Pengalaman dan kegiatan nyata"
+              ]
             },
             {
               "id": "pp6-006",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap saling membantu antarteman termasuk pengamalan nilai Pancasila sila ke-...",
               "answer": "2",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "12",
+                "7",
+                "2",
+                "5"
+              ]
             },
             {
               "id": "pp6-007",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Belajar Pancasila bertujuan agar nilai-nilainya dapat kita ...",
               "answer": "Terapkan dalam kehidupan sehari-hari",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Terapkan dalam kehidupan sehari-hari",
+                "Pengalaman dan kegiatan nyata",
+                "Menjalankan ibadah sesuai kepercayaan masing-masing",
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman"
+              ]
             },
             {
               "id": "pp6-008",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Contoh praktik nilai persatuan di sekolah adalah ...",
               "answer": "Bermain dan belajar bersama tanpa membeda-bedakan teman",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman",
+                "Mempraktikkan langsung dalam sikap dan perilaku",
+                "Bermain peran tentang nilai kejujuran",
+                "Terdekat (keluarga dan sekolah)"
+              ]
             },
             {
               "id": "pp6-009",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Nilai Pancasila akan lebih bermakna jika dipelajari melalui ...",
               "answer": "Pengalaman dan kegiatan nyata",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermusyawarah menentukan aturan kelas",
+                "Pengalaman dan kegiatan nyata",
+                "Terapkan dalam kehidupan sehari-hari",
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman"
+              ]
             },
             {
               "id": "pp6-010",
@@ -97,19 +139,31 @@
             },
             {
               "id": "pp6-011",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh kegiatan yang mencerminkan sila keempat Pancasila di kelas adalah ...",
               "answer": "Bermusyawarah menentukan aturan kelas",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman",
+                "Mempraktikkan langsung dalam sikap dan perilaku",
+                "Menjalankan ibadah sesuai kepercayaan masing-masing",
+                "Bermusyawarah menentukan aturan kelas"
+              ]
             },
             {
               "id": "pp6-012",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Nilai-nilai Pancasila sebaiknya diamalkan mulai dari lingkungan ...",
               "answer": "Terdekat (keluarga dan sekolah)",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermain dan belajar bersama tanpa membeda-bedakan teman",
+                "Terdekat (keluarga dan sekolah)",
+                "Menjalankan ibadah sesuai kepercayaan masing-masing",
+                "Bermain peran tentang nilai kejujuran"
+              ]
             }
           ]
         },
@@ -119,19 +173,31 @@
           "soal": [
             {
               "id": "pp6-013",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Pancasila berkedudukan sebagai pandangan hidup bangsa yang berarti ...",
               "answer": "Menjadi pedoman dalam bersikap dan bertindak",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kehidupan sehari-hari",
+                "Universal dan sesuai dengan kepribadian bangsa",
+                "Menjadi pedoman dalam bersikap dan bertindak",
+                "Kehidupan berbangsa yang harmonis"
+              ]
             },
             {
               "id": "pp6-014",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Mengajak teman mengamalkan Pancasila dapat dilakukan dengan cara ...",
               "answer": "Memberi contoh dan mengajak melalui kegiatan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Universal dan sesuai dengan kepribadian bangsa",
+                "Memberi contoh dan mengajak melalui kegiatan bersama",
+                "Terciptanya kehidupan yang rukun dan damai",
+                "Kepedulian dan persaudaraan"
+              ]
             },
             {
               "id": "pp6-015",
@@ -149,27 +215,45 @@
             },
             {
               "id": "pp6-016",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Sikap saling mengajak dalam kebaikan mencerminkan nilai ...",
               "answer": "Kepedulian dan persaudaraan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menghormati dan bekerja sama",
+                "Kehidupan berbangsa yang harmonis",
+                "Kepedulian dan persaudaraan",
+                "Mengajak berbagi dengan teman yang membutuhkan"
+              ]
             },
             {
               "id": "pp6-017",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Jika seluruh warga negara mengamalkan Pancasila, maka akan tercipta ...",
               "answer": "Kehidupan berbangsa yang harmonis",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Universal dan sesuai dengan kepribadian bangsa",
+                "Mengajak berbagi dengan teman yang membutuhkan",
+                "Menjadi pedoman dalam bersikap dan bertindak",
+                "Kehidupan berbangsa yang harmonis"
+              ]
             },
             {
               "id": "pp6-018",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Pancasila dijadikan pedoman hidup bangsa Indonesia karena nilai-nilainya bersifat ...",
               "answer": "Universal dan sesuai dengan kepribadian bangsa",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Terciptanya kehidupan yang rukun dan damai",
+                "Kehidupan sehari-hari",
+                "Kepedulian dan persaudaraan",
+                "Universal dan sesuai dengan kepribadian bangsa"
+              ]
             },
             {
               "id": "pp6-019",
@@ -181,19 +265,31 @@
             },
             {
               "id": "pp6-020",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Kebahagiaan bersama dapat tercipta jika seluruh warga saling ...",
               "answer": "Menghormati dan bekerja sama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Terciptanya kehidupan yang rukun dan damai",
+                "Menjadi pedoman dalam bersikap dan bertindak",
+                "Kepedulian dan persaudaraan",
+                "Menghormati dan bekerja sama"
+              ]
             },
             {
               "id": "pp6-021",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh mengajak teman mengamalkan sila kelima Pancasila adalah ...",
               "answer": "Mengajak berbagi dengan teman yang membutuhkan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Kepedulian dan persaudaraan",
+                "Menjadi pedoman dalam bersikap dan bertindak",
+                "Universal dan sesuai dengan kepribadian bangsa",
+                "Mengajak berbagi dengan teman yang membutuhkan"
+              ]
             },
             {
               "id": "pp6-022",
@@ -205,19 +301,31 @@
             },
             {
               "id": "pp6-023",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap gotong royong yang diajarkan kepada teman mencerminkan nilai sila ke-...",
               "answer": "3",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "6",
+                "8",
+                "3",
+                "4"
+              ]
             },
             {
               "id": "pp6-024",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Pancasila sebagai pandangan hidup berarti nilai-nilainya digunakan dalam ...",
               "answer": "Kehidupan sehari-hari",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Terciptanya kehidupan yang rukun dan damai",
+                "Kehidupan berbangsa yang harmonis",
+                "Kehidupan sehari-hari",
+                "Kepedulian dan persaudaraan"
+              ]
             }
           ]
         }
@@ -232,27 +340,45 @@
           "soal": [
             {
               "id": "pp6-025",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Norma yang berlaku dalam kehidupan berbangsa dan bernegara terdiri dari norma agama, kesusilaan, kesopanan, dan ...",
               "answer": "Hukum",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Undang-undang",
+                "Kewajiban",
+                "Tertib dan adil",
+                "Hukum"
+              ]
             },
             {
               "id": "pp6-026",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hak anak untuk mendapatkan pendidikan tercantum dalam ...",
-              "answer": "Undang-undang/peraturan tentang hak anak",
-              "explanation": ""
+              "answer": "Undang-undang",
+              "explanation": "",
+              "options": [
+                "Undang-undang",
+                "Sanksi",
+                "Tertib dan adil",
+                "Hukum"
+              ]
             },
             {
               "id": "pp6-027",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Selain memiliki hak, setiap anak juga memiliki ...",
               "answer": "Kewajiban",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Tertib dan adil",
+                "Sanksi",
+                "Kewajiban",
+                "Hukum"
+              ]
             },
             {
               "id": "pp6-028",
@@ -270,67 +396,115 @@
             },
             {
               "id": "pp6-029",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Contoh kewajiban anak dalam kehidupan berbangsa adalah ...",
               "answer": "Menaati peraturan dan menghormati sesama warga",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Mendapatkan pendidikan yang layak",
+                "Menaati peraturan dan menghormati sesama warga",
+                "Ketertiban dan keadilan bersama",
+                "Mendapatkan perlindungan hukum"
+              ]
             },
             {
               "id": "pp6-030",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Norma hukum memiliki sifat yang tegas karena disertai dengan ...",
-              "answer": "Sanksi/hukuman bagi pelanggarnya",
-              "explanation": ""
+              "answer": "Sanksi",
+              "explanation": "",
+              "options": [
+                "Undang-undang",
+                "Tertib dan adil",
+                "Sanksi",
+                "Hukum"
+              ]
             },
             {
               "id": "pp6-031",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Jika hak dan kewajiban warga negara berjalan seimbang, maka kehidupan bernegara akan ...",
               "answer": "Tertib dan adil",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Undang-undang",
+                "Tertib dan adil",
+                "Sanksi",
+                "Hukum"
+              ]
             },
             {
               "id": "pp6-032",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh pelanggaran norma hukum adalah ...",
-              "answer": "Melanggar peraturan lalu lintas/mencuri",
-              "explanation": ""
+              "answer": "Melanggar peraturan lalu lintas",
+              "explanation": "",
+              "options": [
+                "Bertanggung jawab",
+                "Ketertiban dan keadilan bersama",
+                "Melanggar peraturan lalu lintas",
+                "Mendapatkan perlindungan hukum"
+              ]
             },
             {
               "id": "pp6-033",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Setiap warga negara wajib menaati hukum yang berlaku demi menciptakan ...",
               "answer": "Ketertiban dan keadilan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Ketertiban dan keharmonisan",
+                "Menaati peraturan dan menghormati sesama warga",
+                "Mendapatkan perlindungan hukum",
+                "Ketertiban dan keadilan bersama"
+              ]
             },
             {
               "id": "pp6-034",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Norma bertujuan untuk mengatur kehidupan bersama agar tercipta ...",
               "answer": "Ketertiban dan keharmonisan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Ketertiban dan keharmonisan",
+                "Bertanggung jawab",
+                "Mendapatkan perlindungan hukum",
+                "Menaati peraturan dan menghormati sesama warga"
+              ]
             },
             {
               "id": "pp6-035",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Anak yang memahami hak dan kewajibannya akan tumbuh menjadi warga negara yang ...",
               "answer": "Bertanggung jawab",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bertanggung jawab",
+                "Mendapatkan pendidikan yang layak",
+                "Mendapatkan perlindungan hukum",
+                "Ketertiban dan keharmonisan"
+              ]
             },
             {
               "id": "pp6-036",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh hak warga negara dalam kehidupan bernegara adalah ...",
               "answer": "Mendapatkan perlindungan hukum",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menaati peraturan dan menghormati sesama warga",
+                "Melanggar peraturan lalu lintas",
+                "Bertanggung jawab",
+                "Mendapatkan perlindungan hukum"
+              ]
             }
           ]
         },
@@ -378,67 +552,115 @@
             },
             {
               "id": "pp6-041",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Manfaat bermusyawarah dalam mengambil keputusan adalah ...",
               "answer": "Keputusan menjadi lebih adil dan diterima bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Keputusan menjadi lebih adil dan diterima bersama",
+                "Bermusyawarah dalam mengambil keputusan",
+                "Menghargai pendapat orang lain",
+                "Musyawarah pemilihan ketua kelas"
+              ]
             },
             {
               "id": "pp6-042",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Musyawarah mencerminkan pengamalan Pancasila sila ke-...",
               "answer": "4",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "9",
+                "1",
+                "4",
+                "14"
+              ]
             },
             {
               "id": "pp6-043",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap yang harus dihindari saat musyawarah adalah ...",
               "answer": "Memaksakan kehendak sendiri",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Bermusyawarah dalam mengambil keputusan",
+                "Keputusan menjadi lebih adil dan diterima bersama",
+                "Hormati dan laksanakan",
+                "Memaksakan kehendak sendiri"
+              ]
             },
             {
               "id": "pp6-044",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Hasil musyawarah yang telah disepakati bersama wajib kita ...",
               "answer": "Hormati dan laksanakan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Musyawarah pemilihan ketua kelas",
+                "Hormati dan laksanakan",
+                "Bermusyawarah dalam mengambil keputusan",
+                "Keputusan menjadi lebih adil dan diterima bersama"
+              ]
             },
             {
               "id": "pp6-045",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Contoh musyawarah di lingkungan sekolah adalah ...",
               "answer": "Musyawarah pemilihan ketua kelas",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Musyawarah pemilihan ketua kelas",
+                "Memaksakan kehendak sendiri",
+                "Menghargai pendapat orang lain",
+                "Adil dan mewakili semua pihak"
+              ]
             },
             {
               "id": "pp6-046",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Musyawarah penting dilakukan agar keputusan yang diambil bersifat ...",
               "answer": "Adil dan mewakili semua pihak",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Memaksakan kehendak sendiri",
+                "Menghargai pendapat orang lain",
+                "Adil dan mewakili semua pihak",
+                "Hormati dan laksanakan"
+              ]
             },
             {
               "id": "pp6-047",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "medium",
               "question": "Sikap demokratis dapat dilatih melalui kebiasaan ...",
               "answer": "Bermusyawarah dalam mengambil keputusan",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Berdiskusi menentukan rencana liburan bersama",
+                "Memaksakan kehendak sendiri",
+                "Keputusan menjadi lebih adil dan diterima bersama",
+                "Bermusyawarah dalam mengambil keputusan"
+              ]
             },
             {
               "id": "pp6-048",
-              "type": "short_answer",
+              "type": "multiple_choice",
               "difficulty": "easy",
               "question": "Contoh musyawarah di lingkungan keluarga adalah ...",
               "answer": "Berdiskusi menentukan rencana liburan bersama",
-              "explanation": ""
+              "explanation": "",
+              "options": [
+                "Menghargai pendapat orang lain",
+                "Musyawarah pemilihan ketua kelas",
+                "Memaksakan kehendak sendiri",
+                "Berdiskusi menentukan rencana liburan bersama"
+              ]
             }
           ]
         }
