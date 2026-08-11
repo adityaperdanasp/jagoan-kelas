@@ -16,11 +16,22 @@ const ACCENTS = {
 // ad) yang nunjukin ikon translucent gede + card muncul bertahap, TAPI versi
 // kita numpang ikon subject yang UDAH ADA (`SubjectIcons.jsx`, gradient+
 // shadow), bukan blob generic random kayak videonya (yang gak nyambung ke
-// subjeknya -- PAI dapet ikon gembok, dst). Watermark di-`brightness(0)
-// invert(1)` jadi silhouette putih rata -- pola yang SAMA kayak "highlight
-// glossy putih transparan" yang udah dipake di dalem tiap SubjectIcons SVG
-// sendiri (lihat komentar di file itu), jadi konsisten sama bahasa visual
-// yang udah ada, bukan gaya baru.
+// subjeknya -- PAI dapet ikon gembok, dst).
+//
+// Watermark SENGAJA gak di-filter jadi silhouette putih (`brightness(0)
+// invert(1)`, versi pertama) -- itu bikin "panu" (blob putih polos tanpa
+// detail) buat ikon yang punya lapisan background solid (Science/Mosque/
+// MathNumbers/FocusTarget: `<rect rx=12 fill=gradient>` PENUH di belakang
+// detail putihnya). `brightness(0)` ngubah SEMUA pixel ber-alpha jadi hitam
+// PERSIS SAMA rata (0*apapun=0) sebelum di-invert jadi putih -- background
+// gradient DAN detail putih di atasnya jadi warna identik, kontrasnya
+// ilang total, cuma nyisain siluet KOTAK LUARNYA doang. Ikon tanpa lapisan
+// background solid (flag/book/bubble/star -- bentuknya LANGSUNG dari batas
+// alpha, bukan batas warna) kebetulan aman dari bug ini, itu sebabnya
+// sebagian kartu (PPKn/Bindo/Binggris/Ninja) sempet keliatan bener sementara
+// yang laen (IPAS/PAI/Fokus/Matematika) jadi blob. Fix: pakai ikon ASLI
+// apa adanya (warna+gradient+shadow-nya, gak diapa-apain), opacity aja yang
+// diturunin -- detail internal ikon selamat karena kontras warnanya utuh.
 const WATERMARK_KEYFRAMES = `
 @keyframes jkCardWatermarkBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 @keyframes jkCardEnter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -69,8 +80,7 @@ export default function GameCard({ accent = "math", icon, title, subtitle, rotat
             width: 92,
             height: 92,
             marginTop: -46,
-            opacity: 0.16,
-            filter: "brightness(0) invert(1)",
+            opacity: 0.32,
             animation: "jkCardWatermarkBob 6.5s ease-in-out infinite",
             pointerEvents: "none",
           }}
