@@ -57,7 +57,15 @@ export default async function handler(req, res) {
     });
 
     activeList.sort((a, b) => b.count - a.count);
-    const top = activeList.slice(0, 5).map((p) => `${p.name} (${p.count} topik)`).join(", ") || "-";
+    // Daftar LENGKAP (bukan cuma top 5) -- request user: "bisa kasih data
+    // siapa aja yang main? nama." Di-cap 50 baris sebagai jaga-jaga doang
+    // (pesan Telegram maks ~4096 karakter) -- di skala kelas/personal ini
+    // gak bakal kesentuh.
+    const namesList = activeList
+      .slice(0, 50)
+      .map((p) => `  - ${p.name} (${p.count} topik)`)
+      .join("\n") || "  (gak ada yang aktif)";
+    const extra = activeList.length > 50 ? `\n  ...+${activeList.length - 50} lagi` : "";
     const subjectLines = Object.entries(perSubject).map(([s, n]) => `${s}: ${n}`).join(", ") || "-";
     const dateStr = new Date().toLocaleDateString("id-ID", { timeZone: "Asia/Jakarta", day: "numeric", month: "long", year: "numeric" });
 
@@ -68,7 +76,8 @@ export default async function handler(req, res) {
       `• Baru daftar (24 jam): ${newToday}`,
       `• Aktif (24 jam): ${activeToday}`,
       `• Topik disentuh per pelajaran: ${subjectLines}`,
-      `• Paling aktif: ${top}`,
+      `• Yang main hari ini:`,
+      namesList + extra,
     ].join("\n");
 
     await sendTelegram(text);
