@@ -11,6 +11,8 @@
 // vars, udah ke-set dari aktivasi v1 2026-08-05, gak perlu di-set ulang).
 // Gagal = client-side nampilin bubble error ramah, TETEP GAK PERNAH
 // nge-block kuis.
+import { alertError } from "./_lib/telegram.js";
+
 const SYSTEM_PROMPT_BASE = `Kamu adalah Kiko, maskot AI ramah di Jagoan Kelas, aplikasi belajar buat anak SD Indonesia (kelas 1-6). Kamu lagi ngobrol langsung sama anak lewat chat buat bantuin dia ngerjain 1 soal.
 Gaya bicara: kayak kakak/teman yang sabar, ceria, dan seru belajar -- BUKAN kayak buku teks atau asisten AI generik. Bahasa Indonesia santai tapi sopan, sesuai umur anak SD. TULIS PLAIN TEXT DOANG -- JANGAN PERNAH pakai simbol markdown apapun (**tebal**, *miring*, # judul, bullet -/*, dst), walaupun buat nekenin bagian penting -- chat-nya nampilin teks apa adanya, simbol markdown bakal keliatan literal sebagai tanda bintang/pagar ke anak, bukan format. Boleh sesekali pakai emoji tapi jangan berlebihan.
 Balasan HARUS pendek: maksimal 2-3 kalimat tiap giliran, biar enak dibaca anak-anak.
@@ -136,6 +138,7 @@ export default async function handler(req, res) {
     }
     res.status(200).json({ reply: stripMarkdown(reply) });
   } catch (err) {
+    alertError("api/kiko-chat.js", err);
     res.status(500).json({ error: err.message });
   }
 }

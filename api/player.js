@@ -7,6 +7,7 @@
 // lain tanpa pernah kebukti tau PIN-nya.
 import { getDb } from "./_lib/firebaseAdmin.js";
 import { verifyToken } from "./_lib/authToken.js";
+import { alertError } from "./_lib/telegram.js";
 import { FieldValue } from "firebase-admin/firestore";
 
 function starsFor(accuracy) {
@@ -128,6 +129,7 @@ export default async function handler(req, res) {
         res.status(400).json({ error: "action gak dikenal" });
     }
   } catch (err) {
+    alertError("api/player.js", err);
     res.status(500).json({ error: err.message });
   }
 }

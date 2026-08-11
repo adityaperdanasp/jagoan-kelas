@@ -5,6 +5,7 @@
 // di-strip field `pin`-nya.
 import { getDb } from "./_lib/firebaseAdmin.js";
 import { issueToken } from "./_lib/authToken.js";
+import { alertError } from "./_lib/telegram.js";
 
 function nameKeyOf(name) {
   return String(name || "")
@@ -69,6 +70,7 @@ export default async function handler(req, res) {
 
     res.status(400).json({ error: "action harus 'signup' atau 'signin'" });
   } catch (err) {
+    alertError("api/auth.js", err);
     res.status(500).json({ error: err.message });
   }
 }
