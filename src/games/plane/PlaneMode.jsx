@@ -157,7 +157,17 @@ export default function PlaneMode() {
   const [highScore, setHighScore] = useState(0);
   const [activePowerups, setActivePowerups] = useState({ rapid: false, shield: false, wingmen: false, spread: false });
   const [planeSkin, setPlaneSkin] = useState(getPlaneSkin);
-  const [pickingSkin, setPickingSkin] = useState(false);
+  // UX reorder (2026-08-10) -- user: "samain sama UX alidirisi... dari
+  // pilih pesawat dulu baru masuk ke pilihan solo/multiplier baru ke page
+  // create game atau join game. tiru aja UXnya plek plek". Al-idrisi's
+  // Plane Mode entry beneran cuma 2 overlay berurutan: vehicle/skin picker
+  // lalu #plane-mode-overlay (Solo/2 Players) -- gak ada tahap difficulty
+  // sama sekali di sana (itu cuma ada di Drive Mode/mobil). Karena
+  // difficulty picker jagoan-kelas Plane Mode masih fitur yang jalan &
+  // gak diminta dihapus, ditaro sebagai step TAMBAHAN tapi cuma di jalur
+  // Solo (2P tetap langsung ke room, hardcoded "medium" persis kayak
+  // sebelumnya -- lihat startRun("medium") di bawah).
+  const [pickerStep, setPickerStep] = useState("vehicle"); // vehicle | mode | difficulty | room
 
   // --- 2 pemain (2026-08-10) ---
   const [coop, setCoop] = useState(null); // null = solo | "host" | "guest"
@@ -182,7 +192,7 @@ export default function PlaneMode() {
   function pickPlaneSkin(skin) {
     localStorage.setItem(VEHICLE_SKIN_KEY, skin.id);
     setPlaneSkin(skin);
-    setPickingSkin(false);
+    setPickerStep("mode");
   }
 
   useEffect(() => {
@@ -822,17 +832,9 @@ export default function PlaneMode() {
     } catch (e) {
       p2pRef.current?.close();
       p2pRef.current = null;
-      setLobby("joining");
+      setLobby(null);
       setCoopError(e.message || "Gagal gabung room.");
     }
-  }
-
-  function cancelCoop() {
-    p2pRef.current?.close();
-    p2pRef.current = null;
-    setLobby(null);
-    setCoopError("");
-    setJoinCode("");
   }
 
   // Tutup koneksi pas keluar dari layar Plane Mode
@@ -1167,92 +1169,7 @@ export default function PlaneMode() {
           <div style={{ width: 24 }} />
         </div>
 
-        {phase === "picker" && !pickingSkin && (
-          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <PlaneSkinSvg skinId={planeSkin.id} size={40} glow={planeSkin.glow} />
-              <span style={{ fontSize: 32 }}>💥👾</span>
-            </div>
-            <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", textAlign: "center" }}>
-              Tembak musuh, hindarin peluru, jawab soal buat bom semua musuh! Pungut ⚡🛡️❤️👯🔱, lawan boss 🐉, dan main terus tanpa batas.
-            </div>
-            <Button variant="secondary" size="sm" onClick={() => setPickingSkin(true)}>
-              Ganti Pesawat: {planeSkin.name}
-            </Button>
-            {highScore > 0 && (
-              <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>🏆 Rekor kamu: {highScore}</div>
-            )}
-            <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
-              {["easy", "medium", "hard"].map((d) => (
-                <Button key={d} variant={d === "medium" ? "primary" : "secondary"} size="lg" onClick={() => startRun(d)}>
-                  {d === "easy" ? "Gampang 🙂" : d === "medium" ? "Sedang 😎" : "Susah 🔥"}
-                </Button>
-              ))}
-            </div>
-
-            <div style={{ width: "100%", borderTop: "2px dashed var(--cream-300)", paddingTop: 14, marginTop: 4 }}>
-              <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "0.85rem", color: "var(--ink-700)", textAlign: "center", marginBottom: 8 }}>
-                👥 Main Berdua
-              </div>
-              {!lobby && (
-                <div style={{ display: "flex", gap: 10 }}>
-                  <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={hostRoom}>
-                    Bikin Room
-                  </Button>
-                  <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={() => { setLobby("joining"); setCoopError(""); }}>
-                    Gabung
-                  </Button>
-                </div>
-              )}
-              {lobby === "hosting" && (
-                <div style={{ textAlign: "center" }}>
-                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.78rem", color: "var(--ink-500)" }}>Kasih kode ini ke temanmu:</div>
-                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "2rem", letterSpacing: 6, color: "var(--ink-900)", margin: "6px 0" }}>
-                    {roomCode}
-                  </div>
-                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)" }}>Nunggu pemain kedua…</div>
-                  <Button variant="secondary" size="sm" style={{ marginTop: 8 }} onClick={cancelCoop}>
-                    Batal
-                  </Button>
-                </div>
-              )}
-              {lobby === "joining" && (
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <input
-                    value={joinCode}
-                    onChange={(e) => setJoinCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
-                    placeholder="KODE 6 DIGIT"
-                    inputMode="numeric"
-                    style={{
-                      border: "2px solid var(--cream-300)", borderRadius: "var(--radius-lg)", padding: "10px 12px",
-                      fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.1rem", letterSpacing: 4, textAlign: "center",
-                    }}
-                  />
-                  <div style={{ display: "flex", gap: 8 }}>
-                    <Button variant="secondary" size="md" style={{ flex: 1 }} onClick={cancelCoop}>
-                      Batal
-                    </Button>
-                    <Button variant="primary" size="md" style={{ flex: 1 }} disabled={joinCode.length !== 6} onClick={() => joinRoom(joinCode)}>
-                      Gabung
-                    </Button>
-                  </div>
-                </div>
-              )}
-              {lobby === "connecting" && (
-                <div style={{ textAlign: "center", fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>
-                  Nyambungin ke pemain satunya…
-                </div>
-              )}
-              {coopError && (
-                <div style={{ marginTop: 8, textAlign: "center", fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--color-error)", fontWeight: 700 }}>
-                  {coopError}
-                </div>
-              )}
-            </div>
-          </div>
-        )}
-
-        {phase === "picker" && pickingSkin && (
+        {phase === "picker" && pickerStep === "vehicle" && (
           <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
             <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, color: "var(--ink-900)" }}>Pilih Pesawat Kamu</div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, width: "100%" }}>
@@ -1272,8 +1189,106 @@ export default function PlaneMode() {
                 </button>
               ))}
             </div>
-            <Button variant="secondary" size="md" onClick={() => setPickingSkin(false)}>
-              Selesai
+            {highScore > 0 && (
+              <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>🏆 Rekor kamu: {highScore}</div>
+            )}
+          </div>
+        )}
+
+        {phase === "picker" && pickerStep === "mode" && (
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <PlaneSkinSvg skinId={planeSkin.id} size={40} glow={planeSkin.glow} />
+              <span style={{ fontSize: 32 }}>💥👾</span>
+            </div>
+            <div style={{ fontFamily: "var(--font-body)", color: "var(--ink-700)", textAlign: "center" }}>
+              Tembak musuh, hindarin peluru, jawab soal buat bom semua musuh! Pungut ⚡🛡️❤️👯🔱, lawan boss 🐉, dan main terus tanpa batas.
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
+              <Button variant="primary" size="lg" onClick={() => setPickerStep("difficulty")}>
+                🧑 Solo
+              </Button>
+              <Button variant="secondary" size="lg" onClick={() => setPickerStep("room")}>
+                👥 2 Pemain
+              </Button>
+            </div>
+            <Button variant="secondary" size="sm" onClick={() => setPickerStep("vehicle")}>
+              ‹ Ganti Pesawat: {planeSkin.name}
+            </Button>
+          </div>
+        )}
+
+        {phase === "picker" && pickerStep === "difficulty" && (
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, color: "var(--ink-900)" }}>🎚️ Tingkat Kesulitan</div>
+            {highScore > 0 && (
+              <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)" }}>🏆 Rekor kamu: {highScore}</div>
+            )}
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
+              {["easy", "medium", "hard"].map((d) => (
+                <Button key={d} variant={d === "medium" ? "primary" : "secondary"} size="lg" onClick={() => startRun(d)}>
+                  {d === "easy" ? "Gampang 🙂" : d === "medium" ? "Sedang 😎" : "Susah 🔥"}
+                </Button>
+              ))}
+            </div>
+            <Button variant="secondary" size="sm" onClick={() => setPickerStep("mode")}>
+              ‹ Kembali
+            </Button>
+          </div>
+        )}
+
+        {phase === "picker" && pickerStep === "room" && (
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, padding: 24 }}>
+            <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.05rem", color: "var(--ink-900)", textAlign: "center" }}>
+              👥 Main Berdua
+            </div>
+            <div style={{ width: "100%" }}>
+              {!lobby && (
+                <div style={{ display: "flex", flexDirection: "column", gap: 12, width: "100%" }}>
+                  <Button variant="primary" size="lg" onClick={hostRoom}>
+                    Bikin Game
+                  </Button>
+                  <div style={{ textAlign: "center", fontFamily: "var(--font-body)", color: "var(--ink-400)", fontSize: "0.8rem" }}>atau</div>
+                  <input
+                    value={joinCode}
+                    onChange={(e) => setJoinCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
+                    placeholder="MASUKKAN KODE 6 DIGIT"
+                    inputMode="numeric"
+                    style={{
+                      border: "2px solid var(--cream-300)", borderRadius: "var(--radius-lg)", padding: "10px 12px",
+                      fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.1rem", letterSpacing: 4, textAlign: "center",
+                    }}
+                  />
+                  <Button variant="secondary" size="lg" disabled={joinCode.length !== 6} onClick={() => joinRoom(joinCode)}>
+                    Gabung Game
+                  </Button>
+                </div>
+              )}
+              {lobby === "hosting" && (
+                <div style={{ textAlign: "center" }}>
+                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.78rem", color: "var(--ink-500)" }}>Kasih kode ini ke temanmu:</div>
+                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "2rem", letterSpacing: 6, color: "var(--ink-900)", margin: "6px 0" }}>
+                    {roomCode}
+                  </div>
+                  <div style={{ fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--ink-400)" }}>Nunggu pemain kedua…</div>
+                </div>
+              )}
+              {lobby === "connecting" && (
+                <div style={{ textAlign: "center" }}>
+                  <div style={{ fontFamily: "var(--font-body)", fontWeight: 700, color: "var(--ink-500)", fontSize: "0.85rem" }}>Nyambungin ke pemain satunya…</div>
+                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "2rem", letterSpacing: 6, color: "var(--ink-900)", margin: "6px 0" }}>
+                    {joinCode}
+                  </div>
+                </div>
+              )}
+              {coopError && (
+                <div style={{ marginTop: 8, textAlign: "center", fontFamily: "var(--font-body)", fontSize: "0.75rem", color: "var(--color-error)", fontWeight: 700 }}>
+                  {coopError}
+                </div>
+              )}
+            </div>
+            <Button variant="secondary" size="sm" onClick={() => navigate(`/kelas/${grade}`)}>
+              ‹ Kembali
             </Button>
           </div>
         )}

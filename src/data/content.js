@@ -25,6 +25,11 @@ export const SUBJECTS = [
   { id: "binggris", name: "Bahasa Inggris", sub: "English fun time", emoji: "🔤", accent: "math", rotate: 1 },
 ];
 
+// Dipake ParentPortal/TopicPicker buat ngasih warna `--product-{accent}` per
+// subject ke topic badge/pill -- reuse token yang sama kayak GameCard biar
+// konsisten, gak bikin palet baru.
+export const ACCENT_BY_SUBJECT = Object.fromEntries(SUBJECTS.map((s) => [s.id, s.accent]));
+
 // Dummy topik contoh (Matematika Kelas 4) -- nanti diganti sumber data asli
 // dari content-pipeline/output/matematika/kelas_4.json.
 export const SAMPLE_TOPICS = [
