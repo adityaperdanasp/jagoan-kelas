@@ -40,17 +40,21 @@ export default function PickSubject() {
         <GameCard
           accent="race"
           icon={<MathRaceIcon />}
+          watermark={<MathRaceIcon />}
+          entranceDelay={0}
           title={t("pickSubject", "mathRaceTitle")}
           subtitle={t("pickSubject", "mathRaceSub")}
           onClick={() => navigate(`/kelas/${grade}/mathrace`)}
         />
-        {SUBJECTS.map((s) => {
+        {SUBJECTS.map((s, i) => {
           const Icon = SUBJECT_ICONS[s.id];
           return (
             <GameCard
               key={s.id}
               accent={s.accent}
               icon={Icon ? <Icon /> : s.emoji}
+              watermark={Icon ? <Icon /> : null}
+              entranceDelay={(i + 1) * 60}
               title={subjectName(s.id)}
               subtitle={subjectSub(s.id)}
               rotate={s.rotate}
@@ -61,6 +65,8 @@ export default function PickSubject() {
         <GameCard
           accent="focus"
           icon={<FocusTargetIcon />}
+          watermark={<FocusTargetIcon />}
+          entranceDelay={(SUBJECTS.length + 1) * 60}
           title={t("pickSubject", "focusTitle")}
           subtitle={t("pickSubject", "focusSub")}
           onClick={() => navigate(`/kelas/${grade}/fokus`)}
@@ -68,6 +74,8 @@ export default function PickSubject() {
         <GameCard
           accent="mint"
           icon={<NinjaStarIcon />}
+          watermark={<NinjaStarIcon />}
+          entranceDelay={(SUBJECTS.length + 2) * 60}
           title={t("pickSubject", "ninjaTitle")}
           subtitle={t("pickSubject", "ninjaSub")}
           onClick={() => navigate(`/kelas/${grade}/ninja`)}
