@@ -58,7 +58,7 @@ export default function TopicQuiz() {
     setSaving(true);
     const xpEarned = correct * XP_PER_CORRECT;
     try {
-      await recordTopicResult(player.id, subject, grade, babKey, { correct, wrong, xpEarned });
+      await recordTopicResult(player.id, subject, grade, babKey, { correct, wrong, xpEarned }, player.token);
       login({ ...player, xp: (player.xp || 0) + xpEarned });
     } finally {
       setSaving(false);

@@ -215,10 +215,10 @@ export default function NinjaRunner() {
           const babKey = rest.join(":");
           const xp = stats.correct * XP_PER_CORRECT;
           attributedXp += xp;
-          return recordFocusRoundAttempt(player.id, subject, g, babKey, { correct: stats.correct, wrong: stats.wrong, xpEarned: xp });
+          return recordFocusRoundAttempt(player.id, subject, g, babKey, { correct: stats.correct, wrong: stats.wrong, xpEarned: xp }, player.token);
         })
       );
-      await addXp(player.id, totalXp - attributedXp);
+      await addXp(player.id, totalXp - attributedXp, player.token);
       if (totalXp > 0) login({ ...player, xp: (player.xp || 0) + totalXp });
     } finally {
       setSaving(false);

@@ -122,7 +122,7 @@ export default function BinggrisWorldMap() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("binggris", grade), getSubjectProgress(player.id, "binggris", grade)])
+    Promise.all([loadRawTopics("binggris", grade), getSubjectProgress(player.id, "binggris", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

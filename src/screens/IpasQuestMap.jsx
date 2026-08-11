@@ -361,7 +361,7 @@ export default function IpasQuestMap() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("ipas", grade), getSubjectProgress(player.id, "ipas", grade)])
+    Promise.all([loadRawTopics("ipas", grade), getSubjectProgress(player.id, "ipas", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

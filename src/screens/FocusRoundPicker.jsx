@@ -22,7 +22,7 @@ export default function FocusRoundPicker() {
   useEffect(() => {
     let cancelled = false;
     setLoadError(false);
-    Promise.all([loadFocusTopicsForGrade(grade), getAssignedTopics(player.id)])
+    Promise.all([loadFocusTopicsForGrade(grade), getAssignedTopics(player.id, player.token)])
       .then(([g, assigned]) => {
         if (cancelled) return;
         setGroups(g);

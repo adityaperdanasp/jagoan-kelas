@@ -82,11 +82,14 @@ export default function FocusRoundQuiz() {
       // semua topik pasti balik ke totalXp persis (gak ada pembulatan aneh).
       await Promise.all(
         Object.values(byTopic).map((t) =>
-          recordFocusRoundAttempt(player.id, t.subject, t.grade, t.babKey, {
-            correct: t.correct,
-            wrong: t.wrong,
-            xpEarned: t.correct * XP_PER_CORRECT,
-          })
+          recordFocusRoundAttempt(
+            player.id,
+            t.subject,
+            t.grade,
+            t.babKey,
+            { correct: t.correct, wrong: t.wrong, xpEarned: t.correct * XP_PER_CORRECT },
+            player.token
+          )
         )
       );
       login({ ...player, xp: (player.xp || 0) + totalXp });

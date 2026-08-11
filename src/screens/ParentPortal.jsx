@@ -102,9 +102,9 @@ export default function ParentPortal() {
     setSending(true);
     setSendNote("");
     try {
-      await sendParentMessage(child.id, message.trim());
+      await sendParentMessage(child.id, message.trim(), child.token);
       setSendNote("Terkirim! Bakal muncul pas anak buka aplikasinya lagi. ✓");
-      const fresh = await getPlayerDoc(child.id);
+      const fresh = await getPlayerDoc(child.id, child.token);
       setChild(fresh);
       setMessage("");
     } catch {
@@ -126,7 +126,7 @@ export default function ParentPortal() {
     setSaving(true);
     setSaveNote("");
     try {
-      await setAssignedTopics(child.id, selected);
+      await setAssignedTopics(child.id, selected, child.token);
       setSaveNote("Tersimpan! ✓");
       setTimeout(() => setSaveNote(""), 2500);
     } catch {

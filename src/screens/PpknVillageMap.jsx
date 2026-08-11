@@ -115,7 +115,7 @@ export default function PpknVillageMap() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("ppkn", grade), getSubjectProgress(player.id, "ppkn", grade)])
+    Promise.all([loadRawTopics("ppkn", grade), getSubjectProgress(player.id, "ppkn", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

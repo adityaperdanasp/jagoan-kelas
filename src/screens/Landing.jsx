@@ -49,11 +49,23 @@ export default function Landing() {
 
   useEffect(() => {
     let cancelled = false;
-    getPlayerDoc(player.id).then((fresh) => {
-      if (!cancelled && fresh?.parentMessage && !fresh.parentMessage.read) {
-        setParentMessage(fresh.parentMessage);
-      }
-    });
+    // Sesi lama (login SEBELUM 2026-08-11) gak punya `token` sama sekali
+    // (dulu langsung Firestore, gak butuh) -- begitu ketauan gak valid
+    // (401/gagal), paksa logout balik ke /masuk daripada nyangkut diem2 di
+    // state "login" tapi semua panggilan API-nya bakal gagal terus. Anak
+    // cuma perlu masuk ulang pake nama+PIN yang sama, data gak ilang.
+    getPlayerDoc(player.id, player.token)
+      .then((fresh) => {
+        if (!cancelled && fresh?.parentMessage && !fresh.parentMessage.read) {
+          setParentMessage(fresh.parentMessage);
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          logout();
+          navigate("/masuk");
+        }
+      });
     return () => {
       cancelled = true;
     };
@@ -62,7 +74,7 @@ export default function Landing() {
 
   function dismissMessage() {
     setParentMessage(null);
-    markParentMessageRead(player.id).catch(() => {});
+    markParentMessageRead(player.id, player.token).catch(() => {});
   }
 
   function handleLogout() {

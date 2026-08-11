@@ -206,7 +206,7 @@ export default function MathTownMap() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("matematika", grade), getSubjectProgress(player.id, "matematika", grade)])
+    Promise.all([loadRawTopics("matematika", grade), getSubjectProgress(player.id, "matematika", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

@@ -1,26 +1,38 @@
-import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../firebase";
-import { increment } from "firebase/firestore";
+// SEMUA baca/tulis players/{id} SEKARANG lewat /api/player (server-side,
+// 2026-08-11) -- bukan lagi Firestore client SDK langsung. Root cause:
+// lihat komentar di api/_lib/firebaseAdmin.js (PIN + progress semua anak
+// kebuka publik lewat REST tanpa auth apapun). Tiap fungsi di sini sekarang
+// butuh `token` (dari `player.token`, disimpen PlayerContext abis
+// signIn/signUp) buat ngebuktiin ke server "yang minta ini emang tau PIN
+// player ini" -- server nolak kalau token gak cocok/kadaluarsa.
+//
+// Schema Firestore-nya SENDIRI gak berubah (masih persis kayak sebelumnya,
+// cuma jalur aksesnya doang yang pindah): players/{id}.progress.{subject}.
+// {grade}.{babKey} = { status: "done", stars: 0-3, xp, correct, wrong, lastAt }
 
-// Schema: players/{id}.progress.{subject}.{grade}.{babKey} =
-//   { status: "done", stars: 0-3, xp, correct, wrong, lastAt }
-// "status" cuma pernah ditulis "done" (locked/current dihitung ULANG pas
-// baca, bukan disimpen -- lihat computeStatuses) biar gak ada 2 sumber
-// kebenaran yang bisa out-of-sync.
+async function callPlayerApi(action, playerId, token, extra) {
+  const res = await fetch("/api/player", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ action, playerId, token, ...extra }),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || "Gagal nyambung ke server.");
+  return data;
+}
 
 /** Nambah XP total player TANPA nyentuh progress per-topik apapun -- dipake
  * mode kayak Ninja Runner yang nulis topicStats sendiri per topik (xpEarned:0
  * di tiap panggilan recordFocusRoundAttempt) terus nambahin XP totalnya
  * sekali di sini, biar gak dobel-hitung. */
-export async function addXp(playerId, xpEarned) {
+export async function addXp(playerId, xpEarned, token) {
   if (!xpEarned) return;
-  await updateDoc(doc(db, "players", playerId), { xp: increment(xpEarned) });
+  await callPlayerApi("addXp", playerId, token, { xpEarned });
 }
 
-export async function getSubjectProgress(playerId, subject, grade) {
-  const snap = await getDoc(doc(db, "players", playerId));
-  if (!snap.exists()) return {};
-  return snap.data().progress?.[subject]?.[String(grade)] || {};
+export async function getSubjectProgress(playerId, subject, grade, token) {
+  const { progress } = await callPlayerApi("getSubjectProgress", playerId, token, { subject, grade });
+  return progress || {};
 }
 
 /** Gabungin daftar topik mentah (dari contentLoader) sama progress asli
@@ -48,24 +60,8 @@ export function starsFor(accuracy) {
 
 /** Practice topik normal (dari SubjectDetail) -- nulis status "done" +
  * stars + XP, ini yang bikin bab berikutnya kebuka (lihat computeStatuses). */
-export async function recordTopicResult(playerId, subject, grade, babKey, { correct, wrong, xpEarned }) {
-  const ref = doc(db, "players", playerId);
-  const snap = await getDoc(ref);
-  const data = snap.exists() ? snap.data() : {};
-  const prev = data.progress?.[subject]?.[String(grade)]?.[babKey] || { correct: 0, wrong: 0, stars: 0, xp: 0 };
-  const accuracy = correct + wrong > 0 ? correct / (correct + wrong) : 0;
-  const path = `progress.${subject}.${grade}.${babKey}`;
-  await updateDoc(ref, {
-    [path]: {
-      status: "done",
-      stars: Math.max(starsFor(accuracy), prev.stars || 0),
-      xp: (prev.xp || 0) + xpEarned,
-      correct: (prev.correct || 0) + correct,
-      wrong: (prev.wrong || 0) + wrong,
-      lastAt: Date.now(),
-    },
-    xp: increment(xpEarned),
-  });
+export async function recordTopicResult(playerId, subject, grade, babKey, { correct, wrong, xpEarned }, token) {
+  await callPlayerApi("recordTopicResult", playerId, token, { subject, grade, babKey, correct, wrong, xpEarned });
 }
 
 /** Focus Round -- CUMA nambah correct/wrong (buat weak-topic calc) + XP
@@ -74,19 +70,8 @@ export async function recordTopicResult(playerId, subject, grade, babKey, { corr
  * Focus Round nyumbang ke topicStats, bukan ke chapter-progress). Tetep
  * nambahin ke path+.xp (bukan cuma top-level xp) biar computeXpBySubject
  * ikut ngitung kontribusi Focus Round, gak cuma dari practice biasa. */
-export async function recordFocusRoundAttempt(playerId, subject, grade, babKey, { correct, wrong, xpEarned }) {
-  const ref = doc(db, "players", playerId);
-  const snap = await getDoc(ref);
-  const data = snap.exists() ? snap.data() : {};
-  const prev = data.progress?.[subject]?.[String(grade)]?.[babKey] || { correct: 0, wrong: 0, xp: 0 };
-  const path = `progress.${subject}.${grade}.${babKey}`;
-  await updateDoc(ref, {
-    [path + ".correct"]: (prev.correct || 0) + correct,
-    [path + ".wrong"]: (prev.wrong || 0) + wrong,
-    [path + ".xp"]: (prev.xp || 0) + xpEarned,
-    [path + ".lastAt"]: Date.now(),
-    xp: increment(xpEarned),
-  });
+export async function recordFocusRoundAttempt(playerId, subject, grade, babKey, { correct, wrong, xpEarned }, token) {
+  await callPlayerApi("recordFocusRoundAttempt", playerId, token, { subject, grade, babKey, correct, wrong, xpEarned });
 }
 
 /** Jumlahin XP per subject dari progress map -- buat breakdown di Parent
@@ -107,13 +92,13 @@ export function computeXpBySubject(progressMap) {
   return bySubject;
 }
 
-export async function getAssignedTopics(playerId) {
-  const snap = await getDoc(doc(db, "players", playerId));
-  return snap.exists() ? snap.data().assignedTopics || [] : [];
+export async function getAssignedTopics(playerId, token) {
+  const { assignedTopics } = await callPlayerApi("getAssignedTopics", playerId, token);
+  return assignedTopics || [];
 }
 
-export async function setAssignedTopics(playerId, topicIds) {
-  await updateDoc(doc(db, "players", playerId), { assignedTopics: topicIds });
+export async function setAssignedTopics(playerId, topicIds, token) {
+  await callPlayerApi("setAssignedTopics", playerId, token, { topicIds });
 }
 
 // Buat "Perlu Latihan Lagi" -- sama formula kayak BrainBox

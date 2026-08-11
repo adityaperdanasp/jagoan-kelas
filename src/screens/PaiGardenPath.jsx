@@ -145,7 +145,7 @@ export default function PaiGardenPath() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("pai", grade), getSubjectProgress(player.id, "pai", grade)])
+    Promise.all([loadRawTopics("pai", grade), getSubjectProgress(player.id, "pai", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

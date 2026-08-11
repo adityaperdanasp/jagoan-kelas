@@ -114,7 +114,7 @@ export default function BindoStorybookTrail() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadRawTopics("bindo", grade), getSubjectProgress(player.id, "bindo", grade)])
+    Promise.all([loadRawTopics("bindo", grade), getSubjectProgress(player.id, "bindo", grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : []);

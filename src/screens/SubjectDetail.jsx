@@ -26,7 +26,7 @@ export default function SubjectDetail() {
     let cancelled = false;
     setLoading(true);
     setLoadError(false);
-    Promise.all([loadRawTopics(subject, grade), getSubjectProgress(player.id, subject, grade)])
+    Promise.all([loadRawTopics(subject, grade), getSubjectProgress(player.id, subject, grade, player.token)])
       .then(([raw, progressMap]) => {
         if (cancelled) return;
         setTopics(raw ? computeStatuses(raw, progressMap) : null);
