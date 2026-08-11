@@ -32,8 +32,14 @@ const ACCENTS = {
 // yang laen (IPAS/PAI/Fokus/Matematika) jadi blob. Fix: pakai ikon ASLI
 // apa adanya (warna+gradient+shadow-nya, gak diapa-apain), opacity aja yang
 // diturunin -- detail internal ikon selamat karena kontras warnanya utuh.
+// Watermark animasi diganti dari "bob halus, selalu keliatan" jadi napas
+// pelan (2026-08-11, per konfirmasi user): 3 detik memudar keluar, 3 detik
+// istirahat (gak keliatan), 3 detik muncul perlahan lagi, ulang -- 1 siklus
+// 9 detik total. `opacity` doang yang dianimasiin (gak pakai `transform`
+// lagi kayak versi bob), biar transisinya bener-bener kerasa "napas", bukan
+// "ngambang".
 const WATERMARK_KEYFRAMES = `
-@keyframes jkCardWatermarkBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes jkCardWatermarkPulse { 0% { opacity: var(--wm-opacity); } 33.3% { opacity: 0; } 66.6% { opacity: 0; } 100% { opacity: var(--wm-opacity); } }
 @keyframes jkCardEnter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 `;
 
@@ -80,8 +86,8 @@ export default function GameCard({ accent = "math", icon, title, subtitle, rotat
             width: 92,
             height: 92,
             marginTop: -46,
-            opacity: 0.32,
-            animation: "jkCardWatermarkBob 6.5s ease-in-out infinite",
+            "--wm-opacity": 0.32,
+            animation: "jkCardWatermarkPulse 9s ease-in-out infinite",
             pointerEvents: "none",
           }}
         >
