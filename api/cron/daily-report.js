@@ -2,10 +2,15 @@
 // `crons` di vercel.json), ngirim ringkasan aktivitas 24 jam terakhir ke
 // Telegram (2026-08-11, request user: "kayak alidrisigames/brainbox udah").
 //
-// Vercel OTOMATIS nempelin header `Authorization: Bearer {CRON_SECRET}`
-// pas manggil endpoint ini KALAU env var `CRON_SECRET` ke-set -- itu yang
-// dicek di bawah, biar endpoint ini gak bisa di-trigger sembarangan orang
-// yang nembak URL-nya langsung (bukan Vercel Cron beneran).
+// 2 CARA VERIFIKASI request boleh jalan atau ditolak:
+//   1. Header `Authorization: Bearer {CRON_SECRET}` -- ini yang Vercel Cron
+//      OTOMATIS nempelin sendiri kalau env var CRON_SECRET ke-set, dipakai
+//      buat jadwal 7 pagi otomatis.
+//   2. Query param `?secret=...` -- buat trigger MANUAL/ad-hoc dari HP
+//      (buka link di browser, gak bisa nyetel header custom dari situ).
+//      Trade-off: secret di URL bisa nyangkut di history browser -- buat
+//      skala/resiko laporan ini (bukan data sensitif anak, cuma statistik
+//      agregat) dianggap oke, tapi disadari.
 import { getDb } from "../_lib/firebaseAdmin.js";
 import { sendTelegram } from "../_lib/telegram.js";
 
@@ -13,7 +18,9 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 
 export default async function handler(req, res) {
   const secret = process.env.CRON_SECRET;
-  if (secret && req.headers.authorization !== `Bearer ${secret}`) {
+  const authHeader = req.headers.authorization === `Bearer ${secret}`;
+  const queryParam = secret && req.query?.secret === secret;
+  if (secret && !authHeader && !queryParam) {
     res.status(401).json({ error: "Unauthorized" });
     return;
   }
@@ -34,36 +41,43 @@ export default async function handler(req, res) {
       const d = doc.data();
       if (d.createdAt && d.createdAt >= since) newToday++;
 
-      // "Topik disentuh hari ini" (bukan XP hari ini) -- field `xp` per bab
-      // itu KUMULATIF lintas semua waktu bab itu pernah dimainkan (lihat
-      // recordTopicResult di progressService.js), jadi gak akurat kalau
-      // dipakai buat "XP hari ini" pas anak main ulang bab lama. Ngitung
-      // `lastAt` yang jatuh 24 jam terakhir itu akurat by construction.
-      let babTouched = 0;
+      // Topik SPESIFIK apa yang disentuh (bukan cuma hitungan angka) --
+      // request user: "apa saja yang dimainkan". `xp` per bab itu
+      // KUMULATIF lintas semua waktu bab itu pernah dimainkan (lihat
+      // recordTopicResult di progressService.js), jadi gak dipakai di sini
+      // -- ngitung `lastAt` yang jatuh 24 jam terakhir itu akurat by
+      // construction buat nentuin "disentuh hari ini apa nggak".
+      //
+      // Judul topik LENGKAP (mis. "Pengurangan sampai dengan 10") gak
+      // ditampilin -- itu nyimpen di file konten terpisah (src/data/content)
+      // yang gak reliable ditarik dari fungsi server ini (resiko gak
+      // ke-bundle Vercel). Kode topik (subject/babKey) udah cukup
+      // informatif buat laporan harian.
+      const topicsToday = [];
       for (const [subject, byGrade] of Object.entries(d.progress || {})) {
-        for (const byBab of Object.values(byGrade || {})) {
-          for (const p of Object.values(byBab || {})) {
+        for (const [grade, byBab] of Object.entries(byGrade || {})) {
+          for (const [babKey, p] of Object.entries(byBab || {})) {
             if (p.lastAt && p.lastAt >= since) {
-              babTouched++;
+              topicsToday.push(`${subject} k${grade}/${babKey}`);
               perSubject[subject] = (perSubject[subject] || 0) + 1;
             }
           }
         }
       }
-      if (babTouched > 0) {
+      if (topicsToday.length > 0) {
         activeToday++;
-        activeList.push({ name: d.name || doc.id, count: babTouched });
+        activeList.push({ name: d.name || doc.id, topics: topicsToday });
       }
     });
 
-    activeList.sort((a, b) => b.count - a.count);
+    activeList.sort((a, b) => b.topics.length - a.topics.length);
     // Daftar LENGKAP (bukan cuma top 5) -- request user: "bisa kasih data
     // siapa aja yang main? nama." Di-cap 50 baris sebagai jaga-jaga doang
     // (pesan Telegram maks ~4096 karakter) -- di skala kelas/personal ini
     // gak bakal kesentuh.
     const namesList = activeList
       .slice(0, 50)
-      .map((p) => `  - ${p.name} (${p.count} topik)`)
+      .map((p) => `  - ${p.name}: ${p.topics.join(", ")}`)
       .join("\n") || "  (gak ada yang aktif)";
     const extra = activeList.length > 50 ? `\n  ...+${activeList.length - 50} lagi` : "";
     const subjectLines = Object.entries(perSubject).map(([s, n]) => `${s}: ${n}`).join(", ") || "-";
