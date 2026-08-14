@@ -95,7 +95,20 @@ export default async function handler(req, res) {
     ].join("\n");
 
     await sendTelegram(text);
-    res.status(200).json({ ok: true, total, newToday, activeToday });
+    // Response JSON di-extend (2026-08-11, request user: agent Telegram
+    // laen "bell" mau tarik per-player breakdown sendiri, bukan cuma parse
+    // teks Telegram) -- `players` array nampung nama + topik yang
+    // DISENTUH (bukan "berapa kali main", data ini gak nyimpen counter
+    // percobaan per hari, cuma `lastAt` -- lihat komentar di atas).
+    res.status(200).json({
+      ok: true,
+      date: dateStr,
+      total,
+      newToday,
+      activeToday,
+      perSubject,
+      players: activeList.map((p) => ({ name: p.name, topicsToday: p.topics, topicCount: p.topics.length })),
+    });
   } catch (err) {
     console.error("daily-report gagal:", err.message);
     await sendTelegram(`⚠️ Laporan harian GAGAL dibuat: ${err.message}`);

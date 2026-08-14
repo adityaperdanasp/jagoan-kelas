@@ -1,6 +1,6 @@
 # Jagoan Kelas — Project Notes
 
-Aplikasi edukasi buat anak SD Indonesia kelas 1-6, ngikutin Kurikulum Merdeka. Tagline: "Belajar, tapi Gak Ngebosenin". Dibuat buat kelas anaknya Adit (sama konteksnya kayak BrainBox), tapi **infrastruktur 100% terpisah** dari BrainBox (`~/Documents/al-idrisi-games`) — repo GitHub beda, Firebase project beda, Vercel project beda, domain beda. BrainBox cuma dipakai sebagai REFERENSI POLA KODE (baca-only, gak pernah diedit dari sesi kerja project ini).
+Aplikasi edukasi buat anak SD Indonesia kelas 1-6, ngikutin Kurikulum Merdeka. Tagline: "Belajar, tapi Gak Ngebosenin". Dibuat buat kelas anaknya Adit (sama konteksnya kayak BrainBox), tapi **infrastruktur 100% terpisah** dari BrainBox (`~/Documents/games/al-idrisi-games`) — repo GitHub beda, Firebase project beda, Vercel project beda, domain beda. BrainBox cuma dipakai sebagai REFERENSI POLA KODE (baca-only, gak pernah diedit dari sesi kerja project ini).
 
 ## Infra
 
@@ -13,7 +13,7 @@ Aplikasi edukasi buat anak SD Indonesia kelas 1-6, ngikutin Kurikulum Merdeka. T
 
 ## Desain — WAJIB ikutin wireframe persis, jangan improvisasi
 
-Sumber: `~/Documents/jagoan-kelas/design_handoff_kids_game_wireframe/` (`README.md` + `Kids Game Wireframe.dc.html` + `_ds/` design tokens). Ini SPEC, bukan inspirasi.
+Sumber: `~/Documents/games/jagoan-kelas/design_handoff_kids_game_wireframe/` (`README.md` + `Kids Game Wireframe.dc.html` + `_ds/` design tokens). Ini SPEC, bukan inspirasi.
 
 - Token warna/font/radius/shadow di `src/styles/tokens.css` — nilai persis dari `_ds/tokens/*.css`, **jangan approximate**.
 - Komponen di `src/components/ds/` (Avatar, Badge, Chip, Button, GameCard, ProgressXP, Input, SegmentedToggle) — di-port **1:1** dari source JSX yang ada di `_ds_bundle.js` (bundle itu nyimpen source component asli BrainBox design system, bukan cuma compiled CSS).
@@ -55,7 +55,7 @@ Yang **SENGAJA BELUM disentuh** (bukan lupa, di luar scope batch ini): `RoamingC
 
 ## Konten soal (content-pipeline)
 
-Folder terpisah `~/Documents/jagoan-kelas/content-pipeline/` (di luar `app/`, cuma script Python + output JSON, gak ikut ke-deploy). Restrukturisasi bank soal mentah (`soal_matematika_1000.json`, `soal_ipas_1_6.json`) jadi format per-bab sesuai struktur Kurikulum Merdeka resmi (`input/struktur_bab_kemdikbud.md`, hasil riset web + verifikasi ulang).
+Folder terpisah `~/Documents/games/jagoan-kelas/content-pipeline/` (di luar `app/`, cuma script Python + output JSON, gak ikut ke-deploy). Restrukturisasi bank soal mentah (`soal_matematika_1000.json`, `soal_ipas_1_6.json`) jadi format per-bab sesuai struktur Kurikulum Merdeka resmi (`input/struktur_bab_kemdikbud.md`, hasil riset web + verifikasi ulang).
 
 - `bab_struktur.py` — struktur bab resmi per kelas per mapel (hardcoded dari riset, termasuk 8-bab tematik IPAS kelas 1 dari modul ajar Kemdikbud, BUKAN Buku Siswa resmi karena emang gak ada buku IPAS buat kelas 1-2).
 - `classify_matematika.py` / `classify_ipas.py` — mapping soal existing ke bab pakai kombinasi topic-name langsung + keyword-scoring (buat topik generik kayak "Pengetahuan Alam & Sosial Tambahan"). Soal yang gak match apapun masuk `belum_terpetakan`, TIDAK dipaksa ke bab yang salah.
